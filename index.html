@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بيانات الطلاب - الصالحي للدعم</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>نظام بيانات الطلاب</h1>
+        <p>الصالحي للدعم والتميز</p>
+        <div class="info-bar">
+            آخر تحديث: <span id="last-updated">تحميل...</span>
+        </div>
+    </header>
+
+    <main>
+        <div class="tabs">
+            <button class="tab-button active" onclick="showTab('students')">قائمة الطلاب</button>
+            <button class="tab-button" onclick="showTab('schedule')">جدول الحصص</button>
+        </div>
+
+        <div id="students-tab" class="tab-content active">
+            <div class="controls">
+                <input type="text" id="search-input" placeholder="ابحث عن طالب بالاسم أو الولي...">
+            </div>
+            <div id="students-container">
+                </div>
+        </div>
+
+        <div id="schedule-tab" class="tab-content">
+            <div id="schedule-container">
+                 </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>تم التطوير للعرض والمراقبة</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
