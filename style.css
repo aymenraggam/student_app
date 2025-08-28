@@ -99,3 +99,25 @@
     color: #6c757d;
     margin-top: 10px;
 }
+
+/* --- تحسين العرض على الهاتف --- */
+@media (max-width: 768px) {
+    .page-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .main-content {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr; /* بطاقة واحدة في الصف */
+    }
+}
