@@ -3,41 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>بيانات الطلاب - الصالحي للدعم</title>
+    <title>لوحة تحكم الطلاب - الصالحي</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>نظام بيانات الطلاب</h1>
-        <p>الصالحي للدعم والتميز</p>
-        <div class="info-bar">
-            آخر تحديث: <span id="last-updated">تحميل...</span>
-        </div>
-    </header>
-
-    <main>
-        <div class="tabs">
-            <button class="tab-button active" onclick="showTab('students')">قائمة الطلاب</button>
-            <button class="tab-button" onclick="showTab('schedule')">جدول الحصص</button>
-        </div>
-
-        <div id="students-tab" class="tab-content active">
-            <div class="controls">
-                <input type="text" id="search-input" placeholder="ابحث عن طالب بالاسم أو الولي...">
+    <div class="page-container">
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h3>الصالحي للدعم</h3>
             </div>
-            <div id="students-container">
+            <ul class="nav-links">
+                <li><a href="#" class="nav-link active" onclick="showPage('dashboard', event)">📊 الإحصائيات</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('students', event)">👥 الطلاب</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('guardians', event)">👤 الأولياء</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('schedule', event)">🗓️ جدول الحصص</a></li>
+            </ul>
+            <div class="sidebar-footer">
+                آخر تحديث:<br><span id="last-updated">...</span>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <header>
+                <h1 id="page-title">الإحصائيات والتقارير</h1>
+            </header>
+
+            <!-- صفحة الإحصائيات -->
+            <div id="dashboard-page" class="page active">
+                <div id="stats-container" class="stats-grid"></div>
+            </div>
+
+            <!-- صفحة الطلاب -->
+            <div id="students-page" class="page">
+                <div class="controls">
+                    <input type="text" id="student-search-input" placeholder="ابحث عن طالب بالاسم أو الولي...">
                 </div>
-        </div>
+                <div id="students-container" class="cards-container"></div>
+            </div>
 
-        <div id="schedule-tab" class="tab-content">
-            <div id="schedule-container">
-                 </div>
-        </div>
-    </main>
+            <!-- صفحة الأولياء -->
+            <div id="guardians-page" class="page">
+                <div class="controls">
+                    <input type="text" id="guardian-search-input" placeholder="ابحث عن ولي بالاسم أو الهاتف...">
+                </div>
+                <div id="guardians-container" class="cards-container"></div>
+            </div>
 
-    <footer>
-        <p>تم التطوير للعرض والمراقبة</p>
-    </footer>
+            <!-- صفحة جدول الحصص -->
+            <div id="schedule-page" class="page">
+                <div id="schedule-container"></div>
+            </div>
+        </main>
+    </div>
 
     <script src="script.js"></script>
 </body>
