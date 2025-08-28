@@ -180,7 +180,9 @@ function renderSchedule(scheduleData) {
 }
 
 // التحكم في عرض الصفحات
-function showPage(pageId) {
+function showPage(pageId, event) {
+    if (event) event.preventDefault(); // منع إعادة تحميل الصفحة
+    
     // إخفاء كل الصفحات
     document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
     // إزالة الحالة النشطة من كل روابط التصفح
@@ -189,9 +191,12 @@ function showPage(pageId) {
     // إظهار الصفحة المطلوبة
     document.getElementById(`${pageId}-page`).classList.add('active');
     // تفعيل الرابط المطلوب
-    const activeLink = document.querySelector(`.nav-link[onclick="showPage('${pageId}')"]`);
-    activeLink.classList.add('active');
+    const activeLink = document.querySelector(`.nav-link[onclick*="showPage('${pageId}'"]`);
+    if (activeLink) activeLink.classList.add('active');
 
     // تحديث عنوان الصفحة
-    document.getElementById('page-title').textContent = activeLink.textContent.replace(/📊|👥|👤|🗓️/g, '').trim();
+    if (activeLink) {
+        document.getElementById('page-title').textContent = activeLink.textContent.replace(/📊|👥|👤|🗓️/g, '').trim();
+    }
 }
+
