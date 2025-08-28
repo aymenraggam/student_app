@@ -100,6 +100,58 @@
     margin-top: 10px;
 }
 
+/* --- جدول الحصص --- */
+.schedule-wrapper {
+    overflow-x: auto;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-size: 0.95rem;
+}
+
+.schedule-table th,
+.schedule-table td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.schedule-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.class-entry {
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.class-entry.general-class {
+    background-color: #e9f7ef;
+    color: #155724;
+    font-weight: bold;
+}
+
+.class-entry.private-class {
+    background-color: #fcebea;
+    color: #721c24;
+    font-weight: bold;
+}
+
+.class-entry small {
+    display: block;
+    font-size: 0.8rem;
+    color: #555;
+    margin-top: 4px;
+}
+
 /* --- تحسين العرض على الهاتف --- */
 @media (max-width: 768px) {
     .page-container {
@@ -119,5 +171,14 @@
 
     .stats-grid {
         grid-template-columns: 1fr; /* بطاقة واحدة في الصف */
+    }
+
+    .schedule-table {
+        font-size: 0.8rem;
+    }
+
+    .schedule-table th,
+    .schedule-table td {
+        padding: 6px;
     }
 }
