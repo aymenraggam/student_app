@@ -1,14 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // تحميل البيانات عند فتح الصفحة
     fetchData();
-
-    // ربط حدث البحث
-    const searchInput = document.getElementById('search-input');
-    searchInput.addEventListener('keyup', filterStudents);
 });
 
-let allStudents = [];
-let allSchedule = [];
+// متغيرات لتخزين كل البيانات
+let allData = {};
 const DAYS_ORDER = ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"];
 const TIME_SLOTS = ["08:00 - 10:00", "10:00 - 12:00", "12:00 - 14:00", "14:00 - 16:00", "16:00 - 18:00", "18:00 - 20:00", "20:00 - 22:00"];
 
@@ -16,39 +11,67 @@ const TIME_SLOTS = ["08:00 - 10:00", "10:00 - 12:00", "12:00 - 14:00", "14:00 - 
 async function fetchData() {
     try {
         const response = await fetch('data.json');
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const data = await response.json();
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         
-        allStudents = data.students;
-        allSchedule = data.schedule;
+        allData = await response.json();
 
-        document.getElementById('last-updated').textContent = data.last_updated;
+        document.getElementById('last-updated').textContent = allData.last_updated;
         
-        renderStudents(allStudents);
-        renderSchedule(allSchedule);
+        // عرض كل الأقسام بالبيانات الجديدة
+        renderDashboard(allData.statistics);
+        renderStudents(allData.students);
+        renderGuardians(allData.guardians);
+        renderSchedule(allData.schedule);
+
+        // ربط أحداث البحث بعد تحميل البيانات
+        document.getElementById('student-search-input').addEventListener('keyup', () => renderStudents(allData.students));
+        document.getElementById('guardian-search-input').addEventListener('keyup', () => renderGuardians(allData.guardians));
 
     } catch (error) {
         console.error("Could not fetch data:", error);
-        document.getElementById('students-container').innerHTML = `<p style="color:red; text-align:center;">فشل تحميل البيانات. تأكد من وجود ملف data.json.</p>`;
+        document.querySelector('.main-content').innerHTML = `<p style="color:red; text-align:center;">فشل تحميل البيانات. تأكد من تحديث وتصدير ملف data.json من البرنامج.</p>`;
     }
 }
 
-// عرض الطلاب في بطاقات
-function renderStudents(studentsToRender) {
-    const container = document.getElementById('students-container');
-    container.innerHTML = ''; // مسح المحتوى القديم
+// 1. عرض صفحة الإحصائيات
+function renderDashboard(stats) {
+    const container = document.getElementById('stats-container');
+    container.innerHTML = `
+        <div class="stat-card">
+            <div class="value">${stats.total_students}</div>
+            <div class="label">إجمالي الطلاب</div>
+        </div>
+        <div class="stat-card">
+            <div class="value">${stats.active_guardians}</div>
+            <div class="label">ولي نشط</div>
+        </div>
+        <div class="stat-card">
+            <div class="value" style="color: #dc3545;">${stats.total_unpaid_overall.toFixed(2)}</div>
+            <div class="label">د.ت (إجمالي غير خالص)</div>
+        </div>
+    `;
+}
 
-    if (studentsToRender.length === 0) {
+// 2. عرض الطلاب في بطاقات
+function renderStudents(students) {
+    const searchTerm = document.getElementById('student-search-input').value.toLowerCase();
+    const filteredStudents = students.filter(student => {
+        const fullName = `${student.name} ${student.surname}`.toLowerCase();
+        const guardianName = `${student.guardian_name} ${student.guardian_surname}`.toLowerCase();
+        return fullName.includes(searchTerm) || guardianName.includes(searchTerm);
+    });
+
+    const container = document.getElementById('students-container');
+    container.innerHTML = ''; 
+
+    if (filteredStudents.length === 0) {
         container.innerHTML = `<p style="text-align:center;">لا يوجد طلاب مطابقون للبحث.</p>`;
         return;
     }
 
-    studentsToRender.forEach(student => {
+    filteredStudents.forEach(student => {
         const card = document.createElement('div');
         card.className = 'student-card';
-
         const absenceClass = student.absence_count > 0 ? 'unpaid' : 'no-absences';
         const unpaidClass = student.total_unpaid > 0 ? 'unpaid' : 'no-absences';
 
@@ -74,28 +97,63 @@ function renderStudents(studentsToRender) {
     });
 }
 
-// عرض جدول الحصص
+// 3. عرض الأولياء في بطاقات
+function renderGuardians(guardians) {
+    const searchTerm = document.getElementById('guardian-search-input').value.toLowerCase();
+    const filteredGuardians = guardians.filter(g => {
+        const fullName = `${g.guardian_name} ${g.guardian_surname}`.toLowerCase();
+        return fullName.includes(searchTerm) || (g.phone_number && g.phone_number.includes(searchTerm));
+    });
+
+    const container = document.getElementById('guardians-container');
+    container.innerHTML = '';
+
+    if (filteredGuardians.length === 0) {
+        container.innerHTML = `<p style="text-align:center;">لا يوجد أولياء مطابقون للبحث.</p>`;
+        return;
+    }
+
+    filteredGuardians.forEach(g => {
+        const card = document.createElement('div');
+        card.className = 'student-card'; // Re-use student card style
+        const unpaidClass = g.total_unpaid > 0 ? 'unpaid' : 'no-absences';
+
+        card.innerHTML = `
+            <h2>${g.guardian_name} ${g.guardian_surname}</h2>
+            <div class="details">
+                 <p><strong>الهاتف:</strong> ${g.phone_number || 'غير مسجل'}</p>
+            </div>
+            <div class="status">
+                <div class="status-item">
+                    <div class="value">${g.children_count}</div>
+                    <div class="label">عدد الأبناء</div>
+                </div>
+                <div class="status-item">
+                    <div class="value ${unpaidClass}">${g.total_unpaid.toFixed(2)}</div>
+                    <div class="label">د.ت (غير خالص)</div>
+                </div>
+            </div>
+        `;
+        container.appendChild(card);
+    });
+}
+
+// 4. عرض جدول الحصص
 function renderSchedule(scheduleData) {
     const container = document.getElementById('schedule-container');
-    
-    // إنشاء هيكل الجدول الفارغ
     const scheduleGrid = {};
     TIME_SLOTS.forEach(time => {
         scheduleGrid[time] = {};
-        DAYS_ORDER.forEach(day => {
-            scheduleGrid[time][day] = null;
-        });
+        DAYS_ORDER.forEach(day => scheduleGrid[time][day] = null);
     });
 
-    // ملء الهيكل بالحصص الموجودة
     scheduleData.forEach(entry => {
         if (scheduleGrid[entry.time_slot] && scheduleGrid[entry.time_slot][entry.day_of_week] !== undefined) {
             scheduleGrid[entry.time_slot][entry.day_of_week] = entry;
         }
     });
 
-    // تحويل الهيكل إلى HTML
-    let tableHtml = '<table class="schedule-table"><thead><tr><th>التوقيت</th>';
+    let tableHtml = '<div class="schedule-wrapper"><table class="schedule-table"><thead><tr><th>التوقيت</th>';
     DAYS_ORDER.forEach(day => tableHtml += `<th>${day}</th>`);
     tableHtml += '</tr></thead><tbody>';
 
@@ -117,31 +175,23 @@ function renderSchedule(scheduleData) {
         tableHtml += '</tr>';
     });
 
-    tableHtml += '</tbody></table>';
+    tableHtml += '</tbody></table></div>';
     container.innerHTML = tableHtml;
 }
 
+// التحكم في عرض الصفحات
+function showPage(pageId) {
+    // إخفاء كل الصفحات
+    document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
+    // إزالة الحالة النشطة من كل روابط التصفح
+    document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('active'));
 
-// فلترة الطلاب بناء على البحث
-function filterStudents() {
-    const searchTerm = document.getElementById('search-input').value.toLowerCase();
-    const filtered = allStudents.filter(student => {
-        const fullName = `${student.name} ${student.surname}`.toLowerCase();
-        const guardianName = `${student.guardian_name} ${student.guardian_surname}`.toLowerCase();
-        return fullName.includes(searchTerm) || guardianName.includes(searchTerm);
-    });
-    renderStudents(filtered);
-}
+    // إظهار الصفحة المطلوبة
+    document.getElementById(`${pageId}-page`).classList.add('active');
+    // تفعيل الرابط المطلوب
+    const activeLink = document.querySelector(`.nav-link[onclick="showPage('${pageId}')"]`);
+    activeLink.classList.add('active');
 
-// التحكم في التبويبات (Tabs)
-function showTab(tabId) {
-    // إخفاء كل المحتويات
-    document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
-    // إزالة الحالة النشطة من كل الأزرار
-    document.querySelectorAll('.tab-button').forEach(button => button.classList.remove('active'));
-
-    // إظهار المحتوى المطلوب
-    document.getElementById(`${tabId}-tab`).classList.add('active');
-    // تفعيل الزر المطلوب
-    document.querySelector(`button[onclick="showTab('${tabId}')"]`).classList.add('active');
+    // تحديث عنوان الصفحة
+    document.getElementById('page-title').textContent = activeLink.textContent.replace(/📊|👥|👤|🗓️/g, '').trim();
 }

@@ -1,177 +1,101 @@
-:root {
-    --primary-color: #0056b3;
-    --secondary-color: #f8f9fa;
-    --text-color: #333;
-    --border-color: #dee2e6;
-    --header-bg: #343a40;
+/* --- أنماط الهيكل الجديد --- */
+.page-container {
+    display: flex;
 }
 
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    margin: 0;
-    background-color: var(--secondary-color);
-    color: var(--text-color);
-    line-height: 1.6;
-}
-
-header {
+.sidebar {
+    width: 240px;
     background-color: var(--header-bg);
     color: white;
-    padding: 1rem;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 1.8rem;
-}
-
-.info-bar {
-    font-size: 0.8rem;
-    opacity: 0.8;
-    margin-top: 5px;
-}
-
-main {
-    padding: 1rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.tabs {
     display: flex;
-    border-bottom: 2px solid var(--border-color);
-    margin-bottom: 1rem;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
 }
 
-.tab-button {
-    padding: 10px 20px;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    font-size: 1.1rem;
-    border-bottom: 3px solid transparent;
-    transition: all 0.3s ease;
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #4a5157;
 }
 
-.tab-button.active, .tab-button:hover {
-    color: var(--primary-color);
-    border-bottom-color: var(--primary-color);
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    flex-grow: 1;
 }
 
-.tab-content {
-    display: none;
-}
-
-.tab-content.active {
+.nav-link {
     display: block;
+    color: #adb5bd;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.controls {
-    margin-bottom: 1rem;
+.nav-link:hover, .nav-link.active {
+    background-color: #495057;
+    color: white;
 }
 
-#search-input {
-    width: 100%;
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid var(--border-color);
-    border-radius: 5px;
-    box-sizing: border-box;
+.sidebar-footer {
+    padding: 20px;
+    font-size: 0.8rem;
+    text-align: center;
+    border-top: 1px solid #4a5157;
 }
 
-.student-card {
+.main-content {
+    margin-right: 240px; /* نفس عرض القائمة الجانبية */
+    width: calc(100% - 240px);
+    padding: 1.5rem;
+}
+
+.main-content header {
     background-color: white;
-    border: 1px solid var(--border-color);
+    padding: 1rem;
     border-radius: 8px;
-    padding: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
-.student-card h2 {
-    margin-top: 0;
-    color: var(--primary-color);
-    font-size: 1.4rem;
+.main-content header h1 {
+    color: var(--text-color);
 }
 
-.student-card .details p {
-    margin: 5px 0;
+.page {
+    display: none;
 }
-
-.student-card .details strong {
-    display: inline-block;
-    width: 120px;
-}
-
-.student-card .status {
-    margin-top: 10px;
-    padding-top: 10px;
-    border-top: 1px solid var(--border-color);
-    display: flex;
-    justify-content: space-around;
-}
-
-.status-item {
-    text-align: center;
-}
-.status-item .value {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-.status-item .label {
-    font-size: 0.9rem;
-    color: #6c757d;
-}
-
-.unpaid {
-    color: #dc3545; /* Red */
-}
-
-.no-absences {
-    color: #28a745; /* Green */
-}
-
-#schedule-container {
-    overflow-x: auto;
-}
-
-.schedule-table {
-    width: 100%;
-    border-collapse: collapse;
-    min-width: 800px;
-}
-.schedule-table th, .schedule-table td {
-    border: 1px solid var(--border-color);
-    padding: 12px;
-    text-align: center;
-}
-.schedule-table th {
-    background-color: var(--header-bg);
-    color: white;
-}
-.schedule-table td {
-    background-color: #fff;
-    font-size: 0.9rem;
-}
-.class-entry {
-    padding: 5px;
-    border-radius: 4px;
-}
-.general-class { background-color: #e9ecef; }
-.private-class { background-color: #d1ecf1; }
-.private-class small {
+.page.active {
     display: block;
-    font-size: 0.8em;
-    color: #0c5460;
 }
 
+/* --- أنماط بطاقات الإحصائيات --- */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
 
-footer {
+.stat-card {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
-    background-color: #e9ecef;
+}
+
+.stat-card .value {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.stat-card .label {
+    font-size: 1rem;
     color: #6c757d;
-    font-size: 0.9rem;
+    margin-top: 10px;
 }
