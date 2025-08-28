@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-08-28 21:59:27",
+    "last_updated": "2025-08-28 22:24:27",
     "students": [
         {
             "id": 61,
@@ -1594,7 +1594,7 @@
     ],
     "statistics": {
         "total_students": 86,
-        "total_unpaid_overall": 4320.0,
+        "total_unpaid_overall": 650.0,
         "active_guardians": 64
     }
 }
