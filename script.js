@@ -47,7 +47,7 @@ function renderDashboard(stats) {
         </div>
         <div class="stat-card">
             <div class="value" style="color: #dc3545;">${stats.total_unpaid_overall.toFixed(2)}</div>
-            <div class="label">د.ت (إجمالي غير خالص)</div>
+            <div class="label">د.ت (دفعات فائتة)</div>
         </div>
     `;
 }
