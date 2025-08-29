@@ -1,111 +1,109 @@
-/* --- أنماط صفحة الإدارة --- */
-.admin-container {
-    max-width: 1200px;
-    margin: 1rem auto;
-    padding: 1rem;
+/* --- متغيرات الألوان (يمكنك تعديلها هنا بسهولة) --- */
+:root {
+    --primary-color: #2c3e50;
+    --accent-color: #3498db;
+    --text-color: #333;
+    --light-bg: #f5f7fa;
+    --card-bg: #ffffff;
+    --border-color: #e0e6ed;
 }
 
-.admin-header {
+body {
+    background-color: var(--light-bg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+
+/* --- تنسيق جدول الحصص --- */
+.schedule-wrapper {
     background-color: var(--card-bg);
-    padding: 1rem 1.5rem;
-    border-radius: 8px;
-    margin-bottom: 1.5rem;
-    text-align: center;
-}
-
-#stats-bar {
-    font-size: 1.1rem;
-    color: var(--text-color);
-    margin-top: 10px;
-}
-
-#stats-bar span {
-    margin: 0 15px;
-}
-
-.tabs {
-    display: flex;
-    border-bottom: 2px solid var(--border-color);
-    margin-bottom: 1.5rem;
-}
-
-.tab-button {
-    padding: 10px 20px;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    font-size: 1.2rem;
-    border-bottom: 3px solid transparent;
-}
-
-.tab-button.active, .tab-button:hover {
-    color: var(--primary-color);
-    border-bottom-color: var(--primary-color);
-}
-
-.tab-content {
-    display: none;
-}
-
-.tab-content.active {
-    display: block;
-}
-
-.controls {
-    margin-bottom: 1.5rem;
-}
-
-#search-input {
-    width: 100%;
-    padding: 12px;
-    font-size: 1rem;
-    border: 1px solid var(--border-color);
-    border-radius: 5px;
-    box-sizing: border-box; /* To include padding in the width */
-}
-/* --- أنماط التقرير المالي --- */
-.financial-summary {
-    background-color: var(--card-bg);
-    padding: 1rem;
-    margin-bottom: 1.5rem;
-    text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-}
-
-.financial-summary h2 {
-    margin: 0;
-    color: var(--danger-color);
-}
-
-.table-wrapper {
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    margin-top: 25px;
     overflow-x: auto;
 }
 
-.data-table {
+.schedule-table {
     width: 100%;
     border-collapse: collapse;
-    background-color: var(--card-bg);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    font-size: 1rem;
 }
 
-.data-table th, .data-table td {
-    border: 1px solid var(--border-color);
-    padding: 12px;
+.schedule-table th,
+.schedule-table td {
+    padding: 15px;
     text-align: center;
+    border-bottom: 1px solid var(--border-color);
 }
 
-.data-table thead {
-    background-color: var(--header-bg);
+.schedule-table th {
+    background-color: var(--primary-color);
     color: white;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.schedule-table thead tr th:first-child {
+    border-top-right-radius: 10px;
+}
+
+.schedule-table thead tr th:last-child {
+    border-top-left-radius: 10px;
+}
+
+/* --- تنسيق الحصص الفردية --- */
+.class-entry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.class-entry:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.class-entry strong {
     font-size: 1.1rem;
+    line-height: 1.2;
 }
 
-.data-table tbody tr:nth-child(even) {
-    background-color: #f8f9fa;
+.class-entry small {
+    font-size: 0.85rem;
+    margin-top: 5px;
+    opacity: 0.9;
+    font-style: italic;
 }
 
-.data-table .amount-cell {
-    font-weight: bold;
-    color: var(--danger-color);
+/* --- ألوان وأنواع الحصص --- */
+.general-class {
+    background: linear-gradient(135deg, #2ecc71, #27ae60);
+}
+
+.private-class {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+}
+
+/* --- تأثيرات إضافية --- */
+tr:nth-child(even) td {
+    background-color: #fcfcfc;
+}
+
+tr:nth-child(odd) td {
+    background-color: var(--card-bg);
+}
+
+.schedule-table td:empty {
+    background-color: #fafafa;
 }
