@@ -75,8 +75,8 @@ function login(event) {
 
     // البحث في قائمة الأولياء
     const guardian = allData.guardians.find(g => 
-        (g.phone_number === username || g.guardian_name === username) 
-        && g.password === password
+    (g.phone_number === username || g.guardian_name === username) 
+    && g.password === password
     );
 
     if (guardian) {
@@ -112,3 +112,4 @@ function showGuardianDashboard(guardian) {
         </div>
     `;
 }
+
