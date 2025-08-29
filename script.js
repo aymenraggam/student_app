@@ -87,29 +87,57 @@ function login(event) {
     }
 }
 
-// 👨‍👩‍👦 صفحة بيانات الولي وأبنائه
+// 👨‍👩‍👦 صفحة بيانات الولي وأبنائه (المحدثة)
 function showGuardianDashboard(guardian) {
     const container = document.querySelector('.main-content');
-    container.innerHTML = `
+
+    // إنشاء الجزء الخاص بالولي (الهاتف، عدد الأبناء، إجمالي المستحقات)
+    let guardianHTML = `
         <header><h1>مرحبا ${guardian.guardian_name} ${guardian.guardian_surname}</h1></header>
         
         <div class="stat-card">
             <p><strong>📞 الهاتف:</strong> ${guardian.phone_number}</p>
-            <p><strong>👨‍👩‍👦 عدد الأبناء:</strong> ${guardian.children_count}</p>
+            <p><strong>👨‍👩‍👦 عدد الأبناء:</strong> ${guardian.children.length}</p>
             <p><strong>💰 إجمالي غير خالص:</strong> ${guardian.total_unpaid.toFixed(2)} د.ت</p>
         </div>
 
         <h2>أبناؤك:</h2>
         <div class="cards-container">
-            ${allData.students.filter(s => s.guardian_id === guardian.guardian_id).map(student => `
+            ${guardian.children.map(student => `
                 <div class="student-card">
                     <h2>${student.name} ${student.surname}</h2>
                     <p><strong>📚 المستوى:</strong> ${student.educational_level}</p>
                     <p><strong>❌ غيابات:</strong> ${student.absence_count}</p>
-                    <p><strong>💵 غير خالص:</strong> ${student.total_unpaid.toFixed(2)} د.ت</p>
+                    <p><strong>💰 مستحقات غير خالصة:</strong> ${student.unpaid_amount.toFixed(2)} د.ت</p>
                 </div>
             `).join('')}
         </div>
     `;
+
+    // إضافة جدول الدفعات غير الخالصة
+    let unpaidPaymentsTable = `
+        <h2 style="margin-top: 30px;">فترة الدفعات التي ليست خالصة</h2>
+        <table class="unpaid-payments-table">
+            <thead>
+                <tr>
+                    <th>اسم الطالب</th>
+                    <th>فترة الدفعة</th>
+                    <th>المبلغ (د.ت)</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${guardian.unpaid_payments.map(payment => `
+                    <tr>
+                        <td>${payment.student_name}</td>
+                        <td>${payment.payment_period}</td>
+                        <td>${payment.amount.toFixed(2)}</td>
+                    </tr>
+                `).join('')}
+            </tbody>
+        </table>
+    `;
+
+    container.innerHTML = guardianHTML + unpaidPaymentsTable;
 }
+
 
