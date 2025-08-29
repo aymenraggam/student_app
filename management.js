@@ -2,7 +2,7 @@ document.getElementById('management-login-form').addEventListener('submit', func
     event.preventDefault();
     const password = document.getElementById('management-password').value;
     // يمكنك تغيير "your_password_here" بكلمة المرور التي تحددها
-    const managementPassword = 'كلمة_السر_الخاصة_بالإدارة';
+    const managementPassword = 'fitourifitouri';
 
     if (password === managementPassword) {
         document.getElementById('login-section').style.display = 'none';
