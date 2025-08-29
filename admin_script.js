@@ -1,54 +1,37 @@
-// --- حماية بكلمة السر (لا تغيير هنا) ---
-const correctPassword = "fitourifitouri";
-const enteredPassword = prompt("الرجاء إدخال كلمة سر الإدارة:", "");
-
-if (enteredPassword !== correctPassword) {
-    alert("كلمة السر خاطئة! لا يمكن الوصول.");
-    document.body.innerHTML = '<h1 style="text-align:center; color:red; margin-top: 50px;">وصول مرفوض</h1>';
-} else {
-    initializeAdminPage();
-}
-// ------------------------------------
-
 let allData = {};
-const DAYS_ORDER = ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"];
-const TIME_SLOTS = ["08:00 - 10:00", "10:00 - 12:00", "12:00 - 14:00", "14:00 - 16:00", "16:00 - 18:00", "20:00 - 22:00"];
-
-function initializeAdminPage() {
-    fetchData();
-    document.querySelectorAll('.tab-button').forEach(button => {
-        button.addEventListener('click', function() {
-            const tabId = this.getAttribute('onclick').match(/'(.*?)'/)[1];
-            showTab(tabId);
-        });
-    });
-}
 
 async function fetchData() {
     try {
-        const response = await fetch(`data.json?v=${new Date().getTime()}`);
-        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-        
-        allData = await response.json();
-        
-        // ربط بيانات الأولياء بالطلاب
-        const studentsWithGuardians = allData.students.map(student => {
-            const guardian = allData.guardians.find(g => g.guardian_id === student.guardian_id);
+        const [studentsRes, guardiansRes, levelsRes, permRes, tempRes] = await Promise.all([
+            fetch("students.json"),
+            fetch("guardians.json"),
+            fetch("levels.json"),
+            fetch("schedule_permanent.json"),
+            fetch("schedule_temporary.json")
+        ]);
+
+        const students = await studentsRes.json();
+        const guardians = await guardiansRes.json();
+        const levels = await levelsRes.json();
+        const schedulePermanent = await permRes.json();
+        const scheduleTemporary = await tempRes.json();
+
+        allData = { students, guardians, levels, schedulePermanent, scheduleTemporary };
+
+        const studentsWithGuardians = students.map(st => {
+            const guardian = guardians.find(g => g.student_ids.includes(st.id));
             return {
-                ...student,
-                guardian_name: guardian ? guardian.guardian_name : 'غير متوفر',
-                guardian_surname: guardian ? guardian.guardian_surname : '',
+                ...st,
+                guardian_name: guardian ? guardian.guardian_full_name : 'غير متوفر',
                 phone_number: guardian ? guardian.phone_number : 'غير متوفر'
             };
         });
 
-        // استدعاء جميع دوال العرض
         renderAllStudents(studentsWithGuardians);
-        renderSchedule(allData.schedule);
+        renderSchedule(schedulePermanent);
         renderStats(studentsWithGuardians);
-        renderFinancials(allData.financial_overview);
-        
-        // عرض القسم الافتراضي (الطلاب)
+        renderFinancials(studentsWithGuardians);
+
         showTab('students');
 
     } catch (error) {
@@ -61,7 +44,7 @@ function renderStats(students) {
     const statsBar = document.getElementById('stats-bar');
     const totalStudents = students.length;
     const totalGuardians = allData.guardians.length;
-    let totalUnpaid = students.reduce((sum, s) => sum + s.total_unpaid, 0);
+    let totalUnpaid = students.reduce((sum, s) => sum + s.unpaid_total, 0);
 
     statsBar.innerHTML = `
         <span><strong>الطلاب:</strong> ${totalStudents}</span> | 
@@ -70,21 +53,33 @@ function renderStats(students) {
     `;
 }
 
-function renderFinancials(financialData) {
-    if (!financialData) return;
-    
+function renderFinancials(students) {
     const totalAmountEl = document.getElementById('total-overdue-amount');
-    totalAmountEl.textContent = `${financialData.total_overdue_amount.toFixed(2)} د.ت`;
-
     const tableBody = document.getElementById('overdue-payments-table');
-    tableBody.innerHTML = '';
 
-    if (financialData.overdue_payments.length === 0) {
+    let overduePayments = [];
+    students.forEach(st => {
+        if (st.unpaid_periods && st.unpaid_periods.length > 0) {
+            st.unpaid_periods.forEach(p => {
+                overduePayments.push({
+                    student_name: `${st.name} ${st.surname}`,
+                    period_display: p.period,
+                    amount: p.amount
+                });
+            });
+        }
+    });
+
+    const totalOverdue = overduePayments.reduce((sum, p) => sum + p.amount, 0);
+    totalAmountEl.textContent = `${totalOverdue.toFixed(2)} د.ت`;
+
+    tableBody.innerHTML = '';
+    if (overduePayments.length === 0) {
         tableBody.innerHTML = '<tr><td colspan="3" style="text-align:center;">لا توجد دفعات متأخرة حالياً.</td></tr>';
         return;
     }
 
-    financialData.overdue_payments.forEach(payment => {
+    overduePayments.forEach(payment => {
         const row = document.createElement('tr');
         row.innerHTML = `
             <td>${payment.student_name}</td>
@@ -99,98 +94,38 @@ function renderAllStudents(students) {
     const container = document.getElementById('students-container');
     container.innerHTML = '';
 
-    if (!students || students.length === 0) {
-        container.innerHTML = '<p>لا يوجد طلاب لعرضهم.</p>';
-        return;
-    }
-    
-    const sortedStudents = [...students].sort((a, b) => {
-        if (a.surname < b.surname) return -1;
-        if (a.surname > b.surname) return 1;
-        if (a.name < b.name) return -1;
-        if (a.name > b.name) return 1;
-        return 0;
-    });
-
-    sortedStudents.forEach(student => {
+    students.forEach(student => {
         const card = document.createElement('div');
         card.className = 'student-card';
         card.innerHTML = `
             <h3>${student.name} ${student.surname}</h3>
             <p><strong>📚 المستوى:</strong> ${student.educational_level}</p>
-            <p><strong>👤 الولي:</strong> ${student.guardian_name} ${student.guardian_surname}</p>
-            <p><strong>📞 الهاتف:</strong> ${student.phone_number || 'غير متوفر'}</p>
-            <p class="status-line">
-                <strong>❌ الغيابات:</strong> 
-                <span class="${student.absence_count > 0 ? 'has-absences' : ''}">${student.absence_count}</span>
-            </p>
-            <p class="status-line">
-                <strong>💵 غير خالص:</strong> 
-                <span class="${student.total_unpaid > 0 ? 'is-unpaid' : ''}">${student.total_unpaid.toFixed(2)} د.ت</span>
-            </p>
+            <p><strong>👤 الولي:</strong> ${student.guardian_name}</p>
+            <p><strong>📞 الهاتف:</strong> ${student.phone_number}</p>
+            <p><strong>❌ الغيابات:</strong> ${student.absence_count}</p>
+            <p><strong>💵 غير خالص:</strong> ${student.unpaid_total.toFixed(2)} د.ت</p>
         `;
         container.appendChild(card);
     });
 }
 
-function filterStudents() {
-    const searchTerm = document.getElementById('search-input').value.toLowerCase();
-    const studentsWithGuardians = allData.students.map(student => {
-        const guardian = allData.guardians.find(g => g.guardian_id === student.guardian_id);
-        return {
-            ...student,
-            guardian_name: guardian ? guardian.guardian_name : 'غير متوفر',
-            guardian_surname: guardian ? guardian.guardian_surname : '',
-            phone_number: guardian ? guardian.phone_number : 'غير متوفر'
-        };
-    });
-    
-    const filteredStudents = studentsWithGuardians.filter(s => {
-        const fullName = `${s.name} ${s.surname}`.toLowerCase();
-        const guardianFullName = `${s.guardian_name} ${s.guardian_surname}`.toLowerCase();
-        return fullName.includes(searchTerm) || guardianFullName.includes(searchTerm);
-    });
-    renderAllStudents(filteredStudents);
-}
-
 function renderSchedule(scheduleData) {
     const container = document.getElementById('schedule-container');
-    if (!container || !scheduleData) return;
+    if (!scheduleData || scheduleData.length === 0) {
+        container.innerHTML = "<tr><td>لا يوجد جدول</td></tr>";
+        return;
+    }
 
-    const scheduleGrid = {};
-    TIME_SLOTS.forEach(time => {
-        scheduleGrid[time] = {};
-        DAYS_ORDER.forEach(day => scheduleGrid[time][day] = null);
-    });
-
+    let tableHtml = '<thead><tr><th>اليوم</th><th>التوقيت</th><th>المستوى</th><th>النوع</th></tr></thead><tbody>';
     scheduleData.forEach(entry => {
-        if (scheduleGrid[entry.time_slot] && scheduleGrid[entry.time_slot][entry.day_of_week] !== undefined) {
-            scheduleGrid[entry.time_slot][entry.day_of_week] = entry;
-        }
+        tableHtml += `
+            <tr>
+                <td>${entry.day_of_week}</td>
+                <td>${entry.time_slot}</td>
+                <td>${entry.educational_level}</td>
+                <td>${entry.class_type === "private" ? "خاصة" : "عامة"}</td>
+            </tr>`;
     });
-
-    let tableHtml = '<thead><tr><th>التوقيت</th>';
-    DAYS_ORDER.forEach(day => tableHtml += `<th>${day}</th>`);
-    tableHtml += '</tr></thead><tbody>';
-
-    TIME_SLOTS.forEach(time => {
-        tableHtml += `<tr><th>${time}</th>`;
-        DAYS_ORDER.forEach(day => {
-            const entry = scheduleGrid[time][day];
-            if (entry) {
-                const isPrivate = entry.class_type === 'private';
-                const studentsHtml = isPrivate && entry.student_names ? `<small>${entry.student_names.replace(/,/g, '<br>')}</small>` : '';
-                tableHtml += `<td><div class="class-entry ${isPrivate ? 'private-class' : 'general-class'}">
-                                <strong>${entry.educational_level}</strong>
-                                ${studentsHtml}
-                              </div></td>`;
-            } else {
-                tableHtml += '<td></td>';
-            }
-        });
-        tableHtml += '</tr>';
-    });
-
     tableHtml += '</tbody>';
     container.innerHTML = tableHtml;
 }
@@ -202,3 +137,5 @@ function showTab(tabId) {
     document.getElementById(`${tabId}-tab`).classList.add('active');
     document.querySelector(`button[onclick="showTab('${tabId}')"]`).classList.add('active');
 }
+
+fetchData();
