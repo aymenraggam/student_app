@@ -1,1815 +1,1378 @@
 {
-    "last_updated": "2025-08-29 17:44:30",
     "students": [
         {
-            "id": 1,
+            "student_id": 1,
             "name": "أمان الله",
             "surname": "صالحي",
             "educational_level": "1 ابتدائي",
-            "entry_date": "2025-07-09",
-            "guardian_name": "أميرة",
-            "guardian_surname": "عامري",
-            "phone_number": "54851396",
-            "guardian_password": "RiFN5xNl",
             "absence_count": 0,
-            "total_unpaid": 0.0,
-            "guardian_identifier": "أميرة-عامري-54851396"
+            "total_unpaid": 0,
+            "guardian_id": 35
         },
         {
-            "id": 2,
+            "student_id": 2,
             "name": "مسرّة",
             "surname": "جلالي",
             "educational_level": "1 ابتدائي",
-            "entry_date": "2025-08-01",
-            "guardian_name": "أماني",
-            "guardian_surname": "قدودة",
-            "phone_number": "22959665",
-            "guardian_password": "Cb15n2af",
             "absence_count": 0,
-            "total_unpaid": 0.0,
-            "guardian_identifier": "أماني-قدودة-22959665"
+            "total_unpaid": 0,
+            "guardian_id": 55
         },
         {
-            "id": 3,
+            "student_id": 3,
             "name": "أميرة",
             "surname": "مسعودي",
             "educational_level": "2 ابتدائي",
-            "entry_date": "2025-07-01",
-            "guardian_name": "نوال",
-            "guardian_surname": "مسعودي",
-            "phone_number": "42218267",
-            "guardian_password": "DVS4vx78",
             "absence_count": 0,
             "total_unpaid": 200.0,
-            "guardian_identifier": "نوال-مسعودي-42218267"
+            "guardian_id": 64
         },
         {
-            "id": 4,
+            "student_id": 4,
             "name": "آدم",
             "surname": "جلالي",
             "educational_level": "2 ابتدائي",
-            "entry_date": "2025-07-03",
-            "guardian_name": "عبد السلام",
-            "guardian_surname": "جلالي",
-            "phone_number": "97867896",
-            "guardian_password": "J8Vka1XC",
             "absence_count": 0,
             "total_unpaid": 60.0,
-            "guardian_identifier": "عبد السلام-جلالي-97867896"
+            "guardian_id": 11
         },
         {
-            "id": 5,
+            "student_id": 5,
             "name": "آدم",
             "surname": "صالحي",
             "educational_level": "3 ابتدائي",
-            "entry_date": "2025-07-01",
-            "guardian_name": "فاطمة",
-            "guardian_surname": "صالحي",
-            "phone_number": "97479829",
-            "guardian_password": "U6Rfl99r",
             "absence_count": 0,
             "total_unpaid": 100.0,
-            "guardian_identifier": "فاطمة-صالحي-97479829"
+            "guardian_id": 29
         },
         {
-            "id": 6,
+            "student_id": 6,
             "name": "أيوب",
             "surname": "صالحي",
             "educational_level": "3 ابتدائي",
-            "entry_date": "2025-07-01",
-            "guardian_name": "الناصر",
-            "guardian_surname": "صالحي",
-            "phone_number": "28083048",
-            "guardian_password": "wshZK9oZ",
             "absence_count": 0,
             "total_unpaid": 40.0,
-            "guardian_identifier": "الناصر-صالحي-28083048"
+            "guardian_id": 26
         },
         {
-            "id": 7,
+            "student_id": 7,
             "name": "جود",
             "surname": "بوعلاقي",
             "educational_level": "3 ابتدائي",
-            "entry_date": "2025-07-07",
-            "guardian_name": "فاطمة",
-            "guardian_surname": "بوعلافي",
-            "phone_number": "53780865",
-            "guardian_password": "ADJKf229",
             "absence_count": 0,
             "total_unpaid": 100.0,
-            "guardian_identifier": "فاطمة-بوعلافي-53780865"
+            "guardian_id": 5
         },
         {
-            "id": 8,
+            "student_id": 8,
             "name": "أمان",
             "surname": "جلالي",
             "educational_level": "3 ابتدائي",
-            "entry_date": "2025-07-22",
-            "guardian_name": "أماني",
-            "guardian_surname": "قدودة",
-            "phone_number": "22959665",
-            "guardian_password": "Cb15n2af",
             "absence_count": 0,
             "total_unpaid": 100.0,
-            "guardian_identifier": "أماني-قدودة-22959665"
+            "guardian_id": 55
         },
         {
-            "id": 9,
+            "student_id": 9,
             "name": "أمل",
             "surname": "صالحي",
             "educational_level": "3 ابتدائي",
-            "entry_date": "2025-07-29",
-            "guardian_name": "توفيق",
-            "guardian_surname": "صالحي",
-            "phone_number": "96627623",
-            "guardian_password": "MDdk39zj",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "توفيق-صالحي-96627623"
+            "guardian_id": 27
         },
         {
-            "id": 10,
+            "student_id": 10,
             "name": "أسامة",
             "surname": "بوعلاقي",
             "educational_level": "4 ابتدائي",
-            "entry_date": "2025-07-02",
-            "guardian_name": "هاجر",
-            "guardian_surname": "بوعلافي",
-            "phone_number": "94939646",
-            "guardian_password": "17LVZkqW",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "هاجر-بوعلافي-94939646"
+            "guardian_id": 6
         },
         {
-            "id": 11,
+            "student_id": 11,
             "name": "فاطمة",
             "surname": "جلالي",
             "educational_level": "4 ابتدائي",
-            "entry_date": "2025-07-03",
-            "guardian_name": "عبد السلام",
-            "guardian_surname": "جلالي",
-            "phone_number": "97867896",
-            "guardian_password": "J8Vka1XC",
             "absence_count": 0,
             "total_unpaid": 60.0,
-            "guardian_identifier": "عبد السلام-جلالي-97867896"
+            "guardian_id": 11
         },
         {
-            "id": 12,
+            "student_id": 12,
             "name": "راسيل",
             "surname": "جلالي",
             "educational_level": "4 ابتدائي",
-            "entry_date": "2025-08-02",
-            "guardian_name": "ابتسام",
-            "guardian_surname": "جلالي",
-            "phone_number": "97787207",
-            "guardian_password": "b8wN6t7X",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "ابتسام-جلالي-97787207"
+            "guardian_id": 9
         },
         {
-            "id": 13,
+            "student_id": 13,
             "name": "ميسم",
             "surname": "مسعودي",
             "educational_level": "5 ابتدائي",
-            "entry_date": "2025-07-01",
-            "guardian_name": "قيس",
-            "guardian_surname": "مسعودي",
-            "phone_number": "90723023",
-            "guardian_password": "8hlAeolj",
             "absence_count": 0,
             "total_unpaid": 30.0,
-            "guardian_identifier": "قيس-مسعودي-90723023"
+            "guardian_id": 61
         },
         {
-            "id": 14,
+            "student_id": 14,
             "name": "معتصم",
             "surname": "صالحي",
             "educational_level": "5 ابتدائي",
-            "entry_date": "2025-07-31",
-            "guardian_name": "توفيق",
-            "guardian_surname": "صالحي",
-            "phone_number": "96627623",
-            "guardian_password": "MDdk39zj",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "توفيق-صالحي-96627623"
+            "guardian_id": 27
         },
         {
-            "id": 15,
+            "student_id": 15,
             "name": "عائشة",
             "surname": "جلالي",
             "educational_level": "6 ابتدائي",
-            "entry_date": "2025-07-03",
-            "guardian_name": "عبد السلام",
-            "guardian_surname": "جلالي",
-            "phone_number": "97867896",
-            "guardian_password": "J8Vka1XC",
             "absence_count": 0,
             "total_unpaid": 60.0,
-            "guardian_identifier": "عبد السلام-جلالي-97867896"
+            "guardian_id": 11
         },
         {
-            "id": 16,
+            "student_id": 16,
             "name": "قصي",
             "surname": "شرف الدين",
             "educational_level": "6 ابتدائي",
-            "entry_date": "2025-07-23",
-            "guardian_name": "عائشة",
-            "guardian_surname": "أم هاني",
-            "phone_number": "99722424",
-            "guardian_password": "8eAQfWwf",
             "absence_count": 0,
             "total_unpaid": 40.0,
-            "guardian_identifier": "عائشة-أم هاني-99722424"
+            "guardian_id": 3
         },
         {
-            "id": 17,
+            "student_id": 17,
             "name": "أحمد",
             "surname": "كرمودي",
             "educational_level": "6 ابتدائي",
-            "entry_date": "2025-07-25",
-            "guardian_name": "لطيّف",
-            "guardian_surname": "كرمودي",
-            "phone_number": "97636826",
-            "guardian_password": "6IMZXnYM",
             "absence_count": 0,
-            "total_unpaid": 0.0,
-            "guardian_identifier": "لطيّف-كرمودي-97636826"
+            "total_unpaid": 0,
+            "guardian_id": 60
         },
         {
-            "id": 18,
+            "student_id": 18,
             "name": "شفاء",
-            "surname": "قادري",
+            "surname": "نصيري",
             "educational_level": "6 ابتدائي",
-            "entry_date": "2025-08-01",
-            "guardian_name": "رفيقة",
-            "guardian_surname": "قادري",
-            "phone_number": "46282024",
-            "guardian_password": "5Kfz55A2",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "رفيقة-قادري-46282024"
+            "guardian_id": 48
         },
         {
-            "id": 19,
+            "student_id": 19,
             "name": "أمين",
             "surname": "مسعودي",
             "educational_level": "7 أساسي",
-            "entry_date": "2025-07-23",
-            "guardian_name": "نوال",
-            "guardian_surname": "مسعودي",
-            "phone_number": "42218267",
-            "guardian_password": "DVS4vx78",
             "absence_count": 0,
             "total_unpaid": 200.0,
-            "guardian_identifier": "نوال-مسعودي-42218267"
+            "guardian_id": 64
         },
         {
-            "id": 20,
+            "student_id": 20,
             "name": "أحمد",
             "surname": "عايدي",
             "educational_level": "7 أساسي",
-            "entry_date": "2025-07-24",
-            "guardian_name": "ذهبية",
-            "guardian_surname": "عايدي",
-            "phone_number": "96200112",
-            "guardian_password": "EoQFW3yD",
             "absence_count": 0,
             "total_unpaid": 100.0,
-            "guardian_identifier": "ذهبية-عايدي-96200112"
+            "guardian_id": 37
         },
         {
-            "id": 21,
+            "student_id": 21,
             "name": "أمين الله",
             "surname": "جريدي",
             "educational_level": "7 أساسي",
-            "entry_date": "2025-07-25",
-            "guardian_name": "ياسين",
-            "guardian_surname": "جريدي",
-            "phone_number": "97033725",
-            "guardian_password": "0rwu3xR6",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "ياسين-جريدي-97033725"
+            "guardian_id": 8
         },
         {
-            "id": 22,
+            "student_id": 22,
             "name": "فرح",
             "surname": "قادري",
             "educational_level": "7 أساسي",
-            "entry_date": "2025-08-03",
-            "guardian_name": "بسمة",
-            "guardian_surname": "أم هاني",
-            "phone_number": "93603062",
-            "guardian_password": "bdvalSjT",
             "absence_count": 0,
-            "total_unpaid": 0.0,
-            "guardian_identifier": "بسمة-أم هاني-93603062"
+            "total_unpaid": 0,
+            "guardian_id": 1
         },
         {
-            "id": 23,
+            "student_id": 23,
             "name": "تقوى",
             "surname": "شرف الدين",
             "educational_level": "7 أساسي",
-            "entry_date": "2025-08-03",
-            "guardian_name": "لمين",
-            "guardian_surname": "شرف الدين",
-            "phone_number": "97917380",
-            "guardian_password": "FPl4zJeR",
             "absence_count": 0,
-            "total_unpaid": 0.0,
-            "guardian_identifier": "لمين-شرف الدين-97917380"
+            "total_unpaid": 0,
+            "guardian_id": 25
         },
         {
-            "id": 24,
+            "student_id": 24,
             "name": "رنيم",
             "surname": "قادري",
             "educational_level": "7 أساسي",
-            "entry_date": "2025-07-25",
-            "guardian_name": "مبروكة",
-            "guardian_surname": "قادري",
-            "phone_number": "93541955",
-            "guardian_password": "ZWC0M0VF",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "مبروكة-قادري-93541955"
+            "guardian_id": 51
         },
         {
-            "id": 25,
+            "student_id": 25,
             "name": "رؤى",
             "surname": "قادري",
             "educational_level": "7 أساسي",
-            "entry_date": "2025-07-25",
-            "guardian_name": "مبروكة",
-            "guardian_surname": "قادري",
-            "phone_number": "93541955",
-            "guardian_password": "ZWC0M0VF",
             "absence_count": 0,
-            "total_unpaid": 0.0,
-            "guardian_identifier": "مبروكة-قادري-93541955"
+            "total_unpaid": 0,
+            "guardian_id": 51
         },
         {
-            "id": 26,
+            "student_id": 26,
             "name": "إيمان",
             "surname": "نصيري",
             "educational_level": "7 أساسي",
-            "entry_date": "2025-07-25",
-            "guardian_name": "محمد الصغير",
-            "guardian_surname": "نصيري",
-            "phone_number": "96586727",
-            "guardian_password": "FwG61SWO",
             "absence_count": 0,
-            "total_unpaid": 0.0,
-            "guardian_identifier": "محمد الصغير-نصيري-96586727"
+            "total_unpaid": 0,
+            "guardian_id": 65
         },
         {
-            "id": 27,
+            "student_id": 27,
             "name": "ألاء",
             "surname": "زارعي",
             "educational_level": "7 أساسي",
-            "entry_date": "2025-07-25",
-            "guardian_name": "نجيبة",
-            "guardian_surname": "زارعي",
-            "phone_number": "96158860",
-            "guardian_password": "6KSV85Cj",
             "absence_count": 0,
-            "total_unpaid": 0.0,
-            "guardian_identifier": "نجيبة-زارعي-96158860"
+            "total_unpaid": 0,
+            "guardian_id": 17
         },
         {
-            "id": 28,
+            "student_id": 28,
             "name": "مريم",
             "surname": "جلالي",
             "educational_level": "7 أساسي",
-            "entry_date": "2025-07-25",
-            "guardian_name": "عبد السلام",
-            "guardian_surname": "جلالي",
-            "phone_number": "97867896",
-            "guardian_password": "J8Vka1XC",
             "absence_count": 0,
             "total_unpaid": 60.0,
-            "guardian_identifier": "عبد السلام-جلالي-97867896"
+            "guardian_id": 11
         },
         {
-            "id": 29,
+            "student_id": 29,
             "name": "أميمة",
             "surname": "طقوقي",
             "educational_level": "7 أساسي",
-            "entry_date": "2025-07-25",
-            "guardian_name": "علي",
-            "guardian_surname": "طقوقي",
-            "phone_number": "96079809",
-            "guardian_password": "OsfimfqI",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "علي-طقوقي-96079809"
+            "guardian_id": 34
         },
         {
-            "id": 30,
+            "student_id": 30,
             "name": "يحي",
             "surname": "مسعودي",
             "educational_level": "7 أساسي",
-            "entry_date": "2025-07-29",
-            "guardian_name": "مهدي",
-            "guardian_surname": "مسعودي",
-            "phone_number": "55071434",
-            "guardian_password": "UUDyVhmX",
             "absence_count": 0,
             "total_unpaid": 100.0,
-            "guardian_identifier": "مهدي-مسعودي-55071434"
+            "guardian_id": 63
         },
         {
-            "id": 31,
+            "student_id": 31,
             "name": "سيف",
             "surname": "زريبي",
             "educational_level": "7 أساسي",
-            "entry_date": "2025-07-30",
-            "guardian_name": "محمد الصغير",
-            "guardian_surname": "زريبي",
-            "phone_number": "97551971",
-            "guardian_password": "x6Pc77vT",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "محمد الصغير-زريبي-97551971"
+            "guardian_id": 22
         },
         {
-            "id": 33,
+            "student_id": 33,
             "name": "محمد",
             "surname": "كرمودي",
             "educational_level": "8 أساسي",
-            "entry_date": "2025-07-25",
-            "guardian_name": "لطيّف",
-            "guardian_surname": "كرمودي",
-            "phone_number": "97636826",
-            "guardian_password": "6IMZXnYM",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "لطيّف-كرمودي-97636826"
+            "guardian_id": 60
         },
         {
-            "id": 34,
+            "student_id": 34,
             "name": "تقي",
             "surname": "مسعودي",
             "educational_level": "8 أساسي",
-            "entry_date": "2025-07-25",
-            "guardian_name": "منوّر",
-            "guardian_surname": "مسعودي",
-            "phone_number": "97846999",
-            "guardian_password": "vDOk1v9g",
             "absence_count": 0,
             "total_unpaid": 100.0,
-            "guardian_identifier": "منوّر-مسعودي-97846999"
+            "guardian_id": 62
         },
         {
-            "id": 35,
+            "student_id": 35,
             "name": "مريم",
             "surname": "شرف الدين",
             "educational_level": "8 أساسي",
-            "entry_date": "2025-07-25",
-            "guardian_name": "عائشة",
-            "guardian_surname": "أم هاني",
-            "phone_number": "99722424",
-            "guardian_password": "8eAQfWwf",
             "absence_count": 0,
             "total_unpaid": 40.0,
-            "guardian_identifier": "عائشة-أم هاني-99722424"
+            "guardian_id": 3
         },
         {
-            "id": 36,
+            "student_id": 36,
             "name": "هيثم",
             "surname": "قادري",
             "educational_level": "8 أساسي",
-            "entry_date": "2025-07-25",
-            "guardian_name": "نجاة",
-            "guardian_surname": "قادري",
-            "phone_number": "99479759",
-            "guardian_password": "qddjfEaW",
             "absence_count": 0,
             "total_unpaid": 100.0,
-            "guardian_identifier": "نجاة-قادري-99479759"
+            "guardian_id": 53
         },
         {
-            "id": 37,
+            "student_id": 37,
             "name": "ريتاج",
             "surname": "جلالي",
             "educational_level": "8 أساسي",
-            "entry_date": "2025-07-25",
-            "guardian_name": "عبد السلام",
-            "guardian_surname": "جلالي",
-            "phone_number": "97867896",
-            "guardian_password": "J8Vka1XC",
             "absence_count": 0,
             "total_unpaid": 60.0,
-            "guardian_identifier": "عبد السلام-جلالي-97867896"
+            "guardian_id": 11
         },
         {
-            "id": 38,
+            "student_id": 38,
             "name": "أمان الله",
             "surname": "جلالي",
             "educational_level": "8 أساسي",
-            "entry_date": "2025-07-26",
-            "guardian_name": "حياة",
-            "guardian_surname": "جلالي",
-            "phone_number": "99810230",
-            "guardian_password": "52G1QAtQ",
             "absence_count": 0,
             "total_unpaid": 100.0,
-            "guardian_identifier": "حياة-جلالي-99810230"
+            "guardian_id": 10
         },
         {
-            "id": 39,
+            "student_id": 39,
             "name": "نور",
             "surname": "عكروتي",
             "educational_level": "8 أساسي",
-            "entry_date": "2025-08-01",
-            "guardian_name": "مليكة",
-            "guardian_surname": "جلالي",
-            "phone_number": "29003581",
-            "guardian_password": "JPe119Rx",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "مليكة-جلالي-29003581"
+            "guardian_id": 13
         },
         {
-            "id": 40,
+            "student_id": 40,
             "name": "جهاد",
             "surname": "كحولي",
             "educational_level": "8 أساسي",
-            "entry_date": "2025-08-01",
-            "guardian_name": "أحمد",
-            "guardian_surname": "كحلي",
-            "phone_number": "94767084",
-            "guardian_password": "E9prQdw7",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "أحمد-كحلي-94767084"
+            "guardian_id": 57
         },
         {
-            "id": 41,
+            "student_id": 41,
             "name": "أحمد",
             "surname": "صدقي",
             "educational_level": "9 أساسي",
-            "entry_date": "2025-08-01",
-            "guardian_name": "بسمة",
-            "guardian_surname": "عبيدي",
-            "phone_number": "99722377",
-            "guardian_password": "Td6SVNy5",
             "absence_count": 0,
-            "total_unpaid": 0.0,
-            "guardian_identifier": "بسمة-عبيدي-99722377"
+            "total_unpaid": 0,
+            "guardian_id": 41
         },
         {
-            "id": 42,
+            "student_id": 42,
             "name": "ميسان",
             "surname": "علوي",
             "educational_level": "3 ابتدائي",
-            "entry_date": "2025-08-03",
-            "guardian_name": "منى",
-            "guardian_surname": "زريبي",
-            "phone_number": "95222949",
-            "guardian_password": "R9ojbqYl",
             "absence_count": 0,
-            "total_unpaid": 0.0,
-            "guardian_identifier": "منى-زريبي-95222949"
+            "total_unpaid": 0,
+            "guardian_id": 23
         },
         {
-            "id": 43,
+            "student_id": 43,
             "name": "أحمد",
             "surname": "زارعي",
             "educational_level": "3 ابتدائي",
-            "entry_date": "2025-08-01",
-            "guardian_name": "نجيبة",
-            "guardian_surname": "زارعي",
-            "phone_number": "96158860",
-            "guardian_password": "6KSV85Cj",
             "absence_count": 0,
-            "total_unpaid": 0.0,
-            "guardian_identifier": "نجيبة-زارعي-96158860"
+            "total_unpaid": 0,
+            "guardian_id": 17
         },
         {
-            "id": 44,
+            "student_id": 44,
             "name": "أمان",
             "surname": "زارعي",
             "educational_level": "6 ابتدائي",
-            "entry_date": "2025-08-01",
-            "guardian_name": "نجيبة",
-            "guardian_surname": "زارعي",
-            "phone_number": "96158860",
-            "guardian_password": "6KSV85Cj",
             "absence_count": 0,
-            "total_unpaid": 0.0,
-            "guardian_identifier": "نجيبة-زارعي-96158860"
+            "total_unpaid": 0,
+            "guardian_id": 17
         },
         {
-            "id": 45,
+            "student_id": 45,
             "name": "أميمة",
             "surname": "كداشي",
             "educational_level": "5 ابتدائي",
-            "entry_date": "2025-08-04",
-            "guardian_name": "مبروكة",
-            "guardian_surname": "صالحي",
-            "phone_number": "97454029",
-            "guardian_password": "wuJDo9wq",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "مبروكة-صالحي-97454029"
+            "guardian_id": 31
         },
         {
-            "id": 46,
+            "student_id": 46,
             "name": "اسراء",
             "surname": "كداشي",
             "educational_level": "3 ابتدائي",
-            "entry_date": "2025-08-04",
-            "guardian_name": "مبروكة",
-            "guardian_surname": "صالحي",
-            "phone_number": "97454029",
-            "guardian_password": "wuJDo9wq",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "مبروكة-صالحي-97454029"
+            "guardian_id": 31
         },
         {
-            "id": 47,
+            "student_id": 47,
             "name": "تيسير",
             "surname": "شرف الدين",
             "educational_level": "3 ابتدائي",
-            "entry_date": "2025-08-04",
-            "guardian_name": "لمين",
-            "guardian_surname": "شرف الدين",
-            "phone_number": "97917380",
-            "guardian_password": "FPl4zJeR",
             "absence_count": 0,
-            "total_unpaid": 0.0,
-            "guardian_identifier": "لمين-شرف الدين-97917380"
+            "total_unpaid": 0,
+            "guardian_id": 25
         },
         {
-            "id": 48,
+            "student_id": 48,
             "name": "زهرة",
             "surname": "عبيدي",
             "educational_level": "4 ابتدائي",
-            "entry_date": "2025-08-04",
-            "guardian_name": "أم الزين",
-            "guardian_surname": "عبيدي",
-            "phone_number": "58128994",
-            "guardian_password": "zVPc8xGT",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "أم الزين-عبيدي-58128994"
+            "guardian_id": 40
         },
         {
-            "id": 49,
+            "student_id": 49,
             "name": "أيوب",
             "surname": "عبيدي",
             "educational_level": "3 ابتدائي",
-            "entry_date": "2025-08-04",
-            "guardian_name": "أم الزين",
-            "guardian_surname": "عبيدي",
-            "phone_number": "58128994",
-            "guardian_password": "zVPc8xGT",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "أم الزين-عبيدي-58128994"
+            "guardian_id": 40
         },
         {
-            "id": 50,
+            "student_id": 50,
             "name": "ريّان",
             "surname": "حاجي",
             "educational_level": "8 أساسي",
-            "entry_date": "2025-08-05",
-            "guardian_name": "فتحية",
-            "guardian_surname": "عيوني",
-            "phone_number": "94110939",
-            "guardian_password": "MUleHVt2",
             "absence_count": 0,
             "total_unpaid": 200.0,
-            "guardian_identifier": "فتحية-عيوني-94110939"
+            "guardian_id": 43
         },
         {
-            "id": 51,
+            "student_id": 51,
             "name": "ميسم",
             "surname": "علوي",
             "educational_level": "6 ابتدائي",
-            "entry_date": "2025-08-05",
-            "guardian_name": "منى",
-            "guardian_surname": "زريبي",
-            "phone_number": "95222949",
-            "guardian_password": "R9ojbqYl",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "منى-زريبي-95222949"
+            "guardian_id": 23
         },
         {
-            "id": 52,
+            "student_id": 52,
             "name": "براءة",
             "surname": "صالحي",
             "educational_level": "6 ابتدائي",
-            "entry_date": "2025-08-05",
-            "guardian_name": "الناصر",
-            "guardian_surname": "صالحي",
-            "phone_number": "28083048",
-            "guardian_password": "wshZK9oZ",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "الناصر-صالحي-28083048"
+            "guardian_id": 26
         },
         {
-            "id": 53,
+            "student_id": 53,
             "name": "أمان الله",
             "surname": "زارعي",
             "educational_level": "4 ابتدائي",
-            "entry_date": "2025-08-07",
-            "guardian_name": "طارق",
-            "guardian_surname": "زارعي",
-            "phone_number": "55495115",
-            "guardian_password": "BZakSTLP",
             "absence_count": 0,
-            "total_unpaid": 0.0,
-            "guardian_identifier": "طارق-زارعي-55495115"
+            "total_unpaid": 0,
+            "guardian_id": 16
         },
         {
-            "id": 54,
+            "student_id": 54,
             "name": "ملاك",
             "surname": "عيوني",
             "educational_level": "8 أساسي",
-            "entry_date": "2025-08-08",
-            "guardian_name": "مريم",
-            "guardian_surname": "سليمي",
-            "phone_number": "99217475",
-            "guardian_password": "I08cnld7",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "مريم-سليمي-99217475"
+            "guardian_id": 24
         },
         {
-            "id": 55,
+            "student_id": 55,
             "name": "سجود",
             "surname": "عيوني",
             "educational_level": "3 ابتدائي",
-            "entry_date": "2025-08-08",
-            "guardian_name": "مريم",
-            "guardian_surname": "سليمي",
-            "phone_number": "99217475",
-            "guardian_password": "I08cnld7",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "مريم-سليمي-99217475"
+            "guardian_id": 24
         },
         {
-            "id": 56,
+            "student_id": 56,
             "name": "إلياس",
             "surname": "أم هاني",
             "educational_level": "5 ابتدائي",
-            "entry_date": "2025-08-08",
-            "guardian_name": "سالمة",
-            "guardian_surname": "قادري",
-            "phone_number": "94164277",
-            "guardian_password": "Wh0laYKU",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "سالمة-قادري-94164277"
+            "guardian_id": 49
         },
         {
-            "id": 57,
+            "student_id": 57,
             "name": "إياد",
             "surname": "قادري",
             "educational_level": "9 أساسي",
-            "entry_date": "2025-08-09",
-            "guardian_name": "إيناس",
-            "guardian_surname": "قادري",
-            "phone_number": "57248410",
-            "guardian_password": "6wQaFkMu",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "إيناس-قادري-57248410"
+            "guardian_id": 46
         },
         {
-            "id": 58,
+            "student_id": 58,
             "name": "مريم",
             "surname": "قادري",
             "educational_level": "9 أساسي",
-            "entry_date": "2025-08-09",
-            "guardian_name": "مبروكة",
-            "guardian_surname": "قادري",
-            "phone_number": "93541955",
-            "guardian_password": "ZWC0M0VF",
             "absence_count": 0,
             "total_unpaid": 40.0,
-            "guardian_identifier": "مبروكة-قادري-93541955"
+            "guardian_id": 51
         },
         {
-            "id": 59,
+            "student_id": 59,
             "name": "كرم",
             "surname": "قادري",
             "educational_level": "9 أساسي",
-            "entry_date": "2025-08-09",
-            "guardian_name": "محمد",
-            "guardian_surname": "قادري",
-            "phone_number": "98386709",
-            "guardian_password": "FCPFG2CQ",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "محمد-قادري-98386709"
+            "guardian_id": 52
         },
         {
-            "id": 60,
+            "student_id": 60,
             "name": "جابر",
             "surname": "جلالي",
             "educational_level": "9 أساسي",
-            "entry_date": "2025-08-09",
-            "guardian_name": "نزيهة",
-            "guardian_surname": "عبدلي",
-            "phone_number": "96285780",
-            "guardian_password": "lqieDJwZ",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "نزيهة-عبدلي-96285780"
+            "guardian_id": 39
         },
         {
-            "id": 61,
+            "student_id": 61,
             "name": "آية",
             "surname": "أم هاني",
             "educational_level": "9 أساسي",
-            "entry_date": "2025-08-09",
-            "guardian_name": "حسن",
-            "guardian_surname": "أم هاني",
-            "phone_number": "22618045",
-            "guardian_password": "tWnoYZZi",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "حسن-أم هاني-22618045"
+            "guardian_id": 2
         },
         {
-            "id": 62,
+            "student_id": 62,
             "name": "سامح",
             "surname": "جابلي",
             "educational_level": "1 ثانوي",
-            "entry_date": "2025-08-09",
-            "guardian_name": "سفيان",
-            "guardian_surname": "جابلي",
-            "phone_number": "97483694",
-            "guardian_password": "i6rqQu1Z",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "سفيان-جابلي-97483694"
+            "guardian_id": 7
         },
         {
-            "id": 63,
+            "student_id": 63,
             "name": "وداد",
             "surname": "عيوني",
             "educational_level": "1 ثانوي",
-            "entry_date": "2025-08-09",
-            "guardian_name": "مريم",
-            "guardian_surname": "سليمي",
-            "phone_number": "99217475",
-            "guardian_password": "I08cnld7",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "مريم-سليمي-99217475"
+            "guardian_id": 24
         },
         {
-            "id": 64,
+            "student_id": 64,
             "name": "أيوب",
             "surname": "يوسفي",
             "educational_level": "1 ثانوي",
-            "entry_date": "2025-08-09",
-            "guardian_name": "تفاحة",
-            "guardian_surname": "زريبي",
-            "phone_number": "96445731",
-            "guardian_password": "CdB1yglv",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "تفاحة-زريبي-96445731"
+            "guardian_id": 19
         },
         {
-            "id": 65,
+            "student_id": 65,
             "name": "حمدي",
             "surname": "كداشي",
             "educational_level": "1 ثانوي",
-            "entry_date": "2025-08-09",
-            "guardian_name": "صافيا",
-            "guardian_surname": "صالحي",
-            "phone_number": "92037064",
-            "guardian_password": "1dxTgRt6",
             "absence_count": 0,
             "total_unpaid": 40.0,
-            "guardian_identifier": "صافيا-صالحي-92037064"
+            "guardian_id": 28
         },
         {
-            "id": 66,
+            "student_id": 66,
             "name": "آدم",
             "surname": "فالحي",
             "educational_level": "1 ثانوي",
-            "entry_date": "2025-08-09",
-            "guardian_name": "عبد القادر",
-            "guardian_surname": "فالحي",
-            "phone_number": "90485808",
-            "guardian_password": "VLWhTtSd",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "عبد القادر-فالحي-90485808"
+            "guardian_id": 45
         },
         {
-            "id": 67,
+            "student_id": 67,
             "name": "غيث",
             "surname": "قادري",
             "educational_level": "1 ثانوي",
-            "entry_date": "2025-08-09",
-            "guardian_name": "نهال",
-            "guardian_surname": "قادري",
-            "phone_number": "20109555",
-            "guardian_password": "aOVSxBsN",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "نهال-قادري-20109555"
+            "guardian_id": 54
         },
         {
-            "id": 68,
+            "student_id": 68,
             "name": "إكرام",
             "surname": "صياحي",
             "educational_level": "1 ثانوي",
-            "entry_date": "2025-08-10",
-            "guardian_name": "كريمة",
-            "guardian_surname": "عامري",
-            "phone_number": "55560997",
-            "guardian_password": "MDzyydnX",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "كريمة-عامري-55560997"
+            "guardian_id": 36
         },
         {
-            "id": 69,
+            "student_id": 69,
             "name": "علي",
             "surname": "عيوني",
             "educational_level": "1 ثانوي",
-            "entry_date": "2025-08-10",
-            "guardian_name": "عماد",
-            "guardian_surname": "عيوني",
-            "phone_number": "97689005",
-            "guardian_password": "5OWAK07i",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "عماد-عيوني-97689005"
+            "guardian_id": 42
         },
         {
-            "id": 70,
+            "student_id": 70,
             "name": "يوسف",
             "surname": "زريبي",
             "educational_level": "7 أساسي",
-            "entry_date": "2025-08-12",
-            "guardian_name": "رياض",
-            "guardian_surname": "زريبي",
-            "phone_number": "50433140",
-            "guardian_password": "FlplqIt0",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "رياض-زريبي-50433140"
+            "guardian_id": 20
         },
         {
-            "id": 71,
+            "student_id": 71,
             "name": "سلمى",
             "surname": "قادري",
             "educational_level": "7 أساسي",
-            "entry_date": "2025-08-12",
-            "guardian_name": "بدر الدين",
-            "guardian_surname": "قادري",
-            "phone_number": "23509750",
-            "guardian_password": "LB4BZiIO",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "بدر الدين-قادري-23509750"
+            "guardian_id": 47
         },
         {
-            "id": 72,
+            "student_id": 72,
             "name": "مرام",
             "surname": "خليفي",
             "educational_level": "8 أساسي",
-            "entry_date": "2025-08-13",
-            "guardian_name": "أحمد",
-            "guardian_surname": "خليفي",
-            "phone_number": "29069649",
-            "guardian_password": "iCJ3jICA",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "أحمد-خليفي-29069649"
+            "guardian_id": 15
         },
         {
-            "id": 73,
+            "student_id": 73,
             "name": "روان",
             "surname": "صالحي",
             "educational_level": "8 أساسي",
-            "entry_date": "2025-08-13",
-            "guardian_name": "فتحي",
-            "guardian_surname": "صالحي",
-            "phone_number": "94259396",
-            "guardian_password": "RNCa7gh0",
             "absence_count": 0,
             "total_unpaid": 40.0,
-            "guardian_identifier": "فتحي-صالحي-94259396"
+            "guardian_id": 30
         },
         {
-            "id": 74,
+            "student_id": 74,
             "name": "مالك",
             "surname": "عيوني",
             "educational_level": "8 أساسي",
-            "entry_date": "2025-08-13",
-            "guardian_name": "أحلام",
-            "guardian_surname": "كحلي",
-            "phone_number": "52446848",
-            "guardian_password": "ttx6l8vv",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "أحلام-كحلي-52446848"
+            "guardian_id": 56
         },
         {
-            "id": 75,
+            "student_id": 75,
             "name": "مرام",
             "surname": "كدوسي",
             "educational_level": "7 أساسي",
-            "entry_date": "2025-08-14",
-            "guardian_name": "النوّي",
-            "guardian_surname": "كدوسي",
-            "phone_number": "97915970",
-            "guardian_password": "Au3SxGpd",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "النوّي-كدوسي-97915970"
+            "guardian_id": 58
         },
         {
-            "id": 76,
+            "student_id": 76,
             "name": "زهرة",
             "surname": "زريبي",
             "educational_level": "7 أساسي",
-            "entry_date": "2025-08-14",
-            "guardian_name": "محسن",
-            "guardian_surname": "زريبي",
-            "phone_number": "96371474",
-            "guardian_password": "z1iytFb7",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "محسن-زريبي-96371474"
+            "guardian_id": 21
         },
         {
-            "id": 77,
+            "student_id": 77,
             "name": "يوسف",
             "surname": "سماري",
             "educational_level": "5 ابتدائي",
-            "entry_date": "2025-08-14",
-            "guardian_name": "ونيسة",
-            "guardian_surname": "عايدي",
-            "phone_number": "98106627",
-            "guardian_password": "RJ5Siijb",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "ونيسة-عايدي-98106627"
+            "guardian_id": 38
         },
         {
-            "id": 78,
+            "student_id": 78,
             "name": "احمد",
             "surname": "زارعي",
             "educational_level": "4 ابتدائي",
-            "entry_date": "2025-08-13",
-            "guardian_name": "نصيب",
-            "guardian_surname": "زارعي",
-            "phone_number": "53295236",
-            "guardian_password": "lW8gonaj",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "نصيب-زارعي-53295236"
+            "guardian_id": 18
         },
         {
-            "id": 79,
+            "student_id": 79,
             "name": "محمد أمين",
             "surname": "غنادرة",
             "educational_level": "1 ثانوي",
-            "entry_date": "2025-08-16",
-            "guardian_name": "مسعود",
-            "guardian_surname": "غنادرة",
-            "phone_number": "52390362",
-            "guardian_password": "G27PXd9k",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "مسعود-غنادرة-52390362"
+            "guardian_id": 44
         },
         {
-            "id": 80,
+            "student_id": 80,
             "name": "أماني",
             "surname": "جلالي",
             "educational_level": "1 ثانوي",
-            "entry_date": "2025-08-16",
-            "guardian_name": "عمار",
-            "guardian_surname": "جلالي",
-            "phone_number": "98283943",
-            "guardian_password": "qwdzTpIs",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "عمار-جلالي-98283943"
+            "guardian_id": 12
         },
         {
-            "id": 81,
+            "student_id": 81,
             "name": "مرام",
             "surname": "قادري",
             "educational_level": "1 ثانوي",
-            "entry_date": "2025-08-17",
-            "guardian_name": "فوزي",
-            "guardian_surname": "قادري",
-            "phone_number": "97946651",
-            "guardian_password": "EMSrmxKt",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "فوزي-قادري-97946651"
+            "guardian_id": 50
         },
         {
-            "id": 82,
+            "student_id": 82,
             "name": "يحي",
             "surname": "جلالي",
             "educational_level": "2 ث علوم",
-            "entry_date": "2025-08-17",
-            "guardian_name": "عائدة",
-            "guardian_surname": "بحيري",
-            "phone_number": "55877284",
-            "guardian_password": "6XR2OBzt",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "عائدة-بحيري-55877284"
+            "guardian_id": 4
         },
         {
-            "id": 83,
+            "student_id": 83,
             "name": "شهد",
             "surname": "حاجي",
             "educational_level": "2 ث علوم",
-            "entry_date": "2025-08-17",
-            "guardian_name": "منير",
-            "guardian_surname": "حاجي",
-            "phone_number": "98725398",
-            "guardian_password": "TbvEVgye",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "منير-حاجي-98725398"
+            "guardian_id": 14
         },
         {
-            "id": 84,
+            "student_id": 84,
             "name": "أمل",
             "surname": "طقوقي",
             "educational_level": "1 ابتدائي",
-            "entry_date": "2025-08-19",
-            "guardian_name": "عبد العزيز",
-            "guardian_surname": "طقوقي",
-            "phone_number": "97371797",
-            "guardian_password": "1NWQ5ay4",
             "absence_count": 0,
-            "total_unpaid": 0.0,
-            "guardian_identifier": "عبد العزيز-طقوقي-97371797"
+            "total_unpaid": 0,
+            "guardian_id": 33
         },
         {
-            "id": 85,
+            "student_id": 85,
             "name": "أيوب",
             "surname": "طقوقي",
             "educational_level": "5 ابتدائي",
-            "entry_date": "2025-08-19",
-            "guardian_name": "عبد العزيز",
-            "guardian_surname": "طقوقي",
-            "phone_number": "97371797",
-            "guardian_password": "1NWQ5ay4",
             "absence_count": 0,
-            "total_unpaid": 0.0,
-            "guardian_identifier": "عبد العزيز-طقوقي-97371797"
+            "total_unpaid": 0,
+            "guardian_id": 33
         },
         {
-            "id": 86,
+            "student_id": 86,
             "name": "آدم",
             "surname": "طقوقي",
             "educational_level": "5 ابتدائي",
-            "entry_date": "2025-08-19",
-            "guardian_name": "عبد العزيز",
-            "guardian_surname": "طقوقي",
-            "phone_number": "97371797",
-            "guardian_password": "1NWQ5ay4",
             "absence_count": 0,
-            "total_unpaid": 0.0,
-            "guardian_identifier": "عبد العزيز-طقوقي-97371797"
+            "total_unpaid": 0,
+            "guardian_id": 33
         },
         {
-            "id": 87,
+            "student_id": 87,
             "name": "عبد القادر",
             "surname": "كدوسي",
             "educational_level": "5 ابتدائي",
-            "entry_date": "2025-08-25",
-            "guardian_name": "حنان",
-            "guardian_surname": "كدوسي",
-            "phone_number": "92451382",
-            "guardian_password": "q3RB4Ir2",
             "absence_count": 0,
-            "total_unpaid": 0.0,
-            "guardian_identifier": "حنان-كدوسي-92451382"
+            "total_unpaid": 0,
+            "guardian_id": 59
         },
         {
-            "id": 88,
+            "student_id": 88,
             "name": "هناء",
             "surname": "صالحي",
             "educational_level": "7 أساسي",
-            "entry_date": "2025-08-22",
-            "guardian_name": "منى",
-            "guardian_surname": "صالحي",
-            "phone_number": "55300723",
-            "guardian_password": "k2KMWLPG",
             "absence_count": 0,
             "total_unpaid": 50.0,
-            "guardian_identifier": "منى-صالحي-55300723"
+            "guardian_id": 32
         }
     ],
     "guardians": [
         {
-            "identifier": "أميرة-عامري-54851396",
-            "guardian_name": "أميرة",
-            "guardian_surname": "عامري",
-            "phone_number": "54851396",
-            "password": "RiFN5xNl",
-            "children_count": 1,
-            "total_unpaid": 0.0
-        },
-        {
-            "identifier": "أماني-قدودة-22959665",
-            "guardian_name": "أماني",
-            "guardian_surname": "قدودة",
-            "phone_number": "22959665",
-            "password": "Cb15n2af",
-            "children_count": 2,
-            "total_unpaid": 100.0
-        },
-        {
-            "identifier": "نوال-مسعودي-42218267",
-            "guardian_name": "نوال",
-            "guardian_surname": "مسعودي",
-            "phone_number": "42218267",
-            "password": "DVS4vx78",
-            "children_count": 2,
-            "total_unpaid": 400.0
-        },
-        {
-            "identifier": "عبد السلام-جلالي-97867896",
-            "guardian_name": "عبد السلام",
-            "guardian_surname": "جلالي",
-            "phone_number": "97867896",
-            "password": "J8Vka1XC",
-            "children_count": 5,
-            "total_unpaid": 300.0
-        },
-        {
-            "identifier": "فاطمة-صالحي-97479829",
-            "guardian_name": "فاطمة",
-            "guardian_surname": "صالحي",
-            "phone_number": "97479829",
-            "password": "U6Rfl99r",
-            "children_count": 1,
-            "total_unpaid": 100.0
-        },
-        {
-            "identifier": "الناصر-صالحي-28083048",
-            "guardian_name": "الناصر",
-            "guardian_surname": "صالحي",
-            "phone_number": "28083048",
-            "password": "wshZK9oZ",
-            "children_count": 2,
-            "total_unpaid": 90.0
-        },
-        {
-            "identifier": "فاطمة-بوعلافي-53780865",
-            "guardian_name": "فاطمة",
-            "guardian_surname": "بوعلافي",
-            "phone_number": "53780865",
-            "password": "ADJKf229",
-            "children_count": 1,
-            "total_unpaid": 100.0
-        },
-        {
-            "identifier": "توفيق-صالحي-96627623",
-            "guardian_name": "توفيق",
-            "guardian_surname": "صالحي",
-            "phone_number": "96627623",
-            "password": "MDdk39zj",
-            "children_count": 2,
-            "total_unpaid": 100.0
-        },
-        {
-            "identifier": "هاجر-بوعلافي-94939646",
-            "guardian_name": "هاجر",
-            "guardian_surname": "بوعلافي",
-            "phone_number": "94939646",
-            "password": "17LVZkqW",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "ابتسام-جلالي-97787207",
-            "guardian_name": "ابتسام",
-            "guardian_surname": "جلالي",
-            "phone_number": "97787207",
-            "password": "b8wN6t7X",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "قيس-مسعودي-90723023",
-            "guardian_name": "قيس",
-            "guardian_surname": "مسعودي",
-            "phone_number": "90723023",
-            "password": "8hlAeolj",
-            "children_count": 1,
-            "total_unpaid": 30.0
-        },
-        {
-            "identifier": "عائشة-أم هاني-99722424",
-            "guardian_name": "عائشة",
-            "guardian_surname": "أم هاني",
-            "phone_number": "99722424",
-            "password": "8eAQfWwf",
-            "children_count": 2,
-            "total_unpaid": 80.0
-        },
-        {
-            "identifier": "لطيّف-كرمودي-97636826",
-            "guardian_name": "لطيّف",
-            "guardian_surname": "كرمودي",
-            "phone_number": "97636826",
-            "password": "6IMZXnYM",
-            "children_count": 2,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "رفيقة-قادري-46282024",
-            "guardian_name": "رفيقة",
-            "guardian_surname": "قادري",
-            "phone_number": "46282024",
-            "password": "5Kfz55A2",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "ذهبية-عايدي-96200112",
-            "guardian_name": "ذهبية",
-            "guardian_surname": "عايدي",
-            "phone_number": "96200112",
-            "password": "EoQFW3yD",
-            "children_count": 1,
-            "total_unpaid": 100.0
-        },
-        {
-            "identifier": "ياسين-جريدي-97033725",
-            "guardian_name": "ياسين",
-            "guardian_surname": "جريدي",
-            "phone_number": "97033725",
-            "password": "0rwu3xR6",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "بسمة-أم هاني-93603062",
+            "guardian_id": 1,
             "guardian_name": "بسمة",
             "guardian_surname": "أم هاني",
             "phone_number": "93603062",
-            "password": "bdvalSjT",
             "children_count": 1,
-            "total_unpaid": 0.0
+            "total_unpaid": 0,
+            "password": "bdvalSjT"
         },
         {
-            "identifier": "لمين-شرف الدين-97917380",
-            "guardian_name": "لمين",
-            "guardian_surname": "شرف الدين",
-            "phone_number": "97917380",
-            "password": "FPl4zJeR",
-            "children_count": 2,
-            "total_unpaid": 0.0
-        },
-        {
-            "identifier": "مبروكة-قادري-93541955",
-            "guardian_name": "مبروكة",
-            "guardian_surname": "قادري",
-            "phone_number": "93541955",
-            "password": "ZWC0M0VF",
-            "children_count": 3,
-            "total_unpaid": 90.0
-        },
-        {
-            "identifier": "محمد الصغير-نصيري-96586727",
-            "guardian_name": "محمد الصغير",
-            "guardian_surname": "نصيري",
-            "phone_number": "96586727",
-            "password": "FwG61SWO",
-            "children_count": 1,
-            "total_unpaid": 0.0
-        },
-        {
-            "identifier": "نجيبة-زارعي-96158860",
-            "guardian_name": "نجيبة",
-            "guardian_surname": "زارعي",
-            "phone_number": "96158860",
-            "password": "6KSV85Cj",
-            "children_count": 3,
-            "total_unpaid": 0.0
-        },
-        {
-            "identifier": "علي-طقوقي-96079809",
-            "guardian_name": "علي",
-            "guardian_surname": "طقوقي",
-            "phone_number": "96079809",
-            "password": "OsfimfqI",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "مهدي-مسعودي-55071434",
-            "guardian_name": "مهدي",
-            "guardian_surname": "مسعودي",
-            "phone_number": "55071434",
-            "password": "UUDyVhmX",
-            "children_count": 1,
-            "total_unpaid": 100.0
-        },
-        {
-            "identifier": "محمد الصغير-زريبي-97551971",
-            "guardian_name": "محمد الصغير",
-            "guardian_surname": "زريبي",
-            "phone_number": "97551971",
-            "password": "x6Pc77vT",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "منوّر-مسعودي-97846999",
-            "guardian_name": "منوّر",
-            "guardian_surname": "مسعودي",
-            "phone_number": "97846999",
-            "password": "vDOk1v9g",
-            "children_count": 1,
-            "total_unpaid": 100.0
-        },
-        {
-            "identifier": "نجاة-قادري-99479759",
-            "guardian_name": "نجاة",
-            "guardian_surname": "قادري",
-            "phone_number": "99479759",
-            "password": "qddjfEaW",
-            "children_count": 1,
-            "total_unpaid": 100.0
-        },
-        {
-            "identifier": "حياة-جلالي-99810230",
-            "guardian_name": "حياة",
-            "guardian_surname": "جلالي",
-            "phone_number": "99810230",
-            "password": "52G1QAtQ",
-            "children_count": 1,
-            "total_unpaid": 100.0
-        },
-        {
-            "identifier": "مليكة-جلالي-29003581",
-            "guardian_name": "مليكة",
-            "guardian_surname": "جلالي",
-            "phone_number": "29003581",
-            "password": "JPe119Rx",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "أحمد-كحلي-94767084",
-            "guardian_name": "أحمد",
-            "guardian_surname": "كحلي",
-            "phone_number": "94767084",
-            "password": "E9prQdw7",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "بسمة-عبيدي-99722377",
-            "guardian_name": "بسمة",
-            "guardian_surname": "عبيدي",
-            "phone_number": "99722377",
-            "password": "Td6SVNy5",
-            "children_count": 1,
-            "total_unpaid": 0.0
-        },
-        {
-            "identifier": "منى-زريبي-95222949",
-            "guardian_name": "منى",
-            "guardian_surname": "زريبي",
-            "phone_number": "95222949",
-            "password": "R9ojbqYl",
-            "children_count": 2,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "مبروكة-صالحي-97454029",
-            "guardian_name": "مبروكة",
-            "guardian_surname": "صالحي",
-            "phone_number": "97454029",
-            "password": "wuJDo9wq",
-            "children_count": 2,
-            "total_unpaid": 100.0
-        },
-        {
-            "identifier": "أم الزين-عبيدي-58128994",
-            "guardian_name": "أم الزين",
-            "guardian_surname": "عبيدي",
-            "phone_number": "58128994",
-            "password": "zVPc8xGT",
-            "children_count": 2,
-            "total_unpaid": 100.0
-        },
-        {
-            "identifier": "فتحية-عيوني-94110939",
-            "guardian_name": "فتحية",
-            "guardian_surname": "عيوني",
-            "phone_number": "94110939",
-            "password": "MUleHVt2",
-            "children_count": 1,
-            "total_unpaid": 200.0
-        },
-        {
-            "identifier": "طارق-زارعي-55495115",
-            "guardian_name": "طارق",
-            "guardian_surname": "زارعي",
-            "phone_number": "55495115",
-            "password": "BZakSTLP",
-            "children_count": 1,
-            "total_unpaid": 0.0
-        },
-        {
-            "identifier": "مريم-سليمي-99217475",
-            "guardian_name": "مريم",
-            "guardian_surname": "سليمي",
-            "phone_number": "99217475",
-            "password": "I08cnld7",
-            "children_count": 3,
-            "total_unpaid": 150.0
-        },
-        {
-            "identifier": "سالمة-قادري-94164277",
-            "guardian_name": "سالمة",
-            "guardian_surname": "قادري",
-            "phone_number": "94164277",
-            "password": "Wh0laYKU",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "إيناس-قادري-57248410",
-            "guardian_name": "إيناس",
-            "guardian_surname": "قادري",
-            "phone_number": "57248410",
-            "password": "6wQaFkMu",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "محمد-قادري-98386709",
-            "guardian_name": "محمد",
-            "guardian_surname": "قادري",
-            "phone_number": "98386709",
-            "password": "FCPFG2CQ",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "نزيهة-عبدلي-96285780",
-            "guardian_name": "نزيهة",
-            "guardian_surname": "عبدلي",
-            "phone_number": "96285780",
-            "password": "lqieDJwZ",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "حسن-أم هاني-22618045",
+            "guardian_id": 2,
             "guardian_name": "حسن",
             "guardian_surname": "أم هاني",
             "phone_number": "22618045",
-            "password": "tWnoYZZi",
             "children_count": 1,
-            "total_unpaid": 50.0
+            "total_unpaid": 50.0,
+            "password": "tWnoYZZi"
         },
         {
-            "identifier": "سفيان-جابلي-97483694",
-            "guardian_name": "سفيان",
-            "guardian_surname": "جابلي",
-            "phone_number": "97483694",
-            "password": "i6rqQu1Z",
-            "children_count": 1,
-            "total_unpaid": 50.0
+            "guardian_id": 3,
+            "guardian_name": "عائشة",
+            "guardian_surname": "أم هاني",
+            "phone_number": "99722424",
+            "children_count": 2,
+            "total_unpaid": 80.0,
+            "password": "8eAQfWwf"
         },
         {
-            "identifier": "تفاحة-زريبي-96445731",
-            "guardian_name": "تفاحة",
-            "guardian_surname": "زريبي",
-            "phone_number": "96445731",
-            "password": "CdB1yglv",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "صافيا-صالحي-92037064",
-            "guardian_name": "صافيا",
-            "guardian_surname": "صالحي",
-            "phone_number": "92037064",
-            "password": "1dxTgRt6",
-            "children_count": 1,
-            "total_unpaid": 40.0
-        },
-        {
-            "identifier": "عبد القادر-فالحي-90485808",
-            "guardian_name": "عبد القادر",
-            "guardian_surname": "فالحي",
-            "phone_number": "90485808",
-            "password": "VLWhTtSd",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "نهال-قادري-20109555",
-            "guardian_name": "نهال",
-            "guardian_surname": "قادري",
-            "phone_number": "20109555",
-            "password": "aOVSxBsN",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "كريمة-عامري-55560997",
-            "guardian_name": "كريمة",
-            "guardian_surname": "عامري",
-            "phone_number": "55560997",
-            "password": "MDzyydnX",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "عماد-عيوني-97689005",
-            "guardian_name": "عماد",
-            "guardian_surname": "عيوني",
-            "phone_number": "97689005",
-            "password": "5OWAK07i",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "رياض-زريبي-50433140",
-            "guardian_name": "رياض",
-            "guardian_surname": "زريبي",
-            "phone_number": "50433140",
-            "password": "FlplqIt0",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "بدر الدين-قادري-23509750",
-            "guardian_name": "بدر الدين",
-            "guardian_surname": "قادري",
-            "phone_number": "23509750",
-            "password": "LB4BZiIO",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "أحمد-خليفي-29069649",
-            "guardian_name": "أحمد",
-            "guardian_surname": "خليفي",
-            "phone_number": "29069649",
-            "password": "iCJ3jICA",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "فتحي-صالحي-94259396",
-            "guardian_name": "فتحي",
-            "guardian_surname": "صالحي",
-            "phone_number": "94259396",
-            "password": "RNCa7gh0",
-            "children_count": 1,
-            "total_unpaid": 40.0
-        },
-        {
-            "identifier": "أحلام-كحلي-52446848",
-            "guardian_name": "أحلام",
-            "guardian_surname": "كحلي",
-            "phone_number": "52446848",
-            "password": "ttx6l8vv",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "النوّي-كدوسي-97915970",
-            "guardian_name": "النوّي",
-            "guardian_surname": "كدوسي",
-            "phone_number": "97915970",
-            "password": "Au3SxGpd",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "محسن-زريبي-96371474",
-            "guardian_name": "محسن",
-            "guardian_surname": "زريبي",
-            "phone_number": "96371474",
-            "password": "z1iytFb7",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "ونيسة-عايدي-98106627",
-            "guardian_name": "ونيسة",
-            "guardian_surname": "عايدي",
-            "phone_number": "98106627",
-            "password": "RJ5Siijb",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "نصيب-زارعي-53295236",
-            "guardian_name": "نصيب",
-            "guardian_surname": "زارعي",
-            "phone_number": "53295236",
-            "password": "lW8gonaj",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "مسعود-غنادرة-52390362",
-            "guardian_name": "مسعود",
-            "guardian_surname": "غنادرة",
-            "phone_number": "52390362",
-            "password": "G27PXd9k",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "عمار-جلالي-98283943",
-            "guardian_name": "عمار",
-            "guardian_surname": "جلالي",
-            "phone_number": "98283943",
-            "password": "qwdzTpIs",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "فوزي-قادري-97946651",
-            "guardian_name": "فوزي",
-            "guardian_surname": "قادري",
-            "phone_number": "97946651",
-            "password": "EMSrmxKt",
-            "children_count": 1,
-            "total_unpaid": 50.0
-        },
-        {
-            "identifier": "عائدة-بحيري-55877284",
+            "guardian_id": 4,
             "guardian_name": "عائدة",
             "guardian_surname": "بحيري",
             "phone_number": "55877284",
-            "password": "6XR2OBzt",
             "children_count": 1,
-            "total_unpaid": 50.0
+            "total_unpaid": 50.0,
+            "password": "6XR2OBzt"
         },
         {
-            "identifier": "منير-حاجي-98725398",
+            "guardian_id": 5,
+            "guardian_name": "فاطمة",
+            "guardian_surname": "بوعلافي",
+            "phone_number": "53780865",
+            "children_count": 1,
+            "total_unpaid": 100.0,
+            "password": "ADJKf229"
+        },
+        {
+            "guardian_id": 6,
+            "guardian_name": "هاجر",
+            "guardian_surname": "بوعلافي",
+            "phone_number": "94939646",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "17LVZkqW"
+        },
+        {
+            "guardian_id": 7,
+            "guardian_name": "سفيان",
+            "guardian_surname": "جابلي",
+            "phone_number": "97483694",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "i6rqQu1Z"
+        },
+        {
+            "guardian_id": 8,
+            "guardian_name": "ياسين",
+            "guardian_surname": "جريدي",
+            "phone_number": "97033725",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "0rwu3xR6"
+        },
+        {
+            "guardian_id": 9,
+            "guardian_name": "ابتسام",
+            "guardian_surname": "جلالي",
+            "phone_number": "97787207",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "b8wN6t7X"
+        },
+        {
+            "guardian_id": 10,
+            "guardian_name": "حياة",
+            "guardian_surname": "جلالي",
+            "phone_number": "99810230",
+            "children_count": 1,
+            "total_unpaid": 100.0,
+            "password": "52G1QAtQ"
+        },
+        {
+            "guardian_id": 11,
+            "guardian_name": "عبد السلام",
+            "guardian_surname": "جلالي",
+            "phone_number": "97867896",
+            "children_count": 5,
+            "total_unpaid": 300.0,
+            "password": "J8Vka1XC"
+        },
+        {
+            "guardian_id": 12,
+            "guardian_name": "عمار",
+            "guardian_surname": "جلالي",
+            "phone_number": "98283943",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "qwdzTpIs"
+        },
+        {
+            "guardian_id": 13,
+            "guardian_name": "مليكة",
+            "guardian_surname": "جلالي",
+            "phone_number": "29003581",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "JPe119Rx"
+        },
+        {
+            "guardian_id": 14,
             "guardian_name": "منير",
             "guardian_surname": "حاجي",
             "phone_number": "98725398",
-            "password": "TbvEVgye",
             "children_count": 1,
-            "total_unpaid": 50.0
+            "total_unpaid": 50.0,
+            "password": "TbvEVgye"
         },
         {
-            "identifier": "عبد العزيز-طقوقي-97371797",
-            "guardian_name": "عبد العزيز",
-            "guardian_surname": "طقوقي",
-            "phone_number": "97371797",
-            "password": "1NWQ5ay4",
+            "guardian_id": 15,
+            "guardian_name": "أحمد",
+            "guardian_surname": "خليفي",
+            "phone_number": "29069649",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "iCJ3jICA"
+        },
+        {
+            "guardian_id": 16,
+            "guardian_name": "طارق",
+            "guardian_surname": "زارعي",
+            "phone_number": "55495115",
+            "children_count": 1,
+            "total_unpaid": 0,
+            "password": "BZakSTLP"
+        },
+        {
+            "guardian_id": 17,
+            "guardian_name": "نجيبة",
+            "guardian_surname": "زارعي",
+            "phone_number": "96158860",
             "children_count": 3,
-            "total_unpaid": 0.0
+            "total_unpaid": 0,
+            "password": "6KSV85Cj"
         },
         {
-            "identifier": "حنان-كدوسي-92451382",
-            "guardian_name": "حنان",
-            "guardian_surname": "كدوسي",
-            "phone_number": "92451382",
-            "password": "q3RB4Ir2",
+            "guardian_id": 18,
+            "guardian_name": "نصيب",
+            "guardian_surname": "زارعي",
+            "phone_number": "53295236",
             "children_count": 1,
-            "total_unpaid": 0.0
+            "total_unpaid": 50.0,
+            "password": "lW8gonaj"
         },
         {
-            "identifier": "منى-صالحي-55300723",
+            "guardian_id": 19,
+            "guardian_name": "تفاحة",
+            "guardian_surname": "زريبي",
+            "phone_number": "96445731",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "CdB1yglv"
+        },
+        {
+            "guardian_id": 20,
+            "guardian_name": "رياض",
+            "guardian_surname": "زريبي",
+            "phone_number": "50433140",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "FlplqIt0"
+        },
+        {
+            "guardian_id": 21,
+            "guardian_name": "محسن",
+            "guardian_surname": "زريبي",
+            "phone_number": "96371474",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "z1iytFb7"
+        },
+        {
+            "guardian_id": 22,
+            "guardian_name": "محمد الصغير",
+            "guardian_surname": "زريبي",
+            "phone_number": "97551971",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "x6Pc77vT"
+        },
+        {
+            "guardian_id": 23,
+            "guardian_name": "منى",
+            "guardian_surname": "زريبي",
+            "phone_number": "95222949",
+            "children_count": 2,
+            "total_unpaid": 50.0,
+            "password": "R9ojbqYl"
+        },
+        {
+            "guardian_id": 24,
+            "guardian_name": "مريم",
+            "guardian_surname": "سليمي",
+            "phone_number": "99217475",
+            "children_count": 3,
+            "total_unpaid": 150.0,
+            "password": "I08cnld7"
+        },
+        {
+            "guardian_id": 25,
+            "guardian_name": "لمين",
+            "guardian_surname": "شرف الدين",
+            "phone_number": "97917380",
+            "children_count": 2,
+            "total_unpaid": 0,
+            "password": "FPl4zJeR"
+        },
+        {
+            "guardian_id": 26,
+            "guardian_name": "الناصر",
+            "guardian_surname": "صالحي",
+            "phone_number": "28083048",
+            "children_count": 2,
+            "total_unpaid": 90.0,
+            "password": "wshZK9oZ"
+        },
+        {
+            "guardian_id": 27,
+            "guardian_name": "توفيق",
+            "guardian_surname": "صالحي",
+            "phone_number": "96627623",
+            "children_count": 2,
+            "total_unpaid": 100.0,
+            "password": "MDdk39zj"
+        },
+        {
+            "guardian_id": 28,
+            "guardian_name": "صافيا",
+            "guardian_surname": "صالحي",
+            "phone_number": "92037064",
+            "children_count": 1,
+            "total_unpaid": 40.0,
+            "password": "1dxTgRt6"
+        },
+        {
+            "guardian_id": 29,
+            "guardian_name": "فاطمة",
+            "guardian_surname": "صالحي",
+            "phone_number": "97479829",
+            "children_count": 1,
+            "total_unpaid": 100.0,
+            "password": "U6Rfl99r"
+        },
+        {
+            "guardian_id": 30,
+            "guardian_name": "فتحي",
+            "guardian_surname": "صالحي",
+            "phone_number": "94259396",
+            "children_count": 1,
+            "total_unpaid": 40.0,
+            "password": "RNCa7gh0"
+        },
+        {
+            "guardian_id": 31,
+            "guardian_name": "مبروكة",
+            "guardian_surname": "صالحي",
+            "phone_number": "97454029",
+            "children_count": 2,
+            "total_unpaid": 100.0,
+            "password": "wuJDo9wq"
+        },
+        {
+            "guardian_id": 32,
             "guardian_name": "منى",
             "guardian_surname": "صالحي",
             "phone_number": "55300723",
-            "password": "k2KMWLPG",
             "children_count": 1,
-            "total_unpaid": 50.0
+            "total_unpaid": 50.0,
+            "password": "k2KMWLPG"
+        },
+        {
+            "guardian_id": 33,
+            "guardian_name": "عبد العزيز",
+            "guardian_surname": "طقوقي",
+            "phone_number": "97371797",
+            "children_count": 3,
+            "total_unpaid": 0,
+            "password": "1NWQ5ay4"
+        },
+        {
+            "guardian_id": 34,
+            "guardian_name": "علي",
+            "guardian_surname": "طقوقي",
+            "phone_number": "96079809",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "OsfimfqI"
+        },
+        {
+            "guardian_id": 35,
+            "guardian_name": "أميرة",
+            "guardian_surname": "عامري",
+            "phone_number": "54851396",
+            "children_count": 1,
+            "total_unpaid": 0,
+            "password": "RiFN5xNl"
+        },
+        {
+            "guardian_id": 36,
+            "guardian_name": "كريمة",
+            "guardian_surname": "عامري",
+            "phone_number": "55560997",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "MDzyydnX"
+        },
+        {
+            "guardian_id": 37,
+            "guardian_name": "ذهبية",
+            "guardian_surname": "عايدي",
+            "phone_number": "96200112",
+            "children_count": 1,
+            "total_unpaid": 100.0,
+            "password": "EoQFW3yD"
+        },
+        {
+            "guardian_id": 38,
+            "guardian_name": "ونيسة",
+            "guardian_surname": "عايدي",
+            "phone_number": "98106627",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "RJ5Siijb"
+        },
+        {
+            "guardian_id": 39,
+            "guardian_name": "نزيهة",
+            "guardian_surname": "عبدلي",
+            "phone_number": "96285780",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "lqieDJwZ"
+        },
+        {
+            "guardian_id": 40,
+            "guardian_name": "أم الزين",
+            "guardian_surname": "عبيدي",
+            "phone_number": "58128994",
+            "children_count": 2,
+            "total_unpaid": 100.0,
+            "password": "zVPc8xGT"
+        },
+        {
+            "guardian_id": 41,
+            "guardian_name": "بسمة",
+            "guardian_surname": "عبيدي",
+            "phone_number": "99722377",
+            "children_count": 1,
+            "total_unpaid": 0,
+            "password": "Td6SVNy5"
+        },
+        {
+            "guardian_id": 42,
+            "guardian_name": "عماد",
+            "guardian_surname": "عيوني",
+            "phone_number": "97689005",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "5OWAK07i"
+        },
+        {
+            "guardian_id": 43,
+            "guardian_name": "فتحية",
+            "guardian_surname": "عيوني",
+            "phone_number": "94110939",
+            "children_count": 1,
+            "total_unpaid": 200.0,
+            "password": "MUleHVt2"
+        },
+        {
+            "guardian_id": 44,
+            "guardian_name": "مسعود",
+            "guardian_surname": "غنادرة",
+            "phone_number": "52390362",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "G27PXd9k"
+        },
+        {
+            "guardian_id": 45,
+            "guardian_name": "عبد القادر",
+            "guardian_surname": "فالحي",
+            "phone_number": "90485808",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "VLWhTtSd"
+        },
+        {
+            "guardian_id": 46,
+            "guardian_name": "إيناس",
+            "guardian_surname": "قادري",
+            "phone_number": "57248410",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "6wQaFkMu"
+        },
+        {
+            "guardian_id": 47,
+            "guardian_name": "بدر الدين",
+            "guardian_surname": "قادري",
+            "phone_number": "23509750",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "LB4BZiIO"
+        },
+        {
+            "guardian_id": 48,
+            "guardian_name": "رفيقة",
+            "guardian_surname": "قادري",
+            "phone_number": "46282024",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "5Kfz55A2"
+        },
+        {
+            "guardian_id": 49,
+            "guardian_name": "سالمة",
+            "guardian_surname": "قادري",
+            "phone_number": "94164277",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "Wh0laYKU"
+        },
+        {
+            "guardian_id": 50,
+            "guardian_name": "فوزي",
+            "guardian_surname": "قادري",
+            "phone_number": "97946651",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "EMSrmxKt"
+        },
+        {
+            "guardian_id": 51,
+            "guardian_name": "مبروكة",
+            "guardian_surname": "قادري",
+            "phone_number": "93541955",
+            "children_count": 3,
+            "total_unpaid": 90.0,
+            "password": "ZWC0M0VF"
+        },
+        {
+            "guardian_id": 52,
+            "guardian_name": "محمد",
+            "guardian_surname": "قادري",
+            "phone_number": "98386709",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "FCPFG2CQ"
+        },
+        {
+            "guardian_id": 53,
+            "guardian_name": "نجاة",
+            "guardian_surname": "قادري",
+            "phone_number": "99479759",
+            "children_count": 1,
+            "total_unpaid": 100.0,
+            "password": "qddjfEaW"
+        },
+        {
+            "guardian_id": 54,
+            "guardian_name": "نهال",
+            "guardian_surname": "قادري",
+            "phone_number": "20109555",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "aOVSxBsN"
+        },
+        {
+            "guardian_id": 55,
+            "guardian_name": "أماني",
+            "guardian_surname": "قدودة",
+            "phone_number": "22959665",
+            "children_count": 2,
+            "total_unpaid": 100.0,
+            "password": "Cb15n2af"
+        },
+        {
+            "guardian_id": 56,
+            "guardian_name": "أحلام",
+            "guardian_surname": "كحلي",
+            "phone_number": "52446848",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "ttx6l8vv"
+        },
+        {
+            "guardian_id": 57,
+            "guardian_name": "أحمد",
+            "guardian_surname": "كحلي",
+            "phone_number": "94767084",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "E9prQdw7"
+        },
+        {
+            "guardian_id": 58,
+            "guardian_name": "النوّي",
+            "guardian_surname": "كدوسي",
+            "phone_number": "97915970",
+            "children_count": 1,
+            "total_unpaid": 50.0,
+            "password": "Au3SxGpd"
+        },
+        {
+            "guardian_id": 59,
+            "guardian_name": "حنان",
+            "guardian_surname": "كدوسي",
+            "phone_number": "92451382",
+            "children_count": 1,
+            "total_unpaid": 0,
+            "password": "q3RB4Ir2"
+        },
+        {
+            "guardian_id": 60,
+            "guardian_name": "لطيّف",
+            "guardian_surname": "كرمودي",
+            "phone_number": "97636826",
+            "children_count": 2,
+            "total_unpaid": 50.0,
+            "password": "6IMZXnYM"
+        },
+        {
+            "guardian_id": 61,
+            "guardian_name": "قيس",
+            "guardian_surname": "مسعودي",
+            "phone_number": "90723023",
+            "children_count": 1,
+            "total_unpaid": 30.0,
+            "password": "8hlAeolj"
+        },
+        {
+            "guardian_id": 62,
+            "guardian_name": "منوّر",
+            "guardian_surname": "مسعودي",
+            "phone_number": "97846999",
+            "children_count": 1,
+            "total_unpaid": 100.0,
+            "password": "vDOk1v9g"
+        },
+        {
+            "guardian_id": 63,
+            "guardian_name": "مهدي",
+            "guardian_surname": "مسعودي",
+            "phone_number": "55071434",
+            "children_count": 1,
+            "total_unpaid": 100.0,
+            "password": "UUDyVhmX"
+        },
+        {
+            "guardian_id": 64,
+            "guardian_name": "نوال",
+            "guardian_surname": "مسعودي",
+            "phone_number": "42218267",
+            "children_count": 2,
+            "total_unpaid": 400.0,
+            "password": "DVS4vx78"
+        },
+        {
+            "guardian_id": 65,
+            "guardian_name": "محمد الصغير",
+            "guardian_surname": "نصيري",
+            "phone_number": "96586727",
+            "children_count": 1,
+            "total_unpaid": 0,
+            "password": "FwG61SWO"
         }
     ],
     "schedule": [
         {
-            "id": 1,
             "day_of_week": "الإثنين",
             "time_slot": "08:00 - 10:00",
             "educational_level": "9 أساسي",
@@ -1817,15 +1380,6 @@
             "student_names": null
         },
         {
-            "id": 2,
-            "day_of_week": "الثلاثاء",
-            "time_slot": "10:00 - 12:00",
-            "educational_level": "8 أساسي",
-            "class_type": "general",
-            "student_names": null
-        },
-        {
-            "id": 3,
             "day_of_week": "الإثنين",
             "time_slot": "10:00 - 12:00",
             "educational_level": "1 ثانوي",
@@ -1833,252 +1387,163 @@
             "student_names": null
         },
         {
-            "id": 4,
-            "day_of_week": "الثلاثاء",
-            "time_slot": "08:00 - 10:00",
-            "educational_level": "7 أساسي",
-            "class_type": "general",
-            "student_names": null
-        },
-        {
-            "id": 5,
-            "day_of_week": "الأربعاء",
-            "time_slot": "08:00 - 10:00",
-            "educational_level": "7 أساسي",
-            "class_type": "general",
-            "student_names": null
-        },
-        {
-            "id": 6,
-            "day_of_week": "الأربعاء",
-            "time_slot": "10:00 - 12:00",
-            "educational_level": "8 أساسي",
-            "class_type": "general",
-            "student_names": null
-        },
-        {
-            "id": 7,
-            "day_of_week": "الخميس",
-            "time_slot": "08:00 - 10:00",
-            "educational_level": "7 أساسي",
-            "class_type": "general",
-            "student_names": null
-        },
-        {
-            "id": 8,
-            "day_of_week": "الخميس",
-            "time_slot": "10:00 - 12:00",
-            "educational_level": "8 أساسي",
-            "class_type": "general",
-            "student_names": null
-        },
-        {
-            "id": 9,
-            "day_of_week": "الجمعة",
-            "time_slot": "08:00 - 10:00",
-            "educational_level": "7 أساسي",
-            "class_type": "general",
-            "student_names": null
-        },
-        {
-            "id": 10,
-            "day_of_week": "السبت",
-            "time_slot": "08:00 - 10:00",
-            "educational_level": "9 أساسي",
-            "class_type": "general",
-            "student_names": null
-        },
-        {
-            "id": 11,
-            "day_of_week": "الجمعة",
-            "time_slot": "10:00 - 12:00",
-            "educational_level": "8 أساسي",
-            "class_type": "general",
-            "student_names": null
-        },
-        {
-            "id": 12,
-            "day_of_week": "السبت",
-            "time_slot": "10:00 - 12:00",
-            "educational_level": "1 ثانوي",
-            "class_type": "general",
-            "student_names": null
-        },
-        {
-            "id": 13,
-            "day_of_week": "الأحد",
-            "time_slot": "08:00 - 10:00",
-            "educational_level": "9 أساسي",
-            "class_type": "general",
-            "student_names": null
-        },
-        {
-            "id": 14,
-            "day_of_week": "الأحد",
-            "time_slot": "10:00 - 12:00",
-            "educational_level": "1 ثانوي",
-            "class_type": "general",
-            "student_names": null
-        },
-        {
-            "id": 15,
-            "day_of_week": "الأحد",
-            "time_slot": "18:00 - 20:00",
-            "educational_level": "2 ث علوم",
-            "class_type": "general",
-            "student_names": null
-        },
-        {
-            "id": 16,
-            "day_of_week": "الإثنين",
-            "time_slot": "18:00 - 20:00",
-            "educational_level": "2 ث علوم",
-            "class_type": "general",
-            "student_names": null
-        },
-        {
-            "id": 17,
-            "day_of_week": "الثلاثاء",
-            "time_slot": "16:00 - 18:00",
-            "educational_level": "7 أساسي",
-            "class_type": "private",
-            "student_names": "أمين مسعودي,أحمد عايدي"
-        },
-        {
-            "id": 18,
-            "day_of_week": "الأربعاء",
-            "time_slot": "16:00 - 18:00",
-            "educational_level": "7 أساسي",
-            "class_type": "private",
-            "student_names": "أمين مسعودي,أحمد عايدي"
-        },
-        {
-            "id": 19,
-            "day_of_week": "الخميس",
-            "time_slot": "16:00 - 18:00",
-            "educational_level": "7 أساسي",
-            "class_type": "private",
-            "student_names": "أمين مسعودي,أحمد عايدي"
-        },
-        {
-            "id": 20,
-            "day_of_week": "الجمعة",
-            "time_slot": "16:00 - 18:00",
-            "educational_level": "7 أساسي",
-            "class_type": "private",
-            "student_names": "أمين مسعودي,أحمد عايدي"
-        },
-        {
-            "id": 21,
-            "day_of_week": "الثلاثاء",
-            "time_slot": "14:00 - 16:00",
-            "educational_level": "8 أساسي",
-            "class_type": "private",
-            "student_names": "ريّان حاجي"
-        },
-        {
-            "id": 22,
-            "day_of_week": "الخميس",
-            "time_slot": "14:00 - 16:00",
-            "educational_level": "8 أساسي",
-            "class_type": "private",
-            "student_names": "ريّان حاجي"
-        },
-        {
-            "id": 23,
-            "day_of_week": "السبت",
-            "time_slot": "14:00 - 16:00",
-            "educational_level": "8 أساسي",
-            "class_type": "private",
-            "student_names": "ريّان حاجي"
-        },
-        {
-            "id": 24,
             "day_of_week": "الإثنين",
             "time_slot": "16:00 - 18:00",
             "educational_level": "6 ابتدائي",
             "class_type": "general",
             "student_names": null
+        },
+        {
+            "day_of_week": "الإثنين",
+            "time_slot": "18:00 - 20:00",
+            "educational_level": "2 ث علوم",
+            "class_type": "general",
+            "student_names": null
+        },
+        {
+            "day_of_week": "الثلاثاء",
+            "time_slot": "08:00 - 10:00",
+            "educational_level": "7 أساسي",
+            "class_type": "general",
+            "student_names": null
+        },
+        {
+            "day_of_week": "الثلاثاء",
+            "time_slot": "10:00 - 12:00",
+            "educational_level": "8 أساسي",
+            "class_type": "general",
+            "student_names": null
+        },
+        {
+            "day_of_week": "الثلاثاء",
+            "time_slot": "14:00 - 16:00",
+            "educational_level": "8 أساسي",
+            "class_type": "private",
+            "student_names": "ريّان حاجي"
+        },
+        {
+            "day_of_week": "الثلاثاء",
+            "time_slot": "16:00 - 18:00",
+            "educational_level": "7 أساسي",
+            "class_type": "private",
+            "student_names": "أمين مسعودي,أحمد عايدي"
+        },
+        {
+            "day_of_week": "الأربعاء",
+            "time_slot": "08:00 - 10:00",
+            "educational_level": "7 أساسي",
+            "class_type": "general",
+            "student_names": null
+        },
+        {
+            "day_of_week": "الأربعاء",
+            "time_slot": "10:00 - 12:00",
+            "educational_level": "8 أساسي",
+            "class_type": "general",
+            "student_names": null
+        },
+        {
+            "day_of_week": "الأربعاء",
+            "time_slot": "16:00 - 18:00",
+            "educational_level": "7 أساسي",
+            "class_type": "private",
+            "student_names": "أمين مسعودي,أحمد عايدي"
+        },
+        {
+            "day_of_week": "الخميس",
+            "time_slot": "08:00 - 10:00",
+            "educational_level": "7 أساسي",
+            "class_type": "general",
+            "student_names": null
+        },
+        {
+            "day_of_week": "الخميس",
+            "time_slot": "10:00 - 12:00",
+            "educational_level": "8 أساسي",
+            "class_type": "general",
+            "student_names": null
+        },
+        {
+            "day_of_week": "الخميس",
+            "time_slot": "14:00 - 16:00",
+            "educational_level": "8 أساسي",
+            "class_type": "private",
+            "student_names": "ريّان حاجي"
+        },
+        {
+            "day_of_week": "الخميس",
+            "time_slot": "16:00 - 18:00",
+            "educational_level": "7 أساسي",
+            "class_type": "private",
+            "student_names": "أمين مسعودي,أحمد عايدي"
+        },
+        {
+            "day_of_week": "الجمعة",
+            "time_slot": "08:00 - 10:00",
+            "educational_level": "7 أساسي",
+            "class_type": "general",
+            "student_names": null
+        },
+        {
+            "day_of_week": "الجمعة",
+            "time_slot": "10:00 - 12:00",
+            "educational_level": "8 أساسي",
+            "class_type": "general",
+            "student_names": null
+        },
+        {
+            "day_of_week": "الجمعة",
+            "time_slot": "16:00 - 18:00",
+            "educational_level": "7 أساسي",
+            "class_type": "private",
+            "student_names": "أمين مسعودي,أحمد عايدي"
+        },
+        {
+            "day_of_week": "السبت",
+            "time_slot": "08:00 - 10:00",
+            "educational_level": "9 أساسي",
+            "class_type": "general",
+            "student_names": null
+        },
+        {
+            "day_of_week": "السبت",
+            "time_slot": "10:00 - 12:00",
+            "educational_level": "1 ثانوي",
+            "class_type": "general",
+            "student_names": null
+        },
+        {
+            "day_of_week": "السبت",
+            "time_slot": "14:00 - 16:00",
+            "educational_level": "8 أساسي",
+            "class_type": "private",
+            "student_names": "ريّان حاجي"
+        },
+        {
+            "day_of_week": "الأحد",
+            "time_slot": "08:00 - 10:00",
+            "educational_level": "9 أساسي",
+            "class_type": "general",
+            "student_names": null
+        },
+        {
+            "day_of_week": "الأحد",
+            "time_slot": "10:00 - 12:00",
+            "educational_level": "1 ثانوي",
+            "class_type": "general",
+            "student_names": null
+        },
+        {
+            "day_of_week": "الأحد",
+            "time_slot": "18:00 - 20:00",
+            "educational_level": "2 ث علوم",
+            "class_type": "general",
+            "student_names": null
         }
     ],
-    "financial_overview": {
-        "total_overdue_amount": 750.0,
-        "overdue_payments": [
-            {
-                "student_name": "آدم جلالي",
-                "amount": 30.0,
-                "period_display": "03/07/2025 إلى 02/08/2025"
-            },
-            {
-                "student_name": "آدم صالحي",
-                "amount": 50.0,
-                "period_display": "01/07/2025 إلى 31/07/2025"
-            },
-            {
-                "student_name": "أمان الله جلالي",
-                "amount": 50.0,
-                "period_display": "26/07/2025 إلى 25/08/2025"
-            },
-            {
-                "student_name": "أمل صالحي",
-                "amount": 50.0,
-                "period_display": "29/07/2025 إلى 28/08/2025"
-            },
-            {
-                "student_name": "أميرة مسعودي",
-                "amount": 100.0,
-                "period_display": "01/07/2025 إلى 31/07/2025"
-            },
-            {
-                "student_name": "أمين مسعودي",
-                "amount": 100.0,
-                "period_display": "23/07/2025 إلى 22/08/2025"
-            },
-            {
-                "student_name": "تقي مسعودي",
-                "amount": 50.0,
-                "period_display": "25/07/2025 إلى 24/08/2025"
-            },
-            {
-                "student_name": "جود بوعلاقي",
-                "amount": 50.0,
-                "period_display": "07/07/2025 إلى 06/08/2025"
-            },
-            {
-                "student_name": "رنيم قادري",
-                "amount": 50.0,
-                "period_display": "25/07/2025 إلى 24/08/2025"
-            },
-            {
-                "student_name": "ريتاج جلالي",
-                "amount": 30.0,
-                "period_display": "25/07/2025 إلى 24/08/2025"
-            },
-            {
-                "student_name": "عائشة جلالي",
-                "amount": 30.0,
-                "period_display": "03/07/2025 إلى 02/08/2025"
-            },
-            {
-                "student_name": "فاطمة جلالي",
-                "amount": 30.0,
-                "period_display": "03/07/2025 إلى 02/08/2025"
-            },
-            {
-                "student_name": "مريم جلالي",
-                "amount": 30.0,
-                "period_display": "25/07/2025 إلى 24/08/2025"
-            },
-            {
-                "student_name": "هيثم قادري",
-                "amount": 50.0,
-                "period_display": "25/07/2025 إلى 24/08/2025"
-            },
-            {
-                "student_name": "يحي مسعودي",
-                "amount": 50.0,
-                "period_display": "29/07/2025 إلى 28/08/2025"
-            }
-        ]
+    "statistics": {
+        "total_students": 87,
+        "total_unpaid_overall": 750.0,
+        "active_guardian": 65
     }
 }
