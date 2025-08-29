@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوابة الولي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="guardian-portal">
+        <header class="portal-header">
+            <div>
+                <h1 id="welcome-message">مرحباً بك</h1>
+                <p>هنا يمكنك متابعة كل ما يخص أبناءك.</p>
+            </div>
+            <button id="logout-button" class="logout-btn">تسجيل الخروج</button>
+        </header>
+
+        <main>
+            <section id="children-section">
+                <h2>قائمة الأبناء</h2>
+                <div class="cards-container" id="children-container">
+                    </div>
+            </section>
+
+             <section id="schedule-section">
+                <h2>جدول الحصص العام</h2>
+                <div class="schedule-wrapper">
+                    <table class="schedule-table" id="schedule-container">
+                        </table>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="guardian_script.js"></script>
+</body>
+</html>
