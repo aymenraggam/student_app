@@ -111,7 +111,9 @@ function renderAllStudents(students) {
         card.innerHTML = `
             <h3>${student.name} ${student.surname}</h3>
             <p><strong>📚 المستوى:</strong> ${student.educational_level}</p>
-            <p><strong>👤 الولي:</strong> ${student.guardian_name} ${student.guardian_surname}</p>
+            <p><strong>👤 الولي:</strong> 
+                ${student.guardian_name && student.guardian_surname ? `${student.guardian_name} ${student.guardian_surname}` : 'غير متوفر'}
+            </p>
             <p><strong>📞 الهاتف:</strong> ${student.phone_number || 'غير متوفر'}</p>
             <p class="status-line">
                 <strong>❌ الغيابات:</strong> 
