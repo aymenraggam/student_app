@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fetchData();
 });
 
-// متغيرات لتخزين كل البيانات
+// تخزين كل البيانات
 let allData = {};
 const DAYS_ORDER = ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"];
 const TIME_SLOTS = ["08:00 - 10:00", "10:00 - 12:00", "12:00 - 14:00", "14:00 - 16:00", "16:00 - 18:00", "18:00 - 20:00", "20:00 - 22:00"];
@@ -14,133 +14,20 @@ async function fetchData() {
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         
         allData = await response.json();
-
-        document.getElementById('last-updated').textContent = allData.last_updated;
-        
-        // عرض كل الأقسام بالبيانات الجديدة
-        renderDashboard(allData.statistics);
-        renderStudents(allData.students);
-        renderGuardians(allData.guardians);
         renderSchedule(allData.schedule);
-
-        // ربط أحداث البحث بعد تحميل البيانات
-        document.getElementById('student-search-input').addEventListener('keyup', () => renderStudents(allData.students));
-        document.getElementById('guardian-search-input').addEventListener('keyup', () => renderGuardians(allData.guardians));
 
     } catch (error) {
         console.error("Could not fetch data:", error);
-        document.querySelector('.main-content').innerHTML = `<p style="color:red; text-align:center;">فشل تحميل البيانات. تأكد من تحديث وتصدير ملف data.json من البرنامج.</p>`;
+        document.querySelector('.main-content').innerHTML = 
+            `<p style="color:red; text-align:center;">فشل تحميل البيانات. تأكد من تحديث وتصدير ملف data.json من البرنامج.</p>`;
     }
 }
 
-// 1. عرض صفحة الإحصائيات
-function renderDashboard(stats) {
-    const container = document.getElementById('stats-container');
-    container.innerHTML = `
-        <div class="stat-card">
-            <div class="value">${stats.total_students}</div>
-            <div class="label">إجمالي الطلاب</div>
-        </div>
-        <div class="stat-card">
-            <div class="value">${stats.active_guardians}</div>
-            <div class="label">ولي نشط</div>
-        </div>
-        <div class="stat-card">
-            <div class="value" style="color: #dc3545;">${stats.total_unpaid_overall.toFixed(2)}</div>
-            <div class="label">د.ت (دفعات فائتة)</div>
-        </div>
-    `;
-}
-
-// 2. عرض الطلاب في بطاقات
-function renderStudents(students) {
-    const searchTerm = document.getElementById('student-search-input').value.toLowerCase();
-    const filteredStudents = students.filter(student => {
-        const fullName = `${student.name} ${student.surname}`.toLowerCase();
-        const guardianName = `${student.guardian_name} ${student.guardian_surname}`.toLowerCase();
-        return fullName.includes(searchTerm) || guardianName.includes(searchTerm);
-    });
-
-    const container = document.getElementById('students-container');
-    container.innerHTML = ''; 
-
-    if (filteredStudents.length === 0) {
-        container.innerHTML = `<p style="text-align:center;">لا يوجد طلاب مطابقون للبحث.</p>`;
-        return;
-    }
-
-    filteredStudents.forEach(student => {
-        const card = document.createElement('div');
-        card.className = 'student-card';
-        const absenceClass = student.absence_count > 0 ? 'unpaid' : 'no-absences';
-        const unpaidClass = student.total_unpaid > 0 ? 'unpaid' : 'no-absences';
-
-        card.innerHTML = `
-            <h2>${student.name} ${student.surname}</h2>
-            <div class="details">
-                <p><strong>المستوى:</strong> ${student.educational_level}</p>
-                <p><strong>الولي:</strong> ${student.guardian_name} ${student.guardian_surname}</p>
-                <p><strong>الهاتف:</strong> ${student.phone_number || 'غير مسجل'}</p>
-            </div>
-            <div class="status">
-                <div class="status-item">
-                    <div class="value ${unpaidClass}">${student.total_unpaid.toFixed(2)}</div>
-                    <div class="label">د.ت (غير خالص)</div>
-                </div>
-                <div class="status-item">
-                    <div class="value ${absenceClass}">${student.absence_count}</div>
-                    <div class="label">غيابات</div>
-                </div>
-            </div>
-        `;
-        container.appendChild(card);
-    });
-}
-
-// 3. عرض الأولياء في بطاقات
-function renderGuardians(guardians) {
-    const searchTerm = document.getElementById('guardian-search-input').value.toLowerCase();
-    const filteredGuardians = guardians.filter(g => {
-        const fullName = `${g.guardian_name} ${g.guardian_surname}`.toLowerCase();
-        return fullName.includes(searchTerm) || (g.phone_number && g.phone_number.includes(searchTerm));
-    });
-
-    const container = document.getElementById('guardians-container');
-    container.innerHTML = '';
-
-    if (filteredGuardians.length === 0) {
-        container.innerHTML = `<p style="text-align:center;">لا يوجد أولياء مطابقون للبحث.</p>`;
-        return;
-    }
-
-    filteredGuardians.forEach(g => {
-        const card = document.createElement('div');
-        card.className = 'student-card'; // Re-use student card style
-        const unpaidClass = g.total_unpaid > 0 ? 'unpaid' : 'no-absences';
-
-        card.innerHTML = `
-            <h2>${g.guardian_name} ${g.guardian_surname}</h2>
-            <div class="details">
-                 <p><strong>الهاتف:</strong> ${g.phone_number || 'غير مسجل'}</p>
-            </div>
-            <div class="status">
-                <div class="status-item">
-                    <div class="value">${g.children_count}</div>
-                    <div class="label">عدد الأبناء</div>
-                </div>
-                <div class="status-item">
-                    <div class="value ${unpaidClass}">${g.total_unpaid.toFixed(2)}</div>
-                    <div class="label">د.ت (غير خالص)</div>
-                </div>
-            </div>
-        `;
-        container.appendChild(card);
-    });
-}
-
-// 4. عرض جدول الحصص
+// 🗓️ عرض جدول الحصص
 function renderSchedule(scheduleData) {
     const container = document.getElementById('schedule-container');
+    if (!container) return;
+
     const scheduleGrid = {};
     TIME_SLOTS.forEach(time => {
         scheduleGrid[time] = {};
@@ -153,7 +40,7 @@ function renderSchedule(scheduleData) {
         }
     });
 
-    let tableHtml = '<div class="schedule-wrapper"><table class="schedule-table"><thead><tr><th>التوقيت</th>';
+    let tableHtml = '<thead><tr><th>التوقيت</th>';
     DAYS_ORDER.forEach(day => tableHtml += `<th>${day}</th>`);
     tableHtml += '</tr></thead><tbody>';
 
@@ -175,28 +62,53 @@ function renderSchedule(scheduleData) {
         tableHtml += '</tr>';
     });
 
-    tableHtml += '</tbody></table></div>';
+    tableHtml += '</tbody>';
     container.innerHTML = tableHtml;
 }
 
-// التحكم في عرض الصفحات
-function showPage(pageId, event) {
-    if (event) event.preventDefault(); // منع إعادة تحميل الصفحة
-    
-    // إخفاء كل الصفحات
-    document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
-    // إزالة الحالة النشطة من كل روابط التصفح
-    document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('active'));
+// 🔐 تسجيل الدخول
+function login(event) {
+    event.preventDefault();
 
-    // إظهار الصفحة المطلوبة
-    document.getElementById(`${pageId}-page`).classList.add('active');
-    // تفعيل الرابط المطلوب
-    const activeLink = document.querySelector(`.nav-link[onclick*="showPage('${pageId}'"]`);
-    if (activeLink) activeLink.classList.add('active');
+    const username = document.getElementById('username').value.trim();
+    const password = document.getElementById('password').value.trim();
 
-    // تحديث عنوان الصفحة
-    if (activeLink) {
-        document.getElementById('page-title').textContent = activeLink.textContent.replace(/📊|👥|👤|🗓️/g, '').trim();
+    // البحث في قائمة الأولياء
+    const guardian = allData.guardians.find(g => 
+        (g.phone_number === username || g.guardian_name === username) 
+        && g.password === password
+    );
+
+    if (guardian) {
+        document.getElementById('login-error').style.display = 'none';
+        showGuardianDashboard(guardian);
+    } else {
+        document.getElementById('login-error').style.display = 'block';
     }
 }
 
+// 👨‍👩‍👦 صفحة بيانات الولي وأبنائه
+function showGuardianDashboard(guardian) {
+    const container = document.querySelector('.main-content');
+    container.innerHTML = `
+        <header><h1>مرحبا ${guardian.guardian_name} ${guardian.guardian_surname}</h1></header>
+        
+        <div class="stat-card">
+            <p><strong>📞 الهاتف:</strong> ${guardian.phone_number}</p>
+            <p><strong>👨‍👩‍👦 عدد الأبناء:</strong> ${guardian.children_count}</p>
+            <p><strong>💰 إجمالي غير خالص:</strong> ${guardian.total_unpaid.toFixed(2)} د.ت</p>
+        </div>
+
+        <h2>أبناؤك:</h2>
+        <div class="cards-container">
+            ${allData.students.filter(s => s.guardian_id === guardian.guardian_id).map(student => `
+                <div class="student-card">
+                    <h2>${student.name} ${student.surname}</h2>
+                    <p><strong>📚 المستوى:</strong> ${student.educational_level}</p>
+                    <p><strong>❌ غيابات:</strong> ${student.absence_count}</p>
+                    <p><strong>💵 غير خالص:</strong> ${student.total_unpaid.toFixed(2)} د.ت</p>
+                </div>
+            `).join('')}
+        </div>
+    `;
+}
