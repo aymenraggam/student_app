@@ -1,233 +1,161 @@
-/* --- أنماط الهيكل الجديد --- */
-.page-container {
-    display: flex;
+/* --- إعدادات أساسية وخطوط --- */
+:root {
+    --primary-color: #0056b3;
+    --header-bg: #343a40;
+    --text-color: #333;
+    --background-color: #f4f7f6;
+    --card-bg: #ffffff;
+    --border-color: #dee2e6;
+    --danger-color: #dc3545;
+    --success-color: #28a745;
 }
 
-.sidebar {
-    width: 240px;
-    background-color: var(--header-bg);
-    color: white;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    direction: rtl;
+}
+
+/* --- الصفحة الرئيسية وتسجيل الدخول --- */
+.main-content {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.institution-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.institution-logo {
+    width: 120px;
+    height: 120px;
+}
+
+h1, h2 {
+    color: var(--header-bg);
+}
+
+.login-section, #schedule-section {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    margin-top: 2rem;
+}
+
+.login-section form {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    position: fixed;
-    right: 0;
-    top: 0;
+    gap: 1rem;
 }
 
-.sidebar-header {
-    padding: 20px;
-    text-align: center;
-    border-bottom: 1px solid #4a5157;
-}
-
-.nav-links {
-    list-style: none;
-    padding: 0;
-    margin: 20px 0;
-    flex-grow: 1;
-}
-
-.nav-link {
-    display: block;
-    color: #adb5bd;
-    padding: 15px 20px;
-    text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.nav-link:hover, .nav-link.active {
-    background-color: #495057;
-    color: white;
-}
-
-.sidebar-footer {
-    padding: 20px;
-    font-size: 0.8rem;
-    text-align: center;
-    border-top: 1px solid #4a5157;
-}
-
-.main-content {
-    margin-right: 240px; /* نفس عرض القائمة الجانبية */
-    width: calc(100% - 240px);
-    padding: 1.5rem;
-}
-
-.main-content header {
-    background-color: white;
-    padding: 1rem;
-    border-radius: 8px;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
-.main-content header h1 {
-    color: var(--text-color);
-}
-
-.page {
-    display: none;
-}
-.page.active {
-    display: block;
-}
-
-/* --- أنماط بطاقات الإحصائيات --- */
-.stats-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-.stat-card {
-    background-color: #fff;
-    padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    text-align: center;
-}
-
-.stat-card .value {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: var(--primary-color);
-}
-
-.stat-card .label {
+.login-section input {
+    padding: 12px;
     font-size: 1rem;
-    color: #6c757d;
-    margin-top: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.login-section button {
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-section button:hover {
+    background-color: #004494;
 }
 
 /* --- جدول الحصص --- */
 .schedule-wrapper {
     overflow-x: auto;
 }
-
 .schedule-table {
     width: 100%;
     border-collapse: collapse;
     text-align: center;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    font-size: 0.95rem;
 }
-
-.schedule-table th,
-.schedule-table td {
-    border: 1px solid #dee2e6;
-    padding: 10px;
-    vertical-align: middle;
+.schedule-table th, .schedule-table td {
+    border: 1px solid var(--border-color);
+    padding: 8px;
 }
-
 .schedule-table th {
-    background-color: #f8f9fa;
-    font-weight: bold;
-    color: #343a40;
-}
-
-.class-entry {
-    padding: 6px;
-    border-radius: 5px;
-}
-
-.class-entry.general-class {
-    background-color: #e9f7ef;
-    color: #155724;
-    font-weight: bold;
-}
-
-.class-entry.private-class {
-    background-color: #fcebea;
-    color: #721c24;
-    font-weight: bold;
-}
-
-.class-entry small {
-    display: block;
-    font-size: 0.8rem;
-    color: #555;
-    margin-top: 4px;
-}
-
-/* --- تحسين العرض على الهاتف --- */
-@media (max-width: 768px) {
-    .page-container {
-        flex-direction: column;
-    }
-
-    .sidebar {
-        position: relative;
-        width: 100%;
-        height: auto;
-    }
-
-    .main-content {
-        margin-right: 0;
-        width: 100%;
-    }
-
-    .stats-grid {
-        grid-template-columns: 1fr; /* بطاقة واحدة في الصف */
-    }
-
-    .schedule-table {
-        font-size: 0.8rem;
-    }
-
-    .schedule-table th,
-    .schedule-table td {
-        padding: 6px;
-    }
-}
-
-/* --- جدول الدفعات غير الخالصة في صفحة الولي --- */
-.unpaid-payments-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.unpaid-payments-table th, 
-.unpaid-payments-table td {
-    border: 1px solid #dee2e6;
-    padding: 12px;
-    text-align: right;
-}
-
-.unpaid-payments-table th {
-    background-color: #f8f9fa;
-    font-weight: bold;
-    color: #343a40;
-}
-
-.unpaid-payments-table tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+.class-entry.general-class { background-color: #e9f7ef; }
+.class-entry.private-class { background-color: #fcebea; }
+.class-entry small { font-size: 0.8em; color: #555; }
 
-/* --- رابط صفحة الإدارة في الصفحة الرئيسية --- */
-.management-link-wrapper {
-    text-align: center;
-    margin-top: 20px;
+/* --- صفحة بيانات الولي --- */
+.guardian-dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
 }
-
-.management-link-wrapper a {
-    color: #007BFF;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1em;
-    padding: 10px 20px;
-    border: 1px solid #007BFF;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.management-link-wrapper a:hover {
-    background-color: #007BFF;
+.logout-button {
+    background-color: var(--danger-color);
     color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.stat-card {
+    background-color: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+.stat-card .value {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.stat-card .label {
+    color: #6c757d;
+    margin-top: 0.5rem;
+}
+.stat-card .unpaid-value {
+    color: var(--danger-color);
+}
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+.student-card {
+    background-color: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    border-left: 5px solid var(--primary-color);
+}
+.student-card h3 {
+    margin-top: 0;
+}
+.status-line span {
+    font-weight: bold;
+}
+.status-line .has-absences, .status-line .is-unpaid {
+    color: var(--danger-color);
+    padding: 2px 6px;
+    background-color: #fddede;
+    border-radius: 4px;
 }
