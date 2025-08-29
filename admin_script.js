@@ -1,6 +1,6 @@
 // --- حماية بكلمة السر (لا تغيير هنا) ---
 const correctPassword = "admin";
-const enteredPassword = prompt("الرجاء إدخال كلمة سر الإدارة:", "fitourifitouri");
+const enteredPassword = prompt("الرجاء إدخال كلمة سر الإدارة:", "");
 
 if (enteredPassword !== correctPassword) {
     alert("كلمة السر خاطئة! لا يمكن الوصول.");
