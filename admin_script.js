@@ -38,48 +38,102 @@ async function fetchData() {
         // استدعاء جميع دوال العرض
         renderAllStudents(allData.students);
         renderSchedule(allData.schedule);
-        renderFinancialData(allData.financial_data);
+        renderStats();
+        renderFinancials(allData.financial_overview);
         
+        // عرض القسم الافتراضي (الطلاب)
+        showTab('students');
+
     } catch (error) {
-        console.error("Error fetching data:", error);
+        console.error("Could not fetch data:", error);
+        document.getElementById('students-container').innerHTML = `<p style="color:red; text-align:center;">فشل تحميل البيانات.</p>`;
     }
+}
+
+function renderStats() {
+    const statsBar = document.getElementById('stats-bar');
+    const totalStudents = allData.students.length;
+    const totalGuardians = allData.guardians.length;
+    let totalUnpaid = allData.students.reduce((sum, s) => sum + s.total_unpaid, 0);
+
+    statsBar.innerHTML = `
+        <span><strong>الطلاب:</strong> ${totalStudents}</span> | 
+        <span><strong>الأولياء:</strong> ${totalGuardians}</span> | 
+        <span><strong>إجمالي غير خالص:</strong> ${totalUnpaid.toFixed(2)} د.ت</span>
+    `;
+}
+
+function renderFinancials(financialData) {
+    if (!financialData) return;
+    
+    const totalAmountEl = document.getElementById('total-overdue-amount');
+    totalAmountEl.textContent = `${financialData.total_overdue_amount.toFixed(2)} د.ت`;
+
+    const tableBody = document.getElementById('overdue-payments-table');
+    tableBody.innerHTML = '';
+
+    if (financialData.overdue_payments.length === 0) {
+        tableBody.innerHTML = '<tr><td colspan="3" style="text-align:center;">لا توجد دفعات متأخرة حالياً.</td></tr>';
+        return;
+    }
+
+    financialData.overdue_payments.forEach(payment => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td>${payment.student_name}</td>
+            <td>${payment.period_display}</td>
+            <td class="amount-cell">${payment.amount.toFixed(2)}</td>
+        `;
+        tableBody.appendChild(row);
+    });
 }
 
 function renderAllStudents(students) {
     const container = document.getElementById('students-container');
     container.innerHTML = '';
-    // الكود الأصلي لعرض الطلاب
-    students.forEach(student => {
-        const studentCard = `
-            <div class="student-card">
-                <h3>${student.name} ${student.surname}</h3>
-                <p><strong>المستوى:</strong> ${student.educational_level}</p>
-                <p><strong>غياب:</strong> ${student.absence_count} حصة</p>
-                <p><strong>متأخرات:</strong> ${student.total_unpaid} د.ت</p>
-            </div>
+
+    if (!students || students.length === 0) {
+        container.innerHTML = '<p>لا يوجد طلاب لعرضهم.</p>';
+        return;
+    }
+    
+    const sortedStudents = [...students].sort((a, b) => {
+        if (a.surname < b.surname) return -1;
+        if (a.surname > b.surname) return 1;
+        if (a.name < b.name) return -1;
+        if (a.name > b.name) return 1;
+        return 0;
+    });
+
+    sortedStudents.forEach(student => {
+        const card = document.createElement('div');
+        card.className = 'student-card';
+        card.innerHTML = `
+            <h3>${student.name} ${student.surname}</h3>
+            <p><strong>📚 المستوى:</strong> ${student.educational_level}</p>
+            <p><strong>👤 الولي:</strong> ${student.guardian_name} ${student.guardian_surname}</p>
+            <p><strong>📞 الهاتف:</strong> ${student.phone_number || 'غير متوفر'}</p>
+            <p class="status-line">
+                <strong>❌ الغيابات:</strong> 
+                <span class="${student.absence_count > 0 ? 'has-absences' : ''}">${student.absence_count}</span>
+            </p>
+            <p class="status-line">
+                <strong>💵 غير خالص:</strong> 
+                <span class="${student.total_unpaid > 0 ? 'is-unpaid' : ''}">${student.total_unpaid.toFixed(2)} د.ت</span>
+            </p>
         `;
-        container.innerHTML += studentCard;
+        container.appendChild(card);
     });
 }
 
-function renderFinancialData(financialData) {
-    const overdueTable = document.getElementById('overdue-payments-table');
-    const totalAmountSpan = document.getElementById('total-overdue-amount');
-    let totalOverdue = 0;
-    overdueTable.innerHTML = '';
-    // الكود الأصلي لعرض البيانات المالية
-    financialData.forEach(item => {
-        const row = `
-            <tr>
-                <td>${item.student_name}</td>
-                <td>${item.period}</td>
-                <td>${item.amount} د.ت</td>
-            </tr>
-        `;
-        overdueTable.innerHTML += row;
-        totalOverdue += item.amount;
+function filterStudents() {
+    const searchTerm = document.getElementById('search-input').value.toLowerCase();
+    const filteredStudents = allData.students.filter(s => {
+        const fullName = `${s.name} ${s.surname}`.toLowerCase();
+        const guardianName = `${s.guardian_name} ${s.guardian_surname}`.toLowerCase();
+        return fullName.includes(searchTerm) || guardianName.includes(searchTerm);
     });
-    totalAmountSpan.textContent = `${totalOverdue.toFixed(2)} د.ت`;
+    renderAllStudents(filteredStudents);
 }
 
 function renderSchedule(scheduleData) {
@@ -109,7 +163,7 @@ function renderSchedule(scheduleData) {
             if (entry) {
                 const isPrivate = entry.class_type === 'private';
                 const studentsHtml = isPrivate && entry.student_names ? `<small>${entry.student_names.replace(/,/g, '<br>')}</small>` : '';
-                tableHtml += `<td><div class=\"class-entry ${isPrivate ? 'private-class' : 'general-class'}\">
+                tableHtml += `<td><div class="class-entry ${isPrivate ? 'private-class' : 'general-class'}">
                                 <strong>${entry.educational_level}</strong>
                                 ${studentsHtml}
                               </div></td>`;
