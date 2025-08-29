@@ -7,12 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <div class="admin-container">
         <header class="admin-header">
             <h1>لوحة تحكم الإدارة</h1>
-            <div id="stats-bar">
-                </div>
+            <div id="stats-bar"></div>
         </header>
 
         <main>
@@ -26,8 +24,7 @@
                 <div class="controls">
                     <input type="text" id="search-input" placeholder="ابحث بالاسم، اللقب، أو الولي..." onkeyup="filterStudents()">
                 </div>
-                <div class="cards-container" id="students-container">
-                    </div>
+                <div class="cards-container" id="students-container"></div>
             </div>
             
             <div id="financial-tab" class="tab-content">
@@ -43,21 +40,19 @@
                                 <th>المبلغ (د.ت)</th>
                             </tr>
                         </thead>
-                        <tbody id="overdue-payments-table">
-                            </tbody>
+                        <tbody id="overdue-payments-table"></tbody>
                     </table>
                 </div>
             </div>
 
             <div id="schedule-tab" class="tab-content">
                 <div class="schedule-wrapper">
-                    <table class="schedule-table" id="schedule-container">
-                        </table>
+                    <table class="schedule-table" id="schedule-container"></table>
                 </div>
             </div>
         </main>
     </div>
 
-    <script src="admin_script.js"></script>
+    <script src="admin_script.js?v=2.0"></script>
 </body>
 </html>
