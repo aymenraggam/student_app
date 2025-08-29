@@ -6,7 +6,6 @@ if (enteredPassword !== correctPassword) {
     alert("كلمة السر خاطئة! لا يمكن الوصول.");
     document.body.innerHTML = '<h1 style="text-align:center; color:red; margin-top: 50px;">وصول مرفوض</h1>';
 } else {
-    // تم تبسيط الكود: نقوم بتشغيل الدالة مباشرةً بعد إدخال كلمة السر
     initializeAdminPage();
 }
 // ------------------------------------
@@ -16,10 +15,7 @@ const DAYS_ORDER = ["الإثنين", "الثلاثاء", "الأربعاء", "�
 const TIME_SLOTS = ["08:00 - 10:00", "10:00 - 12:00", "12:00 - 14:00", "14:00 - 16:00", "16:00 - 18:00", "20:00 - 22:00"];
 
 function initializeAdminPage() {
-    // تم إزالة مستمع الحدث (event listener)
     fetchData();
-
-    // ربط الأزرار مباشرةً
     document.querySelectorAll('.tab-button').forEach(button => {
         button.addEventListener('click', function() {
             const tabId = this.getAttribute('onclick').match(/'(.*?)'/)[1];
@@ -34,11 +30,22 @@ async function fetchData() {
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         
         allData = await response.json();
+        
+        // ربط بيانات الأولياء بالطلاب
+        const studentsWithGuardians = allData.students.map(student => {
+            const guardian = allData.guardians.find(g => g.guardian_id === student.guardian_id);
+            return {
+                ...student,
+                guardian_name: guardian ? guardian.guardian_name : 'غير متوفر',
+                guardian_surname: guardian ? guardian.guardian_surname : '',
+                phone_number: guardian ? guardian.phone_number : 'غير متوفر'
+            };
+        });
 
         // استدعاء جميع دوال العرض
-        renderAllStudents(allData.students);
+        renderAllStudents(studentsWithGuardians);
         renderSchedule(allData.schedule);
-        renderStats();
+        renderStats(studentsWithGuardians);
         renderFinancials(allData.financial_overview);
         
         // عرض القسم الافتراضي (الطلاب)
@@ -50,11 +57,11 @@ async function fetchData() {
     }
 }
 
-function renderStats() {
+function renderStats(students) {
     const statsBar = document.getElementById('stats-bar');
-    const totalStudents = allData.students.length;
+    const totalStudents = students.length;
     const totalGuardians = allData.guardians.length;
-    let totalUnpaid = allData.students.reduce((sum, s) => sum + s.total_unpaid, 0);
+    let totalUnpaid = students.reduce((sum, s) => sum + s.total_unpaid, 0);
 
     statsBar.innerHTML = `
         <span><strong>الطلاب:</strong> ${totalStudents}</span> | 
@@ -111,9 +118,7 @@ function renderAllStudents(students) {
         card.innerHTML = `
             <h3>${student.name} ${student.surname}</h3>
             <p><strong>📚 المستوى:</strong> ${student.educational_level}</p>
-            <p><strong>👤 الولي:</strong> 
-                ${student.guardian_name && student.guardian_surname ? `${student.guardian_name} ${student.guardian_surname}` : 'غير متوفر'}
-            </p>
+            <p><strong>👤 الولي:</strong> ${student.guardian_name} ${student.guardian_surname}</p>
             <p><strong>📞 الهاتف:</strong> ${student.phone_number || 'غير متوفر'}</p>
             <p class="status-line">
                 <strong>❌ الغيابات:</strong> 
@@ -130,10 +135,20 @@ function renderAllStudents(students) {
 
 function filterStudents() {
     const searchTerm = document.getElementById('search-input').value.toLowerCase();
-    const filteredStudents = allData.students.filter(s => {
+    const studentsWithGuardians = allData.students.map(student => {
+        const guardian = allData.guardians.find(g => g.guardian_id === student.guardian_id);
+        return {
+            ...student,
+            guardian_name: guardian ? guardian.guardian_name : 'غير متوفر',
+            guardian_surname: guardian ? guardian.guardian_surname : '',
+            phone_number: guardian ? guardian.phone_number : 'غير متوفر'
+        };
+    });
+    
+    const filteredStudents = studentsWithGuardians.filter(s => {
         const fullName = `${s.name} ${s.surname}`.toLowerCase();
-        const guardianName = `${s.guardian_name} ${s.guardian_surname}`.toLowerCase();
-        return fullName.includes(searchTerm) || guardianName.includes(searchTerm);
+        const guardianFullName = `${s.guardian_name} ${s.guardian_surname}`.toLowerCase();
+        return fullName.includes(searchTerm) || guardianFullName.includes(searchTerm);
     });
     renderAllStudents(filteredStudents);
 }
