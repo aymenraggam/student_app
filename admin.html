@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة تحكم الإدارة</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="admin-container">
+        <header class="admin-header">
+            <h1>لوحة تحكم الإدارة</h1>
+            <div id="stats-bar">
+                </div>
+        </header>
+
+        <main>
+            <div class="tabs">
+                <button class="tab-button active" onclick="showTab('students')">قائمة الطلاب</button>
+                <button class="tab-button" onclick="showTab('financial')">الوضع المالي</button>
+                <button class="tab-button" onclick="showTab('schedule')">جدول الحصص</button>
+            </div>
+
+            <div id="students-tab" class="tab-content active">
+                <div class="controls">
+                    <input type="text" id="search-input" placeholder="ابحث بالاسم، اللقب، أو الولي..." onkeyup="filterStudents()">
+                </div>
+                <div class="cards-container" id="students-container">
+                    </div>
+            </div>
+            
+            <div id="financial-tab" class="tab-content">
+                <div class="financial-summary">
+                    <h2>إجمالي الدفعات المتأخرة: <span id="total-overdue-amount">0.00 د.ت</span></h2>
+                </div>
+                <div class="table-wrapper">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>اسم الطالب</th>
+                                <th>الفترة المتأخرة</th>
+                                <th>المبلغ (د.ت)</th>
+                            </tr>
+                        </thead>
+                        <tbody id="overdue-payments-table">
+                            </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="schedule-tab" class="tab-content">
+                <div class="schedule-wrapper">
+                    <table class="schedule-table" id="schedule-container">
+                        </table>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="admin_script.js"></script>
+</body>
+</html>
