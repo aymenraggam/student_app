@@ -1,0 +1,56 @@
+[
+  {
+    "id": 9,
+    "class_date": "2025-08-24",
+    "time_slot": "20:00 - 22:00",
+    "educational_level": "2 ث اقتصاد",
+    "class_type": "extra_general",
+    "replaced_class_id": null,
+    "student_ids": []
+  },
+  {
+    "id": 14,
+    "class_date": "2025-08-27",
+    "time_slot": "14:00 - 16:00",
+    "educational_level": "8 أساسي",
+    "class_type": "replacement_general",
+    "replaced_class_id": 21,
+    "student_ids": []
+  },
+  {
+    "id": 11,
+    "class_date": "2025-08-27",
+    "time_slot": "16:00 - 18:00",
+    "educational_level": "9 أساسي",
+    "class_type": "replacement_general",
+    "replaced_class_id": 1,
+    "student_ids": []
+  },
+  {
+    "id": 12,
+    "class_date": "2025-08-29",
+    "time_slot": "14:00 - 16:00",
+    "educational_level": "7 أساسي",
+    "class_type": "replacement_general",
+    "replaced_class_id": 20,
+    "student_ids": []
+  },
+  {
+    "id": 13,
+    "class_date": "2025-08-29",
+    "time_slot": "16:00 - 18:00",
+    "educational_level": "1 ثانوي",
+    "class_type": "replacement_general",
+    "replaced_class_id": 3,
+    "student_ids": []
+  },
+  {
+    "id": 16,
+    "class_date": "2025-08-30",
+    "time_slot": "16:00 - 18:00",
+    "educational_level": "7 أساسي",
+    "class_type": "replacement_general",
+    "replaced_class_id": 18,
+    "student_ids": []
+  }
+]

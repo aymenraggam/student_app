@@ -1,0 +1,536 @@
+[
+  {
+    "guardian_full_name": "بسمة أم هاني",
+    "phone_number": "93603062",
+    "student_ids": [
+      22
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "حسن أم هاني",
+    "phone_number": "22618045",
+    "student_ids": [
+      61
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "عائشة أم هاني",
+    "phone_number": "99722424",
+    "student_ids": [
+      16,
+      35
+    ],
+    "unpaid_total": 80.0
+  },
+  {
+    "guardian_full_name": "عائدة بحيري",
+    "phone_number": "55877284",
+    "student_ids": [
+      82
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "فاطمة بوعلافي",
+    "phone_number": "53780865",
+    "student_ids": [
+      7
+    ],
+    "unpaid_total": 100.0
+  },
+  {
+    "guardian_full_name": "هاجر بوعلافي",
+    "phone_number": "94939646",
+    "student_ids": [
+      10
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "سفيان جابلي",
+    "phone_number": "97483694",
+    "student_ids": [
+      62
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "ياسين جريدي",
+    "phone_number": "97033725",
+    "student_ids": [
+      21
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "ابتسام جلالي",
+    "phone_number": "97787207",
+    "student_ids": [
+      12
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "حياة جلالي",
+    "phone_number": "99810230",
+    "student_ids": [
+      38
+    ],
+    "unpaid_total": 100.0
+  },
+  {
+    "guardian_full_name": "عبد السلام جلالي",
+    "phone_number": "97867896",
+    "student_ids": [
+      4,
+      11,
+      15,
+      28,
+      37
+    ],
+    "unpaid_total": 300.0
+  },
+  {
+    "guardian_full_name": "عمار جلالي",
+    "phone_number": "98283943",
+    "student_ids": [
+      80
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "مليكة جلالي",
+    "phone_number": "29003581",
+    "student_ids": [
+      39
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "منير حاجي",
+    "phone_number": "98725398",
+    "student_ids": [
+      83
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "أحمد خليفي",
+    "phone_number": "29069649",
+    "student_ids": [
+      72
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "طارق زارعي",
+    "phone_number": "55495115",
+    "student_ids": [
+      53
+    ],
+    "unpaid_total": 0.0
+  },
+  {
+    "guardian_full_name": "نجيبة زارعي",
+    "phone_number": "96158860",
+    "student_ids": [
+      27,
+      43,
+      44
+    ],
+    "unpaid_total": 0.0
+  },
+  {
+    "guardian_full_name": "نصيب زارعي",
+    "phone_number": "53295236",
+    "student_ids": [
+      78
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "تفاحة زريبي",
+    "phone_number": "96445731",
+    "student_ids": [
+      64
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "رياض زريبي",
+    "phone_number": "50433140",
+    "student_ids": [
+      70
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "محسن زريبي",
+    "phone_number": "96371474",
+    "student_ids": [
+      76
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "محمد الصغير زريبي",
+    "phone_number": "97551971",
+    "student_ids": [
+      31
+    ],
+    "unpaid_total": 100.0
+  },
+  {
+    "guardian_full_name": "منى زريبي",
+    "phone_number": "95222949",
+    "student_ids": [
+      42,
+      51
+    ],
+    "unpaid_total": 100.0
+  },
+  {
+    "guardian_full_name": "مريم سليمي",
+    "phone_number": "99217475",
+    "student_ids": [
+      54,
+      55,
+      63
+    ],
+    "unpaid_total": 150.0
+  },
+  {
+    "guardian_full_name": "لمين شرف الدين",
+    "phone_number": "97917380",
+    "student_ids": [
+      23,
+      47
+    ],
+    "unpaid_total": 0.0
+  },
+  {
+    "guardian_full_name": "الناصر صالحي",
+    "phone_number": "28083048",
+    "student_ids": [
+      6,
+      52
+    ],
+    "unpaid_total": 90.0
+  },
+  {
+    "guardian_full_name": "توفيق صالحي",
+    "phone_number": "96627623",
+    "student_ids": [
+      9,
+      14
+    ],
+    "unpaid_total": 150.0
+  },
+  {
+    "guardian_full_name": "صافيا صالحي",
+    "phone_number": "92037064",
+    "student_ids": [
+      65
+    ],
+    "unpaid_total": 40.0
+  },
+  {
+    "guardian_full_name": "فاطمة صالحي",
+    "phone_number": "97479829",
+    "student_ids": [
+      5
+    ],
+    "unpaid_total": 100.0
+  },
+  {
+    "guardian_full_name": "فتحي صالحي",
+    "phone_number": "94259396",
+    "student_ids": [
+      73
+    ],
+    "unpaid_total": 40.0
+  },
+  {
+    "guardian_full_name": "مبروكة صالحي",
+    "phone_number": "97454029",
+    "student_ids": [
+      45,
+      46
+    ],
+    "unpaid_total": 100.0
+  },
+  {
+    "guardian_full_name": "عبد العزيز طقوقي",
+    "phone_number": "97371797",
+    "student_ids": [
+      84,
+      85,
+      86
+    ],
+    "unpaid_total": 0.0
+  },
+  {
+    "guardian_full_name": "علي طقوقي",
+    "phone_number": "96079809",
+    "student_ids": [
+      29
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "أميرة عامري",
+    "phone_number": "54851396",
+    "student_ids": [
+      1
+    ],
+    "unpaid_total": 0.0
+  },
+  {
+    "guardian_full_name": "كريمة عامري",
+    "phone_number": "55560997",
+    "student_ids": [
+      68
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "ذهبية عايدي",
+    "phone_number": "96200112",
+    "student_ids": [
+      20
+    ],
+    "unpaid_total": 100.0
+  },
+  {
+    "guardian_full_name": "ونيسة عايدي",
+    "phone_number": "98106627",
+    "student_ids": [
+      77
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "نزيهة عبدلي",
+    "phone_number": "96285780",
+    "student_ids": [
+      60
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "أم الزين عبيدي",
+    "phone_number": "58128994",
+    "student_ids": [
+      48,
+      49
+    ],
+    "unpaid_total": 100.0
+  },
+  {
+    "guardian_full_name": "بسمة عبيدي",
+    "phone_number": "99722377",
+    "student_ids": [
+      41
+    ],
+    "unpaid_total": 0.0
+  },
+  {
+    "guardian_full_name": "عماد عيوني",
+    "phone_number": "97689005",
+    "student_ids": [
+      69
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "فتحية عيوني",
+    "phone_number": "94110939",
+    "student_ids": [
+      50
+    ],
+    "unpaid_total": 200.0
+  },
+  {
+    "guardian_full_name": "مسعود غنادرة",
+    "phone_number": "52390362",
+    "student_ids": [
+      79
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "عبد القادر فالحي",
+    "phone_number": "90485808",
+    "student_ids": [
+      66
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "إيناس قادري",
+    "phone_number": "57248410",
+    "student_ids": [
+      57
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "بدر الدين قادري",
+    "phone_number": "23509750",
+    "student_ids": [
+      71
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "رفيقة قادري",
+    "phone_number": "46282024",
+    "student_ids": [
+      18
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "سالمة قادري",
+    "phone_number": "94164277",
+    "student_ids": [
+      56
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "فوزي قادري",
+    "phone_number": "97946651",
+    "student_ids": [
+      81
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "مبروكة قادري",
+    "phone_number": "93541955",
+    "student_ids": [
+      24,
+      25,
+      58
+    ],
+    "unpaid_total": 90.0
+  },
+  {
+    "guardian_full_name": "محمد قادري",
+    "phone_number": "98386709",
+    "student_ids": [
+      59
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "نجاة قادري",
+    "phone_number": "99479759",
+    "student_ids": [
+      36
+    ],
+    "unpaid_total": 100.0
+  },
+  {
+    "guardian_full_name": "نهال قادري",
+    "phone_number": "20109555",
+    "student_ids": [
+      67
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "أماني قدودة",
+    "phone_number": "22959665",
+    "student_ids": [
+      2,
+      8
+    ],
+    "unpaid_total": 100.0
+  },
+  {
+    "guardian_full_name": "أحلام كحلي",
+    "phone_number": "52446848",
+    "student_ids": [
+      74
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "أحمد كحولي",
+    "phone_number": "94767084",
+    "student_ids": [
+      40
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "النوّي كدوسي",
+    "phone_number": "97915970",
+    "student_ids": [
+      75
+    ],
+    "unpaid_total": 50.0
+  },
+  {
+    "guardian_full_name": "حنان كدوسي",
+    "phone_number": "92451382",
+    "student_ids": [
+      87
+    ],
+    "unpaid_total": 0.0
+  },
+  {
+    "guardian_full_name": "لطيّف كرمودي",
+    "phone_number": "97636826",
+    "student_ids": [
+      17,
+      33
+    ],
+    "unpaid_total": 100.0
+  },
+  {
+    "guardian_full_name": "قيس مسعودي",
+    "phone_number": "90723023",
+    "student_ids": [
+      13
+    ],
+    "unpaid_total": 30.0
+  },
+  {
+    "guardian_full_name": "منوّر مسعودي",
+    "phone_number": "97846999",
+    "student_ids": [
+      34
+    ],
+    "unpaid_total": 100.0
+  },
+  {
+    "guardian_full_name": "مهدي مسعودي",
+    "phone_number": "55071434",
+    "student_ids": [
+      30
+    ],
+    "unpaid_total": 100.0
+  },
+  {
+    "guardian_full_name": "نوال مسعودي",
+    "phone_number": "42218267",
+    "student_ids": [
+      3,
+      19
+    ],
+    "unpaid_total": 400.0
+  },
+  {
+    "guardian_full_name": "محمد الصغير نصيري",
+    "phone_number": "96586727",
+    "student_ids": [
+      26
+    ],
+    "unpaid_total": 0.0
+  }
+]
