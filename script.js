@@ -30,7 +30,7 @@ async function fetchData() {
 // 🗓️ عرض جدول الحصص
 function renderSchedule(scheduleData) {
     const container = document.getElementById('schedule-container');
-    if (!container || !scheduleData) return;
+    if (!container) return;
 
     const scheduleGrid = {};
     TIME_SLOTS.forEach(time => {
@@ -65,11 +65,6 @@ function renderSchedule(scheduleData) {
         });
         tableHtml += '</tr>';
     });
-
-    tableHtml += '</tbody>';
-    container.innerHTML = tableHtml;
-}
-
 // 🔐 تسجيل الدخول
 function login(event) {
     event.preventDefault();
@@ -152,3 +147,4 @@ function logout() {
     // ببساطة، إعادة تحميل الصفحة سيعيدك إلى شاشة تسجيل الدخول
     location.reload();
 }
+
