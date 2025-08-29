@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const guardian = JSON.parse(guardianData);
     displayGuardianInfo(guardian);
-    
+
     // ربط زر تسجيل الخروج
     document.getElementById('logout-button').addEventListener('click', () => {
         sessionStorage.removeItem('loggedInGuardian');
@@ -26,58 +26,86 @@ async function fetchAndDisplayChildren(guardianId) {
     try {
         const response = await fetch(`data.json?v=${new Date().getTime()}`);
         if (!response.ok) throw new Error('فشل تحميل البيانات');
-        
+
         const allData = await response.json();
-        
+
         // عرض جدول الحصص العام
         renderSchedule(allData.schedule);
 
         // فلترة الطلاب لإيجاد أبناء هذا الولي فقط
         const children = allData.students.filter(student => student.guardian_id === guardianId);
-        
+
         const container = document.getElementById('children-container');
         container.innerHTML = '';
 
         if (children.length === 0) {
-            container.innerHTML = '<p>لا يوجد أبناء مسجلون لهذا الولي.</p>';
+            container.innerHTML = '<p>لا يوجد أبناء مسجلين تحت هذا الحساب.</p>';
             return;
         }
 
-        children.forEach(student => {
-            const card = document.createElement('div');
-            card.className = 'student-card compact'; // استخدام تصميم مضغوط للبطاقة
-
-            const absenceClass = student.absence_count > 0 ? 'unpaid' : 'no-absences';
-            const unpaidClass = student.total_unpaid > 0 ? 'unpaid' : 'no-absences';
-
-            card.innerHTML = `
-                <h2>${student.name} ${student.surname}</h2>
-                <div class="details">
-                    <p><strong>المستوى:</strong> ${student.educational_level}</p>
+        children.forEach(child => {
+            const childCard = document.createElement('div');
+            childCard.className = 'student-card';
+            
+            // فلترة الدفعات المتأخرة لهذا الطفل
+            const childOverduePayments = allData.financial_overview.overdue_payments.filter(payment => payment.student_name === `${child.name} ${child.surname}`);
+            
+            childCard.innerHTML = `
+                <h3>${child.name} ${child.surname}</h3>
+                <p><strong>📚 المستوى:</strong> ${child.educational_level}</p>
+                <p><strong>❌ الغيابات:</strong> ${child.absence_count} حصة</p>
+                <p class="status-line">
+                    <strong>💵 غير خالص:</strong> 
+                    <span class="${child.total_unpaid > 0 ? 'is-unpaid' : ''}">${child.total_unpaid.toFixed(2)} د.ت</span>
+                </p>
+                <div class="financial-details" style="display: none;">
+                    <h4>الدفعات المتأخرة:</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>الفترة</th>
+                                <th>المبلغ (د.ت)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${childOverduePayments.map(p => `
+                                <tr>
+                                    <td>${p.period_display}</td>
+                                    <td>${p.amount.toFixed(2)}</td>
+                                </tr>
+                            `).join('')}
+                            ${childOverduePayments.length === 0 ? '<tr><td colspan="2">لا توجد دفعات متأخرة.</td></tr>' : ''}
+                        </tbody>
+                    </table>
                 </div>
-                <div class="status">
-                    <div class="status-item">
-                        <div class="value ${unpaidClass}">${student.total_unpaid.toFixed(2)}</div>
-                        <div class="label">د.ت (غير خالص)</div>
-                    </div>
-                    <div class="status-item">
-                        <div class="value ${absenceClass}">${student.absence_count}</div>
-                        <div class="label">غيابات</div>
-                    </div>
-                </div>
+                <button class="toggle-details-btn">إظهار التفاصيل</button>
             `;
-            container.appendChild(card);
+            container.appendChild(childCard);
+        });
+
+        // ربط زر إظهار التفاصيل
+        document.querySelectorAll('.toggle-details-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                const details = button.previousElementSibling;
+                if (details.style.display === 'none') {
+                    details.style.display = 'block';
+                    button.textContent = 'إخفاء التفاصيل';
+                } else {
+                    details.style.display = 'none';
+                    button.textContent = 'إظهار التفاصيل';
+                }
+            });
         });
 
     } catch (error) {
-        console.error(error);
-        document.getElementById('children-container').innerHTML = '<p style="color:red;">حدث خطأ أثناء عرض بيانات الأبناء.</p>';
+        console.error("فشل تحميل البيانات:", error);
+        document.getElementById('children-container').innerHTML = '<p style="color:red;">فشل تحميل بيانات الأبناء. يرجى المحاولة لاحقًا.</p>';
     }
 }
 
-// دالة عرض الجدول (مكررة من script.js لتعمل هنا أيضاً)
+// دالة عرض الجدول
 const DAYS_ORDER = ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"];
-const TIME_SLOTS = ["08:00 - 10:00", "10:00 - 12:00", "12:00 - 14:00", "14:00 - 16:00", "16:00 - 18:00", "18:00 - 20:00", "20:00 - 22:00"];
+const TIME_SLOTS = ["08:00 - 10:00", "10:00 - 12:00", "12:00 - 14:00", "14:00 - 16:00", "16:00 - 18:00", "20:00 - 22:00"];
 
 function renderSchedule(scheduleData) {
     const container = document.getElementById('schedule-container');
@@ -106,7 +134,7 @@ function renderSchedule(scheduleData) {
             const entry = scheduleGrid[time][day];
             if (entry) {
                 const isPrivate = entry.class_type === 'private';
-                 const studentsHtml = isPrivate && entry.student_names ? `<small>${entry.student_names.replace(/,/g, '<br>')}</small>` : '';
+                const studentsHtml = isPrivate && entry.student_names ? `<small>${entry.student_names.replace(/,/g, '<br>')}</small>` : '';
                 tbodyHtml += `<td><div class="class-entry ${isPrivate ? 'private-class' : 'general-class'}">
                                 <strong>${entry.educational_level}</strong>
                                 ${studentsHtml}
