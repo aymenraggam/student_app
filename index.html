@@ -8,36 +8,32 @@
 </head>
 <body>
     <main class="main-content">
-        <!-- شعار واسم المؤسسة -->
         <header class="institution-header">
             <img src="logo.png" alt="شعار المؤسسة" class="institution-logo">
             <h1>مؤسسة الصالحي للدعم والتدارك</h1>
+            <p id="last-updated" style="color: #555; font-size: 0.9rem;"></p>
         </header>
 
-        <!-- جدول الحصص -->
         <section id="schedule-section">
             <h2>جدول الحصص</h2>
             <div class="schedule-wrapper">
                 <table class="schedule-table" id="schedule-container">
-                    <!-- الجدول يتم ملؤه من script.js -->
-                </table>
+                    </table>
             </div>
         </section>
 
-        <!-- تسجيل الدخول للأولياء -->
         <section class="login-section">
             <h2>دخول الأولياء</h2>
-            <form onsubmit="login(event)">
+            <form id="login-form">
                 <input type="text" id="username" placeholder="اسم المستخدم أو الهاتف" required>
                 <input type="password" id="password" placeholder="كلمة السر" required>
                 <button type="submit">تسجيل الدخول</button>
             </form>
             <p id="login-error" style="color:red; display:none;">❌ خطأ في الدخول، تأكد من المعلومات.</p>
-            <p class="management-link-wrapper"><a href="management.html">صفحة الإدارة</a></p>
+            <p class="management-link-wrapper"><a href="admin.html">صفحة الإدارة</a></p>
         </section>
     </main>
 
     <script src="script.js"></script>
 </body>
 </html>
-
