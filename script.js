@@ -2,15 +2,16 @@ document.addEventListener('DOMContentLoaded', () => {
     fetchData();
 });
 
-// تخزين كل البيانات
+// متغير لتخزين كل البيانات بعد تحميلها
 let allData = {};
 const DAYS_ORDER = ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"];
-const TIME_SLOTS = ["08:00 - 10:00", "10:00 - 12:00", "12:00 - 14:00", "14:00 - 16:00", "16:00 - 18:00", "18:00 - 20:00", "20:00 - 22:00"];
+const TIME_SLOTS = ["08:00 - 10:00", "10:00 - 12:00", "12:00 - 14:00", "14:00 - 16:00", "16:00 - 18:00", "20:00 - 22:00"];
 
 // جلب البيانات من ملف JSON
 async function fetchData() {
     try {
-        const response = await fetch('data.json');
+        // إضافة متغير عشوائي لمنع المتصفح من استخدام النسخة القديمة (cache)
+        const response = await fetch(`data.json?v=${new Date().getTime()}`);
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         
         allData = await response.json();
@@ -19,14 +20,17 @@ async function fetchData() {
     } catch (error) {
         console.error("Could not fetch data:", error);
         document.querySelector('.main-content').innerHTML = 
-            `<p style="color:red; text-align:center;">فشل تحميل البيانات. تأكد من تحديث وتصدير ملف data.json من البرنامج.</p>`;
+            `<p style="color:red; text-align:center; font-size: 1.2rem;">
+                ❌ فشل تحميل البيانات. <br>
+                تأكد من تحديث وتصدير ملف data.json من البرنامج الرئيسي.
+            </p>`;
     }
 }
 
 // 🗓️ عرض جدول الحصص
 function renderSchedule(scheduleData) {
     const container = document.getElementById('schedule-container');
-    if (!container) return;
+    if (!container || !scheduleData) return;
 
     const scheduleGrid = {};
     TIME_SLOTS.forEach(time => {
@@ -72,72 +76,79 @@ function login(event) {
 
     const username = document.getElementById('username').value.trim();
     const password = document.getElementById('password').value.trim();
+    const loginError = document.getElementById('login-error');
+
+    if (!allData.guardians) {
+        loginError.textContent = 'بيانات الأولياء غير متوفرة. يرجى التصدير من جديد.';
+        loginError.style.display = 'block';
+        return;
+    }
 
     // البحث في قائمة الأولياء
     const guardian = allData.guardians.find(g => 
-    (g.phone_number === username || g.guardian_name === username) 
-    && g.password === password
+        (g.phone_number === username || g.guardian_name === username) 
+        && g.password === password
     );
 
     if (guardian) {
-        document.getElementById('login-error').style.display = 'none';
+        loginError.style.display = 'none';
         showGuardianDashboard(guardian);
     } else {
-        document.getElementById('login-error').style.display = 'block';
+        loginError.textContent = '❌ خطأ في الدخول، تأكد من المعلومات.';
+        loginError.style.display = 'block';
     }
 }
 
-// 👨‍👩‍👦 صفحة بيانات الولي وأبنائه (المحدثة)
+// 👨‍👩‍👦 عرض صفحة بيانات الولي وأبنائه (نسخة محسّنة)
 function showGuardianDashboard(guardian) {
     const container = document.querySelector('.main-content');
+    
+    // فلترة أبناء الولي المحدد فقط
+    const children = allData.students.filter(s => s.guardian_identifier === guardian.identifier);
 
-    // إنشاء الجزء الخاص بالولي (الهاتف، عدد الأبناء، إجمالي المستحقات)
-    let guardianHTML = `
-        <header><h1>مرحبا ${guardian.guardian_name} ${guardian.guardian_surname}</h1></header>
+    container.innerHTML = `
+        <header class="guardian-dashboard-header">
+            <h1>مرحباً، ${guardian.guardian_name} ${guardian.guardian_surname}</h1>
+            <button onclick="logout()" class="logout-button">تسجيل الخروج</button>
+        </header>
         
-        <div class="stat-card">
-            <p><strong>📞 الهاتف:</strong> ${guardian.phone_number}</p>
-            <p><strong>👨‍👩‍👦 عدد الأبناء:</strong> ${guardian.children.length}</p>
-            <p><strong>💰 إجمالي غير خالص:</strong> ${guardian.total_unpaid.toFixed(2)} د.ت</p>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="value">📞</div>
+                <div class="label">${guardian.phone_number}</div>
+            </div>
+            <div class="stat-card">
+                <div class="value">${guardian.children_count}</div>
+                <div class="label">عدد الأبناء</div>
+            </div>
+            <div class="stat-card">
+                <div class="value unpaid-value">${guardian.total_unpaid.toFixed(2)}</div>
+                <div class="label">إجمالي غير خالص (د.ت)</div>
+            </div>
         </div>
 
-        <h2>أبناؤك:</h2>
+        <h2>تفاصيل الأبناء:</h2>
         <div class="cards-container">
-            ${guardian.children.map(student => `
+            ${children.map(student => `
                 <div class="student-card">
-                    <h2>${student.name} ${student.surname}</h2>
+                    <h3>${student.name} ${student.surname}</h3>
                     <p><strong>📚 المستوى:</strong> ${student.educational_level}</p>
-                    <p><strong>❌ غيابات:</strong> ${student.absence_count}</p>
-                    <p><strong>💰 مستحقات غير خالصة:</strong> ${student.unpaid_amount.toFixed(2)} د.ت</p>
+                    <p class="status-line">
+                        <strong>❌ الغيابات:</strong> 
+                        <span class="${student.absence_count > 0 ? 'has-absences' : ''}">${student.absence_count}</span>
+                    </p>
+                    <p class="status-line">
+                        <strong>💵 غير خالص:</strong> 
+                        <span class="${student.total_unpaid > 0 ? 'is-unpaid' : ''}">${student.total_unpaid.toFixed(2)} د.ت</span>
+                    </p>
                 </div>
-            `).join('')}
+            `).join('') || '<p>لا يوجد أبناء مسجلون لهذا الولي.</p>'}
         </div>
     `;
-
-    // إضافة جدول الدفعات غير الخالصة
-    let unpaidPaymentsTable = `
-        <h2 style="margin-top: 30px;">فترة الدفعات التي ليست خالصة</h2>
-        <table class="unpaid-payments-table">
-            <thead>
-                <tr>
-                    <th>اسم الطالب</th>
-                    <th>فترة الدفعة</th>
-                    <th>المبلغ (د.ت)</th>
-                </tr>
-            </thead>
-            <tbody>
-                ${guardian.unpaid_payments.map(payment => `
-                    <tr>
-                        <td>${payment.student_name}</td>
-                        <td>${payment.payment_period}</td>
-                        <td>${payment.amount.toFixed(2)}</td>
-                    </tr>
-                `).join('')}
-            </tbody>
-        </table>
-    `;
-
-    container.innerHTML = guardianHTML + unpaidPaymentsTable;
 }
 
-
+// 🚪 تسجيل الخروج والعودة للصفحة الرئيسية
+function logout() {
+    // ببساطة، إعادة تحميل الصفحة سيعيدك إلى شاشة تسجيل الدخول
+    location.reload();
+}
