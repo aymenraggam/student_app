@@ -11,6 +11,11 @@
     <h1>مؤسسة الصالحي للدعم والتدارك</h1>
   </div>
 
+  <div class="links">
+    <a href="login.html">دخول الأولياء</a>
+    <a href="login.html?admin=1">دخول الإدارة</a>
+  </div>
+
   <h2>جدول الحصص</h2>
   <table id="schedule" class="timetable">
     <thead>
@@ -25,43 +30,12 @@
         <th>الأحد</th>
       </tr>
     </thead>
-    <tbody>
-      <!-- تملأ بالسكريبت -->
-    </tbody>
+    <tbody></tbody>
   </table>
 
+  <script src="schedule_script.js"></script>
   <script>
-    async function buildSchedule() {
-      const perm = await fetch("schedule_permanent.json").then(r=>r.json());
-      const temp = await fetch("schedule_temporary.json").then(r=>r.json());
-
-      // كل الأوقات الممكنة
-      const timeSlots = [...new Set(perm.map(c=>c.time_slot))].sort();
-
-      const days = ["الإثنين","الثلاثاء","الأربعاء","الخميس","الجمعة","السبت","الأحد"];
-
-      const tbody = document.querySelector("#schedule tbody");
-
-      timeSlots.forEach(slot=>{
-        const tr = document.createElement("tr");
-        tr.innerHTML = `<td>${slot}</td>`;
-        days.forEach(day=>{
-          const cell = document.createElement("td");
-          // ابحث عن حصة دائمة
-          const match = perm.find(c=>c.time_slot===slot && c.day_of_week===day);
-          if (match) cell.textContent = match.educational_level;
-          // أضف حصص مؤقتة إذا موجودة
-          const extra = temp.filter(c=>c.time_slot===slot && c.day_of_week===day);
-          if (extra.length) {
-            cell.style.background="#fffae0";
-            cell.textContent += " " + extra.map(e=>e.educational_level).join(",");
-          }
-          tr.appendChild(cell);
-        });
-        tbody.appendChild(tr);
-      });
-    }
-    buildSchedule();
+    buildSchedule("schedule");
   </script>
 </body>
 </html>
