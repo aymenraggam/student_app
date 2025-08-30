@@ -60,9 +60,7 @@ async function buildSchedule(tableId) {
   const legendItems = [
     { text: "حصة عامة", colorClass: "general" },
     { text: "حصة خاصة", colorClass: "private" },
-    { text: "حصة مؤقتة", colorClass: "temporary" },
-    { text: "حصة تعويضية", colorClass: "replacement" },
-    { text: "حصة إضافية", colorClass: "extra" }
+    { text: "حصة مؤقتة", colorClass: "temporary" }
   ];
   legendItems.forEach(item => {
     const legendItem = document.createElement("div");
@@ -73,3 +71,4 @@ async function buildSchedule(tableId) {
   // إضافة المفتاح بعد الجدول مباشرة
   document.querySelector(`#${tableId}`).after(legend);
 }
+
