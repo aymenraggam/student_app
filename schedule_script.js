@@ -20,13 +20,18 @@ async function buildSchedule(tableId) {
 
       // حصص دائمة
       const match = perm.find(c=>c.time_slot===slot && c.day_of_week===day);
-      if (match) cell.textContent = match.educational_level;
+      if (match) {
+        cell.textContent = match.educational_level;
+        cell.classList.add(match.class_type);
+      }
 
       // حصص إضافية / تعويضية
       const extra = temp.filter(c=>c.time_slot===slot && c.day_of_week===day);
       if (extra.length) {
-        cell.style.background="#fffae0";
-        cell.textContent += " " + extra.map(e=>e.educational_level).join(",");
+        cell.classList.add('temporary');
+        // يمكنك إضافة محتوى الخلية المؤقتة هنا
+        const extraText = extra.map(e => e.educational_level).join(",");
+        cell.innerHTML = `<span>${cell.textContent}</span><br><span class="extra-class">${extraText}</span>`;
       }
 
       tr.appendChild(cell);
@@ -34,3 +39,4 @@ async function buildSchedule(tableId) {
     tbody.appendChild(tr);
   });
 }
+
