@@ -10,7 +10,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -29,7 +29,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -48,7 +48,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -67,7 +67,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 100.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-07",
@@ -90,7 +90,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -109,7 +109,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -128,7 +128,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 60.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-07",
@@ -151,7 +151,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 100.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -170,7 +170,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 100.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-07",
@@ -193,7 +193,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -212,7 +212,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -231,7 +231,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -250,7 +250,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 60.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-07",
@@ -273,7 +273,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 60.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-07",
@@ -296,7 +296,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 60.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-07",
@@ -319,7 +319,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -338,7 +338,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 60.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-07",
@@ -361,7 +361,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 0.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": []
   },
   {
@@ -375,7 +375,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -394,7 +394,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 200.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -413,7 +413,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -432,7 +432,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -451,7 +451,7 @@
     "payment_generation_status": "suspended",
     "payment_count": 0,
     "unpaid_total": 0.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": []
   },
   {
@@ -465,7 +465,7 @@
     "payment_generation_status": "suspended",
     "payment_count": 0,
     "unpaid_total": 0.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": []
   },
   {
@@ -479,7 +479,7 @@
     "payment_generation_status": "suspended",
     "payment_count": 0,
     "unpaid_total": 0.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": []
   },
   {
@@ -493,7 +493,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 0.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": []
   },
   {
@@ -507,7 +507,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -526,7 +526,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -545,7 +545,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 100.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-07",
@@ -568,7 +568,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -587,7 +587,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -606,7 +606,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 0.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": []
   },
   {
@@ -620,7 +620,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 0.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": []
   },
   {
@@ -634,7 +634,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 40.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -653,7 +653,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 40.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -672,7 +672,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 100.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-07",
@@ -695,7 +695,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 0.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": []
   },
   {
@@ -709,7 +709,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 100.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-07",
@@ -732,7 +732,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 40.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -751,7 +751,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -770,7 +770,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 40.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -789,7 +789,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-07",
@@ -808,7 +808,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 0.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": []
   },
   {
@@ -822,7 +822,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -841,7 +841,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 0.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": []
   },
   {
@@ -855,7 +855,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 0.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": []
   },
   {
@@ -869,7 +869,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -888,7 +888,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 0.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": []
   },
   {
@@ -902,7 +902,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 100.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -921,7 +921,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -940,7 +940,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -959,7 +959,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -978,7 +978,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -997,7 +997,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1016,7 +1016,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1035,7 +1035,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1054,7 +1054,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1073,7 +1073,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1092,7 +1092,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1111,7 +1111,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1130,7 +1130,10 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [
+      "2025-08-30",
+      "2025-08-30"
+    ],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1149,7 +1152,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1168,7 +1171,7 @@
     "payment_generation_status": "suspended",
     "payment_count": 1,
     "unpaid_total": 0.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": []
   },
   {
@@ -1182,7 +1185,7 @@
     "payment_generation_status": "suspended",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-07",
@@ -1201,7 +1204,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1220,7 +1223,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1239,7 +1242,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1258,7 +1261,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1277,7 +1280,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1296,7 +1299,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1315,7 +1318,9 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 40.0,
-    "absence_count": 0,
+    "absence_count": [
+      "2025-08-30"
+    ],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1334,7 +1339,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 100.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-07",
@@ -1357,7 +1362,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1376,7 +1381,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1395,7 +1400,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1414,7 +1419,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 40.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1433,7 +1438,7 @@
     "payment_generation_status": "suspended",
     "payment_count": 0,
     "unpaid_total": 0.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": []
   },
   {
@@ -1447,7 +1452,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1466,7 +1471,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1485,7 +1490,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1504,7 +1509,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 200.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-07",
@@ -1527,7 +1532,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 200.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-07",
@@ -1550,7 +1555,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 100.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-07",
@@ -1573,7 +1578,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 30.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1592,7 +1597,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 100.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-07",
@@ -1615,7 +1620,7 @@
     "payment_generation_status": "suspended",
     "payment_count": 1,
     "unpaid_total": 0.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": []
   },
   {
@@ -1629,7 +1634,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": 0,
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
