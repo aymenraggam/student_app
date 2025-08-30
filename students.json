@@ -607,6 +607,26 @@
     "notes": ""
   },
   {
+    "id": 89,
+    "name": "محمد ياسين",
+    "surname": "سماري",
+    "educational_level": "8 أساسي",
+    "entry_date": "2025-08-30",
+    "guardian_full_name": "ونيسة عايدي",
+    "phone_number": "98106627",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "2025-08",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 77,
     "name": "يوسف",
     "surname": "سماري",
@@ -624,7 +644,7 @@
         "amount": 50.0
       }
     ],
-    "notes": ""
+    "notes": "يجب عليه المراجعة في المنزل"
   },
   {
     "id": 23,
@@ -1324,14 +1344,9 @@
     "phone_number": "93603062",
     "payment_generation_status": "active",
     "payment_count": 1,
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "2025-08",
-        "amount": 50.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -1724,5 +1739,4 @@
     ],
     "notes": ""
   }
-
 ]

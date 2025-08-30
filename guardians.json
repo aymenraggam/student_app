@@ -5,7 +5,7 @@
     "student_ids": [
       22
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "password": "799616"
   },
   {
@@ -352,9 +352,10 @@
     "guardian_full_name": "ونيسة عايدي",
     "phone_number": "98106627",
     "student_ids": [
-      77
+      77,
+      89
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "000742"
   },
   {
