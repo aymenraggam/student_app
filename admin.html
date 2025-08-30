@@ -1,85 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <title>لوحة الإدارة</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div id="admin-login" class="login-container">
-    <h2>تسجيل دخول الإدارة</h2>
-    <input type="password" id="admin-pass" placeholder="كلمة السر">
-    <button id="admin-btn">دخول</button>
-    <p id="admin-error" class="error-msg">❌ كلمة السر غير صحيحة</p>
-  </div>
-
-  <div id="admin-panel" style="display:none;">
-    <h2>مرحبا بالإدارة</h2>
-    <button id="logout-admin">🚪 خروج</button>
-    <div id="admin-content">
-        <main>
-            <div class="tabs">
-                <button class="tab-button active" onclick="showTab('students')">قائمة الطلاب</button>
-                <button class="tab-button" onclick="showTab('financial')">الوضع المالي</button>
-                <button class="tab-button" onclick="showTab('schedule')">جدول الحصص</button>
-            </div>
-
-            <div id="students-tab" class="tab-content active">
-                <div class="controls">
-                    <input type="text" id="search-input" placeholder="ابحث بالاسم، اللقب، أو الولي..." onkeyup="filterStudents()">
-                </div>
-                <div class="cards-container" id="students-container"></div>
-            </div>
-            
-            <div id="financial-tab" class="tab-content">
-                <div class="financial-summary">
-                    <h2>إجمالي الدفعات المتأخرة: <span id="total-overdue-amount">0.00 د.ت</span></h2>
-                </div>
-                <div class="table-wrapper">
-                    <table class="data-table">
-                        <thead>
-                            <tr>
-                                <th>اسم الطالب</th>
-                                <th>الفترة المتأخرة</th>
-                                <th>المبلغ (د.ت)</th>
-                            </tr>
-                        </thead>
-                        <tbody id="overdue-payments-table"></tbody>
-                    </table>
-                </div>
-            </div>
-
-            <div id="schedule-tab" class="tab-content">
-                <div class="schedule-wrapper">
-                    <table class="schedule-table" id="schedule-container"></table>
-                </div>
-            </div>
-        </main>
-    </div>
-
-    <script>
-        const correctPass = "aymenstam";
-        const storedAdmin = localStorage.getItem("adminLogged");
-    
-        if (storedAdmin === "true") {
-          document.getElementById("admin-login").style.display = "none";
-          document.getElementById("admin-panel").style.display = "block";
-        }
-    
-        document.getElementById("admin-btn").addEventListener("click", () => {
-          const inputPass = document.getElementById("admin-pass").value;
-          if (inputPass === correctPass) {
-            localStorage.setItem("adminLogged", "true");
-            location.reload();
-          } else {
-            document.getElementById("admin-error").style.display = "block";
-          }
-        });
-    
-        document.getElementById("logout-admin").addEventListener("click", () => {
-          localStorage.removeItem("adminLogged");
-          location.reload();
-        });
-    </script>
-  </body>
-  </html>
