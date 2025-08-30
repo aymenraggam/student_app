@@ -45,7 +45,49 @@
   <script src="guardian_script.js"></script>
   <script src="schedule_script.js"></script>
   <script>
-    buildSchedule("schedule");
+    <script>
+      // انتظر حتى يتم تحميل محتوى الصفحة بالكامل
+      document.addEventListener("DOMContentLoaded", async () => {
+          // قراءة بيانات الولي من ذاكرة الجلسة
+          const guardianData = sessionStorage.getItem("guardian");
+          if (!guardianData) {
+              // إذا لم يتم العثور على بيانات الولي، أعد التوجيه إلى صفحة تسجيل الدخول
+              window.location.href = "login.html"; // افترض أن اسم صفحة الدخول هو login.html
+              return;
+          }
+  
+          const guardian = JSON.parse(guardianData);
+  
+          // عرض اسم الولي وإجمالي الديون
+          document.getElementById("guardianName").innerText = `مرحباً، ${guardian.guardian_full_name}`;
+          document.getElementById("totalUnpaid").innerText = `${guardian.unpaid_total.toFixed(2)} دينار`;
+  
+          // جلب بيانات جميع الطلاب
+          const students = await fetch("students.json").then(res => res.json());
+          
+          // تصفية الطلاب للعثور على أبناء الولي الحالي
+          const children = students.filter(student => guardian.student_ids.includes(student.id));
+  
+          // الحصول على الجداول لتعبئتها
+          const childrenTable = document.getElementById("children").getElementsByTagName('tbody')[0];
+          const paymentsTable = document.getElementById("payments").getElementsByTagName('tbody')[0];
+  
+          // تعبئة جداول البيانات
+          children.forEach(student => {
+              // إضافة صف جديد لجدول الأبناء
+              let childRow = childrenTable.insertRow();
+              childRow.innerHTML = `<td>${student.name} ${student.surname}</td><td>${student.educational_level}</td><td>${student.unpaid_total.toFixed(2)}</td>`;
+  
+              // إضافة الدفعات غير الخالصة لهذا الطالب
+              student.unpaid_periods.forEach(payment => {
+                  let paymentRow = paymentsTable.insertRow();
+                  paymentRow.innerHTML = `<td>${payment.period}</td><td>${payment.amount.toFixed(2)}</td><td>${student.name}</td>`;
+              });
+          });
+          
+          // بناء جدول الحصص (هذا السطر موجود بالفعل)
+          buildSchedule("schedule");
+      });
   </script>
 </body>
 </html>
