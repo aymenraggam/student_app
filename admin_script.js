@@ -7,16 +7,17 @@ if (location.pathname.endsWith("admin.html")) {
     const levelMap = {};
     levels.forEach(l => levelMap[String(l.id)] = l.name);
 
-    // حساب اجمالي الدفعات (الفائتة + الغير خالصة)
-    let totalDue = 0;
-    const today = new Date();
-
-    students.forEach(s => {
-      (s.unpaid_payments || []).forEach(p => {
-        // كل الدفعات غير المدفوعة نعتبرها
-        totalDue += Number(p.amount) || 0;
+// جلب ملف statistics.json وعرض المبلغ
+    fetch('statistics.json')
+      .then(response => response.json())
+      .then(data => {
+        const totalUnpaidAmount = data.total_overdue_unpaid_amount;
+        document.getElementById('totalUnpaid').textContent = `${totalUnpaidAmount} د.ت`;
+      })
+      .catch(error => {
+        console.error('Error fetching statistics:', error);
+        document.getElementById('totalUnpaid').textContent = 'لا توجد بيانات متاحة';
       });
-    });
 
     document.getElementById("totalUnpaid").innerText = totalDue;
 
