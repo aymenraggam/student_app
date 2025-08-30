@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>تسجيل دخول الولي</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>تسجيل دخول الولي</h2>
+    <form id="login-form">
+      <label>رقم الهاتف:</label>
+      <input type="text" id="phone" required>
+
+      <label>كلمة السر:</label>
+      <input type="password" id="password" required>
+
+      <button type="submit">دخول</button>
+    </form>
+    <p id="login-error" class="error-msg">❌ بيانات غير صحيحة</p>
+  </div>
+
+  <script>
+    document.getElementById("login-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const phone = document.getElementById("phone").value.trim();
+      const password = document.getElementById("password").value.trim();
+
+      const res = await fetch("guardians.json");
+      const guardians = await res.json();
+
+      const guardian = guardians.find(g => g.phone_number === phone && g.password === password);
+
+      if (guardian) {
+        localStorage.setItem("guardian", JSON.stringify(guardian));
+        window.location.href = "guardian_portal.html";
+      } else {
+        document.getElementById("login-error").style.display = "block";
+      }
+    });
+  </script>
+</body>
+</html>
