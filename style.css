@@ -43,3 +43,25 @@ tr:nth-child(even) { background:#f2f2f2; }
 .extra {
   background-color: #e3f2fd; /* أزرق فاتح للإضافية */
 }
+
+/* مفتاح الألوان - يضاف أسفل الجدول */
+.legend {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px; /* للحفاظ على المسافة بين اللون والنص في اتجاه RTL */
+  border: 1px solid #ccc;
+}
