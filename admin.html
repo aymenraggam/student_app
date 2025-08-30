@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>لوحة تحكم الإدارة</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>لوحة الإدارة</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="admin-container">
-        <header class="admin-header">
-            <h1>لوحة تحكم الإدارة</h1>
-            <div id="stats-bar"></div>
-        </header>
+  <div id="admin-login" class="login-container">
+    <h2>تسجيل دخول الإدارة</h2>
+    <input type="password" id="admin-pass" placeholder="كلمة السر">
+    <button id="admin-btn">دخول</button>
+    <p id="admin-error" class="error-msg">❌ كلمة السر غير صحيحة</p>
+  </div>
 
+  <div id="admin-panel" style="display:none;">
+    <h2>مرحبا بالإدارة</h2>
+    <button id="logout-admin">🚪 خروج</button>
+    <div id="admin-content">
         <main>
             <div class="tabs">
                 <button class="tab-button active" onclick="showTab('students')">قائمة الطلاب</button>
