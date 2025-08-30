@@ -122,6 +122,15 @@
     "password": "379495"
   },
   {
+    "guardian_full_name": "نور الدين جلالي",
+    "phone_number": "21000887",
+    "student_ids": [
+      88
+    ],
+    "unpaid_total": 50.0,
+    "password": "473271"
+  },
+  {
     "guardian_full_name": "منير حاجي",
     "phone_number": "98725398",
     "student_ids": [
