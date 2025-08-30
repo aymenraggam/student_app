@@ -1130,10 +1130,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": [
-      "2025-08-30",
-      "2025-08-30"
-    ],
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1318,9 +1315,7 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 40.0,
-    "absence_count": [
-      "2025-08-30"
-    ],
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
@@ -1643,3 +1638,4 @@
     ]
   }
 ]
+
