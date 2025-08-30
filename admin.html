@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>لوحة الإدارة</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script>
+    if (!sessionStorage.getItem("admin")) {
+      window.location = "login.html";
+    }
+  </script>
+
+  <h2>لوحة الإدارة</h2>
+  <p>إجمالي الدفعات غير الخالصة: <span id="totalUnpaid"></span></p>
+
+  <input type="text" id="search" placeholder="ابحث...">
+
+  <h3>قائمة الطلبة</h3>
+  <table id="students"><tbody></tbody></table>
+
+  <h3>قائمة الأولياء</h3>
+  <table id="guardians"><tbody></tbody></table>
+
+  <h3>جدول الحصص</h3>
+  <table id="schedule" class="timetable">
+    <thead>
+      <tr>
+        <th>التوقيت</th>
+        <th>الإثنين</th>
+        <th>الثلاثاء</th>
+        <th>الأربعاء</th>
+        <th>الخميس</th>
+        <th>الجمعة</th>
+        <th>السبت</th>
+        <th>الأحد</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="admin_script.js"></script>
+  <script src="schedule_script.js"></script>
+  <script>
+    buildSchedule("schedule");
+  </script>
+</body>
+</html>
