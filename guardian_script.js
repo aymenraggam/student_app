@@ -1,19 +1,16 @@
 function normalizePhone(p) {
-  return (p || "").replace(/[^\d]/g, ""); // يخلي فقط الأرقام
+  return (p || "").replace(/[^\d]/g, "");
 }
 
 async function guardianLogin(phone, password) {
   phone = normalizePhone(phone);
 
   const guardians = await fetch("guardians.json").then(r => r.json());
-  const passwords = await fetch("guardian_passwords.json").then(r => r.json());
 
-  // تحقق إذا الهاتف موجود في passwords.json
-  if (!(phone in passwords)) return null;
-  if (String(passwords[phone]) !== String(password)) return null;
-
-  // جلب بيانات الولي من guardians.json
-  return guardians.find(x => normalizePhone(x.phone_number) === phone) || null;
+  // تحقق من الهاتف وكلمة السر مباشرة
+  return guardians.find(
+    g => normalizePhone(g.phone_number) === phone && String(g.password) === String(password)
+  ) || null;
 }
 
 document.getElementById("loginForm")?.addEventListener("submit", async e => {
