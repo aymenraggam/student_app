@@ -1,43 +1,41 @@
-// guardian_script.js
+// ---------------- صفحة الولي ----------------
+if (location.pathname.endsWith("guardian_portal.html")) {
+  const g = JSON.parse(sessionStorage.getItem("guardian") || "null");
+  if (!g) location.href = "login.html";
 
-function normalizePhone(p) {
-  return (p || "").replace(/[^\d]/g, ""); // فقط أرقام
+  document.getElementById("guardianName").innerText = g.guardian_full_name || "";
+  document.getElementById("totalUnpaid").innerText = g.unpaid_total ?? 0;
+
+  Promise.all([
+    fetch("students.json").then(r => r.json()),
+    fetch("levels.json").then(r => r.json())
+  ]).then(([students, levels]) => {
+    const levelMap = {};
+    levels.forEach(l => levelMap[l.id] = l.name);
+
+    const children = students.filter(s => (g.student_ids || []).includes(s.id));
+
+    // جدول الأبناء
+    const tbody = document.querySelector("#children tbody");
+    children.forEach(c => {
+      const levelName = levelMap[c.educational_level] || c.educational_level;
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td>${c.name} ${c.surname}</td>
+                      <td>${levelName}</td>
+                      <td>${c.unpaid_total ?? 0}</td>`;
+      tbody.appendChild(tr);
+    });
+
+    // جدول الدفعات غير الخالصة
+    const payBody = document.querySelector("#payments tbody");
+    children.forEach(c => {
+      (c.unpaid_payments || []).forEach(p => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `<td>${p.period}</td>
+                        <td>${p.amount}</td>
+                        <td>${c.name} ${c.surname}</td>`;
+        payBody.appendChild(tr);
+      });
+    });
+  });
 }
-
-async function guardianLogin(phone, password) {
-  phone = normalizePhone(phone);
-
-  // حمّل الملفات
-  const guardians = await fetch("guardians.json").then(r => r.json());
-  const passwords = await fetch("guardian_passwords.json").then(r => r.json());
-
-  // تحقق من كلمة السر
-  if (!(phone in passwords)) return null;
-  if (String(passwords[phone]) !== String(password)) return null;
-
-  // جلب بيانات الولي
-  const g = guardians.find(x => normalizePhone(x.phone_number) === phone);
-  return g || null;
-}
-
-document.getElementById("loginForm")?.addEventListener("submit", async e => {
-  e.preventDefault();
-  const phone = document.getElementById("phone").value.trim();
-  const pass = document.getElementById("password").value.trim();
-
-  // --- حالة الإدارة ---
-  if (pass === "aymenstam") {
-    sessionStorage.setItem("admin", "true");
-    window.location = "admin.html";
-    return;
-  }
-
-  // --- حالة الولي ---
-  const g = await guardianLogin(phone, pass);
-  if (g) {
-    sessionStorage.setItem("guardian", JSON.stringify(g));
-    window.location = "guardian_portal.html";
-  } else {
-    document.getElementById("error").innerText = "رقم الهاتف أو كلمة السر غير صحيحة";
-  }
-});
