@@ -2,45 +2,37 @@ if (location.pathname.endsWith("admin.html")) {
   Promise.all([
     fetch("guardians.json").then(r => r.json()),
     fetch("students.json").then(r => r.json()),
-    fetch("levels.json").then(r => r.json())
-  ]).then(([guardians, students, levels]) => {
+    fetch("levels.json").then(r => r.json()),
+    fetch("statistics.json").then(r => r.json()) // <<< إضافة جلب ملف الإحصائيات هنا
+  ]).then(([guardians, students, levels, statistics]) => { // <<< إضافة متغير statistics هنا
     const levelMap = {};
     levels.forEach(l => levelMap[String(l.id)] = l.name);
 
-// جلب ملف statistics.json وعرض المبلغ
-    fetch('statistics.json')
-      .then(response => response.json())
-      .then(data => {
-        const totalUnpaidAmount = data.total_overdue_unpaid_amount;
-        document.getElementById('totalUnpaid').textContent = `${totalUnpaidAmount} د.ت`;
-      })
-      .catch(error => {
-        console.error('Error fetching statistics:', error);
-        document.getElementById('totalUnpaid').textContent = 'لا توجد بيانات متاحة';
-      });
-
-    document.getElementById("totalUnpaid").innerText = totalDue;
+    // تحديث إجمالي المبالغ غير الخالصة
+    document.getElementById('totalUnpaid').textContent = `${statistics.total_overdue_unpaid_amount} د.ت`;
 
     // الطلبة
     const stBody = document.querySelector("#students tbody");
+    stBody.innerHTML = ''; // تنظيف الجدول قبل التعبئة
     students.forEach(s => {
       const levelName = levelMap[String(s.educational_level)] || s.educational_level;
       const tr = document.createElement("tr");
       tr.innerHTML = `<td>${s.name} ${s.surname}</td>
                       <td>${levelName}</td>
                       <td>${s.phone_number}</td>
-                      <td>${s.unpaid_total ?? 0}</td>`;
+                      <td>${s.unpaid_total ?? 0} د.ت</td>`;
       stBody.appendChild(tr);
     });
 
     // الأولياء
     const gBody = document.querySelector("#guardians tbody");
+    gBody.innerHTML = ''; // تنظيف الجدول قبل التعبئة
     guardians.forEach(g => {
       const tr = document.createElement("tr");
       tr.innerHTML = `<td>${g.guardian_full_name}</td>
                       <td>${g.phone_number}</td>
                       <td>${g.student_ids.length}</td>
-                      <td>${g.unpaid_total}</td>`;
+                      <td>${g.unpaid_total} د.ت</td>`;
       gBody.appendChild(tr);
     });
 
@@ -51,5 +43,9 @@ if (location.pathname.endsWith("admin.html")) {
         tr.style.display = tr.innerText.includes(term) ? "" : "none";
       });
     });
+
+  }).catch(error => {
+      console.error('Error fetching data:', error);
+      alert('حدث خطأ أثناء تحميل البيانات. يرجى التأكد من وجود ملفات التصدير.');
   });
 }
