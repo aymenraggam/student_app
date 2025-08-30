@@ -5,7 +5,8 @@
     "student_ids": [
       22
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "799616"
   },
   {
     "guardian_full_name": "حسن أم هاني",
@@ -13,7 +14,8 @@
     "student_ids": [
       61
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "967582"
   },
   {
     "guardian_full_name": "عائشة أم هاني",
@@ -22,7 +24,8 @@
       16,
       35
     ],
-    "unpaid_total": 80.0
+    "unpaid_total": 80.0,
+    "password": "954400"
   },
   {
     "guardian_full_name": "عائدة بحيري",
@@ -30,7 +33,8 @@
     "student_ids": [
       82
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "999085"
   },
   {
     "guardian_full_name": "فاطمة بوعلافي",
@@ -38,7 +42,8 @@
     "student_ids": [
       7
     ],
-    "unpaid_total": 100.0
+    "unpaid_total": 100.0,
+    "password": "496629"
   },
   {
     "guardian_full_name": "هاجر بوعلافي",
@@ -46,7 +51,8 @@
     "student_ids": [
       10
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "753863"
   },
   {
     "guardian_full_name": "سفيان جابلي",
@@ -54,7 +60,8 @@
     "student_ids": [
       62
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "034434"
   },
   {
     "guardian_full_name": "ياسين جريدي",
@@ -62,7 +69,8 @@
     "student_ids": [
       21
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "175373"
   },
   {
     "guardian_full_name": "ابتسام جلالي",
@@ -70,7 +78,8 @@
     "student_ids": [
       12
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "624827"
   },
   {
     "guardian_full_name": "حياة جلالي",
@@ -78,7 +87,8 @@
     "student_ids": [
       38
     ],
-    "unpaid_total": 100.0
+    "unpaid_total": 100.0,
+    "password": "523756"
   },
   {
     "guardian_full_name": "عبد السلام جلالي",
@@ -90,7 +100,8 @@
       28,
       37
     ],
-    "unpaid_total": 300.0
+    "unpaid_total": 300.0,
+    "password": "816073"
   },
   {
     "guardian_full_name": "عمار جلالي",
@@ -98,7 +109,8 @@
     "student_ids": [
       80
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "247228"
   },
   {
     "guardian_full_name": "مليكة جلالي",
@@ -106,7 +118,8 @@
     "student_ids": [
       39
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "379495"
   },
   {
     "guardian_full_name": "منير حاجي",
@@ -114,7 +127,8 @@
     "student_ids": [
       83
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "762470"
   },
   {
     "guardian_full_name": "أحمد خليفي",
@@ -122,7 +136,8 @@
     "student_ids": [
       72
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "415788"
   },
   {
     "guardian_full_name": "طارق زارعي",
@@ -130,7 +145,8 @@
     "student_ids": [
       53
     ],
-    "unpaid_total": 0.0
+    "unpaid_total": 0.0,
+    "password": "661192"
   },
   {
     "guardian_full_name": "نجيبة زارعي",
@@ -140,7 +156,8 @@
       43,
       44
     ],
-    "unpaid_total": 0.0
+    "unpaid_total": 0.0,
+    "password": "565068"
   },
   {
     "guardian_full_name": "نصيب زارعي",
@@ -148,7 +165,8 @@
     "student_ids": [
       78
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "621897"
   },
   {
     "guardian_full_name": "تفاحة زريبي",
@@ -156,7 +174,8 @@
     "student_ids": [
       64
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "932892"
   },
   {
     "guardian_full_name": "رياض زريبي",
@@ -164,7 +183,8 @@
     "student_ids": [
       70
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "440480"
   },
   {
     "guardian_full_name": "محسن زريبي",
@@ -172,7 +192,8 @@
     "student_ids": [
       76
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "517992"
   },
   {
     "guardian_full_name": "محمد الصغير زريبي",
@@ -180,7 +201,8 @@
     "student_ids": [
       31
     ],
-    "unpaid_total": 100.0
+    "unpaid_total": 100.0,
+    "password": "318167"
   },
   {
     "guardian_full_name": "منى زريبي",
@@ -189,7 +211,8 @@
       42,
       51
     ],
-    "unpaid_total": 100.0
+    "unpaid_total": 100.0,
+    "password": "934358"
   },
   {
     "guardian_full_name": "مريم سليمي",
@@ -199,7 +222,8 @@
       55,
       63
     ],
-    "unpaid_total": 150.0
+    "unpaid_total": 150.0,
+    "password": "883226"
   },
   {
     "guardian_full_name": "لمين شرف الدين",
@@ -208,7 +232,8 @@
       23,
       47
     ],
-    "unpaid_total": 0.0
+    "unpaid_total": 0.0,
+    "password": "454457"
   },
   {
     "guardian_full_name": "الناصر صالحي",
@@ -217,7 +242,8 @@
       6,
       52
     ],
-    "unpaid_total": 90.0
+    "unpaid_total": 90.0,
+    "password": "043631"
   },
   {
     "guardian_full_name": "توفيق صالحي",
@@ -226,7 +252,8 @@
       9,
       14
     ],
-    "unpaid_total": 150.0
+    "unpaid_total": 150.0,
+    "password": "168873"
   },
   {
     "guardian_full_name": "صافيا صالحي",
@@ -234,7 +261,8 @@
     "student_ids": [
       65
     ],
-    "unpaid_total": 40.0
+    "unpaid_total": 40.0,
+    "password": "729824"
   },
   {
     "guardian_full_name": "فاطمة صالحي",
@@ -242,7 +270,8 @@
     "student_ids": [
       5
     ],
-    "unpaid_total": 100.0
+    "unpaid_total": 100.0,
+    "password": "196813"
   },
   {
     "guardian_full_name": "فتحي صالحي",
@@ -250,7 +279,8 @@
     "student_ids": [
       73
     ],
-    "unpaid_total": 40.0
+    "unpaid_total": 40.0,
+    "password": "125384"
   },
   {
     "guardian_full_name": "مبروكة صالحي",
@@ -259,7 +289,8 @@
       45,
       46
     ],
-    "unpaid_total": 100.0
+    "unpaid_total": 100.0,
+    "password": "797132"
   },
   {
     "guardian_full_name": "عبد العزيز طقوقي",
@@ -269,7 +300,8 @@
       85,
       86
     ],
-    "unpaid_total": 0.0
+    "unpaid_total": 0.0,
+    "password": "179214"
   },
   {
     "guardian_full_name": "علي طقوقي",
@@ -277,7 +309,8 @@
     "student_ids": [
       29
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "333906"
   },
   {
     "guardian_full_name": "أميرة عامري",
@@ -285,7 +318,8 @@
     "student_ids": [
       1
     ],
-    "unpaid_total": 0.0
+    "unpaid_total": 0.0,
+    "password": "769235"
   },
   {
     "guardian_full_name": "كريمة عامري",
@@ -293,7 +327,8 @@
     "student_ids": [
       68
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "406895"
   },
   {
     "guardian_full_name": "ذهبية عايدي",
@@ -301,7 +336,8 @@
     "student_ids": [
       20
     ],
-    "unpaid_total": 100.0
+    "unpaid_total": 100.0,
+    "password": "642741"
   },
   {
     "guardian_full_name": "ونيسة عايدي",
@@ -309,7 +345,8 @@
     "student_ids": [
       77
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "000742"
   },
   {
     "guardian_full_name": "نزيهة عبدلي",
@@ -317,7 +354,8 @@
     "student_ids": [
       60
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "306063"
   },
   {
     "guardian_full_name": "أم الزين عبيدي",
@@ -326,7 +364,8 @@
       48,
       49
     ],
-    "unpaid_total": 100.0
+    "unpaid_total": 100.0,
+    "password": "856226"
   },
   {
     "guardian_full_name": "بسمة عبيدي",
@@ -334,7 +373,8 @@
     "student_ids": [
       41
     ],
-    "unpaid_total": 0.0
+    "unpaid_total": 0.0,
+    "password": "573012"
   },
   {
     "guardian_full_name": "عماد عيوني",
@@ -342,7 +382,8 @@
     "student_ids": [
       69
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "228973"
   },
   {
     "guardian_full_name": "فتحية عيوني",
@@ -350,7 +391,8 @@
     "student_ids": [
       50
     ],
-    "unpaid_total": 200.0
+    "unpaid_total": 200.0,
+    "password": "772340"
   },
   {
     "guardian_full_name": "مسعود غنادرة",
@@ -358,7 +400,8 @@
     "student_ids": [
       79
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "045407"
   },
   {
     "guardian_full_name": "عبد القادر فالحي",
@@ -366,7 +409,8 @@
     "student_ids": [
       66
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "252668"
   },
   {
     "guardian_full_name": "إيناس قادري",
@@ -374,7 +418,8 @@
     "student_ids": [
       57
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "683785"
   },
   {
     "guardian_full_name": "بدر الدين قادري",
@@ -382,7 +427,8 @@
     "student_ids": [
       71
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "204240"
   },
   {
     "guardian_full_name": "رفيقة قادري",
@@ -390,7 +436,8 @@
     "student_ids": [
       18
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "823083"
   },
   {
     "guardian_full_name": "سالمة قادري",
@@ -398,7 +445,8 @@
     "student_ids": [
       56
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "283367"
   },
   {
     "guardian_full_name": "فوزي قادري",
@@ -406,7 +454,8 @@
     "student_ids": [
       81
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "142735"
   },
   {
     "guardian_full_name": "مبروكة قادري",
@@ -416,7 +465,8 @@
       25,
       58
     ],
-    "unpaid_total": 90.0
+    "unpaid_total": 90.0,
+    "password": "248738"
   },
   {
     "guardian_full_name": "محمد قادري",
@@ -424,7 +474,8 @@
     "student_ids": [
       59
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "282387"
   },
   {
     "guardian_full_name": "نجاة قادري",
@@ -432,7 +483,8 @@
     "student_ids": [
       36
     ],
-    "unpaid_total": 100.0
+    "unpaid_total": 100.0,
+    "password": "432554"
   },
   {
     "guardian_full_name": "نهال قادري",
@@ -440,7 +492,8 @@
     "student_ids": [
       67
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "987992"
   },
   {
     "guardian_full_name": "أماني قدودة",
@@ -449,7 +502,8 @@
       2,
       8
     ],
-    "unpaid_total": 100.0
+    "unpaid_total": 100.0,
+    "password": "248316"
   },
   {
     "guardian_full_name": "أحلام كحلي",
@@ -457,7 +511,8 @@
     "student_ids": [
       74
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "084592"
   },
   {
     "guardian_full_name": "أحمد كحولي",
@@ -465,7 +520,8 @@
     "student_ids": [
       40
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "887178"
   },
   {
     "guardian_full_name": "النوّي كدوسي",
@@ -473,7 +529,8 @@
     "student_ids": [
       75
     ],
-    "unpaid_total": 50.0
+    "unpaid_total": 50.0,
+    "password": "064846"
   },
   {
     "guardian_full_name": "حنان كدوسي",
@@ -481,7 +538,8 @@
     "student_ids": [
       87
     ],
-    "unpaid_total": 0.0
+    "unpaid_total": 0.0,
+    "password": "810666"
   },
   {
     "guardian_full_name": "لطيّف كرمودي",
@@ -490,7 +548,8 @@
       17,
       33
     ],
-    "unpaid_total": 100.0
+    "unpaid_total": 100.0,
+    "password": "183082"
   },
   {
     "guardian_full_name": "قيس مسعودي",
@@ -498,7 +557,8 @@
     "student_ids": [
       13
     ],
-    "unpaid_total": 30.0
+    "unpaid_total": 30.0,
+    "password": "794090"
   },
   {
     "guardian_full_name": "منوّر مسعودي",
@@ -506,7 +566,8 @@
     "student_ids": [
       34
     ],
-    "unpaid_total": 100.0
+    "unpaid_total": 100.0,
+    "password": "015745"
   },
   {
     "guardian_full_name": "مهدي مسعودي",
@@ -514,7 +575,8 @@
     "student_ids": [
       30
     ],
-    "unpaid_total": 100.0
+    "unpaid_total": 100.0,
+    "password": "130821"
   },
   {
     "guardian_full_name": "نوال مسعودي",
@@ -523,7 +585,8 @@
       3,
       19
     ],
-    "unpaid_total": 400.0
+    "unpaid_total": 400.0,
+    "password": "192082"
   },
   {
     "guardian_full_name": "محمد الصغير نصيري",
@@ -531,6 +594,7 @@
     "student_ids": [
       26
     ],
-    "unpaid_total": 0.0
+    "unpaid_total": 0.0,
+    "password": "945347"
   }
 ]
