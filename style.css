@@ -26,3 +26,20 @@ tr:nth-child(even) { background:#f2f2f2; }
 .temporary {
   background-color: #fffacd; /* أصفر باهت للحصص المؤقتة */
 }
+
+/* الألوان الجديدة للحصص المؤقتة */
+
+.temporary {
+  background-color: #fce4ec; /* لون أساسي للحصص المؤقتة */
+  border-left: 3px solid #e91e63;
+}
+
+/* لون خاص بالحصص التعويضية */
+.replacement {
+  background-color: #ffcccc; /* أحمر فاتح للتعويضية */
+}
+
+/* لون خاص بالحصص الإضافية */
+.extra {
+  background-color: #e3f2fd; /* أزرق فاتح للإضافية */
+}
