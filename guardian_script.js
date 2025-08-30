@@ -1,8 +1,22 @@
-async function guardianLogin(phone, password) {
-  const guardians = await fetch("guardians.json").then(r => r.json());
+// guardian_script.js
 
-  // ابحث عن ولي بالهاتف وكلمة السر
-  const g = guardians.find(x => x.phone_number === phone && x.password === password);
+function normalizePhone(p) {
+  return (p || "").replace(/[^\d]/g, ""); // فقط أرقام
+}
+
+async function guardianLogin(phone, password) {
+  phone = normalizePhone(phone);
+
+  // حمّل الملفات
+  const guardians = await fetch("guardians.json").then(r => r.json());
+  const passwords = await fetch("guardian_passwords.json").then(r => r.json());
+
+  // تحقق من كلمة السر
+  if (!(phone in passwords)) return null;
+  if (String(passwords[phone]) !== String(password)) return null;
+
+  // جلب بيانات الولي
+  const g = guardians.find(x => normalizePhone(x.phone_number) === phone);
   return g || null;
 }
 
