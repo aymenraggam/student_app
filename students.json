@@ -16,7 +16,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 56,
@@ -35,7 +36,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 10,
@@ -54,7 +56,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 7,
@@ -77,7 +80,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 62,
@@ -96,7 +100,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 21,
@@ -115,7 +120,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 4,
@@ -138,7 +144,8 @@
         "period": "2025-08",
         "amount": 30.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 8,
@@ -157,7 +164,8 @@
         "period": "2025-08",
         "amount": 100.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 38,
@@ -180,7 +188,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 80,
@@ -199,7 +208,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 60,
@@ -218,7 +228,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 12,
@@ -237,7 +248,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 37,
@@ -260,7 +272,8 @@
         "period": "2025-08",
         "amount": 30.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 15,
@@ -283,7 +296,8 @@
         "period": "2025-08",
         "amount": 30.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 11,
@@ -306,7 +320,8 @@
         "period": "2025-08",
         "amount": 30.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 88,
@@ -325,7 +340,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 28,
@@ -348,7 +364,8 @@
         "period": "2025-08",
         "amount": 30.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 2,
@@ -362,7 +379,8 @@
     "payment_count": 1,
     "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": []
+    "unpaid_periods": [],
+    "notes": ""
   },
   {
     "id": 82,
@@ -381,7 +399,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 50,
@@ -400,7 +419,8 @@
         "period": "2025-08",
         "amount": 200.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 83,
@@ -419,7 +439,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 72,
@@ -438,7 +459,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 43,
@@ -452,7 +474,8 @@
     "payment_count": 0,
     "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": []
+    "unpaid_periods": [],
+    "notes": ""
   },
   {
     "id": 27,
@@ -466,7 +489,8 @@
     "payment_count": 0,
     "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": []
+    "unpaid_periods": [],
+    "notes": ""
   },
   {
     "id": 44,
@@ -480,7 +504,8 @@
     "payment_count": 0,
     "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": []
+    "unpaid_periods": [],
+    "notes": ""
   },
   {
     "id": 53,
@@ -494,7 +519,8 @@
     "payment_count": 1,
     "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": []
+    "unpaid_periods": [],
+    "notes": ""
   },
   {
     "id": 78,
@@ -513,7 +539,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 76,
@@ -532,7 +559,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 31,
@@ -555,7 +583,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 70,
@@ -574,7 +603,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 77,
@@ -593,7 +623,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 23,
@@ -607,7 +638,8 @@
     "payment_count": 1,
     "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": []
+    "unpaid_periods": [],
+    "notes": ""
   },
   {
     "id": 47,
@@ -621,7 +653,8 @@
     "payment_count": 1,
     "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": []
+    "unpaid_periods": [],
+    "notes": ""
   },
   {
     "id": 16,
@@ -640,7 +673,8 @@
         "period": "2025-08",
         "amount": 40.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 35,
@@ -659,7 +693,8 @@
         "period": "2025-08",
         "amount": 40.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 5,
@@ -682,7 +717,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 1,
@@ -696,7 +732,8 @@
     "payment_count": 2,
     "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": []
+    "unpaid_periods": [],
+    "notes": ""
   },
   {
     "id": 9,
@@ -719,7 +756,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": "عليها بالمزيد من العمل و التركيز أثناء الحصة"
   },
   {
     "id": 6,
@@ -738,7 +776,8 @@
         "period": "2025-08",
         "amount": 40.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 52,
@@ -757,7 +796,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 73,
@@ -776,7 +816,8 @@
         "period": "2025-08",
         "amount": 40.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 14,
@@ -795,7 +836,8 @@
         "period": "2025-07",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 41,
@@ -809,7 +851,8 @@
     "payment_count": 1,
     "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": []
+    "unpaid_periods": [],
+    "notes": ""
   },
   {
     "id": 68,
@@ -828,7 +871,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 86,
@@ -842,7 +886,8 @@
     "payment_count": 1,
     "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": []
+    "unpaid_periods": [],
+    "notes": ""
   },
   {
     "id": 84,
@@ -856,7 +901,8 @@
     "payment_count": 1,
     "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": []
+    "unpaid_periods": [],
+    "notes": ""
   },
   {
     "id": 29,
@@ -875,7 +921,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 85,
@@ -889,7 +936,8 @@
     "payment_count": 1,
     "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": []
+    "unpaid_periods": [],
+    "notes": ""
   },
   {
     "id": 20,
@@ -908,7 +956,8 @@
         "period": "2025-08",
         "amount": 100.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 49,
@@ -927,7 +976,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 48,
@@ -946,7 +996,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 39,
@@ -965,7 +1016,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 42,
@@ -984,7 +1036,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 51,
@@ -1003,7 +1056,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 55,
@@ -1022,7 +1076,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 69,
@@ -1041,7 +1096,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 74,
@@ -1060,7 +1116,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 54,
@@ -1079,7 +1136,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 63,
@@ -1098,7 +1156,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 79,
@@ -1117,7 +1176,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 66,
@@ -1130,16 +1190,14 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": [
-      "2025-08-30",
-      "2025-08-30"
-    ],
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 57,
@@ -1158,7 +1216,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 25,
@@ -1172,7 +1231,8 @@
     "payment_count": 1,
     "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": []
+    "unpaid_periods": [],
+    "notes": ""
   },
   {
     "id": 24,
@@ -1191,7 +1251,8 @@
         "period": "2025-07",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 71,
@@ -1210,7 +1271,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 18,
@@ -1229,7 +1291,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 67,
@@ -1248,7 +1311,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 22,
@@ -1267,7 +1331,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 59,
@@ -1286,7 +1351,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 81,
@@ -1305,7 +1371,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 58,
@@ -1318,15 +1385,14 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 40.0,
-    "absence_count": [
-      "2025-08-30"
-    ],
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
         "amount": 40.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 36,
@@ -1349,7 +1415,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 40,
@@ -1368,7 +1435,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 45,
@@ -1387,7 +1455,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 46,
@@ -1406,7 +1475,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 65,
@@ -1425,7 +1495,8 @@
         "period": "2025-08",
         "amount": 40.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 87,
@@ -1439,7 +1510,8 @@
     "payment_count": 0,
     "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": []
+    "unpaid_periods": [],
+    "notes": ""
   },
   {
     "id": 75,
@@ -1458,7 +1530,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 17,
@@ -1477,7 +1550,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 33,
@@ -1496,7 +1570,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 3,
@@ -1519,7 +1594,8 @@
         "period": "2025-08",
         "amount": 100.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 19,
@@ -1542,7 +1618,8 @@
         "period": "2025-08",
         "amount": 100.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 34,
@@ -1565,7 +1642,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 13,
@@ -1584,7 +1662,8 @@
         "period": "2025-08",
         "amount": 30.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 30,
@@ -1607,7 +1686,8 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   },
   {
     "id": 26,
@@ -1621,7 +1701,8 @@
     "payment_count": 1,
     "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": []
+    "unpaid_periods": [],
+    "notes": ""
   },
   {
     "id": 64,
@@ -1640,6 +1721,7 @@
         "period": "2025-08",
         "amount": 50.0
       }
-    ]
+    ],
+    "notes": ""
   }
 ]
