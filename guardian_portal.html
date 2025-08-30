@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>بوابة الولي</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2 id="guardianName"></h2>
+  <p>إجمالي الدفعات غير الخالصة: <span id="totalUnpaid"></span></p>
+
+  <h3>أبناؤك</h3>
+  <table id="children">
+    <thead><tr><th>الاسم</th><th>المستوى</th><th>الديون</th></tr></thead>
+    <tbody></tbody>
+  </table>
+
+  <h3>جدول الحصص</h3>
+  <table id="schedule" class="timetable">
+    <thead>
+      <tr>
+        <th>التوقيت</th>
+        <th>الإثنين</th>
+        <th>الثلاثاء</th>
+        <th>الأربعاء</th>
+        <th>الخميس</th>
+        <th>الجمعة</th>
+        <th>السبت</th>
+        <th>الأحد</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="guardian_script.js"></script>
+  <script src="schedule_script.js"></script>
+  <script>
+    buildSchedule("schedule");
+  </script>
+</body>
+</html>
