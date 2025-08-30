@@ -25,17 +25,12 @@
     <tbody></tbody>
   </table>
 
-  <h3>غيابات الأبناء</h3>
-  <table id="absences-table" class="datatable">
+  <h3>الغيابات</h3>
+  <table id="absences" class="datatable">
     <thead>
-      <tr>
-        <th>اسم الطالب</th>
-        <th>عدد الغيابات</th>
-        <th>تواريخ الغياب</th>
-      </tr>
+      <tr><th>الطالب</th><th>التاريخ</th></tr>
     </thead>
-    <tbody>
-      </tbody>
+    <tbody></tbody>
   </table>
 
   <h3>جدول الحصص</h3>
@@ -82,6 +77,7 @@
         // الحصول على الجداول لتعبئتها
         const childrenTable = document.getElementById("children").getElementsByTagName('tbody')[0];
         const paymentsTable = document.getElementById("payments").getElementsByTagName('tbody')[0];
+        const absencesTable = document.getElementById("absences").getElementsByTagName('tbody')[0]; // جدول الغيابات
     
         // تعبئة جداول البيانات
         children.forEach(student => {
@@ -93,6 +89,12 @@
             student.unpaid_periods.forEach(payment => {
                 let paymentRow = paymentsTable.insertRow();
                 paymentRow.innerHTML = `<td>${payment.period}</td><td>${payment.amount.toFixed(2)}</td><td>${student.name}</td>`;
+            });
+
+            // إضافة غيابات هذا الطالب
+            student.absence_count.forEach(absenceDate => {
+                let absenceRow = absencesTable.insertRow();
+                absenceRow.innerHTML = `<td>${student.name}</td><td>${absenceDate}</td>`;
             });
         });
     });
