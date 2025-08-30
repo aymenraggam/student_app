@@ -54,4 +54,22 @@ async function buildSchedule(tableId) {
     });
     tbody.appendChild(tr);
   });
+    // بناء مفتاح الألوان تحت الجدول
+  const legend = document.createElement("div");
+  legend.classList.add("legend");
+  const legendItems = [
+    { text: "حصة عامة", colorClass: "general" },
+    { text: "حصة خاصة", colorClass: "private" },
+    { text: "حصة مؤقتة", colorClass: "temporary" },
+    { text: "حصة تعويضية", colorClass: "replacement" },
+    { text: "حصة إضافية", colorClass: "extra" }
+  ];
+  legendItems.forEach(item => {
+    const legendItem = document.createElement("div");
+    legendItem.classList.add("legend-item");
+    legendItem.innerHTML = `<span class="legend-color ${item.colorClass}"></span>${item.text}`;
+    legend.appendChild(legendItem);
+  });
+  // إضافة المفتاح بعد الجدول مباشرة
+  document.querySelector(`#${tableId}`).after(legend);
 }
