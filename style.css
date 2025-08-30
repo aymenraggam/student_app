@@ -20,7 +20,7 @@ tr:nth-child(even) { background:#f2f2f2; }
 }
 
 .private {
-  background-color: #ffe6e6; /* أحمر فاتح للحصص الخاصة */
+  background-color: #26D1A3; /* أخضر فاتح للحصص الخاصة */
 }
 
 .temporary {
