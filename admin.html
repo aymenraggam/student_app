@@ -15,13 +15,33 @@
   <h2>لوحة الإدارة</h2>
   <p>إجمالي الدفعات غير الخالصة: <span id="totalUnpaid"></span></p>
 
-  <input type="text" id="search" placeholder="ابحث...">
+  <input type="text" id="search" placeholder="ابحث عن طالب أو ولي أو مستوى...">
 
   <h3>قائمة الطلبة</h3>
-  <table id="students"><tbody></tbody></table>
+  <table id="students" class="datatable">
+    <thead>
+      <tr>
+        <th>الاسم الكامل</th>
+        <th>المستوى</th>
+        <th>رقم الهاتف</th>
+        <th>الدفعات غير الخالصة</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
 
   <h3>قائمة الأولياء</h3>
-  <table id="guardians"><tbody></tbody></table>
+  <table id="guardians" class="datatable">
+    <thead>
+      <tr>
+        <th>الاسم الكامل</th>
+        <th>رقم الهاتف</th>
+        <th>عدد الأبناء</th>
+        <th>الدفعات غير الخالصة</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
 
   <h3>جدول الحصص</h3>
   <table id="schedule" class="timetable">
