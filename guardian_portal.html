@@ -1,113 +1,115 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <title>بوابة الولي</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h2 id="guardianName"></h2>
-  <p>إجمالي الدفعات غير الخالصة: <span id="totalUnpaid"></span></p>
+if (location.pathname.endsWith("admin.html")) {
+    Promise.all([
+      fetch("guardians.json").then(r => r.json()),
+      fetch("students.json").then(r => r.json()),
+      fetch("levels.json").then(r => r.json()),
+      fetch("statistics.json").then(r => r.json())
+    ]).then(([guardians, students, levels, statistics]) => {
+      const levelMap = {};
+      levels.forEach(l => levelMap[String(l.id)] = l.name);
 
-  <h3>أبناؤك</h3>
-  <table id="children" class="datatable">
-    <thead>
-      <tr><th>الاسم</th><th>المستوى</th><th>الديون</th></tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+      window.studentsData = students;
 
-  <h3>الدفعات غير الخالصة</h3>
-  <table id="payments" class="datatable">
-    <thead>
-      <tr><th>الفترة</th><th>المبلغ</th><th>الطالب</th></tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+      document.getElementById('totalUnpaid').textContent = `${statistics.total_overdue_unpaid_amount} د.ت`;
 
-  <h3>الغيابات</h3>
-  <table id="absences" class="datatable">
-    <thead>
-      <tr><th>الطالب</th><th>التاريخ</th></tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+      const stBody = document.querySelector("#students tbody");
+      stBody.innerHTML = '';
+      students.forEach(s => {
+        const levelName = levelMap[String(s.educational_level)] || s.educational_level;
+        const tr = document.createElement("tr");
 
-  <h3>الملاحظات</h3>
-  <table id="notes" class="datatable">
-    <thead>
-      <tr><th>الطالب</th><th>الملاحظة</th></tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+        // خلية الاسم الكامل
+        const nameCell = document.createElement("td");
+        nameCell.textContent = `${s.name} ${s.surname}`;
+        tr.appendChild(nameCell);
 
-  <h3>جدول الحصص</h3>
-  <table id="schedule" class="timetable">
-    <thead>
-      <tr>
-        <th>التوقيت</th>
-        <th>الإثنين</th>
-        <th>الثلاثاء</th>
-        <th>الأربعاء</th>
-        <th>الخميس</th>
-        <th>الجمعة</th>
-        <th>السبت</th>
-        <th>الأحد</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+        // خلية المستوى
+        const levelCell = document.createElement("td");
+        levelCell.textContent = levelName;
+        tr.appendChild(levelCell);
 
-  <script src="guardian_script.js"></script>
-  <script src="schedule_script.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", async () => {
-        const guardianData = sessionStorage.getItem("guardian");
-        if (!guardianData) {
-            return;
+        // خلية رقم الهاتف
+        const phoneCell = document.createElement("td");
+        phoneCell.textContent = s.phone_number;
+        tr.appendChild(phoneCell);
+
+        // خلية الدفعات غير الخالصة
+        const unpaidCell = document.createElement("td");
+        unpaidCell.textContent = `${s.unpaid_total ?? 0} د.ت`;
+        tr.appendChild(unpaidCell);
+
+        // خلية الغيابات
+        const absencesCell = document.createElement("td");
+        const absencesLink = s.absence_count && s.absence_count.length > 0
+            ? `<a href="#" class="show-absences-link" data-absences='${JSON.stringify(s.absence_count)}'>${s.absence_count.length}</a>`
+            : '0';
+        absencesCell.innerHTML = absencesLink;
+        tr.appendChild(absencesCell);
+
+        // خلية الملاحظات
+        const notesCell = document.createElement("td");
+        // إضافة الملاحظات الموجودة إذا كانت موجودة
+        if (s.notes && s.notes.length > 0) {
+            notesCell.innerHTML += s.notes.join('<br>') + '<br>';
         }
-    
-        const guardian = JSON.parse(guardianData);
-    
-        document.getElementById("guardianName").innerText = `مرحباً، ${guardian.guardian_full_name}`;
-        document.getElementById("totalUnpaid").innerText = `${guardian.unpaid_total.toFixed(2)} دينار`;
-    
-        const students = await fetch("students.json").then(res => res.json());
-        
-        const children = students.filter(student => guardian.student_ids.includes(student.id));
-    
-        const childrenTable = document.getElementById("children").getElementsByTagName('tbody')[0];
-        const paymentsTable = document.getElementById("payments").getElementsByTagName('tbody')[0];
-        const absencesTable = document.getElementById("absences").getElementsByTagName('tbody')[0];
-        const notesTable = document.getElementById("notes").getElementsByTagName('tbody')[0]; // جدول الملاحظات
-    
-        children.forEach(student => {
-            let childRow = childrenTable.insertRow();
-            childRow.innerHTML = `<td>${student.name} ${student.surname}</td><td>${student.educational_level}</td><td>${student.unpaid_total.toFixed(2)}</td>`;
-    
-            student.unpaid_periods.forEach(payment => {
-                let paymentRow = paymentsTable.insertRow();
-                paymentRow.innerHTML = `<td>${payment.period}</td><td>${payment.amount.toFixed(2)}</td><td>${student.name}</td>`;
-            });
 
-            if (student.absence_count) {
-              student.absence_count.forEach(absenceDate => {
-                  let absenceRow = absencesTable.insertRow();
-                  absenceRow.innerHTML = `<td>${student.name}</td><td>${absenceDate}</td>`;
-              });
-            }
+        // إنشاء زر "إضافة ملاحظة"
+        const addNoteBtn = document.createElement("button");
+        addNoteBtn.className = "add-note-btn";
+        addNoteBtn.textContent = "إضافة ملاحظة";
+        addNoteBtn.dataset.studentId = s.id;
+        notesCell.appendChild(addNoteBtn);
+        tr.appendChild(notesCell);
 
-            // إضافة الملاحظات
-            if (student.notes) {
-                student.notes.forEach(note => {
-                    let noteRow = notesTable.insertRow();
-                    noteRow.innerHTML = `<td>${student.name}</td><td>${note}</td>`;
-                });
-            }
+        stBody.appendChild(tr);
+      });
+
+      // مستمع الحدث يجب أن يبقى كما هو لأنه صحيح
+      stBody.addEventListener('click', e => {
+          // عرض الغيابات
+          if (e.target.classList.contains('show-absences-link')) {
+              e.preventDefault();
+              const absences = JSON.parse(e.target.dataset.absences);
+              alert('تواريخ الغيابات:\n' + absences.join('\n'));
+          }
+
+          // إضافة ملاحظة
+          if (e.target.classList.contains('add-note-btn')) {
+              const studentId = parseInt(e.target.dataset.studentId, 10);
+              const note = prompt(`أضف ملاحظة للطالب (ID: ${studentId}):`);
+              if (note) {
+                  const student = window.studentsData.find(s => s.id === studentId);
+                  if (student) {
+                      if (!student.notes) {
+                          student.notes = [];
+                      }
+                      student.notes.push(note);
+                      alert(`تمت إضافة الملاحظة:\n"${note}"\n\nملاحظة: لحفظ هذه الملاحظة بشكل دائم، يجب تحديث ملف students.json على الخادم.`);
+                  }
+              }
+          }
+      });
+
+      const gBody = document.querySelector("#guardians tbody");
+      gBody.innerHTML = '';
+      guardians.forEach(g => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `<td>${g.guardian_full_name}</td>
+                        <td>${g.phone_number}</td>
+                        <td>${g.student_ids.length}</td>
+                        <td>${g.unpaid_total} د.ت</td>`;
+        gBody.appendChild(tr);
+      });
+
+      document.getElementById("search").addEventListener("input", e => {
+        const term = e.target.value.trim().toLowerCase();
+        document.querySelectorAll("table.datatable tbody tr").forEach(tr => {
+          tr.style.display = tr.innerText.toLowerCase().includes(term) ? "" : "none";
         });
+      });
+
+    }).catch(error => {
+        console.error('Error fetching data:', error);
+        alert('حدث خطأ أثناء تحميل البيانات.');
     });
-    
-    buildSchedule("schedule");
-  </script>
-</body>
-</html>
+}
