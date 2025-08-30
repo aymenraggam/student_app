@@ -12,3 +12,17 @@ tr:nth-child(even) { background:#f2f2f2; }
 
 .datatable { margin-bottom:30px; }
 .datatable th { background:#34495e; }
+
+/* ألوان حسب نوع الحصة */
+
+.general {
+  background-color: #e6f7ff; /* أزرق فاتح للحصص العامة */
+}
+
+.private {
+  background-color: #ffe6e6; /* أحمر فاتح للحصص الخاصة */
+}
+
+.temporary {
+  background-color: #fffacd; /* أصفر باهت للحصص المؤقتة */
+}
