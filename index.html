@@ -21,19 +21,16 @@
                     </table>
             </div>
         </section>
-
-        <section class="login-section">
-            <h2>دخول الأولياء</h2>
-            <form id="login-form">
-                <input type="text" id="username" placeholder="اسم المستخدم أو الهاتف" required>
-                <input type="password" id="password" placeholder="كلمة السر" required>
-                <button type="submit">تسجيل الدخول</button>
-            </form>
-            <p id="login-error" style="color:red; display:none;">❌ خطأ في الدخول، تأكد من المعلومات.</p>
-            <p class="management-link-wrapper"><a href="admin.html">صفحة الإدارة</a></p>
+            <h3>مرحبا بكم في منصة متابعة التلاميذ</h3>
+            <div class="login-container">
+                <p style="text-align:center;">اختر طريقة الدخول:</p>
+                <button onclick="window.location.href='login.html'">👨‍👩‍👦 دخول الولي</button>
+                <button onclick="window.location.href='admin.html'">🛠 دخول الإدارة</button>
+            </div>
         </section>
     </main>
 
     <script src="script.js"></script>
 </body>
 </html>
+
