@@ -24,6 +24,24 @@ if (location.pathname.endsWith("admin.html")) {
       stBody.appendChild(tr);
     });
 
+    // إضافة مستمع للأحداث (Event Listener) لفتح النافذة المنبثقة
+    stBody.addEventListener('click', e => {
+        if (e.target.classList.contains('show-absences-link')) {
+            e.preventDefault();
+            const absences = JSON.parse(e.target.dataset.absences);
+            if (absences.length > 0) {
+                let htmlContent = '<h4>تواريخ الغيابات:</h4><ul>';
+                absences.forEach(date => {
+                    htmlContent += `<li>${date}</li>`;
+                });
+                htmlContent += '</ul>';
+                alert(htmlContent.replace(/<br>/g, '\n').replace(/<h4>|<\/h4>|<ul>|<\/ul>|<li>|<\/li>/g, ''));
+            } else {
+                alert('لا توجد غيابات مسجلة.');
+            }
+        }
+    });
+
     // الأولياء
     const gBody = document.querySelector("#guardians tbody");
     gBody.innerHTML = ''; // تنظيف الجدول قبل التعبئة
