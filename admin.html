@@ -58,28 +58,28 @@
     </div>
 
     <script>
-    const correctPass = "aymenstam";
-    const storedAdmin = localStorage.getItem("adminLogged");
-
-    if (storedAdmin === "true") {
-      document.getElementById("admin-login").style.display = "none";
-      document.getElementById("admin-panel").style.display = "block";
-    }
-
-    document.getElementById("admin-btn").addEventListener("click", () => {
-      const inputPass = document.getElementById("admin-pass").value;
-      if (inputPass === correctPass) {
-        localStorage.setItem("adminLogged", "true");
-        location.reload();
-      } else {
-        document.getElementById("admin-error").style.display = "block";
-      }
-    });
-
-    document.getElementById("logout-admin").addEventListener("click", () => {
-      localStorage.removeItem("adminLogged");
-      location.reload();
-    });
-  </script>
-</body>
-</html>
+        const correctPass = "aymenstam";
+        const storedAdmin = localStorage.getItem("adminLogged");
+    
+        if (storedAdmin === "true") {
+          document.getElementById("admin-login").style.display = "none";
+          document.getElementById("admin-panel").style.display = "block";
+        }
+    
+        document.getElementById("admin-btn").addEventListener("click", () => {
+          const inputPass = document.getElementById("admin-pass").value;
+          if (inputPass === correctPass) {
+            localStorage.setItem("adminLogged", "true");
+            location.reload();
+          } else {
+            document.getElementById("admin-error").style.display = "block";
+          }
+        });
+    
+        document.getElementById("logout-admin").addEventListener("click", () => {
+          localStorage.removeItem("adminLogged");
+          location.reload();
+        });
+    </script>
+  </body>
+  </html>
