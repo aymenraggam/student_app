@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>بوابة الولي</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>بوابة الولي</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="guardian-portal">
-        <header class="portal-header">
-            <div>
-                <h1 id="welcome-message">مرحباً بك</h1>
-                <p>هنا يمكنك متابعة كل ما يخص أبناءك.</p>
-            </div>
-            <button id="logout-button" class="logout-btn">تسجيل الخروج</button>
-        </header>
+  <div id="portal-container">
+    <h2>مرحباً <span id="guardian-name"></span></h2>
+    <button id="logout-button">🚪 خروج</button>
 
-        <main>
-            <section id="children-section">
-                <h2>قائمة الأبناء</h2>
-                <div class="cards-container" id="children-container"></div>
-            </section>
+    <h3>أبناؤك:</h3>
+    <ul id="students-list"></ul>
 
-            <section id="schedule-section">
-                <h2>جدول الحصص العام</h2>
-                <div class="schedule-wrapper">
-                    <table class="schedule-table" id="schedule-container"></table>
-                </div>
-            </section>
-        </main>
-    </div>
+    <h3>المستحقات غير الخالصة:</h3>
+    <p id="unpaid"></p>
+  </div>
 
-    <script src="guardian_script.js?v=2.0"></script>
+  <script>
+    const guardian = JSON.parse(localStorage.getItem("guardian"));
+    if (!guardian) {
+      window.location.href = "login.html";
+    } else {
+      document.getElementById("guardian-name").textContent = guardian.guardian_full_name;
+      document.getElementById("unpaid").textContent = guardian.unpaid_total + " دينار";
+
+      fetch("students.json")
+        .then(res => res.json())
+        .then(students => {
+          const list = document.getElementById("students-list");
+          students
+            .filter(st => guardian.student_ids.includes(st.id))
+            .forEach(st => {
+              const li = document.createElement("li");
+              li.textContent = `${st.name} ${st.surname} - ${st.educational_level}`;
+              list.appendChild(li);
+            });
+        });
+    }
+
+    document.getElementById("logout-button").addEventListener("click", () => {
+      localStorage.removeItem("guardian");
+      window.location.href = "login.html";
+    });
+  </script>
 </body>
 </html>
