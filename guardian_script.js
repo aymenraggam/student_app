@@ -1,4 +1,3 @@
-// ---------------- صفحة الولي ----------------
 if (location.pathname.endsWith("guardian_portal.html")) {
   const g = JSON.parse(sessionStorage.getItem("guardian") || "null");
   if (!g) location.href = "login.html";
@@ -11,14 +10,14 @@ if (location.pathname.endsWith("guardian_portal.html")) {
     fetch("levels.json").then(r => r.json())
   ]).then(([students, levels]) => {
     const levelMap = {};
-    levels.forEach(l => levelMap[l.id] = l.name);
+    levels.forEach(l => levelMap[String(l.id)] = l.name);
 
     const children = students.filter(s => (g.student_ids || []).includes(s.id));
 
     // جدول الأبناء
     const tbody = document.querySelector("#children tbody");
     children.forEach(c => {
-      const levelName = levelMap[c.educational_level] || c.educational_level;
+      const levelName = levelMap[String(c.educational_level)] || c.educational_level;
       const tr = document.createElement("tr");
       tr.innerHTML = `<td>${c.name} ${c.surname}</td>
                       <td>${levelName}</td>
