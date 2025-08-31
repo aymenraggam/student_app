@@ -1,5 +1,5 @@
 // schedule_script.js
-async function buildSchedule(tableId) {
+async function buildSchedule(tableId, relevantLevels = null) {
   const perm = await fetch("schedule_permanent.json").then(r=>r.json());
   const temp = await fetch("schedule_temporary.json").then(r=>r.json());
 
@@ -32,12 +32,14 @@ async function buildSchedule(tableId) {
 
       // إذا وجدت حصة مؤقتة، اعرضها
       if (tempMatch) {
-        cell.textContent = tempMatch.educational_level;
-        cell.classList.add('temporary');
-        if (tempMatch.class_type === 'replacement_general' || tempMatch.class_type === 'replacement_private') {
-          cell.classList.add('replacement');
-        } else if (tempMatch.class_type === 'extra_general' || tempMatch.class_type === 'extra_private') {
-          cell.classList.add('extra');
+        if (!relevantLevels || relevantLevels.includes(tempMatch.educational_level)) {
+            cell.textContent = tempMatch.educational_level;
+            cell.classList.add('temporary');
+            if (tempMatch.class_type === 'replacement_general' || tempMatch.class_type === 'replacement_private') {
+              cell.classList.add('replacement');
+            } else if (tempMatch.class_type === 'extra_general' || tempMatch.class_type === 'extra_private') {
+              cell.classList.add('extra');
+            }
         }
       } else {
         // إذا لم توجد حصة مؤقتة، ابحث عن حصة دائمة
@@ -45,8 +47,10 @@ async function buildSchedule(tableId) {
         
         // اعرض الحصة الدائمة فقط إذا لم يتم تعويضها
         if (permMatch && !replacedClassIds.has(permMatch.id)) {
-          cell.textContent = permMatch.educational_level;
-          cell.classList.add(permMatch.class_type);
+            if (!relevantLevels || relevantLevels.includes(permMatch.educational_level)) {
+                cell.textContent = permMatch.educational_level;
+                cell.classList.add(permMatch.class_type);
+            }
         }
       }
 
@@ -71,4 +75,3 @@ async function buildSchedule(tableId) {
   // إضافة المفتاح بعد الجدول مباشرة
   document.querySelector(`#${tableId}`).after(legend);
 }
-
