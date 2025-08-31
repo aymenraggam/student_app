@@ -6,13 +6,25 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h3>مرحباً بك في بوابة الولي</h3>
+  <p>
+    في هذه الصفحة، ستجد ملخصًا شاملاً لمتابعة المسار الدراسي لأبنائك. يمكنك الاطلاع على قائمة أبنائك المسجلين مع تفاصيل ديونهم و غياباتهم، بالإضافة إلى جدول الدفعات غير الخالصة وجدول الحصص الأسبوعي.
+  </p>
+  <hr>
+
   <h2 id="guardianName"></h2>
   <p>إجمالي الدفعات غير الخالصة: <span id="totalUnpaid"></span></p>
 
   <h3>أبناؤك</h3>
   <table id="children" class="datatable">
     <thead>
-      <tr><th>الاسم</th><th>المستوى</th><th>الديون</th><th>ملاحظات</th></tr>
+      <tr>
+        <th>الاسم</th>
+        <th>المستوى</th>
+        <th>الديون</th>
+        <th>الغيابات</th>
+        <th>ملاحظات</th>
+      </tr>
     </thead>
     <tbody></tbody>
   </table>
@@ -74,7 +86,7 @@
         children.forEach(student => {
             // إضافة صف جديد لجدول الأبناء
             let childRow = childrenTable.insertRow();
-            childRow.innerHTML = `<td>${student.name} ${student.surname}</td><td>${student.educational_level}</td><td>${student.unpaid_total.toFixed(2)}</td><td>${student.notes || ''}</td>`;
+            childRow.innerHTML = `<td>${student.name} ${student.surname}</td><td>${student.educational_level}</td><td>${student.unpaid_total.toFixed(2)}</td><td>${student.absence_count.length}</td><td>${student.notes || ''}</td>`;
     
             // إضافة الدفعات غير الخالصة لهذا الطالب
             student.unpaid_periods.forEach(payment => {
