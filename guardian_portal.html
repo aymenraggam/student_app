@@ -13,7 +13,6 @@
   <hr>
 
   <h2 id="guardianName"></h2>
-  <p>إجمالي الدفعات غير الخالصة: <span id="totalUnpaid"></span></p>
 
   <h3>أبناؤك</h3>
   <table id="children" class="datatable">
@@ -28,6 +27,8 @@
     </thead>
     <tbody></tbody>
   </table>
+
+  <p>إجمالي الدفعات غير الخالصة: <span id="totalUnpaid"></span></p>
 
   <h3>الدفعات غير الخالصة</h3>
   <table id="payments" class="datatable">
@@ -55,11 +56,11 @@
   </table>
 
   <script src="guardian_script.js"></script>
-  <script src="schedule_script.js"></script>
+  <script src="schedule_filtr_script.js"></script>
   <script>
     // انتظر حتى يتم تحميل محتوى الصفحة بالكامل
     document.addEventListener("DOMContentLoaded", async () => {
-        // قراءة بيانات الولي من ذاكرة الجلة
+        // قراءة بيانات الولي من ذاكرة الجلسة
         const guardianData = sessionStorage.getItem("guardian");
         if (!guardianData) {
             // في حال عدم وجود بيانات، لا تفعل شيئًا
@@ -94,9 +95,13 @@
                 paymentRow.innerHTML = `<td>${payment.period}</td><td>${payment.amount.toFixed(2)}</td><td>${student.name}</td>`;
             });
         });
+
+        // تجميع المستويات الدراسية لأبناء الولي (بدون تكرار)
+        const relevantLevels = [...new Set(children.map(student => student.educational_level))];
+
+        // استدعاء الدالة مع تمرير المستويات المجمعة
+        buildSchedule("schedule", relevantLevels);
     });
-    
-    buildSchedule("schedule");
   </script>
 </body>
 </html>
