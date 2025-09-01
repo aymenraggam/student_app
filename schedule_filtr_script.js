@@ -1,15 +1,13 @@
 // schedule_filtr_script.js
-async function buildSchedule(tableId, relevantLevels = null) {
+async function buildSchedule(tableId, relevantLevels = null, childrenIds = []) {
   const perm = await fetch("schedule_permanent.json").then(r=>r.json());
   const temp = await fetch("schedule_temporary.json").then(r=>r.json());
 
-  // قائمة الحصص الدائمة التي تم تعويضها ويجب إخفاؤها
   const replacedClassIds = new Set(
     temp.filter(t => t.replaced_class_id !== null)
         .map(t => t.replaced_class_id)
   );
 
-  // قائمة التواقيت (من الحصص الدائمة والمؤقتة)
   const allTimeSlots = [...new Set([
     ...perm.map(c => c.time_slot),
     ...temp.map(c => c.time_slot)
@@ -27,27 +25,41 @@ async function buildSchedule(tableId, relevantLevels = null) {
     days.forEach(day=>{
       const cell = document.createElement("td");
       
-      // البحث عن حصة مؤقتة في هذا اليوم والتوقيت
       const tempMatch = temp.find(c => c.time_slot === slot && new Date(c.class_date).toLocaleDateString('ar-TN', {weekday: 'long'}) === day);
 
-      // إذا وجدت حصة مؤقتة، اعرضها
       if (tempMatch) {
         if (!relevantLevels || relevantLevels.includes(tempMatch.educational_level)) {
             cell.textContent = tempMatch.educational_level;
             cell.classList.add('temporary');
-            if (tempMatch.class_type === 'replacement_general' || tempMatch.class_type === 'replacement_private') {
+            if (tempMatch.class_type.includes('replacement')) {
               cell.classList.add('replacement');
-            } else if (tempMatch.class_type === 'extra_general' || tempMatch.class_type === 'extra_private') {
+            } else if (tempMatch.class_type.includes('extra')) {
               cell.classList.add('extra');
             }
         }
       } else {
-        // إذا لم توجد حصة مؤقتة، ابحث عن حصة دائمة
         const permMatch = perm.find(c => c.time_slot === slot && c.day_of_week === day);
         
-        // اعرض الحصة الدائمة فقط إذا لم يتم تعويضها
         if (permMatch && !replacedClassIds.has(permMatch.id)) {
-            if (!relevantLevels || relevantLevels.includes(permMatch.educational_level)) {
+            // التحقق من صلاحية عرض الحصة
+            let shouldDisplay = false;
+            
+            // تحقق من المستوى الدراسي أولاً
+            if (relevantLevels && relevantLevels.includes(permMatch.educational_level)) {
+                // إذا كانت الحصة عامة، اعرضها
+                if (permMatch.class_type === 'general') {
+                    shouldDisplay = true;
+                }
+                // إذا كانت خاصة، تحقق من أن أحد الأبناء مسجل فيها
+                else if (permMatch.class_type === 'private') {
+                    const isChildEnrolled = permMatch.student_ids.some(studentId => childrenIds.includes(studentId));
+                    if (isChildEnrolled) {
+                        shouldDisplay = true;
+                    }
+                }
+            }
+
+            if (shouldDisplay) {
                 cell.textContent = permMatch.educational_level;
                 cell.classList.add(permMatch.class_type);
             }
@@ -58,7 +70,7 @@ async function buildSchedule(tableId, relevantLevels = null) {
     });
     tbody.appendChild(tr);
   });
-    // بناء مفتاح الألوان تحت الجدول
+
   const legend = document.createElement("div");
   legend.classList.add("legend");
   const legendItems = [
@@ -72,6 +84,6 @@ async function buildSchedule(tableId, relevantLevels = null) {
     legendItem.innerHTML = `<span class="legend-color ${item.colorClass}"></span>${item.text}`;
     legend.appendChild(legendItem);
   });
-  // إضافة المفتاح بعد الجدول مباشرة
+
   document.querySelector(`#${tableId}`).after(legend);
 }
