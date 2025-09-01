@@ -28,7 +28,7 @@
     <tbody></tbody>
   </table>
 
-  <p>إجمالي الدفعات غير الخالصة: <span id="totalUnpaid"></span></p>
+  <p>إجمالي الدفعات غير الخالصة: <span id="totalUnpaid" style="font-size: 1.2em; color: #d9534f; font-weight: bold;"></span></p>
 
   <h3>الدفعات غير الخالصة</h3>
   <table id="payments" class="datatable">
@@ -56,51 +56,43 @@
   </table>
 
   <script src="guardian_script.js"></script>
-  <script src="schedule_filtr_script.js"></script>
+  <script src="schedule_script.js"></script>
   <script>
-    // انتظر حتى يتم تحميل محتوى الصفحة بالكامل
     document.addEventListener("DOMContentLoaded", async () => {
-        // قراءة بيانات الولي من ذاكرة الجلسة
         const guardianData = sessionStorage.getItem("guardian");
         if (!guardianData) {
-            // في حال عدم وجود بيانات، لا تفعل شيئًا
             return;
         }
     
         const guardian = JSON.parse(guardianData);
     
-        // عرض اسم الولي وإجمالي الديون
         document.getElementById("guardianName").innerText = `مرحباً، ${guardian.guardian_full_name}`;
         document.getElementById("totalUnpaid").innerText = `${guardian.unpaid_total.toFixed(2)} دينار`;
     
-        // جلب بيانات جميع الطلاب
         const students = await fetch("students.json").then(res => res.json());
-        
-        // تصفية الطلاب للعثور على أبناء الولي الحالي
         const children = students.filter(student => guardian.student_ids.includes(student.id));
     
-        // الحصول على الجداول لتعبئتها
         const childrenTable = document.getElementById("children").getElementsByTagName('tbody')[0];
         const paymentsTable = document.getElementById("payments").getElementsByTagName('tbody')[0];
     
-        // تعبئة جداول البيانات
         children.forEach(student => {
-            // إضافة صف جديد لجدول الأبناء
             let childRow = childrenTable.insertRow();
             childRow.innerHTML = `<td>${student.name} ${student.surname}</td><td>${student.educational_level}</td><td>${student.unpaid_total.toFixed(2)}</td><td>${student.absence_count.length}</td><td>${student.notes || ''}</td>`;
     
-            // إضافة الدفعات غير الخالصة لهذا الطالب
             student.unpaid_periods.forEach(payment => {
                 let paymentRow = paymentsTable.insertRow();
                 paymentRow.innerHTML = `<td>${payment.period}</td><td>${payment.amount.toFixed(2)}</td><td>${student.name}</td>`;
             });
         });
 
-        // تجميع المستويات الدراسية لأبناء الولي (بدون تكرار)
+        // تجميع المستويات الدراسية لأبناء الولي
         const relevantLevels = [...new Set(children.map(student => student.educational_level))];
+        
+        // تجميع أرقام تعريف أبناء الولي
+        const childrenIds = children.map(student => student.id);
 
-        // استدعاء الدالة مع تمرير المستويات المجمعة
-        buildSchedule("schedule", relevantLevels);
+        // استدعاء الدالة مع تمرير المستويات وأرقام التعريف
+        buildSchedule("schedule", relevantLevels, childrenIds);
     });
   </script>
 </body>
