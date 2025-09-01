@@ -10,16 +10,14 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": [
-      "2025-09-01"
-    ],
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
         "amount": 50.0
       }
     ],
-    "notes": "المزيد من العمل"
+    "notes": ""
   },
   {
     "id": 56,
@@ -1323,30 +1321,6 @@
     "notes": ""
   },
   {
-    "id": 18,
-    "name": "شفاء",
-    "surname": "قادري",
-    "educational_level": "6 ابتدائي",
-    "entry_date": "2025-08-01",
-    "guardian_full_name": "رفيقة قادري",
-    "phone_number": "46282024",
-    "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 100.0,
-    "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "2025-08",
-        "amount": 50.0
-      },
-      {
-        "period": "2025-09",
-        "amount": 50.0
-      }
-    ],
-    "notes": ""
-  },
-  {
     "id": 67,
     "name": "غيث",
     "surname": "قادري",
@@ -1391,14 +1365,9 @@
     "phone_number": "98386709",
     "payment_generation_status": "active",
     "payment_count": 1,
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "2025-08",
-        "amount": 50.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -1761,6 +1730,30 @@
     "unpaid_total": 0.0,
     "absence_count": [],
     "unpaid_periods": [],
+    "notes": ""
+  },
+  {
+    "id": 18,
+    "name": "شفاء",
+    "surname": "نصيري",
+    "educational_level": "6 ابتدائي",
+    "entry_date": "2025-08-01",
+    "guardian_full_name": "رفيقة قادري",
+    "phone_number": "46282024",
+    "payment_generation_status": "active",
+    "payment_count": 2,
+    "unpaid_total": 100.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "2025-08",
+        "amount": 50.0
+      },
+      {
+        "period": "2025-09",
+        "amount": 50.0
+      }
+    ],
     "notes": ""
   },
   {
