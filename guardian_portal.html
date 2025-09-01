@@ -33,7 +33,7 @@
       <tbody></tbody>
     </table>
 
-    <p>إجمالي الدفعات غير الخالصة: <span id="totalUnpaid" style="font-size: 1.2em; color: #d9534f; font-weight: bold;"></span></p>
+    <p id="totalUnpaidContainer">إجمالي الدفعات غير الخالصة: <span id="totalUnpaid" style="font-size: 1.2em; color: #d9534f; font-weight: bold;"></span></p>
 
     <h3>الدفعات غير الخالصة</h3>
     <table id="payments" class="datatable">
@@ -43,7 +43,7 @@
       <tbody></tbody>
     </table>
 
-        <hr>
+    <hr>
     <h3>الغيابات</h3>
     <table id="absences" class="datatable">
         <thead>
@@ -56,7 +56,7 @@
         </thead>
         <tbody></tbody>
     </table>
-    
+
     <hr>
     <h3>ملاحظات هامة</h3>
     <table id="notes" class="datatable">
@@ -166,8 +166,6 @@
           let cell1 = childRow.insertCell(); cell1.textContent = `${student.name} ${student.surname}`;
           let cell2 = childRow.insertCell(); cell2.textContent = student.educational_level;
           let cell3 = childRow.insertCell(); cell3.textContent = student.unpaid_total.toFixed(2);
-          let cell4 = childRow.insertCell(); cell4.textContent = Array.isArray(student.absence_count) ? student.absence_count.length : 0;
-          let cell5 = childRow.insertCell(); cell5.textContent = student.notes || '-';
         });
 
         // --== الجزء الذي تم تصحيحه ==--
@@ -179,6 +177,22 @@
                 let paymentRow = paymentsTableBody.insertRow(); 
                 paymentRow.innerHTML = `<td>${payment.period}</td><td>${payment.amount.toFixed(2)}</td><td>${student.name}</td>`;
             });
+        });
+
+        const absencesTableBody = document.getElementById("absences").getElementsByTagName('tbody')[0];
+        const notesTableBody = document.getElementById("notes").getElementsByTagName('tbody')[0];
+
+        children.forEach(student => {
+            if (Array.isArray(student.absence_count) && student.absence_count.length > 0) {
+                student.absence_count.forEach(absence => {
+                    let absenceRow = absencesTableBody.insertRow();
+                    absenceRow.innerHTML = `<td>${student.name}</td><td>${absence.date}</td><td>${absence.reason || '-'}</td><td>${absence.hours || 'غير محدد'}</td>`;
+                });
+            }
+            if (student.notes) {
+                let noteRow = notesTableBody.insertRow();
+                noteRow.innerHTML = `<td>${student.name}</td><td>${student.notes}</td>`;
+            }
         });
 
         const relevantLevels = [...new Set(children.map(student => student.educational_level))];
