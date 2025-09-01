@@ -94,54 +94,6 @@
   <script src="guardian_script.js"></script>
   
   <script>
-    // --- الكود المدمج ---
-
-    async function buildSchedule(tableId, relevantLevels = [], childrenIds = []) {
-      // This function remains unchanged
-      const perm = await fetch("schedule_permanent.json").then(r => r.json());
-      const temp = await fetch("schedule_temporary.json").then(r => r.json());
-      const replacedClassIds = new Set(temp.filter(t => t.replaced_class_id !== null).map(t => t.replaced_class_id));
-      const allTimeSlots = [...new Set([...perm.map(c => c.time_slot), ...temp.map(c => c.time_slot)])].sort();
-      const days = ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"];
-      const tbody = document.querySelector(`#${tableId} tbody`);
-      tbody.innerHTML = "";
-      allTimeSlots.forEach(slot => {
-        const tr = document.createElement("tr");
-        tr.innerHTML = `<td>${slot}</td>`;
-        days.forEach(day => {
-          const cell = document.createElement("td");
-          const permMatch = perm.find(c => c.time_slot === slot && c.day_of_week === day);
-          if (permMatch && !replacedClassIds.has(permMatch.id)) {
-            let shouldDisplay = false;
-            if (relevantLevels.includes(permMatch.educational_level)) {
-              if (permMatch.class_type === 'general') { shouldDisplay = true; }
-              else if (permMatch.class_type === 'private') {
-                if (permMatch.student_ids.some(studentId => childrenIds.includes(studentId))) { shouldDisplay = true; }
-              }
-            }
-            if (shouldDisplay) {
-              cell.textContent = permMatch.educational_level;
-              cell.classList.add(permMatch.class_type);
-            }
-          }
-          tr.appendChild(cell);
-        });
-        tbody.appendChild(tr);
-      });
-      if (!document.querySelector('.legend')) {
-          const legend = document.createElement("div");
-          legend.classList.add("legend");
-          const legendItems = [{ text: "حصة عامة", colorClass: "general" },{ text: "حصة خاصة", colorClass: "private" },];
-          legendItems.forEach(item => {
-            const legendItem = document.createElement("div");
-            legendItem.classList.add("legend-item");
-            legendItem.innerHTML = `<span class="legend-color ${item.colorClass}"></span>${item.text}`;
-            legend.appendChild(legendItem);
-          });
-          document.querySelector(`#${tableId}`).after(legend);
-      }
-    }
-
     document.addEventListener("DOMContentLoaded", async () => {
       try {
         const guardianData = sessionStorage.getItem("guardian");
@@ -155,11 +107,14 @@
         const children = students.filter(student => guardian.student_ids.includes(student.id));
 
         document.getElementById("guardianName").innerText = `مرحباً، ${guardian.guardian_full_name}`;
-        document.getElementById("totalUnpaid").innerText = `${guardian.unpaid_total.toFixed(2)} دينار`;
 
+        // حساب إجمالي الديون من الأبناء
+        const totalUnpaid = children.reduce((sum, s) => sum + (Number(s.unpaid_total) || 0), 0);
+        document.getElementById("totalUnpaid").innerText = `${totalUnpaid.toFixed(2)} دينار`;
+
+        // جدول الأبناء
         const childrenTableBody = document.getElementById("children").getElementsByTagName('tbody')[0];
         childrenTableBody.innerHTML = ''; 
-        
         children.forEach(student => {
           let childRow = childrenTableBody.insertRow();
           let cell1 = childRow.insertCell(); cell1.textContent = `${student.name} ${student.surname}`;
@@ -168,36 +123,37 @@
           let cell4 = childRow.insertCell(); cell4.textContent = Array.isArray(student.absence_count) ? student.absence_count.length : 0;
         });
 
-        // --== الجزء الذي تم تصحيحه ==--
+        // جدول الدفعات
         const paymentsTableBody = document.getElementById("payments").getElementsByTagName('tbody')[0];
         paymentsTableBody.innerHTML = '';
         children.forEach(student => {
             student.unpaid_periods.forEach(payment => {
-                // تم تصحيح الخطأ الإملائي هنا
                 let paymentRow = paymentsTableBody.insertRow(); 
                 paymentRow.innerHTML = `<td>${payment.period}</td><td>${payment.amount.toFixed(2)}</td><td>${student.name}</td>`;
             });
         });
 
-        student.absence_count.forEach(absenceDate => {
-            let absenceRow = absencesTableBody.insertRow();
-            const date = new Date(absenceDate);
-            const dayName = daysOfWeek[date.getDay()];
-            const formattedDate = `${absenceDate} (${dayName})`;
-            absenceRow.innerHTML = `<td>${student.name}</td><td>${formattedDate}</td>`;
-        });
-
+        // جدول الغيابات + الملاحظات
+        const absencesTableBody = document.getElementById("absences").getElementsByTagName('tbody')[0];
+        absencesTableBody.innerHTML = '';
         const notesTableBody = document.getElementById("notes").getElementsByTagName('tbody')[0];
+        notesTableBody.innerHTML = '';
         const daysOfWeek = ["الأحد", "الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"];
+
+        let hasAbsences = false;
 
         children.forEach(student => {
             if (Array.isArray(student.absence_count) && student.absence_count.length > 0) {
-                student.absence_count.forEach(absence => {
+                student.absence_count.forEach(absenceDate => {
                     let absenceRow = absencesTableBody.insertRow();
-                    const date = new Date(absence.date);
-                    const dayName = daysOfWeek[date.getDay()];
-                    const formattedDate = `${absence.date} (${dayName})`;
+                    const d = new Date(absenceDate);
+                    let formattedDate = absenceDate;
+                    if (!isNaN(d)) {
+                        const dayName = daysOfWeek[d.getDay()];
+                        formattedDate = `${absenceDate} (${dayName})`;
+                    }
                     absenceRow.innerHTML = `<td>${student.name}</td><td>${formattedDate}</td>`;
+                    hasAbsences = true;
                 });
             }
             if (student.notes) {
@@ -206,13 +162,17 @@
             }
         });
 
+        if (!hasAbsences) {
+            let row = absencesTableBody.insertRow();
+            row.innerHTML = `<td colspan="2">لا توجد غيابات مسجلة</td>`;
+        }
+
+        // بناء جدول الحصص مباشرة (بدون try/catch)
         const relevantLevels = [...new Set(children.map(student => student.educational_level))];
         const childrenIds = children.map(student => student.id);
-
         await buildSchedule("schedule", relevantLevels, childrenIds);
 
       } catch (error) {
-        // سأترك هذا التنبيه في حال وجود خطأ آخر غير متوقع
         console.error("حدث خطأ:", error);
         alert("عفواً، حدث خطأ أثناء تحميل بيانات الصفحة. قد تكون البيانات غير مكتملة.");
       }
