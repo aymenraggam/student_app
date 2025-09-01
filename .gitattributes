@@ -1,0 +1,2 @@
+*.json linguist-language=JavaScript
+*.html linguist-detectable=false
