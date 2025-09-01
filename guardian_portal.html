@@ -2,58 +2,71 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>بوابة الولي</title>
+  <title>بوابة الولي - مؤسسة الصالحي</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h3>مرحباً بك في بوابة الولي</h3>
-  <p>
-    في هذه الصفحة، ستجد ملخصًا شاملاً لمتابعة المسار الدراسي لأبنائك. يمكنك الاطلاع على قائمة أبنائك المسجلين مع تفاصيل ديونهم و غياباتهم، بالإضافة إلى جدول الدفعات غير الخالصة وجدول الحصص الأسبوعي.
-  </p>
-  <hr>
 
-  <h2 id="guardianName"></h2>
+  <div class="header">
+    <img src="logo.png" alt="شعار المؤسسة" class="logo">
+    <h1>بوابة متابعة الولي</h1>
+  </div>
 
-  <h3>أبناؤك</h3>
-  <table id="children" class="datatable">
-    <thead>
-      <tr>
-        <th>الاسم</th>
-        <th>المستوى</th>
-        <th>الديون</th>
-        <th>الغيابات</th>
-        <th>ملاحظات</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+  <div class="container">
+    <h3>مرحباً بك في بوابة الولي</h3>
+    <p>
+      في هذه الصفحة، ستجد ملخصًا شاملاً لمتابعة المسار الدراسي لأبنائك. يمكنك الاطلاع على قائمة أبنائك المسجلين مع تفاصيل ديونهم و غياباتهم، بالإضافة إلى جدول الدفعات غير الخالصة وجدول الحصص الأسبوعي.
+    </p>
+    <hr>
 
-  <p>إجمالي الدفعات غير الخالصة: <span id="totalUnpaid" style="font-size: 1.2em; color: #d9534f; font-weight: bold;"></span></p>
+    <h2 id="guardianName"></h2>
 
-  <h3>الدفعات غير الخالصة</h3>
-  <table id="payments" class="datatable">
-    <thead>
-      <tr><th>الفترة</th><th>المبلغ</th><th>الطالب</th></tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+    <h3>أبناؤك</h3>
+    <table id="children" class="datatable">
+      <thead>
+        <tr>
+          <th>الاسم</th>
+          <th>المستوى</th>
+          <th>الديون</th>
+          <th>الغيابات</th>
+          <th>ملاحظات</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
 
-  <h3>جدول الحصص الخاص بأبنائك</h3>
-  <table id="schedule" class="timetable">
-    <thead>
-      <tr>
-        <th>التوقيت</th>
-        <th>الإثنين</th>
-        <th>الثلاثاء</th>
-        <th>الأربعاء</th>
-        <th>الخميس</th>
-        <th>الجمعة</th>
-        <th>السبت</th>
-        <th>الأحد</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+    <p>إجمالي الدفعات غير الخالصة: <span id="totalUnpaid" style="font-size: 1.2em; color: #d9534f; font-weight: bold;"></span></p>
+
+    <h3>الدفعات غير الخالصة</h3>
+    <table id="payments" class="datatable">
+      <thead>
+        <tr><th>الفترة</th><th>المبلغ</th><th>الطالب</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <h3>جدول الحصص الخاص بأبنائك</h3>
+    <table id="schedule" class="timetable">
+      <thead>
+        <tr>
+          <th>التوقيت</th>
+          <th>الإثنين</th>
+          <th>الثلاثاء</th>
+          <th>الأربعاء</th>
+          <th>الخميس</th>
+          <th>الجمعة</th>
+          <th>السبت</th>
+          <th>الأحد</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="footer">
+    <a href="index.html">العودة للصفحة الرئيسية</a>
+    <p>حقوق النشر © 2025 الصالحي — جميع الحقوق محفوظة</p>
+  </div>
 
   <script src="guardian_script.js"></script>
   
@@ -132,7 +145,10 @@
     document.addEventListener("DOMContentLoaded", async () => {
       try {
         const guardianData = sessionStorage.getItem("guardian");
-        if (!guardianData) return;
+        if (!guardianData) {
+            window.location = "login.html";
+            return;
+        }
 
         const guardian = JSON.parse(guardianData);
         const students = await fetch("students.json").then(res => res.json());
