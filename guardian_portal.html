@@ -94,9 +94,7 @@
   <script src="guardian_script.js"></script>
   
   <script>
-    // --- الكود المدمج ---
-
-    async function buildSchedule(tableId, relevantLevels = [], childrenIds = []) {
+     async function buildSchedule(tableId, relevantLevels = [], childrenIds = []) {
       // This function remains unchanged
       const perm = await fetch("schedule_permanent.json").then(r => r.json());
       const temp = await fetch("schedule_temporary.json").then(r => r.json());
@@ -155,7 +153,10 @@
         const children = students.filter(student => guardian.student_ids.includes(student.id));
 
         document.getElementById("guardianName").innerText = `مرحباً، ${guardian.guardian_full_name}`;
-        document.getElementById("totalUnpaid").innerText = `${guardian.unpaid_total.toFixed(2)} دينار`;
+
+        // حساب إجمالي الديون من الأبناء
+        const totalUnpaid = children.reduce((sum, s) => sum + (Number(s.unpaid_total) || 0), 0);
+        document.getElementById("totalUnpaid").innerText = `${totalUnpaid.toFixed(2)} دينار`;
 
         const childrenTableBody = document.getElementById("children").getElementsByTagName('tbody')[0];
         childrenTableBody.innerHTML = ''; 
@@ -168,29 +169,36 @@
           let cell4 = childRow.insertCell(); cell4.textContent = Array.isArray(student.absence_count) ? student.absence_count.length : 0;
         });
 
-        // --== الجزء الذي تم تصحيحه ==--
+        // جدول الدفعات
         const paymentsTableBody = document.getElementById("payments").getElementsByTagName('tbody')[0];
         paymentsTableBody.innerHTML = '';
         children.forEach(student => {
             student.unpaid_periods.forEach(payment => {
-                // تم تصحيح الخطأ الإملائي هنا
                 let paymentRow = paymentsTableBody.insertRow(); 
                 paymentRow.innerHTML = `<td>${payment.period}</td><td>${payment.amount.toFixed(2)}</td><td>${student.name}</td>`;
             });
         });
 
+        // جدول الغيابات
         const absencesTableBody = document.getElementById("absences").getElementsByTagName('tbody')[0];
+        absencesTableBody.innerHTML = '';
         const notesTableBody = document.getElementById("notes").getElementsByTagName('tbody')[0];
         const daysOfWeek = ["الأحد", "الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"];
 
+        let hasAbsences = false;
+
         children.forEach(student => {
             if (Array.isArray(student.absence_count) && student.absence_count.length > 0) {
-                student.absence_count.forEach(absence => {
+                student.absence_count.forEach(absenceDate => {
                     let absenceRow = absencesTableBody.insertRow();
-                    const date = new Date(absence.date);
-                    const dayName = daysOfWeek[date.getDay()];
-                    const formattedDate = `${absence.date} (${dayName})`;
+                    const d = new Date(absenceDate);
+                    let formattedDate = absenceDate;
+                    if (!isNaN(d)) {
+                        const dayName = daysOfWeek[d.getDay()];
+                        formattedDate = `${absenceDate} (${dayName})`;
+                    }
                     absenceRow.innerHTML = `<td>${student.name}</td><td>${formattedDate}</td>`;
+                    hasAbsences = true;
                 });
             }
             if (student.notes) {
@@ -199,13 +207,15 @@
             }
         });
 
+        if (!hasAbsences) {
+            let row = absencesTableBody.insertRow();
+            row.innerHTML = `<td colspan="2">لا توجد غيابات مسجلة</td>`;
+        }
+
         const relevantLevels = [...new Set(children.map(student => student.educational_level))];
         const childrenIds = children.map(student => student.id);
 
-        await buildSchedule("schedule", relevantLevels, childrenIds);
-
       } catch (error) {
-        // سأترك هذا التنبيه في حال وجود خطأ آخر غير متوقع
         console.error("حدث خطأ:", error);
         alert("عفواً، حدث خطأ أثناء تحميل بيانات الصفحة. قد تكون البيانات غير مكتملة.");
       }
