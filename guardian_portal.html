@@ -135,8 +135,11 @@
 
         // جدول الغيابات
         const absencesTableBody = document.getElementById("absences").getElementsByTagName('tbody')[0];
+        absencesTableBody.innerHTML = '';
         const notesTableBody = document.getElementById("notes").getElementsByTagName('tbody')[0];
         const daysOfWeek = ["الأحد", "الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"];
+
+        let hasAbsences = false;
 
         children.forEach(student => {
             if (Array.isArray(student.absence_count) && student.absence_count.length > 0) {
@@ -149,6 +152,7 @@
                         formattedDate = `${absenceDate} (${dayName})`;
                     }
                     absenceRow.innerHTML = `<td>${student.name}</td><td>${formattedDate}</td>`;
+                    hasAbsences = true;
                 });
             }
             if (student.notes) {
@@ -156,6 +160,11 @@
                 noteRow.innerHTML = `<td>${student.name}</td><td>${student.notes}</td>`;
             }
         });
+
+        if (!hasAbsences) {
+            let row = absencesTableBody.insertRow();
+            row.innerHTML = `<td colspan="2">لا توجد غيابات مسجلة</td>`;
+        }
 
         const relevantLevels = [...new Set(children.map(student => student.educational_level))];
         const childrenIds = children.map(student => student.id);
