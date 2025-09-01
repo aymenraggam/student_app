@@ -179,7 +179,14 @@
             });
         });
 
-        const absencesTableBody = document.getElementById("absences").getElementsByTagName('tbody')[0];
+        student.absence_count.forEach(absenceDate => {
+            let absenceRow = absencesTableBody.insertRow();
+            const date = new Date(absenceDate);
+            const dayName = daysOfWeek[date.getDay()];
+            const formattedDate = `${absenceDate} (${dayName})`;
+            absenceRow.innerHTML = `<td>${student.name}</td><td>${formattedDate}</td>`;
+        });
+
         const notesTableBody = document.getElementById("notes").getElementsByTagName('tbody')[0];
         const daysOfWeek = ["الأحد", "الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"];
 
