@@ -107,7 +107,10 @@
         const children = students.filter(student => guardian.student_ids.includes(student.id));
 
         document.getElementById("guardianName").innerText = `مرحباً، ${guardian.guardian_full_name}`;
-        document.getElementById("totalUnpaid").innerText = `${guardian.unpaid_total.toFixed(2)} دينار`;
+
+        // حساب إجمالي الديون من الأبناء
+        const totalUnpaid = children.reduce((sum, s) => sum + (Number(s.unpaid_total) || 0), 0);
+        document.getElementById("totalUnpaid").innerText = `${totalUnpaid.toFixed(2)} دينار`;
 
         const childrenTableBody = document.getElementById("children").getElementsByTagName('tbody')[0];
         childrenTableBody.innerHTML = ''; 
@@ -139,9 +142,12 @@
             if (Array.isArray(student.absence_count) && student.absence_count.length > 0) {
                 student.absence_count.forEach(absenceDate => {
                     let absenceRow = absencesTableBody.insertRow();
-                    const date = new Date(absenceDate);
-                    const dayName = daysOfWeek[date.getDay()];
-                    const formattedDate = `${absenceDate} (${dayName})`;
+                    const d = new Date(absenceDate);
+                    let formattedDate = absenceDate;
+                    if (!isNaN(d)) {
+                        const dayName = daysOfWeek[d.getDay()];
+                        formattedDate = `${absenceDate} (${dayName})`;
+                    }
                     absenceRow.innerHTML = `<td>${student.name}</td><td>${formattedDate}</td>`;
                 });
             }
@@ -154,7 +160,11 @@
         const relevantLevels = [...new Set(children.map(student => student.educational_level))];
         const childrenIds = children.map(student => student.id);
 
-        await buildSchedule("schedule", relevantLevels, childrenIds);
+        try {
+          await buildSchedule("schedule", relevantLevels, childrenIds);
+        } catch (e) {
+          console.warn("تعذّر تحميل جدول الحصص؛ سيتم تجاهله مؤقتًا.", e);
+        }
 
       } catch (error) {
         console.error("حدث خطأ:", error);
