@@ -1,50 +1,132 @@
-body { font-family: Tahoma, sans-serif; direction: rtl; margin: 20px; background:#f9f9f9;}
-.header { text-align:center; margin-bottom:20px; background:#2c3e50; color:white; padding:20px;}
-.logo { width:120px; }
-.links { text-align:center; margin:20px;}
-.links a { margin:10px; padding:10px 20px; background:#007bff; color:white; text-decoration:none; border-radius:6px;}
-.links a:hover { background:#0056b3; }
-
-table { border-collapse: collapse; width: 100%; text-align:center; margin-top:15px;}
-th, td { border:1px solid #ccc; padding:8px; min-width:80px;}
-th { background:#2c3e50; color:white;}
-tr:nth-child(even) { background:#f2f2f2; }
-
-.datatable { margin-bottom:30px; }
-.datatable th { background:#34495e; }
-
-/* ألوان حسب نوع الحصة */
-
-.general {
-  background-color: #e6f7ff; /* أزرق فاتح للحصص العامة */
+body {
+  font-family: Tahoma, sans-serif;
+  direction: rtl;
+  margin: 0;
+  background: #f4f7f6;
+  color: #333;
 }
 
-.private {
-  background-color: #8AF2E6; /* أخضر فاتح للحصص الخاصة */
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.temporary {
-  background-color: #fffacd; /* أصفر باهت للحصص المؤقتة */
+/* Header Styles */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  background: #2c3e50;
+  color: white;
+  padding: 25px 20px;
+  border-bottom: 5px solid #007bff;
 }
 
-/* الألوان الجديدة للحصص المؤقتة */
-
-.temporary {
-  background-color: #fce4ec; /* لون أساسي للحصص المؤقتة */
-  border-left: 3px solid #e91e63;
+.header img.logo {
+  width: 120px;
+  margin-bottom: 10px;
 }
 
-/* لون خاص بالحصص التعويضية */
-.replacement {
-  background-color: #ffcccc; /* أحمر فاتح للتعويضية */
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
 }
 
-/* لون خاص بالحصص الإضافية */
-.extra {
-  background-color: #e3f2fd; /* أزرق فاتح للإضافية */
+/* Introduction Paragraph on Index Page */
+.introduction {
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 1.7;
+  color: #444;
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
-/* مفتاح الألوان - يضاف أسفل الجدول */
+/* Links and Buttons */
+.links {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.links a, .footer a, button {
+  margin: 10px;
+  padding: 12px 25px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.links a:hover, .footer a:hover, button:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Table Styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  border-radius: 8px;
+  overflow: hidden; /* Important for border-radius on tables */
+}
+
+th, td {
+  border: 1px solid #e0e0e0;
+  padding: 12px;
+  min-width: 90px;
+}
+
+th {
+  background: #34495e;
+  color: white;
+  font-size: 1.1em;
+}
+
+tr:nth-child(even) {
+  background: #f8f9fa;
+}
+
+tr:hover {
+  background-color: #e9ecef;
+}
+
+.datatable {
+  margin-bottom: 30px;
+}
+
+/* Form Input Styles */
+input[type="text"], input[type="password"] {
+  font-size: 1.2em;
+  padding: 12px;
+  margin: 10px 0;
+  width: 320px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+
+/* Color Legend for Schedule */
 .legend {
   margin-top: 20px;
   display: flex;
@@ -62,6 +144,23 @@ tr:nth-child(even) { background:#f2f2f2; }
 .legend-color {
   width: 20px;
   height: 20px;
-  margin-left: 8px; /* للحفاظ على المسافة بين اللون والنص في اتجاه RTL */
+  margin-left: 8px;
   border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Session Colors */
+.general { background-color: #e6f7ff; }
+.private { background-color: #8AF2E6; }
+.temporary { background-color: #fce4ec; border-left: 3px solid #e91e63; }
+.replacement { background-color: #ffcccc; }
+.extra { background-color: #e3f2fd; }
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  color: #666;
 }
