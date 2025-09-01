@@ -48,12 +48,16 @@
     "guardian_full_name": "هاجر بوعلافي",
     "phone_number": "94939646",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 50.0,
+    "payment_count": 3,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
+        "amount": 50.0
+      },
+      {
+        "period": "2025-09",
         "amount": 50.0
       }
     ],
@@ -240,12 +244,16 @@
     "guardian_full_name": "ابتسام جلالي",
     "phone_number": "97787207",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
+        "amount": 50.0
+      },
+      {
+        "period": "2025-09",
         "amount": 50.0
       }
     ],
@@ -1036,6 +1044,26 @@
     "unpaid_periods": [
       {
         "period": "2025-08",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 90,
+    "name": "لينا",
+    "surname": "عبيدي",
+    "educational_level": "3 ابتدائي",
+    "entry_date": "2025-09-01",
+    "guardian_full_name": "وليد عبيدي",
+    "phone_number": "24183163",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "2025-09",
         "amount": 50.0
       }
     ],

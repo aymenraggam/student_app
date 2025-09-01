@@ -51,7 +51,7 @@
     "student_ids": [
       10
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "753863"
   },
   {
@@ -78,7 +78,7 @@
     "student_ids": [
       12
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "624827"
   },
   {
@@ -385,6 +385,15 @@
     ],
     "unpaid_total": 100.0,
     "password": "573012"
+  },
+  {
+    "guardian_full_name": "وليد عبيدي",
+    "phone_number": "24183163",
+    "student_ids": [
+      90
+    ],
+    "unpaid_total": 50.0,
+    "password": "395957"
   },
   {
     "guardian_full_name": "عماد عيوني",

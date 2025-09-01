@@ -67,11 +67,11 @@
     "student_ids": []
   },
   {
-    "id": 24,
+    "id": 25,
     "day_of_week": "الإثنين",
     "time_slot": "16:00 - 18:00",
-    "educational_level": "6 ابتدائي",
-    "class_type": "general",
+    "educational_level": "مجموعة إنجليزية",
+    "class_type": "english",
     "student_ids": []
   },
   {
