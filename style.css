@@ -176,3 +176,10 @@ input[type="text"]:focus, input[type="password"]:focus {
   border-top: 1px solid #ddd;
   color: #666;
 }
+
+/* أضف هذا إلى ملف style.css */
+.timetable td.english, .legend-color.english {
+  background-color: #C6F75C;
+  color: white;
+  font-weight: bold;
+}
