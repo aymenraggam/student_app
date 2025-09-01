@@ -185,11 +185,11 @@
 
         children.forEach(student => {
             if (Array.isArray(student.absence_count) && student.absence_count.length > 0) {
-                student.absence_count.forEach(absence => {
+                student.absence_count.forEach(absenceDate => {
                     let absenceRow = absencesTableBody.insertRow();
-                    const date = new Date(absence.date);
+                    const date = new Date(absenceDate);
                     const dayName = daysOfWeek[date.getDay()];
-                    const formattedDate = `${absence.date} (${dayName})`;
+                    const formattedDate = `${absenceDate} (${dayName})`;
                     absenceRow.innerHTML = `<td>${student.name}</td><td>${formattedDate}</td>`;
                 });
             }
