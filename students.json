@@ -378,10 +378,15 @@
     "guardian_full_name": "أماني قدودة",
     "phone_number": "22959665",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
+    "payment_count": 2,
+    "unpaid_total": 70.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "2025-09",
+        "amount": 70.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -727,8 +732,8 @@
     "guardian_full_name": "فاطمة صالحي",
     "phone_number": "97479829",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 100.0,
+    "payment_count": 3,
+    "unpaid_total": 150.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -737,6 +742,10 @@
       },
       {
         "period": "2025-08",
+        "amount": 50.0
+      },
+      {
+        "period": "2025-09",
         "amount": 50.0
       }
     ],
@@ -790,12 +799,16 @@
     "guardian_full_name": "الناصر صالحي",
     "phone_number": "28083048",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 40.0,
+    "payment_count": 3,
+    "unpaid_total": 80.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
+        "amount": 40.0
+      },
+      {
+        "period": "2025-09",
         "amount": 40.0
       }
     ],
@@ -874,10 +887,15 @@
     "guardian_full_name": "بسمة عبيدي",
     "phone_number": "99722377",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "2025-09",
+        "amount": 100.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -1034,12 +1052,16 @@
     "guardian_full_name": "مليكة جلالي",
     "phone_number": "29003581",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
+        "amount": 50.0
+      },
+      {
+        "period": "2025-09",
         "amount": 50.0
       }
     ],
@@ -1309,12 +1331,16 @@
     "guardian_full_name": "رفيقة قادري",
     "phone_number": "46282024",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
+        "amount": 50.0
+      },
+      {
+        "period": "2025-09",
         "amount": 50.0
       }
     ],
@@ -1448,12 +1474,16 @@
     "guardian_full_name": "أحمد كحولي",
     "phone_number": "94767084",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
+        "amount": 50.0
+      },
+      {
+        "period": "2025-09",
         "amount": 50.0
       }
     ],
@@ -1603,8 +1633,8 @@
     "guardian_full_name": "نوال مسعودي",
     "phone_number": "42218267",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 200.0,
+    "payment_count": 3,
+    "unpaid_total": 300.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -1613,6 +1643,10 @@
       },
       {
         "period": "2025-08",
+        "amount": 100.0
+      },
+      {
+        "period": "2025-09",
         "amount": 100.0
       }
     ],
@@ -1675,12 +1709,16 @@
     "guardian_full_name": "قيس مسعودي",
     "phone_number": "90723023",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 30.0,
+    "payment_count": 3,
+    "unpaid_total": 60.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "2025-08",
+        "amount": 30.0
+      },
+      {
+        "period": "2025-09",
         "amount": 30.0
       }
     ],
