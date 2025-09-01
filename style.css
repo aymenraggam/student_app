@@ -180,6 +180,6 @@ input[type="text"]:focus, input[type="password"]:focus {
 /* أضف هذا إلى ملف style.css */
 .timetable td.english, .legend-color.english {
   background-color: #C6F75C;
-  color: white;
+  color: black;
   font-weight: bold;
 }
