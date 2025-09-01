@@ -107,10 +107,7 @@
         const children = students.filter(student => guardian.student_ids.includes(student.id));
 
         document.getElementById("guardianName").innerText = `مرحباً، ${guardian.guardian_full_name}`;
-
-        // حساب إجمالي الديون من الأبناء
-        const totalUnpaid = children.reduce((sum, s) => sum + (Number(s.unpaid_total) || 0), 0);
-        document.getElementById("totalUnpaid").innerText = `${totalUnpaid.toFixed(2)} دينار`;
+        document.getElementById("totalUnpaid").innerText = `${guardian.unpaid_total.toFixed(2)} دينار`;
 
         const childrenTableBody = document.getElementById("children").getElementsByTagName('tbody')[0];
         childrenTableBody.innerHTML = ''; 
@@ -135,24 +132,17 @@
 
         // جدول الغيابات
         const absencesTableBody = document.getElementById("absences").getElementsByTagName('tbody')[0];
-        absencesTableBody.innerHTML = '';
         const notesTableBody = document.getElementById("notes").getElementsByTagName('tbody')[0];
         const daysOfWeek = ["الأحد", "الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"];
-
-        let hasAbsences = false;
 
         children.forEach(student => {
             if (Array.isArray(student.absence_count) && student.absence_count.length > 0) {
                 student.absence_count.forEach(absenceDate => {
                     let absenceRow = absencesTableBody.insertRow();
-                    const d = new Date(absenceDate);
-                    let formattedDate = absenceDate;
-                    if (!isNaN(d)) {
-                        const dayName = daysOfWeek[d.getDay()];
-                        formattedDate = `${absenceDate} (${dayName})`;
-                    }
+                    const date = new Date(absenceDate);
+                    const dayName = daysOfWeek[date.getDay()];
+                    const formattedDate = `${absenceDate} (${dayName})`;
                     absenceRow.innerHTML = `<td>${student.name}</td><td>${formattedDate}</td>`;
-                    hasAbsences = true;
                 });
             }
             if (student.notes) {
@@ -161,23 +151,11 @@
             }
         });
 
-        if (!hasAbsences) {
-            let row = absencesTableBody.insertRow();
-            row.innerHTML = `<td colspan="2">لا توجد غيابات مسجلة</td>`;
-        }
-
         const relevantLevels = [...new Set(children.map(student => student.educational_level))];
         const childrenIds = children.map(student => student.id);
 
-        try {
-          await buildSchedule("schedule", relevantLevels, childrenIds);
-        } catch (e) {
-          console.warn("تعذّر تحميل جدول الحصص؛ سيتم تجاهله مؤقتًا.", e);
-        }
+        await buildSchedule("schedule", relevantLevels, childrenIds);
 
-      } catch (error) {
-        console.error("حدث خطأ:", error);
-        alert("عفواً، حدث خطأ أثناء تحميل بيانات الصفحة. قد تكون البيانات غير مكتملة.");
       }
     });
   </script>
