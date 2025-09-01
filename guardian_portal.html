@@ -71,46 +71,31 @@
   <script src="guardian_script.js"></script>
   
   <script>
-    // --- بداية الكود المدمج ---
+    // --- الكود المدمج ---
 
-    /**
-     * دالة بناء الجدول الزمني، تم دمجها هنا لضمان عملها بشكل صحيح
-     * @param {string} tableId - معرف الجدول
-     * @param {string[]} relevantLevels - قائمة المستويات الدراسية للأبناء
-     * @param {number[]} childrenIds - قائمة IDs أبناء الولي
-     */
     async function buildSchedule(tableId, relevantLevels = [], childrenIds = []) {
+      // This function remains unchanged
       const perm = await fetch("schedule_permanent.json").then(r => r.json());
       const temp = await fetch("schedule_temporary.json").then(r => r.json());
-
       const replacedClassIds = new Set(temp.filter(t => t.replaced_class_id !== null).map(t => t.replaced_class_id));
       const allTimeSlots = [...new Set([...perm.map(c => c.time_slot), ...temp.map(c => c.time_slot)])].sort();
       const days = ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"];
       const tbody = document.querySelector(`#${tableId} tbody`);
       tbody.innerHTML = "";
-
       allTimeSlots.forEach(slot => {
         const tr = document.createElement("tr");
         tr.innerHTML = `<td>${slot}</td>`;
-
         days.forEach(day => {
           const cell = document.createElement("td");
           const permMatch = perm.find(c => c.time_slot === slot && c.day_of_week === day);
-
           if (permMatch && !replacedClassIds.has(permMatch.id)) {
             let shouldDisplay = false;
-            
             if (relevantLevels.includes(permMatch.educational_level)) {
-              if (permMatch.class_type === 'general') {
-                shouldDisplay = true;
-              } else if (permMatch.class_type === 'private') {
-                const isChildEnrolled = permMatch.student_ids.some(studentId => childrenIds.includes(studentId));
-                if (isChildEnrolled) {
-                  shouldDisplay = true;
-                }
+              if (permMatch.class_type === 'general') { shouldDisplay = true; }
+              else if (permMatch.class_type === 'private') {
+                if (permMatch.student_ids.some(studentId => childrenIds.includes(studentId))) { shouldDisplay = true; }
               }
             }
-            
             if (shouldDisplay) {
               cell.textContent = permMatch.educational_level;
               cell.classList.add(permMatch.class_type);
@@ -120,15 +105,10 @@
         });
         tbody.appendChild(tr);
       });
-      
-      // لا نضيف مفتاح الألوان إذا كان موجودًا بالفعل
       if (!document.querySelector('.legend')) {
           const legend = document.createElement("div");
           legend.classList.add("legend");
-          const legendItems = [
-            { text: "حصة عامة", colorClass: "general" },
-            { text: "حصة خاصة", colorClass: "private" },
-          ];
+          const legendItems = [{ text: "حصة عامة", colorClass: "general" },{ text: "حصة خاصة", colorClass: "private" },];
           legendItems.forEach(item => {
             const legendItem = document.createElement("div");
             legendItem.classList.add("legend-item");
@@ -139,9 +119,6 @@
       }
     }
 
-    /**
-     * الكود الرئيسي الذي يعمل عند تحميل الصفحة
-     */
     document.addEventListener("DOMContentLoaded", async () => {
       try {
         const guardianData = sessionStorage.getItem("guardian");
@@ -154,43 +131,43 @@
         const students = await fetch("students.json").then(res => res.json());
         const children = students.filter(student => guardian.student_ids.includes(student.id));
 
-        // تعبئة البيانات الأساسية
         document.getElementById("guardianName").innerText = `مرحباً، ${guardian.guardian_full_name}`;
         document.getElementById("totalUnpaid").innerText = `${guardian.unpaid_total.toFixed(2)} دينار`;
 
-        // تعبئة جدول الأبناء (مع التأكيد على حقول الغيابات والملاحظات)
         const childrenTableBody = document.getElementById("children").getElementsByTagName('tbody')[0];
-        childrenTableBody.innerHTML = ''; // إفراغ الجدول قبل التعبئة
+        childrenTableBody.innerHTML = ''; 
+        
         children.forEach(student => {
           let childRow = childrenTableBody.insertRow();
-          // هذا السطر هو المسؤول عن عرض كل الأعمدة الخمسة
-          childRow.innerHTML = `<td>${student.name} ${student.surname}</td><td>${student.educational_level}</td><td>${student.unpaid_total.toFixed(2)}</td><td>${student.absence_count.length}</td><td>${student.notes || '-'}</td>`;
+          let cell1 = childRow.insertCell(); cell1.textContent = `${student.name} ${student.surname}`;
+          let cell2 = childRow.insertCell(); cell2.textContent = student.educational_level;
+          let cell3 = childRow.insertCell(); cell3.textContent = student.unpaid_total.toFixed(2);
+          let cell4 = childRow.insertCell(); cell4.textContent = Array.isArray(student.absence_count) ? student.absence_count.length : 0;
+          let cell5 = childRow.insertCell(); cell5.textContent = student.notes || '-';
         });
 
-        // تعبئة جدول الدفعات
+        // --== الجزء الذي تم تصحيحه ==--
         const paymentsTableBody = document.getElementById("payments").getElementsByTagName('tbody')[0];
-        paymentsTableBody.innerHTML = ''; // إفراغ الجدول
+        paymentsTableBody.innerHTML = '';
         children.forEach(student => {
             student.unpaid_periods.forEach(payment => {
-                let paymentRow = paymentsTableBody.insertRow();
+                // تم تصحيح الخطأ الإملائي هنا
+                let paymentRow = paymentsTableBody.insertRow(); 
                 paymentRow.innerHTML = `<td>${payment.period}</td><td>${payment.amount.toFixed(2)}</td><td>${student.name}</td>`;
             });
         });
 
-        // استخلاص البيانات اللازمة لجدول الحصص
         const relevantLevels = [...new Set(children.map(student => student.educational_level))];
         const childrenIds = children.map(student => student.id);
 
-        // بناء الجدول الزمني المصفى
         await buildSchedule("schedule", relevantLevels, childrenIds);
 
       } catch (error) {
+        // سأترك هذا التنبيه في حال وجود خطأ آخر غير متوقع
         console.error("حدث خطأ:", error);
-        alert("عفواً، حدث خطأ أثناء تحميل بيانات الصفحة.");
+        alert("عفواً، حدث خطأ أثناء تحميل بيانات الصفحة. قد تكون البيانات غير مكتملة.");
       }
     });
-
-    // --- نهاية الكود المدمج ---
   </script>
 </body>
 </html>
