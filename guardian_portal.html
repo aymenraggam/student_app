@@ -71,33 +71,25 @@
   <script src="guardian_script.js"></script>
   
   <script>
-    // --- بداية الكود المدمج ---
+    // --- الكود المدمج ---
 
-    /**
-     * دالة بناء الجدول الزمني
-     */
     async function buildSchedule(tableId, relevantLevels = [], childrenIds = []) {
-      // ... (الكود الخاص بجدول الحصص يبقى كما هو)
+      // ... (This function remains unchanged)
       const perm = await fetch("schedule_permanent.json").then(r => r.json());
       const temp = await fetch("schedule_temporary.json").then(r => r.json());
-
       const replacedClassIds = new Set(temp.filter(t => t.replaced_class_id !== null).map(t => t.replaced_class_id));
       const allTimeSlots = [...new Set([...perm.map(c => c.time_slot), ...temp.map(c => c.time_slot)])].sort();
       const days = ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"];
       const tbody = document.querySelector(`#${tableId} tbody`);
       tbody.innerHTML = "";
-
       allTimeSlots.forEach(slot => {
         const tr = document.createElement("tr");
         tr.innerHTML = `<td>${slot}</td>`;
-
         days.forEach(day => {
           const cell = document.createElement("td");
           const permMatch = perm.find(c => c.time_slot === slot && c.day_of_week === day);
-
           if (permMatch && !replacedClassIds.has(permMatch.id)) {
             let shouldDisplay = false;
-            
             if (relevantLevels.includes(permMatch.educational_level)) {
               if (permMatch.class_type === 'general') {
                 shouldDisplay = true;
@@ -108,7 +100,6 @@
                 }
               }
             }
-            
             if (shouldDisplay) {
               cell.textContent = permMatch.educational_level;
               cell.classList.add(permMatch.class_type);
@@ -118,14 +109,10 @@
         });
         tbody.appendChild(tr);
       });
-      
       if (!document.querySelector('.legend')) {
           const legend = document.createElement("div");
           legend.classList.add("legend");
-          const legendItems = [
-            { text: "حصة عامة", colorClass: "general" },
-            { text: "حصة خاصة", colorClass: "private" },
-          ];
+          const legendItems = [{ text: "حصة عامة", colorClass: "general" },{ text: "حصة خاصة", colorClass: "private" },];
           legendItems.forEach(item => {
             const legendItem = document.createElement("div");
             legendItem.classList.add("legend-item");
@@ -136,9 +123,6 @@
       }
     }
 
-    /**
-     * الكود الرئيسي الذي يعمل عند تحميل الصفحة
-     */
     document.addEventListener("DOMContentLoaded", async () => {
       try {
         const guardianData = sessionStorage.getItem("guardian");
@@ -156,19 +140,38 @@
 
         const childrenTableBody = document.getElementById("children").getElementsByTagName('tbody')[0];
         childrenTableBody.innerHTML = ''; 
+        
+        // --== الطريقة الجديدة والمحسنة لبناء الجدول ==--
         children.forEach(student => {
+          // إنشاء صف جديد
           let childRow = childrenTableBody.insertRow();
-          // --== السطر الذي تم تصحيحه ==--
-          // يتحقق من أن بيانات الغياب هي مصفوفة قبل حساب طولها لتجنب الأخطاء
-          const absenceCount = Array.isArray(student.absence_count) ? student.absence_count.length : 0;
-          childRow.innerHTML = `<td>${student.name} ${student.surname}</td><td>${student.educational_level}</td><td>${student.unpaid_total.toFixed(2)}</td><td>${absenceCount}</td><td>${student.notes || '-'}</td>`;
+
+          // الخلية 1: الاسم الكامل
+          let cellName = childRow.insertCell();
+          cellName.textContent = `${student.name} ${student.surname}`;
+
+          // الخلية 2: المستوى
+          let cellLevel = childRow.insertCell();
+          cellLevel.textContent = student.educational_level;
+
+          // الخلية 3: الديون
+          let cellUnpaid = childRow.insertCell();
+          cellUnpaid.textContent = student.unpaid_total.toFixed(2);
+          
+          // الخلية 4: الغيابات
+          let cellAbsences = childRow.insertCell();
+          cellAbsences.textContent = Array.isArray(student.absence_count) ? student.absence_count.length : 0;
+          
+          // الخلية 5: الملاحظات
+          let cellNotes = childRow.insertCell();
+          cellNotes.textContent = student.notes || '-';
         });
 
         const paymentsTableBody = document.getElementById("payments").getElementsByTagName('tbody')[0];
         paymentsTableBody.innerHTML = '';
         children.forEach(student => {
             student.unpaid_periods.forEach(payment => {
-                let paymentRow = paymentsTableBody.insertRow();
+                let paymentRow = paymentsTableb.insertRow();
                 paymentRow.innerHTML = `<td>${payment.period}</td><td>${payment.amount.toFixed(2)}</td><td>${student.name}</td>`;
             });
         });
@@ -179,12 +182,10 @@
         await buildSchedule("schedule", relevantLevels, childrenIds);
 
       } catch (error) {
-        console.error("حدث خطأ:", error);
-        alert("عفواً، حدث خطأ أثناء تحميل بيانات الصفحة.");
+        console.error("حدث خطأ فادح:", error);
+        alert("عفواً، حدث خطأ أثناء تحميل بيانات الصفحة. قد تكون البيانات غير مكتملة.");
       }
     });
-
-    // --- نهاية الكود المدمج ---
   </script>
 </body>
 </html>
