@@ -6,32 +6,45 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <div class="header">
-    <img src="logo.png" class="logo">
+    <img src="logo.png" alt="شعار المؤسسة" class="logo">
     <h1>مؤسسة الصالحي للدعم والتدارك</h1>
   </div>
 
-  <div class="links">
-    <a href="login.html">دخول الأولياء</a>
-    <a href="login.html?admin=1">دخول الإدارة</a>
+  <div class="container">
+    <div class="introduction">
+      <p>
+        مرحباً بكم في مؤسسة الصالحي، حيث نسعى جاهدين لتقديم أفضل دعم تعليمي وتربوي لأبنائكم. هدفنا هو تمكين كل تلميذ من تحقيق أقصى إمكاناته، وتجاوز الصعوبات الدراسية، وبناء مستقبل مشرق من خلال مسيرة دراسية ناجحة.
+      </p>
+    </div>
+
+    <div class="links">
+      <a href="login.html">دخول الأولياء</a>
+      <a href="login.html?admin=1">دخول الإدارة</a>
+    </div>
+
+    <h2>جدول الحصص العام</h2>
+    <table id="schedule" class="timetable">
+      <thead>
+        <tr>
+          <th>التوقيت</th>
+          <th>الإثنين</th>
+          <th>الثلاثاء</th>
+          <th>الأربعاء</th>
+          <th>الخميس</th>
+          <th>الجمعة</th>
+          <th>السبت</th>
+          <th>الأحد</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
   </div>
 
-  <h2>جدول الحصص</h2>
-  <table id="schedule" class="timetable">
-    <thead>
-      <tr>
-        <th>التوقيت</th>
-        <th>الإثنين</th>
-        <th>الثلاثاء</th>
-        <th>الأربعاء</th>
-        <th>الخميس</th>
-        <th>الجمعة</th>
-        <th>السبت</th>
-        <th>الأحد</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+  <div class="footer">
+    <p>حقوق النشر © 2025 الصالحي — جميع الحقوق محفوظة</p>
+  </div>
 
   <script src="schedule_script.js"></script>
   <script>
