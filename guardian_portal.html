@@ -28,6 +28,7 @@
           <th>الاسم</th>
           <th>المستوى</th>
           <th>الديون</th>
+          <th>عدد الغيابات</th>
         </tr>
       </thead>
       <tbody></tbody>
@@ -49,9 +50,7 @@
         <thead>
             <tr>
                 <th>الطالب</th>
-                <th>التاريخ</th>
-                <th>السبب</th>
-                <th>عدد الساعات</th>
+                <th>تاريخ الغياب</th>
             </tr>
         </thead>
         <tbody></tbody>
@@ -166,6 +165,7 @@
           let cell1 = childRow.insertCell(); cell1.textContent = `${student.name} ${student.surname}`;
           let cell2 = childRow.insertCell(); cell2.textContent = student.educational_level;
           let cell3 = childRow.insertCell(); cell3.textContent = student.unpaid_total.toFixed(2);
+          let cell4 = childRow.insertCell(); cell4.textContent = Array.isArray(student.absence_count) ? student.absence_count.length : 0;
         });
 
         // --== الجزء الذي تم تصحيحه ==--
@@ -181,12 +181,16 @@
 
         const absencesTableBody = document.getElementById("absences").getElementsByTagName('tbody')[0];
         const notesTableBody = document.getElementById("notes").getElementsByTagName('tbody')[0];
+        const daysOfWeek = ["الأحد", "الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"];
 
         children.forEach(student => {
             if (Array.isArray(student.absence_count) && student.absence_count.length > 0) {
                 student.absence_count.forEach(absence => {
                     let absenceRow = absencesTableBody.insertRow();
-                    absenceRow.innerHTML = `<td>${student.name}</td><td>${absence.date}</td><td>${absence.reason || '-'}</td><td>${absence.hours || 'غير محدد'}</td>`;
+                    const date = new Date(absence.date);
+                    const dayName = daysOfWeek[date.getDay()];
+                    const formattedDate = `${absence.date} (${dayName})`;
+                    absenceRow.innerHTML = `<td>${student.name}</td><td>${formattedDate}</td>`;
                 });
             }
             if (student.notes) {
