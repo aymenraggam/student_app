@@ -2,6 +2,7 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>مؤسسة الصالحي</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -31,31 +32,28 @@
     </div>
 
     <h2>جدول الحصص العام</h2>
-    <table id="schedule" class="timetable">
-      <thead>
-        <tr>
-          <th>التوقيت</th>
-          <th>الإثنين</th>
-          <th>الثلاثاء</th>
-          <th>الأربعاء</th>
-          <th>الخميس</th>
-          <th>الجمعة</th>
-          <th>السبت</th>
-          <th>الأحد</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
+    <div class="table-responsive">
+      <table id="schedule" class="timetable">
+        <thead>
+          <tr>
+            <th>التوقيت</th>
+            <th>الإثنين</th>
+            <th>الثلاثاء</th>
+            <th>الأربعاء</th>
+            <th>الخميس</th>
+            <th>الجمعة</th>
+            <th>السبت</th>
+            <th>الأحد</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
   </div>
 
   <div class="footer">
     <p>حقوق النشر © 2025 الصالحي — جميع الحقوق محفوظة</p>
   </div>
-
-  <script src="schedule_script.js"></script>
-  <script>
-    buildSchedule("schedule");
-  </script>
 
   <script src="schedule_script.js"></script>
   <script>
@@ -100,4 +98,3 @@
   </script>
 </body>
 </html>
-
