@@ -43,7 +43,7 @@
     <div class="table-responsive">
       <table id="payments" class="datatable">
         <thead>
-          <tr><th>الفترة</th><th>المبلغ</th><th>الطالب</th></tr>
+          <tr><th>الفترة</th><th>المبلغ</th><th>التلميذ</th></tr>
         </thead>
         <tbody></tbody>
       </table>
@@ -55,7 +55,7 @@
       <table id="absences" class="datatable">
           <thead>
               <tr>
-                  <th>الطالب</th>
+                  <th>التلميذ</th>
                   <th>تاريخ الغياب</th>
               </tr>
           </thead>
@@ -69,12 +69,31 @@
       <table id="notes" class="datatable">
           <thead>
               <tr>
-                  <th>الطالب</th>
+                  <th>التلميذ</th>
                   <th>الملاحظة</th>
               </tr>
           </thead>
           <tbody></tbody>
       </table>
+    </div>
+
+    <h3>إرسال ملاحظة للإدارة</h3>
+    <div id="leaveNoteSection" style="margin-top: 15px;">
+      <p>اختر التلميذ واكتب ملاحظتك، ثم اختر طريقة الإرسال المفضلة لديك.</p>
+      
+      <label for="noteStudentSelect">التلميذ المعني:</label>
+      <select id="noteStudentSelect" style="width: 100%; padding: 8px; margin-bottom: 10px;"></select>
+      
+      <label for="noteTextarea">نص الملاحظة (للإرسال عبر البريد الإلكتروني):</label>
+      <textarea id="noteTextarea" rows="4" placeholder="اكتب ملاحظتك هنا..." style="width: 100%; padding: 8px; margin-bottom: 10px;"></textarea>
+      
+      <div style="display: flex; gap: 10px;">
+        <button id="sendNoteButtonEmail" style="padding: 10px 15px; cursor: pointer; flex: 1;">إرسال عبر البريد الإلكتروني</button>
+        <button id="sendNoteButtonMessenger" style="padding: 10px 15px; cursor: pointer; background-color: #0084ff; color: white; border-color: #0084ff; flex: 1;">إرسال عبر ماسنجر</button>
+      </div>
+      <p style="font-size: 0.9em; margin-top: 10px;">
+        <strong>ملاحظة:</strong> عند استخدام ماسنجر، سيتم فتح نافذة محادثة جديدة. ستحتاج إلى كتابة رسالتك هناك.
+      </p>
     </div>
 
     <h3>جدول الحصص الخاص بأبنائك</h3>
@@ -218,6 +237,52 @@
         const isChildInEnglishGroup = children.some(child => child.is_in_english_group === true);
 
         await buildSchedule("schedule", relevantLevels, childrenIds, isChildInEnglishGroup);
+
+        const noteStudentSelect = document.getElementById('noteStudentSelect');
+        if (children.length > 0) {
+            children.forEach(child => {
+                const option = document.createElement('option');
+                option.value = `${child.name} ${child.surname}`;
+                option.textContent = `${child.name} ${child.surname}`;
+                noteStudentSelect.appendChild(option);
+            });
+        } else {
+             document.getElementById('leaveNoteSection').innerHTML = "<p>لا يوجد أبناء مسجلون لترك ملاحظات حولهم.</p>";
+        }
+
+        document.getElementById('sendNoteButton')?.addEventListener('click', () => {
+            const studentName = noteStudentSelect.value;
+            const noteContent = document.getElementById('noteTextarea').value;
+            const guardianName = guardian.guardian_full_name;
+            const adminEmail = "aymenraggam@gmail.com"; 
+
+            if (!noteContent.trim()) {
+                alert('الرجاء كتابة الملاحظة قبل الإرسال.');
+                return;
+            }
+
+            const subject = `ملاحظة من ولي الأمر: ${guardianName} (بخصوص الطالب: ${studentName})`;
+            const body = `السلام عليكم،\n\n` +
+                         `لدي ملاحظة بخصوص ابني/ابنتي: ${studentName}.\n\n` +
+                         `نص الملاحظة:\n${noteContent}\n\n` +
+                         `مع الشكر،\n${guardianName}`;
+
+            // يقوم بفتح تطبيق البريد الإلكتروني مع تعبئة البيانات
+            window.location.href = `mailto:${adminEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        });
+        // --- أضف هذا الكود الجديد لزر الماسنجر ---
+        document.getElementById('sendNoteButtonMessenger')?.addEventListener('click', () => {
+            // !!! هام: قم بتغيير هذا إلى اسم مستخدم صفحة الفيسبوك الخاصة بكم
+            const facebookPageUsername = "profile.php?id=61580257018986"; // مثال
+        
+            if (!facebookPageUsername || facebookPageUsername === "YourPageUsername") {
+                alert("خاصية الماسنجر غير مُعدّة بعد. يرجى التواصل مع الإدارة.");
+                return;
+            }
+            
+            // يقوم بفتح نافذة جديدة لمحادثة ماسنجر
+            window.open(`https://m.me/${facebookPageUsername}`, '_blank');
+        });
 
       } catch (error) {
         console.error("حدث خطأ:", error);
