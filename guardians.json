@@ -82,6 +82,15 @@
     "password": "624827"
   },
   {
+    "guardian_full_name": "بحري جلالي",
+    "phone_number": "44194636",
+    "student_ids": [
+      91
+    ],
+    "unpaid_total": 50.0,
+    "password": "085406"
+  },
+  {
     "guardian_full_name": "حياة جلالي",
     "phone_number": "99810230",
     "student_ids": [
@@ -220,7 +229,7 @@
       42,
       51
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "934358"
   },
   {
@@ -279,7 +288,7 @@
     "student_ids": [
       5
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 100.0,
     "password": "196813"
   },
   {
@@ -300,6 +309,15 @@
     ],
     "unpaid_total": 100.0,
     "password": "797132"
+  },
+  {
+    "guardian_full_name": "منى صالحي",
+    "phone_number": "55300723",
+    "student_ids": [
+      92
+    ],
+    "unpaid_total": 50.0,
+    "password": "421762"
   },
   {
     "guardian_full_name": "عبد العزيز طقوقي",
@@ -539,7 +557,7 @@
     "student_ids": [
       40
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "887178"
   },
   {
