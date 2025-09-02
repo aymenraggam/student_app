@@ -2,6 +2,7 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>بوابة الولي - مؤسسة الصالحي</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -22,68 +23,78 @@
     <h2 id="guardianName"></h2>
 
     <h3>أبناؤك</h3>
-    <table id="children" class="datatable">
-      <thead>
-        <tr>
-          <th>الاسم</th>
-          <th>المستوى</th>
-          <th>الديون</th>
-          <th>عدد الغيابات</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
+    <div class="table-responsive">
+      <table id="children" class="datatable">
+        <thead>
+          <tr>
+            <th>الاسم</th>
+            <th>المستوى</th>
+            <th>الديون</th>
+            <th>عدد الغيابات</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
 
     <p id="totalUnpaidContainer">إجمالي الدفعات غير الخالصة: <span id="totalUnpaid" style="font-size: 1.2em; color: #d9534f; font-weight: bold;"></span></p>
 
     <h3>الدفعات غير الخالصة</h3>
-    <table id="payments" class="datatable">
-      <thead>
-        <tr><th>الفترة</th><th>المبلغ</th><th>الطالب</th></tr>
-      </thead>
-      <tbody></tbody>
-    </table>
+    <div class="table-responsive">
+      <table id="payments" class="datatable">
+        <thead>
+          <tr><th>الفترة</th><th>المبلغ</th><th>الطالب</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
 
     <hr>
     <h3>الغيابات</h3>
-    <table id="absences" class="datatable">
-        <thead>
-            <tr>
-                <th>الطالب</th>
-                <th>تاريخ الغياب</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
+    <div class="table-responsive">
+      <table id="absences" class="datatable">
+          <thead>
+              <tr>
+                  <th>الطالب</th>
+                  <th>تاريخ الغياب</th>
+              </tr>
+          </thead>
+          <tbody></tbody>
+      </table>
+    </div>
 
     <hr>
     <h3>ملاحظات هامة</h3>
-    <table id="notes" class="datatable">
-        <thead>
-            <tr>
-                <th>الطالب</th>
-                <th>الملاحظة</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
+    <div class="table-responsive">
+      <table id="notes" class="datatable">
+          <thead>
+              <tr>
+                  <th>الطالب</th>
+                  <th>الملاحظة</th>
+              </tr>
+          </thead>
+          <tbody></tbody>
+      </table>
+    </div>
 
     <h3>جدول الحصص الخاص بأبنائك</h3>
-    <table id="schedule" class="timetable">
-      <thead>
-        <tr>
-          <th>التوقيت</th>
-          <th>الإثنين</th>
-          <th>الثلاثاء</th>
-          <th>الأربعاء</th>
-          <th>الخميس</th>
-          <th>الجمعة</th>
-          <th>السبت</th>
-          <th>الأحد</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
+    <div class="table-responsive">
+      <table id="schedule" class="timetable">
+        <thead>
+          <tr>
+            <th>التوقيت</th>
+            <th>الإثنين</th>
+            <th>الثلاثاء</th>
+            <th>الأربعاء</th>
+            <th>الخميس</th>
+            <th>الجمعة</th>
+            <th>السبت</th>
+            <th>الأحد</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
   </div>
 
   <div class="footer">
