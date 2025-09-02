@@ -24,6 +24,17 @@
       <a href="login.html?admin=1">دخول الإدارة</a>
     </div>
 
+    <div class="links">
+      <a href="login.html">دخول الأولياء</a>
+      <a href="login.html?admin=1">دخول الإدارة</a>
+    </div>
+
+    <div id="top-students-section" class="top-students-container" style="display: none;"> <h2>🏆 متفوقو الأسبوع 🏆</h2>
+      <p class="subtitle">نحتفي هذا الأسبوع بطلابنا المتميزين الذين أظهروا تفوقًا ملحوظًا. تهانينا لهم!</p>
+      <div id="top-students-list" class="cards-container">
+        </div>
+    </div>
+
     <h2>جدول الحصص العام</h2>
     <table id="schedule" class="timetable">
       <thead>
@@ -49,6 +60,48 @@
   <script src="schedule_script.js"></script>
   <script>
     buildSchedule("schedule");
+  </script>
+
+  <script src="schedule_script.js"></script>
+  <script>
+    buildSchedule("schedule");
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      const section = document.getElementById('top-students-section');
+      const listContainer = document.getElementById('top-students-list');
+      const colors = ['gold', 'silver', 'bronze']; // ألوان متدرجة للبطاقات
+
+      try {
+        const response = await fetch('top_students.json');
+        if (!response.ok) return; // إذا لم يتم العثور على الملف، لا تفعل شيئًا
+
+        const topStudents = await response.json();
+
+        if (topStudents && topStudents.length > 0) {
+          listContainer.innerHTML = ''; // مسح المحتوى القديم
+          
+          topStudents.forEach((student, index) => {
+            const card = document.createElement('div');
+            const colorClass = colors[index % colors.length]; // تكرار الألوان
+            card.className = `student-card ${colorClass}`;
+            
+            card.innerHTML = `
+              <h3>${student.name}</h3>
+              <p class="level">${student.level}</p>
+              <p class="reason">"${student.reason}"</p>
+            `;
+            listContainer.appendChild(card);
+          });
+
+          section.style.display = 'block'; // إظهار القسم بعد تحميل البيانات
+        }
+      } catch (error) {
+        console.error('Error fetching top students:', error);
+        // لا تظهر القسم إذا حدث خطأ
+      }
+    });
   </script>
 </body>
 </html>
