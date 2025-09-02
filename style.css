@@ -255,3 +255,74 @@ input[type="text"]:focus, input[type="password"]:focus {
 .student-card.gold { border-color: #FFD700; }
 .student-card.silver { border-color: #C0C0C0; }
 .student-card.bronze { border-color: #CD7F32; }
+
+
+/* ================================= */
+/* === Responsive Design === */
+/* ================================= */
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 -10px; /* Counteract container padding */
+    padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .header h1 {
+    font-size: 1.6em;
+  }
+
+  .header img.logo {
+    width: 90px;
+  }
+
+  .introduction {
+    font-size: 1em;
+    padding: 15px;
+  }
+
+  .links a, .footer a, button {
+    font-size: 1em;
+    padding: 10px 20px;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 8px 0;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  th, td {
+    padding: 8px;
+    font-size: 0.9em;
+    min-width: 80px;
+  }
+
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .student-card {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  #totalUnpaidContainer {
+    font-size: 1.2em;
+  }
+}
