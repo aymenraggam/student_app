@@ -13,7 +13,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "09/08/2025 إلى 08/09/2025",
         "amount": 50.0
       }
     ],
@@ -33,7 +33,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "08/08/2025 إلى 07/09/2025",
         "amount": 50.0
       }
     ],
@@ -53,11 +53,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "02/08/2025 إلى 01/09/2025",
         "amount": 50.0
       },
       {
-        "period": "2025-09",
+        "period": "02/09/2025 إلى 01/10/2025",
         "amount": 50.0
       }
     ],
@@ -77,11 +77,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-07",
+        "period": "07/07/2025 إلى 06/08/2025",
         "amount": 50.0
       },
       {
-        "period": "2025-08",
+        "period": "07/08/2025 إلى 06/09/2025",
         "amount": 50.0
       }
     ],
@@ -101,7 +101,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "09/08/2025 إلى 08/09/2025",
         "amount": 50.0
       }
     ],
@@ -121,7 +121,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "25/08/2025 إلى 24/09/2025",
         "amount": 50.0
       }
     ],
@@ -141,11 +141,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-07",
+        "period": "03/07/2025 إلى 02/08/2025",
         "amount": 30.0
       },
       {
-        "period": "2025-08",
+        "period": "03/08/2025 إلى 02/09/2025",
         "amount": 30.0
       }
     ],
@@ -165,7 +165,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "22/08/2025 إلى 21/09/2025",
         "amount": 100.0
       }
     ],
@@ -185,11 +185,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-07",
+        "period": "26/07/2025 إلى 25/08/2025",
         "amount": 50.0
       },
       {
-        "period": "2025-08",
+        "period": "26/08/2025 إلى 25/09/2025",
         "amount": 50.0
       }
     ],
@@ -209,7 +209,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "16/08/2025 إلى 15/09/2025",
         "amount": 50.0
       }
     ],
@@ -229,7 +229,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "09/08/2025 إلى 08/09/2025",
         "amount": 50.0
       }
     ],
@@ -249,11 +249,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "02/08/2025 إلى 01/09/2025",
         "amount": 50.0
       },
       {
-        "period": "2025-09",
+        "period": "02/09/2025 إلى 01/10/2025",
         "amount": 50.0
       }
     ],
@@ -273,11 +273,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-07",
+        "period": "25/07/2025 إلى 24/08/2025",
         "amount": 30.0
       },
       {
-        "period": "2025-08",
+        "period": "25/08/2025 إلى 24/09/2025",
         "amount": 30.0
       }
     ],
@@ -297,11 +297,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-07",
+        "period": "03/07/2025 إلى 02/08/2025",
         "amount": 30.0
       },
       {
-        "period": "2025-08",
+        "period": "03/08/2025 إلى 02/09/2025",
         "amount": 30.0
       }
     ],
@@ -321,11 +321,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-07",
+        "period": "03/07/2025 إلى 02/08/2025",
         "amount": 30.0
       },
       {
-        "period": "2025-08",
+        "period": "03/08/2025 إلى 02/09/2025",
         "amount": 30.0
       }
     ],
@@ -345,7 +345,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "30/08/2025 إلى 29/09/2025",
         "amount": 50.0
       }
     ],
@@ -365,11 +365,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-07",
+        "period": "25/07/2025 إلى 24/08/2025",
         "amount": 30.0
       },
       {
-        "period": "2025-08",
+        "period": "25/08/2025 إلى 24/09/2025",
         "amount": 30.0
       }
     ],
@@ -389,7 +389,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-09",
+        "period": "01/09/2025 إلى 30/09/2025",
         "amount": 70.0
       }
     ],
@@ -409,7 +409,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-09",
+        "period": "02/09/2025 إلى 01/10/2025",
         "amount": 50.0
       }
     ],
@@ -429,7 +429,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "17/08/2025 إلى 16/09/2025",
         "amount": 50.0
       }
     ],
@@ -449,7 +449,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "05/08/2025 إلى 04/09/2025",
         "amount": 200.0
       }
     ],
@@ -469,7 +469,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "17/08/2025 إلى 16/09/2025",
         "amount": 50.0
       }
     ],
@@ -489,7 +489,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "13/08/2025 إلى 12/09/2025",
         "amount": 50.0
       }
     ],
@@ -569,7 +569,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "13/08/2025 إلى 12/09/2025",
         "amount": 50.0
       }
     ],
@@ -589,7 +589,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "14/08/2025 إلى 13/09/2025",
         "amount": 50.0
       }
     ],
@@ -609,11 +609,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-07",
+        "period": "30/07/2025 إلى 29/08/2025",
         "amount": 50.0
       },
       {
-        "period": "2025-08",
+        "period": "30/08/2025 إلى 29/09/2025",
         "amount": 50.0
       }
     ],
@@ -633,7 +633,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "12/08/2025 إلى 11/09/2025",
         "amount": 50.0
       }
     ],
@@ -653,7 +653,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "23/08/2025 إلى 22/09/2025",
         "amount": 50.0
       }
     ],
@@ -673,7 +673,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "14/08/2025 إلى 13/09/2025",
         "amount": 50.0
       }
     ],
@@ -723,7 +723,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "23/08/2025 إلى 22/09/2025",
         "amount": 40.0
       }
     ],
@@ -743,7 +743,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "25/08/2025 إلى 24/09/2025",
         "amount": 40.0
       }
     ],
@@ -763,11 +763,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-07",
+        "period": "01/07/2025 إلى 31/07/2025",
         "amount": 50.0
       },
       {
-        "period": "2025-08",
+        "period": "01/08/2025 إلى 31/08/2025",
         "amount": 50.0
       }
     ],
@@ -802,11 +802,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-07",
+        "period": "29/07/2025 إلى 28/08/2025",
         "amount": 50.0
       },
       {
-        "period": "2025-08",
+        "period": "29/08/2025 إلى 28/09/2025",
         "amount": 50.0
       }
     ],
@@ -826,11 +826,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "01/08/2025 إلى 31/08/2025",
         "amount": 40.0
       },
       {
-        "period": "2025-09",
+        "period": "01/09/2025 إلى 30/09/2025",
         "amount": 40.0
       }
     ],
@@ -850,7 +850,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "05/08/2025 إلى 04/09/2025",
         "amount": 50.0
       }
     ],
@@ -870,7 +870,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "13/08/2025 إلى 12/09/2025",
         "amount": 40.0
       }
     ],
@@ -890,11 +890,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-07",
+        "period": "31/07/2025 إلى 30/08/2025",
         "amount": 50.0
       },
       {
-        "period": "2025-08",
+        "period": "31/08/2025 إلى 29/09/2025",
         "amount": 50.0
       }
     ],
@@ -914,7 +914,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "22/08/2025 إلى 21/09/2025",
         "amount": 50.0
       }
     ],
@@ -934,7 +934,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-09",
+        "period": "01/09/2025 إلى 30/09/2025",
         "amount": 100.0
       }
     ],
@@ -954,7 +954,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "10/08/2025 إلى 09/09/2025",
         "amount": 50.0
       }
     ],
@@ -1004,7 +1004,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "25/08/2025 إلى 24/09/2025",
         "amount": 50.0
       }
     ],
@@ -1039,7 +1039,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "24/08/2025 إلى 23/09/2025",
         "amount": 100.0
       }
     ],
@@ -1059,7 +1059,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "04/08/2025 إلى 03/09/2025",
         "amount": 50.0
       }
     ],
@@ -1079,7 +1079,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "04/08/2025 إلى 03/09/2025",
         "amount": 50.0
       }
     ],
@@ -1099,7 +1099,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-09",
+        "period": "01/09/2025 إلى 30/09/2025",
         "amount": 50.0
       }
     ],
@@ -1119,11 +1119,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "01/08/2025 إلى 31/08/2025",
         "amount": 50.0
       },
       {
-        "period": "2025-09",
+        "period": "01/09/2025 إلى 30/09/2025",
         "amount": 50.0
       }
     ],
@@ -1158,7 +1158,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "05/08/2025 إلى 04/09/2025",
         "amount": 50.0
       }
     ],
@@ -1178,7 +1178,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "08/08/2025 إلى 07/09/2025",
         "amount": 50.0
       }
     ],
@@ -1198,7 +1198,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "10/08/2025 إلى 09/09/2025",
         "amount": 50.0
       }
     ],
@@ -1218,7 +1218,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "13/08/2025 إلى 12/09/2025",
         "amount": 50.0
       }
     ],
@@ -1238,7 +1238,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "08/08/2025 إلى 07/09/2025",
         "amount": 50.0
       }
     ],
@@ -1258,7 +1258,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "09/08/2025 إلى 08/09/2025",
         "amount": 50.0
       }
     ],
@@ -1278,7 +1278,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "16/08/2025 إلى 15/09/2025",
         "amount": 50.0
       }
     ],
@@ -1298,7 +1298,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "09/08/2025 إلى 08/09/2025",
         "amount": 50.0
       }
     ],
@@ -1318,7 +1318,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "09/08/2025 إلى 08/09/2025",
         "amount": 50.0
       }
     ],
@@ -1353,7 +1353,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-07",
+        "period": "25/07/2025 إلى 24/08/2025",
         "amount": 50.0
       }
     ],
@@ -1373,7 +1373,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "12/08/2025 إلى 11/09/2025",
         "amount": 50.0
       }
     ],
@@ -1393,7 +1393,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "09/08/2025 إلى 08/09/2025",
         "amount": 50.0
       }
     ],
@@ -1443,7 +1443,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "17/08/2025 إلى 16/09/2025",
         "amount": 50.0
       }
     ],
@@ -1463,7 +1463,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "09/08/2025 إلى 08/09/2025",
         "amount": 40.0
       }
     ],
@@ -1483,11 +1483,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-07",
+        "period": "25/07/2025 إلى 24/08/2025",
         "amount": 50.0
       },
       {
-        "period": "2025-08",
+        "period": "25/08/2025 إلى 24/09/2025",
         "amount": 50.0
       }
     ],
@@ -1507,7 +1507,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-09",
+        "period": "01/09/2025 إلى 30/09/2025",
         "amount": 50.0
       }
     ],
@@ -1523,14 +1523,9 @@
     "phone_number": "97454029",
     "payment_generation_status": "active",
     "payment_count": 1,
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "2025-08",
-        "amount": 50.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -1543,14 +1538,9 @@
     "phone_number": "97454029",
     "payment_generation_status": "active",
     "payment_count": 1,
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "2025-08",
-        "amount": 50.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -1567,7 +1557,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "09/08/2025 إلى 08/09/2025",
         "amount": 40.0
       }
     ],
@@ -1602,7 +1592,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "14/08/2025 إلى 13/09/2025",
         "amount": 50.0
       }
     ],
@@ -1622,7 +1612,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "25/08/2025 إلى 24/09/2025",
         "amount": 50.0
       }
     ],
@@ -1642,7 +1632,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "25/08/2025 إلى 24/09/2025",
         "amount": 50.0
       }
     ],
@@ -1656,21 +1646,17 @@
     "entry_date": "2025-07-01",
     "guardian_full_name": "نوال مسعودي",
     "phone_number": "42218267",
-    "payment_generation_status": "active",
-    "payment_count": 3,
-    "unpaid_total": 300.0,
+    "payment_generation_status": "suspended",
+    "payment_count": 2,
+    "unpaid_total": 200.0,
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-07",
+        "period": "01/07/2025 إلى 31/07/2025",
         "amount": 100.0
       },
       {
-        "period": "2025-08",
-        "amount": 100.0
-      },
-      {
-        "period": "2025-09",
+        "period": "01/08/2025 إلى 31/08/2025",
         "amount": 100.0
       }
     ],
@@ -1690,11 +1676,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-07",
+        "period": "23/07/2025 إلى 22/08/2025",
         "amount": 100.0
       },
       {
-        "period": "2025-08",
+        "period": "23/08/2025 إلى 22/09/2025",
         "amount": 100.0
       }
     ],
@@ -1714,11 +1700,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-07",
+        "period": "25/07/2025 إلى 24/08/2025",
         "amount": 50.0
       },
       {
-        "period": "2025-08",
+        "period": "25/08/2025 إلى 24/09/2025",
         "amount": 50.0
       }
     ],
@@ -1738,11 +1724,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "01/08/2025 إلى 31/08/2025",
         "amount": 30.0
       },
       {
-        "period": "2025-09",
+        "period": "01/09/2025 إلى 30/09/2025",
         "amount": 30.0
       }
     ],
@@ -1762,11 +1748,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-07",
+        "period": "29/07/2025 إلى 28/08/2025",
         "amount": 50.0
       },
       {
-        "period": "2025-08",
+        "period": "29/08/2025 إلى 28/09/2025",
         "amount": 50.0
       }
     ],
@@ -1801,11 +1787,11 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "01/08/2025 إلى 31/08/2025",
         "amount": 50.0
       },
       {
-        "period": "2025-09",
+        "period": "01/09/2025 إلى 30/09/2025",
         "amount": 50.0
       }
     ],
@@ -1825,7 +1811,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "2025-08",
+        "period": "09/08/2025 إلى 08/09/2025",
         "amount": 50.0
       }
     ],
