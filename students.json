@@ -73,18 +73,9 @@
     "phone_number": "53780865",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 100.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "07/07/2025 إلى 06/08/2025",
-        "amount": 50.0
-      },
-      {
-        "period": "07/08/2025 إلى 06/09/2025",
-        "amount": 50.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -136,8 +127,8 @@
     "guardian_full_name": "عبد السلام جلالي",
     "phone_number": "97867896",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 60.0,
+    "payment_count": 3,
+    "unpaid_total": 90.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -146,6 +137,10 @@
       },
       {
         "period": "03/08/2025 إلى 02/09/2025",
+        "amount": 30.0
+      },
+      {
+        "period": "03/09/2025 إلى 02/10/2025",
         "amount": 30.0
       }
     ],
@@ -181,13 +176,9 @@
     "phone_number": "99810230",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "26/07/2025 إلى 25/08/2025",
-        "amount": 50.0
-      },
       {
         "period": "26/08/2025 إلى 25/09/2025",
         "amount": 50.0
@@ -292,8 +283,8 @@
     "guardian_full_name": "عبد السلام جلالي",
     "phone_number": "97867896",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 60.0,
+    "payment_count": 3,
+    "unpaid_total": 90.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -302,6 +293,10 @@
       },
       {
         "period": "03/08/2025 إلى 02/09/2025",
+        "amount": 30.0
+      },
+      {
+        "period": "03/09/2025 إلى 02/10/2025",
         "amount": 30.0
       }
     ],
@@ -316,8 +311,8 @@
     "guardian_full_name": "عبد السلام جلالي",
     "phone_number": "97867896",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 60.0,
+    "payment_count": 3,
+    "unpaid_total": 90.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -326,6 +321,10 @@
       },
       {
         "period": "03/08/2025 إلى 02/09/2025",
+        "amount": 30.0
+      },
+      {
+        "period": "03/09/2025 إلى 02/10/2025",
         "amount": 30.0
       }
     ],
@@ -649,14 +648,9 @@
     "phone_number": "98103627",
     "payment_generation_status": "active",
     "payment_count": 1,
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "23/08/2025 إلى 22/09/2025",
-        "amount": 50.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -669,14 +663,9 @@
     "phone_number": "98103627",
     "payment_generation_status": "active",
     "payment_count": 1,
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "14/08/2025 إلى 13/09/2025",
-        "amount": 50.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": "يجب عليه المراجعة في المنزل"
   },
   {
@@ -688,10 +677,15 @@
     "guardian_full_name": "لمين شرف الدين",
     "phone_number": "97917380",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
+    "payment_count": 2,
+    "unpaid_total": 45.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "03/09/2025 إلى 02/10/2025",
+        "amount": 45.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -1138,10 +1132,15 @@
     "guardian_full_name": "منى زريبي",
     "phone_number": "95222949",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
+    "payment_count": 2,
+    "unpaid_total": 50.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "03/09/2025 إلى 02/10/2025",
+        "amount": 50.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -1408,10 +1407,15 @@
     "guardian_full_name": "بسمة أم هاني",
     "phone_number": "93603062",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
+    "payment_count": 2,
+    "unpaid_total": 50.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "03/09/2025 إلى 02/10/2025",
+        "amount": 50.0
+      }
+    ],
     "notes": ""
   },
   {
