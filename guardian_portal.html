@@ -5,16 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>بوابة الولي - مؤسسة الصالحي</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0Xp5iLzC5P+G/zVf0zPz3R8z5/iVz/d6P0Q8l8sD1uN8iM/j/tN/r/vQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
   <style>
-    /* بعض التعديلات لتنسيق الأيقونة والنص داخل الزر */
+    /* تنسيق الزر لضمان محاذاة الأيقونة والنص بشكل صحيح */
     #sendNoteButtonMessenger {
       display: flex;
       align-items: center;
       justify-content: center;
+      gap: 10px; /* إضافة مسافة بين الأيقونة والنص */
     }
-    #sendNoteButtonMessenger i {
-      margin-left: 8px; /* مسافة بين الأيقونة والنص */
+    #sendNoteButtonMessenger svg {
+      width: 20px; /* تحديد عرض الأيقونة */
+      height: 20px; /* تحديد ارتفاع الأيقونة */
+      fill: white; /* تلوين الأيقونة باللون الأبيض لتناسب خلفية الزر */
     }
   </style>
 </head>
@@ -94,7 +97,8 @@
       <p>لإرسال ملاحظة للإدارة، اضغط على الزر أدناه للانتقال إلى ماسنجر وكتابة رسالتك مباشرة.</p>
       
       <button id="sendNoteButtonMessenger" style="width: 100%; padding: 12px 15px; cursor: pointer; background-color: #0084ff; color: white; border: none; border-radius: 5px; font-size: 1.1em;">
-        مراسلة الإدارة عبر ماسنجر <i class="fab fa-facebook-messenger"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256.55 8C116.52 8 8 110.34 8 248.57c0 72.3 34.81 135.62 92.87 177.65 4.39 3.16 6.36 8.24 5.36 13.4-2.58 13.4-11.43 54.43-11.58 55.43-.17 1.12.02 2.33.58 3.39.57 1.06 1.54 1.83 2.72 2.22 1.17.4 2.48.23 3.54-.42l65.1-41.1c4.15-2.62 9.17-3.47 13.96-2.52 31.25 6.19 63.8 9.38 96.46 9.38 140.03 0 248.55-102.34 248.55-240.58C504.58 110.34 396.58 8 256.55 8zM240.5 352.62l-64.8-64.62 136.37-142.38 64.79 64.63-136.36 142.37z"/></svg>
+        <span>مراسلة الإدارة عبر ماسنجر</span>
       </button>
     </div>
 
@@ -231,7 +235,6 @@
 
         await buildSchedule("schedule", relevantLevels, childrenIds, isChildInEnglishGroup);
 
-        // إذا لم يكن لدى الولي أبناء، قم بإخفاء قسم إرسال الملاحظات
         if (children.length === 0) {
             const leaveNoteSection = document.getElementById('leaveNoteSection');
             if(leaveNoteSection) {
@@ -239,9 +242,7 @@
             }
         }
 
-        // --- كود زر الماسنجر المحدث ---
         document.getElementById('sendNoteButtonMessenger')?.addEventListener('click', () => {
-            // !!! هام: ضع الرقم التعريفي لصفحتك هنا
             const facebookPageId = "770223689507881"; 
         
             if (!facebookPageId || facebookPageId === "123456789012345") {
@@ -249,23 +250,15 @@
                 return;
             }
         
-            // الرابط المباشر للمحادثة باستخدام ID الصفحة
             const messengerLink = `https://m.me/${facebookPageId}`;
-            
-            // التحقق مما إذا كان الجهاز هاتفاً محمولاً
             const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
         
             if (isMobile) {
-                // على الموبايل: نحاول فتح التطبيق مباشرة باستخدام بروتوكول fb-messenger
                 document.location = `fb-messenger://user-thread/${facebookPageId}`;
-        
-                // بعد 1.5 ثانية، إذا كان المستخدم لا يزال في المتصفح، نوجهه إلى رابط الويب كحل بديل
                 setTimeout(() => {
                     window.location.href = messengerLink;
                 }, 1500);
-        
             } else {
-                // على الحاسوب: نفتح رابط الويب في نافذة جديدة
                 window.open(messengerLink, '_blank');
             }
         });
