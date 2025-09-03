@@ -7,6 +7,26 @@ if (location.pathname.endsWith("admin.html")) {
   ]).then(([guardians, students, levels, statistics]) => {
     const levelMap = {};
     levels.forEach(l => levelMap[String(l.id)] = l.name);
+
+    // إنشاء خريطة لربط كل طالب بالولي الخاص به لتسهيل البحث
+      const studentToGuardianMap = {};
+      guardians.forEach(g => {
+          g.student_ids.forEach(studentId => {
+              studentToGuardianMap[studentId] = g;
+          });
+      });
+  
+      // دالة لتسجيل الدخول كولي
+      const loginAsGuardian = (guardian) => {
+          if (guardian) {
+              // تخزين بيانات الولي في sessionStorage
+              sessionStorage.setItem("guardian", JSON.stringify(guardian));
+              // فتح بوابة الولي في نافذة جديدة
+              window.open("guardian_portal.html", "_blank");
+          } else {
+              alert("لم يتم العثور على الولي المرتبط.");
+          }
+      };
     
     // جعل بيانات الطلاب متاحة على نطاق أوسع
     window.studentsData = students;
@@ -14,16 +34,23 @@ if (location.pathname.endsWith("admin.html")) {
     document.getElementById('totalUnpaid').textContent = `${statistics.total_overdue_unpaid_amount} د.ت`;
 
     const stBody = document.querySelector("#students tbody");
-    stBody.innerHTML = '';
     students.forEach(s => {
       const levelName = levelMap[String(s.educational_level)] || s.educational_level;
       const tr = document.createElement("tr");
+
+      // البحث عن ولي أمر الطالب
+      const guardian = studentToGuardianMap[s.id];
+      // جعل اسم الطالب قابلاً للنقر إذا تم العثور على ولي الأمر
+      const studentNameCell = guardian 
+        ? `<a href="#" class="login-as-guardian-link" data-guardian-id="${guardian.id}">${s.name} ${s.surname}</a>`
+        : `${s.name} ${s.surname}`;
+
       // عرض الغيابات كرابط
       const absencesLink = s.absence_count && s.absence_count.length > 0
           ? `<a href="#" class="show-absences-link" data-absences='${JSON.stringify(s.absence_count)}'>${s.absence_count.length}</a>`
           : '0';
 
-      tr.innerHTML = `<td>${s.name} ${s.surname}</td>
+      tr.innerHTML = `<td>${studentNameCell}</td>
                       <td>${levelName}</td>
                       <td>${s.phone_number}</td>
                       <td>${s.unpaid_total ?? 0} د.ت</td>
@@ -33,6 +60,14 @@ if (location.pathname.endsWith("admin.html")) {
     });
 
     stBody.addEventListener('click', e => {
+        // التعامل مع النقر لفتح صفحة الولي
+        if (e.target.classList.contains('login-as-guardian-link')) {
+            e.preventDefault();
+            const guardianId = parseInt(e.target.dataset.guardianId, 10);
+            const guardian = guardians.find(g => g.id === guardianId);
+            loginAsGuardian(guardian);
+        }
+
         // عرض الغيابات
         if (e.target.classList.contains('show-absences-link')) {
             e.preventDefault();
@@ -61,11 +96,23 @@ if (location.pathname.endsWith("admin.html")) {
     gBody.innerHTML = '';
     guardians.forEach(g => {
       const tr = document.createElement("tr");
-      tr.innerHTML = `<td>${g.guardian_full_name}</td>
+      // جعل اسم الولي قابلاً للنقر لفتح صفحته
+      const guardianNameCell = `<a href="#" class="login-as-guardian-link" data-guardian-id="${g.id}">${g.guardian_full_name}</a>`;
+      tr.innerHTML = `<td>${guardianNameCell}</td>
                       <td>${g.phone_number}</td>
                       <td>${g.student_ids.length}</td>
                       <td>${g.unpaid_total} د.ت</td>`;
       gBody.appendChild(tr);
+    });
+
+    // إضافة مستمع للنقرات في جدول الأولياء
+    gBody.addEventListener('click', e => {
+        if (e.target.classList.contains('login-as-guardian-link')) {
+            e.preventDefault();
+            const guardianId = parseInt(e.target.dataset.guardianId, 10);
+            const guardian = guardians.find(g => g.id === guardianId);
+            loginAsGuardian(guardian);
+        }
     });
 
     document.getElementById("search").addEventListener("input", e => {
