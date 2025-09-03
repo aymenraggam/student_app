@@ -8,11 +8,9 @@ if (location.pathname.endsWith("admin.html")) {
     const levelMap = {};
     levels.forEach(l => levelMap[String(l.id)] = l.name);
     
-    // جعل بيانات الطلاب متاحة على نطاق أوسع
     window.studentsData = students;
 
-    // إنشاء خريطة لربط كل طالب بالولي الخاص به لتسهيل البحث
-    // نستخدم String() لضمان أن تكون المفاتيح نصية دائمًا
+    // --- الجزء الأول: الربط بين الطلاب والأولياء ---
     const studentToGuardianMap = {};
     guardians.forEach(g => {
         g.student_ids.forEach(studentId => {
@@ -20,7 +18,7 @@ if (location.pathname.endsWith("admin.html")) {
         });
     });
 
-    // دالة لتسجيل الدخول كولي
+    // --- الجزء الثاني: دالة تسجيل الدخول المحورية ---
     const loginAsGuardian = (guardian) => {
         if (guardian) {
             sessionStorage.setItem("guardian", JSON.stringify(guardian));
@@ -32,17 +30,17 @@ if (location.pathname.endsWith("admin.html")) {
 
     document.getElementById('totalUnpaid').textContent = `${statistics.total_overdue_unpaid_amount} د.ت`;
 
+    // --- الجزء الثالث: تعديل جدول الطلاب ليعتمد على رقم الهاتف ---
     const stBody = document.querySelector("#students tbody");
     stBody.innerHTML = '';
     students.forEach(s => {
       const levelName = levelMap[String(s.educational_level)] || s.educational_level;
       const tr = document.createElement("tr");
-
-      // البحث عن ولي أمر الطالب باستخدام مفتاح نصي
       const guardian = studentToGuardianMap[String(s.id)];
       
+      // هنا التغيير الأساسي: نستخدم رقم الهاتف "data-guardian-phone"
       const studentNameCell = guardian 
-        ? `<a href="#" class="login-as-guardian-link" data-guardian-id="${guardian.id}">${s.name} ${s.surname}</a>`
+        ? `<a href="#" class="login-as-guardian-link" data-guardian-phone="${guardian.phone_number}">${s.name} ${s.surname}</a>`
         : `${s.name} ${s.surname}`;
 
       const absencesLink = s.absence_count && s.absence_count.length > 0
@@ -58,11 +56,13 @@ if (location.pathname.endsWith("admin.html")) {
       stBody.appendChild(tr);
     });
 
+    // --- الجزء الرابع: تعديل جدول الأولياء ليعتمد على رقم الهاتف ---
     const gBody = document.querySelector("#guardians tbody");
     gBody.innerHTML = '';
     guardians.forEach(g => {
       const tr = document.createElement("tr");
-      const guardianNameCell = `<a href="#" class="login-as-guardian-link" data-guardian-id="${g.id}">${g.guardian_full_name}</a>`;
+      // هنا أيضاً نستخدم رقم الهاتف "data-guardian-phone"
+      const guardianNameCell = `<a href="#" class="login-as-guardian-link" data-guardian-phone="${g.phone_number}">${g.guardian_full_name}</a>`;
       tr.innerHTML = `<td>${guardianNameCell}</td>
                       <td>${g.phone_number}</td>
                       <td>${g.student_ids.length}</td>
@@ -70,22 +70,22 @@ if (location.pathname.endsWith("admin.html")) {
       gBody.appendChild(tr);
     });
     
-    // دالة موحدة للتعامل مع النقرات وتسجيل الدخول كولي
+    // --- الجزء الخامس: تعديل منطق البحث ليعتمد على رقم الهاتف ---
     const handleLoginClick = (event) => {
-        if (event.target.classList.contains('login-as-guardian-link')) {
+        const link = event.target.closest('.login-as-guardian-link');
+        if (link) {
             event.preventDefault();
-            const guardianId = event.target.dataset.guardianId;
-            // نستخدم '==' للمقارنة المتساهلة لتجنب مشاكل أنواع البيانات (رقم مقابل نص)
-            const guardian = guardians.find(g => g.id == guardianId);
+            const guardianPhone = link.dataset.guardianPhone;
+            // نبحث عن الولي باستخدام رقم الهاتف بدلاً من ID
+            const guardian = guardians.find(g => g.phone_number === guardianPhone);
             loginAsGuardian(guardian);
         }
     };
 
-    // تطبيق الدالة على كلا الجدولين
     stBody.addEventListener('click', handleLoginClick);
     gBody.addEventListener('click', handleLoginClick);
 
-    // التعامل مع الأحداث الأخرى في جدول الطلاب
+    // بقية الوظائف (ملاحظات، غيابات) تبقى كما هي
     stBody.addEventListener('click', e => {
         if (e.target.classList.contains('show-absences-link')) {
             e.preventDefault();
