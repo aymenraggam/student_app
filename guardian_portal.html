@@ -5,6 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>بوابة الولي - مؤسسة الصالحي</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0Xp5iLzC5P+G/zVf0zPz3R8z5/iVz/d6P0Q8l8sD1uN8iM/j/tN/r/vQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    /* بعض التعديلات لتنسيق الأيقونة والنص داخل الزر */
+    #sendNoteButtonMessenger {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #sendNoteButtonMessenger i {
+      margin-left: 8px; /* مسافة بين الأيقونة والنص */
+    }
+  </style>
 </head>
 <body>
 
@@ -82,7 +94,7 @@
       <p>لإرسال ملاحظة للإدارة، اضغط على الزر أدناه للانتقال إلى ماسنجر وكتابة رسالتك مباشرة.</p>
       
       <button id="sendNoteButtonMessenger" style="width: 100%; padding: 12px 15px; cursor: pointer; background-color: #0084ff; color: white; border: none; border-radius: 5px; font-size: 1.1em;">
-        مراسلة الإدارة عبر ماسنجر
+        مراسلة الإدارة عبر ماسنجر <i class="fab fa-facebook-messenger"></i>
       </button>
     </div>
 
