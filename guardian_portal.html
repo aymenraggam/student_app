@@ -79,21 +79,14 @@
 
     <h3>إرسال ملاحظة للإدارة</h3>
     <div id="leaveNoteSection" style="margin-top: 15px;">
-      <p>اختر التلميذ واكتب ملاحظتك، ثم اختر طريقة الإرسال المفضلة لديك.</p>
+      <p>لإرسال ملاحظة، اختر التلميذ المعني ثم اضغط على الزر للانتقال إلى ماسنجر وكتابة رسالتك مباشرة إلى الإدارة.</p>
       
       <label for="noteStudentSelect">التلميذ المعني:</label>
       <select id="noteStudentSelect" style="width: 100%; padding: 8px; margin-bottom: 10px;"></select>
       
-      <label for="noteTextarea">نص الملاحظة (للإرسال عبر البريد الإلكتروني):</label>
-      <textarea id="noteTextarea" rows="4" placeholder="اكتب ملاحظتك هنا..." style="width: 100%; padding: 8px; margin-bottom: 10px;"></textarea>
-      
-      <div style="display: flex; gap: 10px;">
-        <button id="sendNoteButtonEmail" style="padding: 10px 15px; cursor: pointer; flex: 1;">إرسال عبر البريد الإلكتروني</button>
-        <button id="sendNoteButtonMessenger" style="padding: 10px 15px; cursor: pointer; background-color: #0084ff; color: white; border-color: #0084ff; flex: 1;">إرسال عبر ماسنجر</button>
-      </div>
-      <p style="font-size: 0.9em; margin-top: 10px;">
-        <strong>ملاحظة:</strong> عند استخدام ماسنجر، سيتم فتح نافذة محادثة جديدة. ستحتاج إلى كتابة رسالتك هناك.
-      </p>
+      <button id="sendNoteButtonMessenger" style="width: 100%; padding: 12px 15px; cursor: pointer; background-color: #0084ff; color: white; border: none; border-radius: 5px; font-size: 1.1em;">
+        مراسلة الإدارة عبر ماسنجر
+      </button>
     </div>
 
     <h3>جدول الحصص الخاص بأبنائك</h3>
@@ -147,7 +140,6 @@
           if (permMatch && !replacedClassIds.has(permMatch.id)) {
             let shouldDisplay = false;
             
-            // <<< تعديل 1: إضافة شرط حصة الإنجليزية >>>
             if (permMatch.class_type === 'english' && isChildInEnglishGroup) {
                 shouldDisplay = true;
             } else if (relevantLevels.includes(permMatch.educational_level)) {
@@ -173,7 +165,6 @@
       if (!document.querySelector('.legend')) {
           const legend = document.createElement("div");
           legend.classList.add("legend");
-          // <<< تعديل 2: إضافة مفتاح اللون الجديد >>>
           const legendItems = [
             { text: "حصة عامة", colorClass: "general" },
             { text: "حصة خاصة", colorClass: "private" },
@@ -199,8 +190,6 @@
 
         const guardian = JSON.parse(guardianData);
         const students = await fetch("students.json").then(res => res.json());
-        // <<< تعديل 3: افترض أن ملف الطلاب سيحتوي على معلومة الانتماء للمجموعة >>>
-        // ملاحظة: ستحتاج إلى تعديل دالة التصدير لإضافة `is_in_english_group`
         const children = students.filter(student => guardian.student_ids.includes(student.id));
 
         document.getElementById("guardianName").innerText = `مرحباً، ${guardian.guardian_full_name}`;
@@ -226,14 +215,11 @@
             });
         });
         
-        // ... (باقي الكود الخاص بالغيابات والملاحظات يبقى كما هو)
         const absencesTableBody = document.getElementById("absences").getElementsByTagName('tbody')[0];
         const notesTableBody = document.getElementById("notes").getElementsByTagName('tbody')[0];
-        // ...
 
         const relevantLevels = [...new Set(children.map(student => student.educational_level))];
         const childrenIds = children.map(student => student.id);
-        // <<< تعديل 4: التحقق مما إذا كان أي من الأبناء في مجموعة الإنجليزية >>>
         const isChildInEnglishGroup = children.some(child => child.is_in_english_group === true);
 
         await buildSchedule("schedule", relevantLevels, childrenIds, isChildInEnglishGroup);
@@ -250,54 +236,34 @@
              document.getElementById('leaveNoteSection').innerHTML = "<p>لا يوجد أبناء مسجلون لترك ملاحظات حولهم.</p>";
         }
 
-        document.getElementById('sendNoteButton')?.addEventListener('click', () => {
-            const studentName = noteStudentSelect.value;
-            const noteContent = document.getElementById('noteTextarea').value;
-            const guardianName = guardian.guardian_full_name;
-            const adminEmail = "aymenraggam@gmail.com"; 
-
-            if (!noteContent.trim()) {
-                alert('الرجاء كتابة الملاحظة قبل الإرسال.');
-                return;
-            }
-
-            const subject = `ملاحظة من ولي الأمر: ${guardianName} (بخصوص الطالب: ${studentName})`;
-            const body = `السلام عليكم،\n\n` +
-                         `لدي ملاحظة بخصوص ابني/ابنتي: ${studentName}.\n\n` +
-                         `نص الملاحظة:\n${noteContent}\n\n` +
-                         `مع الشكر،\n${guardianName}`;
-
-            // يقوم بفتح تطبيق البريد الإلكتروني مع تعبئة البيانات
-            window.location.href = `mailto:${adminEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-        });
-        // --- أضف هذا الكود الجديد لزر الماسنجر ---
+        // --- كود زر الماسنجر المحدث ---
         document.getElementById('sendNoteButtonMessenger')?.addEventListener('click', () => {
-            // !!! هام: قم بملء هذه البيانات
-            // اسم المستخدم لصفحتك (للحل الاحتياطي)
-            const facebookPageUsername = "aymenstam"; 
-            // الرقم التعريفي الذي حصلت عليه في الخطوة 1
-            const facebookPageId = "770223689507881"; // <--- ضع الرقم التعريفي هنا
+            // !!! هام: ضع الرقم التعريفي لصفحتك هنا
+            const facebookPageId = "770223689507881"; 
         
             if (!facebookPageId || facebookPageId === "123456789012345") {
                 alert("خاصية الماسنجر غير مُعدّة بشكل صحيح. يرجى إدخال الرقم التعريفي للصفحة.");
                 return;
             }
         
+            // الرابط المباشر للمحادثة باستخدام ID الصفحة
+            const messengerLink = `https://m.me/${facebookPageId}`;
+            
             // التحقق مما إذا كان الجهاز هاتفاً محمولاً
             const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
         
             if (isMobile) {
-                // على الموبايل: نحاول فتح التطبيق مباشرة
+                // على الموبايل: نحاول فتح التطبيق مباشرة باستخدام بروتوكول fb-messenger
                 document.location = `fb-messenger://user-thread/${facebookPageId}`;
         
-                // بعد 1.5 ثانية، إذا كان المستخدم لا يزال في المتصفح، نوجهه إلى رابط الويب
+                // بعد 1.5 ثانية، إذا كان المستخدم لا يزال في المتصفح، نوجهه إلى رابط الويب كحل بديل
                 setTimeout(() => {
-                    window.location.href = `https://m.me/${facebookPageUsername}`;
+                    window.location.href = messengerLink;
                 }, 1500);
         
             } else {
-                // على الحاسوب: نستخدم الطريقة التقليدية التي تعمل بشكل جيد
-                window.open(`https://m.me/${facebookPageUsername}`, '_blank');
+                // على الحاسوب: نفتح رابط الويب في نافذة جديدة
+                window.open(messengerLink, '_blank');
             }
         });
 
