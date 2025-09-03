@@ -272,16 +272,33 @@
         });
         // --- أضف هذا الكود الجديد لزر الماسنجر ---
         document.getElementById('sendNoteButtonMessenger')?.addEventListener('click', () => {
-            // !!! هام: قم بتغيير هذا إلى اسم مستخدم صفحة الفيسبوك الخاصة بكم
-            const facebookPageUsername = "aymenstam"; // مثال
+            // !!! هام: قم بملء هذه البيانات
+            // اسم المستخدم لصفحتك (للحل الاحتياطي)
+            const facebookPageUsername = "aymenstam"; 
+            // الرقم التعريفي الذي حصلت عليه في الخطوة 1
+            const facebookPageId = "770223689507881"; // <--- ضع الرقم التعريفي هنا
         
-            if (!facebookPageUsername || facebookPageUsername === "YourPageUsername") {
-                alert("خاصية الماسنجر غير مُعدّة بعد. يرجى التواصل مع الإدارة.");
+            if (!facebookPageId || facebookPageId === "123456789012345") {
+                alert("خاصية الماسنجر غير مُعدّة بشكل صحيح. يرجى إدخال الرقم التعريفي للصفحة.");
                 return;
             }
-            
-            // يقوم بفتح نافذة جديدة لمحادثة ماسنجر
-            window.open(`https://m.me/${facebookPageUsername}`, '_blank');
+        
+            // التحقق مما إذا كان الجهاز هاتفاً محمولاً
+            const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        
+            if (isMobile) {
+                // على الموبايل: نحاول فتح التطبيق مباشرة
+                document.location = `fb-messenger://user-thread/${facebookPageId}`;
+        
+                // بعد 1.5 ثانية، إذا كان المستخدم لا يزال في المتصفح، نوجهه إلى رابط الويب
+                setTimeout(() => {
+                    window.location.href = `https://m.me/${facebookPageUsername}`;
+                }, 1500);
+        
+            } else {
+                // على الحاسوب: نستخدم الطريقة التقليدية التي تعمل بشكل جيد
+                window.open(`https://m.me/${facebookPageUsername}`, '_blank');
+            }
         });
 
       } catch (error) {
