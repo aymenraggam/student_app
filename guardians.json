@@ -432,6 +432,15 @@
     "password": "772340"
   },
   {
+    "guardian_full_name": "نبيهة عيوني",
+    "phone_number": "97053929",
+    "student_ids": [
+      94
+    ],
+    "unpaid_total": 100.0,
+    "password": "999036"
+  },
+  {
     "guardian_full_name": "مسعود غنادرة",
     "phone_number": "52390362",
     "student_ids": [
@@ -466,6 +475,15 @@
     ],
     "unpaid_total": 50.0,
     "password": "204240"
+  },
+  {
+    "guardian_full_name": "بسمة قادري",
+    "phone_number": "99017932",
+    "student_ids": [
+      95
+    ],
+    "unpaid_total": 100.0,
+    "password": "069216"
   },
   {
     "guardian_full_name": "رفيقة قادري",

@@ -415,6 +415,26 @@
     "notes": ""
   },
   {
+    "id": 94,
+    "name": "نغم",
+    "surname": "جلالي",
+    "educational_level": "8 أساسي",
+    "entry_date": "2025-09-03",
+    "guardian_full_name": "نبيهة عيوني",
+    "phone_number": "97053929",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 100.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "03/09/2025 إلى 02/10/2025",
+        "amount": 100.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 82,
     "name": "يحي",
     "surname": "جلالي",
@@ -950,6 +970,26 @@
       {
         "period": "10/08/2025 إلى 09/09/2025",
         "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 95,
+    "name": "عزيز (مهيمن)",
+    "surname": "صياحي",
+    "educational_level": "8 أساسي",
+    "entry_date": "2025-09-03",
+    "guardian_full_name": "بسمة قادري",
+    "phone_number": "99017932",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 100.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "03/09/2025 إلى 02/10/2025",
+        "amount": 100.0
       }
     ],
     "notes": ""
