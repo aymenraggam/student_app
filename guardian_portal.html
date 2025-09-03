@@ -79,10 +79,10 @@
 
     <h3>إرسال ملاحظة للإدارة</h3>
     <div id="leaveNoteSection" style="margin-top: 15px;">
-      <p>لإرسال ملاحظة، اضغط على الزر للانتقال إلى ماسنجر وكتابة رسالتك مباشرة إلى الإدارة.</p>
-    
+      <p>لإرسال ملاحظة للإدارة، اضغط على الزر أدناه للانتقال إلى ماسنجر وكتابة رسالتك مباشرة.</p>
+      
       <button id="sendNoteButtonMessenger" style="width: 100%; padding: 12px 15px; cursor: pointer; background-color: #0084ff; color: white; border: none; border-radius: 5px; font-size: 1.1em;">
-        مراسلة الإدارة عبر ماسنجر - Messenger
+        مراسلة الإدارة عبر ماسنجر
       </button>
     </div>
 
@@ -110,8 +110,6 @@
     <a href="index.html">العودة للصفحة الرئيسية</a>
     <p>حقوق النشر © 2025 الصالحي — جميع الحقوق محفوظة</p>
   </div>
-
-  <script src="guardian_script.js"></script>
   
   <script>
     // --- الكود المدمج والمحدث بالكامل ---
@@ -221,16 +219,12 @@
 
         await buildSchedule("schedule", relevantLevels, childrenIds, isChildInEnglishGroup);
 
-        const noteStudentSelect = document.getElementById('noteStudentSelect');
-        if (children.length > 0) {
-            children.forEach(child => {
-                const option = document.createElement('option');
-                option.value = `${child.name} ${child.surname}`;
-                option.textContent = `${child.name} ${child.surname}`;
-                noteStudentSelect.appendChild(option);
-            });
-        } else {
-             document.getElementById('leaveNoteSection').innerHTML = "<p>لا يوجد أبناء مسجلون لترك ملاحظات حولهم.</p>";
+        // إذا لم يكن لدى الولي أبناء، قم بإخفاء قسم إرسال الملاحظات
+        if (children.length === 0) {
+            const leaveNoteSection = document.getElementById('leaveNoteSection');
+            if(leaveNoteSection) {
+                leaveNoteSection.style.display = 'none';
+            }
         }
 
         // --- كود زر الماسنجر المحدث ---
