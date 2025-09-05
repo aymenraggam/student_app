@@ -1,7 +1,10 @@
 // schedule_script.js
 async function buildSchedule(tableId, relevantLevels = null) {
-  const perm = await fetch("schedule_permanent.json").then(r=>r.json());
-  const temp = await fetch("schedule_temporary.json").then(r=>r.json());
+  const [perm, temp, students] = await Promise.all([
+    fetch("schedule_permanent.json").then(r=>r.json()),
+    fetch("schedule_temporary.json").then(r=>r.json()),
+    fetch("students.json").then(r=>r.json()) // Fetch students data
+  ]);
 
   const replacedClassIds = new Set(
     temp.filter(t => t.replaced_class_id !== null)
@@ -42,8 +45,15 @@ async function buildSchedule(tableId, relevantLevels = null) {
         
         if (permMatch && !replacedClassIds.has(permMatch.id)) {
             if (!relevantLevels || relevantLevels.includes(permMatch.educational_level)) {
-                // <<< تعديل 1: تغيير النص المعروض لحصة الإنجليزية >>>
-                cell.textContent = permMatch.educational_level === 'مجموعة إنجليزية' ? 'حصة إنجليزية' : permMatch.educational_level;
+                if (permMatch.class_type === 'private' && permMatch.student_ids.length > 0) {
+                    const studentNames = permMatch.student_ids.map(id => {
+                        const student = students.find(s => s.id === id);
+                        return student ? student.name : '';
+                    }).join(', ');
+                    cell.textContent = studentNames;
+                } else {
+                    cell.textContent = permMatch.educational_level === 'مجموعة إنجليزية' ? 'حصة إنجليزية' : permMatch.educational_level;
+                }
                 cell.classList.add(permMatch.class_type);
             }
         }
@@ -54,21 +64,23 @@ async function buildSchedule(tableId, relevantLevels = null) {
     tbody.appendChild(tr);
   });
 
-  // <<< تعديل 2: إضافة مفتاح اللون الجديد >>>
-  const legend = document.createElement("div");
-  legend.classList.add("legend");
-  const legendItems = [
-    { text: "حصة عامة", colorClass: "general" },
-    { text: "حصة خاصة", colorClass: "private" },
-    { text: "حصة إنجليزية", colorClass: "english" },
-    { text: "حصة مؤقتة", colorClass: "temporary" }
-  ];
-  legendItems.forEach(item => {
-    const legendItem = document.createElement("div");
-    legendItem.classList.add("legend-item");
-    legendItem.innerHTML = `<span class="legend-color ${item.colorClass}"></span>${item.text}`;
-    legend.appendChild(legendItem);
-  });
-  
-  document.querySelector(`#${tableId}`).after(legend);
+  // Check if legend exists before adding it
+  if (!document.querySelector('.legend')) {
+      const legend = document.createElement("div");
+      legend.classList.add("legend");
+      const legendItems = [
+        { text: "حصة عامة", colorClass: "general" },
+        { text: "حصة خاصة", colorClass: "private" },
+        { text: "حصة إنجليزية", colorClass: "english" },
+        { text: "حصة مؤقتة", colorClass: "temporary" }
+      ];
+      legendItems.forEach(item => {
+        const legendItem = document.createElement("div");
+        legendItem.classList.add("legend-item");
+        legendItem.innerHTML = `<span class="legend-color ${item.colorClass}"></span>${item.text}`;
+        legend.appendChild(legendItem);
+      });
+      
+      document.querySelector(`#${tableId}`).after(legend);
+  }
 }
