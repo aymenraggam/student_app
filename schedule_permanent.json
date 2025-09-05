@@ -16,6 +16,17 @@
     "student_ids": []
   },
   {
+    "id": 28,
+    "day_of_week": "الأحد",
+    "time_slot": "16:00 - 18:00",
+    "educational_level": "8 أساسي",
+    "class_type": "private",
+    "student_ids": [
+      94,
+      95
+    ]
+  },
+  {
     "id": 15,
     "day_of_week": "الأحد",
     "time_slot": "18:00 - 20:00",
@@ -48,6 +59,17 @@
     "student_ids": [
       19,
       20
+    ]
+  },
+  {
+    "id": 26,
+    "day_of_week": "الأربعاء",
+    "time_slot": "18:00 - 20:00",
+    "educational_level": "8 أساسي",
+    "class_type": "private",
+    "student_ids": [
+      94,
+      95
     ]
   },
   {
@@ -144,6 +166,17 @@
     "student_ids": [
       19,
       20
+    ]
+  },
+  {
+    "id": 27,
+    "day_of_week": "الجمعة",
+    "time_slot": "18:00 - 20:00",
+    "educational_level": "8 أساسي",
+    "class_type": "private",
+    "student_ids": [
+      94,
+      95
     ]
   },
   {
