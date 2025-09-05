@@ -23,7 +23,7 @@ body {
 }
 
 .header img.logo {
-  width: 120px;
+  width: 160px;
   margin-bottom: 10px;
 }
 
@@ -278,7 +278,7 @@ input[type="text"]:focus, input[type="password"]:focus {
   }
 
   .header img.logo {
-    width: 90px;
+    width: 120px;
   }
 
   .introduction {
