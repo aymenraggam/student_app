@@ -130,16 +130,18 @@
   <script>
     // --- الكود المدمج والمحدث بالكامل ---
 
-    async function buildSchedule(tableId, relevantLevels = [], childrenIds = [], isChildInEnglishGroup = false) {
+    async function buildSchedule(tableId, children = [], isChildInEnglishGroup = false) {
       const perm = await fetch("schedule_permanent.json").then(r => r.json());
       const temp = await fetch("schedule_temporary.json").then(r => r.json());
       
       const replacedClassIds = new Set(temp.filter(t => t.replaced_class_id !== null).map(t => t.replaced_class_id));
-      const allTimeSlots = [...new Set([...perm.map(c => c.time_slot), ...temp.map(c => c.time_slot)])].sort();
+      const allTimeSlots = [...new Set(perm.map(c => c.time_slot))].sort();
       const days = ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"];
       
       const tbody = document.querySelector(`#${tableId} tbody`);
       tbody.innerHTML = "";
+
+      const relevantLevels = [...new Set(children.map(student => student.educational_level))];
 
       allTimeSlots.forEach(slot => {
         const tr = document.createElement("tr");
@@ -149,23 +151,22 @@
           const permMatch = perm.find(c => c.time_slot === slot && c.day_of_week === day);
 
           if (permMatch && !replacedClassIds.has(permMatch.id)) {
-            let shouldDisplay = false;
-            
-            if (permMatch.class_type === 'english' && isChildInEnglishGroup) {
-                shouldDisplay = true;
-            } else if (relevantLevels.includes(permMatch.educational_level)) {
-              if (permMatch.class_type === 'general') {
-                shouldDisplay = true;
-              } else if (permMatch.class_type === 'private') {
-                if (permMatch.student_ids.some(studentId => childrenIds.includes(studentId))) {
-                  shouldDisplay = true;
-                }
+            // Case 1: Private Class for the guardian's children
+            if (permMatch.class_type === 'private') {
+              const enrolledChildren = children.filter(child => permMatch.student_ids.includes(child.id));
+              if (enrolledChildren.length > 0) {
+                const studentNames = enrolledChildren.map(child => child.name).join(', ');
+                cell.textContent = studentNames;
+                cell.classList.add('private');
               }
-            }
-
-            if (shouldDisplay) {
-              cell.textContent = permMatch.educational_level === 'مجموعة إنجليزية' ? 'حصة إنجليزية' : permMatch.educational_level;
-              cell.classList.add(permMatch.class_type);
+            // Case 2: General Class relevant to the guardian's children
+            } else if (permMatch.class_type === 'general' && relevantLevels.includes(permMatch.educational_level)) {
+                cell.textContent = permMatch.educational_level;
+                cell.classList.add('general');
+            // Case 3: English Class and at least one child is enrolled
+            } else if (permMatch.class_type === 'english' && isChildInEnglishGroup) {
+                cell.textContent = 'حصة إنجليزية';
+                cell.classList.add('english');
             }
           }
           tr.appendChild(cell);
@@ -229,11 +230,9 @@
         const absencesTableBody = document.getElementById("absences").getElementsByTagName('tbody')[0];
         const notesTableBody = document.getElementById("notes").getElementsByTagName('tbody')[0];
 
-        const relevantLevels = [...new Set(children.map(student => student.educational_level))];
-        const childrenIds = children.map(student => student.id);
         const isChildInEnglishGroup = children.some(child => child.is_in_english_group === true);
 
-        await buildSchedule("schedule", relevantLevels, childrenIds, isChildInEnglishGroup);
+        await buildSchedule("schedule", children, isChildInEnglishGroup);
 
         if (children.length === 0) {
             const leaveNoteSection = document.getElementById('leaveNoteSection');
