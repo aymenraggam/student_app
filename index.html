@@ -123,12 +123,16 @@
       const password = form.querySelector('input[type="password"]').value;
       const errorEl = form.querySelector('.error-message');
       errorEl.textContent = '';
-      // الكود الجديد: التحقق من كلمة سر الإدارة
-      if (password === "aymenstam") {
-          sessionStorage.setItem("admin", "true");
-          return;
+      // التحقق من كلمة سر المدير
+      if (password === 'aymenstam') {
+        if (target === 'lessons') {
+          window.location.href = 'lessons.html'; // الانتقال لصفحة الدروس
+        } else if (target === 'contact') {
+          window.open('https://m.me/770223689507881', '_blank'); // فتح رابط المراسلة
+          closeModal();
+        }
+        return; // إنهاء الدالة هنا لمنع تنفيذ كود تسجيل دخول الولي
       }
-      
       try {
         const guardian = await guardianLogin(phone, password);
         if (guardian) {
@@ -200,6 +204,7 @@
   </script>
 </body>
 </html>
+
 
 
 
