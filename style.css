@@ -162,7 +162,7 @@ input[type="text"]:focus, input[type="password"]:focus {
 }
 
 /* Session Colors */
-.general { background-color: #e6f7ff; }
+.general { background-color: #FFDBA3; }
 .private { background-color: #8AF2E6; }
 .temporary { background-color: #fce4ec; border-left: 3px solid #e91e63; }
 .replacement { background-color: #ffcccc; }
