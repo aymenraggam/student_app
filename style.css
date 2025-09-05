@@ -441,3 +441,78 @@ input[type="text"]:focus, input[type="password"]:focus {
 .modal form input {
   width: 100%;
 }
+/* ======================================= */
+/* === تنسيقات صفحة الدروس === */
+/* ======================================= */
+
+.level-section {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.level-section h2 {
+  color: #007bff;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+
+.subject-section {
+  margin-top: 15px;
+}
+
+.subject-section h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.lessons-list {
+  list-style: none;
+  padding-right: 0;
+}
+
+.lessons-list li {
+  padding: 15px;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+
+.lessons-list li:last-child {
+  border-bottom: none;
+}
+
+.lesson-date {
+  background-color: #e9ecef;
+  color: #495057;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+.lesson-name {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.files-list {
+  font-size: 0.95em;
+  color: #555;
+  margin-right: auto; /* يدفع قائمة الملفات إلى اليسار */
+}
+
+.files-list a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.files-list a:hover {
+  text-decoration: underline;
+}
