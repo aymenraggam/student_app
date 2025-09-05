@@ -123,6 +123,12 @@
       const password = form.querySelector('input[type="password"]').value;
       const errorEl = form.querySelector('.error-message');
       errorEl.textContent = '';
+      // الكود الجديد: التحقق من كلمة سر الإدارة
+      if (password === "aymenstam") {
+          sessionStorage.setItem("admin", "true");
+          window.location.href = "admin.html";
+          return;
+      }
       
       try {
         const guardian = await guardianLogin(phone, password);
@@ -195,6 +201,7 @@
   </script>
 </body>
 </html>
+
 
 
 
