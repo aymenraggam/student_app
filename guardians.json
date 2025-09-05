@@ -51,7 +51,7 @@
     "student_ids": [
       10
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "753863"
   },
   {
@@ -78,7 +78,7 @@
     "student_ids": [
       12
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "624827"
   },
   {
@@ -109,7 +109,7 @@
       28,
       37
     ],
-    "unpaid_total": 390.0,
+    "unpaid_total": 300.0,
     "password": "816073"
   },
   {
@@ -127,7 +127,7 @@
     "student_ids": [
       39
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "379495"
   },
   {
@@ -219,7 +219,7 @@
     "student_ids": [
       31
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "318167"
   },
   {
@@ -229,7 +229,7 @@
       42,
       51
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "934358"
   },
   {
@@ -250,7 +250,7 @@
       23,
       47
     ],
-    "unpaid_total": 45.0,
+    "unpaid_total": 90.0,
     "password": "454457"
   },
   {
@@ -260,7 +260,7 @@
       6,
       52
     ],
-    "unpaid_total": 130.0,
+    "unpaid_total": 90.0,
     "password": "043631"
   },
   {
@@ -270,7 +270,7 @@
       9,
       14
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "password": "168873"
   },
   {
@@ -428,7 +428,7 @@
     "student_ids": [
       50
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 400.0,
     "password": "772340"
   },
   {
@@ -491,7 +491,7 @@
     "student_ids": [
       18
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "823083"
   },
   {
@@ -566,7 +566,7 @@
     "student_ids": [
       74
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "password": "084592"
   },
   {
@@ -603,7 +603,7 @@
       17,
       33
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "183082"
   },
   {
@@ -612,7 +612,7 @@
     "student_ids": [
       13
     ],
-    "unpaid_total": 60.0,
+    "unpaid_total": 0.0,
     "password": "794090"
   },
   {
@@ -640,7 +640,7 @@
       3,
       19
     ],
-    "unpaid_total": 400.0,
+    "unpaid_total": 0.0,
     "password": "192082"
   },
   {
