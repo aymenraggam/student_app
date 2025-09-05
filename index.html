@@ -158,10 +158,41 @@
       openModal(loginHTML);
     }
 
-    // الكود الخاص بمتفوقي الأسبوع يبقى كما هو
+    // الكود الخاص بمتفوقي الأسبوع
     document.addEventListener('DOMContentLoaded', async () => {
-      // ... (الكود الخاص بمتفوقي الأسبوع لا يتغير)
+    const section = document.getElementById('top-students-section');
+      const listContainer = document.getElementById('top-students-list');
+      const colors = ['gold', 'silver', 'bronze']; // ألوان متدرجة للبطاقات
+
+      try {
+        const response = await fetch('top_students.json');
+        if (!response.ok) return;
+
+        const topStudents = await response.json();
+
+        if (topStudents && topStudents.length > 0) {
+          listContainer.innerHTML = '';
+          
+          topStudents.forEach((student, index) => {
+            const card = document.createElement('div');
+            const colorClass = colors[index % colors.length];
+            card.className = `student-card ${colorClass}`;
+            
+            card.innerHTML = `
+              <h3>${student.name}</h3>
+              <p class="level">${student.level}</p>
+              <p class="reason">"${student.reason}"</p>
+            `;
+            listContainer.appendChild(card);
+          });
+
+          section.style.display = 'block';
+        }
+      } catch (error) {
+        console.error('Error fetching top students:', error);
+      }
     });
   </script>
 </body>
 </html>
+
