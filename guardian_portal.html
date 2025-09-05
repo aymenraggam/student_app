@@ -91,6 +91,7 @@
           <tbody></tbody>
       </table>
     </div>
+    
 
     <h3>إرسال ملاحظة للإدارة</h3>
     <div id="leaveNoteSection" style="margin-top: 15px;">
@@ -228,7 +229,23 @@
         });
         
         const absencesTableBody = document.getElementById("absences").getElementsByTagName('tbody')[0];
+        absencesTableBody.innerHTML = ''; // مسح أي بيانات قديمة
+        children.forEach(student => {
+            if (student.absence_count && Array.isArray(student.absence_count)) {
+                student.absence_count.forEach(absenceDate => {
+                    let absenceRow = absencesTableBody.insertRow();
+                    absenceRow.innerHTML = `<td>${student.name}</td><td>${absenceDate}</td>`;
+                });
+            }
+        });
         const notesTableBody = document.getElementById("notes").getElementsByTagName('tbody')[0];
+        notesTableBody.innerHTML = ''; // مسح أي بيانات قديمة
+        children.forEach(student => {
+            if (student.notes && student.notes.trim() !== "") {
+                let noteRow = notesTableBody.insertRow();
+                noteRow.innerHTML = `<td>${student.name}</td><td>${student.notes}</td>`;
+            }
+        });
 
         const isChildInEnglishGroup = children.some(child => child.is_in_english_group === true);
 
