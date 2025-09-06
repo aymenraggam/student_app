@@ -57,9 +57,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         groupedLessons[level][subject].forEach(lesson => {
           let filesHTML = '<div class="files-list">الملفات المرفقة: ';
           if (lesson.files && lesson.files.length > 0) {
-            filesHTML += lesson.files.map(file => 
-              `<a href="${file.path}" target="_blank">${file.name}</a>`
-            ).join(' | ');
+            filesHTML += lesson.files.map(file => {
+              // استخلاص اسم الملف فقط من المسار الكامل
+              const filename = file.path.split('\\').pop(); 
+              return `<a href="files/${filename}" target="_blank">${file.name}</a>`;
+            }).join(' | ');
           } else {
             filesHTML += 'لا يوجد';
           }
