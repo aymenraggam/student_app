@@ -1,8 +1,25 @@
+/* ======================================= */
+/* ===  الأنماط الأساسية والمتغيرات  === */
+/* ======================================= */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #007bff;
+  --primary-hover: #0056b3;
+  --dark-blue: #2c3e50;
+  --medium-blue: #34495e;
+  --light-gray: #f8f9fa;
+  --border-color: #dee2e6;
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.07);
+  --shadow-md: 0 5px 15px rgba(0,0,0,0.1);
+  --font-family-sans-serif: 'Cairo', sans-serif;
+}
+
 body {
-  font-family: Tahoma, sans-serif;
+  font-family: var(--font-family-sans-serif);
   direction: rtl;
   margin: 0;
-  background: #f4f7f6;
+  background-color: #f9fbfd; /* لون خلفية أفتح وأنقى */
   color: #333;
 }
 
@@ -12,49 +29,60 @@ body {
   margin: 0 auto;
 }
 
-/* Header Styles */
+/* ======================================= */
+/* ===  الهيدر والفوتر  === */
+/* ======================================= */
 .header {
   text-align: center;
-  margin-bottom: 30px;
-  background: #2c3e50;
+  background: var(--dark-blue);
   color: white;
-  padding: 25px 20px;
-  border-bottom: 5px solid #007bff;
+  padding: 20px;
+  border-bottom: 4px solid var(--primary-color);
 }
 
 .header img.logo {
-  width: 200px;
+  width: 150px;
   margin-bottom: 10px;
 }
 
 .header h1 {
   margin: 0;
-  font-size: 2.5em;
+  font-size: 2.2em;
 }
 
-/* Introduction Paragraph on Index Page */
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 25px;
+  border-top: 1px solid var(--border-color);
+  color: #666;
+}
+
+/* ======================================= */
+/* ===  العناصر العامة (أزرار، روابط، نماذج) === */
+/* ======================================= */
 .introduction {
   text-align: center;
-  font-size: 1.3em;
-  line-height: 1.7;
+  font-size: 1.2em;
+  line-height: 1.8;
   color: #444;
-  margin: 40px 0;
-  padding: 20px;
+  margin: 40px auto;
+  padding: 25px;
   background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  border-radius: 10px;
+  box-shadow: var(--shadow-sm);
+  max-width: 900px;
 }
 
-/* Links and Buttons */
 .links {
   text-align: center;
   margin: 30px 0;
 }
 
 .links a, .footer a, button {
-  margin: 10px;
-  padding: 12px 25px;
-  background: #007bff;
+  margin: 8px;
+  padding: 12px 28px;
+  background: var(--primary-color);
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -62,46 +90,72 @@ body {
   font-weight: bold;
   border: none;
   cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.25s ease-in-out;
+  box-shadow: var(--shadow-sm);
 }
 
 .links a:hover, .footer a:hover, button:hover {
-  background: #0056b3;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  background: var(--primary-hover);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
 }
 
-/* Table Styles */
+input[type="text"], input[type="password"] {
+  font-family: var(--font-family-sans-serif);
+  font-size: 1.1em;
+  padding: 12px 15px;
+  margin: 10px 0;
+  width: 320px;
+  box-sizing: border-box;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+  outline: none;
+}
+
+/* ======================================= */
+/* ===  تنسيق الجداول  === */
+/* ======================================= */
 table {
   border-collapse: collapse;
   width: 100%;
   text-align: center;
   margin-top: 20px;
   background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
-  border-radius: 8px;
-  overflow: hidden; /* Important for border-radius on tables */
+  box-shadow: var(--shadow-sm);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 th, td {
-  border: 1px solid #e0e0e0;
-  padding: 12px;
-  min-width: 90px;
+  padding: 15px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+td {
+  border-left: none;
+  border-right: none;
+  border-top: none;
 }
 
 th {
-  background: #34495e;
+  background: var(--medium-blue);
   color: white;
   font-size: 1.1em;
+  border-bottom-width: 2px;
 }
 
 tr:nth-child(even) {
-  background: #f8f9fa;
+  background: transparent; /* إزالة الخلفية المخططة لتبسيط التصميم */
 }
 
 tr:hover {
-  background-color: #e9ecef;
+  background-color: var(--light-gray);
 }
 
 .datatable {
@@ -113,380 +167,154 @@ tr:hover {
   font-weight: bold;
   padding: 15px 20px;
   margin-top: 30px;
-  border: 2px solid #d9534f;
+  border: 1px solid var(--border-color);
+  border-right: 5px solid #d9534f;
   border-radius: 10px;
-  text-align: center;
-  background-color: #ffebeb;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  text-align: right;
+  background-color: #fff;
+  box-shadow: var(--shadow-sm);
 }
 
-/* Form Input Styles */
-input[type="text"], input[type="password"] {
-  font-size: 1.2em;
-  padding: 12px;
-  margin: 10px 0;
-  width: 320px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 8px;
-  transition: border-color 0.3s, box-shadow 0.3s;
-}
-
-input[type="text"]:focus, input[type="password"]:focus {
-  border-color: #007bff;
-  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
-  outline: none;
-}
-
-/* Color Legend for Schedule */
-.legend {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-.legend-item {
-  display: flex;
-  align-items: center;
-  font-weight: bold;
-}
-
-.legend-color {
-  width: 20px;
-  height: 20px;
-  margin-left: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-/* Session Colors */
-.general { background-color: #FFCEA1; }
-.private { background-color: #8AF2E6; }
-.temporary { background-color: #fce4ec; border-left: 3px solid #e91e63; }
-.replacement { background-color: #ffcccc; }
-.extra { background-color: #e3f2fd; }
-
-/* Footer Styles */
-.footer {
-  text-align: center;
-  margin-top: 40px;
-  padding: 20px;
-  border-top: 1px solid #ddd;
-  color: #666;
-}
-
-/* أضف هذا إلى ملف style.css */
-.timetable td.english, .legend-color.english {
-  background-color: #C6F75C;
-  color: black;
-  font-weight: bold;
-}
-/* ================================= */
-/* === تنسيقات قسم الطلاب المتفوقين === */
-/* ================================= */
-
-.top-students-container {
-  text-align: center;
-  margin: 30px 0;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  border: 1px solid #eee;
-}
-
-.top-students-container h2 {
-  color: #2c3e50;
-  font-size: 2.2em;
-  margin-bottom: 5px;
-}
-
-.top-students-container .subtitle {
-  color: #7f8c8d;
-  font-size: 1.1em;
-  margin-bottom: 25px;
-}
-
-.cards-container {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.student-card {
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  padding: 20px;
-  width: 280px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-top: 5px solid;
-}
-
-.student-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-}
-
-.student-card h3 {
-  margin: 0 0 5px 0;
-  font-size: 1.5em;
-  color: #34495e;
-}
-
-.student-card .level {
-  margin: 0 0 15px 0;
-  font-size: 1em;
-  color: #95a5a6;
-  font-weight: bold;
-}
-
-.student-card .reason {
-  font-size: 1.1em;
-  color: #333;
-  font-style: italic;
-  line-height: 1.5;
-}
-
-/* ألوان جذابة للبطاقات */
-.student-card.gold { border-color: #FFD700; }
-.student-card.silver { border-color: #C0C0C0; }
-.student-card.bronze { border-color: #CD7F32; }
-
-
-/* ================================= */
-/* === Responsive Design === */
-/* ================================= */
-
-.table-responsive {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    margin: 0 -10px; /* Counteract container padding */
-    padding: 0 10px;
-}
-
-@media (max-width: 768px) {
-  .container {
-    padding: 10px;
-  }
-
-  .header h1 {
-    font-size: 1.6em;
-  }
-
-  .header img.logo {
-    width: 150px;
-  }
-
-  .introduction {
-    font-size: 1em;
-    padding: 15px;
-  }
-
-  .links a, .footer a, button {
-    font-size: 1em;
-    padding: 10px 20px;
-    width: 90%;
-    box-sizing: border-box;
-    margin: 8px 0;
-  }
-
-  .links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  th, td {
-    padding: 8px;
-    font-size: 0.9em;
-    min-width: 80px;
-  }
-
-  input[type="text"], input[type="password"] {
-    width: 100%;
-    font-size: 1em;
-    padding: 10px;
-  }
-
-  .cards-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .student-card {
-    width: 90%;
-    max-width: 350px;
-  }
-
-  #totalUnpaidContainer {
-    font-size: 1.2em;
-  }  
-}
 /* ======================================= */
-/* === تنسيقات قسم الميزات السريعة === */
+/* ===  تنسيقات البطاقات (الطلاب والميزات) === */
 /* ======================================= */
-.quick-features {
+.top-students-container, .quick-features {
   text-align: center;
   margin: 40px 0;
   padding: 20px;
 }
 
-.quick-features h2 {
+.top-students-container h2, .quick-features h2 {
+  color: var(--dark-blue);
   font-size: 2.2em;
-  color: #2c3e50;
-  margin-bottom: 30px;
-}
-
-.features-container {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  flex-wrap: wrap;
-}
-
-.feature-card {
-  background: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-  width: 280px;
-  padding: 25px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  border-bottom: 4px solid #007bff;
-}
-
-.feature-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
-}
-
-.feature-card .icon {
-  font-size: 3em;
-  margin-bottom: 15px;
-}
-
-.feature-card h3 {
-  font-size: 1.5em;
-  color: #34495e;
   margin-bottom: 10px;
 }
 
-.feature-card p {
+.top-students-container .subtitle {
   color: #7f8c8d;
-  line-height: 1.6;
+  font-size: 1.1em;
+  margin-bottom: 30px;
 }
 
+.cards-container, .features-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.student-card, .feature-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: var(--shadow-sm);
+  width: 280px;
+  padding: 25px;
+  transition: all 0.3s ease;
+}
+
+.student-card:hover, .feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-md);
+}
+
+.student-card {
+  border-top: 5px solid;
+}
+.student-card h3 { margin: 0 0 5px 0; font-size: 1.5em; color: var(--medium-blue); }
+.student-card .level { margin: 0 0 15px 0; font-size: 1em; color: #95a5a6; font-weight: bold; }
+.student-card .reason { font-size: 1.1em; color: #333; font-style: italic; line-height: 1.5; }
+.student-card.gold { border-color: #FFD700; }
+.student-card.silver { border-color: #C0C0C0; }
+.student-card.bronze { border-color: #CD7F32; }
+
+.feature-card {
+  cursor: pointer;
+  border-bottom: 4px solid transparent;
+}
+.feature-card:hover {
+  border-bottom-color: var(--primary-color);
+}
+.feature-card .icon { font-size: 3em; margin-bottom: 15px; }
+.feature-card h3 { font-size: 1.5em; color: var(--medium-blue); margin-bottom: 10px; }
+.feature-card p { color: #7f8c8d; line-height: 1.6; }
+
 /* ======================================= */
-/* === تنسيقات النوافذ المنبثقة (Modal) === */
+/* ===  تنسيقات جدول الحصص وألوانه === */
+/* ======================================= */
+.legend {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.legend-item { display: flex; align-items: center; font-weight: bold; }
+.legend-color { width: 20px; height: 20px; margin-left: 8px; border: 1px solid #ccc; border-radius: 4px; }
+
+/* Session Colors */
+.general { background-color: #e3f2fd; }
+.private { background-color: #e8f5e9; }
+.temporary { background-color: #fce4ec; border-left: 3px solid #e91e63; }
+.replacement { background-color: #fff9c4; }
+.extra { background-color: #e3f2fd; }
+.english, .timetable td.english, .legend-color.english { background-color: #d1c4e9; font-weight: bold; }
+
+/* ======================================= */
+/* ===  تنسيقات النوافذ المنبثقة (Modal) === */
 /* ======================================= */
 .modal-backdrop {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.6);
-  z-index: 100;
+  display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.6); z-index: 100;
 }
-
 .modal {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
+  display: none; position: fixed; top: 50%; left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #fff;
-  padding: 30px;
-  border-radius: 10px;
+  background-color: #fff; padding: 30px; border-radius: 10px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-  width: 90%;
-  max-width: 600px;
-  z-index: 101;
-  max-height: 90vh;
-  overflow-y: auto;
+  width: 90%; max-width: 600px; z-index: 101;
+  max-height: 90vh; overflow-y: auto;
 }
-
-.modal.modal-lg {
-  max-width: 1100px; /* حجم أكبر لجداول الحصص */
-}
-
+.modal.modal-lg { max-width: 1100px; }
 .modal-close-btn {
-  position: absolute;
-  top: 10px;
-  left: 15px; /* LTR friendly */
-  background: none;
-  border: none;
-  font-size: 2.5em;
-  color: #aaa;
-  cursor: pointer;
-  line-height: 1;
-  padding: 0;
+  position: absolute; top: 10px; left: 15px; background: none; border: none;
+  font-size: 2.5em; color: #aaa; cursor: pointer; line-height: 1; padding: 0;
 }
+.modal-close-btn:hover { color: #333; }
+.modal form { display: flex; flex-direction: column; gap: 10px; }
+.modal form input { width: 100%; }
 
-.modal-close-btn:hover {
-  color: #333;
-}
-
-/* تنسيق بسيط لنموذج الدخول داخل النافذة */
-.modal form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.modal form input {
-  width: 100%;
-}
 /* ======================================= */
-/* === تنسيقات صفحة الدروس === */
+/* ===  تنسيقات صفحة الدروس === */
 /* ======================================= */
-
 .level-section {
   background-color: #fff;
-  border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 25px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-color);
 }
-
 .level-section h2 {
-  color: #007bff;
+  color: var(--primary-color);
   border-bottom: 2px solid #eee;
   padding-bottom: 10px;
   margin-top: 0;
 }
-
-.subject-section {
-  margin-top: 15px;
-}
-
-.subject-section h3 {
-  color: #2c3e50;
-  margin-bottom: 10px;
-}
-
-.lessons-list {
-  list-style: none;
-  padding-right: 0;
-}
-
+.subject-section { margin-top: 15px; }
+.subject-section h3 { color: var(--dark-blue); margin-bottom: 10px; }
+.lessons-list { list-style: none; padding-right: 0; }
 .lessons-list li {
-  padding: 15px;
+  padding: 15px 10px;
   border-bottom: 1px solid #f0f0f0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 15px;
+  transition: background-color 0.2s ease;
 }
-
-.lessons-list li:last-child {
-  border-bottom: none;
-}
-
+.lessons-list li:last-child { border-bottom: none; }
+.lessons-list li:hover { background-color: var(--light-gray); }
 .lesson-date {
   background-color: #e9ecef;
   color: #495057;
@@ -494,25 +322,36 @@ input[type="text"]:focus, input[type="password"]:focus {
   border-radius: 5px;
   font-size: 0.9em;
 }
+.lesson-name { font-weight: bold; font-size: 1.1em; color: #333; }
+.files-list { font-size: 0.95em; color: #555; margin-right: auto; }
+.files-list a { color: var(--primary-color); text-decoration: none; margin: 0 5px; }
+.files-list a:hover { text-decoration: underline; }
 
-.lesson-name {
-  font-weight: bold;
-  font-size: 1.1em;
-  color: #333;
+/* ======================================= */
+/* ===  التصميم المتجاوب (Responsive) === */
+/* ======================================= */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 -10px;
+    padding: 0 10px;
 }
-
-.files-list {
-  font-size: 0.95em;
-  color: #555;
-  margin-right: auto; /* يدفع قائمة الملفات إلى اليسار */
-}
-
-.files-list a {
-  color: #007bff;
-  text-decoration: none;
-  margin: 0 5px;
-}
-
-.files-list a:hover {
-  text-decoration: underline;
+@media (max-width: 768px) {
+  .container { padding: 10px; }
+  .header h1 { font-size: 1.6em; }
+  .header img.logo { width: 120px; }
+  .introduction { font-size: 1em; padding: 15px; }
+  .links a, .footer a, button {
+    font-size: 1em;
+    padding: 12px 20px;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 8px 0;
+  }
+  .links { display: flex; flex-direction: column; align-items: center; }
+  th, td { padding: 10px; font-size: 0.9em; min-width: 80px; }
+  input[type="text"], input[type="password"] { width: 100%; font-size: 1em; padding: 10px; }
+  .cards-container, .features-container { flex-direction: column; align-items: center; }
+  .student-card, .feature-card { width: 90%; max-width: 350px; }
+  #totalUnpaidContainer { font-size: 1.2em; }
 }
