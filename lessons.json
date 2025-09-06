@@ -9,6 +9,20 @@
     "files": []
   },
   {
+    "id": 7,
+    "class_id": 10,
+    "lesson_date": "2025-09-07",
+    "educational_level": "9 أساسي",
+    "subject": "رياضيات",
+    "lesson_name": "نظرية طالس",
+    "files": [
+      {
+        "name": "نظرية طالس 9 أساسي.pdf",
+        "path": "lesson_resources\\نظرية طالس 9 أساسي_20250907001844.pdf"
+      }
+    ]
+  },
+  {
     "id": 5,
     "class_id": 9,
     "lesson_date": "2025-09-05",
@@ -28,7 +42,7 @@
     "lesson_date": "2025-09-05",
     "educational_level": "8 أساسي",
     "subject": "رياضيات",
-    "lesson_name": "التناظر المركزي",
+    "lesson_name": "تمرين في التناظر المركزي",
     "files": [
       {
         "name": "exercice sym.centrale.jpg",
