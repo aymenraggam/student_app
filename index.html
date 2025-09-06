@@ -125,6 +125,7 @@
       errorEl.textContent = '';
       // التحقق من كلمة سر المدير
       if (password === 'aymenstam') {
+        sessionStorage.setItem("admin", "true");
         if (target === 'lessons') {
           window.location.href = 'lessons.html'; // الانتقال لصفحة الدروس
         } else if (target === 'contact') {
@@ -204,6 +205,7 @@
   </script>
 </body>
 </html>
+
 
 
 
