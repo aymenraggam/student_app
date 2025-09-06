@@ -1547,6 +1547,26 @@
     "notes": ""
   },
   {
+    "id": 96,
+    "name": "حسّان",
+    "surname": "كداشي",
+    "educational_level": "9 أساسي",
+    "entry_date": "2025-09-06",
+    "guardian_full_name": "صافيا صالحي",
+    "phone_number": "93037064",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "06/09/2025 إلى 05/10/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 65,
     "name": "حمدي",
     "surname": "كداشي",
@@ -1784,5 +1804,4 @@
     ],
     "notes": ""
   }
-
 ]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": 3,
+    "class_id": 15,
+    "lesson_date": "2025-09-07",
+    "educational_level": "2 ث علوم",
+    "subject": "",
+    "lesson_name": "",
+    "files": []
+  },
+  {
+    "id": 5,
+    "class_id": 9,
+    "lesson_date": "2025-09-05",
+    "educational_level": "7 أساسي",
+    "subject": "رياضيات",
+    "lesson_name": "قوة عدد صحيح طبيعي",
+    "files": [
+      {
+        "name": "A2-Les-Puissances-Dans-N.pdf",
+        "path": "lesson_resources\\A2-Les-Puissances-Dans-N_20250905223204.pdf"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "class_id": 11,
+    "lesson_date": "2025-09-05",
+    "educational_level": "8 أساسي",
+    "subject": "رياضيات",
+    "lesson_name": "التناظر المركزي",
+    "files": [
+      {
+        "name": "exercice sym.centrale.jpg",
+        "path": "lesson_resources\\exercice sym.centrale_20250905224130.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "class_id": 6,
+    "lesson_date": "2025-09-03",
+    "educational_level": "8 أساسي",
+    "subject": "",
+    "lesson_name": "",
+    "files": []
+  },
+  {
+    "id": 1,
+    "class_id": 16,
+    "lesson_date": "2025-09-01",
+    "educational_level": "2 ث علوم",
+    "subject": "",
+    "lesson_name": "",
+    "files": []
+  },
+  {
+    "id": 4,
+    "class_id": 1,
+    "lesson_date": "2025-09-01",
+    "educational_level": "9 أساسي",
+    "subject": "",
+    "lesson_name": "",
+    "files": []
+  }
+]
