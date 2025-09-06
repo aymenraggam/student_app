@@ -16,7 +16,7 @@
   <div class="container">
     <script>
       // حماية الصفحة: التأكد من أن الولي مسجل دخوله
-      if (!sessionStorage.getItem("guardian")) {
+      if (!sessionStorage.getItem("guardian")) && !sessionStorage.getItem("admin")) {
         window.location = "login.html";
       }
     </script>
