@@ -697,15 +697,10 @@
     "guardian_full_name": "لمين شرف الدين",
     "phone_number": "97917380",
     "payment_generation_status": "suspended",
-    "payment_count": 2,
-    "unpaid_total": 45.0,
+    "payment_count": 1,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "04/09/2025 إلى 03/10/2025",
-        "amount": 45.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
