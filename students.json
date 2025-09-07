@@ -1571,14 +1571,9 @@
     "phone_number": "92037064",
     "payment_generation_status": "active",
     "payment_count": 1,
-    "unpaid_total": 40.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "09/08/2025 إلى 08/09/2025",
-        "amount": 40.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
