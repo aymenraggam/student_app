@@ -36,6 +36,11 @@
           <h3>ملفات الدروس</h3>
           <p>ادخل للاطلاع على ملخصات وتمارين الدروس</p>
         </div>
+        <div class="feature-card" onclick="openLoginModal('tests')">
+          <div class="icon">🏆</div>
+          <h3>اختبر معلوماتك</h3>
+          <p>شارك في اختباراتنا وتنافس على المراتب الأولى</p>
+        </div>
         <div class="feature-card" onclick="openLoginModal('contact')">
           <div class="icon">✉️</div>
           <h3>الاتصال بالإدارة</h3>
@@ -97,14 +102,13 @@
 
   <script src="guardian_script.js"></script> <script src="schedule_script.js"></script>
   <script>
-    // --- الكود الجديد لإدارة النوافذ المنبثقة ---
     const modal = document.getElementById('modal');
     const modalBackdrop = document.getElementById('modal-backdrop');
     const modalContent = document.getElementById('modal-content');
 
     function openModal(content, modalClass = '') {
       modalContent.innerHTML = content;
-      modal.className = 'modal'; // Reset classes
+      modal.className = 'modal'; 
       if (modalClass) modal.classList.add(modalClass);
       modal.style.display = 'block';
       modalBackdrop.style.display = 'block';
@@ -116,15 +120,12 @@
       modalContent.innerHTML = '';
     }
 
-    // 1. نافذة جدول الحصص
     function openScheduleModal() {
       const scheduleHTML = document.getElementById('schedule-content').innerHTML;
       openModal(scheduleHTML, 'modal-lg');
-      // يجب استدعاء الدالة بعد عرض النافذة لتجد الجدول
       buildSchedule("schedule-table-popup");
     }
 
-    // 2. نافذة تسجيل الدخول
     async function handleLogin(event, target) {
       event.preventDefault();
       const form = event.target;
@@ -132,16 +133,18 @@
       const password = form.querySelector('input[type="password"]').value;
       const errorEl = form.querySelector('.error-message');
       errorEl.textContent = '';
-      // التحقق من كلمة سر المدير
+      
       if (password === 'aymenstam') {
         sessionStorage.setItem("admin", "true");
         if (target === 'lessons') {
-          window.location.href = 'lessons.html'; // الانتقال لصفحة الدروس
+          window.location.href = 'lessons.html';
+        } else if (target === 'tests') { // تحديث هنا
+          window.location.href = 'tests.html';
         } else if (target === 'contact') {
-          window.open('https://m.me/770223689507881', '_blank'); // فتح رابط المراسلة
+          window.open('https://m.me/770223689507881', '_blank');
           closeModal();
         }
-        return; // إنهاء الدالة هنا لمنع تنفيذ كود تسجيل دخول الولي
+        return;
       }
       try {
         const guardian = await guardianLogin(phone, password);
@@ -149,6 +152,8 @@
           sessionStorage.setItem("guardian", JSON.stringify(guardian));
           if (target === 'lessons') {
             window.location.href = 'lessons.html';
+          } else if (target === 'tests') { // تحديث هنا
+            window.location.href = 'tests.html';
           } else if (target === 'contact') {
             window.open('https://m.me/770223689507881', '_blank');
             closeModal();
@@ -163,7 +168,15 @@
     }
 
     function openLoginModal(target) {
-      const loginTitle = target === 'lessons' ? 'الاطلاع على ملفات الدروس' : 'الاتصال بالإدارة';
+      let loginTitle = '';
+      if (target === 'lessons') {
+        loginTitle = 'الاطلاع على ملفات الدروس';
+      } else if (target === 'contact') {
+        loginTitle = 'الاتصال بالإدارة';
+      } else if (target === 'tests') { // تحديث هنا
+        loginTitle = 'الدخول للاختبارات التفاعلية';
+      }
+
       const loginHTML = `
         <h2>${loginTitle}</h2>
         <p>الرجاء تسجيل الدخول أولاً للمتابعة.</p>
@@ -177,7 +190,6 @@
       openModal(loginHTML);
     }
 
-    // الكود الخاص بالإعلانات العامة
     document.addEventListener('DOMContentLoaded', async () => {
         const section = document.getElementById('general-announcements-section');
         const listContainer = document.getElementById('announcements-list');
@@ -206,12 +218,10 @@
         }
     });
 
-    // الكود الخاص بمتفوقي الأسبوع
     document.addEventListener('DOMContentLoaded', async () => {
     const section = document.getElementById('top-students-section');
       const listContainer = document.getElementById('top-students-list');
-      const colors = ['gold', 'silver', 'bronze']; // ألوان متدرجة للبطاقات
-
+      const colors = ['gold', 'silver', 'bronze']; 
       try {
         const response = await fetch('top_students.json');
         if (!response.ok) return;
@@ -243,14 +253,3 @@
   </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
