@@ -204,7 +204,7 @@ tr:hover {
   gap: 25px;
 }
 
-.student-card, .feature-card {
+.student-card {
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: var(--shadow-sm);
@@ -213,9 +213,26 @@ tr:hover {
   transition: all 0.3s ease;
 }
 
-.student-card:hover, .feature-card:hover {
+.student-card:hover {
   transform: translateY(-8px);
   box-shadow: var(--shadow-md);
+}
+.feature-card {
+  /* الخصائص الموجودة مسبقًا */
+  background-color: #fff; /* يمكن الاحتفاظ بها أو تغييرها حسب الرغبة */
+  border: 1px solid #ddd; /* إضافة حد رفيع وبلون خفيف */
+  border-radius: 8px; /* للحفاظ على الزوايا المستديرة */
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* إضافة ظل خفيف */
+  transition: transform 0.2s, box-shadow 0.2s; /* لجعل التفاعل أكثر سلاسة */
+  cursor: pointer; /* للإشارة إلى أنها قابلة للنقر */
+}
+
+/* يمكنك أيضًا إضافة تأثير عند التحويم بالماوس لجعلها أكثر تفاعلية */
+.feature-card:hover {
+  transform: translateY(-5px); /* رفع البطاقة قليلاً عند التحويم */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* زيادة الظل عند التحويم */
 }
 
 .student-card {
