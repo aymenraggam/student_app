@@ -23,6 +23,20 @@
     ]
   },
   {
+    "id": 8,
+    "class_id": 13,
+    "lesson_date": "2025-09-07",
+    "educational_level": "9 أساسي",
+    "subject": "رياضيات",
+    "lesson_name": "العمليات في R",
+    "files": [
+      {
+        "name": "OperationsR_part1.pdf",
+        "path": "lesson_resources\\OperationsR_part1_20250907095611.pdf"
+      }
+    ]
+  },
+  {
     "id": 5,
     "class_id": 9,
     "lesson_date": "2025-09-05",
