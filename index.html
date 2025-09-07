@@ -49,6 +49,12 @@
       <a href="login.html?admin=1">خاص بالإدارة</a>
     </div>
 
+    <div id="general-announcements-section" class="announcements-container" style="display: none;">
+      <h2>📢 إعلانات هامة 📢</h2>
+      <div id="announcements-list" class="cards-container">
+      </div>
+    </div>
+
     <div id="top-students-section" class="top-students-container" style="display: none;"> <h2>🏆 متفوقو الأسبوع 🏆</h2>
       <p class="subtitle">نحتفي هذا الأسبوع بطلابنا المتميزين الذين أظهروا تفوقًا ملحوظًا. تهانينا لهم!</p>
       <div id="top-students-list" class="cards-container">
@@ -171,6 +177,35 @@
       openModal(loginHTML);
     }
 
+    // الكود الخاص بالإعلانات العامة
+    document.addEventListener('DOMContentLoaded', async () => {
+        const section = document.getElementById('general-announcements-section');
+        const listContainer = document.getElementById('announcements-list');
+
+        try {
+            const response = await fetch('announcements.json');
+            if (!response.ok) return;
+
+            const announcements = await response.json();
+
+            if (announcements && announcements.length > 0) {
+                listContainer.innerHTML = '';
+                announcements.forEach(announcement => {
+                    const card = document.createElement('div');
+                    card.className = 'announcement-card';
+                    card.innerHTML = `
+                        <h3>${announcement.text}</h3>
+                        <p class="date">${announcement.date}</p>
+                    `;
+                    listContainer.appendChild(card);
+                });
+                section.style.display = 'block';
+            }
+        } catch (error) {
+            console.error('Error fetching general announcements:', error);
+        }
+    });
+
     // الكود الخاص بمتفوقي الأسبوع
     document.addEventListener('DOMContentLoaded', async () => {
     const section = document.getElementById('top-students-section');
@@ -208,6 +243,7 @@
   </script>
 </body>
 </html>
+
 
 
 
