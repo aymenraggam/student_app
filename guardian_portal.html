@@ -95,6 +95,19 @@
       </table>
     </div>
     
+    <hr>
+    <h3>إعلانات هامة</h3>
+    <div class="table-responsive">
+      <table id="generalAnnouncements" class="datatable">
+        <thead>
+            <tr>
+                <th>التاريخ</th>
+                <th>الإعلان</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
 
     <h3>إرسال ملاحظة للإدارة</h3>
     <div id="leaveNoteSection" style="margin-top: 15px;">
@@ -250,6 +263,21 @@
             }
         });
 
+         // جلب الإعلانات العامة وعرضها
+        const announcementsTableBody = document.getElementById("generalAnnouncements").getElementsByTagName('tbody')[0];
+        try {
+            const announcementsResponse = await fetch("announcements.json");
+            if (announcementsResponse.ok) {
+                const announcements = await announcementsResponse.json();
+                announcementsTableBody.innerHTML = '';
+                announcements.forEach(announcement => {
+                    let announcementRow = announcementsTableBody.insertRow();
+                    announcementRow.innerHTML = `<td>${announcement.date}</td><td>${announcement.text}</td>`;
+                });
+            }
+        } catch (error) {
+            console.error("حدث خطأ في جلب الإعلانات العامة. الرجاء اعادة المحاولة لاحقا:", error);
+        }
         const isChildInEnglishGroup = children.some(child => child.is_in_english_group === true);
 
         await buildSchedule("schedule", children, isChildInEnglishGroup);
