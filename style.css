@@ -355,3 +355,51 @@ tr:hover {
   .student-card, .feature-card { width: 90%; max-width: 350px; }
   #totalUnpaidContainer { font-size: 1.2em; }
 }
+/* ======================================= */
+/* ===  تنسيقات قسم الإعلانات العامة  === */
+/* ======================================= */
+.announcements-container {
+  text-align: center;
+  margin: 40px 0;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: var(--shadow-sm);
+}
+
+.announcements-container h2 {
+  color: var(--dark-blue);
+  font-size: 2.2em;
+  margin-bottom: 25px;
+}
+
+.announcements-list-styled {
+  list-style: none;
+  padding: 0;
+}
+
+.announcement-card {
+  background-color: var(--light-gray);
+  border-right: 5px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  text-align: right;
+  transition: all 0.3s ease;
+}
+
+.announcement-card:hover {
+    transform: scale(1.03);
+    box-shadow: var(--shadow-md);
+}
+
+.announcement-card h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.4em;
+  color: var(--medium-blue);
+}
+
+.announcement-card .date {
+  font-size: 0.9em;
+  color: #7f8c8d;
+}
