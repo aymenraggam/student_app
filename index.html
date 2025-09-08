@@ -28,8 +28,13 @@
       <div class="features-container">
         <div class="feature-card" onclick="openScheduleModal()">
           <div class="icon">📅</div>
-          <h3>جدول الحصص</h3>
+          <h3>جدول الحصص (إعدادي وثانوي)</h3>
           <p>اطلع على جدول الحصص الأسبوعي</p>
+        </div>
+        <div class="feature-card" onclick="openPrimaryScheduleModal()">
+          <div class="icon">📅</div>
+          <h3>جدول الحصص (ابتدائي)</h3>
+          <p>اطلع على جدول حصص المرحلة الابتدائية</p>
         </div>
         <div class="feature-card" onclick="openLoginModal('lessons')">
           <div class="icon">📚</div>
@@ -80,7 +85,7 @@
   </div>
 
   <div id="schedule-content" style="display: none;">
-    <h2>جدول الحصص العام</h2>
+    <h2>جدول الحصص العام (إعدادي وثانوي)</h2>
     <div class="table-responsive">
       <table id="schedule-table-popup" class="timetable">
         <thead>
@@ -100,7 +105,30 @@
     </div>
   </div>
 
-  <script src="guardian_script.js"></script> <script src="schedule_script.js"></script>
+  <div id="primary-schedule-content" style="display: none;">
+    <h2>جدول الحصص العام (ابتدائي)</h2>
+    <div class="table-responsive">
+      <table id="primary-schedule-table-popup" class="timetable">
+        <thead>
+          <tr>
+            <th>التوقيت</th>
+            <th>الإثنين</th>
+            <th>الثلاثاء</th>
+            <th>الأربعاء</th>
+            <th>الخميس</th>
+            <th>الجمعة</th>
+            <th>السبت</th>
+            <th>الأحد</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="guardian_script.js"></script> 
+  <script src="schedule_script.js"></script>
+  <script src="schedule_primary_script.js"></script>
   <script>
     const modal = document.getElementById('modal');
     const modalBackdrop = document.getElementById('modal-backdrop');
@@ -126,6 +154,13 @@
       buildSchedule("schedule-table-popup");
     }
 
+    // دالة جديدة لفتح جدول الابتدائي
+    function openPrimaryScheduleModal() {
+      const scheduleHTML = document.getElementById('primary-schedule-content').innerHTML;
+      openModal(scheduleHTML, 'modal-lg');
+      buildPrimarySchedule("primary-schedule-table-popup");
+    }
+
     async function handleLogin(event, target) {
       event.preventDefault();
       const form = event.target;
@@ -138,7 +173,7 @@
         sessionStorage.setItem("admin", "true");
         if (target === 'lessons') {
           window.location.href = 'lessons.html';
-        } else if (target === 'tests') { // تحديث هنا
+        } else if (target === 'tests') {
           window.location.href = 'tests.html';
         } else if (target === 'contact') {
           window.open('https://m.me/770223689507881', '_blank');
@@ -152,7 +187,7 @@
           sessionStorage.setItem("guardian", JSON.stringify(guardian));
           if (target === 'lessons') {
             window.location.href = 'lessons.html';
-          } else if (target === 'tests') { // تحديث هنا
+          } else if (target === 'tests') {
             window.location.href = 'tests.html';
           } else if (target === 'contact') {
             window.open('https://m.me/770223689507881', '_blank');
@@ -173,7 +208,7 @@
         loginTitle = 'الاطلاع على ملفات الدروس';
       } else if (target === 'contact') {
         loginTitle = 'الاتصال بالإدارة';
-      } else if (target === 'tests') { // تحديث هنا
+      } else if (target === 'tests') {
         loginTitle = 'الدخول للاختبارات التفاعلية';
       }
 
@@ -228,7 +263,6 @@
 
         const topStudentsData = await response.json();
 
-        // التحقق إذا كانت البيانات عبارة عن قائمة طلاب
         if (Array.isArray(topStudentsData) && topStudentsData.length > 0) {
           listContainer.innerHTML = '';
           topStudentsData.forEach((student, index) => {
@@ -244,12 +278,10 @@
           });
           section.style.display = 'block';
         } 
-        // التحقق إذا كانت البيانات نصًا (مثل رسالة التحديث)
         else if (typeof topStudentsData === 'string') {
           listContainer.innerHTML = `<p style="text-align: center; font-size: 1.2em; color: #555; padding: 20px;">${topStudentsData}</p>`;
           section.style.display = 'block';
         }
-        // في حالة كانت القائمة فارغة أو البيانات غير متوقعة، لن يظهر القسم
 
       } catch (error) {
         console.error('Error fetching top students:', error);
