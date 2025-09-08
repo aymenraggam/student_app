@@ -1152,14 +1152,9 @@
     "phone_number": "95222949",
     "payment_generation_status": "suspended",
     "payment_count": 1,
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "05/08/2025 إلى 04/09/2025",
-        "amount": 50.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -1555,12 +1550,12 @@
     "phone_number": "92037064",
     "payment_generation_status": "active",
     "payment_count": 1,
-    "unpaid_total": 50.0,
+    "unpaid_total": 40.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "06/09/2025 إلى 05/10/2025",
-        "amount": 50.0
+        "amount": 40.0
       }
     ],
     "notes": ""

@@ -1,0 +1,70 @@
+[
+  {
+    "id": 8,
+    "day_of_week": "الأربعاء",
+    "time_slot": "08:00 - 10:00",
+    "educational_level": "5 ابتدائي",
+    "class_type": "general",
+    "student_ids": []
+  },
+  {
+    "id": 9,
+    "day_of_week": "الأربعاء",
+    "time_slot": "10:00 - 12:00",
+    "educational_level": "6 ابتدائي",
+    "class_type": "general",
+    "student_ids": []
+  },
+  {
+    "id": 13,
+    "day_of_week": "الأربعاء",
+    "time_slot": "16:00 - 18:00",
+    "educational_level": "1 ابتدائي",
+    "class_type": "private",
+    "student_ids": [
+      2
+    ]
+  },
+  {
+    "id": 6,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "08:00 - 10:00",
+    "educational_level": "4 ابتدائي",
+    "class_type": "general",
+    "student_ids": []
+  },
+  {
+    "id": 7,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "10:00 - 12:00",
+    "educational_level": "3 ابتدائي",
+    "class_type": "general",
+    "student_ids": []
+  },
+  {
+    "id": 12,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "16:00 - 18:00",
+    "educational_level": "3 ابتدائي",
+    "class_type": "private",
+    "student_ids": [
+      8
+    ]
+  },
+  {
+    "id": 10,
+    "day_of_week": "الخميس",
+    "time_slot": "08:00 - 10:00",
+    "educational_level": "1 ابتدائي",
+    "class_type": "general",
+    "student_ids": []
+  },
+  {
+    "id": 11,
+    "day_of_week": "الخميس",
+    "time_slot": "10:00 - 12:00",
+    "educational_level": "2 ابتدائي",
+    "class_type": "general",
+    "student_ids": []
+  }
+]
