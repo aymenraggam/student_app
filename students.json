@@ -1226,12 +1226,16 @@
     "guardian_full_name": "مريم سليمي",
     "phone_number": "99217475",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "08/08/2025 إلى 07/09/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "08/09/2025 إلى 07/10/2025",
         "amount": 50.0
       }
     ],
@@ -1548,7 +1552,7 @@
     "educational_level": "9 أساسي",
     "entry_date": "2025-09-06",
     "guardian_full_name": "صافيا صالحي",
-    "phone_number": "93037064",
+    "phone_number": "92037064",
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
@@ -1784,14 +1788,9 @@
     "phone_number": "96445731",
     "payment_generation_status": "active",
     "payment_count": 1,
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "09/08/2025 إلى 08/09/2025",
-        "amount": 50.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   }
 ]

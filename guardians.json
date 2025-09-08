@@ -192,7 +192,7 @@
     "student_ids": [
       64
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "password": "932892"
   },
   {
@@ -240,7 +240,7 @@
       55,
       63
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 200.0,
     "password": "883226"
   },
   {
@@ -277,19 +277,11 @@
     "guardian_full_name": "صافيا صالحي",
     "phone_number": "92037064",
     "student_ids": [
-      65
-    ],
-    "unpaid_total": 0.0,
-    "password": "729824"
-  },
-  {
-    "guardian_full_name": "صافيا صالحي",
-    "phone_number": "93037064",
-    "student_ids": [
+      65,
       96
     ],
     "unpaid_total": 50.0,
-    "password": "687031"
+    "password": "729824"
   },
   {
     "guardian_full_name": "فاطمة صالحي",
