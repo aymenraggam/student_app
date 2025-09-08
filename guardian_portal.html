@@ -172,41 +172,73 @@
   <script>
     // --- الكود المدمج والمحدث بالكامل ---
 
-    // دالة بناء جدول الإعدادي والثانوي (موجودة لديك ولكن نضعها هنا للتأكيد)
+    // دالة بناء جدول الإعدادي والثانوي - معدلة بالكامل
     async function buildSchedule(tableId, children = [], isChildInEnglishGroup = false) {
-      const perm = await fetch("schedule_permanent.json").then(r => r.json());
-      const temp = await fetch("schedule_temporary.json").then(r => r.json());
+      const [perm, temp] = await Promise.all([
+        fetch("schedule_permanent.json").then(r => r.json()),
+        fetch("schedule_temporary.json").then(r => r.json())
+      ]);
       
       const replacedClassIds = new Set(temp.filter(t => t.replaced_class_id !== null).map(t => t.replaced_class_id));
-      const allTimeSlots = [...new Set(perm.map(c => c.time_slot))].sort();
+      const allTimeSlots = [...new Set([...perm.map(c => c.time_slot), ...temp.map(c => c.time_slot)])].sort();
       const days = ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"];
       
       const tbody = document.querySelector(`#${tableId} tbody`);
       tbody.innerHTML = "";
 
       const relevantLevels = [...new Set(children.map(student => student.educational_level))];
+      const childrenIds = children.map(c => c.id);
 
       allTimeSlots.forEach(slot => {
         const tr = document.createElement("tr");
         tr.innerHTML = `<td>${slot}</td>`;
+        
         days.forEach(day => {
           const cell = document.createElement("td");
-          const permMatch = perm.find(c => c.time_slot === slot && c.day_of_week === day);
+          let classFound = false;
 
-          if (permMatch && !replacedClassIds.has(permMatch.id)) {
-            if (permMatch.class_type === 'private') {
-              const enrolledChildren = children.filter(child => permMatch.student_ids.includes(child.id));
-              if (enrolledChildren.length > 0) {
-                const studentNames = enrolledChildren.map(child => child.name).join(', ');
-                cell.textContent = studentNames;
-                cell.classList.add('private');
+          // 1. البحث عن حصة مؤقتة أولاً
+          const tempMatch = temp.find(c => {
+              const classDay = new Date(c.class_date).toLocaleDateString('ar-TN', { weekday: 'long' });
+              return c.time_slot === slot && classDay === day;
+          });
+
+          if (tempMatch) {
+            // التحقق إذا كانت الحصة المؤقتة تخص الولي
+            const isRelevantTemp = (
+              // حصة عامة ومستواها يطابق
+              (tempMatch.class_type.includes('general') && relevantLevels.includes(tempMatch.educational_level)) ||
+              // حصة خاصة وأحد الأبناء مسجل بها
+              (tempMatch.class_type.includes('private') && tempMatch.student_ids.some(id => childrenIds.includes(id)))
+            );
+
+            if (isRelevantTemp) {
+              cell.textContent = tempMatch.educational_level;
+              cell.classList.add('temporary'); // تلوينها كحصة مؤقتة
+              if (tempMatch.class_type.startsWith('replacement')) {
+                  cell.classList.add('replacement');
+              } else if (tempMatch.class_type.startsWith('extra')) {
+                  cell.classList.add('extra');
               }
-            } else if (permMatch.class_type === 'general' && relevantLevels.includes(permMatch.educational_level)) {
-                cell.textContent = permMatch.educational_level;
-                cell.classList.add('general');
-            } else if (permMatch.class_type === 'english' && isChildInEnglishGroup) {
-                cell.textContent = 'حصة إنجليزية';
-                cell.classList.add('english');
+              classFound = true;
+            }
+          }
+
+          // 2. إذا لم توجد حصة مؤقتة، ابحث عن حصة دائمة
+          if (!classFound) {
+            const permMatch = perm.find(c => c.time_slot === slot && c.day_of_week === day);
+            if (permMatch && !replacedClassIds.has(permMatch.id)) {
+              if (permMatch.class_type === 'private' && permMatch.student_ids.some(id => childrenIds.includes(id))) {
+                  const enrolledChildren = children.filter(child => permMatch.student_ids.includes(child.id));
+                  cell.textContent = enrolledChildren.map(child => child.name).join(', ');
+                  cell.classList.add('private');
+              } else if (permMatch.class_type === 'general' && relevantLevels.includes(permMatch.educational_level)) {
+                  cell.textContent = permMatch.educational_level;
+                  cell.classList.add('general');
+              } else if (permMatch.class_type === 'english' && isChildInEnglishGroup) {
+                  cell.textContent = 'حصة إنجليزية';
+                  cell.classList.add('english');
+              }
             }
           }
           tr.appendChild(cell);
@@ -214,6 +246,7 @@
         tbody.appendChild(tr);
       });
 
+      // إضافة الشرح
       const container = document.querySelector(`#${tableId}`).closest('.table-responsive');
       if (container && !container.querySelector('.legend')) {
           const legend = document.createElement("div");
@@ -221,7 +254,8 @@
           const legendItems = [
             { text: "حصة عامة", colorClass: "general" },
             { text: "حصة خاصة", colorClass: "private" },
-            { text: "حصة إنجليزية", colorClass: "english" }
+            { text: "حصة إنجليزية", colorClass: "english" },
+            { text: "حصة مؤقتة", colorClass: "temporary" }
           ];
           legendItems.forEach(item => {
             const legendItem = document.createElement("div");
@@ -248,7 +282,7 @@
         document.getElementById("guardianName").innerText = `مرحباً، ${guardian.guardian_full_name}`;
         document.getElementById("totalUnpaid").innerText = `${guardian.unpaid_total.toFixed(2)} دينار`;
 
-        // ... (بقية الكود الخاص بملء جداول الأبناء والمدفوعات والغيابات يبقى كما هو)
+        // ... الكود الخاص بملء جداول الأبناء والمدفوعات والغيابات يبقى كما هو
         const childrenTableBody = document.getElementById("children").getElementsByTagName('tbody')[0];
         childrenTableBody.innerHTML = ''; 
         children.forEach(student => {
@@ -298,16 +332,16 @@
         } catch (error) {
             console.error("حدث خطأ في جلب الإعلانات العامة. الرجاء اعادة المحاولة لاحقا:", error);
         }
-        // --- المنطق الجديد لعرض الجداول ---
+        
+        // --- المنطق المحدث لعرض الجداول ---
 
-        // 1. فصل الأبناء إلى مجموعتين: ابتدائي وإعدادي/ثانوي
         const primaryChildren = children.filter(c => c.educational_level.includes('ابتدائي'));
         const prepSecondaryChildren = children.filter(c => !c.educational_level.includes('ابتدائي'));
 
-        // 2. بناء وعرض الجداول بناءً على المجموعات
         if (primaryChildren.length > 0) {
             document.getElementById('primary-schedule-container').style.display = 'block';
-            await buildPrimarySchedule('primary-schedule');
+            // استدعاء الدالة مع تمرير قائمة الأبناء للفلترة
+            await buildPrimarySchedule('primary-schedule', primaryChildren);
         }
 
         if (prepSecondaryChildren.length > 0) {
@@ -316,7 +350,7 @@
             await buildSchedule("schedule", prepSecondaryChildren, isChildInEnglishGroup);
         }
 
-        // ... (بقية الكود الخاص بزر المراسلة يبقى كما هو)
+        // ... بقية الكود
         if (children.length === 0) {
             const leaveNoteSection = document.getElementById('leaveNoteSection');
             if(leaveNoteSection) {
