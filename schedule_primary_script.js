@@ -1,11 +1,17 @@
 // schedule_primary_script.js
 async function buildPrimarySchedule(tableId, children = []) {
   try {
-    const response = await fetch("schedule_primary.json");
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    const scheduleData = await response.json();
+    // جلب بيانات الجدول والتلاميذ في نفس الوقت لتحسين الأداء
+    const [scheduleData, allStudents] = await Promise.all([
+      fetch("schedule_primary.json").then(r => {
+        if (!r.ok) throw new Error(`HTTP error! status: ${r.status}`);
+        return r.json();
+      }),
+      fetch("students.json").then(r => {
+        if (!r.ok) throw new Error(`HTTP error! status: ${r.status}`);
+        return r.json();
+      })
+    ]);
     
     const allTimeSlots = [...new Set(scheduleData.map(c => c.time_slot))].sort();
     const days = ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"];
@@ -32,6 +38,7 @@ async function buildPrimarySchedule(tableId, children = []) {
           let shouldDisplay = !relevantLevels; // إذا لم يكن هناك فلترة، اعرض كل شيء
 
           if (relevantLevels) {
+            // منطق الفلترة في صفحة الولي
             if (match.class_type === 'general' && relevantLevels.includes(match.educational_level)) {
               shouldDisplay = true;
             } else if (match.class_type === 'private' && match.student_ids.some(id => childrenIds.includes(id))) {
@@ -40,7 +47,18 @@ async function buildPrimarySchedule(tableId, children = []) {
           }
 
           if (shouldDisplay) {
-            cell.textContent = match.educational_level;
+            // --- التعديل المطلوب هنا ---
+            if (match.class_type === 'private' && match.student_ids.length > 0) {
+              // إذا كانت الحصة خاصة، ابحث عن أسماء التلاميذ واعرضها
+              const studentNames = match.student_ids.map(id => {
+                const student = allStudents.find(s => s.id === id);
+                return student ? student.name : ''; // اعرض اسم التلميذ
+              }).join(', ');
+              cell.textContent = studentNames;
+            } else {
+              // إذا كانت الحصة عامة، اعرض المستوى الدراسي
+              cell.textContent = match.educational_level;
+            }
             cell.classList.add(match.class_type);
           }
         }
