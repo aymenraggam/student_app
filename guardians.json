@@ -14,7 +14,7 @@
     "student_ids": [
       61
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "967582"
   },
   {
@@ -60,7 +60,7 @@
     "student_ids": [
       62
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "034434"
   },
   {
@@ -192,7 +192,7 @@
     "student_ids": [
       64
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 50.0,
     "password": "932892"
   },
   {
@@ -219,7 +219,7 @@
     "student_ids": [
       31
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "password": "318167"
   },
   {
@@ -240,7 +240,7 @@
       55,
       63
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "password": "883226"
   },
   {
@@ -280,7 +280,7 @@
       65,
       96
     ],
-    "unpaid_total": 40.0,
+    "unpaid_total": 80.0,
     "password": "729824"
   },
   {
@@ -355,7 +355,7 @@
     "student_ids": [
       68
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "406895"
   },
   {
@@ -383,7 +383,7 @@
     "student_ids": [
       60
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "306063"
   },
   {
@@ -420,7 +420,7 @@
     "student_ids": [
       69
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "228973"
   },
   {
@@ -456,7 +456,7 @@
     "student_ids": [
       66
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "252668"
   },
   {
@@ -465,7 +465,7 @@
     "student_ids": [
       57
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "683785"
   },
   {
@@ -521,7 +521,7 @@
       25,
       58
     ],
-    "unpaid_total": 90.0,
+    "unpaid_total": 130.0,
     "password": "248738"
   },
   {
@@ -530,7 +530,7 @@
     "student_ids": [
       59
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 50.0,
     "password": "282387"
   },
   {
@@ -548,7 +548,7 @@
     "student_ids": [
       67
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "987992"
   },
   {
