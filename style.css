@@ -41,7 +41,7 @@ body {
 }
 
 .header img.logo {
-  width: 300px;
+  width: 500px;
   margin-bottom: 10px;
 }
 
@@ -356,7 +356,7 @@ tr:hover {
 @media (max-width: 768px) {
   .container { padding: 10px; }
   .header h1 { font-size: 1.6em; }
-  .header img.logo { width: 120px; }
+  .header img.logo { width: 300px; }
   .introduction { font-size: 1em; padding: 15px; }
   .links a, .footer a, button {
     font-size: 1em;
