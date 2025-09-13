@@ -13,6 +13,19 @@
     ]
   },
   {
+    "id": 5,
+    "educational_level": "8 أساسي",
+    "lesson_date": "2025-09-13",
+    "subject": "رياضيات",
+    "lesson_name": "أساليب البرهنة في الهندسة",
+    "files": [
+      {
+        "name": "preuves géometrie.pdf",
+        "path": "lesson_resources\\preuves géometrie_20250913232842.pdf"
+      }
+    ]
+  },
+  {
     "id": 2,
     "educational_level": "9 أساسي",
     "lesson_date": "2025-09-13",
@@ -35,6 +48,19 @@
       {
         "name": "OperationsR_part2.pdf",
         "path": "lesson_resources\\OperationsR_part2_20250913231956.pdf"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "educational_level": "9 أساسي",
+    "lesson_date": "2025-09-13",
+    "subject": "رياضيات",
+    "lesson_name": "نظرية طالس",
+    "files": [
+      {
+        "name": "Thales 9eme.pdf",
+        "path": "lesson_resources\\Thales 9eme_20250913232632.pdf"
       }
     ]
   }
