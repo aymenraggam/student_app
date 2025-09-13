@@ -2,13 +2,16 @@ document.addEventListener('DOMContentLoaded', async () => {
   const container = document.getElementById('lessons-container');
   
   try {
-    const response = await fetch('lessons.json');
+    // This is the only line that needs to be changed
+    const response = await fetch('lessons_by_level.json'); 
+    
     if (!response.ok) {
       throw new Error('فشل تحميل ملف الدروس.');
     }
     const lessons = await response.json();
 
-    // 1. تجميع الدروس حسب المستوى ثم المادة
+    // 1. Your existing logic for grouping lessons is perfect and requires no changes.
+    // It groups lessons by level and then by subject.
     const groupedLessons = lessons.reduce((acc, lesson) => {
       // تجاهل الدروس الفارغة
       if (!lesson.lesson_name || !lesson.subject) {
@@ -28,7 +31,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       return acc;
     }, {});
 
-    // 2. عرض الدروس على الصفحة
+    // 2. Your existing logic for displaying the lessons also works perfectly.
     container.innerHTML = '';
     
     if (Object.keys(groupedLessons).length === 0) {
@@ -36,7 +39,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         return;
     }
 
-    // فرز المستويات (إذا كان لديك ترتيب معين)
+    // Sort levels for consistent order
     const sortedLevels = Object.keys(groupedLessons).sort(); 
 
     sortedLevels.forEach(level => {
@@ -58,7 +61,6 @@ document.addEventListener('DOMContentLoaded', async () => {
           let filesHTML = '<div class="files-list">الملفات المرفقة: ';
           if (lesson.files && lesson.files.length > 0) {
             filesHTML += lesson.files.map(file => {
-              // استخلاص اسم الملف فقط من المسار الكامل
               const filename = file.path.split('\\').pop(); 
               return `<a href="files/${filename}" target="_blank">${file.name}</a>`;
             }).join(' | ');
