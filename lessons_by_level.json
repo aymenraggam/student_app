@@ -7,21 +7,12 @@
     "lesson_name": "Circuit électrique",
     "files": [
       {
+        "name": "Série d'exercices - Le circuit électrique - 1er.pdf",
+        "path": "lesson_resources\\Série d'exercices - Le circuit électrique - 1er_20250914002849.pdf"
+      },
+      {
         "name": "circuit électrique 1er.pdf",
         "path": "lesson_resources\\circuit électrique 1er_20250913231353.pdf"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "educational_level": "8 أساسي",
-    "lesson_date": "2025-09-13",
-    "subject": "رياضيات",
-    "lesson_name": "أساليب البرهنة في الهندسة",
-    "files": [
-      {
-        "name": "preuves géometrie.pdf",
-        "path": "lesson_resources\\preuves géometrie_20250913232842.pdf"
       }
     ]
   },
@@ -61,6 +52,19 @@
       {
         "name": "Thales 9eme.pdf",
         "path": "lesson_resources\\Thales 9eme_20250913232632.pdf"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "educational_level": "لكل المستويات",
+    "lesson_date": "2025-09-14",
+    "subject": "رياضيات",
+    "lesson_name": "البرهنة في الهندسة",
+    "files": [
+      {
+        "name": "preuves géometrie.pdf",
+        "path": "lesson_resources\\preuves géometrie_20250914002042.pdf"
       }
     ]
   }
