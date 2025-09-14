@@ -17,6 +17,19 @@
     ]
   },
   {
+    "id": 7,
+    "educational_level": "2 ابتدائي",
+    "lesson_date": "2025-09-14",
+    "subject": "رياضيات",
+    "lesson_name": "تقييم قبلي",
+    "files": [
+      {
+        "name": "رياضيات (قبلي).pdf",
+        "path": "lesson_resources\\رياضيات (قبلي)_20250914100703.pdf"
+      }
+    ]
+  },
+  {
     "id": 2,
     "educational_level": "9 أساسي",
     "lesson_date": "2025-09-13",
