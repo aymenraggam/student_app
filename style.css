@@ -420,3 +420,43 @@ tr:hover {
   font-size: 0.9em;
   color: #7f8c8d;
 }
+/* ======================================= */
+/* ===  أنماط جدول الابتدائي الملونة  === */
+/* ======================================= */
+
+/* ألوان خلفية لكل مستوى دراسي */
+.level-1 { background-color: #FFCDD2 !important; } /* أحمر فاتح */
+.level-2 { background-color: #FFECB3 !important; } /* برتقالي فاتح */
+.level-3 { background-color: #FFF9C4 !important; } /* أصفر فاتح */
+.level-4 { background-color: #C8E6C9 !important; } /* أخضر فاتح */
+.level-5 { background-color: #B3E5FC !important; } /* سماوي فاتح */
+.level-6 { background-color: #C5CAE9 !important; } /* أزرق فاتح */
+
+/* تنسيق الخلية التي تحتوي على مستويين */
+.split-cell {
+  padding: 0 !important;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.split-cell-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* تنسيق خاص للحصص الخاصة الملونة */
+.private.colored {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.3) 10px,
+    transparent 10px,
+    transparent 20px
+  ) !important;
+  font-weight: bold;
+}
