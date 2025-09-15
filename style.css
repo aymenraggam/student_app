@@ -425,12 +425,12 @@ tr:hover {
 /* ======================================= */
 
 /* ألوان خلفية لكل مستوى دراسي */
-.level-1 { background-color: #FFCDD2 !important; } /* أحمر فاتح */
-.level-2 { background-color: #FFECB3 !important; } /* برتقالي فاتح */
-.level-3 { background-color: #FFF9C4 !important; } /* أصفر فاتح */
-.level-4 { background-color: #C8E6C9 !important; } /* أخضر فاتح */
-.level-5 { background-color: #B3E5FC !important; } /* سماوي فاتح */
-.level-6 { background-color: #C5CAE9 !important; } /* أزرق فاتح */
+.level-1 { background-color: #fab784 !important; }
+.level-2 { background-color: #08d4d1 !important; }
+.level-3 { background-color: #e9f57f !important; }
+.level-4 { background-color: #91E3AD !important; } 
+.level-5 { background-color: #D9DFF2 !important; } 
+.level-6 { background-color: #FFD9E0 !important; }
 
 /* تنسيق الخلية التي تحتوي على مستويين */
 .split-cell {
