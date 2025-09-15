@@ -39,7 +39,8 @@ async function buildPrimarySchedule(tableId, children = []) {
 
           if (relevantLevels) {
             // منطق الفلترة في صفحة الولي
-            if (match.class_type === 'general' && relevantLevels.includes(match.educational_level)) {
+            // <<< تعديل 1: التحقق إذا كان أي من مستويات الحصة يطابق مستويات الأبناء >>>
+            if (match.class_type === 'general' && match.educational_levels.some(level => relevantLevels.includes(level))) {
               shouldDisplay = true;
             } else if (match.class_type === 'private' && match.student_ids.some(id => childrenIds.includes(id))) {
               shouldDisplay = true;
@@ -47,17 +48,17 @@ async function buildPrimarySchedule(tableId, children = []) {
           }
 
           if (shouldDisplay) {
-            // --- التعديل المطلوب هنا ---
             if (match.class_type === 'private' && match.student_ids.length > 0) {
               // إذا كانت الحصة خاصة، ابحث عن أسماء التلاميذ واعرضها
               const studentNames = match.student_ids.map(id => {
                 const student = allStudents.find(s => s.id === id);
                 return student ? student.name : ''; // اعرض اسم التلميذ
-              }).join(', ');
+              }).join('، '); // استخدام فاصلة عربية
               cell.textContent = studentNames;
             } else {
-              // إذا كانت الحصة عامة، اعرض المستوى الدراسي
-              cell.textContent = match.educational_level;
+              // <<< تعديل 2: عرض قائمة المستويات بدلاً من مستوى واحد >>>
+              // إذا كانت الحصة عامة، اعرض المستويات الدراسية مفصولة بـ " و "
+              cell.textContent = match.educational_levels.join(' و ');
             }
             cell.classList.add(match.class_type);
           }
