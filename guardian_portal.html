@@ -304,6 +304,43 @@
           container.appendChild(legend);
       }
     }
+    // <<< بداية الدالة الجديدة لتحليل الملاحظات >>>
+    function formatNotes(notes) {
+      if (!notes || !notes.trim()) {
+        return '<span>لا توجد ملاحظات</span>';
+      }
+    
+      let html = '<div class="notes-container">';
+      const parts = notes.split('||');
+      const optionsPart = parts[0].trim();
+      const manualPart = parts.length > 1 ? parts[1].trim() : '';
+    
+      if (optionsPart) {
+        const options = optionsPart.split('،').map(opt => opt.trim());
+        html += '<div class="tags-container">';
+        options.forEach(option => {
+          let tagClass = 'tag-neutral';
+          const positiveKeywords = ["حسن السلوك", "منضبط", "جدي في العمل", "مشارك", "يحترم", "يداوم على إنجاز واجباته", "متقن", "سريع الفهم"];
+          const negativeKeywords = ["مشاغب", "لا يحترم", "قليل التركيز", "لا يولي أهمية", "لا ينجز واجباته", "غير منظم", "كثير الحركة", "بطيء الفهم"];
+          
+          if (positiveKeywords.some(p => option.includes(p))) {
+            tagClass = 'tag-positive';
+          } else if (negativeKeywords.some(n => option.includes(n))) {
+            tagClass = 'tag-negative';
+          }
+          html += `<span class="note-tag ${tagClass}">${option}</span>`;
+        });
+        html += '</div>';
+      }
+    
+      if (manualPart) {
+        html += `<p class="manual-note">${manualPart}</p>`;
+      }
+    
+      html += '</div>';
+      return html;
+    }
+    // <<< نهاية الدالة الجديدة >>>
 
     document.addEventListener("DOMContentLoaded", async () => {
       try {
@@ -351,9 +388,11 @@
         const notesTableBody = document.getElementById("notes").getElementsByTagName('tbody')[0];
         notesTableBody.innerHTML = '';
         children.forEach(student => {
+            // نعرض الصف فقط إذا كانت هناك ملاحظة
             if (student.notes && student.notes.trim() !== "") {
                 let noteRow = notesTableBody.insertRow();
-                noteRow.innerHTML = `<td>${student.name}</td><td>${student.notes}</td>`;
+                // نستخدم الدالة الجديدة لتحويل نص الملاحظة إلى HTML منسق
+                noteRow.innerHTML = `<td>${student.name}</td><td>${formatNotes(student.notes)}</td>`;
             }
         });
         const announcementsTableBody = document.getElementById("generalAnnouncements").getElementsByTagName('tbody')[0];
