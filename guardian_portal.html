@@ -21,6 +21,44 @@
       height: 20px;
       fill: white;
     }
+    .notes-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .tags-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .note-tag {
+      padding: 5px 12px;
+      border-radius: 15px;
+      font-size: 0.9em;
+      font-weight: bold;
+      color: #333;
+    }
+    .tag-positive {
+      background-color: #d4edda; /* أخضر فاتح */
+      border: 1px solid #c3e6cb;
+    }
+    .tag-negative {
+      background-color: #f8d7da; /* أحمر فاتح */
+      border: 1px solid #f5c6cb;
+    }
+    .tag-neutral {
+      background-color: #e2e3e5; /* رمادي فاتح */
+      border: 1px solid #d6d8db;
+    }
+    .manual-note {
+      margin-top: 10px;
+      padding-right: 10px;
+      border-right: 3px solid #007bff;
+      font-style: italic;
+      color: #555;
+      width: 100%;
+    }
   </style>
 </head>
 <body>
