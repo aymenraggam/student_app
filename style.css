@@ -475,3 +475,36 @@ tr:hover {
     height: 80px;
     box-sizing: border-box;
 }
+
+
+
+/* ======================================= */
+/* ===  إصلاح مشكلة جدول الابتدائي (scroll + nowrap) === */
+/* ======================================= */
+
+.table-responsive {
+    overflow-x: auto;              /* يضيف تمرير أفقي */
+    overflow-y: hidden;            /* يمنع التمرير العمودي الزائد */
+    -webkit-overflow-scrolling: touch;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;                /* يضمن أن الجدول يتحرك داخل الحاوية */
+    white-space: nowrap;           /* يمنع لف النصوص */
+}
+
+#primary-schedule-table-popup {
+    table-layout: fixed;           /* يحافظ على توزيع الأعمدة */
+    width: max-content;            /* يجعل الجدول يتمدد أفقياً */
+    min-width: 100%;               /* يضمن ملء العرض على الأقل */
+}
+
+#primary-schedule-table-popup th,
+#primary-schedule-table-popup td {
+    min-width: 160px;              /* عرض أدنى لكل عمود */
+    height: 80px;
+    box-sizing: border-box;
+    white-space: nowrap;           /* يبقي النص في سطر واحد */
+    text-overflow: ellipsis;       /* إذا طول النص كبير، يظهر "..." */
+    overflow: hidden;
+}
