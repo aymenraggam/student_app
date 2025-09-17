@@ -12,12 +12,12 @@ async function buildPrimarySchedule(tableId, children = []) {
         const SCHEDULE_DAYS = ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"];
         
         const primaryLevelStyles = {
-            "أولى ابتدائي": { color: "#fab784" },
-            "ثانية ابتدائي": { color: "#08d4d1" },
-            "ثالثة ابتدائي": { color: "#e9f57f" },
-            "رابعة ابتدائي": { color: "#91E3AD" },
-            "خامسة ابتدائي": { color: "#8cf5ec" },
-            "سادسة ابتدائي": { color: "#FFD9E0" },
+            "1 ابتدائي": { color: "#fab784" },
+            "2 ابتدائي": { color: "#08d4d1" },
+            "3 ابتدائي": { color: "#e9f57f" },
+            "4 ابتدائي": { color: "#91E3AD" },
+            "5 ابتدائي": { color: "#8cf5ec" },
+            "6 ابتدائي": { color: "#FFD9E0" },
             "default": { color: "#E0E0E0" }
         };
 
