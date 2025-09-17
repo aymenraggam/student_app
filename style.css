@@ -461,12 +461,6 @@ tr:hover {
   box-sizing: border-box;
 }
 
-/* تعديل بسيط على الجداول لتناسب المحتوى الجديد */
-.timetable td {
-  font-weight: bold;
-  font-size: 0.9em;
-}
-
 /* <<<< نهاية الأنماط الجديدة >>>> */
 /* Update schedule_primary_script.js */
 #primary-schedule-table-popup {
@@ -476,7 +470,7 @@ tr:hover {
 
 #primary-schedule-table-popup th,
 #primary-schedule-table-popup td {
-    width: 12.5%;
+    width: 15%;
     min-width: 120px;
     height: 80px;
     box-sizing: border-box;
