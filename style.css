@@ -421,42 +421,53 @@ tr:hover {
   color: #7f8c8d;
 }
 /* ======================================= */
-/* ===  أنماط جدول الابتدائي الملونة  === */
+/* <<<< بداية الأنماط الجديدة لجدول الابتدائي >>>> */
 /* ======================================= */
 
-/* ألوان خلفية لكل مستوى دراسي */
-.level-1 { background-color: #fab784 !important; }
-.level-2 { background-color: #08d4d1 !important; }
-.level-3 { background-color: #e9f57f !important; }
-.level-4 { background-color: #91E3AD !important; } 
-.level-5 { background-color: #D9DFF2 !important; } 
-.level-6 { background-color: #FFD9E0 !important; }
-
-/* تنسيق الخلية التي تحتوي على مستويين */
-.split-cell {
-  padding: 0 !important;
-  display: flex;
+/* لتنسيق الخلية التي تحتوي على عدة مستويات */
+.multi-level-cell {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* تقسيم الخلية إلى عمودين */
   width: 100%;
   height: 100%;
+  gap: 1px; /* مسافة صغيرة بين الخانات */
 }
 
-.split-cell-part {
+/* لتنسيق كل خانة مستوى داخل الخلية المقسمة */
+.level-tile {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  text-align: center;
+  font-size: 0.8em; /* تصغير الخط قليلاً ليلائم الخانة */
+  padding: 2px;
+  box-sizing: border-box;
+  color: #333;
+  font-weight: bold;
+}
+
+/* لتنسيق خانة الحصص الخاصة */
+.private-primary-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   height: 100%;
+  background-color: #f76d6d; /* لون أحمر فاتح للحصص الخاصة */
+  color: black;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding: 4px;
   box-sizing: border-box;
 }
 
-/* تنسيق خاص للحصص الخاصة الملونة */
-.private.colored {
-  background-image: repeating-linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0.3),
-    rgba(255, 255, 255, 0.3) 10px,
-    transparent 10px,
-    transparent 20px
-  ) !important;
+/* تعديل بسيط على الجداول لتناسب المحتوى الجديد */
+.timetable td {
   font-weight: bold;
+  font-size: 0.9em;
 }
+
+.timetable {
+  table-layout: fixed; /* لضمان توزيع الأعمدة بشكل متساوٍ */
+}
+/* <<<< نهاية الأنماط الجديدة >>>> */
