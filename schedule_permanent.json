@@ -1,1 +1,155 @@
-[]
+[
+  {
+    "id": 46,
+    "day_of_week": "الأحد",
+    "time_slot": "08:00 - 10:00",
+    "educational_level": "2 ث علوم",
+    "class_type": "general",
+    "student_ids": []
+  },
+  {
+    "id": 45,
+    "day_of_week": "الأحد",
+    "time_slot": "10:00 - 12:00",
+    "educational_level": "1 ثانوي",
+    "class_type": "general",
+    "student_ids": []
+  },
+  {
+    "id": 36,
+    "day_of_week": "الأحد",
+    "time_slot": "13:00 - 15:00",
+    "educational_level": "7 أساسي",
+    "class_type": "general",
+    "student_ids": []
+  },
+  {
+    "id": 41,
+    "day_of_week": "الأحد",
+    "time_slot": "15:00 - 17:00",
+    "educational_level": "9 أساسي",
+    "class_type": "general",
+    "student_ids": []
+  },
+  {
+    "id": 28,
+    "day_of_week": "الأحد",
+    "time_slot": "16:00 - 18:00",
+    "educational_level": "8 أساسي",
+    "class_type": "private",
+    "student_ids": [
+      94,
+      95
+    ]
+  },
+  {
+    "id": 40,
+    "day_of_week": "الأحد",
+    "time_slot": "17:00 - 19:00",
+    "educational_level": "8 أساسي",
+    "class_type": "general",
+    "student_ids": []
+  },
+  {
+    "id": 32,
+    "day_of_week": "الأربعاء",
+    "time_slot": "19:00 - 21:00",
+    "educational_level": "7 أساسي",
+    "class_type": "private",
+    "student_ids": [
+      19,
+      20
+    ]
+  },
+  {
+    "id": 25,
+    "day_of_week": "الإثنين",
+    "time_slot": "16:00 - 18:00",
+    "educational_level": "مجموعة إنجليزية",
+    "class_type": "english",
+    "student_ids": []
+  },
+  {
+    "id": 48,
+    "day_of_week": "الإثنين",
+    "time_slot": "19:00 - 21:00",
+    "educational_level": "7 أساسي",
+    "class_type": "private",
+    "student_ids": [
+      19,
+      20
+    ]
+  },
+  {
+    "id": 44,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "19:00 - 21:00",
+    "educational_level": "1 ثانوي",
+    "class_type": "general",
+    "student_ids": []
+  },
+  {
+    "id": 34,
+    "day_of_week": "الجمعة",
+    "time_slot": "13:00 - 15:00",
+    "educational_level": "7 أساسي",
+    "class_type": "general",
+    "student_ids": []
+  },
+  {
+    "id": 37,
+    "day_of_week": "الجمعة",
+    "time_slot": "15:00 - 17:00",
+    "educational_level": "9 أساسي",
+    "class_type": "general",
+    "student_ids": []
+  },
+  {
+    "id": 38,
+    "day_of_week": "الجمعة",
+    "time_slot": "17:00 - 19:00",
+    "educational_level": "8 أساسي",
+    "class_type": "general",
+    "student_ids": []
+  },
+  {
+    "id": 43,
+    "day_of_week": "الجمعة",
+    "time_slot": "19:00 - 21:00",
+    "educational_level": "1 ثانوي",
+    "class_type": "general",
+    "student_ids": []
+  },
+  {
+    "id": 35,
+    "day_of_week": "السبت",
+    "time_slot": "13:00 - 15:00",
+    "educational_level": "7 أساسي",
+    "class_type": "general",
+    "student_ids": []
+  },
+  {
+    "id": 42,
+    "day_of_week": "السبت",
+    "time_slot": "15:00 - 17:00",
+    "educational_level": "9 أساسي",
+    "class_type": "general",
+    "student_ids": []
+  },
+  {
+    "id": 39,
+    "day_of_week": "السبت",
+    "time_slot": "17:00 - 19:00",
+    "educational_level": "8 أساسي",
+    "class_type": "general",
+    "student_ids": []
+  },
+  {
+    "id": 47,
+    "day_of_week": "السبت",
+    "time_slot": "19:00 - 21:00",
+    "educational_level": "2 ث علوم",
+    "class_type": "general",
+    "student_ids": []
+  }
+]
