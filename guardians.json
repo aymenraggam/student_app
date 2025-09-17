@@ -33,7 +33,7 @@
     "student_ids": [
       82
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "999085"
   },
   {
@@ -109,7 +109,7 @@
       28,
       37
     ],
-    "unpaid_total": 300.0,
+    "unpaid_total": 390.0,
     "password": "816073"
   },
   {
@@ -118,7 +118,7 @@
     "student_ids": [
       80
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "247228"
   },
   {
@@ -145,7 +145,7 @@
     "student_ids": [
       83
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "762470"
   },
   {
@@ -154,7 +154,7 @@
     "student_ids": [
       72
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "415788"
   },
   {
@@ -192,7 +192,7 @@
     "student_ids": [
       64
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 40.0,
     "password": "932892"
   },
   {
@@ -201,7 +201,7 @@
     "student_ids": [
       70
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "440480"
   },
   {
@@ -298,7 +298,7 @@
     "student_ids": [
       73
     ],
-    "unpaid_total": 40.0,
+    "unpaid_total": 80.0,
     "password": "125384"
   },
   {
@@ -383,7 +383,7 @@
     "student_ids": [
       60
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 40.0,
     "password": "306063"
   },
   {
@@ -402,7 +402,7 @@
     "student_ids": [
       41
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 0.0,
     "password": "573012"
   },
   {
@@ -429,7 +429,7 @@
     "student_ids": [
       50
     ],
-    "unpaid_total": 400.0,
+    "unpaid_total": 0.0,
     "password": "772340"
   },
   {
@@ -447,7 +447,7 @@
     "student_ids": [
       79
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "045407"
   },
   {
@@ -474,7 +474,7 @@
     "student_ids": [
       71
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "204240"
   },
   {
@@ -510,7 +510,7 @@
     "student_ids": [
       81
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "142735"
   },
   {
@@ -567,7 +567,7 @@
     "student_ids": [
       74
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 100.0,
     "password": "084592"
   },
   {
@@ -580,12 +580,21 @@
     "password": "887178"
   },
   {
+    "guardian_full_name": "سناء كداشي",
+    "phone_number": "25790709",
+    "student_ids": [
+      97
+    ],
+    "unpaid_total": 50.0,
+    "password": "290737"
+  },
+  {
     "guardian_full_name": "النوّي كدوسي",
     "phone_number": "97915970",
     "student_ids": [
       75
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "064846"
   },
   {
