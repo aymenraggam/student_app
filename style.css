@@ -439,10 +439,10 @@ tr:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 0.8em; /* تصغير الخط قليلاً ليلائم الخانة */
+  font-size: 1.2em; /* تصغير الخط قليلاً ليلائم الخانة */
   padding: 2px;
   box-sizing: border-box;
-  color: #333;
+  color: #000;
   font-weight: bold;
 }
 
