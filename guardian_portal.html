@@ -273,7 +273,7 @@
                             const relevantLevelsData = entry.levels_data.filter(levelInfo =>
                                 children.some(child =>
                                     child.educational_level === levelInfo.level &&
-                                    (levelInfo.institution === 'الكل' || levelInfo.institution === child.institution)
+                                    (levelInfo.institution === '' || levelInfo.institution === child.institution)
                                 )
                             );
                             // *** نهاية منطق الفلترة الجديد ***
