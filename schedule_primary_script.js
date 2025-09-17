@@ -1,135 +1,119 @@
-// schedule_primary_script.js
+// <<<< بداية الكود الجديد لدالة buildPrimarySchedule >>>>
 async function buildPrimarySchedule(tableId, children = []) {
-  try {
-    // جلب البيانات اللازمة من ملفات JSON
-    const [scheduleData, allStudents] = await Promise.all([
-      fetch("schedule_primary.json").then(r => r.json()),
-      fetch("students.json").then(r => r.json())
-    ]);
+    try {
+        // ١. جلب البيانات اللازمة
+        const [scheduleData, students] = await Promise.all([
+            fetch("schedule_primary.json").then(res => res.json()),
+            fetch("students.json").then(res => res.json())
+        ]);
 
-    // قواميس مساعدة للألوان وأسماء العرض المختصرة
-    const levelColorMap = {
-      "أولى ابتدائي": "level-1", "ثانية ابتدائي": "level-2", "ثالثة ابتدائي": "level-3",
-      "رابعة ابتدائي": "level-4", "خامسة ابتدائي": "level-5", "سادسة ابتدائي": "level-6",
-    };
-    const levelDisplayNameMap = {
-      "أولى ابتدائي": "سنة 1", "ثانية ابتدائي": "سنة 2", "ثالثة ابتدائي": "سنة 3",
-      "رابعة ابتدائي": "سنة 4", "خامسة ابتدائي": "سنة 5", "سادسة ابتدائي": "سنة 6",
-    };
-
-    const allTimeSlots = [...new Set(scheduleData.map(c => c.time_slot))].sort();
-    const days = ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"];
-    
-    const tbody = document.querySelector(`#${tableId} tbody`);
-    if (!tbody) return;
-    tbody.innerHTML = "";
-
-    // --- بداية التعديل الرئيسي ---
-    const isGuardianPortal = children.length > 0;
-    const childrenLevelInstitutionSet = new Set(children.map(student => `${student.educational_level}-${student.institution || 'عام'}`));
-    const childrenIds = new Set(children.map(c => c.id));
-
-    allTimeSlots.forEach(slot => {
-      const tr = document.createElement("tr");
-      tr.innerHTML = `<td>${slot}</td>`;
-      
-      days.forEach(day => {
-        const cell = document.createElement("td");
-        const match = scheduleData.find(c => c.time_slot === slot && c.day_of_week === day);
+        // ٢. تعريف الثوابت وأنماط التلوين
+        const PRIMARY_SCHEDULE_TIMES = ["08:00", "09:00", "10:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00"];
+        const SCHEDULE_DAYS = ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"];
         
-        if (match) {
-          let shouldDisplay = false;
-          
-          // تحديد ما إذا كان يجب عرض الحصة
-          if (!isGuardianPortal) {
-            // إذا كنا في الصفحة الرئيسية، اعرض كل الحصص
-            shouldDisplay = true;
-          } else {
-            // إذا كنا في صفحة الولي، قم بالفلترة
-            if (match.class_type === 'general') {
-              shouldDisplay = match.levels_data.some(ld => 
-                childrenLevelInstitutionSet.has(`${ld.level}-${ld.institution || 'عام'}`)
-              );
-            } else if (match.class_type === 'private') {
-              shouldDisplay = match.student_ids.some(id => childrenIds.has(id));
-            }
-          }
+        const primaryLevelStyles = {
+            "أولى ابتدائي": { color: "#fab784" },
+            "ثانية ابتدائي": { color: "#08d4d1" },
+            "ثالثة ابتدائي": { color: "#e9f57f" },
+            "رابعة ابتدائي": { color: "#91E3AD" },
+            "خامسة ابتدائي": { color: "#8cf5ec" },
+            "سادسة ابتدائي": { color: "#FFD9E0" },
+            "default": { color: "#E0E0E0" }
+        };
 
-          if (shouldDisplay) {
-            // منطق عرض الخلية بناءً على نوع الحصة
-            if (match.class_type === 'private') {
-              // عرض الحصص الخاصة بنفس طريقة التطبيق
-              cell.classList.add('private', 'colored');
-              const studentNames = match.student_ids
-                .map(id => {
-                    const student = allStudents.find(s => s.id === id);
-                    return student ? student.name : ''; // عرض الاسم الأول فقط
-                })
-                .filter(name => name)
-                .join('، ');
-              cell.innerHTML = `<strong>${studentNames || '(فارغة)'}</strong>`;
+        // ٣. دالة مساعدة لتنسيق العرض مثل التطبيق
+        function formatLevelDisplay(levelName, institution) {
+            let levelAbbr = levelName.replace(' ابتدائي', '');
+            if (levelName.includes('أولى')) levelAbbr = '1';
+            if (levelName.includes('ثانية')) levelAbbr = '2';
+            if (levelName.includes('ثالثة')) levelAbbr = '3';
+            if (levelName.includes('رابعة')) levelAbbr = '4';
+            if (levelName.includes('خامسة')) levelAbbr = '5';
+            if (levelName.includes('سادسة')) levelAbbr = '6';
 
-            } else { // الحصص العامة
-              const levels = match.levels_data;
-              if (levels.length === 1) {
-                // حصة عامة بمستوى واحد
-                const levelInfo = levels[0];
-                const colorClass = levelColorMap[levelInfo.level] || '';
-                if (colorClass) cell.classList.add(colorClass);
-                cell.classList.add('general');
-                const displayName = levelDisplayNameMap[levelInfo.level] || levelInfo.level;
-                const institutionName = levelInfo.institution || 'عام';
-                cell.innerHTML = `<strong>${displayName}</strong><br><small>${institutionName}</small>`;
-
-              } else if (levels.length >= 2) {
-                // حصة عامة بمستويات متعددة (مقسمة)
-                cell.classList.add('split-cell');
-                levels.forEach(levelInfo => {
-                    const part = document.createElement('div');
-                    part.classList.add('split-cell-part');
-                    const colorClass = levelColorMap[levelInfo.level] || '';
-                    if (colorClass) part.classList.add(colorClass);
-                    const displayName = levelDisplayNameMap[levelInfo.level] || levelInfo.level;
-                    const institutionName = levelInfo.institution || 'عام';
-                    part.innerHTML = `<strong>${displayName}</strong><br><small>${institutionName}</small>`;
-                    cell.appendChild(part);
-                });
-              }
-            }
-          }
+            const institutionAbbr = institution ? institution.replace('مدرسة ', '') : 'الكل';
+            return `${levelAbbr} (${institutionAbbr})`;
         }
-        tr.appendChild(cell);
-      });
-      tbody.appendChild(tr);
-    });
-    // --- نهاية التعديل الرئيسي ---
+        
+        // ٤. تحضير البيانات لسهولة الوصول إليها
+        const scheduleMap = new Map();
+        scheduleData.forEach(entry => {
+            scheduleMap.set(`${entry.day_of_week}|${entry.time_slot}`, entry);
+        });
 
-    const container = document.querySelector(`#${tableId}`).closest('.table-responsive');
-    if (container && !container.querySelector('.legend')) {
-      const legend = document.createElement("div");
-      legend.classList.add("legend");
-      
-      const legendItems = [
-        { text: "سنة 1", colorClass: "level-1" }, { text: "سنة 2", colorClass: "level-2" },
-        { text: "سنة 3", colorClass: "level-3" }, { text: "سنة 4", colorClass: "level-4" },
-        { text: "سنة 5", colorClass: "level-5" }, { text: "سنة 6", colorClass: "level-6" },
-        { text: "حصة خاصة", colorClass: "private colored" }
-      ];
+        const studentsMap = new Map(students.map(s => [s.id, s]));
 
-      legendItems.forEach(item => {
-        const legendItem = document.createElement("div");
-        legendItem.classList.add("legend-item");
-        legendItem.innerHTML = `<span class="legend-color ${item.colorClass}"></span>${item.text}`;
-        legend.appendChild(legendItem);
-      });
-      container.appendChild(legend);
+        // ٥. بناء الجدول
+        const tbody = document.querySelector(`#${tableId} tbody`);
+        if (!tbody) return;
+        tbody.innerHTML = "";
+
+        PRIMARY_SCHEDULE_TIMES.forEach(time => {
+            const tr = document.createElement("tr");
+            tr.innerHTML = `<td>${time}</td>`; // خلية التوقيت
+
+            SCHEDULE_DAYS.forEach(day => {
+                const td = document.createElement("td");
+                const entry = scheduleMap.get(`${day}|${time}`);
+
+                if (entry) {
+                    if (entry.class_type === 'private') {
+                        const studentNames = entry.student_ids
+                            .map(id => studentsMap.get(id)?.name || '')
+                            .filter(Boolean)
+                            .join(', ');
+                        td.innerHTML = `<div class="private-primary-cell">${studentNames || '(فارغة)'}</div>`;
+
+                    } else if (entry.levels_data && entry.levels_data.length === 1) {
+                        const levelInfo = entry.levels_data[0];
+                        const style = primaryLevelStyles[levelInfo.level] || primaryLevelStyles.default;
+                        td.style.backgroundColor = style.color;
+                        td.style.verticalAlign = 'middle';
+                        td.style.textAlign = 'center';
+                        td.textContent = formatLevelDisplay(levelInfo.level, levelInfo.institution);
+
+                    } else if (entry.levels_data && entry.levels_data.length > 1) {
+                        td.style.padding = '0';
+                        const container = document.createElement('div');
+                        container.className = 'multi-level-cell';
+                        
+                        entry.levels_data.forEach(levelInfo => {
+                            const tile = document.createElement('div');
+                            tile.className = 'level-tile';
+                            const style = primaryLevelStyles[levelInfo.level] || primaryLevelStyles.default;
+                            tile.style.backgroundColor = style.color;
+                            tile.textContent = formatLevelDisplay(levelInfo.level, levelInfo.institution);
+                            container.appendChild(tile);
+                        });
+                        td.appendChild(container);
+                    }
+                }
+                tr.appendChild(td);
+            });
+            tbody.appendChild(tr);
+        });
+
+        // ٦. إضافة مفتاح الألوان (Legend)
+        const container = document.querySelector(`#${tableId}`).closest('.table-responsive');
+        if (container && !container.querySelector('.legend')) {
+            const legend = document.createElement("div");
+            legend.classList.add("legend");
+            legend.innerHTML = `
+                <div class="legend-item"><span class="legend-color" style="background-color: #fab784;"></span>سنة 1</div>
+                <div class="legend-item"><span class="legend-color" style="background-color: #08d4d1;"></span>سنة 2</div>
+                <div class="legend-item"><span class="legend-color" style="background-color: #e9f57f;"></span>سنة 3</div>
+                <div class="legend-item"><span class="legend-color" style="background-color: #91E3AD;"></span>سنة 4</div>
+                <div class="legend-item"><span class="legend-color" style="background-color: #8cf5ec;"></span>سنة 5</div>
+                <div class="legend-item"><span class="legend-color" style="background-color: #FFD9E0;"></span>سنة 6</div>
+                <div class="legend-item"><span class="legend-color" style="background-color: #f76d6d;"></span>حصة خاصة</div>
+            `;
+            container.appendChild(legend);
+        }
+
+    } catch (error) {
+        console.error("Failed to build primary schedule:", error);
+        const tbody = document.querySelector(`#${tableId} tbody`);
+        if(tbody) tbody.innerHTML = `<tr><td colspan="8">حدث خطأ في تحميل الجدول.</td></tr>`;
     }
-
-  } catch (error) {
-    console.error("Error building primary schedule:", error);
-    const tbody = document.querySelector(`#${tableId} tbody`);
-    if (tbody) {
-      tbody.innerHTML = `<tr><td colspan="8">حدث خطأ في تحميل الجدول. يرجى المحاولة لاحقاً.</td></tr>`;
-    }
-  }
 }
+// <<<< نهاية الكود الجديد >>>>
