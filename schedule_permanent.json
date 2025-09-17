@@ -32,17 +32,6 @@
     "student_ids": []
   },
   {
-    "id": 28,
-    "day_of_week": "الأحد",
-    "time_slot": "16:00 - 18:00",
-    "educational_level": "8 أساسي",
-    "class_type": "private",
-    "student_ids": [
-      94,
-      95
-    ]
-  },
-  {
     "id": 40,
     "day_of_week": "الأحد",
     "time_slot": "17:00 - 19:00",
@@ -60,14 +49,6 @@
       19,
       20
     ]
-  },
-  {
-    "id": 25,
-    "day_of_week": "الإثنين",
-    "time_slot": "16:00 - 18:00",
-    "educational_level": "مجموعة إنجليزية",
-    "class_type": "english",
-    "student_ids": []
   },
   {
     "id": 48,
