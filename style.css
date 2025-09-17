@@ -467,11 +467,17 @@ tr:hover {
   font-size: 0.9em;
 }
 
-.timetable {
-  table-layout: fixed; /* لضمان توزيع الأعمدة بشكل متساوٍ */
-}
-/* لإعطاء ارتفاع ثابت للخلايا وجعلها أكبر */
-#primary-schedule-table-popup tbody td {
-  height: 80px; /* يمكنك تعديل هذا الارتفاع حسب ما تراه مناسباً */
-}
 /* <<<< نهاية الأنماط الجديدة >>>> */
+/* Update schedule_primary_script.js */
+#primary-schedule-table-popup {
+    table-layout: fixed;
+    width: 100%;
+}
+
+#primary-schedule-table-popup th,
+#primary-schedule-table-popup td {
+    width: 12.5%;
+    min-width: 120px;
+    height: 80px;
+    box-sizing: border-box;
+}
