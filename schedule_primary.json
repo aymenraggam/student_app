@@ -1,1 +1,676 @@
-[]
+[
+  {
+    "id": 36,
+    "day_of_week": "الأربعاء",
+    "time_slot": "08:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "1 ابتدائي",
+        "institution": "مدرسة ابن رشد1"
+      },
+      {
+        "level": "2 ابتدائي",
+        "institution": "مدرسة ابتدائية الرقاب"
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 28,
+    "day_of_week": "الأربعاء",
+    "time_slot": "08:00 - 09:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "1 ابتدائي",
+        "institution": "مدرسة ابن رشد1"
+      },
+      {
+        "level": "2 ابتدائي",
+        "institution": "مدرسة ابتدائية الرقاب"
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 35,
+    "day_of_week": "الأربعاء",
+    "time_slot": "09:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة ابن رشد1"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة ابن منظور"
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 29,
+    "day_of_week": "الأربعاء",
+    "time_slot": "09:00 - 10:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة ابن رشد1"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة ابن منظور"
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 37,
+    "day_of_week": "الأربعاء",
+    "time_slot": "10:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "5 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 30,
+    "day_of_week": "الأربعاء",
+    "time_slot": "10:00 - 11:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "5 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 39,
+    "day_of_week": "الأربعاء",
+    "time_slot": "14:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "1 ابتدائي",
+        "institution": "مدرسة ابتدائية الرقاب"
+      },
+      {
+        "level": "4 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 31,
+    "day_of_week": "الأربعاء",
+    "time_slot": "14:00 - 15:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "1 ابتدائي",
+        "institution": "مدرسة ابتدائية الرقاب"
+      },
+      {
+        "level": "4 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 47,
+    "day_of_week": "الأربعاء",
+    "time_slot": "16:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "2 ابتدائي",
+        "institution": "مدرسة الفوز"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة ابتدائية الرقاب"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة الفوز"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة هاي سكول"
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 41,
+    "day_of_week": "الأربعاء",
+    "time_slot": "18:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "6 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 24,
+    "day_of_week": "الأربعاء",
+    "time_slot": "18:00 - 19:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "6 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 32,
+    "day_of_week": "الإثنين",
+    "time_slot": "08:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "5 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 17,
+    "day_of_week": "الإثنين",
+    "time_slot": "08:00 - 09:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "5 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 33,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "08:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة ابن رشد1"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة ابن منظور"
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 19,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "08:00 - 09:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة ابن رشد1"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة ابن منظور"
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 34,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "09:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "1 ابتدائي",
+        "institution": "مدرسة ابن رشد1"
+      },
+      {
+        "level": "2 ابتدائي",
+        "institution": "مدرسة ابتدائية الرقاب"
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 20,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "09:00 - 10:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "1 ابتدائي",
+        "institution": "مدرسة ابن رشد1"
+      },
+      {
+        "level": "2 ابتدائي",
+        "institution": "مدرسة ابتدائية الرقاب"
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 38,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "14:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "1 ابتدائي",
+        "institution": "مدرسة ابتدائية الرقاب"
+      },
+      {
+        "level": "4 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 21,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "14:00 - 15:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "1 ابتدائي",
+        "institution": "مدرسة ابتدائية الرقاب"
+      },
+      {
+        "level": "4 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 45,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "16:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "2 ابتدائي",
+        "institution": "مدرسة الفوز"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة ابتدائية الرقاب"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة الفوز"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة هاي سكول"
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 22,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "16:00 - 17:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "2 ابتدائي",
+        "institution": "مدرسة الفوز"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة ابتدائية الرقاب"
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 27,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "17:00 - 18:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة الفوز"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة هاي سكول"
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 40,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "18:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "6 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 23,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "18:00 - 19:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "6 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 53,
+    "day_of_week": "الجمعة",
+    "time_slot": "08:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "4 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 55,
+    "day_of_week": "الجمعة",
+    "time_slot": "09:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة ابتدائية الرقاب"
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 54,
+    "day_of_week": "الجمعة",
+    "time_slot": "14:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة ابن رشد1"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة ابن منظور"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة الفوز"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة هاي سكول"
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 56,
+    "day_of_week": "الجمعة",
+    "time_slot": "16:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "5 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 43,
+    "day_of_week": "الجمعة",
+    "time_slot": "18:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "6 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 26,
+    "day_of_week": "الجمعة",
+    "time_slot": "18:00 - 19:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "6 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 48,
+    "day_of_week": "الخميس",
+    "time_slot": "08:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "1 ابتدائي",
+        "institution": "مدرسة ابتدائية الرقاب"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة ابتدائية الرقاب"
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 49,
+    "day_of_week": "الخميس",
+    "time_slot": "09:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "4 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 51,
+    "day_of_week": "الخميس",
+    "time_slot": "14:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "1 ابتدائي",
+        "institution": "مدرسة ابن رشد1"
+      },
+      {
+        "level": "1 ابتدائي",
+        "institution": "مدرسة الفوز"
+      },
+      {
+        "level": "2 ابتدائي",
+        "institution": "مدرسة ابتدائية الرقاب"
+      },
+      {
+        "level": "2 ابتدائي",
+        "institution": "مدرسة الفوز"
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 52,
+    "day_of_week": "الخميس",
+    "time_slot": "16:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة ابن رشد1"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة ابن منظور"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة الفوز"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة هاي سكول"
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 50,
+    "day_of_week": "الخميس",
+    "time_slot": "18:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "5 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 25,
+    "day_of_week": "الخميس",
+    "time_slot": "18:00 - 19:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "6 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 57,
+    "day_of_week": "السبت",
+    "time_slot": "08:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "2 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 58,
+    "day_of_week": "السبت",
+    "time_slot": "09:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "1 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 59,
+    "day_of_week": "السبت",
+    "time_slot": "13:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "3 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 60,
+    "day_of_week": "السبت",
+    "time_slot": "15:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "4 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 44,
+    "day_of_week": "السبت",
+    "time_slot": "17:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "6 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 61,
+    "day_of_week": "السبت",
+    "time_slot": "19:00",
+    "class_type": "private",
+    "levels_data": [
+      {
+        "level": "1 ابتدائي",
+        "institution": ""
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": [
+      2,
+      8
+    ]
+  }
+]
+
