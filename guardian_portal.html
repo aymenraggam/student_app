@@ -84,7 +84,7 @@
           <tr>
             <th>الاسم</th>
             <th>المستوى</th>
-            <th>الديون</th>
+            <th>المؤسسة</th> <th>الديون</th>
             <th>عدد الغيابات</th>
           </tr>
         </thead>
@@ -362,11 +362,14 @@
         childrenTableBody.innerHTML = ''; 
         children.forEach(student => {
           let childRow = childrenTableBody.insertRow();
+          // <<< تعديل: إضافة خلية المؤسسة (student.institution) >>>
           childRow.innerHTML = `<td>${student.name} ${student.surname}</td>
                                 <td>${student.educational_level}</td>
+                                <td>${student.institution || 'غير محددة'}</td>
                                 <td>${student.unpaid_total.toFixed(2)}</td>
                                 <td>${Array.isArray(student.absence_count) ? student.absence_count.length : 0}</td>`;
         });
+        
         const paymentsTableBody = document.getElementById("payments").getElementsByTagName('tbody')[0];
         paymentsTableBody.innerHTML = '';
         children.forEach(student => {
