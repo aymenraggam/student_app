@@ -367,6 +367,27 @@ tr:hover {
   }
   .links { display: flex; flex-direction: column; align-items: center; }
   th, td { padding: 10px; font-size: 0.9em; min-width: 80px; }
+  /* --- بداية الكود المضاف لتحسين الجداول على الهاتف --- */
+
+  /* استهداف جميع خلايا جداول الحصص لتصغيرها */
+  .timetable th, .timetable td {
+    min-width: 100px; /* تصغير العرض الأدنى للخلية */
+    height: 65px;     /* تقليل ارتفاع الخلية */
+    padding: 4px;     /* تقليل الحشوة الداخلية */
+    font-size: 0.85em; /* تصغير الخط بشكل طفيف */
+  }
+
+  /* تصغير الخط داخل الخانات المقسمة في جدول الابتدائي */
+  .level-tile {
+    font-size: 0.9em; /* تصغير الخط بشكل ملحوظ ليلائم الخلية الجديدة */
+  }
+
+  /* تصغير الخط في خانات الحصص الخاصة بالابتدائي */
+  .private-primary-cell {
+    font-size: 0.8em;
+  }
+  /* --- نهاية الكود المضاف --- */
+  
   input[type="text"], input[type="password"] { width: 100%; font-size: 1em; padding: 10px; }
   .cards-container, .features-container { flex-direction: column; align-items: center; }
   .student-card, .feature-card { width: 90%; max-width: 350px; }
