@@ -218,19 +218,21 @@ tr:hover {
   box-shadow: var(--shadow-md);
 }
 .feature-card {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  /* الخصائص الموجودة مسبقًا */
+  background-color: #fff; /* يمكن الاحتفاظ بها أو تغييرها حسب الرغبة */
+  border: 1px solid #ddd; /* إضافة حد رفيع وبلون خفيف */
+  border-radius: 8px; /* للحفاظ على الزوايا المستديرة */
   padding: 20px;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s, box-shadow 0.2s;
-  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* إضافة ظل خفيف */
+  transition: transform 0.2s, box-shadow 0.2s; /* لجعل التفاعل أكثر سلاسة */
+  cursor: pointer; /* للإشارة إلى أنها قابلة للنقر */
 }
 
+/* يمكنك أيضًا إضافة تأثير عند التحويم بالماوس لجعلها أكثر تفاعلية */
 .feature-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px); /* رفع البطاقة قليلاً عند التحويم */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* زيادة الظل عند التحويم */
 }
 
 .student-card {
@@ -343,6 +345,34 @@ tr:hover {
 .files-list a:hover { text-decoration: underline; }
 
 /* ======================================= */
+/* ===  التصميم المتجاوب (Responsive) === */
+/* ======================================= */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 -10px;
+    padding: 0 10px;
+}
+@media (max-width: 768px) {
+  .container { padding: 10px; }
+  .header h1 { font-size: 1.6em; }
+  .header img.logo { width: 300px; }
+  .introduction { font-size: 1em; padding: 15px; }
+  .links a, .footer a, button {
+    font-size: 1em;
+    padding: 12px 20px;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 8px 0;
+  }
+  .links { display: flex; flex-direction: column; align-items: center; }
+  th, td { padding: 10px; font-size: 0.9em; min-width: 80px; }
+  input[type="text"], input[type="password"] { width: 100%; font-size: 1em; padding: 10px; }
+  .cards-container, .features-container { flex-direction: column; align-items: center; }
+  .student-card, .feature-card { width: 90%; max-width: 350px; }
+  #totalUnpaidContainer { font-size: 1.2em; }
+}
+/* ======================================= */
 /* ===  تنسيقات قسم الإعلانات العامة  === */
 /* ======================================= */
 .announcements-container {
@@ -390,37 +420,40 @@ tr:hover {
   font-size: 0.9em;
   color: #7f8c8d;
 }
+/* ======================================= */
+/* <<<< بداية الأنماط الجديدة لجدول الابتدائي >>>> */
+/* ======================================= */
 
-/* ======================================= */
-/* <<<< أنماط خاصة بجدول الابتدائي >>>> */
-/* ======================================= */
+/* لتنسيق الخلية التي تحتوي على عدة مستويات */
 .multi-level-cell {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr; /* تقسيم الخلية إلى عمودين */
   width: 100%;
   height: 100%;
-  gap: 1px;
+  gap: 1px; /* مسافة صغيرة بين الخانات */
 }
 
+/* لتنسيق كل خانة مستوى داخل الخلية المقسمة */
 .level-tile {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.2em; /* تصغير الخط قليلاً ليلائم الخانة */
   padding: 2px;
   box-sizing: border-box;
   color: #000;
   font-weight: bold;
 }
 
+/* لتنسيق خانة الحصص الخاصة */
 .private-primary-cell {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 100%;
-  background-color: #f76d6d;
+  background-color: #f76d6d; /* لون أحمر فاتح للحصص الخاصة */
   color: black;
   font-weight: bold;
   font-size: 0.9em;
@@ -428,126 +461,50 @@ tr:hover {
   box-sizing: border-box;
 }
 
-/* ======================================= */
-/* ===  التصميم المتجاوب (Responsive) === */
-/* ======================================= */
-.table-responsive {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    margin: 0 -10px;
-    padding: 0 10px;
+/* <<<< نهاية الأنماط الجديدة >>>> */
+/* Update schedule_primary_script.js */
+#primary-schedule-table-popup {
+    table-layout: fixed;
+    width: 100%;
 }
 
-/* الأنماط العامة للجوال */
-@media (max-width: 768px) {
-  .container { padding: 10px; }
-  .header h1 { font-size: 1.6em; }
-  .header img.logo { width: 300px; }
-  .introduction { font-size: 1em; padding: 15px; }
-  .links a, .footer a, button {
-    font-size: 1em;
-    padding: 12px 20px;
-    width: 90%;
-    box-sizing: border-box;
-    margin: 8px 0;
-  }
-  .links { display: flex; flex-direction: column; align-items: center; }
-  
-  /* القاعدة العامة للجداول غير المخصصة للحصص */
-  th, td { 
-    padding: 10px; 
-    font-size: 0.9em; 
-  }
-
-  input[type="text"], input[type="password"] { width: 100%; font-size: 1em; padding: 10px; }
-  .cards-container, .features-container { flex-direction: column; align-items: center; }
-  .student-card, .feature-card { width: 90%; max-width: 350px; }
-  #totalUnpaidContainer { font-size: 1.2em; }
-}
-
-/* ================================================= */
-/* ===  تحسين استجابة جداول الحصص (الجزء الصحيح) === */
-/* ================================================= */
-
-/* ١. الأنماط الأساسية لجداول الحصص (لجميع الشاشات) */
-.timetable {
-    min-width: 100%; 
-    table-layout: fixed; 
-    border-collapse: collapse; 
-}
-
-.timetable th,
-.timetable td {
-    white-space: nowrap; 
-    min-width: 150px;
+#primary-schedule-table-popup th,
+#primary-schedule-table-popup td {
+    width: 15%;
+    min-width: 120px;
     height: 80px;
-    padding: 12px;
     box-sizing: border-box;
-    overflow: hidden; 
-    text-overflow: ellipsis; 
-    font-size: 1em;
-    text-align: center;
-    vertical-align: middle;
 }
 
-/* ٢. تعديلات جداول الحصص المخصصة للشاشات الصغيرة (الجوال) */
-@media (max-width: 768px) {
-  .timetable th,
-  .timetable td {
-    min-width: 120px;    /* عرض أصغر للأعمدة */
-    height: 70px;         /* ارتفاع أقل للخلايا */
-    font-size: 0.85em;    /* خط أصغر حجماً */
-    padding: 8px;         /* حشوة داخلية أقل */
-  }
 
-  /* تعديل حجم الخط داخل الخلايا المقسمة ليتناسب */
-  .level-tile {
-      font-size: 1.1em; 
-  }
-}
-/* ========================================================== */
-/* ===   تصحيح نهائي لاستجابة جداول الحصص (للشاشات الصغيرة)   === */
-/* ========================================================== */
 
-/*
-  الخطوة 1: التأكد من أن الحاوية تسمح بالتمرير.
-  الكود الحالي صحيح، وهذا للتأكيد فقط.
-*/
+/* ======================================= */
+/* ===  إصلاح مشكلة جدول الابتدائي (scroll + nowrap) === */
+/* ======================================= */
+
 .table-responsive {
-    overflow-x: auto; /* السماح بالتمرير الأفقي عند الحاجة */
-    -webkit-overflow-scrolling: touch; /* تحسين تجربة التمرير على أجهزة أبل */
+    overflow-x: auto;              /* يضيف تمرير أفقي */
+    overflow-y: hidden;            /* يمنع التمرير العمودي الزائد */
+    -webkit-overflow-scrolling: touch;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;                /* يضمن أن الجدول يتحرك داخل الحاوية */
+    white-space: nowrap;           /* يمنع لف النصوص */
 }
 
-/*
-  الخطوة 2: إجبار الجدول على استخدام تخطيط ثابت ومنعه من الانكماش.
-  هذه هي القاعدة الأهم في الحل.
-*/
-.timetable {
-    table-layout: fixed; /* يخبر المتصفح بالالتزام الصارم بعرض الأعمدة المحدد */
-    min-width: 100%; /* يضمن أن الجدول يملأ الحاوية على الأقل */
-    border-collapse: collapse;
+#primary-schedule-table-popup {
+    table-layout: fixed;           /* يحافظ على توزيع الأعمدة */
+    width: max-content;            /* يجعل الجدول يتمدد أفقياً */
+    min-width: 100%;               /* يضمن ملء العرض على الأقل */
 }
 
-/*
-  الخطوة 3: تحديد عرض أدنى للخلايا على الشاشات الصغيرة.
-  هذا هو الجزء الذي يجبر الجدول على أن يصبح أعرض من الشاشة.
-*/
-@media (max-width: 768px) {
-  .timetable th,
-  .timetable td {
-    min-width: 130px;    /* زيادة العرض الأدنى قليلاً لكل عمود لضمان وجود مساحة كافية */
-    white-space: nowrap; /* منع التفاف النصوص، مما يساعد في الحفاظ على عرض الخلية */
-    font-size: 0.8em;    /* تصغير الخط قليلاً ليناسب المساحة بشكل أفضل */
-    padding: 8px;
-    overflow: hidden;         /* إخفاء أي محتوى يتجاوز حجم الخلية */
-    text-overflow: ellipsis;  /* إضافة "..." للمحتوى المخفي */
-  }
-
-  /*
-    تعديل بسيط على الخلايا المقسمة لضمان عدم تداخل النص بداخلها
-  */
-  .level-tile {
-      font-size: 1em; /* تعديل حجم الخط ليتناسب مع الخلية */
-      line-height: 1.3;
-  }
+#primary-schedule-table-popup th,
+#primary-schedule-table-popup td {
+    min-width: 160px;              /* عرض أدنى لكل عمود */
+    height: 80px;
+    box-sizing: border-box;
+    white-space: nowrap;           /* يبقي النص في سطر واحد */
+    text-overflow: ellipsis;       /* إذا طول النص كبير، يظهر "..." */
+    overflow: hidden;
 }
