@@ -40,6 +40,17 @@
     "student_ids": []
   },
   {
+    "id": 51,
+    "day_of_week": "الأربعاء",
+    "time_slot": "17:00 - 19:00",
+    "educational_level": "8 أساسي",
+    "class_type": "private",
+    "student_ids": [
+      94,
+      95
+    ]
+  },
+  {
     "id": 32,
     "day_of_week": "الأربعاء",
     "time_slot": "19:00 - 21:00",
@@ -100,6 +111,17 @@
     "educational_level": "1 ثانوي",
     "class_type": "general",
     "student_ids": []
+  },
+  {
+    "id": 52,
+    "day_of_week": "الخميس",
+    "time_slot": "19:00 - 21:00",
+    "educational_level": "8 أساسي",
+    "class_type": "private",
+    "student_ids": [
+      94,
+      95
+    ]
   },
   {
     "id": 35,

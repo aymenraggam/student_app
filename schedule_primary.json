@@ -1,5 +1,22 @@
 [
   {
+    "id": 62,
+    "day_of_week": "الأحد",
+    "time_slot": "16:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "1 ابتدائي",
+        "institution": "مدرسة أولاد احمد"
+      },
+      {
+        "level": "5 ابتدائي",
+        "institution": "مدرسة أولاد احمد"
+      }
+    ],
+    "student_ids": []
+  },
+  {
     "id": 36,
     "day_of_week": "الأربعاء",
     "time_slot": "08:00",
@@ -99,6 +116,10 @@
     "time_slot": "14:00",
     "class_type": "general",
     "levels_data": [
+      {
+        "level": "1 ابتدائي",
+        "institution": "مدرسة أولاد احمد"
+      },
       {
         "level": "1 ابتدائي",
         "institution": "مدرسة ابتدائية الرقاب"
@@ -576,6 +597,10 @@
     "class_type": "general",
     "levels_data": [
       {
+        "level": "1 ابتدائي",
+        "institution": "مدرسة أولاد احمد"
+      },
+      {
         "level": "5 ابتدائي",
         "institution": ""
       }
@@ -677,6 +702,7 @@
     ],
     "student_ids": [
       2,
+      3,
       8
     ]
   }
