@@ -460,39 +460,51 @@ tr:hover {
   padding: 4px;
   box-sizing: border-box;
 }
-/* ========================================================== */
-/* ===   تصحيح نهائي وموحد لاستجابة جداول الحصص   === */
-/* ========================================================== */
 
-/*
-  الخطوة 1: الحاوية المسؤولة عن التمرير.
-  هذه القاعدة يجب أن تحتوي على خاصية التمرير فقط.
-*/
-.table-responsive {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
-/*
-  الخطوة 2: القاعدة الأساسية لجميع جداول الحصص (ابتدائي وثانوي).
-  استخدام الفئة .timetable يجعل الكود قابلاً لإعادة الاستخدام.
-*/
-.timetable {
-    overflow-x: auto;
+/* <<<< نهاية الأنماط الجديدة >>>> */
+/* Update schedule_primary_script.js */
+#primary-schedule-table-popup {
     table-layout: fixed;
-    border-collapse: collapse;
+    width: 100%;
 }
 
-/*
-  الخطوة 3: تطبيق العرض الأدنى ومنع التفاف النص على الشاشات الصغيرة.
-  هذا هو الجزء الذي يفعّل التمرير الأفقي بشكل صحيح.
-*/
-@media (max-width: 768px) {
-  .timetable th,
-  .timetable td {
-    min-width: 130px;    /* عرض أدنى مناسب لكل عمود */
-    white-space: nowrap; /* منع النص من النزول لسطر جديد، وهذا ضروري! */
+#primary-schedule-table-popup th,
+#primary-schedule-table-popup td {
+    width: 15%;
+    min-width: 120px;
+    height: 80px;
+    box-sizing: border-box;
+}
+
+
+
+/* ======================================= */
+/* ===  إصلاح مشكلة جدول الابتدائي (scroll + nowrap) === */
+/* ======================================= */
+
+.table-responsive {
+    overflow-x: auto;              /* يضيف تمرير أفقي */
+    overflow-y: hidden;            /* يمنع التمرير العمودي الزائد */
+    -webkit-overflow-scrolling: touch;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;                /* يضمن أن الجدول يتحرك داخل الحاوية */
+    white-space: nowrap;           /* يمنع لف النصوص */
+}
+
+#primary-schedule-table-popup {
+    table-layout: fixed;           /* يحافظ على توزيع الأعمدة */
+    width: max-content;            /* يجعل الجدول يتمدد أفقياً */
+    min-width: 100%;               /* يضمن ملء العرض على الأقل */
+}
+
+#primary-schedule-table-popup th,
+#primary-schedule-table-popup td {
+    min-width: 160px;              /* عرض أدنى لكل عمود */
+    height: 80px;
+    box-sizing: border-box;
+    white-space: nowrap;           /* يبقي النص في سطر واحد */
+    text-overflow: ellipsis;       /* إذا طول النص كبير، يظهر "..." */
     overflow: hidden;
-    text-overflow: ellipsis; /* إضافة "..." للنص الطويل جداً */
-  }
 }
