@@ -276,6 +276,9 @@ tr:hover {
 .replacement { background-color: #fff9c4; }
 .extra { background-color: #e3f2fd; }
 .english, .timetable td.english, .legend-color.english { background-color: #d1c4e9; font-weight: bold; }
+.timetable th, .timetable td {
+  border: 1px solid var(--dark-blue); /* إضافة حدود داكنة لكل خلية */
+}
 
 /* ======================================= */
 /* ===  تنسيقات النوافذ المنبثقة (Modal) === */
