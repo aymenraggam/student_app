@@ -478,7 +478,6 @@ tr:hover {
   استخدام الفئة .timetable يجعل الكود قابلاً لإعادة الاستخدام.
 */
 .timetable {
-    width: 100%;
     table-layout: fixed;
     border-collapse: collapse;
 }
