@@ -682,13 +682,9 @@
     "phone_number": "50433140",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "12/08/2025 إلى 11/09/2025",
-        "amount": 50.0
-      },
       {
         "period": "12/09/2025 إلى 11/10/2025",
         "amount": 50.0
