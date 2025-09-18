@@ -438,6 +438,7 @@ tr:hover {
     padding: 0 10px;
 }
 
+/* الأنماط العامة للجوال */
 @media (max-width: 768px) {
   .container { padding: 10px; }
   .header h1 { font-size: 1.6em; }
@@ -451,7 +452,13 @@ tr:hover {
     margin: 8px 0;
   }
   .links { display: flex; flex-direction: column; align-items: center; }
-  th, td { padding: 10px; font-size: 0.9em; min-width: 80px; }
+  
+  /* القاعدة العامة للجداول غير المخصصة للحصص */
+  th, td { 
+    padding: 10px; 
+    font-size: 0.9em; 
+  }
+
   input[type="text"], input[type="password"] { width: 100%; font-size: 1em; padding: 10px; }
   .cards-container, .features-container { flex-direction: column; align-items: center; }
   .student-card, .feature-card { width: 90%; max-width: 350px; }
@@ -459,15 +466,10 @@ tr:hover {
 }
 
 /* ================================================= */
-/* ===  تحسين استجابة جداول الحصص (الجزء الجديد) === */
+/* ===  تحسين استجابة جداول الحصص (الجزء الصحيح) === */
 /* ================================================= */
 
-/* ١. الأنماط الأساسية للجدول (لجميع الشاشات) */
-.table-responsive {
-    overflow-x: auto !important;
-    white-space: normal !important; /* يمنع المشاكل مع النص */
-}
-
+/* ١. الأنماط الأساسية لجداول الحصص (لجميع الشاشات) */
 .timetable {
     min-width: 100%; 
     table-layout: fixed; 
@@ -488,7 +490,7 @@ tr:hover {
     vertical-align: middle;
 }
 
-/* ٢. تعديلات مخصصة للشاشات الصغيرة (الجوال) */
+/* ٢. تعديلات جداول الحصص المخصصة للشاشات الصغيرة (الجوال) */
 @media (max-width: 768px) {
   .timetable th,
   .timetable td {
