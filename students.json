@@ -1243,6 +1243,27 @@
     "notes": ""
   },
   {
+    "id": 98,
+    "name": "أيهم",
+    "surname": "عيادي",
+    "educational_level": "1 ابتدائي",
+    "institution": "مدرسة ابن رشد1",
+    "entry_date": "2025-09-19",
+    "guardian_full_name": "عقبة عيادي",
+    "phone_number": "20430902",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "19/09/2025 إلى 18/10/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 55,
     "name": "سجود",
     "surname": "عيوني",
