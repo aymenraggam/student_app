@@ -166,13 +166,17 @@
     "entry_date": "2025-07-22",
     "guardian_full_name": "أماني قدودة",
     "phone_number": "22959665",
-    "payment_generation_status": "suspended",
-    "payment_count": 2,
-    "unpaid_total": 100.0,
+    "payment_generation_status": "active",
+    "payment_count": 3,
+    "unpaid_total": 200.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "22/08/2025 إلى 21/09/2025",
+        "amount": 100.0
+      },
+      {
+        "period": "22/09/2025 إلى 21/10/2025",
         "amount": 100.0
       }
     ],
@@ -404,7 +408,7 @@
     "entry_date": "2025-08-01",
     "guardian_full_name": "أماني قدودة",
     "phone_number": "22959665",
-    "payment_generation_status": "suspended",
+    "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 70.0,
     "absence_count": [],
@@ -973,6 +977,22 @@
       }
     ],
     "notes": "حسن السلوك، يظهر اهتماما بالمادة، قليل التركيز، عمله غير منظم || ربي يباركلك فيها"
+  },
+  {
+    "id": 99,
+    "name": "يوسف",
+    "surname": "صالحي",
+    "educational_level": "1 ابتدائي",
+    "institution": "مدرسة ابتدائية الرقاب",
+    "entry_date": "2025-09-23",
+    "guardian_full_name": "يامن صالحي",
+    "phone_number": "55238333",
+    "payment_generation_status": "active",
+    "payment_count": 0,
+    "unpaid_total": 0.0,
+    "absence_count": [],
+    "unpaid_periods": [],
+    "notes": ""
   },
   {
     "id": 41,
@@ -1816,7 +1836,7 @@
     "entry_date": "2025-07-25",
     "guardian_full_name": "لطيّف كرمودي",
     "phone_number": "97636826",
-    "payment_generation_status": "suspended",
+    "payment_generation_status": "archived",
     "payment_count": 1,
     "unpaid_total": 0.0,
     "absence_count": [],
