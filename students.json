@@ -966,16 +966,11 @@
     "entry_date": "2025-08-22",
     "guardian_full_name": "منى صالحي",
     "phone_number": "55300723",
-    "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_generation_status": "suspended",
+    "payment_count": 0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "22/08/2025 إلى 21/09/2025",
-        "amount": 50.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": "حسن السلوك، يظهر اهتماما بالمادة، قليل التركيز، عمله غير منظم || ربي يباركلك فيها"
   },
   {
@@ -1008,6 +1003,27 @@
     "unpaid_total": 0.0,
     "absence_count": [],
     "unpaid_periods": [],
+    "notes": ""
+  },
+  {
+    "id": 101,
+    "name": "مريم",
+    "surname": "صدقي",
+    "educational_level": "5 ابتدائي",
+    "institution": "مدرسة ابن رشد2",
+    "entry_date": "2025-09-18",
+    "guardian_full_name": "بسمة عبيدي",
+    "phone_number": "99722377",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "18/09/2025 إلى 17/10/2025",
+        "amount": 50.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -1057,6 +1073,27 @@
     "notes": ""
   },
   {
+    "id": 100,
+    "name": "جوري",
+    "surname": "ضيفي",
+    "educational_level": "5 ابتدائي",
+    "institution": "مدرسة ابن رشد2",
+    "entry_date": "2025-09-20",
+    "guardian_full_name": "خولة عبيدي",
+    "phone_number": "000000",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "20/09/2025 إلى 19/10/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 86,
     "name": "آدم",
     "surname": "طقوقي",
@@ -1081,11 +1118,16 @@
     "entry_date": "2025-08-19",
     "guardian_full_name": "عبد العزيز طقوقي",
     "phone_number": "97371797",
-    "payment_generation_status": "suspended",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
+    "payment_generation_status": "active",
+    "payment_count": 2,
+    "unpaid_total": 40.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "19/09/2025 إلى 18/10/2025",
+        "amount": 40.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -1755,14 +1797,9 @@
     "phone_number": "92037064",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 40.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "09/09/2025 إلى 08/10/2025",
-        "amount": 40.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -1873,11 +1910,16 @@
     "entry_date": "2025-07-01",
     "guardian_full_name": "نوال مسعودي",
     "phone_number": "42218267",
-    "payment_generation_status": "suspended",
-    "payment_count": 2,
-    "unpaid_total": 0.0,
+    "payment_generation_status": "active",
+    "payment_count": 3,
+    "unpaid_total": 100.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "01/09/2025 إلى 30/09/2025",
+        "amount": 100.0
+      }
+    ],
     "notes": ""
   },
   {

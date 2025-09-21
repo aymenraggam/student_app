@@ -73,6 +73,14 @@
     ]
   },
   {
+    "id": 53,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "08:00 - 10:00",
+    "educational_level": "مجموعة إنجليزية",
+    "class_type": "english",
+    "student_ids": []
+  },
+  {
     "id": 44,
     "day_of_week": "الثلاثاء",
     "time_slot": "19:00 - 21:00",

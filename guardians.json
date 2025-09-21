@@ -280,7 +280,7 @@
       65,
       96
     ],
-    "unpaid_total": 80.0,
+    "unpaid_total": 40.0,
     "password": "729824"
   },
   {
@@ -317,7 +317,7 @@
     "student_ids": [
       92
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "password": "421762"
   },
   {
@@ -337,7 +337,7 @@
       85,
       86
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 40.0,
     "password": "179214"
   },
   {
@@ -409,10 +409,20 @@
     "guardian_full_name": "بسمة عبيدي",
     "phone_number": "99722377",
     "student_ids": [
-      41
+      41,
+      101
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 50.0,
     "password": "573012"
+  },
+  {
+    "guardian_full_name": "خولة عبيدي",
+    "phone_number": "000000",
+    "student_ids": [
+      100
+    ],
+    "unpaid_total": 50.0,
+    "password": "871246"
   },
   {
     "guardian_full_name": "وليد عبيدي",
@@ -668,7 +678,7 @@
       3,
       19
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 100.0,
     "password": "192082"
   },
   {
