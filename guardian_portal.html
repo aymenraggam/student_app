@@ -211,49 +211,42 @@
     // <<<< بداية الكود المحدث لدالة buildPrimarySchedule >>>>
     async function buildPrimarySchedule(tableId, children = []) {
         try {
-            // ١. جلب البيانات اللازمة
             const [scheduleData, students] = await Promise.all([
                 fetch("schedule_primary.json").then(res => res.json()),
                 fetch("students.json").then(res => res.json())
             ]);
     
-            // ٢. تعريف الثوابت وأنماط التلوين
             const PRIMARY_SCHEDULE_TIMES = ["08:00", "09:00", "10:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00"];
             const SCHEDULE_DAYS = ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"];
             
             const primaryLevelStyles = {
-                "1 ابتدائي": { color: "#fab784" },
-                "2 ابتدائي": { color: "#08d4d1" },
-                "3 ابتدائي": { color: "#e9f57f" },
-                "4 ابتدائي": { color: "#91E3AD" },
-                "5 ابتدائي": { color: "#8cf5ec" },
-                "6 ابتدائي": { color: "#FFD9E0" },
+                "1 ابتدائي": { color: "#fab784" }, "2 ابتدائي": { color: "#08d4d1" },
+                "3 ابتدائي": { color: "#e9f57f" }, "4 ابتدائي": { color: "#91E3AD" },
+                "5 ابتدائي": { color: "#8cf5ec" }, "6 ابتدائي": { color: "#FFD9E0" },
                 "default": { color: "#E0E0E0" }
             };
     
-            // ٣. دالة مساعدة لتنسيق العرض
             function formatLevelDisplay(levelName, institution) {
                 let levelAbbr = levelName.replace(' ابتدائي', '');
+                if (levelName.includes('أولى')) levelAbbr = '1'; if (levelName.includes('ثانية')) levelAbbr = '2';
+                if (levelName.includes('ثالثة')) levelAbbr = '3'; if (levelName.includes('رابعة')) levelAbbr = '4';
+                if (levelName.includes('خامسة')) levelAbbr = '5'; if (levelName.includes('سادسة')) levelAbbr = '6';
                 const institutionAbbr = institution ? institution.replace('مدرسة ', '') : 'الكل';
                 return `${levelAbbr} (${institutionAbbr})`;
             }
             
-            // ٤. تحضير البيانات لسهولة الوصول إليها
             const scheduleMap = new Map();
             scheduleData.forEach(entry => {
                 scheduleMap.set(`${entry.day_of_week}|${entry.time_slot}`, entry);
             });
     
-            // ٥. بناء الجدول
             const tbody = document.querySelector(`#${tableId} tbody`);
             if (!tbody) return;
             tbody.innerHTML = "";
     
-            const childrenIds = new Set(children.map(c => c.id));
-    
             PRIMARY_SCHEDULE_TIMES.forEach(time => {
                 const tr = document.createElement("tr");
-                tr.innerHTML = `<td>${time}</td>`; // خلية التوقيت
+                tr.innerHTML = `<td>${time}</td>`; 
     
                 SCHEDULE_DAYS.forEach(day => {
                     const td = document.createElement("td");
@@ -261,7 +254,6 @@
     
                     if (entry) {
                         if (entry.class_type === 'private') {
-                            // تحسين: عرض أسماء الأبناء المسجلين في الحصة الخاصة فقط
                             const enrolledChildren = children.filter(child => entry.student_ids.includes(child.id));
                             if (enrolledChildren.length > 0) {
                                 const studentNames = enrolledChildren.map(child => child.name).join(', ');
@@ -269,16 +261,32 @@
                             }
     
                         } else if (entry.levels_data) {
-                            // *** بداية منطق الفلترة الجديد للحصص الجماعية ***
+                            // <<< بداية منطق الفلترة الجديد للحصص الجماعية >>>
                             const relevantLevelsData = entry.levels_data.filter(levelInfo =>
-                                children.some(child =>
-                                    child.educational_level === levelInfo.level &&
-                                    (levelInfo.institution === '' || levelInfo.institution === child.institution)
-                                )
+                                children.some(child => {
+                                    // يجب أن يتطابق المستوى الدراسي للابن مع مستوى الحصة
+                                    if (child.educational_level !== levelInfo.level) {
+                                        return false;
+                                    }
+                                    
+                                    const inst = levelInfo.institution || "";
+                                    
+                                    // الحالة 1: الحصة للكل
+                                    if (inst === "") return true;
+                                    
+                                    // الحالة 2: الحصة تستثني مدرسة معينة
+                                    if (inst.startsWith("الكل إلّا ")) {
+                                        const excludedInstitution = inst.replace("الكل إلّا ", "").trim();
+                                        // تكون الحصة مناسبة إذا كانت مدرسة الابن لا تساوي المدرسة المستثناة
+                                        return child.institution !== excludedInstitution;
+                                    }
+                                    
+                                    // الحالة 3: الحصة لمدرسة محددة
+                                    return child.institution === inst;
+                                })
                             );
-                            // *** نهاية منطق الفلترة الجديد ***
+                            // <<< نهاية منطق الفلترة الجديد >>>
     
-                            // يتم الآن بناء الخلية بناءً على البيانات المفلترة فقط
                             if (relevantLevelsData.length === 1) {
                                 const levelInfo = relevantLevelsData[0];
                                 const style = primaryLevelStyles[levelInfo.level] || primaryLevelStyles.default;
@@ -309,7 +317,6 @@
                 tbody.appendChild(tr);
             });
     
-            // ٦. إضافة مفتاح الألوان (Legend) - يبقى كما هو
             const container = document.querySelector(`#${tableId}`).closest('.table-responsive');
             if (container && !container.querySelector('.legend')) {
                 const legend = document.createElement("div");
