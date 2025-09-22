@@ -270,7 +270,7 @@
       9,
       14
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 200.0,
     "password": "168873"
   },
   {
@@ -337,7 +337,7 @@
       85,
       86
     ],
-    "unpaid_total": 40.0,
+    "unpaid_total": 120.0,
     "password": "179214"
   },
   {
@@ -529,7 +529,7 @@
     "student_ids": [
       56
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "283367"
   },
   {
@@ -650,7 +650,7 @@
     "student_ids": [
       13
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 30.0,
     "password": "794090"
   },
   {
