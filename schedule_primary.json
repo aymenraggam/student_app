@@ -169,7 +169,7 @@
       },
       {
         "level": "4 ابتدائي",
-        "institution": ""
+        "institution": "الكل إلّا مدرسة ابن رشد2"
       }
     ],
     "student_ids": []
@@ -285,6 +285,19 @@
     ]
   },
   {
+    "id": 69,
+    "day_of_week": "الإثنين",
+    "time_slot": "10:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "4 ابتدائي",
+        "institution": "مدرسة ابن رشد2"
+      }
+    ],
+    "student_ids": []
+  },
+  {
     "id": 66,
     "day_of_week": "الإثنين",
     "time_slot": "16:00",
@@ -368,6 +381,19 @@
     "student_ids": []
   },
   {
+    "id": 70,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "10:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "4 ابتدائي",
+        "institution": "مدرسة ابن رشد2"
+      }
+    ],
+    "student_ids": []
+  },
+  {
     "id": 38,
     "day_of_week": "الثلاثاء",
     "time_slot": "14:00",
@@ -383,7 +409,7 @@
       },
       {
         "level": "4 ابتدائي",
-        "institution": ""
+        "institution": "الكل إلّا مدرسة ابن رشد2"
       }
     ],
     "student_ids": []
@@ -498,7 +524,7 @@
     "levels_data": [
       {
         "level": "4 ابتدائي",
-        "institution": ""
+        "institution": "الكل إلّا مدرسة ابن رشد2"
       }
     ],
     "student_ids": []
@@ -600,10 +626,6 @@
     "class_type": "general",
     "levels_data": [
       {
-        "level": "1 ابتدائي",
-        "institution": "مدرسة ابتدائية الرقاب"
-      },
-      {
         "level": "3 ابتدائي",
         "institution": "مدرسة ابتدائية الرقاب"
       }
@@ -618,7 +640,7 @@
     "levels_data": [
       {
         "level": "4 ابتدائي",
-        "institution": ""
+        "institution": "الكل إلّا مدرسة ابن رشد2"
       }
     ],
     "student_ids": []
@@ -695,6 +717,10 @@
       {
         "level": "1 ابتدائي",
         "institution": "مدرسة أولاد احمد"
+      },
+      {
+        "level": "1 ابتدائي",
+        "institution": "مدرسة ابتدائية الرقاب"
       },
       {
         "level": "5 ابتدائي",

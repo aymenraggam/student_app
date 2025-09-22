@@ -1,5 +1,18 @@
 [
   {
+    "id": 8,
+    "educational_level": "1 ثانوي",
+    "lesson_date": "2025-09-22",
+    "subject": "physique",
+    "lesson_name": "éléctrisation",
+    "files": [
+      {
+        "name": "Cours-électisation-1ère.pdf",
+        "path": "lesson_resources\\Cours-électisation-1ère_20250922220933.pdf"
+      }
+    ]
+  },
+  {
     "id": 1,
     "educational_level": "1 ثانوي",
     "lesson_date": "2025-09-13",
