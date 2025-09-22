@@ -143,17 +143,9 @@
     "phone_number": "97867896",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 90.0,
+    "unpaid_total": 30.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "03/07/2025 إلى 02/08/2025",
-        "amount": 30.0
-      },
-      {
-        "period": "03/08/2025 إلى 02/09/2025",
-        "amount": 30.0
-      },
       {
         "period": "03/09/2025 إلى 02/10/2025",
         "amount": 30.0
@@ -281,13 +273,9 @@
     "phone_number": "97867896",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 60.0,
+    "unpaid_total": 30.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "25/07/2025 إلى 24/08/2025",
-        "amount": 30.0
-      },
       {
         "period": "25/08/2025 إلى 24/09/2025",
         "amount": 30.0
@@ -306,13 +294,9 @@
     "phone_number": "97867896",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 90.0,
+    "unpaid_total": 60.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "03/07/2025 إلى 02/08/2025",
-        "amount": 30.0
-      },
       {
         "period": "03/08/2025 إلى 02/09/2025",
         "amount": 30.0
@@ -335,13 +319,9 @@
     "phone_number": "97867896",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 90.0,
+    "unpaid_total": 60.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "03/07/2025 إلى 02/08/2025",
-        "amount": 30.0
-      },
       {
         "period": "03/08/2025 إلى 02/09/2025",
         "amount": 30.0
@@ -385,13 +365,9 @@
     "phone_number": "97867896",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 60.0,
+    "unpaid_total": 30.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "25/07/2025 إلى 24/08/2025",
-        "amount": 30.0
-      },
       {
         "period": "25/08/2025 إلى 24/09/2025",
         "amount": 30.0
@@ -1959,6 +1935,27 @@
     "unpaid_total": 0.0,
     "absence_count": [],
     "unpaid_periods": [],
+    "notes": ""
+  },
+  {
+    "id": 102,
+    "name": "إلينا",
+    "surname": "مسعودي",
+    "educational_level": "2 ابتدائي",
+    "institution": "مدرسة هاي سكول",
+    "entry_date": "2025-09-22",
+    "guardian_full_name": "صافيا مسعودي",
+    "phone_number": "97219574",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "22/09/2025 إلى 21/10/2025",
+        "amount": 50.0
+      }
+    ],
     "notes": ""
   },
   {

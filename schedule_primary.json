@@ -47,6 +47,10 @@
       {
         "level": "5 ابتدائي",
         "institution": "مدرسة أولاد احمد"
+      },
+      {
+        "level": "5 ابتدائي",
+        "institution": "مدرسة ابن رشد2"
       }
     ],
     "student_ids": []
@@ -551,6 +555,19 @@
     "student_ids": []
   },
   {
+    "id": 67,
+    "day_of_week": "الجمعة",
+    "time_slot": "17:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "4 ابتدائي",
+        "institution": "مدرسة ابن رشد2"
+      }
+    ],
+    "student_ids": []
+  },
+  {
     "id": 43,
     "day_of_week": "الجمعة",
     "time_slot": "18:00",
@@ -652,6 +669,19 @@
       {
         "level": "3 ابتدائي",
         "institution": "مدرسة هاي سكول"
+      }
+    ],
+    "student_ids": []
+  },
+  {
+    "id": 68,
+    "day_of_week": "الخميس",
+    "time_slot": "17:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "4 ابتدائي",
+        "institution": "مدرسة ابن رشد2"
       }
     ],
     "student_ids": []

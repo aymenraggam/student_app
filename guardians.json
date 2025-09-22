@@ -109,7 +109,7 @@
       28,
       37
     ],
-    "unpaid_total": 390.0,
+    "unpaid_total": 210.0,
     "password": "816073"
   },
   {
@@ -643,6 +643,15 @@
     ],
     "unpaid_total": 50.0,
     "password": "183082"
+  },
+  {
+    "guardian_full_name": "صافيا مسعودي",
+    "phone_number": "97219574",
+    "student_ids": [
+      102
+    ],
+    "unpaid_total": 50.0,
+    "password": "041553"
   },
   {
     "guardian_full_name": "قيس مسعودي",
