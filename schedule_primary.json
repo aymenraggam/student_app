@@ -166,10 +166,6 @@
       {
         "level": "1 ابتدائي",
         "institution": "مدرسة الفوز"
-      },
-      {
-        "level": "4 ابتدائي",
-        "institution": "الكل إلّا مدرسة ابن رشد2"
       }
     ],
     "student_ids": []
@@ -192,6 +188,19 @@
     "student_ids": []
   },
   {
+    "id": 73,
+    "day_of_week": "الأربعاء",
+    "time_slot": "15:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "4 ابتدائي",
+        "institution": "الكل إلّا مدرسة ابن رشد2"
+      }
+    ],
+    "student_ids": []
+  },
+  {
     "id": 47,
     "day_of_week": "الأربعاء",
     "time_slot": "16:00",
@@ -199,7 +208,7 @@
     "levels_data": [
       {
         "level": "2 ابتدائي",
-        "institution": "مدرسة الفوز"
+        "institution": "الكل إلّا مدرسة ابتدائية الرقاب"
       },
       {
         "level": "3 ابتدائي",
@@ -406,10 +415,6 @@
       {
         "level": "1 ابتدائي",
         "institution": "مدرسة الفوز"
-      },
-      {
-        "level": "4 ابتدائي",
-        "institution": "الكل إلّا مدرسة ابن رشد2"
       }
     ],
     "student_ids": []
@@ -432,6 +437,19 @@
     "student_ids": []
   },
   {
+    "id": 72,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "15:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "4 ابتدائي",
+        "institution": "الكل إلّا مدرسة ابن رشد2"
+      }
+    ],
+    "student_ids": []
+  },
+  {
     "id": 45,
     "day_of_week": "الثلاثاء",
     "time_slot": "16:00",
@@ -439,7 +457,7 @@
     "levels_data": [
       {
         "level": "2 ابتدائي",
-        "institution": "مدرسة الفوز"
+        "institution": "الكل إلّا مدرسة ابتدائية الرقاب"
       },
       {
         "level": "3 ابتدائي",
@@ -523,8 +541,8 @@
     "class_type": "general",
     "levels_data": [
       {
-        "level": "4 ابتدائي",
-        "institution": "الكل إلّا مدرسة ابن رشد2"
+        "level": "3 ابتدائي",
+        "institution": "مدرسة ابتدائية الرقاب"
       }
     ],
     "student_ids": []
@@ -536,8 +554,8 @@
     "class_type": "general",
     "levels_data": [
       {
-        "level": "3 ابتدائي",
-        "institution": "مدرسة ابتدائية الرقاب"
+        "level": "4 ابتدائي",
+        "institution": "الكل إلّا مدرسة ابن رشد2"
       }
     ],
     "student_ids": []
@@ -625,6 +643,10 @@
     "time_slot": "08:00",
     "class_type": "general",
     "levels_data": [
+      {
+        "level": "2 ابتدائي",
+        "institution": "مدرسة ابن رشد1"
+      },
       {
         "level": "3 ابتدائي",
         "institution": "مدرسة ابتدائية الرقاب"
