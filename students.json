@@ -83,11 +83,16 @@
     "entry_date": "2025-07-07",
     "guardian_full_name": "فاطمة بوعلافي",
     "phone_number": "53780865",
-    "payment_generation_status": "suspended",
-    "payment_count": 2,
-    "unpaid_total": 0.0,
+    "payment_generation_status": "active",
+    "payment_count": 3,
+    "unpaid_total": 50.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 50.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -95,7 +100,7 @@
     "name": "سامح",
     "surname": "جابلي",
     "educational_level": "1 ثانوي",
-    "institution": "",
+    "institution": "المعهد الثانوي بالرقاب",
     "entry_date": "2025-08-09",
     "guardian_full_name": "سفيان جابلي",
     "phone_number": "97483694",
@@ -212,7 +217,7 @@
     "name": "أماني",
     "surname": "جلالي",
     "educational_level": "1 ثانوي",
-    "institution": "",
+    "institution": "المعهد الثانوي بالرقاب",
     "entry_date": "2025-08-16",
     "guardian_full_name": "عمار جلالي",
     "phone_number": "98283943",
@@ -640,11 +645,16 @@
     "entry_date": "2025-08-01",
     "guardian_full_name": "نجيبة زارعي",
     "phone_number": "96158860",
-    "payment_generation_status": "suspended",
-    "payment_count": 0,
-    "unpaid_total": 0.0,
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 40.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 40.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -825,13 +835,13 @@
     "entry_date": "2025-07-23",
     "guardian_full_name": "عائشة أم هاني",
     "phone_number": "99722424",
-    "payment_generation_status": "suspended",
-    "payment_count": 2,
+    "payment_generation_status": "active",
+    "payment_count": 3,
     "unpaid_total": 40.0,
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "23/08/2025 إلى 22/09/2025",
+        "period": "23/09/2025 إلى 22/10/2025",
         "amount": 40.0
       }
     ],
@@ -913,13 +923,17 @@
     "entry_date": "2025-07-29",
     "guardian_full_name": "توفيق صالحي",
     "phone_number": "96627623",
-    "payment_generation_status": "suspended",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_generation_status": "active",
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "29/07/2025 إلى 28/08/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "23/09/2025 إلى 22/10/2025",
         "amount": 50.0
       }
     ],
@@ -934,13 +948,17 @@
     "entry_date": "2025-07-01",
     "guardian_full_name": "الناصر صالحي",
     "phone_number": "28083048",
-    "payment_generation_status": "suspended",
-    "payment_count": 2,
-    "unpaid_total": 40.0,
+    "payment_generation_status": "active",
+    "payment_count": 3,
+    "unpaid_total": 80.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "01/08/2025 إلى 31/08/2025",
+        "amount": 40.0
+      },
+      {
+        "period": "23/09/2025 إلى 22/10/2025",
         "amount": 40.0
       }
     ],
@@ -955,13 +973,17 @@
     "entry_date": "2025-08-05",
     "guardian_full_name": "الناصر صالحي",
     "phone_number": "28083048",
-    "payment_generation_status": "suspended",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_generation_status": "active",
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "05/08/2025 إلى 04/09/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "23/09/2025 إلى 22/10/2025",
         "amount": 50.0
       }
     ],
@@ -1435,11 +1457,16 @@
     "entry_date": "2025-08-05",
     "guardian_full_name": "منى زريبي",
     "phone_number": "95222949",
-    "payment_generation_status": "suspended",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
+    "payment_generation_status": "active",
+    "payment_count": 2,
+    "unpaid_total": 50.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 50.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -1488,7 +1515,7 @@
     "entry_date": "2025-08-10",
     "guardian_full_name": "عماد عيوني",
     "phone_number": "97689005",
-    "payment_generation_status": "active",
+    "payment_generation_status": "suspended",
     "payment_count": 2,
     "unpaid_total": 100.0,
     "absence_count": [],
@@ -1807,13 +1834,9 @@
     "phone_number": "97946651",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "17/08/2025 إلى 16/09/2025",
-        "amount": 50.0
-      },
       {
         "period": "17/09/2025 إلى 16/10/2025",
         "amount": 50.0
@@ -2224,13 +2247,17 @@
     "entry_date": "2025-08-01",
     "guardian_full_name": "رفيقة قادري",
     "phone_number": "46282024",
-    "payment_generation_status": "suspended",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_generation_status": "active",
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "01/08/2025 إلى 31/08/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "23/09/2025 إلى 22/10/2025",
         "amount": 50.0
       }
     ],
@@ -2245,16 +2272,11 @@
     "entry_date": "2025-08-09",
     "guardian_full_name": "تفاحة زريبي",
     "phone_number": "96445731",
-    "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 40.0,
+    "payment_generation_status": "suspended",
+    "payment_count": 1,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "09/09/2025 إلى 08/10/2025",
-        "amount": 40.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   }
 ]
