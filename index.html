@@ -278,7 +278,7 @@
           });
           section.style.display = 'block';
         } 
-        else if (typeof topStudentsData = 'جاري تحديث القائمة') {
+        else if (typeof topStudentsData === 'string') {
           listContainer.innerHTML = `<p style="text-align: center; font-size: 1.2em; color: #555; padding: 20px;">${topStudentsData}</p>`;
           section.style.display = 'block';
         }
