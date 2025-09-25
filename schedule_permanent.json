@@ -93,14 +93,6 @@
     ]
   },
   {
-    "id": 53,
-    "day_of_week": "الثلاثاء",
-    "time_slot": "08:00 - 10:00",
-    "educational_level": "مجموعة إنجليزية",
-    "class_type": "english",
-    "student_ids": []
-  },
-  {
     "id": 44,
     "day_of_week": "الثلاثاء",
     "time_slot": "19:00 - 21:00",
@@ -143,6 +135,17 @@
     "student_ids": []
   },
   {
+    "id": 60,
+    "day_of_week": "الجمعة",
+    "time_slot": "19:00 - 21:00",
+    "educational_level": "8 أساسي",
+    "class_type": "private",
+    "student_ids": [
+      94,
+      95
+    ]
+  },
+  {
     "id": 59,
     "day_of_week": "الجمعة",
     "time_slot": "21:00 - 23:00",
@@ -161,14 +164,13 @@
     "student_ids": []
   },
   {
-    "id": 57,
+    "id": 61,
     "day_of_week": "الخميس",
     "time_slot": "21:00 - 23:00",
-    "educational_level": "8 أساسي",
+    "educational_level": "1 ثانوي",
     "class_type": "private",
     "student_ids": [
-      94,
-      95
+      103
     ]
   },
   {
