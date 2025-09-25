@@ -575,7 +575,7 @@
     "entry_date": "2025-08-17",
     "guardian_full_name": "منير حاجي",
     "phone_number": "98725398",
-    "payment_generation_status": "suspended",
+    "payment_generation_status": "archived",
     "payment_count": 1,
     "unpaid_total": 0.0,
     "absence_count": [],
@@ -1183,13 +1183,9 @@
     "phone_number": "55560997",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "10/08/2025 إلى 09/09/2025",
-        "amount": 50.0
-      },
       {
         "period": "10/09/2025 إلى 09/10/2025",
         "amount": 50.0
@@ -1537,6 +1533,27 @@
     "notes": ""
   },
   {
+    "id": 110,
+    "name": "إسراء",
+    "surname": "عيادي",
+    "educational_level": "2 ابتدائي",
+    "institution": "مدرسة ابتدائية الرقاب",
+    "entry_date": "2025-09-25",
+    "guardian_full_name": "كوثر عباسي",
+    "phone_number": "00000000",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "25/09/2025 إلى 24/10/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 55,
     "name": "سجود",
     "surname": "عيوني",
@@ -1772,6 +1789,27 @@
     "unpaid_periods": [
       {
         "period": "25/07/2025 إلى 24/08/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 113,
+    "name": "ريان",
+    "surname": "قادري",
+    "educational_level": "1 ثانوي",
+    "institution": "المعهد الثانوي بالرقاب",
+    "entry_date": "2025-09-25",
+    "guardian_full_name": "خير الدين قادري",
+    "phone_number": "98350492",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "25/09/2025 إلى 24/10/2025",
         "amount": 50.0
       }
     ],
@@ -2077,6 +2115,27 @@
     "notes": ""
   },
   {
+    "id": 112,
+    "name": "فرح",
+    "surname": "كدوسي",
+    "educational_level": "4 ابتدائي",
+    "institution": "مدرسة ابن رشد2",
+    "entry_date": "2025-09-23",
+    "guardian_full_name": "مروى ذيابي",
+    "phone_number": "90730836",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 75,
     "name": "مرام",
     "surname": "كدوسي",
@@ -2096,6 +2155,27 @@
       },
       {
         "period": "14/09/2025 إلى 13/10/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 111,
+    "name": "يوسف",
+    "surname": "كدوسي",
+    "educational_level": "4 ابتدائي",
+    "institution": "مدرسة ابن رشد2",
+    "entry_date": "2025-09-23",
+    "guardian_full_name": "مروى ذيابي",
+    "phone_number": "90730836",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "23/09/2025 إلى 22/10/2025",
         "amount": 50.0
       }
     ],
@@ -2216,7 +2296,7 @@
     "phone_number": "97846999",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -2225,7 +2305,7 @@
       },
       {
         "period": "25/09/2025 إلى 24/10/2025",
-        "amount": 50.0
+        "amount": 100.0
       }
     ],
     "notes": ""
@@ -2290,6 +2370,27 @@
     "unpaid_total": 0.0,
     "absence_count": [],
     "unpaid_periods": [],
+    "notes": ""
+  },
+  {
+    "id": 114,
+    "name": "سيرين",
+    "surname": "نصيري",
+    "educational_level": "1 ثانوي",
+    "institution": "المعهد الثانوي بالرقاب",
+    "entry_date": "2025-09-25",
+    "guardian_full_name": "رفيقة قادري",
+    "phone_number": "46282024",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "25/09/2025 إلى 24/10/2025",
+        "amount": 50.0
+      }
+    ],
     "notes": ""
   },
   {
