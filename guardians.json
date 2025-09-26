@@ -467,9 +467,10 @@
     "guardian_full_name": "نزيهة عبدلي",
     "phone_number": "96285780",
     "student_ids": [
-      60
+      60,
+      125
     ],
-    "unpaid_total": 40.0,
+    "unpaid_total": 90.0,
     "password": "306063"
   },
   {
@@ -487,9 +488,10 @@
     "phone_number": "99722377",
     "student_ids": [
       41,
-      101
+      101,
+      124
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "573012"
   },
   {

@@ -269,6 +269,27 @@
     "notes": ""
   },
   {
+    "id": 125,
+    "name": "جهاد",
+    "surname": "جلالي",
+    "educational_level": "8 أساسي",
+    "institution": "المدرسة الاعدادية بالرقاب",
+    "entry_date": "2025-09-26",
+    "guardian_full_name": "نزيهة عبدلي",
+    "phone_number": "96285780",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "26/09/2025 إلى 25/10/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 12,
     "name": "راسيل",
     "surname": "جلالي",
@@ -600,7 +621,9 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 100.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-09-26"
+    ],
     "unpaid_periods": [
       {
         "period": "13/08/2025 إلى 12/09/2025",
@@ -808,7 +831,9 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 50.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-09-26"
+    ],
     "unpaid_periods": [
       {
         "period": "23/09/2025 إلى 22/10/2025",
@@ -1112,7 +1137,9 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 80.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-09-26"
+    ],
     "unpaid_periods": [
       {
         "period": "13/08/2025 إلى 12/09/2025",
@@ -1201,6 +1228,27 @@
     "unpaid_total": 0.0,
     "absence_count": [],
     "unpaid_periods": [],
+    "notes": ""
+  },
+  {
+    "id": 124,
+    "name": "فاطمة",
+    "surname": "صدقي",
+    "educational_level": "8 أساسي",
+    "institution": "المدرسة الاعدادية ابن سينا",
+    "entry_date": "2025-09-26",
+    "guardian_full_name": "بسمة عبيدي",
+    "phone_number": "99722377",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "26/09/2025 إلى 25/10/2025",
+        "amount": 50.0
+      }
+    ],
     "notes": ""
   },
   {
