@@ -172,9 +172,10 @@
     "phone_number": "90730836",
     "student_ids": [
       111,
-      112
+      112,
+      122
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "601704"
   },
   {
@@ -357,6 +358,15 @@
     ],
     "unpaid_total": 0.0,
     "password": "524943"
+  },
+  {
+    "guardian_full_name": "عبد الحفيظ ضيفي",
+    "phone_number": "22195709",
+    "student_ids": [
+      123
+    ],
+    "unpaid_total": 50.0,
+    "password": "846025"
   },
   {
     "guardian_full_name": "محمد ضيفي",
@@ -674,6 +684,15 @@
     ],
     "unpaid_total": 100.0,
     "password": "084592"
+  },
+  {
+    "guardian_full_name": "سعاد كحلي",
+    "phone_number": "55254806",
+    "student_ids": [
+      121
+    ],
+    "unpaid_total": 50.0,
+    "password": "867989"
   },
   {
     "guardian_full_name": "أحمد كحولي",
