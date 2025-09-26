@@ -125,14 +125,16 @@
     "name": "أمين الله",
     "surname": "جريدي",
     "educational_level": "7 أساسي",
-    "institution": "",
+    "institution": "المدرسة الاعدادية بالرقاب",
     "entry_date": "2025-07-25",
     "guardian_full_name": "ياسين جريدي",
     "phone_number": "97033725",
     "payment_generation_status": "active",
     "payment_count": 3,
     "unpaid_total": 100.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-09-26"
+    ],
     "unpaid_periods": [
       {
         "period": "25/08/2025 إلى 24/09/2025",
@@ -205,12 +207,16 @@
     "guardian_full_name": "حياة جلالي",
     "phone_number": "99810230",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 50.0,
+    "payment_count": 3,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "26/08/2025 إلى 25/09/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "26/09/2025 إلى 25/10/2025",
         "amount": 50.0
       }
     ],
@@ -417,7 +423,7 @@
     "name": "مريم",
     "surname": "جلالي",
     "educational_level": "7 أساسي",
-    "institution": "",
+    "institution": "المدرسة الاعدادية بالرقاب",
     "entry_date": "2025-07-25",
     "guardian_full_name": "عبد السلام جلالي",
     "phone_number": "97867896",
@@ -633,7 +639,7 @@
     "name": "ألاء",
     "surname": "زارعي",
     "educational_level": "7 أساسي",
-    "institution": "",
+    "institution": "المدرسة الاعدادية بالرقاب",
     "entry_date": "2025-07-25",
     "guardian_full_name": "نجيبة زارعي",
     "phone_number": "96158860",
@@ -708,18 +714,41 @@
     "notes": ""
   },
   {
+    "id": 116,
+    "name": "أحمد",
+    "surname": "زريبي",
+    "educational_level": "7 أساسي",
+    "institution": "المدرسة الاعدادية بالرقاب",
+    "entry_date": "2025-09-26",
+    "guardian_full_name": "شكري زريبي",
+    "phone_number": "48070803",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "26/09/2025 إلى 25/10/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 76,
     "name": "زهرة",
     "surname": "زريبي",
     "educational_level": "7 أساسي",
-    "institution": "",
+    "institution": "المدرسة الاعدادية بالرقاب",
     "entry_date": "2025-08-14",
     "guardian_full_name": "محسن زريبي",
     "phone_number": "96371474",
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 50.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-09-26"
+    ],
     "unpaid_periods": [
       {
         "period": "14/09/2025 إلى 13/10/2025",
@@ -733,7 +762,7 @@
     "name": "سيف",
     "surname": "زريبي",
     "educational_level": "7 أساسي",
-    "institution": "",
+    "institution": "المدرسة الاعدادية بالرقاب",
     "entry_date": "2025-07-30",
     "guardian_full_name": "محمد الصغير زريبي",
     "phone_number": "97551971",
@@ -749,14 +778,16 @@
     "name": "يوسف",
     "surname": "زريبي",
     "educational_level": "7 أساسي",
-    "institution": "",
+    "institution": "المدرسة الاعدادية بالرقاب",
     "entry_date": "2025-08-12",
     "guardian_full_name": "رياض زريبي",
     "phone_number": "50433140",
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 50.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-09-26"
+    ],
     "unpaid_periods": [
       {
         "period": "12/09/2025 إلى 11/10/2025",
@@ -807,7 +838,7 @@
     "name": "تقوى",
     "surname": "شرف الدين",
     "educational_level": "7 أساسي",
-    "institution": "",
+    "institution": "المدرسة الاعدادية بالرقاب",
     "entry_date": "2025-08-03",
     "guardian_full_name": "لمين شرف الدين",
     "phone_number": "97917380",
@@ -881,6 +912,27 @@
       {
         "period": "25/09/2025 إلى 24/10/2025",
         "amount": 40.0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 119,
+    "name": "أيهم",
+    "surname": "شرميطي",
+    "educational_level": "9 أساسي",
+    "institution": "المدرسة الاعدادية بالرقاب",
+    "entry_date": "2025-09-26",
+    "guardian_full_name": "صباح عبيدي",
+    "phone_number": "96958744",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "26/09/2025 إلى 25/10/2025",
+        "amount": 50.0
       }
     ],
     "notes": ""
@@ -1103,7 +1155,7 @@
     "name": "هناء",
     "surname": "صالحي",
     "educational_level": "7 أساسي",
-    "institution": "",
+    "institution": "المدرسة الاعدادية بالرقاب",
     "entry_date": "2025-08-22",
     "guardian_full_name": "منى صالحي",
     "phone_number": "55300723",
@@ -1282,7 +1334,7 @@
     "name": "أميمة",
     "surname": "طقوقي",
     "educational_level": "7 أساسي",
-    "institution": "",
+    "institution": "المدرسة الاعدادية بالرقاب",
     "entry_date": "2025-07-25",
     "guardian_full_name": "علي طقوقي",
     "phone_number": "96079809",
@@ -1344,6 +1396,27 @@
       {
         "period": "24/09/2025 إلى 23/10/2025",
         "amount": 100.0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 120,
+    "name": "سلمى",
+    "surname": "عبد اللاوي",
+    "educational_level": "9 أساسي",
+    "institution": "المدرسة الاعدادية بالرقاب",
+    "entry_date": "2025-09-26",
+    "guardian_full_name": "نورة عبد اللاوي",
+    "phone_number": "29164626",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "26/09/2025 إلى 25/10/2025",
+        "amount": 50.0
       }
     ],
     "notes": ""
@@ -1506,6 +1579,27 @@
     "unpaid_periods": [
       {
         "period": "24/09/2025 إلى 23/10/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 115,
+    "name": "حلمي",
+    "surname": "عمارة",
+    "educational_level": "7 أساسي",
+    "institution": "المدرسة الاعدادية بالرقاب",
+    "entry_date": "2025-09-26",
+    "guardian_full_name": "وحيدة كدوسي",
+    "phone_number": "97053933",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "26/09/2025 إلى 25/10/2025",
         "amount": 50.0
       }
     ],
@@ -1712,6 +1806,27 @@
     "notes": ""
   },
   {
+    "id": 118,
+    "name": "آية",
+    "surname": "فالحي",
+    "educational_level": "9 أساسي",
+    "institution": "المدرسة الاعدادية بالرقاب",
+    "entry_date": "2025-09-26",
+    "guardian_full_name": "أحلام كدوسي",
+    "phone_number": "94102027",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "26/09/2025 إلى 25/10/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 103,
     "name": "تقوى",
     "surname": "فالحي",
@@ -1728,6 +1843,27 @@
       {
         "period": "22/09/2025 إلى 21/10/2025",
         "amount": 100.0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 117,
+    "name": "عزيز",
+    "surname": "فالحي",
+    "educational_level": "9 أساسي",
+    "institution": "المدرسة الاعدادية بالرقاب",
+    "entry_date": "2025-09-26",
+    "guardian_full_name": "أحلام كدوسي",
+    "phone_number": "94102027",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "26/09/2025 إلى 25/10/2025",
+        "amount": 50.0
       }
     ],
     "notes": ""
@@ -1762,15 +1898,20 @@
     "name": "رؤى",
     "surname": "قادري",
     "educational_level": "7 أساسي",
-    "institution": "",
+    "institution": "المدرسة الاعدادية ابن أبي الضياف",
     "entry_date": "2025-07-25",
     "guardian_full_name": "مبروكة قادري",
     "phone_number": "93541955",
-    "payment_generation_status": "suspended",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
+    "payment_generation_status": "active",
+    "payment_count": 2,
+    "unpaid_total": 40.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "26/09/2025 إلى 25/10/2025",
+        "amount": 40.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -1778,17 +1919,21 @@
     "name": "رنيم",
     "surname": "قادري",
     "educational_level": "7 أساسي",
-    "institution": "",
+    "institution": "المدرسة الاعدادية ابن أبي الضياف",
     "entry_date": "2025-07-25",
     "guardian_full_name": "مبروكة قادري",
     "phone_number": "93541955",
-    "payment_generation_status": "suspended",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_generation_status": "active",
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "25/07/2025 إلى 24/08/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "26/09/2025 إلى 25/10/2025",
         "amount": 50.0
       }
     ],
@@ -1820,14 +1965,16 @@
     "name": "سلمى",
     "surname": "قادري",
     "educational_level": "7 أساسي",
-    "institution": "",
+    "institution": "المدرسة الاعدادية بالرقاب",
     "entry_date": "2025-08-12",
     "guardian_full_name": "بدر الدين قادري",
     "phone_number": "23509750",
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 100.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-09-26"
+    ],
     "unpaid_periods": [
       {
         "period": "12/08/2025 إلى 11/09/2025",
@@ -1870,7 +2017,7 @@
     "name": "فرح",
     "surname": "قادري",
     "educational_level": "7 أساسي",
-    "institution": "",
+    "institution": "المدرسة الاعدادية بالرقاب",
     "entry_date": "2025-08-03",
     "guardian_full_name": "بسمة أم هاني",
     "phone_number": "93603062",
@@ -2140,7 +2287,7 @@
     "name": "مرام",
     "surname": "كدوسي",
     "educational_level": "7 أساسي",
-    "institution": "",
+    "institution": "المدرسة الاعدادية بالرقاب",
     "entry_date": "2025-08-14",
     "guardian_full_name": "النوّي كدوسي",
     "phone_number": "97915970",
@@ -2336,7 +2483,7 @@
     "name": "يحي",
     "surname": "مسعودي",
     "educational_level": "7 أساسي",
-    "institution": "",
+    "institution": "المدرسة الاعدادية بالرقاب",
     "entry_date": "2025-07-29",
     "guardian_full_name": "مهدي مسعودي",
     "phone_number": "55071434",
@@ -2361,7 +2508,7 @@
     "name": "إيمان",
     "surname": "نصيري",
     "educational_level": "7 أساسي",
-    "institution": "",
+    "institution": "المدرسة الاعدادية بالرقاب",
     "entry_date": "2025-07-25",
     "guardian_full_name": "محمد الصغير نصيري",
     "phone_number": "96586727",
