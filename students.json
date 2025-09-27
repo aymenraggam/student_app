@@ -522,7 +522,9 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-09-27"
+    ],
     "unpaid_periods": [
       {
         "period": "02/09/2025 إلى 01/10/2025",
@@ -763,6 +765,27 @@
     "notes": ""
   },
   {
+    "id": 132,
+    "name": "وجدان",
+    "surname": "زارعي",
+    "educational_level": "2 ث علوم",
+    "institution": "المعهد الثانوي بالرقاب",
+    "entry_date": "2025-09-27",
+    "guardian_full_name": "شدلية أم هاني",
+    "phone_number": "98815898",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "27/09/2025 إلى 26/10/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 116,
     "name": "أحمد",
     "surname": "زريبي",
@@ -860,7 +883,8 @@
     "payment_count": 2,
     "unpaid_total": 50.0,
     "absence_count": [
-      "2025-09-26"
+      "2025-09-26",
+      "2025-09-27"
     ],
     "unpaid_periods": [
       {
@@ -1162,7 +1186,8 @@
     "payment_count": 2,
     "unpaid_total": 80.0,
     "absence_count": [
-      "2025-09-26"
+      "2025-09-26",
+      "2025-09-27"
     ],
     "unpaid_periods": [
       {
@@ -1329,7 +1354,9 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 100.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-09-27"
+    ],
     "unpaid_periods": [
       {
         "period": "03/09/2025 إلى 02/10/2025",
@@ -1464,6 +1491,48 @@
       {
         "period": "19/09/2025 إلى 18/10/2025",
         "amount": 40.0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 133,
+    "name": "ريان",
+    "surname": "عامري",
+    "educational_level": "2 ث علوم",
+    "institution": "المعهد الثانوي بالرقاب",
+    "entry_date": "2025-09-27",
+    "guardian_full_name": "منى بوزيدي",
+    "phone_number": "40014999",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "27/09/2025 إلى 26/10/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 134,
+    "name": "محمد عزيز",
+    "surname": "عامري",
+    "educational_level": "2 ث علوم",
+    "institution": "المعهد الثانوي بالرقاب",
+    "entry_date": "2025-09-27",
+    "guardian_full_name": "علي عامري",
+    "phone_number": "51163735",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "27/09/2025 إلى 26/10/2025",
+        "amount": 50.0
       }
     ],
     "notes": ""
@@ -1793,7 +1862,9 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 100.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-09-27"
+    ],
     "unpaid_periods": [
       {
         "period": "13/08/2025 إلى 12/09/2025",
@@ -2024,6 +2095,27 @@
       {
         "period": "26/09/2025 إلى 25/10/2025",
         "amount": 40.0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 131,
+    "name": "رؤى",
+    "surname": "قادري",
+    "educational_level": "8 أساسي",
+    "institution": "المدرسة الاعدادية بالرقاب",
+    "entry_date": "2025-09-27",
+    "guardian_full_name": "خير الدين قادري",
+    "phone_number": "98350492",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "27/09/2025 إلى 26/10/2025",
+        "amount": 50.0
       }
     ],
     "notes": ""
@@ -2304,7 +2396,7 @@
         "amount": 50.0
       }
     ],
-    "notes": ""
+    "notes": "لا ينجز واجباته"
   },
   {
     "id": 45,
