@@ -1574,7 +1574,7 @@
         "amount": 50.0
       }
     ],
-    "notes": ""
+    "notes": "مشارك في القسم، جدي في العمل، عمله منظم ومتقن"
   },
   {
     "id": 49,
@@ -2304,19 +2304,15 @@
     "phone_number": "93541955",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 80.0,
+    "unpaid_total": 40.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "09/08/2025 إلى 08/09/2025",
-        "amount": 40.0
-      },
       {
         "period": "09/09/2025 إلى 08/10/2025",
         "amount": 40.0
       }
     ],
-    "notes": ""
+    "notes": "حسن السلوك، جدي في العمل، يداوم على إنجاز واجباته"
   },
   {
     "id": 36,
