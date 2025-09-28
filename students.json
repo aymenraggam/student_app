@@ -1916,13 +1916,9 @@
     "phone_number": "52390362",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "16/08/2025 إلى 15/09/2025",
-        "amount": 50.0
-      },
       {
         "period": "16/09/2025 إلى 15/10/2025",
         "amount": 50.0
@@ -1942,7 +1938,9 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 100.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-09-28"
+    ],
     "unpaid_periods": [
       {
         "period": "09/08/2025 إلى 08/09/2025",
@@ -2143,7 +2141,9 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-09-28"
+    ],
     "unpaid_periods": [
       {
         "period": "25/09/2025 إلى 24/10/2025",
@@ -2211,13 +2211,9 @@
     "phone_number": "20109555",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "09/08/2025 إلى 08/09/2025",
-        "amount": 50.0
-      },
       {
         "period": "09/09/2025 إلى 08/10/2025",
         "amount": 50.0
