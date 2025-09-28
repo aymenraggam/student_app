@@ -154,7 +154,8 @@
     "payment_count": 3,
     "unpaid_total": 100.0,
     "absence_count": [
-      "2025-09-26"
+      "2025-09-26",
+      "2025-09-28"
     ],
     "unpaid_periods": [
       {
@@ -463,7 +464,9 @@
     "payment_generation_status": "active",
     "payment_count": 3,
     "unpaid_total": 90.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-09-28"
+    ],
     "unpaid_periods": [
       {
         "period": "25/07/2025 إلى 24/08/2025",
@@ -811,7 +814,8 @@
     "unpaid_total": 50.0,
     "absence_count": [
       "2025-09-26",
-      "2025-09-27"
+      "2025-09-27",
+      "2025-09-28"
     ],
     "unpaid_periods": [
       {
@@ -851,7 +855,8 @@
     "unpaid_total": 50.0,
     "absence_count": [
       "2025-09-26",
-      "2025-09-27"
+      "2025-09-27",
+      "2025-09-28"
     ],
     "unpaid_periods": [
       {
@@ -987,7 +992,9 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-09-28"
+    ],
     "unpaid_periods": [
       {
         "period": "26/09/2025 إلى 25/10/2025",
@@ -2254,7 +2261,9 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 50.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-09-28"
+    ],
     "unpaid_periods": [
       {
         "period": "09/09/2025 إلى 08/10/2025",
@@ -2671,6 +2680,27 @@
       {
         "period": "25/09/2025 إلى 24/10/2025",
         "amount": 100.0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 135,
+    "name": "ملاك",
+    "surname": "مسعودي",
+    "educational_level": "9 أساسي",
+    "institution": "المدرسة الاعدادية بالرقاب",
+    "entry_date": "2025-09-28",
+    "guardian_full_name": "طارق مسعودي",
+    "phone_number": "97756887",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "28/09/2025 إلى 27/10/2025",
+        "amount": 50.0
       }
     ],
     "notes": ""
