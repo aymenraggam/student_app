@@ -351,14 +351,14 @@
     // <<<< نهاية الكود المحدث >>>>
 
     // دالة بناء جدول الإعدادي والثانوي - معدلة بالكامل
-    async function buildSchedule(tableId, children = [], isChildInEnglishGroup = false) {
+    async function buildSchedule(tableId, children = []) {
       const [perm, temp] = await Promise.all([
         fetch("schedule_permanent.json").then(r => r.json()),
         fetch("schedule_temporary.json").then(r => r.json())
       ]);
       
       const replacedClassIds = new Set(temp.filter(t => t.replaced_class_id !== null).map(t => t.replaced_class_id));
-      const allTimeSlots = [...new Set([...perm.map(c => c.time_slot), ...temp.map(c => c.time_slot)])].sort();
+      const allTimeSlots = [...new Set([...perm.map(c => c.time_slot), ...temp.map(c => c.time_slot)])].sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
       const days = ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"];
       
       const tbody = document.querySelector(`#${tableId} tbody`);
@@ -366,6 +366,9 @@
 
       const relevantLevels = [...new Set(children.map(student => student.educational_level))];
       const childrenIds = children.map(c => c.id);
+
+      // --- جديد: تحديد إذا كان أحد الأبناء في مجموعة الإنجليزية ---
+      const isChildInEnglishGroup = children.some(c => c.educational_level === "مجموعة إنجليزية");
 
       allTimeSlots.forEach(slot => {
         const tr = document.createElement("tr");
@@ -382,17 +385,14 @@
           });
 
           if (tempMatch) {
-            // التحقق إذا كانت الحصة المؤقتة تخص الولي
             const isRelevantTemp = (
-              // حصة عامة ومستواها يطابق
               (tempMatch.class_type.includes('general') && relevantLevels.includes(tempMatch.educational_level)) ||
-              // حصة خاصة وأحد الأبناء مسجل بها
               (tempMatch.class_type.includes('private') && tempMatch.student_ids.some(id => childrenIds.includes(id)))
             );
 
             if (isRelevantTemp) {
               cell.textContent = tempMatch.educational_level;
-              cell.classList.add('temporary'); // تلوينها كحصة مؤقتة
+              cell.classList.add('temporary');
               if (tempMatch.class_type.startsWith('replacement')) {
                   cell.classList.add('replacement');
               } else if (tempMatch.class_type.startsWith('extra')) {
@@ -406,17 +406,22 @@
           if (!classFound) {
             const permMatch = perm.find(c => c.time_slot === slot && c.day_of_week === day);
             if (permMatch && !replacedClassIds.has(permMatch.id)) {
-              if (permMatch.class_type === 'private' && permMatch.student_ids.some(id => childrenIds.includes(id))) {
-                  const enrolledChildren = children.filter(child => permMatch.student_ids.includes(child.id));
-                  cell.textContent = enrolledChildren.map(child => child.name).join(', ');
-                  cell.classList.add('private');
-              } else if (permMatch.class_type === 'general' && relevantLevels.includes(permMatch.educational_level)) {
-                  cell.textContent = permMatch.educational_level;
-                  cell.classList.add('general');
-              } else if (permMatch.class_type === 'english' && isChildInEnglishGroup) {
-                  cell.textContent = 'حصة إنجليزية';
-                  cell.classList.add('english');
-              }
+                
+                // --- بداية التعديل الرئيسي هنا ---
+                const classLevels = permMatch.levels || [];
+
+                if (permMatch.class_type === 'private' && permMatch.student_ids.some(id => childrenIds.includes(id))) {
+                    const enrolledChildren = children.filter(child => permMatch.student_ids.includes(child.id));
+                    cell.textContent = enrolledChildren.map(child => child.name).join(', ');
+                    cell.classList.add('private');
+                } else if (permMatch.class_type === 'general' && classLevels.some(level => relevantLevels.includes(level))) {
+                    cell.textContent = classLevels.join(' - ');
+                    cell.classList.add('general');
+                } else if (permMatch.class_type === 'english' && isChildInEnglishGroup) {
+                    cell.textContent = 'حصة إنجليزية';
+                    cell.classList.add('english');
+                }
+                // --- نهاية التعديل الرئيسي ---
             }
           }
           tr.appendChild(cell);
