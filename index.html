@@ -8,13 +8,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>مؤسسة الصالحي</title>
   <link rel="stylesheet" href="style.css">
-    <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X1DV2V6X2Y"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X1DV2V6X2Y"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-  
+
     gtag('config', 'G-X1DV2V6X2Y');
   </script>
 </head>
@@ -24,14 +23,14 @@
     <img src="logo.png" alt="شعار المؤسسة" class="logo">
     <h1>مؤسسة الصالحي للدعم والتميّز</h1>
   </div>
-  
+
   <div class="container">
     <div class="introduction">
       <p style="font-size: 1.4em; font-weight: bold; line-height: 1.6;">
         مرحباً بكم في مؤسسة الصالحي، حيث نسعى جاهدين لتقديم أفضل دعم تعليمي وتربوي لأبنائكم. هدفنا هو تمكين كل تلميذ من تحقيق أقصى إمكاناته، وتجاوز الصعوبات الدراسية، وبناء مستقبل مشرق من خلال مسيرة دراسية ناجحة.
       </p>
     </div>
-    
+
     <div class="quick-features">
       <h2>ميزات سريعة</h2>
       <div class="features-container">
@@ -57,7 +56,7 @@
         </div>
       </div>
     </div>
-    
+
     <div class="links">
       <a href="login.html">دخول الأولياء</a>
       <a href="login.html?admin=1">خاص بالإدارة</a>
@@ -67,8 +66,16 @@
       <h2>📢 إعلانات هامة 📢</h2>
       <ul id="announcements-list" class="announcements-list-styled">
         <div class="announcement-card">
-          <h3><a href="https://drive.google.com/file/d/1A2A-PMfGE3x31intUydSwCwXMJzPh8Yy/view?usp=drive_link" target="_blank" style="color: inherit; text-decoration: none;">تحميل مباشر للتطبيق</a></h3>
-          <p class="date"> نضع على ذمتكم تطبيق أندرويد خاص بالموقع</p>
+          <h3>تحديث جديد لتطبيق المؤسسة: Essalhi_App</h3>
+          <p class="date">
+            التطبيق الجديد يمكنكم من تلقي الإرساليات مباشرة من الإدارة، مما يجعلكم على اطلاع دائم بآخر المستجدات والإعلانات.
+          </p>
+          <p class="update-notice">
+            <strong>ملاحظة هامة:</strong> لكل من قام بتثبيت النسخة السابقة، يرجى تسجيل الخروج، ثم حذف التطبيق القديم وتثبيت هذه النسخة الجديدة لضمان الاستفادة من كافة الميزات.
+          </p>
+          <a href="https://drive.google.com/file/d/12AVT0RlvEPhQsx0pfuJMOrFIRorYDgYT/view?usp=sharing" target="_blank" class="download-app-btn">
+            📥 تحميل النسخة الجديدة
+          </a>
         </div>
         </ul>
     </div>
@@ -134,7 +141,7 @@
     </div>
   </div>
 
-  <script src="guardian_script.js"></script> 
+  <script src="guardian_script.js"></script>
   <script src="schedule_script.js"></script>
   <script src="schedule_primary_script.js"></script>
   <script>
@@ -144,7 +151,7 @@
 
     function openModal(content, modalClass = '') {
       modalContent.innerHTML = content;
-      modal.className = 'modal'; 
+      modal.className = 'modal';
       if (modalClass) modal.classList.add(modalClass);
       modal.style.display = 'block';
       modalBackdrop.style.display = 'block';
@@ -176,7 +183,7 @@
       const password = form.querySelector('input[type="password"]').value;
       const errorEl = form.querySelector('.error-message');
       errorEl.textContent = '';
-      
+
       if (password === 'aymenstam') {
         sessionStorage.setItem("admin", "true");
         if (target === 'lessons') {
@@ -277,7 +284,7 @@
             listContainer.appendChild(card);
           });
           section.style.display = 'block';
-        } 
+        }
         else if (typeof topStudentsData === 'string') {
           listContainer.innerHTML = `<p style="text-align: center; font-size: 1.2em; color: #555; padding: 20px;">${topStudentsData}</p>`;
           section.style.display = 'block';
