@@ -66,6 +66,15 @@
     "password": "571554"
   },
   {
+    "guardian_full_name": "علي بوعلافي",
+    "phone_number": "44368490",
+    "student_ids": [
+      139
+    ],
+    "unpaid_total": 50.0,
+    "password": "231991"
+  },
+  {
     "guardian_full_name": "فاطمة بوعلافي",
     "phone_number": "53780865",
     "student_ids": [
@@ -99,7 +108,7 @@
     "student_ids": [
       62
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 100.0,
     "password": "034434"
   },
   {
@@ -126,7 +135,7 @@
     "student_ids": [
       91
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "085406"
   },
   {
@@ -298,7 +307,7 @@
       42,
       51
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "934358"
   },
   {
@@ -377,7 +386,7 @@
       45,
       46
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 100.0,
     "password": "797132"
   },
   {
@@ -488,7 +497,7 @@
     "student_ids": [
       20
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "password": "642741"
   },
   {
@@ -565,7 +574,7 @@
     "student_ids": [
       90
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "395957"
   },
   {
@@ -576,6 +585,15 @@
     ],
     "unpaid_total": 50.0,
     "password": "970463"
+  },
+  {
+    "guardian_full_name": "حسين عكروتي",
+    "phone_number": "97904158",
+    "student_ids": [
+      140
+    ],
+    "unpaid_total": 50.0,
+    "password": "150723"
   },
   {
     "guardian_full_name": "عقبة عيادي",
@@ -713,7 +731,7 @@
     "student_ids": [
       59
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "password": "282387"
   },
   {
@@ -769,7 +787,7 @@
     "student_ids": [
       40
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "887178"
   },
   {

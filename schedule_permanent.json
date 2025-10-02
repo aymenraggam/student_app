@@ -1,17 +1,9 @@
 [
   {
-    "id": 46,
-    "day_of_week": "الأحد",
-    "time_slot": "08:00 - 10:00",
-    "educational_level": "1 ثانوي",
-    "class_type": "general",
-    "student_ids": []
-  },
-  {
     "id": 45,
     "day_of_week": "الأحد",
     "time_slot": "10:00 - 12:00",
-    "educational_level": "2 ث علوم",
+    "educational_level": "1 ثانوي",
     "class_type": "general",
     "student_ids": []
   },
@@ -36,6 +28,14 @@
     "day_of_week": "الأحد",
     "time_slot": "17:00 - 19:00",
     "educational_level": "8 أساسي",
+    "class_type": "general",
+    "student_ids": []
+  },
+  {
+    "id": 62,
+    "day_of_week": "الأحد",
+    "time_slot": "19:00 - 21:00",
+    "educational_level": "2 ث علوم",
     "class_type": "general",
     "student_ids": []
   },
@@ -68,6 +68,7 @@
     "educational_level": "1 ثانوي",
     "class_type": "private",
     "student_ids": [
+      62,
       103
     ]
   },
@@ -154,6 +155,7 @@
     "educational_level": "1 ثانوي",
     "class_type": "private",
     "student_ids": [
+      62,
       103
     ]
   },
@@ -172,6 +174,7 @@
     "educational_level": "1 ثانوي",
     "class_type": "private",
     "student_ids": [
+      62,
       103
     ]
   },
