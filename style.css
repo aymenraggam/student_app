@@ -390,7 +390,7 @@ tr:hover {
     font-size: 0.7em;
   }
   /* --- نهاية الكود المضاف --- */
-  
+
   input[type="text"], input[type="password"] { width: 100%; font-size: 1em; padding: 10px; }
   .cards-container, .features-container { flex-direction: column; align-items: center; }
   .student-card, .feature-card { width: 90%; max-width: 350px; }
@@ -531,4 +531,41 @@ tr:hover {
     white-space: nowrap;           /* يبقي النص في سطر واحد */
     text-overflow: ellipsis;       /* إذا طول النص كبير، يظهر "..." */
     overflow: hidden;
+}
+
+/* ======================================= */
+/* ===  أنماط زر تحميل التطبيق والملاحظات === */
+/* ======================================= */
+.announcement-card .update-notice {
+  font-size: 0.95em;
+  color: #856404; /* لون بني داكن للنص */
+  background-color: #fff3cd; /* خلفية صفراء فاتحة */
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 15px;
+  border-right: 4px solid #ffeeba; /* حد جانبي متناسق */
+  text-align: right; /* محاذاة النص لليمين */
+}
+
+.download-app-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 28px;
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+}
+
+.download-app-btn:hover {
+  background: var(--primary-hover);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
 }
