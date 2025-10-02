@@ -56,12 +56,12 @@
     "phone_number": "98374485",
     "payment_generation_status": "active",
     "payment_count": 1,
-    "unpaid_total": 50.0,
+    "unpaid_total": 40.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "27/09/2025 إلى 26/10/2025",
-        "amount": 50.0
+        "amount": 40.0
       }
     ],
     "notes": ""
@@ -77,12 +77,12 @@
     "phone_number": "98374485",
     "payment_generation_status": "active",
     "payment_count": 1,
-    "unpaid_total": 50.0,
+    "unpaid_total": 40.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "27/09/2025 إلى 26/10/2025",
-        "amount": 50.0
+        "amount": 40.0
       }
     ],
     "notes": ""
@@ -98,12 +98,12 @@
     "phone_number": "98374485",
     "payment_generation_status": "active",
     "payment_count": 1,
-    "unpaid_total": 50.0,
+    "unpaid_total": 40.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "27/09/2025 إلى 26/10/2025",
-        "amount": 50.0
+        "amount": 40.0
       }
     ],
     "notes": ""
@@ -373,6 +373,27 @@
     "unpaid_periods": [
       {
         "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 142,
+    "name": "رنيم",
+    "surname": "جلالي",
+    "educational_level": "1 ثانوي",
+    "institution": "المعهد الثانوي بالرقاب",
+    "entry_date": "2025-10-02",
+    "guardian_full_name": "ساسية جلالي",
+    "phone_number": "22438703",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "02/10/2025 إلى 01/11/2025",
         "amount": 50.0
       }
     ],
@@ -1309,12 +1330,12 @@
     "phone_number": "55238333",
     "payment_generation_status": "active",
     "payment_count": 1,
-    "unpaid_total": 0.0,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "23/09/2025 إلى 22/10/2025",
-        "amount": 0.0
+        "amount": 50.0
       }
     ],
     "notes": ""

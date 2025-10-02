@@ -53,7 +53,7 @@
       136,
       137
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 120.0,
     "password": "484977"
   },
   {
@@ -156,6 +156,15 @@
     ],
     "unpaid_total": 100.0,
     "password": "967544"
+  },
+  {
+    "guardian_full_name": "ساسية جلالي",
+    "phone_number": "22438703",
+    "student_ids": [
+      142
+    ],
+    "unpaid_total": 50.0,
+    "password": "571442"
   },
   {
     "guardian_full_name": "عبد السلام جلالي",
@@ -413,7 +422,7 @@
     "student_ids": [
       99
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 50.0,
     "password": "524943"
   },
   {
