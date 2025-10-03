@@ -1,55 +1,37 @@
-function normalizePhone(p) {
-  return (p || "").replace(/[^\d]/g, "");
-}
+// This script is now significantly simplified.
 
-async function guardianLogin(phone, password) {
-  phone = normalizePhone(phone);
-  password = String(password);
-
-  // جلب بيانات الأولياء وكلمات السر في نفس الوقت
-  const [guardians, passwords] = await Promise.all([
-    fetch("guardians.json").then(r => r.json()),
-    fetch("guardian_passwords.json").then(r => r.json())
-  ]);
-
-  // التحقق من وجود الولي
-  const g = guardians.find(gd => normalizePhone(gd.phone_number) === phone);
-  if (!g) {
-    return null; // إذا لم يتم العثور على الولي، لا داعي للتحقق من كلمة السر
-  }
-
-  // التحقق من تطابق كلمة السر من الملف الخارجي
-  if (passwords[phone] === password) {
-    return g; // تم تسجيل الدخول بنجاح
-  }
-  
-  return null; // كلمة السر غير صحيحة
-}
-
-document.getElementById("loginForm")?.addEventListener("submit", async e => {
-  e.preventDefault();
-  const phone = document.getElementById("phone").value.trim();
-  const pass = document.getElementById("password").value.trim();
-  const errorElement = document.getElementById("error");
-
-  // حالة تسجيل دخول الإدارة
-  if (pass === "aymenstam") {
-    sessionStorage.setItem("admin", "true");
-    window.location = "admin.html";
-    return;
-  }
-
-  // حالة تسجيل دخول الولي
+document.addEventListener("DOMContentLoaded", async () => {
   try {
-    const guardian = await guardianLogin(phone, pass);
-    if (guardian) {
-      sessionStorage.setItem("guardian", JSON.stringify(guardian));
-      window.location = "guardian_portal.html";
-    } else {
-      errorElement.innerText = "❌ رقم الهاتف أو كلمة السر غير صحيحة";
+    const guardianData = sessionStorage.getItem("guardian");
+    if (!guardianData) {
+        window.location = "login.html";
+        return;
     }
+
+    const guardian = JSON.parse(guardianData);
+    const students = await fetch("students.json").then(res => res.json());
+    const children = students.filter(student => guardian.student_ids.includes(student.id));
+
+    // Display guardian's name and total unpaid amount
+    document.getElementById("guardianName").innerText = `مرحباً، ${guardian.guardian_full_name}`;
+    document.getElementById("totalUnpaid").innerText = `${guardian.unpaid_total.toFixed(2)} دينار`;
+
+    // Populate the children table (this is the only table left)
+    const childrenTableBody = document.getElementById("children").getElementsByTagName('tbody')[0];
+    if (childrenTableBody) {
+        childrenTableBody.innerHTML = ''; 
+        children.forEach(student => {
+          let childRow = childrenTableBody.insertRow();
+          childRow.innerHTML = `<td>${student.name} ${student.surname}</td>
+                                <td>${student.educational_level}</td>
+                                <td>${student.institution || 'غير محددة'}</td>
+                                <td>${student.unpaid_total.toFixed(2)}</td>
+                                <td>${Array.isArray(student.absence_count) ? student.absence_count.length : 0}</td>`;
+        });
+    }
+
   } catch (error) {
-    console.error("Login error:", error);
-    errorElement.innerText = "حدث خطأ أثناء محاولة تسجيل الدخول. يرجى المحاولة مرة أخرى.";
+    console.error("حدث خطأ:", error);
+    alert("عفواً، حدث خطأ أثناء تحميل بيانات الصفحة. قد تكون البيانات غير مكتملة.");
   }
 });
