@@ -8,60 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>بوابة الولي - مؤسسة الصالحي</title>
   <link rel="stylesheet" href="style.css">
-  
-  <style>
-    #sendNoteButtonMessenger {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-    }
-    #sendNoteButtonMessenger svg {
-      width: 20px;
-      height: 20px;
-      fill: white;
-    }
-    .notes-container {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 10px;
-    }
-    .tags-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-    .note-tag {
-      padding: 5px 12px;
-      border-radius: 15px;
-      font-size: 0.9em;
-      font-weight: bold;
-      color: #333;
-    }
-    .tag-positive {
-      background-color: #d4edda; /* أخضر فاتح */
-      border: 1px solid #c3e6cb;
-    }
-    .tag-negative {
-      background-color: #f8d7da; /* أحمر فاتح */
-      border: 1px solid #f5c6cb;
-    }
-    .tag-neutral {
-      background-color: #e2e3e5; /* رمادي فاتح */
-      border: 1px solid #d6d8db;
-    }
-    .manual-note {
-      margin-top: 10px;
-      padding-right: 10px;
-      border-right: 3px solid #007bff;
-      font-style: italic;
-      color: #555;
-      width: 100%;
-    }
-  </style>
-      <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X1DV2V6X2Y"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-X1DV2V6X2Y"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -78,12 +25,6 @@
   </div>
 
   <div class="container">
-    <h3>مرحباً بك في بوابة الولي</h3>
-    <p>
-      في هذه الصفحة، ستجد ملخصًا شاملاً لمتابعة المسار الدراسي لأبنائك. يمكنك الاطلاع على قائمة أبنائك المسجلين مع تفاصيل ديونهم و غياباتهم، بالإضافة إلى جدول الدفعات غير الخالصة وجدول الحصص الأسبوعي.
-    </p>
-    <hr>
-
     <h2 id="guardianName"></h2>
 
     <h3>أبناؤك</h3>
@@ -93,7 +34,8 @@
           <tr>
             <th>الاسم</th>
             <th>المستوى</th>
-            <th>المؤسسة</th> <th>الديون</th>
+            <th>المؤسسة</th>
+            <th>الديون</th>
             <th>عدد الغيابات</th>
           </tr>
         </thead>
@@ -103,509 +45,37 @@
 
     <p id="totalUnpaidContainer">إجمالي الدفعات غير الخالصة: <span id="totalUnpaid" style="font-size: 1.2em; color: #d9534f; font-weight: bold;"></span></p>
 
-    <h3>الدفعات غير الخالصة</h3>
-    <div class="table-responsive">
-      <table id="payments" class="datatable">
-        <thead>
-          <tr><th>الفترة</th><th>المبلغ</th><th>التلميذ</th></tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
+    <hr style="margin: 30px 0;">
 
-    <hr>
-    <h3>الغيابات</h3>
-    <div class="table-responsive">
-      <table id="absences" class="datatable">
-          <thead>
-              <tr>
-                  <th>التلميذ</th>
-                  <th>تاريخ الغياب</th>
-              </tr>
-          </thead>
-          <tbody></tbody>
-      </table>
-    </div>
+    <div id="app-announcement-section" class="announcements-container" style="text-align: center; border-top: 4px solid var(--primary-color);">
+        <h2>تحديث هام: كل التفاصيل الآن في تطبيقنا الجديد!</h2>
+        <p style="font-size: 1.2em; line-height: 1.7; color: #444;">
+            حرصًا منا على حماية بياناتكم وتوفير تجربة متابعة أفضل وأكثر تفاعلية، تم نقل جميع البيانات التفصيلية مثل (قائمة الدفعات، سجل الغيابات، الملاحظات التربوية، وجداول الحصص) إلى تطبيق المؤسسة الرسمي <strong>Essalhi_App</strong>.
+        </p>
 
-    <hr>
-    <h3>ملاحظات هامة</h3>
-    <div class="table-responsive">
-      <table id="notes" class="datatable">
-          <thead>
-              <tr>
-                  <th>التلميذ</th>
-                  <th>الملاحظة</th>
-              </tr>
-          </thead>
-          <tbody></tbody>
-      </table>
-    </div>
-    
-    <hr>
-    <h3>إعلانات هامة</h3>
-    <div class="table-responsive">
-      <table id="generalAnnouncements" class="datatable">
-        <thead>
-            <tr>
-                <th>التاريخ</th>
-                <th>الإعلان</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
-
-    <h3>إرسال ملاحظة للإدارة</h3>
-    <div id="leaveNoteSection" style="margin-top: 15px;">
-      <p>لإرسال ملاحظة للإدارة، اضغط على الزر أدناه للانتقال إلى ماسنجر وكتابة رسالتك مباشرة.</p>
-      
-      <button id="sendNoteButtonMessenger" style="width: 100%; padding: 12px 15px; cursor: pointer; background-color: #0084ff; color: white; border: none; border-radius: 5px; font-size: 1.1em;">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256.55 8C116.52 8 8 110.34 8 248.57c0 72.3 34.81 135.62 92.87 177.65 4.39 3.16 6.36 8.24 5.36 13.4-2.58 13.4-11.43 54.43-11.58 55.43-.17 1.12.02 2.33.58 3.39.57 1.06 1.54 1.83 2.72 2.22 1.17.4 2.48.23 3.54-.42l65.1-41.1c4.15-2.62 9.17-3.47 13.96-2.52 31.25 6.19 63.8 9.38 96.46 9.38 140.03 0 248.55-102.34 248.55-240.58C504.58 110.34 396.58 8 256.55 8zM240.5 352.62l-64.8-64.62 136.37-142.38 64.79 64.63-136.36 142.37z"/></svg>
-        <span>مراسلة الإدارة عبر ماسنجر</span>
-      </button>
-    </div>
-
-    <div id="permanent-schedule-container" style="display: none;">
-        <h3>جدول الحصص الخاص بأبنائك (إعدادي وثانوي)</h3>
-        <div class="table-responsive">
-          <table id="schedule" class="timetable">
-            <thead>
-              <tr>
-                <th>التوقيت</th>
-                <th>الإثنين</th>
-                <th>الثلاثاء</th>
-                <th>الأربعاء</th>
-                <th>الخميس</th>
-                <th>الجمعة</th>
-                <th>السبت</th>
-                <th>الأحد</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
+        <div class="announcement-card" style="text-align: right; background-color: #e3f2fd; margin-top: 20px;">
+            <h3 style="color: var(--dark-blue);">ما الجديد في تطبيق Essalhi_App؟</h3>
+            <p style="font-size: 1.1em; line-height: 1.6;">
+                التطبيق الجديد يتيح لكم تلقي إشعارات وإرساليات مباشرة من الإدارة، مما يضمن لكم مواكبة فورية لكل التحديثات، الإعلانات، والملاحظات الخاصة بأبنائكم.
+            </p>
         </div>
-    </div>
-    
-    <div id="primary-schedule-container" style="display: none;">
-        <h3>جدول الحصص الخاص بأبنائك (ابتدائي)</h3>
-        <div class="table-responsive">
-          <table id="primary-schedule" class="timetable">
-            <thead>
-              <tr>
-                <th>توقيت الدخول</th>
-                <th>الإثنين</th>
-                <th>الثلاثاء</th>
-                <th>الأربعاء</th>
-                <th>الخميس</th>
-                <th>الجمعة</th>
-                <th>السبت</th>
-                <th>الأحد</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
-        </div>
-    </div>
 
-  </div>
+        <p class="update-notice" style="margin-top: 20px;">
+            <strong>ملاحظة هامة:</strong> لكل من قام بتثبيت النسخة السابقة، يرجى تسجيل الخروج، ثم حذف التطبيق القديم وتثبيت هذه النسخة الجديدة لضمان الاستفادة من كافة الميزات.
+        </p>
+
+        <a href="https://drive.google.com/file/d/12AVT0RlvEPhQsx0pfuJMOrFIRorYDgYT/view?usp=sharing" target="_blank" class="download-app-btn" style="margin-top: 20px; font-size: 1.2em;">
+            📥 تحميل التطبيق الآن
+        </a>
+    </div>
+    </div>
 
   <div class="footer">
     <a href="index.html">العودة للصفحة الرئيسية</a>
     <p>حقوق النشر © 2025 الصالحي — جميع الحقوق محفوظة</p>
   </div>
   
-  <script src="schedule_primary_script.js"></script>
+  <script src="guardian_script.js"></script>
 
-  <script>
-    // <<<< بداية الكود المحدث لدالة buildPrimarySchedule >>>>
-    async function buildPrimarySchedule(tableId, children = []) {
-        try {
-            const [scheduleData, students] = await Promise.all([
-                fetch("schedule_primary.json").then(res => res.json()),
-                fetch("students.json").then(res => res.json())
-            ]);
-    
-            const PRIMARY_SCHEDULE_TIMES = ["08:00", "09:00", "10:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00"];
-            const SCHEDULE_DAYS = ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"];
-            
-            const primaryLevelStyles = {
-                "1 ابتدائي": { color: "#fab784" }, "2 ابتدائي": { color: "#08d4d1" },
-                "3 ابتدائي": { color: "#e9f57f" }, "4 ابتدائي": { color: "#91E3AD" },
-                "5 ابتدائي": { color: "#8cf5ec" }, "6 ابتدائي": { color: "#FFD9E0" },
-                "default": { color: "#E0E0E0" }
-            };
-    
-            function formatLevelDisplay(levelName, institution) {
-                let levelAbbr = levelName.replace(' ابتدائي', '');
-                if (levelName.includes('أولى')) levelAbbr = '1'; if (levelName.includes('ثانية')) levelAbbr = '2';
-                if (levelName.includes('ثالثة')) levelAbbr = '3'; if (levelName.includes('رابعة')) levelAbbr = '4';
-                if (levelName.includes('خامسة')) levelAbbr = '5'; if (levelName.includes('سادسة')) levelAbbr = '6';
-                const institutionAbbr = institution ? institution.replace('مدرسة ', '') : 'الكل';
-                return `${levelAbbr} (${institutionAbbr})`;
-            }
-            
-            const scheduleMap = new Map();
-            scheduleData.forEach(entry => {
-                scheduleMap.set(`${entry.day_of_week}|${entry.time_slot}`, entry);
-            });
-    
-            const tbody = document.querySelector(`#${tableId} tbody`);
-            if (!tbody) return;
-            tbody.innerHTML = "";
-    
-            PRIMARY_SCHEDULE_TIMES.forEach(time => {
-                const tr = document.createElement("tr");
-                tr.innerHTML = `<td>${time}</td>`; 
-    
-                SCHEDULE_DAYS.forEach(day => {
-                    const td = document.createElement("td");
-                    const entry = scheduleMap.get(`${day}|${time}`);
-    
-                    if (entry) {
-                        if (entry.class_type === 'private') {
-                            const enrolledChildren = children.filter(child => entry.student_ids.includes(child.id));
-                            if (enrolledChildren.length > 0) {
-                                const studentNames = enrolledChildren.map(child => child.name).join(', ');
-                                td.innerHTML = `<div class="private-primary-cell">${studentNames}</div>`;
-                            }
-    
-                        } else if (entry.levels_data) {
-                            // <<< بداية منطق الفلترة الجديد للحصص الجماعية >>>
-                            const relevantLevelsData = entry.levels_data.filter(levelInfo =>
-                                children.some(child => {
-                                    // يجب أن يتطابق المستوى الدراسي للابن مع مستوى الحصة
-                                    if (child.educational_level !== levelInfo.level) {
-                                        return false;
-                                    }
-                                    
-                                    const inst = levelInfo.institution || "";
-                                    
-                                    // الحالة 1: الحصة للكل
-                                    if (inst === "") return true;
-                                    
-                                    // الحالة 2: الحصة تستثني مدرسة معينة
-                                    if (inst.startsWith("الكل إلّا ")) {
-                                        const excludedInstitution = inst.replace("الكل إلّا ", "").trim();
-                                        // تكون الحصة مناسبة إذا كانت مدرسة الابن لا تساوي المدرسة المستثناة
-                                        return child.institution !== excludedInstitution;
-                                    }
-                                    
-                                    // الحالة 3: الحصة لمدرسة محددة
-                                    return child.institution === inst;
-                                })
-                            );
-                            // <<< نهاية منطق الفلترة الجديد >>>
-    
-                            if (relevantLevelsData.length === 1) {
-                                const levelInfo = relevantLevelsData[0];
-                                const style = primaryLevelStyles[levelInfo.level] || primaryLevelStyles.default;
-                                td.style.backgroundColor = style.color;
-                                td.style.verticalAlign = 'middle';
-                                td.style.textAlign = 'center';
-                                td.textContent = formatLevelDisplay(levelInfo.level, levelInfo.institution);
-    
-                            } else if (relevantLevelsData.length > 1) {
-                                td.style.padding = '0';
-                                const container = document.createElement('div');
-                                container.className = 'multi-level-cell';
-                                
-                                relevantLevelsData.forEach(levelInfo => {
-                                    const tile = document.createElement('div');
-                                    tile.className = 'level-tile';
-                                    const style = primaryLevelStyles[levelInfo.level] || primaryLevelStyles.default;
-                                    tile.style.backgroundColor = style.color;
-                                    tile.textContent = formatLevelDisplay(levelInfo.level, levelInfo.institution);
-                                    container.appendChild(tile);
-                                });
-                                td.appendChild(container);
-                            }
-                        }
-                    }
-                    tr.appendChild(td);
-                });
-                tbody.appendChild(tr);
-            });
-    
-            const container = document.querySelector(`#${tableId}`).closest('.table-responsive');
-            if (container && !container.querySelector('.legend')) {
-                const legend = document.createElement("div");
-                legend.classList.add("legend");
-                legend.innerHTML = `
-                    <div class="legend-item"><span class="legend-color" style="background-color: #fab784;"></span>سنة 1</div>
-                    <div class="legend-item"><span class="legend-color" style="background-color: #08d4d1;"></span>سنة 2</div>
-                    <div class="legend-item"><span class="legend-color" style="background-color: #e9f57f;"></span>سنة 3</div>
-                    <div class="legend-item"><span class="legend-color" style="background-color: #91E3AD;"></span>سنة 4</div>
-                    <div class="legend-item"><span class="legend-color" style="background-color: #8cf5ec;"></span>سنة 5</div>
-                    <div class="legend-item"><span class="legend-color" style="background-color: #FFD9E0;"></span>سنة 6</div>
-                    <div class="legend-item"><span class="legend-color" style="background-color: #f76d6d;"></span>حصة خاصة</div>
-                `;
-                container.appendChild(legend);
-            }
-    
-        } catch (error) {
-            console.error("Failed to build primary schedule:", error);
-            const tbody = document.querySelector(`#${tableId} tbody`);
-            if(tbody) tbody.innerHTML = `<tr><td colspan="8">حدث خطأ في تحميل الجدول.</td></tr>`;
-        }
-    }
-    // <<<< نهاية الكود المحدث >>>>
-
-    // دالة بناء جدول الإعدادي والثانوي - معدلة بالكامل
-    async function buildSchedule(tableId, children = []) {
-      const [perm, temp] = await Promise.all([
-        fetch("schedule_permanent.json").then(r => r.json()),
-        fetch("schedule_temporary.json").then(r => r.json())
-      ]);
-      
-      const replacedClassIds = new Set(temp.filter(t => t.replaced_class_id !== null).map(t => t.replaced_class_id));
-      const allTimeSlots = [...new Set([...perm.map(c => c.time_slot), ...temp.map(c => c.time_slot)])].sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
-      const days = ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"];
-      
-      const tbody = document.querySelector(`#${tableId} tbody`);
-      tbody.innerHTML = "";
-
-      const relevantLevels = [...new Set(children.map(student => student.educational_level))];
-      const childrenIds = children.map(c => c.id);
-
-      // --- جديد: تحديد إذا كان أحد الأبناء في مجموعة الإنجليزية ---
-      const isChildInEnglishGroup = children.some(c => c.educational_level === "مجموعة إنجليزية");
-
-      allTimeSlots.forEach(slot => {
-        const tr = document.createElement("tr");
-        tr.innerHTML = `<td>${slot}</td>`;
-        
-        days.forEach(day => {
-          const cell = document.createElement("td");
-          let classFound = false;
-
-          // 1. البحث عن حصة مؤقتة أولاً
-          const tempMatch = temp.find(c => {
-              const classDay = new Date(c.class_date).toLocaleDateString('ar-TN', { weekday: 'long' });
-              return c.time_slot === slot && classDay === day;
-          });
-
-          if (tempMatch) {
-            const isRelevantTemp = (
-              (tempMatch.class_type.includes('general') && relevantLevels.includes(tempMatch.educational_level)) ||
-              (tempMatch.class_type.includes('private') && tempMatch.student_ids.some(id => childrenIds.includes(id)))
-            );
-
-            if (isRelevantTemp) {
-              cell.textContent = tempMatch.educational_level;
-              cell.classList.add('temporary');
-              if (tempMatch.class_type.startsWith('replacement')) {
-                  cell.classList.add('replacement');
-              } else if (tempMatch.class_type.startsWith('extra')) {
-                  cell.classList.add('extra');
-              }
-              classFound = true;
-            }
-          }
-
-          // 2. إذا لم توجد حصة مؤقتة، ابحث عن حصة دائمة
-          if (!classFound) {
-            const permMatch = perm.find(c => c.time_slot === slot && c.day_of_week === day);
-            if (permMatch && !replacedClassIds.has(permMatch.id)) {
-                
-                // --- بداية التعديل الرئيسي هنا ---
-                const classLevels = permMatch.levels || [];
-
-                if (permMatch.class_type === 'private' && permMatch.student_ids.some(id => childrenIds.includes(id))) {
-                    const enrolledChildren = children.filter(child => permMatch.student_ids.includes(child.id));
-                    cell.textContent = enrolledChildren.map(child => child.name).join(', ');
-                    cell.classList.add('private');
-                } else if (permMatch.class_type === 'general' && classLevels.some(level => relevantLevels.includes(level))) {
-                    cell.textContent = classLevels.join(' - ');
-                    cell.classList.add('general');
-                } else if (permMatch.class_type === 'english' && isChildInEnglishGroup) {
-                    cell.textContent = 'حصة إنجليزية';
-                    cell.classList.add('english');
-                }
-                // --- نهاية التعديل الرئيسي ---
-            }
-          }
-          tr.appendChild(cell);
-        });
-        tbody.appendChild(tr);
-      });
-
-      // إضافة الشرح
-      const container = document.querySelector(`#${tableId}`).closest('.table-responsive');
-      if (container && !container.querySelector('.legend')) {
-          const legend = document.createElement("div");
-          legend.classList.add("legend");
-          const legendItems = [
-            { text: "حصة عامة", colorClass: "general" },
-            { text: "حصة خاصة", colorClass: "private" },
-            { text: "حصة إنجليزية", colorClass: "english" },
-            { text: "حصة مؤقتة", colorClass: "temporary" }
-          ];
-          legendItems.forEach(item => {
-            const legendItem = document.createElement("div");
-            legendItem.classList.add("legend-item");
-            legendItem.innerHTML = `<span class="legend-color ${item.colorClass}"></span>${item.text}`;
-            legend.appendChild(legendItem);
-          });
-          container.appendChild(legend);
-      }
-    }
-    // <<< بداية الدالة الجديدة لتحليل الملاحظات >>>
-    function formatNotes(notes) {
-      if (!notes || !notes.trim()) {
-        return '<span>لا توجد ملاحظات</span>';
-      }
-    
-      let html = '<div class="notes-container">';
-      const parts = notes.split('||');
-      const optionsPart = parts[0].trim();
-      const manualPart = parts.length > 1 ? parts[1].trim() : '';
-    
-      if (optionsPart) {
-        const options = optionsPart.split('،').map(opt => opt.trim());
-        html += '<div class="tags-container">';
-        options.forEach(option => {
-          let tagClass = 'tag-neutral';
-          const positiveKeywords = ["حسن السلوك", "منضبط", "جدي في العمل", "مشارك", "يحترم", "يداوم على إنجاز واجباته", "متقن", "سريع الفهم"];
-          const negativeKeywords = ["مشاغب", "لا يحترم", "قليل التركيز", "لا يولي أهمية", "لا ينجز واجباته", "غير منظم", "كثير الحركة", "بطيء الفهم"];
-          
-          if (positiveKeywords.some(p => option.includes(p))) {
-            tagClass = 'tag-positive';
-          } else if (negativeKeywords.some(n => option.includes(n))) {
-            tagClass = 'tag-negative';
-          }
-          html += `<span class="note-tag ${tagClass}">${option}</span>`;
-        });
-        html += '</div>';
-      }
-    
-      if (manualPart) {
-        html += `<p class="manual-note">${manualPart}</p>`;
-      }
-    
-      html += '</div>';
-      return html;
-    }
-    // <<< نهاية الدالة الجديدة >>>
-
-    document.addEventListener("DOMContentLoaded", async () => {
-      try {
-        const guardianData = sessionStorage.getItem("guardian");
-        if (!guardianData) {
-            window.location = "login.html";
-            return;
-        }
-
-        const guardian = JSON.parse(guardianData);
-        const students = await fetch("students.json").then(res => res.json());
-        const children = students.filter(student => guardian.student_ids.includes(student.id));
-
-        document.getElementById("guardianName").innerText = `مرحباً، ${guardian.guardian_full_name}`;
-        document.getElementById("totalUnpaid").innerText = `${guardian.unpaid_total.toFixed(2)} دينار`;
-
-        // ... الكود الخاص بملء جداول الأبناء والمدفوعات والغيابات يبقى كما هو
-        const childrenTableBody = document.getElementById("children").getElementsByTagName('tbody')[0];
-        childrenTableBody.innerHTML = ''; 
-        children.forEach(student => {
-          let childRow = childrenTableBody.insertRow();
-          // <<< تعديل: إضافة خلية المؤسسة (student.institution) >>>
-          childRow.innerHTML = `<td>${student.name} ${student.surname}</td>
-                                <td>${student.educational_level}</td>
-                                <td>${student.institution || 'غير محددة'}</td>
-                                <td>${student.unpaid_total.toFixed(2)}</td>
-                                <td>${Array.isArray(student.absence_count) ? student.absence_count.length : 0}</td>`;
-        });
-        
-        const paymentsTableBody = document.getElementById("payments").getElementsByTagName('tbody')[0];
-        paymentsTableBody.innerHTML = '';
-        children.forEach(student => {
-            student.unpaid_periods.forEach(payment => {
-                let paymentRow = paymentsTableBody.insertRow(); 
-                paymentRow.innerHTML = `<td>${payment.period}</td><td>${payment.amount.toFixed(2)}</td><td>${student.name}</td>`;
-            });
-        });
-        const absencesTableBody = document.getElementById("absences").getElementsByTagName('tbody')[0];
-        absencesTableBody.innerHTML = '';
-        children.forEach(student => {
-            if (student.absence_count && Array.isArray(student.absence_count)) {
-                student.absence_count.forEach(absenceDate => {
-                    let absenceRow = absencesTableBody.insertRow();
-                    absenceRow.innerHTML = `<td>${student.name}</td><td>${absenceDate}</td>`;
-                });
-            }
-        });
-        const notesTableBody = document.getElementById("notes").getElementsByTagName('tbody')[0];
-        notesTableBody.innerHTML = '';
-        children.forEach(student => {
-            // نعرض الصف فقط إذا كانت هناك ملاحظة
-            if (student.notes && student.notes.trim() !== "") {
-                let noteRow = notesTableBody.insertRow();
-                // نستخدم الدالة الجديدة لتحويل نص الملاحظة إلى HTML منسق
-                noteRow.innerHTML = `<td>${student.name}</td><td>${formatNotes(student.notes)}</td>`;
-            }
-        });
-        const announcementsTableBody = document.getElementById("generalAnnouncements").getElementsByTagName('tbody')[0];
-        try {
-            const announcementsResponse = await fetch("announcements.json");
-            if (announcementsResponse.ok) {
-                const announcements = await announcementsResponse.json();
-                announcementsTableBody.innerHTML = '';
-                announcements.forEach(announcement => {
-                    let announcementRow = announcementsTableBody.insertRow();
-                    announcementRow.innerHTML = `<td>${announcement.date}</td><td>${announcement.text}</td>`;
-                });
-            }
-        } catch (error) {
-            console.error("حدث خطأ في جلب الإعلانات العامة. الرجاء اعادة المحاولة لاحقا:", error);
-        }
-        
-        // --- المنطق المحدث لعرض الجداول ---
-
-        const primaryChildren = children.filter(c => c.educational_level.includes('ابتدائي'));
-        const prepSecondaryChildren = children.filter(c => !c.educational_level.includes('ابتدائي'));
-
-        if (primaryChildren.length > 0) {
-            document.getElementById('primary-schedule-container').style.display = 'block';
-            // استدعاء الدالة مع تمرير قائمة الأبناء للفلترة
-            await buildPrimarySchedule('primary-schedule', primaryChildren);
-        }
-
-        if (prepSecondaryChildren.length > 0) {
-            document.getElementById('permanent-schedule-container').style.display = 'block';
-            const isChildInEnglishGroup = prepSecondaryChildren.some(child => child.is_in_english_group === true);
-            await buildSchedule("schedule", prepSecondaryChildren, isChildInEnglishGroup);
-        }
-
-        // ... بقية الكود
-        if (children.length === 0) {
-            const leaveNoteSection = document.getElementById('leaveNoteSection');
-            if(leaveNoteSection) {
-                leaveNoteSection.style.display = 'none';
-            }
-        }
-        document.getElementById('sendNoteButtonMessenger')?.addEventListener('click', () => {
-            const facebookPageId = "aymenstam"; 
-            if (!facebookPageId || facebookPageId === "123456789012345") {
-                alert("خاصية الماسنجر غير مُعدّة بشكل صحيح. يرجى إدخال الرقم التعريفي للصفحة.");
-                return;
-            }
-            const messengerLink = `https://m.me/${facebookPageId}`;
-            const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-        
-            if (isMobile) {
-                document.location = `fb-messenger://user-thread/${facebookPageId}`;
-                setTimeout(() => {
-                    window.location.href = messengerLink;
-                }, 1500);
-            } else {
-                window.open(messengerLink, '_blank');
-            }
-        });
-
-      } catch (error) {
-        console.error("حدث خطأ:", error);
-        alert("عفواً، حدث خطأ أثناء تحميل بيانات الصفحة. قد تكون البيانات غير مكتملة.");
-      }
-    });
-  </script>
 </body>
 </html>
