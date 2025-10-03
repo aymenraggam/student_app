@@ -14,7 +14,7 @@ async function buildSchedule(tableId, relevantLevels = null) {
   const allTimeSlots = [...new Set([
     ...perm.map(c => c.time_slot),
     ...temp.map(c => c.time_slot)
-  ])].sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+  ])].sort();
 
   const days = ["الإثنين","الثلاثاء","الأربعاء","الخميس","الجمعة","السبت","الأحد"];
 
@@ -31,43 +31,31 @@ async function buildSchedule(tableId, relevantLevels = null) {
       const tempMatch = temp.find(c => c.time_slot === slot && new Date(c.class_date).toLocaleDateString('ar-TN', {weekday: 'long'}) === day);
 
       if (tempMatch) {
-          // <<< بداية التعديل للجدول المؤقت (تحسين) >>>
-          const isRelevant = !relevantLevels || relevantLevels.length === 0 || relevantLevels.includes(tempMatch.educational_level) || (tempMatch.student_ids && tempMatch.student_ids.some(id => relevantLevels.includes(id)));
-          if (isRelevant) {
-              cell.textContent = tempMatch.educational_level;
-              cell.classList.add('temporary');
-              if (tempMatch.class_type.startsWith('replacement')) {
-                cell.classList.add('replacement');
-              } else if (tempMatch.class_type.startsWith('extra')) {
-                cell.classList.add('extra');
-              }
-          }
-          // <<< نهاية التعديل >>>
-
+        if (!relevantLevels || relevantLevels.includes(tempMatch.educational_level)) {
+            cell.textContent = tempMatch.educational_level;
+            cell.classList.add('temporary');
+            if (tempMatch.class_type === 'replacement_general' || tempMatch.class_type === 'replacement_private') {
+              cell.classList.add('replacement');
+            } else if (tempMatch.class_type === 'extra_general' || tempMatch.class_type === 'extra_private') {
+              cell.classList.add('extra');
+            }
+        }
       } else {
         const permMatch = perm.find(c => c.time_slot === slot && c.day_of_week === day);
         
         if (permMatch && !replacedClassIds.has(permMatch.id)) {
-            // <<< بداية التعديل للجدول الدائم (أساسي) >>>
-            const classLevels = permMatch.levels || [];
-            const isRelevant = !relevantLevels || relevantLevels.length === 0 || classLevels.some(level => relevantLevels.includes(level));
-
-            if (isRelevant) {
+            if (!relevantLevels || relevantLevels.includes(permMatch.educational_level)) {
                 if (permMatch.class_type === 'private' && permMatch.student_ids.length > 0) {
                     const studentNames = permMatch.student_ids.map(id => {
                         const student = students.find(s => s.id === id);
                         return student ? student.name : '';
-                    }).filter(name => name).join(', ');
-                    
-                    // عرض أسماء التلاميذ مع قائمة المستويات
-                    cell.innerHTML = `${studentNames}<br><small>(${classLevels.join(', ')})</small>`;
+                    }).join(', ');
+                    cell.textContent = studentNames;
                 } else {
-                    // عرض قائمة المستويات للحصص العامة
-                    cell.textContent = classLevels.join(' - ');
+                    cell.textContent = permMatch.educational_level === 'مجموعة إنجليزية' ? 'حصة إنجليزية' : permMatch.educational_level;
                 }
                 cell.classList.add(permMatch.class_type);
             }
-            // <<< نهاية التعديل >>>
         }
       }
 
