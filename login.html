@@ -25,8 +25,8 @@
   <div class="container login-container">
     <h2>تسجيل الدخول</h2>
     <form id="loginForm">
-      <input type="text" id="phone" placeholder="رقم الهاتف"><br>
-      <input type="password" id="password" placeholder="كلمة السر"><br>
+      <input type="text" id="phone" placeholder="رقم الهاتف" required><br>
+      <input type="password" id="password" placeholder="كلمة السر" required><br>
       <button type="submit">دخول</button>
     </form>
     <p id="error" style="color:red; font-weight: bold;"></p>
@@ -37,7 +37,70 @@
     <p>حقوق النشر © 2025 الصالحي — جميع الحقوق محفوظة</p>
   </div>
 
-  <script src="guardian_script.js"></script>
-  <script src="admin_script.js"></script>
+  <script>
+    function normalizePhone(p) {
+      return (p || "").replace(/[^\d]/g, "");
+    }
+
+    async function guardianLogin(phone, password) {
+      phone = normalizePhone(phone);
+      password = String(password);
+
+      try {
+        const [guardians, passwords] = await Promise.all([
+          fetch("guardians.json").then(r => r.json()),
+          fetch("guardian_passwords.json").then(r => r.json())
+        ]);
+
+        const g = guardians.find(gd => normalizePhone(gd.phone_number) === phone);
+        if (!g) {
+          return null;
+        }
+
+        if (passwords[phone] === password) {
+          return g;
+        }
+        
+        return null;
+      } catch (error) {
+        console.error("Error fetching login data:", error);
+        throw new Error("Failed to load necessary data for login.");
+      }
+    }
+
+    document.getElementById("loginForm")?.addEventListener("submit", async e => {
+      e.preventDefault();
+      const phoneInput = document.getElementById("phone");
+      const passInput = document.getElementById("password");
+      const errorElement = document.getElementById("error");
+      
+      const phone = phoneInput.value.trim();
+      const pass = passInput.value.trim();
+
+      errorElement.innerText = ""; // مسح الأخطاء السابقة
+
+      // التحقق من دخول المدير
+      if (pass === "aymenstam") {
+        sessionStorage.setItem("admin", "true");
+        window.location = "admin.html";
+        return;
+      }
+
+      // تسجيل دخول الولي
+      try {
+        const guardian = await guardianLogin(phone, pass);
+        if (guardian) {
+          sessionStorage.setItem("guardian", JSON.stringify(guardian));
+          window.location = "guardian_portal.html";
+        } else {
+          errorElement.innerText = "❌ رقم الهاتف أو كلمة السر غير صحيحة";
+        }
+      } catch (error) {
+        console.error("Login error:", error);
+        errorElement.innerText = "حدث خطأ أثناء محاولة تسجيل الدخول. يرجى المحاولة مرة أخرى.";
+      }
+    });
+  </script>
+
 </body>
 </html>
