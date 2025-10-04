@@ -298,7 +298,7 @@
     "student_ids": [
       76
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "password": "517992"
   },
   {
@@ -726,12 +726,12 @@
   },
   {
     "guardian_full_name": "عبد الكريم قادري",
-    "phone_number": "111111111",
+    "phone_number": "98680027",
     "student_ids": [
       149
     ],
     "unpaid_total": 50.0,
-    "password": "455819"
+    "password": "003028"
   },
   {
     "guardian_full_name": "فوزي قادري",
@@ -867,6 +867,15 @@
     ],
     "unpaid_total": 0.0,
     "password": "810666"
+  },
+  {
+    "guardian_full_name": "حورية كدوسي",
+    "phone_number": "96820115",
+    "student_ids": [
+      152
+    ],
+    "unpaid_total": 50.0,
+    "password": "894539"
   },
   {
     "guardian_full_name": "عماد كدوسي",

@@ -569,9 +569,9 @@
     "student_ids": []
   },
   {
-    "id": 59,
+    "id": 76,
     "day_of_week": "السبت",
-    "time_slot": "13:00",
+    "time_slot": "14:00",
     "class_type": "general",
     "levels_data": [
       {
@@ -582,9 +582,9 @@
     "student_ids": []
   },
   {
-    "id": 60,
+    "id": 75,
     "day_of_week": "السبت",
-    "time_slot": "15:00",
+    "time_slot": "16:00",
     "class_type": "general",
     "levels_data": [
       {
@@ -595,9 +595,9 @@
     "student_ids": []
   },
   {
-    "id": 44,
+    "id": 74,
     "day_of_week": "السبت",
-    "time_slot": "17:00",
+    "time_slot": "18:00",
     "class_type": "general",
     "levels_data": [
       {

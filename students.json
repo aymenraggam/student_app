@@ -797,7 +797,8 @@
     "payment_count": 1,
     "unpaid_total": 40.0,
     "absence_count": [
-      "2025-10-03"
+      "2025-10-03",
+      "2025-10-04"
     ],
     "unpaid_periods": [
       {
@@ -921,21 +922,16 @@
     "entry_date": "2025-08-14",
     "guardian_full_name": "محسن زريبي",
     "phone_number": "96371474",
-    "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 50.0,
+    "payment_generation_status": "archived",
+    "payment_count": 1,
+    "unpaid_total": 0.0,
     "absence_count": [
       "2025-09-26",
       "2025-09-27",
       "2025-09-28",
       "2025-10-03"
     ],
-    "unpaid_periods": [
-      {
-        "period": "14/09/2025 إلى 13/10/2025",
-        "amount": 50.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -974,7 +970,7 @@
     ],
     "unpaid_periods": [
       {
-        "period": "12/09/2025 إلى 11/10/2025",
+        "period": "04/10/2025 إلى 03/11/2025",
         "amount": 50.0
       }
     ],
@@ -1667,7 +1663,9 @@
     "payment_generation_status": "active",
     "payment_count": 3,
     "unpaid_total": 100.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-10-04"
+    ],
     "unpaid_periods": [
       {
         "period": "25/08/2025 إلى 24/09/2025",
@@ -2581,7 +2579,7 @@
     "institution": "المدرسة الاعدادية بالرقاب",
     "entry_date": "2025-10-03",
     "guardian_full_name": "عبد الكريم قادري",
-    "phone_number": "111111111",
+    "phone_number": "98680027",
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
@@ -2777,6 +2775,27 @@
     "unpaid_periods": [
       {
         "period": "03/10/2025 إلى 02/11/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 152,
+    "name": "سيف",
+    "surname": "كدوسي",
+    "educational_level": "7 أساسي",
+    "institution": "المدرسة الاعدادية بالرقاب",
+    "entry_date": "2025-10-04",
+    "guardian_full_name": "حورية كدوسي",
+    "phone_number": "96820115",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "04/10/2025 إلى 03/11/2025",
         "amount": 50.0
       }
     ],
