@@ -31,30 +31,23 @@
       </p>
     </div>
 
-    <div class="quick-features">
-      <h2>ميزات سريعة</h2>
-      <div class="features-container">
-        <div class="feature-card" onclick="openScheduleModal()">
-          <div class="icon">📅</div>
-          <h3>جدول الحصص (إعدادي وثانوي)</h3>
-          <p>اطلع على جدول الحصص الأسبوعي</p>
+    <div class="announcements-container" style="border-top: 4px solid var(--primary-color);">
+        <h2>تحديث هام وإعلان عن انتقال كامل نحو التطبيق</h2>
+        <p style="font-size: 1.2em; line-height: 1.7; color: #444;">
+            نظراً لوجود إشكال تقني في الصفحة الرئيسية، وحرصاً منا على توفير خدمة أفضل وأكثر استقراراً وأماناً، نعلن عن <strong>الإلغاء النهائي للخدمات التفاعلية على الموقع</strong> ونقلها بالكامل إلى تطبيق المؤسسة الرسمي <strong>Essalhi_App</strong>.
+        </p>
+        <div class="announcement-card" style="text-align: right; background-color: #e3f2fd; margin-top: 20px;">
+            <h3 style="color: var(--dark-blue);">جميع الخدمات أصبحت الآن في التطبيق:</h3>
+            <p style="font-size: 1.1em; line-height: 1.6;">
+                للاطلاع على جداول الحصص، ملفات الدروس، قائمة المتفوقين، أو للتواصل مع الإدارة، يرجى استخدام التطبيق الذي يضمن لكم وصولاً سريعاً ومباشراً لكل المعلومات وتلقي الإشعارات الفورية.
+            </p>
         </div>
-        <div class="feature-card" onclick="openPrimaryScheduleModal()">
-          <div class="icon">📅</div>
-          <h3>جدول الحصص (ابتدائي)</h3>
-          <p>اطلع على جدول حصص المرحلة الابتدائية</p>
-        </div>
-        <div class="feature-card" onclick="openLoginModal('lessons')">
-          <div class="icon">📚</div>
-          <h3>ملفات الدروس</h3>
-          <p>ادخل للاطلاع على ملخصات وتمارين الدروس</p>
-        </div>
-        <div class="feature-card" onclick="openLoginModal('contact')">
-          <div class="icon">✉️</div>
-          <h3>الاتصال بالإدارة</h3>
-          <p>سجّل دخولك لإرسال رسالة مباشرة</p>
-        </div>
-      </div>
+        <p class="update-notice" style="margin-top: 20px;">
+            <strong>ملاحظة هامة:</strong> لكل من قام بتثبيت النسخة السابقة، يرجى تسجيل الخروج، ثم حذف التطبيق القديم وتثبيت هذه النسخة الجديدة لضمان الاستفادة من كافة الميزات.
+        </p>
+        <a href="https://drive.google.com/file/d/12AVT0RlvEPhQsx0pfuJMOrFIRorYDgYT/view?usp=sharing" target="_blank" class="download-app-btn" style="margin-top: 20px; font-size: 1.2em;">
+            📥 تحميل التطبيق الآن
+        </a>
     </div>
 
     <div class="links">
@@ -65,145 +58,20 @@
     <div id="general-announcements-section" class="announcements-container">
       <h2>📢 إعلانات هامة 📢</h2>
       <ul id="announcements-list" class="announcements-list-styled">
-        <div class="announcement-card">
-          <h3>تحديث جديد لتطبيق المؤسسة: Essalhi_App</h3>
-          <p class="date">
-            التطبيق الجديد يمكنكم من تلقي الإرساليات مباشرة من الإدارة، مما يجعلكم على اطلاع دائم بآخر المستجدات والإعلانات.
-          </p>
-          <p class="update-notice">
-            <strong>ملاحظة هامة:</strong> لكل من قام بتثبيت النسخة السابقة، يرجى تسجيل الخروج، ثم حذف التطبيق القديم وتثبيت هذه النسخة الجديدة لضمان الاستفادة من كافة الميزات.
-          </p>
-          <a href="https://drive.google.com/file/d/12AVT0RlvEPhQsx0pfuJMOrFIRorYDgYT/view?usp=sharing" target="_blank" class="download-app-btn">
-            📥 تحميل النسخة الجديدة
-          </a>
-        </div>
         </ul>
     </div>
 
-    <div id="top-students-section" class="top-students-container">
-        <h2>🏆 متفوقو الأسبوع 🏆</h2>
-        <div class="announcement-card" style="text-align: center;">
-            <h3>تم نقل المحتوى إلى التطبيق</h3>
-            <p class="date">
-                حرصًا على حماية بياناتكم، تم نقل قائمة المتفوقين إلى تطبيق المؤسسة Essalhi_App.
-            </p>
-            <a href="https://drive.google.com/file/d/12AVT0RlvEPhQsx0pfuJMOrFIRorYDgYT/view?usp=sharing" target="_blank" class="download-app-btn">
-                📥 تحميل التطبيق للاطلاع
-            </a>
-        </div>
-    </div>
-
-    </div>
+  </div>
 
   <div class="footer">
     <p>حقوق النشر © 2025 الصالحي — جميع الحقوق محفوظة</p>
   </div>
 
-  <div id="modal-backdrop" class="modal-backdrop" onclick="closeModal()"></div>
-  <div id="modal" class="modal">
-    <button class="modal-close-btn" onclick="closeModal()">×</button>
-    <div id="modal-content">
-      </div>
-  </div>
-
-  <div id="schedule-content" style="display: none;">
-    <h2>جدول الحصص العام (إعدادي وثانوي)</h2>
-    <div class="table-responsive">
-      <table id="schedule-table-popup" class="timetable">
-        <thead>
-          <tr>
-            <th>التوقيت</th>
-            <th>الإثنين</th>
-            <th>الثلاثاء</th>
-            <th>الأربعاء</th>
-            <th>الخميس</th>
-            <th>الجمعة</th>
-            <th>السبت</th>
-            <th>الأحد</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
-  </div>
-
-  <div id="primary-schedule-content" style="display: none;">
-    <h2>جدول الحصص العام (ابتدائي)</h2>
-    <div class="table-responsive">
-      <table id="primary-schedule-table-popup" class="timetable">
-        <thead>
-          <tr>
-            <th>توقيت الدخول</th>
-            <th>الإثنين</th>
-            <th>الثلاثاء</th>
-            <th>الأربعاء</th>
-            <th>الخميس</th>
-            <th>الجمعة</th>
-            <th>السبت</th>
-            <th>الأحد</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
-  </div>
-
-  <script src="guardian_script.js"></script>
-  <script src="schedule_script.js"></script>
-  <script src="schedule_primary_script.js"></script>
   <script>
-    const modal = document.getElementById('modal');
-    const modalBackdrop = document.getElementById('modal-backdrop');
-    const modalContent = document.getElementById('modal-content');
-
-    function openModal(content, modalClass = '') {
-      modalContent.innerHTML = content;
-      modal.className = 'modal';
-      if (modalClass) modal.classList.add(modalClass);
-      modal.style.display = 'block';
-      modalBackdrop.style.display = 'block';
-    }
-
-    function closeModal() {
-      modal.style.display = 'none';
-      modalBackdrop.style.display = 'none';
-      modalContent.innerHTML = '';
-    }
-
-    function openScheduleModal() {
-      const scheduleHTML = document.getElementById('schedule-content').innerHTML;
-      openModal(scheduleHTML, 'modal-lg');
-      buildSchedule("schedule-table-popup");
-    }
-
-    function openPrimaryScheduleModal() {
-      const scheduleHTML = document.getElementById('primary-schedule-content').innerHTML;
-      openModal(scheduleHTML, 'modal-lg');
-      buildPrimarySchedule("primary-schedule-table-popup");
-    }
-
-    function openLoginModal(target) {
-        const announcementHTML = `
-            <div style="text-align: center;">
-                <h2>إعلان هام بخصوص حماية البيانات</h2>
-                <p style="font-size: 1.1em; line-height: 1.6;">
-                    حرصًا على حماية بيانات مستخدمينا، تم إلغاء بعض المعطيات من الموقع وتحويلها إلى تطبيق المؤسسة الجديد <strong>Essalhi_App</strong>.
-                </p>
-                <p class="update-notice" style="text-align: center;">
-                    للاطلاع على ملفات الدروس، أو التواصل مع الإدارة، يرجى تحميل التطبيق.
-                </p>
-                <a href="https://drive.google.com/file/d/12AVT0RlvEPhQsx0pfuJMOrFIRorYDgYT/view?usp=sharing" target="_blank" class="download-app-btn">
-                    📥 تحميل التطبيق
-                </a>
-            </div>
-        `;
-        openModal(announcementHTML);
-    }
-
-
+    // تم تبسيط السكريبت وإزالة كل ما يتعلق بالنوافذ المنبثقة
     document.addEventListener('DOMContentLoaded', async () => {
-        const section = document.getElementById('general-announcements-section');
         const listContainer = document.getElementById('announcements-list');
+        if (!listContainer) return;
 
         try {
             const response = await fetch('announcements.json');
@@ -226,9 +94,6 @@
             console.error('Error fetching general announcements:', error);
         }
     });
-
-    // The original top-students script is no longer needed as the content is now static.
-    // I have removed it to avoid conflicts.
   </script>
 </body>
 </html>
