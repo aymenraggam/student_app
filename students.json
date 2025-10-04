@@ -1,5 +1,26 @@
 [
   {
+    "id": 154,
+    "name": "آدم",
+    "surname": "أم هاني",
+    "educational_level": "2 ث علوم",
+    "institution": "المعهد الثانوي بالرقاب",
+    "entry_date": "2025-10-04",
+    "guardian_full_name": "احمد أم هاني",
+    "phone_number": "98303404",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "04/10/2025 إلى 03/11/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 61,
     "name": "آية",
     "surname": "أم هاني",
@@ -178,6 +199,27 @@
     "notes": ""
   },
   {
+    "id": 153,
+    "name": "محمد ياسين",
+    "surname": "بوكدوس",
+    "educational_level": "1 ثانوي",
+    "institution": "معهد الحرّة",
+    "entry_date": "2025-10-02",
+    "guardian_full_name": "سعد بوكدوس",
+    "phone_number": "55230177",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "02/10/2025 إلى 01/11/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 62,
     "name": "سامح",
     "surname": "جابلي",
@@ -283,7 +325,9 @@
     "payment_generation_status": "active",
     "payment_count": 3,
     "unpaid_total": 0.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-10-04"
+    ],
     "unpaid_periods": [],
     "notes": ""
   },
@@ -298,18 +342,9 @@
     "phone_number": "98283943",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 100.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "16/08/2025 إلى 15/09/2025",
-        "amount": 50.0
-      },
-      {
-        "period": "16/09/2025 إلى 15/10/2025",
-        "amount": 50.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -619,7 +654,8 @@
     "payment_count": 2,
     "unpaid_total": 100.0,
     "absence_count": [
-      "2025-09-27"
+      "2025-09-27",
+      "2025-10-04"
     ],
     "unpaid_periods": [
       {
@@ -670,7 +706,9 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 100.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-10-04"
+    ],
     "unpaid_periods": [
       {
         "period": "17/08/2025 إلى 16/09/2025",
@@ -990,7 +1028,8 @@
     "unpaid_total": 0.0,
     "absence_count": [
       "2025-09-26",
-      "2025-09-27"
+      "2025-09-27",
+      "2025-10-04"
     ],
     "unpaid_periods": [],
     "notes": ""
@@ -3001,7 +3040,9 @@
     "payment_generation_status": "active",
     "payment_count": 3,
     "unpaid_total": 150.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-10-04"
+    ],
     "unpaid_periods": [
       {
         "period": "25/08/2025 إلى 24/09/2025",
@@ -3198,11 +3239,16 @@
     "entry_date": "2025-08-09",
     "guardian_full_name": "تفاحة زريبي",
     "phone_number": "96445731",
-    "payment_generation_status": "suspended",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
+    "payment_generation_status": "active",
+    "payment_count": 2,
+    "unpaid_total": 40.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "04/10/2025 إلى 03/11/2025",
+        "amount": 40.0
+      }
+    ],
     "notes": ""
   }
 ]
