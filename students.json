@@ -302,12 +302,12 @@
     "guardian_full_name": "أماني قدودة",
     "phone_number": "22959665",
     "payment_generation_status": "active",
-    "payment_count": 2,
+    "payment_count": 3,
     "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "19/09/2025 إلى 18/10/2025",
+        "period": "22/08/2025 إلى 21/09/2025",
         "amount": 100.0
       }
     ],
@@ -630,12 +630,12 @@
     "guardian_full_name": "أماني قدودة",
     "phone_number": "22959665",
     "payment_generation_status": "active",
-    "payment_count": 2,
+    "payment_count": 3,
     "unpaid_total": 70.0,
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "19/09/2025 إلى 18/10/2025",
+        "period": "01/10/2025 إلى 31/10/2025",
         "amount": 70.0
       }
     ],
@@ -740,38 +740,6 @@
         "amount": 30.0
       }
     ],
-    "notes": ""
-  },
-  {
-    "id": 50,
-    "name": "ريّان",
-    "surname": "حاجي",
-    "educational_level": "8 أساسي",
-    "institution": "",
-    "entry_date": "2025-08-05",
-    "guardian_full_name": "فتحية عيوني",
-    "phone_number": "94110939",
-    "payment_generation_status": "archived",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
-    "absence_count": [],
-    "unpaid_periods": [],
-    "notes": ""
-  },
-  {
-    "id": 83,
-    "name": "شهد",
-    "surname": "حاجي",
-    "educational_level": "2 ث علوم",
-    "institution": "",
-    "entry_date": "2025-08-17",
-    "guardian_full_name": "منير حاجي",
-    "phone_number": "98725398",
-    "payment_generation_status": "archived",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
-    "absence_count": [],
-    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -952,27 +920,6 @@
     "notes": ""
   },
   {
-    "id": 76,
-    "name": "زهرة",
-    "surname": "زريبي",
-    "educational_level": "7 أساسي",
-    "institution": "المدرسة الاعدادية بالرقاب",
-    "entry_date": "2025-08-14",
-    "guardian_full_name": "محسن زريبي",
-    "phone_number": "96371474",
-    "payment_generation_status": "archived",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
-    "absence_count": [
-      "2025-09-26",
-      "2025-09-27",
-      "2025-09-28",
-      "2025-10-03"
-    ],
-    "unpaid_periods": [],
-    "notes": ""
-  },
-  {
     "id": 31,
     "name": "سيف",
     "surname": "زريبي",
@@ -981,11 +928,16 @@
     "entry_date": "2025-07-30",
     "guardian_full_name": "محمد الصغير زريبي",
     "phone_number": "97551971",
-    "payment_generation_status": "archived",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
+    "payment_generation_status": "active",
+    "payment_count": 2,
+    "unpaid_total": 50.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "05/10/2025 إلى 04/11/2025",
+        "amount": 50.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -1076,22 +1028,6 @@
     "notes": ""
   },
   {
-    "id": 47,
-    "name": "تيسير",
-    "surname": "شرف الدين",
-    "educational_level": "3 ابتدائي",
-    "institution": "مدرسة ابن رشد1",
-    "entry_date": "2025-08-04",
-    "guardian_full_name": "لمين شرف الدين",
-    "phone_number": "97917380",
-    "payment_generation_status": "archived",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
-    "absence_count": [],
-    "unpaid_periods": [],
-    "notes": ""
-  },
-  {
     "id": 16,
     "name": "قصي",
     "surname": "شرف الدين",
@@ -1146,7 +1082,8 @@
     "payment_count": 1,
     "unpaid_total": 50.0,
     "absence_count": [
-      "2025-09-28"
+      "2025-09-28",
+      "2025-10-05"
     ],
     "unpaid_periods": [
       {
@@ -1465,11 +1402,16 @@
     "entry_date": "2025-08-22",
     "guardian_full_name": "منى صالحي",
     "phone_number": "55300723",
-    "payment_generation_status": "archived",
-    "payment_count": 0,
-    "unpaid_total": 0.0,
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 40.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "05/10/2025 إلى 04/11/2025",
+        "amount": 40.0
+      }
+    ],
     "notes": "حسن السلوك، يظهر اهتماما بالمادة، قليل التركيز، عمله غير منظم || ربي يباركلك فيها"
   },
   {
@@ -1825,22 +1767,6 @@
     "notes": "مشارك في القسم، جدي في العمل، عمله منظم ومتقن"
   },
   {
-    "id": 49,
-    "name": "أيوب",
-    "surname": "عبيدي",
-    "educational_level": "3 ابتدائي",
-    "institution": "مدرسة ابن منظور",
-    "entry_date": "2025-08-04",
-    "guardian_full_name": "أم الزين عبيدي",
-    "phone_number": "58128994",
-    "payment_generation_status": "archived",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
-    "absence_count": [],
-    "unpaid_periods": [],
-    "notes": ""
-  },
-  {
     "id": 138,
     "name": "برهان",
     "surname": "عبيدي",
@@ -1859,22 +1785,6 @@
         "amount": 50.0
       }
     ],
-    "notes": ""
-  },
-  {
-    "id": 48,
-    "name": "زهرة",
-    "surname": "عبيدي",
-    "educational_level": "4 ابتدائي",
-    "institution": "مدرسة ابن منظور",
-    "entry_date": "2025-08-04",
-    "guardian_full_name": "أم الزين عبيدي",
-    "phone_number": "58128994",
-    "payment_generation_status": "archived",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
-    "absence_count": [],
-    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -2085,22 +1995,6 @@
         "amount": 50.0
       }
     ],
-    "notes": ""
-  },
-  {
-    "id": 55,
-    "name": "سجود",
-    "surname": "عيوني",
-    "educational_level": "3 ابتدائي",
-    "institution": "مدرسة ابن رشد2",
-    "entry_date": "2025-08-08",
-    "guardian_full_name": "مريم سليمي",
-    "phone_number": "99217475",
-    "payment_generation_status": "archived",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
-    "absence_count": [],
-    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -2530,24 +2424,6 @@
     "notes": "لا ينجز واجباته"
   },
   {
-    "id": 59,
-    "name": "كرم",
-    "surname": "قادري",
-    "educational_level": "9 أساسي",
-    "institution": "",
-    "entry_date": "2025-08-09",
-    "guardian_full_name": "محمد قادري",
-    "phone_number": "98386709",
-    "payment_generation_status": "archived",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
-    "absence_count": [
-      "2025-09-28"
-    ],
-    "unpaid_periods": [],
-    "notes": ""
-  },
-  {
     "id": 81,
     "name": "مرام",
     "surname": "قادري",
@@ -2750,12 +2626,18 @@
     "guardian_full_name": "صافيا صالحي",
     "phone_number": "92037064",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 40.0,
-    "absence_count": [],
+    "payment_count": 2,
+    "unpaid_total": 80.0,
+    "absence_count": [
+      "2025-10-05"
+    ],
     "unpaid_periods": [
       {
         "period": "06/09/2025 إلى 05/10/2025",
+        "amount": 40.0
+      },
+      {
+        "period": "06/10/2025 إلى 05/11/2025",
         "amount": 40.0
       }
     ],
@@ -2922,22 +2804,6 @@
         "amount": 50.0
       }
     ],
-    "notes": ""
-  },
-  {
-    "id": 17,
-    "name": "أحمد",
-    "surname": "كرمودي",
-    "educational_level": "6 ابتدائي",
-    "institution": "مدرسة ريحانة",
-    "entry_date": "2025-07-25",
-    "guardian_full_name": "لطيّف كرمودي",
-    "phone_number": "97636826",
-    "payment_generation_status": "archived",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
-    "absence_count": [],
-    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -3109,7 +2975,9 @@
     "payment_generation_status": "active",
     "payment_count": 3,
     "unpaid_total": 150.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-10-05"
+    ],
     "unpaid_periods": [
       {
         "period": "29/07/2025 إلى 28/08/2025",
@@ -3166,22 +3034,6 @@
         "amount": 50.0
       }
     ],
-    "notes": ""
-  },
-  {
-    "id": 26,
-    "name": "إيمان",
-    "surname": "نصيري",
-    "educational_level": "7 أساسي",
-    "institution": "المدرسة الاعدادية بالرقاب",
-    "entry_date": "2025-07-25",
-    "guardian_full_name": "محمد الصغير نصيري",
-    "phone_number": "96586727",
-    "payment_generation_status": "archived",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
-    "absence_count": [],
-    "unpaid_periods": [],
     "notes": ""
   },
   {

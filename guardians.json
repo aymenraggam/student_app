@@ -226,15 +226,6 @@
     "password": "473271"
   },
   {
-    "guardian_full_name": "منير حاجي",
-    "phone_number": "98725398",
-    "student_ids": [
-      83
-    ],
-    "unpaid_total": 0.0,
-    "password": "762470"
-  },
-  {
     "guardian_full_name": "أحمد خليفي",
     "phone_number": "29069649",
     "student_ids": [
@@ -311,21 +302,12 @@
     "password": "885664"
   },
   {
-    "guardian_full_name": "محسن زريبي",
-    "phone_number": "96371474",
-    "student_ids": [
-      76
-    ],
-    "unpaid_total": 0.0,
-    "password": "517992"
-  },
-  {
     "guardian_full_name": "محمد الصغير زريبي",
     "phone_number": "97551971",
     "student_ids": [
       31
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 50.0,
     "password": "318167"
   },
   {
@@ -343,7 +325,6 @@
     "phone_number": "99217475",
     "student_ids": [
       54,
-      55,
       63
     ],
     "unpaid_total": 100.0,
@@ -353,8 +334,7 @@
     "guardian_full_name": "لمين شرف الدين",
     "phone_number": "97917380",
     "student_ids": [
-      23,
-      47
+      23
     ],
     "unpaid_total": 90.0,
     "password": "454457"
@@ -386,7 +366,7 @@
       65,
       96
     ],
-    "unpaid_total": 40.0,
+    "unpaid_total": 80.0,
     "password": "729824"
   },
   {
@@ -423,7 +403,7 @@
     "student_ids": [
       92
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 40.0,
     "password": "421762"
   },
   {
@@ -567,16 +547,6 @@
     "password": "306063"
   },
   {
-    "guardian_full_name": "أم الزين عبيدي",
-    "phone_number": "58128994",
-    "student_ids": [
-      48,
-      49
-    ],
-    "unpaid_total": 0.0,
-    "password": "856226"
-  },
-  {
     "guardian_full_name": "بسمة عبيدي",
     "phone_number": "99722377",
     "student_ids": [
@@ -640,15 +610,6 @@
     ],
     "unpaid_total": 50.0,
     "password": "529014"
-  },
-  {
-    "guardian_full_name": "فتحية عيوني",
-    "phone_number": "94110939",
-    "student_ids": [
-      50
-    ],
-    "unpaid_total": 0.0,
-    "password": "772340"
   },
   {
     "guardian_full_name": "نبيهة عيوني",
@@ -770,15 +731,6 @@
     ],
     "unpaid_total": 130.0,
     "password": "248738"
-  },
-  {
-    "guardian_full_name": "محمد قادري",
-    "phone_number": "98386709",
-    "student_ids": [
-      59
-    ],
-    "unpaid_total": 0.0,
-    "password": "282387"
   },
   {
     "guardian_full_name": "نجاة قادري",
@@ -918,7 +870,6 @@
     "guardian_full_name": "لطيّف كرمودي",
     "phone_number": "97636826",
     "student_ids": [
-      17,
       33
     ],
     "unpaid_total": 100.0,
@@ -978,14 +929,5 @@
     ],
     "unpaid_total": 200.0,
     "password": "192082"
-  },
-  {
-    "guardian_full_name": "محمد الصغير نصيري",
-    "phone_number": "96586727",
-    "student_ids": [
-      26
-    ],
-    "unpaid_total": 0.0,
-    "password": "945347"
   }
 ]
