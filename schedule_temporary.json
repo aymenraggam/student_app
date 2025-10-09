@@ -7,5 +7,17 @@
     "class_type": "replacement_general",
     "replaced_class_id": 45,
     "student_ids": []
+  },
+  {
+    "id": 24,
+    "class_date": "2025-10-13",
+    "time_slot": "15:00 - 17:00",
+    "educational_level": "6 ابتدائي",
+    "class_type": "extra_private",
+    "replaced_class_id": null,
+    "student_ids": [
+      16,
+      18
+    ]
   }
 ]

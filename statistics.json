@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 2055.0,
+    "total_overdue_unpaid_amount": 2315.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -213,12 +213,6 @@
         "amount": 100.0
       },
       {
-        "student_id": 95,
-        "student_name": "مهيمن صياحي",
-        "period": "03/09/2025 إلى 02/10/2025",
-        "amount": 100.0
-      },
-      {
         "student_id": 96,
         "student_name": "حسّان كداشي",
         "period": "06/09/2025 إلى 05/10/2025",
@@ -228,6 +222,48 @@
         "student_id": 54,
         "student_name": "ملاك عيوني",
         "period": "08/09/2025 إلى 07/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 57,
+        "student_name": "إياد قادري",
+        "period": "09/09/2025 إلى 08/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 58,
+        "student_name": "مريم قادري",
+        "period": "09/09/2025 إلى 08/10/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 60,
+        "student_name": "جابر جلالي",
+        "period": "09/09/2025 إلى 08/10/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 61,
+        "student_name": "آية أم هاني",
+        "period": "09/09/2025 إلى 08/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 63,
+        "student_name": "وداد عيوني",
+        "period": "09/09/2025 إلى 08/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 66,
+        "student_name": "آدم فالحي",
+        "period": "09/09/2025 إلى 08/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 67,
+        "student_name": "غيث قادري",
+        "period": "09/09/2025 إلى 08/10/2025",
         "amount": 50.0
       },
       {
@@ -265,6 +301,12 @@
         "student_name": "أمان جلالي",
         "period": "22/08/2025 إلى 21/09/2025",
         "amount": 100.0
+      },
+      {
+        "student_id": 87,
+        "student_name": "عبد القادر كدوسي",
+        "period": "25/08/2025 إلى 24/09/2025",
+        "amount": 30.0
       }
     ],
     "total_active_students": 141,
