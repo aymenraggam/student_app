@@ -1,0 +1,2177 @@
+[
+  {
+    "student_id": 1,
+    "payments": [
+      {
+        "period_formatted": "09/07/2025 إلى 08/08/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-07-11"
+      },
+      {
+        "period_formatted": "09/08/2025 إلى 08/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-08-26"
+      },
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 2,
+    "payments": [
+      {
+        "period_formatted": "01/08/2025 إلى 31/08/2025",
+        "status": "خالص",
+        "amount": 70.0,
+        "received_date": "2025-08-21"
+      },
+      {
+        "period_formatted": "01/09/2025 إلى 30/09/2025",
+        "status": "خالص",
+        "amount": 70.0,
+        "received_date": "2025-10-04"
+      },
+      {
+        "period_formatted": "01/10/2025 إلى 31/10/2025",
+        "status": "غير خالص",
+        "amount": 70.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 3,
+    "payments": [
+      {
+        "period_formatted": "01/07/2025 إلى 31/07/2025",
+        "status": "خالص",
+        "amount": 100.0,
+        "received_date": "2025-09-05"
+      },
+      {
+        "period_formatted": "01/08/2025 إلى 31/08/2025",
+        "status": "خالص",
+        "amount": 100.0,
+        "received_date": "2025-09-05"
+      },
+      {
+        "period_formatted": "22/09/2025 إلى 21/10/2025",
+        "status": "غير خالص",
+        "amount": 100.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 4,
+    "payments": [
+      {
+        "period_formatted": "03/07/2025 إلى 02/08/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "03/08/2025 إلى 02/09/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "03/09/2025 إلى 02/10/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "03/10/2025 إلى 02/11/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 5,
+    "payments": [
+      {
+        "period_formatted": "01/07/2025 إلى 31/07/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "01/08/2025 إلى 31/08/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 6,
+    "payments": [
+      {
+        "period_formatted": "01/07/2025 إلى 31/07/2025",
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2025-08-14"
+      },
+      {
+        "period_formatted": "01/08/2025 إلى 31/08/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 7,
+    "payments": [
+      {
+        "period_formatted": "07/07/2025 إلى 06/08/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-03"
+      },
+      {
+        "period_formatted": "07/08/2025 إلى 06/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-03"
+      },
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 8,
+    "payments": [
+      {
+        "period_formatted": "22/07/2025 إلى 21/08/2025",
+        "status": "خالص",
+        "amount": 100.0,
+        "received_date": "2025-08-21"
+      },
+      {
+        "period_formatted": "22/08/2025 إلى 21/09/2025",
+        "status": "غير خالص",
+        "amount": 100.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "22/09/2025 إلى 21/10/2025",
+        "status": "خالص",
+        "amount": 100.0,
+        "received_date": "2025-10-04"
+      }
+    ]
+  },
+  {
+    "student_id": 9,
+    "payments": [
+      {
+        "period_formatted": "29/07/2025 إلى 28/08/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 10,
+    "payments": [
+      {
+        "period_formatted": "02/07/2025 إلى 01/08/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-08-08"
+      },
+      {
+        "period_formatted": "02/08/2025 إلى 01/09/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 11,
+    "payments": [
+      {
+        "period_formatted": "03/07/2025 إلى 02/08/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "03/08/2025 إلى 02/09/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "03/09/2025 إلى 02/10/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "03/10/2025 إلى 02/11/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 12,
+    "payments": [
+      {
+        "period_formatted": "02/08/2025 إلى 01/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-10"
+      },
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 13,
+    "payments": [
+      {
+        "period_formatted": "01/07/2025 إلى 31/07/2025",
+        "status": "خالص",
+        "amount": 30.0,
+        "received_date": "2025-08-01"
+      },
+      {
+        "period_formatted": "01/08/2025 إلى 31/08/2025",
+        "status": "خالص",
+        "amount": 30.0,
+        "received_date": "2025-09-03"
+      },
+      {
+        "period_formatted": "22/09/2025 إلى 21/10/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 14,
+    "payments": [
+      {
+        "period_formatted": "31/07/2025 إلى 30/08/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "22/09/2025 إلى 21/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 15,
+    "payments": [
+      {
+        "period_formatted": "03/07/2025 إلى 02/08/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "03/08/2025 إلى 02/09/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "03/09/2025 إلى 02/10/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "03/10/2025 إلى 02/11/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 16,
+    "payments": [
+      {
+        "period_formatted": "23/07/2025 إلى 22/08/2025",
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2025-08-21"
+      },
+      {
+        "period_formatted": "23/08/2025 إلى 22/09/2025",
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2025-09-22"
+      },
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 18,
+    "payments": [
+      {
+        "period_formatted": "01/08/2025 إلى 31/08/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 19,
+    "payments": [
+      {
+        "period_formatted": "23/07/2025 إلى 22/08/2025",
+        "status": "خالص",
+        "amount": 100.0,
+        "received_date": "2025-09-05"
+      },
+      {
+        "period_formatted": "23/08/2025 إلى 22/09/2025",
+        "status": "خالص",
+        "amount": 100.0,
+        "received_date": "2025-09-05"
+      },
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 100.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 20,
+    "payments": [
+      {
+        "period_formatted": "24/07/2025 إلى 23/08/2025",
+        "status": "خالص",
+        "amount": 100.0,
+        "received_date": "2025-08-26"
+      },
+      {
+        "period_formatted": "24/08/2025 إلى 23/09/2025",
+        "status": "خالص",
+        "amount": 100.0,
+        "received_date": "2025-10-01"
+      },
+      {
+        "period_formatted": "24/09/2025 إلى 23/10/2025",
+        "status": "غير خالص",
+        "amount": 100.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 21,
+    "payments": [
+      {
+        "period_formatted": "25/07/2025 إلى 24/08/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-08-27"
+      }
+    ]
+  },
+  {
+    "student_id": 22,
+    "payments": [
+      {
+        "period_formatted": "03/08/2025 إلى 02/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-08-29"
+      },
+      {
+        "period_formatted": "03/09/2025 إلى 02/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "03/10/2025 إلى 02/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 23,
+    "payments": [
+      {
+        "period_formatted": "03/08/2025 إلى 02/09/2025",
+        "status": "خالص",
+        "amount": 45.0,
+        "received_date": "2025-08-26"
+      },
+      {
+        "period_formatted": "03/09/2025 إلى 02/10/2025",
+        "status": "غير خالص",
+        "amount": 45.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "03/10/2025 إلى 02/11/2025",
+        "status": "غير خالص",
+        "amount": 45.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 24,
+    "payments": [
+      {
+        "period_formatted": "25/07/2025 إلى 24/08/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-28"
+      },
+      {
+        "period_formatted": "26/09/2025 إلى 25/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 25,
+    "payments": [
+      {
+        "period_formatted": "25/07/2025 إلى 24/08/2025",
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2025-08-27"
+      },
+      {
+        "period_formatted": "26/09/2025 إلى 25/10/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 27,
+    "payments": [
+      {
+        "period_formatted": "27/09/2025 إلى 26/10/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 28,
+    "payments": [
+      {
+        "period_formatted": "25/07/2025 إلى 24/08/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "25/08/2025 إلى 24/09/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "25/09/2025 إلى 24/10/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 29,
+    "payments": [
+      {
+        "period_formatted": "25/07/2025 إلى 24/08/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-08-26"
+      },
+      {
+        "period_formatted": "25/08/2025 إلى 24/09/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "25/09/2025 إلى 24/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 30,
+    "payments": [
+      {
+        "period_formatted": "29/07/2025 إلى 28/08/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "29/08/2025 إلى 28/09/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "29/09/2025 إلى 28/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 31,
+    "payments": [
+      {
+        "period_formatted": "30/07/2025 إلى 29/08/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-05"
+      },
+      {
+        "period_formatted": "05/10/2025 إلى 04/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 33,
+    "payments": [
+      {
+        "period_formatted": "25/07/2025 إلى 24/08/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-08-26"
+      },
+      {
+        "period_formatted": "25/08/2025 إلى 24/09/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "25/09/2025 إلى 24/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 34,
+    "payments": [
+      {
+        "period_formatted": "25/07/2025 إلى 24/08/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-15"
+      },
+      {
+        "period_formatted": "25/08/2025 إلى 24/09/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "25/09/2025 إلى 24/10/2025",
+        "status": "غير خالص",
+        "amount": 100.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 35,
+    "payments": [
+      {
+        "period_formatted": "25/07/2025 إلى 24/08/2025",
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2025-08-21"
+      },
+      {
+        "period_formatted": "25/08/2025 إلى 24/09/2025",
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2025-09-22"
+      },
+      {
+        "period_formatted": "25/09/2025 إلى 24/10/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 36,
+    "payments": [
+      {
+        "period_formatted": "25/07/2025 إلى 24/08/2025",
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2025-09-27"
+      },
+      {
+        "period_formatted": "25/08/2025 إلى 24/09/2025",
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2025-09-27"
+      },
+      {
+        "period_formatted": "25/09/2025 إلى 24/10/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 37,
+    "payments": [
+      {
+        "period_formatted": "25/07/2025 إلى 24/08/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "25/08/2025 إلى 24/09/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "25/09/2025 إلى 24/10/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 38,
+    "payments": [
+      {
+        "period_formatted": "26/07/2025 إلى 25/08/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-03"
+      },
+      {
+        "period_formatted": "26/08/2025 إلى 25/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-28"
+      },
+      {
+        "period_formatted": "26/09/2025 إلى 25/10/2025",
+        "status": "خالص",
+        "amount": 100.0,
+        "received_date": "2025-09-28"
+      }
+    ]
+  },
+  {
+    "student_id": 39,
+    "payments": [
+      {
+        "period_formatted": "01/08/2025 إلى 31/08/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 40,
+    "payments": [
+      {
+        "period_formatted": "01/08/2025 إلى 31/08/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-02"
+      },
+      {
+        "period_formatted": "01/09/2025 إلى 30/09/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "01/10/2025 إلى 31/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 41,
+    "payments": [
+      {
+        "period_formatted": "01/08/2025 إلى 31/08/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-08-01"
+      },
+      {
+        "period_formatted": "26/09/2025 إلى 25/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 42,
+    "payments": [
+      {
+        "period_formatted": "03/08/2025 إلى 02/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-08-29"
+      },
+      {
+        "period_formatted": "02/10/2025 إلى 01/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 43,
+    "payments": [
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 0.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 44,
+    "payments": [
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 45,
+    "payments": [
+      {
+        "period_formatted": "04/08/2025 إلى 03/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-02"
+      },
+      {
+        "period_formatted": "01/10/2025 إلى 31/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 46,
+    "payments": [
+      {
+        "period_formatted": "04/08/2025 إلى 03/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-02"
+      },
+      {
+        "period_formatted": "01/10/2025 إلى 31/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 51,
+    "payments": [
+      {
+        "period_formatted": "05/08/2025 إلى 04/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-08"
+      },
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 52,
+    "payments": [
+      {
+        "period_formatted": "05/08/2025 إلى 04/09/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 53,
+    "payments": [
+      {
+        "period_formatted": "07/08/2025 إلى 06/09/2025",
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2025-08-01"
+      },
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 54,
+    "payments": [
+      {
+        "period_formatted": "08/08/2025 إلى 07/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-10"
+      },
+      {
+        "period_formatted": "08/09/2025 إلى 07/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "08/10/2025 إلى 07/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 56,
+    "payments": [
+      {
+        "period_formatted": "08/08/2025 إلى 07/09/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "22/09/2025 إلى 21/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 57,
+    "payments": [
+      {
+        "period_formatted": "09/08/2025 إلى 08/09/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "09/09/2025 إلى 08/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 58,
+    "payments": [
+      {
+        "period_formatted": "09/08/2025 إلى 08/09/2025",
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2025-09-28"
+      },
+      {
+        "period_formatted": "09/09/2025 إلى 08/10/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 60,
+    "payments": [
+      {
+        "period_formatted": "09/08/2025 إلى 08/09/2025",
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2025-09-12"
+      },
+      {
+        "period_formatted": "09/09/2025 إلى 08/10/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 61,
+    "payments": [
+      {
+        "period_formatted": "09/08/2025 إلى 08/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-28"
+      },
+      {
+        "period_formatted": "09/09/2025 إلى 08/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 62,
+    "payments": [
+      {
+        "period_formatted": "09/08/2025 إلى 08/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-30"
+      },
+      {
+        "period_formatted": "22/09/2025 إلى 21/10/2025",
+        "status": "غير خالص",
+        "amount": 100.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 63,
+    "payments": [
+      {
+        "period_formatted": "09/08/2025 إلى 08/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-10"
+      },
+      {
+        "period_formatted": "09/09/2025 إلى 08/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 64,
+    "payments": [
+      {
+        "period_formatted": "09/08/2025 إلى 08/09/2025",
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2025-09-08"
+      },
+      {
+        "period_formatted": "04/10/2025 إلى 03/11/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 65,
+    "payments": [
+      {
+        "period_formatted": "09/08/2025 إلى 08/09/2025",
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2025-09-07"
+      },
+      {
+        "period_formatted": "09/09/2025 إلى 08/10/2025",
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2025-09-21"
+      }
+    ]
+  },
+  {
+    "student_id": 66,
+    "payments": [
+      {
+        "period_formatted": "09/08/2025 إلى 08/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-30"
+      },
+      {
+        "period_formatted": "09/09/2025 إلى 08/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 67,
+    "payments": [
+      {
+        "period_formatted": "09/08/2025 إلى 08/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-28"
+      },
+      {
+        "period_formatted": "09/09/2025 إلى 08/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 68,
+    "payments": [
+      {
+        "period_formatted": "10/08/2025 إلى 09/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-25"
+      },
+      {
+        "period_formatted": "10/09/2025 إلى 09/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 70,
+    "payments": [
+      {
+        "period_formatted": "12/08/2025 إلى 11/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-18"
+      },
+      {
+        "period_formatted": "04/10/2025 إلى 03/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 71,
+    "payments": [
+      {
+        "period_formatted": "12/08/2025 إلى 11/09/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "12/09/2025 إلى 11/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 72,
+    "payments": [
+      {
+        "period_formatted": "13/08/2025 إلى 12/09/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "13/09/2025 إلى 12/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 73,
+    "payments": [
+      {
+        "period_formatted": "13/08/2025 إلى 12/09/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "13/09/2025 إلى 12/10/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 74,
+    "payments": [
+      {
+        "period_formatted": "13/08/2025 إلى 12/09/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "13/09/2025 إلى 12/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 75,
+    "payments": [
+      {
+        "period_formatted": "14/08/2025 إلى 13/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-08-14"
+      },
+      {
+        "period_formatted": "14/09/2025 إلى 13/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 77,
+    "payments": [
+      {
+        "period_formatted": "14/08/2025 إلى 13/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-08-05"
+      },
+      {
+        "period_formatted": "07/10/2025 إلى 06/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 78,
+    "payments": [
+      {
+        "period_formatted": "13/08/2025 إلى 12/09/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 79,
+    "payments": [
+      {
+        "period_formatted": "16/08/2025 إلى 15/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-28"
+      },
+      {
+        "period_formatted": "16/09/2025 إلى 15/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 80,
+    "payments": [
+      {
+        "period_formatted": "16/08/2025 إلى 15/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-10-04"
+      },
+      {
+        "period_formatted": "16/09/2025 إلى 15/10/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-10-04"
+      }
+    ]
+  },
+  {
+    "student_id": 81,
+    "payments": [
+      {
+        "period_formatted": "17/08/2025 إلى 16/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-23"
+      },
+      {
+        "period_formatted": "17/09/2025 إلى 16/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 82,
+    "payments": [
+      {
+        "period_formatted": "17/08/2025 إلى 16/09/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "17/09/2025 إلى 16/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 84,
+    "payments": [
+      {
+        "period_formatted": "19/08/2025 إلى 18/09/2025",
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2025-08-25"
+      },
+      {
+        "period_formatted": "19/09/2025 إلى 18/10/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 85,
+    "payments": [
+      {
+        "period_formatted": "19/08/2025 إلى 18/09/2025",
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2025-08-25"
+      },
+      {
+        "period_formatted": "19/09/2025 إلى 18/10/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 86,
+    "payments": [
+      {
+        "period_formatted": "19/08/2025 إلى 18/09/2025",
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2025-08-25"
+      },
+      {
+        "period_formatted": "19/09/2025 إلى 18/10/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 87,
+    "payments": [
+      {
+        "period_formatted": "22/09/2025 إلى 21/10/2025",
+        "status": "غير خالص",
+        "amount": 0.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 88,
+    "payments": [
+      {
+        "period_formatted": "30/08/2025 إلى 29/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-10-02"
+      },
+      {
+        "period_formatted": "30/09/2025 إلى 29/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 89,
+    "payments": [
+      {
+        "period_formatted": "23/08/2025 إلى 22/09/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-09-03"
+      },
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "خالص",
+        "amount": 100.0,
+        "received_date": "2025-09-28"
+      }
+    ]
+  },
+  {
+    "student_id": 90,
+    "payments": [
+      {
+        "period_formatted": "22/09/2025 إلى 21/10/2025",
+        "status": "غير خالص",
+        "amount": 0.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 91,
+    "payments": [
+      {
+        "period_formatted": "02/09/2025 إلى 01/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "02/10/2025 إلى 01/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 92,
+    "payments": [
+      {
+        "period_formatted": "05/10/2025 إلى 04/11/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 94,
+    "payments": [
+      {
+        "period_formatted": "03/09/2025 إلى 02/10/2025",
+        "status": "غير خالص",
+        "amount": 100.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "03/10/2025 إلى 02/11/2025",
+        "status": "غير خالص",
+        "amount": 100.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 95,
+    "payments": [
+      {
+        "period_formatted": "03/09/2025 إلى 02/10/2025",
+        "status": "غير خالص",
+        "amount": 100.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "03/10/2025 إلى 02/11/2025",
+        "status": "غير خالص",
+        "amount": 100.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 96,
+    "payments": [
+      {
+        "period_formatted": "06/09/2025 إلى 05/10/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      },
+      {
+        "period_formatted": "06/10/2025 إلى 05/11/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 97,
+    "payments": [
+      {
+        "period_formatted": "16/09/2025 إلى 15/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 98,
+    "payments": [
+      {
+        "period_formatted": "19/09/2025 إلى 18/10/2025",
+        "status": "غير خالص",
+        "amount": 100.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 99,
+    "payments": [
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 100,
+    "payments": [
+      {
+        "period_formatted": "20/09/2025 إلى 19/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 101,
+    "payments": [
+      {
+        "period_formatted": "18/09/2025 إلى 17/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 102,
+    "payments": [
+      {
+        "period_formatted": "22/09/2025 إلى 21/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 103,
+    "payments": [
+      {
+        "period_formatted": "22/09/2025 إلى 21/10/2025",
+        "status": "غير خالص",
+        "amount": 100.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 104,
+    "payments": [
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 105,
+    "payments": [
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 107,
+    "payments": [
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 108,
+    "payments": [
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 109,
+    "payments": [
+      {
+        "period_formatted": "24/09/2025 إلى 23/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 110,
+    "payments": [
+      {
+        "period_formatted": "25/09/2025 إلى 24/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 111,
+    "payments": [
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 112,
+    "payments": [
+      {
+        "period_formatted": "23/09/2025 إلى 22/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 113,
+    "payments": [
+      {
+        "period_formatted": "25/09/2025 إلى 24/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 114,
+    "payments": [
+      {
+        "period_formatted": "25/09/2025 إلى 24/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 115,
+    "payments": [
+      {
+        "period_formatted": "26/09/2025 إلى 25/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 116,
+    "payments": [
+      {
+        "period_formatted": "26/09/2025 إلى 25/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 117,
+    "payments": [
+      {
+        "period_formatted": "26/09/2025 إلى 25/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 118,
+    "payments": [
+      {
+        "period_formatted": "26/09/2025 إلى 25/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 119,
+    "payments": [
+      {
+        "period_formatted": "26/09/2025 إلى 25/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 120,
+    "payments": [
+      {
+        "period_formatted": "26/09/2025 إلى 25/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 121,
+    "payments": [
+      {
+        "period_formatted": "26/09/2025 إلى 25/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 122,
+    "payments": [
+      {
+        "period_formatted": "26/09/2025 إلى 25/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 123,
+    "payments": [
+      {
+        "period_formatted": "26/09/2025 إلى 25/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 124,
+    "payments": [
+      {
+        "period_formatted": "26/09/2025 إلى 25/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 125,
+    "payments": [
+      {
+        "period_formatted": "26/09/2025 إلى 25/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 126,
+    "payments": [
+      {
+        "period_formatted": "27/09/2025 إلى 26/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 127,
+    "payments": [
+      {
+        "period_formatted": "27/09/2025 إلى 26/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 128,
+    "payments": [
+      {
+        "period_formatted": "27/09/2025 إلى 26/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 129,
+    "payments": [
+      {
+        "period_formatted": "27/09/2025 إلى 26/10/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 130,
+    "payments": [
+      {
+        "period_formatted": "27/09/2025 إلى 26/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 131,
+    "payments": [
+      {
+        "period_formatted": "27/09/2025 إلى 26/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 132,
+    "payments": [
+      {
+        "period_formatted": "27/09/2025 إلى 26/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 133,
+    "payments": [
+      {
+        "period_formatted": "27/09/2025 إلى 26/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 134,
+    "payments": [
+      {
+        "period_formatted": "27/09/2025 إلى 26/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 135,
+    "payments": [
+      {
+        "period_formatted": "28/09/2025 إلى 27/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 136,
+    "payments": [
+      {
+        "period_formatted": "27/09/2025 إلى 26/10/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 137,
+    "payments": [
+      {
+        "period_formatted": "27/09/2025 إلى 26/10/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 138,
+    "payments": [
+      {
+        "period_formatted": "30/09/2025 إلى 29/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 139,
+    "payments": [
+      {
+        "period_formatted": "30/09/2025 إلى 29/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 140,
+    "payments": [
+      {
+        "period_formatted": "02/10/2025 إلى 01/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 142,
+    "payments": [
+      {
+        "period_formatted": "02/10/2025 إلى 01/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 143,
+    "payments": [
+      {
+        "period_formatted": "30/09/2025 إلى 29/10/2025",
+        "status": "غير خالص",
+        "amount": 35.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 144,
+    "payments": [
+      {
+        "period_formatted": "30/09/2025 إلى 29/10/2025",
+        "status": "غير خالص",
+        "amount": 35.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 145,
+    "payments": [
+      {
+        "period_formatted": "30/09/2025 إلى 29/10/2025",
+        "status": "غير خالص",
+        "amount": 35.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 146,
+    "payments": [
+      {
+        "period_formatted": "03/10/2025 إلى 02/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 147,
+    "payments": [
+      {
+        "period_formatted": "03/10/2025 إلى 02/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 148,
+    "payments": [
+      {
+        "period_formatted": "03/10/2025 إلى 02/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 149,
+    "payments": [
+      {
+        "period_formatted": "03/10/2025 إلى 02/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 150,
+    "payments": [
+      {
+        "period_formatted": "03/10/2025 إلى 02/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 151,
+    "payments": [
+      {
+        "period_formatted": "03/10/2025 إلى 02/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 152,
+    "payments": [
+      {
+        "period_formatted": "04/10/2025 إلى 03/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 153,
+    "payments": [
+      {
+        "period_formatted": "02/10/2025 إلى 01/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 154,
+    "payments": [
+      {
+        "period_formatted": "04/10/2025 إلى 03/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 155,
+    "payments": [
+      {
+        "period_formatted": "04/10/2025 إلى 03/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  },
+  {
+    "student_id": 156,
+    "payments": [
+      {
+        "period_formatted": "07/10/2025 إلى 06/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null
+      }
+    ]
+  }
+]

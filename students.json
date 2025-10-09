@@ -408,7 +408,7 @@
         "amount": 50.0
       }
     ],
-    "notes": ""
+    "notes": "لا ينجز واجباته"
   },
   {
     "id": 142,
@@ -479,7 +479,7 @@
         "amount": 30.0
       }
     ],
-    "notes": ""
+    "notes": "لا ينجز واجباته"
   },
   {
     "id": 15,
@@ -545,7 +545,7 @@
         "amount": 30.0
       }
     ],
-    "notes": ""
+    "notes": "لا ينجز واجباته"
   },
   {
     "id": 88,
@@ -563,6 +563,27 @@
     "unpaid_periods": [
       {
         "period": "30/09/2025 إلى 29/10/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 156,
+    "name": "قصي",
+    "surname": "جلالي",
+    "educational_level": "5 ابتدائي",
+    "institution": "مدرسة ابن رشد1",
+    "entry_date": "2025-10-07",
+    "guardian_full_name": "محرزية كيّال",
+    "phone_number": "41518984",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "07/10/2025 إلى 06/11/2025",
         "amount": 50.0
       }
     ],
@@ -978,11 +999,7 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 0.0,
-    "absence_count": [
-      "2025-09-26",
-      "2025-09-27",
-      "2025-10-04"
-    ],
+    "absence_count": [],
     "unpaid_periods": [],
     "notes": ""
   },
@@ -995,11 +1012,16 @@
     "entry_date": "2025-08-14",
     "guardian_full_name": "ونيسة عايدي",
     "phone_number": "98103627",
-    "payment_generation_status": "suspended",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
+    "payment_generation_status": "active",
+    "payment_count": 2,
+    "unpaid_total": 50.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "07/10/2025 إلى 06/11/2025",
+        "amount": 50.0
+      }
+    ],
     "notes": "يجب عليه المراجعة في المنزل"
   },
   {
@@ -1338,7 +1360,7 @@
         "amount": 50.0
       }
     ],
-    "notes": ""
+    "notes": "لا ينجز واجباته"
   },
   {
     "id": 73,
@@ -1956,6 +1978,27 @@
     "notes": ""
   },
   {
+    "id": 155,
+    "name": "أريج",
+    "surname": "عوادي",
+    "educational_level": "4 ابتدائي",
+    "institution": "مدرسة ابن رشد1",
+    "entry_date": "2025-10-04",
+    "guardian_full_name": "لطيفة سليمي",
+    "phone_number": "44171178",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "04/10/2025 إلى 03/11/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": "لا ينجز واجباته"
+  },
+  {
     "id": 98,
     "name": "أيهم",
     "surname": "عيادي",
@@ -2055,12 +2098,16 @@
     "guardian_full_name": "مريم سليمي",
     "phone_number": "99217475",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 50.0,
+    "payment_count": 3,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "08/09/2025 إلى 07/10/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "08/10/2025 إلى 07/11/2025",
         "amount": 50.0
       }
     ],
@@ -2096,7 +2143,7 @@
     "entry_date": "2025-08-16",
     "guardian_full_name": "مسعود غنادرة",
     "phone_number": "52390362",
-    "payment_generation_status": "active",
+    "payment_generation_status": "suspended",
     "payment_count": 2,
     "unpaid_total": 50.0,
     "absence_count": [
@@ -2762,7 +2809,7 @@
         "amount": 50.0
       }
     ],
-    "notes": ""
+    "notes": "لا ينجز واجباته"
   },
   {
     "id": 75,
@@ -2804,7 +2851,7 @@
         "amount": 50.0
       }
     ],
-    "notes": ""
+    "notes": "لا ينجز واجباته"
   },
   {
     "id": 33,

@@ -1,3 +1,285 @@
-{
-  "total_overdue_unpaid_amount": 1805.0
-}
+[
+  {
+    "total_overdue_unpaid_amount": 2055.0,
+    "overdue_details": [
+      {
+        "student_id": 4,
+        "student_name": "آدم جلالي",
+        "period": "03/07/2025 إلى 02/08/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 5,
+        "student_name": "آدم صالحي",
+        "period": "01/07/2025 إلى 31/07/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 5,
+        "student_name": "آدم صالحي",
+        "period": "01/08/2025 إلى 31/08/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 6,
+        "student_name": "أيوب صالحي",
+        "period": "01/08/2025 إلى 31/08/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 10,
+        "student_name": "أسامة بوعلاقي",
+        "period": "02/08/2025 إلى 01/09/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 11,
+        "student_name": "فاطمة جلالي",
+        "period": "03/07/2025 إلى 02/08/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 14,
+        "student_name": "معتصم صالحي",
+        "period": "31/07/2025 إلى 30/08/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 15,
+        "student_name": "عائشة جلالي",
+        "period": "03/07/2025 إلى 02/08/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 18,
+        "student_name": "شفاء نصيري",
+        "period": "01/08/2025 إلى 31/08/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 28,
+        "student_name": "مريم جلالي",
+        "period": "25/07/2025 إلى 24/08/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 30,
+        "student_name": "يحي مسعودي",
+        "period": "29/07/2025 إلى 28/08/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 37,
+        "student_name": "ريتاج جلالي",
+        "period": "25/07/2025 إلى 24/08/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 39,
+        "student_name": "نور عكروتي",
+        "period": "01/08/2025 إلى 31/08/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 52,
+        "student_name": "براءة صالحي",
+        "period": "05/08/2025 إلى 04/09/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 4,
+        "student_name": "آدم جلالي",
+        "period": "03/08/2025 إلى 02/09/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 11,
+        "student_name": "فاطمة جلالي",
+        "period": "03/08/2025 إلى 02/09/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 15,
+        "student_name": "عائشة جلالي",
+        "period": "03/08/2025 إلى 02/09/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 9,
+        "student_name": "أمل صالحي",
+        "period": "29/07/2025 إلى 28/08/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 56,
+        "student_name": "إلياس أم هاني",
+        "period": "08/08/2025 إلى 07/09/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 57,
+        "student_name": "إياد قادري",
+        "period": "09/08/2025 إلى 08/09/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 71,
+        "student_name": "سلمى قادري",
+        "period": "12/08/2025 إلى 11/09/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 72,
+        "student_name": "مرام خليفي",
+        "period": "13/08/2025 إلى 12/09/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 73,
+        "student_name": "روان صالحي",
+        "period": "13/08/2025 إلى 12/09/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 78,
+        "student_name": "احمد زارعي",
+        "period": "13/08/2025 إلى 12/09/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 82,
+        "student_name": "يحي جلالي",
+        "period": "17/08/2025 إلى 16/09/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 28,
+        "student_name": "مريم جلالي",
+        "period": "25/08/2025 إلى 24/09/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 29,
+        "student_name": "أميمة طقوقي",
+        "period": "25/08/2025 إلى 24/09/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 33,
+        "student_name": "محمد كرمودي",
+        "period": "25/08/2025 إلى 24/09/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 37,
+        "student_name": "ريتاج جلالي",
+        "period": "25/08/2025 إلى 24/09/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 30,
+        "student_name": "يحي مسعودي",
+        "period": "29/08/2025 إلى 28/09/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 40,
+        "student_name": "جهاد كحولي",
+        "period": "01/09/2025 إلى 30/09/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 91,
+        "student_name": "منيار جلالي",
+        "period": "02/09/2025 إلى 01/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 22,
+        "student_name": "فرح قادري",
+        "period": "03/09/2025 إلى 02/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 23,
+        "student_name": "تقوى شرف الدين",
+        "period": "03/09/2025 إلى 02/10/2025",
+        "amount": 45.0
+      },
+      {
+        "student_id": 94,
+        "student_name": "نغم جلالي",
+        "period": "03/09/2025 إلى 02/10/2025",
+        "amount": 100.0
+      },
+      {
+        "student_id": 95,
+        "student_name": "مهيمن صياحي",
+        "period": "03/09/2025 إلى 02/10/2025",
+        "amount": 100.0
+      },
+      {
+        "student_id": 96,
+        "student_name": "حسّان كداشي",
+        "period": "06/09/2025 إلى 05/10/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 54,
+        "student_name": "ملاك عيوني",
+        "period": "08/09/2025 إلى 07/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 74,
+        "student_name": "مالك عيوني",
+        "period": "13/08/2025 إلى 12/09/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 4,
+        "student_name": "آدم جلالي",
+        "period": "03/09/2025 إلى 02/10/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 11,
+        "student_name": "فاطمة جلالي",
+        "period": "03/09/2025 إلى 02/10/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 15,
+        "student_name": "عائشة جلالي",
+        "period": "03/09/2025 إلى 02/10/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 34,
+        "student_name": "تقي مسعودي",
+        "period": "25/08/2025 إلى 24/09/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 8,
+        "student_name": "أمان جلالي",
+        "period": "22/08/2025 إلى 21/09/2025",
+        "amount": 100.0
+      }
+    ],
+    "total_active_students": 141,
+    "students_per_level": {
+      "2 ث علوم": 5,
+      "9 أساسي": 16,
+      "5 ابتدائي": 11,
+      "3 ابتدائي": 11,
+      "2 ابتدائي": 8,
+      "4 ابتدائي": 10,
+      "1 ثانوي": 18,
+      "7 أساسي": 20,
+      "8 أساسي": 24,
+      "6 ابتدائي": 11,
+      "1 ابتدائي": 7
+    }
+  }
+]
