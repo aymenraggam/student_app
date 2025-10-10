@@ -1,14 +1,5 @@
 [
   {
-    "id": 23,
-    "class_date": "2025-10-04",
-    "time_slot": "19:00 - 21:00",
-    "educational_level": "1 ثانوي",
-    "class_type": "replacement_general",
-    "replaced_class_id": 45,
-    "student_ids": []
-  },
-  {
     "id": 24,
     "class_date": "2025-10-13",
     "time_slot": "15:00 - 17:00",

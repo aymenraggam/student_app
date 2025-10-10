@@ -171,7 +171,7 @@
     ],
     "unpaid_total": 0.0,
     "password": "523756",
-    "credit_balance": 80.0
+    "credit_balance": 30.0
   },
   {
     "guardian_full_name": "دعد جلالي",
@@ -225,7 +225,7 @@
     "student_ids": [
       39
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "379495",
     "credit_balance": 0.0
   },
@@ -245,7 +245,7 @@
     "student_ids": [
       72
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "415788",
     "credit_balance": 0.0
   },
@@ -297,9 +297,10 @@
     "guardian_full_name": "تفاحة زريبي",
     "phone_number": "96445731",
     "student_ids": [
-      64
+      64,
+      162
     ],
-    "unpaid_total": 40.0,
+    "unpaid_total": 90.0,
     "password": "932892",
     "credit_balance": 0.0
   },
@@ -311,6 +312,16 @@
     ],
     "unpaid_total": 50.0,
     "password": "440480",
+    "credit_balance": 0.0
+  },
+  {
+    "guardian_full_name": "زهرة زريبي",
+    "phone_number": "52244781",
+    "student_ids": [
+      158
+    ],
+    "unpaid_total": 50.0,
+    "password": "756426",
     "credit_balance": 0.0
   },
   {
@@ -437,6 +448,16 @@
     ],
     "unpaid_total": 100.0,
     "password": "797132",
+    "credit_balance": 0.0
+  },
+  {
+    "guardian_full_name": "محسن صالحي",
+    "phone_number": "92294219",
+    "student_ids": [
+      159
+    ],
+    "unpaid_total": 50.0,
+    "password": "691820",
     "credit_balance": 0.0
   },
   {
@@ -569,9 +590,9 @@
       77,
       89
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "password": "175124",
-    "credit_balance": 250.0
+    "credit_balance": 50.0
   },
   {
     "guardian_full_name": "كوثر عباسي",
@@ -747,6 +768,16 @@
     "credit_balance": 0.0
   },
   {
+    "guardian_full_name": "حافظ قادري",
+    "phone_number": "97265753",
+    "student_ids": [
+      160
+    ],
+    "unpaid_total": 50.0,
+    "password": "347292",
+    "credit_balance": 0.0
+  },
+  {
     "guardian_full_name": "خليفة قادري",
     "phone_number": "98472524",
     "student_ids": [
@@ -905,6 +936,16 @@
     "credit_balance": 0.0
   },
   {
+    "guardian_full_name": "الضاوي كدوسي",
+    "phone_number": "94140429",
+    "student_ids": [
+      161
+    ],
+    "unpaid_total": 50.0,
+    "password": "481786",
+    "credit_balance": 0.0
+  },
+  {
     "guardian_full_name": "النوّي كدوسي",
     "phone_number": "97915970",
     "student_ids": [
@@ -931,9 +972,10 @@
     "guardian_full_name": "حنان كدوسي",
     "phone_number": "92451382",
     "student_ids": [
-      87
+      87,
+      163
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 50.0,
     "password": "810666",
     "credit_balance": 0.0
   },

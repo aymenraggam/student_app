@@ -12,7 +12,34 @@
     "guardian_name": "ونيسة",
     "guardian_surname": "عايدي",
     "phone_number": "98103627",
-    "transaction_date": "2025-09-28 05:55:28",
+    "transaction_date": "2025-10-10 20:54:47",
+    "amount": 100.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "ونيسة",
+    "guardian_surname": "عايدي",
+    "phone_number": "98103627",
+    "transaction_date": "2025-10-10 20:54:48",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: يوسف سماري",
+    "payment_id": 214
+  },
+  {
+    "guardian_name": "ونيسة",
+    "guardian_surname": "عايدي",
+    "phone_number": "98103627",
+    "transaction_date": "2025-10-10 20:54:48",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: ياسين سماري",
+    "payment_id": 247
+  },
+  {
+    "guardian_name": "ونيسة",
+    "guardian_surname": "عايدي",
+    "phone_number": "98103627",
+    "transaction_date": "2025-10-10 20:54:56",
     "amount": 200.0,
     "notes": "إيداع تسبقة",
     "payment_id": null
@@ -21,8 +48,8 @@
     "guardian_name": "ونيسة",
     "guardian_surname": "عايدي",
     "phone_number": "98103627",
-    "transaction_date": "2025-09-28 05:55:30",
-    "amount": -50.0,
+    "transaction_date": "2025-10-10 20:54:57",
+    "amount": -100.0,
     "notes": "خلاص دفعة (عادية) للتلميذ: ياسين سماري",
     "payment_id": 344
   },
@@ -30,16 +57,16 @@
     "guardian_name": "ونيسة",
     "guardian_surname": "عايدي",
     "phone_number": "98103627",
-    "transaction_date": "2025-09-28 05:55:49",
-    "amount": 100.0,
-    "notes": "إيداع تسبقة",
-    "payment_id": null
+    "transaction_date": "2025-10-10 20:54:57",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: يوسف سماري",
+    "payment_id": 450
   },
   {
     "guardian_name": "حياة",
     "guardian_surname": "جلالي",
     "phone_number": "99810230",
-    "transaction_date": "2025-09-28 05:56:29",
+    "transaction_date": "2025-10-10 20:55:28",
     "amount": 180.0,
     "notes": "إيداع تسبقة",
     "payment_id": null
@@ -48,7 +75,7 @@
     "guardian_name": "حياة",
     "guardian_surname": "جلالي",
     "phone_number": "99810230",
-    "transaction_date": "2025-09-28 05:56:31",
+    "transaction_date": "2025-10-10 20:55:30",
     "amount": -50.0,
     "notes": "خلاص دفعة (عادية) للتلميذ: أمان الله جلالي",
     "payment_id": 241
@@ -57,8 +84,8 @@
     "guardian_name": "حياة",
     "guardian_surname": "جلالي",
     "phone_number": "99810230",
-    "transaction_date": "2025-09-28 05:56:31",
-    "amount": -50.0,
+    "transaction_date": "2025-10-10 20:55:30",
+    "amount": -100.0,
     "notes": "خلاص دفعة (عادية) للتلميذ: أمان الله جلالي",
     "payment_id": 380
   }
