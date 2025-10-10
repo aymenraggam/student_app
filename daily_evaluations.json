@@ -1,0 +1,20 @@
+[
+  {
+    "student_id": 62,
+    "date": "2025-10-10",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 1,
+    "notes": "أعلم أن وقتك مظبوط ولكن عليك بالمزيد من المراجعة"
+  },
+  {
+    "student_id": 103,
+    "date": "2025-10-10",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 1,
+    "notes": "أعرف أنك تحاولين ولكن عليك بالمراجعة"
+  }
+]

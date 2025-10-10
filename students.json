@@ -1447,12 +1447,16 @@
     "guardian_full_name": "كريمة عامري",
     "phone_number": "55560997",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 50.0,
+    "payment_count": 3,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "10/09/2025 إلى 09/10/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "10/10/2025 إلى 09/11/2025",
         "amount": 50.0
       }
     ],

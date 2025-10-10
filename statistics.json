@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 2185.0,
+    "total_overdue_unpaid_amount": 2235.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -264,6 +264,12 @@
         "student_id": 67,
         "student_name": "غيث قادري",
         "period": "09/09/2025 إلى 08/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 68,
+        "student_name": "إكرام صياحي",
+        "period": "10/09/2025 إلى 09/10/2025",
         "amount": 50.0
       },
       {
