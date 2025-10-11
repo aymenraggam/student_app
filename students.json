@@ -336,7 +336,8 @@
     "payment_count": 3,
     "unpaid_total": 0.0,
     "absence_count": [
-      "2025-10-04"
+      "2025-10-04",
+      "2025-10-11"
     ],
     "unpaid_periods": [],
     "notes": ""
@@ -368,16 +369,12 @@
     "phone_number": "96285780",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 80.0,
+    "unpaid_total": 35.0,
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "09/09/2025 إلى 08/10/2025",
-        "amount": 40.0
-      },
-      {
         "period": "09/10/2025 إلى 08/11/2025",
-        "amount": 40.0
+        "amount": 35.0
       }
     ],
     "notes": ""
@@ -393,14 +390,9 @@
     "phone_number": "96285780",
     "payment_generation_status": "active",
     "payment_count": 1,
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "26/09/2025 إلى 25/10/2025",
-        "amount": 50.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -714,7 +706,8 @@
     "payment_count": 2,
     "unpaid_total": 100.0,
     "absence_count": [
-      "2025-10-04"
+      "2025-10-04",
+      "2025-10-10"
     ],
     "unpaid_periods": [
       {
@@ -807,7 +800,9 @@
     "unpaid_total": 40.0,
     "absence_count": [
       "2025-10-03",
-      "2025-10-04"
+      "2025-10-04",
+      "2025-10-10",
+      "2025-10-11"
     ],
     "unpaid_periods": [
       {
@@ -881,6 +876,29 @@
     "notes": ""
   },
   {
+    "id": 158,
+    "name": "أحـمـد",
+    "surname": "زريبي",
+    "educational_level": "7 أساسي",
+    "institution": "المدرسة الاعدادية بالرقاب",
+    "entry_date": "2025-10-10",
+    "guardian_full_name": "زهرة زريبي",
+    "phone_number": "52244781",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [
+      "2025-10-11"
+    ],
+    "unpaid_periods": [
+      {
+        "period": "10/10/2025 إلى 09/11/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 116,
     "name": "أحمد",
     "surname": "زريبي",
@@ -896,27 +914,6 @@
     "unpaid_periods": [
       {
         "period": "26/09/2025 إلى 25/10/2025",
-        "amount": 50.0
-      }
-    ],
-    "notes": ""
-  },
-  {
-    "id": 158,
-    "name": "أحمد",
-    "surname": "زريبي",
-    "educational_level": "7 أساسي",
-    "institution": "المدرسة الاعدادية بالرقاب",
-    "entry_date": "2025-10-10",
-    "guardian_full_name": "زهرة زريبي",
-    "phone_number": "52244781",
-    "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
-    "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "10/10/2025 إلى 09/11/2025",
         "amount": 50.0
       }
     ],
@@ -1012,16 +1009,16 @@
     "phone_number": "97917380",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 90.0,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "03/09/2025 إلى 02/10/2025",
-        "amount": 45.0
+        "amount": 50.0
       },
       {
         "period": "03/10/2025 إلى 02/11/2025",
-        "amount": 45.0
+        "amount": 50.0
       }
     ],
     "notes": ""
@@ -1400,7 +1397,9 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 40.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-10-10"
+    ],
     "unpaid_periods": [
       {
         "period": "05/10/2025 إلى 04/11/2025",
@@ -1443,7 +1442,8 @@
     "payment_count": 2,
     "unpaid_total": 50.0,
     "absence_count": [
-      "2025-10-03"
+      "2025-10-03",
+      "2025-10-11"
     ],
     "unpaid_periods": [
       {
@@ -2857,7 +2857,10 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 50.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-10-10",
+      "2025-10-11"
+    ],
     "unpaid_periods": [
       {
         "period": "14/09/2025 إلى 13/10/2025",
