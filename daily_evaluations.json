@@ -18,168 +18,6 @@
     "notes": "أعرف أنك تحاولين ولكن عليك بالمراجعة"
   },
   {
-    "student_id": 61,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 3,
-    "behavior_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 129,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 3,
-    "behavior_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 60,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 3,
-    "behavior_score": 1,
-    "notes": ""
-  },
-  {
-    "student_id": 119,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 1,
-    "notes": ""
-  },
-  {
-    "student_id": 41,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 2,
-    "behavior_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 120,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 130,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 2,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 148,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 2,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 118,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 2,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 117,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 1,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 57,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 3,
-    "behavior_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 58,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 3,
-    "behavior_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 149,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 3,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 160,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 3,
-    "behavior_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 147,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 3,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 96,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 3,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 161,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 3,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 135,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 2,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
     "student_id": 146,
     "date": "2025-10-10",
     "subject": "حصة 7 أساسي (الجمعة)",
@@ -194,15 +32,6 @@
     "subject": "حصة 7 أساسي (الجمعة)",
     "homework_status": "",
     "participation_score": 1,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 27,
-    "date": "2025-10-10",
-    "subject": "حصة 7 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 0,
     "behavior_score": 0,
     "notes": ""
   },
@@ -258,15 +87,6 @@
     "homework_status": "",
     "participation_score": 3,
     "behavior_score": 1,
-    "notes": ""
-  },
-  {
-    "student_id": 92,
-    "date": "2025-10-10",
-    "subject": "حصة 7 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
     "notes": ""
   },
   {
@@ -339,15 +159,6 @@
     "homework_status": "",
     "participation_score": 1,
     "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 75,
-    "date": "2025-10-10",
-    "subject": "حصة 7 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
     "notes": ""
   },
   {
@@ -486,15 +297,6 @@
     "notes": ""
   },
   {
-    "student_id": 74,
-    "date": "2025-10-10",
-    "subject": "حصة 8 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 54,
     "date": "2025-10-10",
     "subject": "حصة 8 أساسي (الجمعة)",
@@ -519,15 +321,6 @@
     "homework_status": "",
     "participation_score": 2,
     "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 36,
-    "date": "2025-10-10",
-    "subject": "حصة 8 أساسي (الجمعة)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
     "notes": ""
   },
   {
@@ -603,15 +396,6 @@
     "notes": ""
   },
   {
-    "student_id": 82,
-    "date": "2025-10-10",
-    "subject": "حصة 2 ث علوم (الجمعة)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 132,
     "date": "2025-10-10",
     "subject": "حصة 2 ث علوم (الجمعة)",
@@ -639,372 +423,12 @@
     "notes": ""
   },
   {
-    "student_id": 146,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "✗ لم يتم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 28,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 27,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 158,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 116,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "✗ لم يتم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 31,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 70,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "✗ لم يتم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 23,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 159,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 92,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 29,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 20,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 115,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 25,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 24,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 71,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 22,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 152,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 75,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 19,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 30,
-    "date": "2025-10-11",
-    "subject": "حصة 7 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 61,
-    "date": "2025-10-11",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "✗ لم يتم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 129,
-    "date": "2025-10-11",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 60,
-    "date": "2025-10-11",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 119,
-    "date": "2025-10-11",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 41,
-    "date": "2025-10-11",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 120,
-    "date": "2025-10-11",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 130,
-    "date": "2025-10-11",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 148,
-    "date": "2025-10-11",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 118,
-    "date": "2025-10-11",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 117,
-    "date": "2025-10-11",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "✗ لم يتم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 57,
-    "date": "2025-10-11",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 58,
-    "date": "2025-10-11",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 149,
-    "date": "2025-10-11",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 160,
-    "date": "2025-10-11",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 147,
-    "date": "2025-10-11",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 96,
-    "date": "2025-10-11",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 161,
-    "date": "2025-10-11",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 135,
-    "date": "2025-10-11",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "✓ تم إنجازه",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 39,
     "date": "2025-10-11",
     "subject": "حصة 8 أساسي (السبت)",
     "homework_status": "✓ تم إنجازه",
     "participation_score": 1,
     "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 38,
-    "date": "2025-10-11",
-    "subject": "حصة 8 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
     "notes": ""
   },
   {
@@ -1224,24 +648,6 @@
     "notes": ""
   },
   {
-    "student_id": 153,
-    "date": "2025-10-12",
-    "subject": "حصة 1 ثانوي (الأحد)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 62,
-    "date": "2025-10-12",
-    "subject": "حصة 1 ثانوي (الأحد)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 80,
     "date": "2025-10-12",
     "subject": "حصة 1 ثانوي (الأحد)",
@@ -1305,15 +711,6 @@
     "notes": ""
   },
   {
-    "student_id": 103,
-    "date": "2025-10-12",
-    "subject": "حصة 1 ثانوي (الأحد)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 113,
     "date": "2025-10-12",
     "subject": "حصة 1 ثانوي (الأحد)",
@@ -1329,15 +726,6 @@
     "homework_status": "✗ لم يتم إنجازه",
     "participation_score": 2,
     "behavior_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 81,
-    "date": "2025-10-12",
-    "subject": "حصة 1 ثانوي (الأحد)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
     "notes": ""
   },
   {
@@ -1377,39 +765,12 @@
     "notes": ""
   },
   {
-    "student_id": 28,
-    "date": "2025-10-12",
-    "subject": "حصة 7 أساسي (الأحد)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 27,
-    "date": "2025-10-12",
-    "subject": "حصة 7 أساسي (الأحد)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 158,
     "date": "2025-10-12",
     "subject": "حصة 7 أساسي (الأحد)",
     "homework_status": "",
     "participation_score": 1,
     "behavior_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 116,
-    "date": "2025-10-12",
-    "subject": "حصة 7 أساسي (الأحد)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
     "notes": ""
   },
   {
@@ -1476,15 +837,6 @@
     "notes": ""
   },
   {
-    "student_id": 115,
-    "date": "2025-10-12",
-    "subject": "حصة 7 أساسي (الأحد)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 25,
     "date": "2025-10-12",
     "subject": "حصة 7 أساسي (الأحد)",
@@ -1512,24 +864,6 @@
     "notes": ""
   },
   {
-    "student_id": 22,
-    "date": "2025-10-12",
-    "subject": "حصة 7 أساسي (الأحد)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 152,
-    "date": "2025-10-12",
-    "subject": "حصة 7 أساسي (الأحد)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 75,
     "date": "2025-10-12",
     "subject": "حصة 7 أساسي (الأحد)",
@@ -1553,168 +887,6 @@
     "subject": "حصة 7 أساسي (الأحد)",
     "homework_status": "",
     "participation_score": 3,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 61,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 2,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 129,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 3,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 60,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 3,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 119,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 1,
-    "behavior_score": 1,
-    "notes": ""
-  },
-  {
-    "student_id": 41,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 120,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 3,
-    "behavior_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 130,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 2,
-    "behavior_score": 1,
-    "notes": ""
-  },
-  {
-    "student_id": 148,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 2,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 118,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 2,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 117,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 2,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 57,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 3,
-    "behavior_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 58,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 2,
-    "behavior_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 149,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 3,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 160,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 3,
-    "behavior_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 147,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 3,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 96,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 3,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 161,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 3,
-    "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 135,
-    "date": "2025-10-10",
-    "subject": "حصة 9 أساسي (السبت)",
-    "homework_status": "",
-    "participation_score": 2,
     "behavior_score": 2,
     "notes": ""
   },
@@ -1953,15 +1125,6 @@
     "notes": ""
   },
   {
-    "student_id": 82,
-    "date": "2025-10-12",
-    "subject": "حصة 2 ث علوم (الأحد)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 132,
     "date": "2025-10-12",
     "subject": "حصة 2 ث علوم (الأحد)",
@@ -2013,24 +1176,6 @@
     "homework_status": "",
     "participation_score": 2,
     "behavior_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 119,
-    "date": "2025-10-12",
-    "subject": "حصة 9 أساسي (الأحد)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 41,
-    "date": "2025-10-12",
-    "subject": "حصة 9 أساسي (الأحد)",
-    "homework_status": "",
-    "participation_score": 0,
-    "behavior_score": 0,
     "notes": ""
   },
   {
@@ -2142,12 +1287,471 @@
     "notes": ""
   },
   {
-    "student_id": 135,
-    "date": "2025-10-12",
-    "subject": "حصة 9 أساسي (الأحد)",
-    "homework_status": "",
+    "student_id": 146,
+    "date": "2025-10-11",
+    "subject": "حصة 7 أساسي (السبت)",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 28,
+    "date": "2025-10-11",
+    "subject": "حصة 7 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
     "participation_score": 0,
     "behavior_score": 0,
+    "notes": ""
+  },
+  {
+    "student_id": 116,
+    "date": "2025-10-11",
+    "subject": "حصة 7 أساسي (السبت)",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 31,
+    "date": "2025-10-11",
+    "subject": "حصة 7 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 70,
+    "date": "2025-10-11",
+    "subject": "حصة 7 أساسي (السبت)",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 23,
+    "date": "2025-10-11",
+    "subject": "حصة 7 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 159,
+    "date": "2025-10-11",
+    "subject": "حصة 7 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 1,
+    "notes": ""
+  },
+  {
+    "student_id": 92,
+    "date": "2025-10-11",
+    "subject": "حصة 7 أساسي (السبت)",
+    "homework_status": "",
+    "participation_score": 1,
+    "behavior_score": 1,
+    "notes": ""
+  },
+  {
+    "student_id": 29,
+    "date": "2025-10-11",
+    "subject": "حصة 7 أساسي (السبت)",
+    "homework_status": "",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 20,
+    "date": "2025-10-11",
+    "subject": "حصة 7 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 115,
+    "date": "2025-10-11",
+    "subject": "حصة 7 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 0,
+    "behavior_score": 1,
+    "notes": ""
+  },
+  {
+    "student_id": 25,
+    "date": "2025-10-11",
+    "subject": "حصة 7 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 24,
+    "date": "2025-10-11",
+    "subject": "حصة 7 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 71,
+    "date": "2025-10-11",
+    "subject": "حصة 7 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 22,
+    "date": "2025-10-11",
+    "subject": "حصة 7 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 0,
+    "behavior_score": 1,
+    "notes": ""
+  },
+  {
+    "student_id": 152,
+    "date": "2025-10-11",
+    "subject": "حصة 7 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 19,
+    "date": "2025-10-11",
+    "subject": "حصة 7 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 30,
+    "date": "2025-10-11",
+    "subject": "حصة 7 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 1,
+    "notes": ""
+  },
+  {
+    "student_id": 61,
+    "date": "2025-10-11",
+    "subject": "حصة 9 أساسي (السبت)",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 129,
+    "date": "2025-10-11",
+    "subject": "حصة 9 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 60,
+    "date": "2025-10-11",
+    "subject": "حصة 9 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 1,
+    "notes": ""
+  },
+  {
+    "student_id": 119,
+    "date": "2025-10-11",
+    "subject": "حصة 9 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 1,
+    "notes": ""
+  },
+  {
+    "student_id": 120,
+    "date": "2025-10-11",
+    "subject": "حصة 9 أساسي (السبت)",
+    "homework_status": "",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 130,
+    "date": "2025-10-11",
+    "subject": "حصة 9 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 1,
+    "notes": ""
+  },
+  {
+    "student_id": 148,
+    "date": "2025-10-11",
+    "subject": "حصة 9 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 118,
+    "date": "2025-10-11",
+    "subject": "حصة 9 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 117,
+    "date": "2025-10-11",
+    "subject": "حصة 9 أساسي (السبت)",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 1,
+    "notes": ""
+  },
+  {
+    "student_id": 57,
+    "date": "2025-10-11",
+    "subject": "حصة 9 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 58,
+    "date": "2025-10-11",
+    "subject": "حصة 9 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 149,
+    "date": "2025-10-11",
+    "subject": "حصة 9 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 160,
+    "date": "2025-10-11",
+    "subject": "حصة 9 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 147,
+    "date": "2025-10-11",
+    "subject": "حصة 9 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 96,
+    "date": "2025-10-11",
+    "subject": "حصة 9 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 1,
+    "notes": ""
+  },
+  {
+    "student_id": 161,
+    "date": "2025-10-11",
+    "subject": "حصة 9 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 135,
+    "date": "2025-10-11",
+    "subject": "حصة 9 أساسي (السبت)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 1,
+    "notes": ""
+  },
+  {
+    "student_id": 61,
+    "date": "2025-10-10",
+    "subject": "حصة 9 أساسي (الجمعة)",
+    "homework_status": "",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 129,
+    "date": "2025-10-10",
+    "subject": "حصة 9 أساسي (الجمعة)",
+    "homework_status": "",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 60,
+    "date": "2025-10-10",
+    "subject": "حصة 9 أساسي (الجمعة)",
+    "homework_status": "",
+    "participation_score": 3,
+    "behavior_score": 1,
+    "notes": ""
+  },
+  {
+    "student_id": 119,
+    "date": "2025-10-10",
+    "subject": "حصة 9 أساسي (الجمعة)",
+    "homework_status": "",
+    "participation_score": 0,
+    "behavior_score": 1,
+    "notes": ""
+  },
+  {
+    "student_id": 41,
+    "date": "2025-10-10",
+    "subject": "حصة 9 أساسي (الجمعة)",
+    "homework_status": "",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 130,
+    "date": "2025-10-10",
+    "subject": "حصة 9 أساسي (الجمعة)",
+    "homework_status": "",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 148,
+    "date": "2025-10-10",
+    "subject": "حصة 9 أساسي (الجمعة)",
+    "homework_status": "",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 118,
+    "date": "2025-10-10",
+    "subject": "حصة 9 أساسي (الجمعة)",
+    "homework_status": "",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 117,
+    "date": "2025-10-10",
+    "subject": "حصة 9 أساسي (الجمعة)",
+    "homework_status": "",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 57,
+    "date": "2025-10-10",
+    "subject": "حصة 9 أساسي (الجمعة)",
+    "homework_status": "",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 58,
+    "date": "2025-10-10",
+    "subject": "حصة 9 أساسي (الجمعة)",
+    "homework_status": "",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 149,
+    "date": "2025-10-10",
+    "subject": "حصة 9 أساسي (الجمعة)",
+    "homework_status": "",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 160,
+    "date": "2025-10-10",
+    "subject": "حصة 9 أساسي (الجمعة)",
+    "homework_status": "",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 147,
+    "date": "2025-10-10",
+    "subject": "حصة 9 أساسي (الجمعة)",
+    "homework_status": "",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 96,
+    "date": "2025-10-10",
+    "subject": "حصة 9 أساسي (الجمعة)",
+    "homework_status": "",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 161,
+    "date": "2025-10-10",
+    "subject": "حصة 9 أساسي (الجمعة)",
+    "homework_status": "",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 135,
+    "date": "2025-10-10",
+    "subject": "حصة 9 أساسي (الجمعة)",
+    "homework_status": "",
+    "participation_score": 2,
+    "behavior_score": 2,
     "notes": ""
   }
 ]
