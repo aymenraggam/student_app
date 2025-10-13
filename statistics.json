@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 2150.0,
+    "total_overdue_unpaid_amount": 2240.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -153,12 +153,6 @@
         "amount": 30.0
       },
       {
-        "student_id": 29,
-        "student_name": "أميمة طقوقي",
-        "period": "25/08/2025 إلى 24/09/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 33,
         "student_name": "محمد كرمودي",
         "period": "25/08/2025 إلى 24/09/2025",
@@ -191,12 +185,6 @@
       {
         "student_id": 22,
         "student_name": "فرح قادري",
-        "period": "03/09/2025 إلى 02/10/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 23,
-        "student_name": "تقوى شرف الدين",
         "period": "03/09/2025 إلى 02/10/2025",
         "amount": 50.0
       },
@@ -267,6 +255,30 @@
         "amount": 50.0
       },
       {
+        "student_id": 71,
+        "student_name": "سلمى قادري",
+        "period": "12/09/2025 إلى 11/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 72,
+        "student_name": "مرام خليفي",
+        "period": "13/09/2025 إلى 12/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 73,
+        "student_name": "روان صالحي",
+        "period": "13/09/2025 إلى 12/10/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 74,
+        "student_name": "مالك عيوني",
+        "period": "13/09/2025 إلى 12/10/2025",
+        "amount": 50.0
+      },
+      {
         "student_id": 4,
         "student_name": "آدم جلالي",
         "period": "03/09/2025 إلى 02/10/2025",
@@ -291,9 +303,9 @@
         "amount": 50.0
       }
     ],
-    "total_active_students": 143,
+    "total_active_students": 141,
     "students_per_level": {
-      "2 ث علوم": 5,
+      "2 ث علوم": 4,
       "9 أساسي": 18,
       "5 ابتدائي": 12,
       "8 أساسي": 25,
@@ -302,7 +314,7 @@
       "4 ابتدائي": 9,
       "1 ثانوي": 17,
       "6 ابتدائي": 11,
-      "7 أساسي": 21,
+      "7 أساسي": 20,
       "1 ابتدائي": 7
     }
   }
