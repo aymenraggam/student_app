@@ -77,7 +77,7 @@
     "name": "نور",
     "surname": "العكروت",
     "educational_level": "8 أساسي",
-    "institution": "",
+    "institution": "المدرسة الاعدادية بالرقاب",
     "entry_date": "2025-08-01",
     "guardian_full_name": "مليكة جلالي",
     "phone_number": "29003581",
@@ -1027,7 +1027,8 @@
     "unpaid_total": 50.0,
     "absence_count": [
       "2025-09-28",
-      "2025-10-05"
+      "2025-10-05",
+      "2025-10-12"
     ],
     "unpaid_periods": [
       {
@@ -1391,7 +1392,8 @@
     "unpaid_total": 50.0,
     "absence_count": [
       "2025-10-03",
-      "2025-10-11"
+      "2025-10-11",
+      "2025-10-12"
     ],
     "unpaid_periods": [
       {
@@ -2967,7 +2969,9 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-10-12"
+    ],
     "unpaid_periods": [
       {
         "period": "28/09/2025 إلى 27/10/2025",

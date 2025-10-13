@@ -45,12 +45,7 @@
     "time_slot": "15:00 - 17:00",
     "educational_level": "مجموعة إنجليزية",
     "class_type": "english",
-    "student_ids": [
-      16,
-      18,
-      85,
-      86
-    ]
+    "student_ids": []
   },
   {
     "id": 51,

@@ -167,35 +167,6 @@
     "student_ids": []
   },
   {
-    "id": 32,
-    "day_of_week": "الإثنين",
-    "time_slot": "08:00",
-    "class_type": "general",
-    "levels_data": [
-      {
-        "level": "5 ابتدائي",
-        "institution": ""
-      }
-    ],
-    "student_ids": []
-  },
-  {
-    "id": 63,
-    "day_of_week": "الإثنين",
-    "time_slot": "09:00",
-    "class_type": "private",
-    "levels_data": [
-      {
-        "level": "1 ابتدائي",
-        "institution": "مدرسة ابن رشد1"
-      }
-    ],
-    "student_ids": [
-      2,
-      8
-    ]
-  },
-  {
     "id": 69,
     "day_of_week": "الإثنين",
     "time_slot": "10:00",
@@ -222,6 +193,39 @@
     "student_ids": [
       3
     ]
+  },
+  {
+    "id": 78,
+    "day_of_week": "الإثنين",
+    "time_slot": "17:00",
+    "class_type": "private",
+    "levels_data": [
+      {
+        "level": "1 ابتدائي",
+        "institution": "مدرسة ابن رشد1"
+      },
+      {
+        "level": "3 ابتدائي",
+        "institution": "مدرسة الفوز"
+      }
+    ],
+    "student_ids": [
+      2,
+      8
+    ]
+  },
+  {
+    "id": 77,
+    "day_of_week": "الإثنين",
+    "time_slot": "18:00",
+    "class_type": "general",
+    "levels_data": [
+      {
+        "level": "5 ابتدائي",
+        "institution": ""
+      }
+    ],
+    "student_ids": []
   },
   {
     "id": 33,
