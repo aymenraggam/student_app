@@ -18,6 +18,14 @@
     ],
     "sessions": [
       {
+        "id": 7,
+        "session_date": "2025-10-13",
+        "lesson_title": "expressing likes",
+        "lesson_category": "Grammar",
+        "lesson_notes": "",
+        "files": []
+      },
+      {
         "id": 6,
         "session_date": "2025-10-09",
         "lesson_title": "Family tree + nouns",
