@@ -435,7 +435,7 @@
     "student_ids": [
       73
     ],
-    "unpaid_total": 120.0,
+    "unpaid_total": 80.0,
     "password": "125384",
     "credit_balance": 0.0
   },
@@ -753,7 +753,7 @@
     "student_ids": [
       71
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 100.0,
     "password": "204240",
     "credit_balance": 0.0
   },

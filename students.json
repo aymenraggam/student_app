@@ -1291,16 +1291,12 @@
     "phone_number": "94259396",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 120.0,
+    "unpaid_total": 80.0,
     "absence_count": [
       "2025-09-26",
       "2025-09-27"
     ],
     "unpaid_periods": [
-      {
-        "period": "13/08/2025 إلى 12/09/2025",
-        "amount": 40.0
-      },
       {
         "period": "13/09/2025 إلى 12/10/2025",
         "amount": 40.0
@@ -2302,15 +2298,11 @@
     "phone_number": "23509750",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 150.0,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-09-26"
     ],
     "unpaid_periods": [
-      {
-        "period": "12/08/2025 إلى 11/09/2025",
-        "amount": 50.0
-      },
       {
         "period": "12/09/2025 إلى 11/10/2025",
         "amount": 50.0
