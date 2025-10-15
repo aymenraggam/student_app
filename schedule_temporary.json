@@ -1,14 +1,17 @@
 [
   {
     "id": 24,
-    "class_date": "2025-10-13",
+    "class_date": "2025-10-15",
     "time_slot": "15:00 - 17:00",
-    "educational_level": "6 ابتدائي",
-    "class_type": "extra_private",
+    "educational_level": "2 ث علوم",
+    "class_type": "extra_general",
     "replaced_class_id": null,
     "student_ids": [
-      16,
-      18
+      82,
+      132,
+      133,
+      134,
+      154
     ]
   }
 ]

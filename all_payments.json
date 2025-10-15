@@ -193,16 +193,16 @@
       },
       {
         "period_formatted": "22/08/2025 إلى 21/09/2025",
-        "status": "خالص",
+        "status": "غير خالص",
         "amount": 100.0,
-        "received_date": "2025-10-04",
+        "received_date": null,
         "notes": ""
       },
       {
         "period_formatted": "22/09/2025 إلى 21/10/2025",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 100.0,
-        "received_date": null,
+        "received_date": "2025-10-04",
         "notes": ""
       }
     ]
@@ -822,14 +822,14 @@
         "period_formatted": "26/08/2025 إلى 25/09/2025",
         "status": "خالص",
         "amount": 50.0,
-        "received_date": "2025-10-10",
+        "received_date": "2025-10-14",
         "notes": "خلاص عبر رصيد التسبقة"
       },
       {
         "period_formatted": "26/09/2025 إلى 25/10/2025",
         "status": "خالص",
         "amount": 100.0,
-        "received_date": "2025-10-10",
+        "received_date": "2025-10-14",
         "notes": "خلاص عبر رصيد التسبقة"
       }
     ]
@@ -1066,18 +1066,18 @@
     "student_id": 56,
     "payments": [
       {
-        "period_formatted": "08/08/2025 إلى 07/09/2025",
+        "period_formatted": "08/09/2025 إلى 07/10/2025",
         "status": "غير خالص",
-        "amount": 50.0,
+        "amount": 0.0,
         "received_date": null,
-        "notes": ""
+        "notes": "تم التقديم14 يوما لاحتساب أيام العطلة الصيفية"
       },
       {
-        "period_formatted": "22/09/2025 إلى 21/10/2025",
+        "period_formatted": "08/10/2025 إلى 07/11/2025",
         "status": "غير خالص",
-        "amount": 50.0,
+        "amount": 0.0,
         "received_date": null,
-        "notes": "__RESUME_DAY:22__"
+        "notes": ""
       }
     ]
   },
@@ -1492,6 +1492,13 @@
         "amount": 50.0,
         "received_date": null,
         "notes": ""
+      },
+      {
+        "period_formatted": "14/10/2025 إلى 13/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
       }
     ]
   },
@@ -1502,14 +1509,21 @@
         "period_formatted": "14/08/2025 إلى 13/09/2025",
         "status": "خالص",
         "amount": 50.0,
-        "received_date": "2025-10-10",
+        "received_date": "2025-10-14",
         "notes": "خلاص عبر رصيد التسبقة"
       },
       {
         "period_formatted": "14/09/2025 إلى 13/10/2025",
         "status": "خالص",
         "amount": 50.0,
-        "received_date": "2025-10-10",
+        "received_date": "2025-10-14",
+        "notes": "خلاص عبر رصيد التسبقة"
+      },
+      {
+        "period_formatted": "14/10/2025 إلى 13/11/2025",
+        "status": "خالص",
+        "amount": 50.0,
+        "received_date": "2025-10-14",
         "notes": "خلاص عبر رصيد التسبقة"
       }
     ]
@@ -1519,25 +1533,6 @@
     "payments": [
       {
         "period_formatted": "13/08/2025 إلى 12/09/2025",
-        "status": "غير خالص",
-        "amount": 50.0,
-        "received_date": null,
-        "notes": ""
-      }
-    ]
-  },
-  {
-    "student_id": 79,
-    "payments": [
-      {
-        "period_formatted": "16/08/2025 إلى 15/09/2025",
-        "status": "خالص",
-        "amount": 50.0,
-        "received_date": "2025-09-28",
-        "notes": ""
-      },
-      {
-        "period_formatted": "16/09/2025 إلى 15/10/2025",
         "status": "غير خالص",
         "amount": 50.0,
         "received_date": null,
@@ -1588,6 +1583,13 @@
     "payments": [
       {
         "period_formatted": "17/08/2025 إلى 16/09/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
+      },
+      {
+        "period_formatted": "17/09/2025 إلى 16/10/2025",
         "status": "غير خالص",
         "amount": 50.0,
         "received_date": null,
@@ -1657,16 +1659,16 @@
     "payments": [
       {
         "period_formatted": "25/08/2025 إلى 24/09/2025",
-        "status": "خالص",
+        "status": "غير خالص",
         "amount": 30.0,
-        "received_date": "2025-08-25",
-        "notes": "مجانا"
+        "received_date": null,
+        "notes": ""
       },
       {
         "period_formatted": "25/09/2025 إلى 24/10/2025",
         "status": "خالص",
         "amount": 30.0,
-        "received_date": "2025-10-06",
+        "received_date": "2025-10-08",
         "notes": ""
       }
     ]
@@ -1697,14 +1699,14 @@
         "period_formatted": "23/08/2025 إلى 22/09/2025",
         "status": "خالص",
         "amount": 50.0,
-        "received_date": "2025-10-10",
+        "received_date": "2025-10-14",
         "notes": "خلاص عبر رصيد التسبقة"
       },
       {
         "period_formatted": "23/09/2025 إلى 22/10/2025",
         "status": "خالص",
         "amount": 100.0,
-        "received_date": "2025-10-10",
+        "received_date": "2025-10-14",
         "notes": "خلاص عبر رصيد التسبقة"
       }
     ]
@@ -1726,6 +1728,13 @@
     "payments": [
       {
         "period_formatted": "02/09/2025 إلى 01/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
+      },
+      {
+        "period_formatted": "02/10/2025 إلى 01/11/2025",
         "status": "غير خالص",
         "amount": 50.0,
         "received_date": null,
@@ -2502,7 +2511,7 @@
     "student_id": 157,
     "payments": [
       {
-        "period_formatted": "09/10/2025 إلى 08/11/2025",
+        "period_formatted": "10/10/2025 إلى 09/11/2025",
         "status": "غير خالص",
         "amount": 50.0,
         "received_date": null,
@@ -2514,7 +2523,7 @@
     "student_id": 158,
     "payments": [
       {
-        "period_formatted": "10/10/2025 إلى 09/11/2025",
+        "period_formatted": "14/10/2025 إلى 13/11/2025",
         "status": "غير خالص",
         "amount": 50.0,
         "received_date": null,
@@ -2550,31 +2559,7 @@
     "student_id": 161,
     "payments": [
       {
-        "period_formatted": "10/10/2025 إلى 09/11/2025",
-        "status": "غير خالص",
-        "amount": 50.0,
-        "received_date": null,
-        "notes": ""
-      }
-    ]
-  },
-  {
-    "student_id": 162,
-    "payments": [
-      {
-        "period_formatted": "04/10/2025 إلى 03/11/2025",
-        "status": "غير خالص",
-        "amount": 50.0,
-        "received_date": null,
-        "notes": ""
-      }
-    ]
-  },
-  {
-    "student_id": 163,
-    "payments": [
-      {
-        "period_formatted": "26/09/2025 إلى 25/10/2025",
+        "period_formatted": "14/10/2025 إلى 13/11/2025",
         "status": "غير خالص",
         "amount": 50.0,
         "received_date": null,

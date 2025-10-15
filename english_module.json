@@ -13,20 +13,19 @@
       87,
       109,
       140,
-      141,
-      156
+      141
     ],
     "sessions": [
       {
-        "id": 7,
-        "session_date": "2025-10-13",
+        "id": 6,
+        "session_date": "2025-10-14",
         "lesson_title": "expressing likes",
         "lesson_category": "Grammar",
         "lesson_notes": "",
         "files": []
       },
       {
-        "id": 6,
+        "id": 7,
         "session_date": "2025-10-09",
         "lesson_title": "Family tree + nouns",
         "lesson_category": "Vocabulary",
@@ -120,47 +119,60 @@
     ],
     "attendance": {
       "1": [
-        13,
-        14,
-        15,
-        16,
-        18,
         56,
+        15,
         77,
-        85,
+        16,
+        14,
         86,
-        87
+        85,
+        18,
+        87,
+        13
       ],
       "2": [
-        14,
-        15,
-        16,
-        18,
         56,
+        15,
         77,
-        87
+        16,
+        14,
+        87,
+        18
       ],
       "3": [
-        85,
-        86
+        86,
+        85
       ],
       "4": [
-        18,
+        140,
         109,
-        140
+        18
       ],
       "5": [
-        85,
-        86
+        86,
+        85
       ],
       "6": [
-        13,
+        16,
+        18
+      ],
+      "7": [
         56,
         77,
+        14,
         87,
-        156
+        13
       ]
     },
-    "payments": []
+    "payments": [
+      {
+        "id": 1,
+        "student_id": 18,
+        "payment_date": "2025-10-14",
+        "amount": 15.0,
+        "status": "غير خالص",
+        "attendance_trigger_count": 4
+      }
+    ]
   }
 ]

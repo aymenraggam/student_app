@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 2150.0,
+    "total_overdue_unpaid_amount": 2280.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -76,7 +76,7 @@
       },
       {
         "student_id": 39,
-        "student_name": "نور العكروت",
+        "student_name": "نور عكروتي",
         "period": "01/08/2025 إلى 31/08/2025",
         "amount": 50.0
       },
@@ -108,12 +108,6 @@
         "student_id": 9,
         "student_name": "أمل صالحي",
         "period": "29/07/2025 إلى 28/08/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 56,
-        "student_name": "إلياس أم هاني",
-        "period": "08/08/2025 إلى 07/09/2025",
         "amount": 50.0
       },
       {
@@ -267,6 +261,12 @@
         "amount": 50.0
       },
       {
+        "student_id": 75,
+        "student_name": "مرام كدوسي",
+        "period": "14/09/2025 إلى 13/10/2025",
+        "amount": 50.0
+      },
+      {
         "student_id": 4,
         "student_name": "آدم جلالي",
         "period": "03/09/2025 إلى 02/10/2025",
@@ -289,20 +289,38 @@
         "student_name": "تقي مسعودي",
         "period": "25/08/2025 إلى 24/09/2025",
         "amount": 50.0
+      },
+      {
+        "student_id": 8,
+        "student_name": "أمان جلالي",
+        "period": "22/08/2025 إلى 21/09/2025",
+        "amount": 100.0
+      },
+      {
+        "student_id": 87,
+        "student_name": "عبد القادر كدوسي",
+        "period": "25/08/2025 إلى 24/09/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 56,
+        "student_name": "إلياس أم هاني",
+        "period": "08/09/2025 إلى 07/10/2025",
+        "amount": 0.0
       }
     ],
-    "total_active_students": 141,
+    "total_active_students": 142,
     "students_per_level": {
-      "2 ث علوم": 4,
+      "2 ث علوم": 5,
       "9 أساسي": 18,
-      "5 ابتدائي": 12,
-      "8 أساسي": 25,
+      "5 ابتدائي": 11,
       "3 ابتدائي": 10,
       "2 ابتدائي": 8,
       "4 ابتدائي": 9,
-      "1 ثانوي": 17,
+      "1 ثانوي": 18,
+      "8 أساسي": 24,
       "6 ابتدائي": 11,
-      "7 أساسي": 20,
+      "7 أساسي": 21,
       "1 ابتدائي": 7
     }
   }
