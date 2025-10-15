@@ -2746,6 +2746,27 @@
     "notes": ""
   },
   {
+    "id": 162,
+    "name": "تقى",
+    "surname": "كدوسي",
+    "educational_level": "8 أساسي",
+    "institution": "المدرسة الاعدادية بالرقاب",
+    "entry_date": "2025-09-15",
+    "guardian_full_name": "حنان كدوسي",
+    "phone_number": "92451382",
+    "payment_generation_status": "active",
+    "payment_count": 2,
+    "unpaid_total": 30.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "15/10/2025 إلى 14/11/2025",
+        "amount": 30.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 150,
     "name": "سلسبيل",
     "surname": "كدوسي",
@@ -2798,14 +2819,9 @@
     "phone_number": "92451382",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 30.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "25/08/2025 إلى 24/09/2025",
-        "amount": 30.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
