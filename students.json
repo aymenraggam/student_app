@@ -661,7 +661,8 @@
     "unpaid_total": 100.0,
     "absence_count": [
       "2025-09-27",
-      "2025-10-04"
+      "2025-10-04",
+      "2025-10-17"
     ],
     "unpaid_periods": [
       {
@@ -2123,15 +2124,11 @@
     "phone_number": "99217475",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [
       "2025-10-16"
     ],
     "unpaid_periods": [
-      {
-        "period": "09/09/2025 إلى 08/10/2025",
-        "amount": 50.0
-      },
       {
         "period": "09/10/2025 إلى 08/11/2025",
         "amount": 50.0
@@ -2516,6 +2513,27 @@
     "notes": "حسن السلوك، جدي في العمل، يداوم على إنجاز واجباته"
   },
   {
+    "id": 165,
+    "name": "مهيب",
+    "surname": "قادري",
+    "educational_level": "8 أساسي",
+    "institution": "المدرسة الاعدادية بالرقاب",
+    "entry_date": "2025-10-17",
+    "guardian_full_name": "محسن قادري",
+    "phone_number": "9733904",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "17/10/2025 إلى 16/11/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 36,
     "name": "هيثم",
     "surname": "قادري",
@@ -2814,7 +2832,9 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-10-17"
+    ],
     "unpaid_periods": [
       {
         "period": "03/10/2025 إلى 02/11/2025",
@@ -3243,6 +3263,27 @@
       {
         "period": "04/10/2025 إلى 03/11/2025",
         "amount": 40.0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 164,
+    "name": "حنين",
+    "surname": "يوسفي",
+    "educational_level": "8 أساسي",
+    "institution": "المدرسة الاعدادية بالرقاب",
+    "entry_date": "2025-10-04",
+    "guardian_full_name": "تفاحة زريبي",
+    "phone_number": "96445731",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "04/10/2025 إلى 03/11/2025",
+        "amount": 50.0
       }
     ],
     "notes": ""

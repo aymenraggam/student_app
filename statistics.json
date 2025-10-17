@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 2300.0,
+    "total_overdue_unpaid_amount": 2250.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -207,12 +207,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 63,
-        "student_name": "وداد عيوني",
-        "period": "09/09/2025 إلى 08/10/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 66,
         "student_name": "آدم فالحي",
         "period": "09/09/2025 إلى 08/10/2025",
@@ -309,7 +303,7 @@
         "amount": 0.0
       }
     ],
-    "total_active_students": 144,
+    "total_active_students": 146,
     "students_per_level": {
       "2 ث علوم": 5,
       "9 أساسي": 19,
@@ -318,7 +312,7 @@
       "2 ابتدائي": 8,
       "4 ابتدائي": 9,
       "1 ثانوي": 18,
-      "8 أساسي": 25,
+      "8 أساسي": 27,
       "6 ابتدائي": 11,
       "7 أساسي": 21,
       "1 ابتدائي": 7
