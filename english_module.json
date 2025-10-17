@@ -13,9 +13,18 @@
       87,
       109,
       140,
-      141
+      141,
+      156
     ],
     "sessions": [
+      {
+        "id": 8,
+        "session_date": "2025-10-16",
+        "lesson_title": "clothes + colors (2)",
+        "lesson_category": "Vocabulary",
+        "lesson_notes": "",
+        "files": []
+      },
       {
         "id": 6,
         "session_date": "2025-10-14",
@@ -35,7 +44,7 @@
       {
         "id": 5,
         "session_date": "2025-10-08",
-        "lesson_title": "colores + clothes",
+        "lesson_title": "colores + clothes (1)",
         "lesson_category": "Vocabulary",
         "lesson_notes": "",
         "files": [
@@ -156,8 +165,16 @@
         16,
         18
       ],
+      "8": [
+        56,
+        156,
+        77,
+        87,
+        13
+      ],
       "7": [
         56,
+        156,
         77,
         14,
         87,
@@ -171,6 +188,30 @@
         "payment_date": "2025-10-14",
         "amount": 15.0,
         "status": "غير خالص",
+        "attendance_trigger_count": 4
+      },
+      {
+        "id": 2,
+        "student_id": 56,
+        "payment_date": "2025-10-16",
+        "amount": 15.0,
+        "status": "غير خالص",
+        "attendance_trigger_count": 4
+      },
+      {
+        "id": 3,
+        "student_id": 77,
+        "payment_date": "2025-10-16",
+        "amount": 15.0,
+        "status": "غير خالص",
+        "attendance_trigger_count": 4
+      },
+      {
+        "id": 4,
+        "student_id": 87,
+        "payment_date": "2025-10-16",
+        "amount": 15.0,
+        "status": "خالص",
         "attendance_trigger_count": 4
       }
     ]

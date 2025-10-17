@@ -1339,10 +1339,10 @@
       },
       {
         "period_formatted": "10/09/2025 إلى 09/10/2025",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 50.0,
-        "received_date": null,
-        "notes": "+10"
+        "received_date": "2025-10-16",
+        "notes": ""
       },
       {
         "period_formatted": "10/10/2025 إلى 09/11/2025",
@@ -1556,6 +1556,13 @@
         "amount": 50.0,
         "received_date": "2025-10-04",
         "notes": ""
+      },
+      {
+        "period_formatted": "16/10/2025 إلى 15/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
       }
     ]
   },
@@ -1575,6 +1582,13 @@
         "amount": 50.0,
         "received_date": null,
         "notes": ""
+      },
+      {
+        "period_formatted": "17/10/2025 إلى 16/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
       }
     ]
   },
@@ -1589,11 +1603,11 @@
         "notes": ""
       },
       {
-        "period_formatted": "17/09/2025 إلى 16/10/2025",
+        "period_formatted": "16/10/2025 إلى 15/11/2025",
         "status": "غير خالص",
         "amount": 50.0,
         "received_date": null,
-        "notes": ""
+        "notes": "__RESUME_DAY:16__"
       }
     ]
   },
@@ -1816,6 +1830,13 @@
     "payments": [
       {
         "period_formatted": "16/09/2025 إلى 15/10/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
+      },
+      {
+        "period_formatted": "16/10/2025 إلى 15/11/2025",
         "status": "غير خالص",
         "amount": 50.0,
         "received_date": null,
@@ -2581,6 +2602,18 @@
         "period_formatted": "15/10/2025 إلى 14/11/2025",
         "status": "غير خالص",
         "amount": 30.0,
+        "received_date": null,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "student_id": 163,
+    "payments": [
+      {
+        "period_formatted": "17/10/2025 إلى 16/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
         "received_date": null,
         "notes": ""
       }

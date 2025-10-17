@@ -215,7 +215,7 @@
     "student_ids": [
       80
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 50.0,
     "password": "247228",
     "credit_balance": 0.0
   },
@@ -554,12 +554,13 @@
   },
   {
     "guardian_full_name": "علي عامري",
-    "phone_number": "51163735",
+    "phone_number": "40955600",
     "student_ids": [
-      134
+      134,
+      163
     ],
-    "unpaid_total": 50.0,
-    "password": "594956",
+    "unpaid_total": 100.0,
+    "password": "509078",
     "credit_balance": 0.0
   },
   {
@@ -568,7 +569,7 @@
     "student_ids": [
       68
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "406895",
     "credit_balance": 0.0
   },
@@ -814,7 +815,7 @@
     "student_ids": [
       81
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "142735",
     "credit_balance": 0.0
   },
@@ -908,7 +909,7 @@
     "student_ids": [
       97
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "290737",
     "credit_balance": 0.0
   },

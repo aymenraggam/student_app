@@ -326,10 +326,15 @@
     "guardian_full_name": "عمار جلالي",
     "phone_number": "98283943",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 0.0,
+    "payment_count": 3,
+    "unpaid_total": 50.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "16/10/2025 إلى 15/11/2025",
+        "amount": 50.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -716,7 +721,7 @@
         "amount": 50.0
       },
       {
-        "period": "17/09/2025 إلى 16/10/2025",
+        "period": "16/10/2025 إلى 15/11/2025",
         "amount": 50.0
       }
     ],
@@ -1394,7 +1399,9 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 40.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-10-17"
+    ],
     "unpaid_periods": [
       {
         "period": "05/10/2025 إلى 04/11/2025",
@@ -1500,15 +1507,11 @@
     "phone_number": "55560997",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [
       "2025-10-14"
     ],
     "unpaid_periods": [
-      {
-        "period": "10/09/2025 إلى 09/10/2025",
-        "amount": 50.0
-      },
       {
         "period": "10/10/2025 إلى 09/11/2025",
         "amount": 50.0
@@ -1668,6 +1671,27 @@
     "notes": ""
   },
   {
+    "id": 163,
+    "name": "جهاد",
+    "surname": "عامري",
+    "educational_level": "9 أساسي",
+    "institution": "المدرسة الاعدادية ابن أبي الضياف",
+    "entry_date": "2025-10-17",
+    "guardian_full_name": "علي عامري",
+    "phone_number": "40955600",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "17/10/2025 إلى 16/11/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 133,
     "name": "ريان",
     "surname": "عامري",
@@ -1696,7 +1720,7 @@
     "institution": "المعهد الثانوي بالرقاب",
     "entry_date": "2025-09-27",
     "guardian_full_name": "علي عامري",
-    "phone_number": "51163735",
+    "phone_number": "40955600",
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
@@ -1937,7 +1961,9 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-10-17"
+    ],
     "unpaid_periods": [
       {
         "period": "26/09/2025 إلى 25/10/2025",
@@ -2098,7 +2124,9 @@
     "payment_generation_status": "active",
     "payment_count": 3,
     "unpaid_total": 100.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-10-16"
+    ],
     "unpaid_periods": [
       {
         "period": "09/09/2025 إلى 08/10/2025",
@@ -2447,12 +2475,16 @@
     "guardian_full_name": "فوزي قادري",
     "phone_number": "97946651",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 50.0,
+    "payment_count": 3,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "17/09/2025 إلى 16/10/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "17/10/2025 إلى 16/11/2025",
         "amount": 50.0
       }
     ],
@@ -2734,12 +2766,16 @@
     "guardian_full_name": "سناء كداشي",
     "phone_number": "25790709",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "16/09/2025 إلى 15/10/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "16/10/2025 إلى 15/11/2025",
         "amount": 50.0
       }
     ],
@@ -2799,7 +2835,9 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-10-17"
+    ],
     "unpaid_periods": [
       {
         "period": "04/10/2025 إلى 03/11/2025",

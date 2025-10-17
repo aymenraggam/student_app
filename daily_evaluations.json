@@ -188,5 +188,435 @@
     "behavior_score": 2,
     "total_score": 2,
     "notes": ""
+  },
+  {
+    "student_id": 62,
+    "date": "الخميس",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 0,
+    "behavior_score": 0,
+    "total_score": 0,
+    "notes": ""
+  },
+  {
+    "student_id": 63,
+    "date": "الخميس",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 0,
+    "behavior_score": 0,
+    "total_score": 0,
+    "notes": ""
+  },
+  {
+    "student_id": 64,
+    "date": "الخميس",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 1,
+    "total_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 65,
+    "date": "الخميس",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "total_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 66,
+    "date": "الخميس",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 0,
+    "behavior_score": 2,
+    "total_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 67,
+    "date": "الخميس",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 0,
+    "behavior_score": 2,
+    "total_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 68,
+    "date": "الخميس",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "total_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 79,
+    "date": "الخميس",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 0,
+    "behavior_score": 0,
+    "total_score": 0,
+    "notes": ""
+  },
+  {
+    "student_id": 80,
+    "date": "الخميس",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 0,
+    "behavior_score": 1,
+    "total_score": 1,
+    "notes": ""
+  },
+  {
+    "student_id": 81,
+    "date": "الخميس",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 88,
+    "date": "الخميس",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 0,
+    "behavior_score": 1,
+    "total_score": 1,
+    "notes": ""
+  },
+  {
+    "student_id": 103,
+    "date": "الخميس",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "total_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 113,
+    "date": "الخميس",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 1,
+    "behavior_score": 0,
+    "total_score": 1,
+    "notes": ""
+  },
+  {
+    "student_id": 114,
+    "date": "الخميس",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 1,
+    "total_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 138,
+    "date": "الخميس",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 3,
+    "total_score": 4,
+    "notes": ""
+  },
+  {
+    "student_id": 139,
+    "date": "الخميس",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 1,
+    "total_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 142,
+    "date": "الخميس",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 1,
+    "total_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 153,
+    "date": "الخميس",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "total_score": 4,
+    "notes": ""
+  },
+  {
+    "student_id": 161,
+    "date": "الخميس",
+    "subject": "حصة 1 ثانوي (الخميس)",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "total_score": 4,
+    "notes": ""
+  },
+  {
+    "student_id": 19,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 20,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 21,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 0,
+    "behavior_score": 0,
+    "total_score": 0,
+    "notes": ""
+  },
+  {
+    "student_id": 22,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 1,
+    "total_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 23,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 24,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "total_score": 4,
+    "notes": ""
+  },
+  {
+    "student_id": 25,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 26,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 0,
+    "behavior_score": 0,
+    "total_score": 0,
+    "notes": ""
+  },
+  {
+    "student_id": 27,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 0,
+    "behavior_score": 0,
+    "total_score": 0,
+    "notes": ""
+  },
+  {
+    "student_id": 28,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "total_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 29,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "total_score": 4,
+    "notes": ""
+  },
+  {
+    "student_id": 30,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "total_score": 4,
+    "notes": ""
+  },
+  {
+    "student_id": 31,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 70,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "total_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 71,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 75,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 0,
+    "behavior_score": 0,
+    "total_score": 0,
+    "notes": ""
+  },
+  {
+    "student_id": 76,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 0,
+    "behavior_score": 0,
+    "total_score": 0,
+    "notes": ""
+  },
+  {
+    "student_id": 92,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 0,
+    "behavior_score": 0,
+    "total_score": 0,
+    "notes": ""
+  },
+  {
+    "student_id": 115,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 1,
+    "behavior_score": 1,
+    "total_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 116,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 1,
+    "behavior_score": 1,
+    "total_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 146,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 152,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 0,
+    "behavior_score": 0,
+    "total_score": 0,
+    "notes": ""
+  },
+  {
+    "student_id": 157,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 158,
+    "date": "الخميس",
+    "subject": "حصة 7 أساسي (الجمعة)",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 1,
+    "behavior_score": 3,
+    "total_score": 4,
+    "notes": ""
   }
 ]
