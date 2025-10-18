@@ -154,16 +154,6 @@
     "credit_balance": 0.0
   },
   {
-    "guardian_full_name": "بحري جلالي",
-    "phone_number": "44194636",
-    "student_ids": [
-      91
-    ],
-    "unpaid_total": 100.0,
-    "password": "085406",
-    "credit_balance": 0.0
-  },
-  {
     "guardian_full_name": "حياة جلالي",
     "phone_number": "99810230",
     "student_ids": [
@@ -225,7 +215,7 @@
     "student_ids": [
       39
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "379495",
     "credit_balance": 0.0
   },
@@ -634,7 +624,7 @@
       101,
       124
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 200.0,
     "password": "573012",
     "credit_balance": 0.0
   },
@@ -880,7 +870,7 @@
     "student_ids": [
       74
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 200.0,
     "password": "084592",
     "credit_balance": 0.0
   },
@@ -1017,7 +1007,7 @@
     "student_ids": [
       33
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 0.0,
     "password": "183082",
     "credit_balance": 0.0
   },
