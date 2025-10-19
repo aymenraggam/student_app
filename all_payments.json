@@ -1313,9 +1313,9 @@
       },
       {
         "period_formatted": "09/09/2025 إلى 08/10/2025",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 50.0,
-        "received_date": null,
+        "received_date": "2025-10-19",
         "notes": ""
       },
       {
@@ -1627,6 +1627,13 @@
         "amount": 40.0,
         "received_date": null,
         "notes": ""
+      },
+      {
+        "period_formatted": "19/10/2025 إلى 18/11/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null,
+        "notes": ""
       }
     ]
   },
@@ -1646,6 +1653,13 @@
         "amount": 40.0,
         "received_date": null,
         "notes": ""
+      },
+      {
+        "period_formatted": "19/10/2025 إلى 18/11/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null,
+        "notes": ""
       }
     ]
   },
@@ -1661,6 +1675,13 @@
       },
       {
         "period_formatted": "19/09/2025 إلى 18/10/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null,
+        "notes": ""
+      },
+      {
+        "period_formatted": "19/10/2025 إلى 18/11/2025",
         "status": "غير خالص",
         "amount": 40.0,
         "received_date": null,
@@ -1830,6 +1851,13 @@
     "payments": [
       {
         "period_formatted": "19/09/2025 إلى 18/10/2025",
+        "status": "غير خالص",
+        "amount": 100.0,
+        "received_date": null,
+        "notes": ""
+      },
+      {
+        "period_formatted": "19/10/2025 إلى 18/11/2025",
         "status": "غير خالص",
         "amount": 100.0,
         "received_date": null,
@@ -2624,6 +2652,18 @@
     "payments": [
       {
         "period_formatted": "17/10/2025 إلى 16/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "student_id": 166,
+    "payments": [
+      {
+        "period_formatted": "19/10/2025 إلى 18/11/2025",
         "status": "غير خالص",
         "amount": 50.0,
         "received_date": null,
