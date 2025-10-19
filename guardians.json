@@ -233,9 +233,10 @@
     "guardian_full_name": "أحمد خليفي",
     "phone_number": "29069649",
     "student_ids": [
-      72
+      72,
+      167
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "415788",
     "credit_balance": 0.0
   },
@@ -890,7 +891,7 @@
     "student_ids": [
       121
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "password": "867989",
     "credit_balance": 0.0
   },

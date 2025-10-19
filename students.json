@@ -725,6 +725,27 @@
     "notes": ""
   },
   {
+    "id": 167,
+    "name": "أيهم",
+    "surname": "خليفي",
+    "educational_level": "7 أساسي",
+    "institution": "المدرسة الاعدادية ابن أبي الضياف",
+    "entry_date": "2025-10-19",
+    "guardian_full_name": "أحمد خليفي",
+    "phone_number": "29069649",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "19/10/2025 إلى 18/11/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 72,
     "name": "مرام",
     "surname": "خليفي",
@@ -2285,9 +2306,7 @@
     "payment_generation_status": "active",
     "payment_count": 3,
     "unpaid_total": 150.0,
-    "absence_count": [
-      "2025-10-18"
-    ],
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "09/08/2025 إلى 08/09/2025",
@@ -2653,14 +2672,9 @@
     "phone_number": "55254806",
     "payment_generation_status": "active",
     "payment_count": 1,
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "26/09/2025 إلى 25/10/2025",
-        "amount": 50.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
