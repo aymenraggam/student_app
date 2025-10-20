@@ -757,9 +757,7 @@
     "payment_generation_status": "active",
     "payment_count": 3,
     "unpaid_total": 100.0,
-    "absence_count": [
-      "2025-09-26"
-    ],
+    "absence_count": [],
     "unpaid_periods": [
       {
         "period": "13/09/2025 إلى 12/10/2025",
