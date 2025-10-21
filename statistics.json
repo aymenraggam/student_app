@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 2320.0,
+    "total_overdue_unpaid_amount": 2370.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -265,6 +265,12 @@
         "student_name": "أيهم عيادي",
         "period": "19/09/2025 إلى 18/10/2025",
         "amount": 100.0
+      },
+      {
+        "student_id": 100,
+        "student_name": "جوري ضيفي",
+        "period": "20/09/2025 إلى 19/10/2025",
+        "amount": 50.0
       },
       {
         "student_id": 101,

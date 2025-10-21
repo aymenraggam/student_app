@@ -1560,12 +1560,16 @@
     "guardian_full_name": "محمد ضيفي",
     "phone_number": "21505445",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "20/09/2025 إلى 19/10/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "20/10/2025 إلى 19/11/2025",
         "amount": 50.0
       }
     ],
