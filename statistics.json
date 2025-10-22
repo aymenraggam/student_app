@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 2370.0,
+    "total_overdue_unpaid_amount": 2800.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -285,6 +285,12 @@
         "amount": 40.0
       },
       {
+        "student_id": 3,
+        "student_name": "أميرة مسعودي",
+        "period": "22/09/2025 إلى 21/10/2025",
+        "amount": 100.0
+      },
+      {
         "student_id": 85,
         "student_name": "أيوب طقوقي",
         "period": "19/09/2025 إلى 18/10/2025",
@@ -297,10 +303,46 @@
         "amount": 40.0
       },
       {
+        "student_id": 13,
+        "student_name": "ميسم مسعودي",
+        "period": "22/09/2025 إلى 21/10/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 14,
+        "student_name": "معتصم صالحي",
+        "period": "22/09/2025 إلى 21/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 102,
+        "student_name": "إلينا مسعودي",
+        "period": "22/09/2025 إلى 21/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 103,
+        "student_name": "تقوى فالحي",
+        "period": "22/09/2025 إلى 21/10/2025",
+        "amount": 100.0
+      },
+      {
         "student_id": 34,
         "student_name": "تقي مسعودي",
         "period": "25/08/2025 إلى 24/09/2025",
         "amount": 50.0
+      },
+      {
+        "student_id": 62,
+        "student_name": "سامح جابلي",
+        "period": "22/09/2025 إلى 21/10/2025",
+        "amount": 100.0
+      },
+      {
+        "student_id": 90,
+        "student_name": "لينا عبيدي",
+        "period": "22/09/2025 إلى 21/10/2025",
+        "amount": 0.0
       },
       {
         "student_id": 56,
@@ -315,7 +357,7 @@
         "amount": 100.0
       }
     ],
-    "total_active_students": 147,
+    "total_active_students": 149,
     "students_per_level": {
       "2 ث علوم": 5,
       "9 أساسي": 19,
@@ -324,6 +366,7 @@
       "2 ابتدائي": 8,
       "4 ابتدائي": 9,
       "1 ثانوي": 19,
+      "2 ث اقتصاد": 2,
       "8 أساسي": 26,
       "6 ابتدائي": 11,
       "7 أساسي": 22,

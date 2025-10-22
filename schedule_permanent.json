@@ -108,6 +108,17 @@
     ]
   },
   {
+    "id": 68,
+    "day_of_week": "الأربعاء",
+    "time_slot": "10:00 - 12:00",
+    "educational_level": "2 ث اقتصاد",
+    "class_type": "general",
+    "student_ids": [
+      168,
+      169
+    ]
+  },
+  {
     "id": 51,
     "day_of_week": "الأربعاء",
     "time_slot": "17:00 - 19:00",
@@ -318,6 +329,17 @@
       133,
       134,
       154
+    ]
+  },
+  {
+    "id": 69,
+    "day_of_week": "الخميس",
+    "time_slot": "10:00 - 12:00",
+    "educational_level": "2 ث اقتصاد",
+    "class_type": "general",
+    "student_ids": [
+      168,
+      169
     ]
   },
   {
