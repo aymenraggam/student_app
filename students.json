@@ -58,16 +58,16 @@
     "phone_number": "94164277",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 0.0,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "08/09/2025 إلى 07/10/2025",
-        "amount": 0.0
+        "amount": 50.0
       },
       {
         "period": "08/10/2025 إلى 07/11/2025",
-        "amount": 0.0
+        "amount": 50.0
       }
     ],
     "notes": ""
@@ -1871,16 +1871,16 @@
     "phone_number": "24183163",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 0.0,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "22/09/2025 إلى 21/10/2025",
-        "amount": 0.0
+        "amount": 50.0
       },
       {
         "period": "22/10/2025 إلى 21/11/2025",
-        "amount": 0.0
+        "amount": 50.0
       }
     ],
     "notes": ""
@@ -2185,13 +2185,9 @@
     "phone_number": "99217475",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "08/09/2025 إلى 07/10/2025",
-        "amount": 50.0
-      },
       {
         "period": "08/10/2025 إلى 07/11/2025",
         "amount": 50.0
@@ -3110,13 +3106,9 @@
     "phone_number": "42218267",
     "payment_generation_status": "active",
     "payment_count": 4,
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "22/09/2025 إلى 21/10/2025",
-        "amount": 100.0
-      },
       {
         "period": "01/10/2025 إلى 31/10/2025",
         "amount": 100.0
@@ -3135,14 +3127,9 @@
     "phone_number": "42218267",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 100.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "23/09/2025 إلى 22/10/2025",
-        "amount": 100.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -3229,16 +3216,12 @@
     "phone_number": "90723023",
     "payment_generation_status": "active",
     "payment_count": 4,
-    "unpaid_total": 60.0,
+    "unpaid_total": 40.0,
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "22/09/2025 إلى 21/10/2025",
-        "amount": 30.0
-      },
-      {
         "period": "01/10/2025 إلى 31/10/2025",
-        "amount": 30.0
+        "amount": 40.0
       }
     ],
     "notes": ""
