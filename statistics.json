@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 2720.0,
+    "total_overdue_unpaid_amount": 3440.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -153,12 +153,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 94,
-        "student_name": "نغم جلالي",
-        "period": "03/09/2025 إلى 02/10/2025",
-        "amount": 100.0
-      },
-      {
         "student_id": 96,
         "student_name": "حسّان كداشي",
         "period": "06/09/2025 إلى 05/10/2025",
@@ -249,12 +243,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 81,
-        "student_name": "مرام قادري",
-        "period": "17/09/2025 إلى 16/10/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 98,
         "student_name": "أيهم عيادي",
         "period": "19/09/2025 إلى 18/10/2025",
@@ -312,6 +300,126 @@
         "student_id": 34,
         "student_name": "تقي مسعودي",
         "period": "25/08/2025 إلى 24/09/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 99,
+        "student_name": "يوسف صالحي",
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 104,
+        "student_name": "سليمان جلالي",
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 105,
+        "student_name": "يونس جلالي",
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 10,
+        "student_name": "أسامة بوعلاقي",
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 1,
+        "student_name": "أمان الله صالحي",
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 107,
+        "student_name": "بيرم صالحي",
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 108,
+        "student_name": "براءة صالحي",
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 44,
+        "student_name": "أمان زارعي",
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 16,
+        "student_name": "قصي شرف الدين",
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 52,
+        "student_name": "براءة صالحي",
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 51,
+        "student_name": "ميسم علوي",
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 18,
+        "student_name": "شفاء نصيري",
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 9,
+        "student_name": "أمل صالحي",
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 7,
+        "student_name": "جود بوعلاقي",
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 6,
+        "student_name": "أيوب صالحي",
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 43,
+        "student_name": "أحمد زارعي",
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 0.0
+      },
+      {
+        "student_id": 12,
+        "student_name": "راسيل جلالي",
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 53,
+        "student_name": "أمان الله زارعي",
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 111,
+        "student_name": "يوسف كدوسي",
+        "period": "23/09/2025 إلى 22/10/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 112,
+        "student_name": "فرح كدوسي",
+        "period": "23/09/2025 إلى 22/10/2025",
         "amount": 50.0
       },
       {

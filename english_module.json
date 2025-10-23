@@ -18,6 +18,14 @@
     ],
     "sessions": [
       {
+        "id": 9,
+        "session_date": "2025-10-23",
+        "lesson_title": "Introduce my self",
+        "lesson_category": "Writing",
+        "lesson_notes": "",
+        "files": []
+      },
+      {
         "id": 8,
         "session_date": "2025-10-16",
         "lesson_title": "clothes + colors (2)",
@@ -179,6 +187,13 @@
         14,
         87,
         13
+      ],
+      "9": [
+        56,
+        156,
+        77,
+        14,
+        87
       ]
     },
     "payments": [
@@ -212,6 +227,14 @@
         "payment_date": "2025-10-16",
         "amount": 15.0,
         "status": "خالص",
+        "attendance_trigger_count": 4
+      },
+      {
+        "id": 5,
+        "student_id": 14,
+        "payment_date": "2025-10-23",
+        "amount": 15.0,
+        "status": "غير خالص",
         "attendance_trigger_count": 4
       }
     ]

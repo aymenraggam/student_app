@@ -46,7 +46,7 @@
       16,
       35
     ],
-    "unpaid_total": 80.0,
+    "unpaid_total": 120.0,
     "password": "752567",
     "credit_balance": 0.0
   },
@@ -98,7 +98,7 @@
     "student_ids": [
       7
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "649573",
     "credit_balance": 0.0
   },
@@ -108,7 +108,7 @@
     "student_ids": [
       10
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "989675",
     "credit_balance": 0.0
   },
@@ -159,7 +159,7 @@
     "student_ids": [
       12
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "970258",
     "credit_balance": 0.0
   },
@@ -180,7 +180,7 @@
       104,
       105
     ],
-    "unpaid_total": 60.0,
+    "unpaid_total": 120.0,
     "password": "642081",
     "credit_balance": 0.0
   },
@@ -258,7 +258,7 @@
       112,
       122
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 250.0,
     "password": "042414",
     "credit_balance": 0.0
   },
@@ -268,7 +268,7 @@
     "student_ids": [
       53
     ],
-    "unpaid_total": 40.0,
+    "unpaid_total": 80.0,
     "password": "795344",
     "credit_balance": 0.0
   },
@@ -280,7 +280,7 @@
       43,
       44
     ],
-    "unpaid_total": 80.0,
+    "unpaid_total": 120.0,
     "password": "892485",
     "credit_balance": 0.0
   },
@@ -352,7 +352,7 @@
       42,
       51
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "601245",
     "credit_balance": 0.0
   },
@@ -394,7 +394,7 @@
       6,
       52
     ],
-    "unpaid_total": 180.0,
+    "unpaid_total": 270.0,
     "password": "825523",
     "credit_balance": 0.0
   },
@@ -405,7 +405,7 @@
       9,
       14
     ],
-    "unpaid_total": 250.0,
+    "unpaid_total": 300.0,
     "password": "210766",
     "credit_balance": 0.0
   },
@@ -487,7 +487,7 @@
     "student_ids": [
       99
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "026467",
     "credit_balance": 0.0
   },
@@ -539,7 +539,7 @@
     "student_ids": [
       1
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "421711",
     "credit_balance": 0.0
   },
@@ -550,19 +550,8 @@
       107,
       108
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 200.0,
     "password": "581091",
-    "credit_balance": 0.0
-  },
-  {
-    "guardian_full_name": "علي عامري",
-    "phone_number": "40955600",
-    "student_ids": [
-      134,
-      163
-    ],
-    "unpaid_total": 100.0,
-    "password": "077927",
     "credit_balance": 0.0
   },
   {
@@ -592,7 +581,7 @@
       77,
       89
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 100.0,
     "password": "577964",
     "credit_balance": 0.0
   },
@@ -715,7 +704,7 @@
     "student_ids": [
       94
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "password": "327840",
     "credit_balance": 0.0
   },
@@ -797,7 +786,7 @@
       18,
       114
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 200.0,
     "password": "370742",
     "credit_balance": 0.0
   },
@@ -827,7 +816,7 @@
     "student_ids": [
       81
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "608423",
     "credit_balance": 0.0
   },
@@ -1109,7 +1098,7 @@
       3,
       19
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 200.0,
     "password": "414757",
     "credit_balance": 0.0
   }

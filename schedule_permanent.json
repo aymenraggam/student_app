@@ -224,6 +224,14 @@
     ]
   },
   {
+    "id": 70,
+    "day_of_week": "الجمعة",
+    "time_slot": "08:00 - 10:00",
+    "educational_level": "مجموعة إنجليزية",
+    "class_type": "english",
+    "student_ids": []
+  },
+  {
     "id": 34,
     "day_of_week": "الجمعة",
     "time_slot": "13:00 - 15:00",
@@ -341,6 +349,14 @@
       168,
       169
     ]
+  },
+  {
+    "id": 71,
+    "day_of_week": "الخميس",
+    "time_slot": "15:00 - 17:00",
+    "educational_level": "مجموعة إنجليزية",
+    "class_type": "english",
+    "student_ids": []
   },
   {
     "id": 52,
