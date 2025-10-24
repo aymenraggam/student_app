@@ -171,7 +171,7 @@
     ],
     "unpaid_total": 0.0,
     "password": "358737",
-    "credit_balance": 30.0
+    "credit_balance": 210.0
   },
   {
     "guardian_full_name": "دعد جلالي",
@@ -555,6 +555,17 @@
     "credit_balance": 0.0
   },
   {
+    "guardian_full_name": "علي عامري",
+    "phone_number": "40955600",
+    "student_ids": [
+      134,
+      163
+    ],
+    "unpaid_total": 100.0,
+    "password": "077927",
+    "credit_balance": 0.0
+  },
+  {
     "guardian_full_name": "كريمة عامري",
     "phone_number": "55560997",
     "student_ids": [
@@ -570,7 +581,7 @@
     "student_ids": [
       20
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 200.0,
     "password": "972606",
     "credit_balance": 0.0
   },
@@ -666,6 +677,16 @@
     ],
     "unpaid_total": 50.0,
     "password": "238900",
+    "credit_balance": 0.0
+  },
+  {
+    "guardian_full_name": "عز الدين عماري",
+    "phone_number": "92899049",
+    "student_ids": [
+      170
+    ],
+    "unpaid_total": 50.0,
+    "password": "539859",
     "credit_balance": 0.0
   },
   {
@@ -1017,7 +1038,7 @@
       109,
       115
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "737243",
     "credit_balance": 0.0
   },

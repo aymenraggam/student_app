@@ -97,5 +97,14 @@
     "amount": -50.0,
     "notes": "خلاص دفعة (عادية) للتلميذ: يوسف سماري",
     "payment_id": 472
+  },
+  {
+    "guardian_name": "حياة",
+    "guardian_surname": "جلالي",
+    "phone_number": "99810230",
+    "transaction_date": "2025-10-24 19:06:46",
+    "amount": 180.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
   }
 ]

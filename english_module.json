@@ -18,6 +18,23 @@
     ],
     "sessions": [
       {
+        "id": 10,
+        "session_date": "2025-10-24",
+        "lesson_title": "reading",
+        "lesson_category": "Reading",
+        "lesson_notes": "",
+        "files": [
+          {
+            "name": "1728407851197.jpg",
+            "path": "english_session_resources\\1728407851197_20251024095008.jpg"
+          },
+          {
+            "name": "1728407853215.jpg",
+            "path": "english_session_resources\\1728407853215_20251024095012.jpg"
+          }
+        ]
+      },
+      {
         "id": 9,
         "session_date": "2025-10-23",
         "lesson_title": "Introduce my self",
@@ -194,6 +211,10 @@
         77,
         14,
         87
+      ],
+      "10": [
+        16,
+        18
       ]
     },
     "payments": [
@@ -233,6 +254,14 @@
         "id": 5,
         "student_id": 14,
         "payment_date": "2025-10-23",
+        "amount": 15.0,
+        "status": "غير خالص",
+        "attendance_trigger_count": 4
+      },
+      {
+        "id": 6,
+        "student_id": 16,
+        "payment_date": "2025-10-24",
         "amount": 15.0,
         "status": "غير خالص",
         "attendance_trigger_count": 4

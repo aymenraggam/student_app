@@ -33,7 +33,8 @@
     "payment_count": 3,
     "unpaid_total": 100.0,
     "absence_count": [
-      "2025-10-03"
+      "2025-10-03",
+      "2025-10-24"
     ],
     "unpaid_periods": [
       {
@@ -659,7 +660,8 @@
     "payment_count": 3,
     "unpaid_total": 90.0,
     "absence_count": [
-      "2025-09-28"
+      "2025-09-28",
+      "2025-10-24"
     ],
     "unpaid_periods": [
       {
@@ -857,7 +859,8 @@
     "absence_count": [
       "2025-10-03",
       "2025-10-04",
-      "2025-10-18"
+      "2025-10-18",
+      "2025-10-24"
     ],
     "unpaid_periods": [
       {
@@ -1150,7 +1153,8 @@
     "absence_count": [
       "2025-09-28",
       "2025-10-05",
-      "2025-10-18"
+      "2025-10-18",
+      "2025-10-24"
     ],
     "unpaid_periods": [
       {
@@ -1418,7 +1422,9 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-10-24"
+    ],
     "unpaid_periods": [
       {
         "period": "10/10/2025 إلى 09/11/2025",
@@ -1497,7 +1503,8 @@
     "payment_count": 1,
     "unpaid_total": 40.0,
     "absence_count": [
-      "2025-10-17"
+      "2025-10-17",
+      "2025-10-24"
     ],
     "unpaid_periods": [
       {
@@ -1546,7 +1553,8 @@
     "unpaid_total": 50.0,
     "absence_count": [
       "2025-10-03",
-      "2025-10-18"
+      "2025-10-18",
+      "2025-10-24"
     ],
     "unpaid_periods": [
       {
@@ -1808,7 +1816,9 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-10-24"
+    ],
     "unpaid_periods": [
       {
         "period": "17/10/2025 إلى 16/11/2025",
@@ -1869,12 +1879,18 @@
     "guardian_full_name": "ذهبية عايدي",
     "phone_number": "96200112",
     "payment_generation_status": "active",
-    "payment_count": 3,
-    "unpaid_total": 100.0,
-    "absence_count": [],
+    "payment_count": 4,
+    "unpaid_total": 200.0,
+    "absence_count": [
+      "2025-10-24"
+    ],
     "unpaid_periods": [
       {
         "period": "24/09/2025 إلى 23/10/2025",
+        "amount": 100.0
+      },
+      {
+        "period": "24/10/2025 إلى 23/11/2025",
         "amount": 100.0
       }
     ],
@@ -1893,7 +1909,8 @@
     "payment_count": 1,
     "unpaid_total": 50.0,
     "absence_count": [
-      "2025-10-03"
+      "2025-10-03",
+      "2025-10-24"
     ],
     "unpaid_periods": [
       {
@@ -2070,12 +2087,16 @@
     "guardian_full_name": "وحيدة كدوسي",
     "phone_number": "97053933",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "24/09/2025 إلى 23/10/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "24/10/2025 إلى 23/11/2025",
         "amount": 50.0
       }
     ],
@@ -2094,11 +2115,33 @@
     "payment_count": 1,
     "unpaid_total": 50.0,
     "absence_count": [
-      "2025-10-17"
+      "2025-10-17",
+      "2025-10-24"
     ],
     "unpaid_periods": [
       {
         "period": "26/09/2025 إلى 25/10/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 170,
+    "name": "اروى",
+    "surname": "عماري",
+    "educational_level": "9 أساسي",
+    "institution": "المدرسة الاعدادية بالرقاب",
+    "entry_date": "2025-10-24",
+    "guardian_full_name": "عز الدين عماري",
+    "phone_number": "92899049",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "24/10/2025 إلى 23/11/2025",
         "amount": 50.0
       }
     ],
@@ -2676,7 +2719,9 @@
     "payment_generation_status": "active",
     "payment_count": 3,
     "unpaid_total": 80.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-10-24"
+    ],
     "unpaid_periods": [
       {
         "period": "09/09/2025 إلى 08/10/2025",
@@ -3116,7 +3161,8 @@
     "payment_count": 3,
     "unpaid_total": 100.0,
     "absence_count": [
-      "2025-10-18"
+      "2025-10-18",
+      "2025-10-24"
     ],
     "unpaid_periods": [
       {

@@ -567,6 +567,13 @@
         "amount": 100.0,
         "received_date": null,
         "notes": ""
+      },
+      {
+        "period_formatted": "24/10/2025 إلى 23/11/2025",
+        "status": "غير خالص",
+        "amount": 100.0,
+        "received_date": null,
+        "notes": ""
       }
     ]
   },
@@ -2192,6 +2199,13 @@
         "amount": 50.0,
         "received_date": null,
         "notes": ""
+      },
+      {
+        "period_formatted": "24/10/2025 إلى 23/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
       }
     ]
   },
@@ -2919,6 +2933,18 @@
         "period_formatted": "22/10/2025 إلى 21/11/2025",
         "status": "غير خالص",
         "amount": 30.0,
+        "received_date": null,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "student_id": 170,
+    "payments": [
+      {
+        "period_formatted": "24/10/2025 إلى 23/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
         "received_date": null,
         "notes": ""
       }
