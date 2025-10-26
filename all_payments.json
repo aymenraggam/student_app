@@ -3143,5 +3143,17 @@
         "notes": ""
       }
     ]
+  },
+  {
+    "student_id": 171,
+    "payments": [
+      {
+        "period_formatted": "24/10/2025 إلى 23/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
+      }
+    ]
   }
 ]

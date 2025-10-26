@@ -492,6 +492,16 @@
     "credit_balance": 0.0
   },
   {
+    "guardian_full_name": "محمد علي صمودي",
+    "phone_number": "53926331",
+    "student_ids": [
+      171
+    ],
+    "unpaid_total": 50.0,
+    "password": "320451",
+    "credit_balance": 0.0
+  },
+  {
     "guardian_full_name": "عبد الحفيظ ضيفي",
     "phone_number": "22195709",
     "student_ids": [

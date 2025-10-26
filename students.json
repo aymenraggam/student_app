@@ -1665,6 +1665,27 @@
     "notes": ""
   },
   {
+    "id": 171,
+    "name": "مهاب",
+    "surname": "صمودي",
+    "educational_level": "2 ث علوم",
+    "institution": "المعهد الثانوي بالرقاب",
+    "entry_date": "2025-10-24",
+    "guardian_full_name": "محمد علي صمودي",
+    "phone_number": "53926331",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "24/10/2025 إلى 23/11/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 68,
     "name": "إكرام",
     "surname": "صياحي",
