@@ -341,7 +341,7 @@
     "student_ids": [
       31
     ],
-    "unpaid_total": 130.0,
+    "unpaid_total": 0.0,
     "password": "748320",
     "credit_balance": 0.0
   },
@@ -717,6 +717,16 @@
     ],
     "unpaid_total": 50.0,
     "password": "031268",
+    "credit_balance": 0.0
+  },
+  {
+    "guardian_full_name": "فتحية عيوني",
+    "phone_number": "94110939",
+    "student_ids": [
+      50
+    ],
+    "unpaid_total": 100.0,
+    "password": "696688",
     "credit_balance": 0.0
   },
   {

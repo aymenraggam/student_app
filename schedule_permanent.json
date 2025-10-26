@@ -28,7 +28,8 @@
       157,
       158,
       167
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 41,
@@ -57,7 +58,8 @@
       160,
       163,
       170
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 40,
@@ -74,6 +76,7 @@
       38,
       39,
       40,
+      50,
       54,
       72,
       73,
@@ -92,7 +95,8 @@
       162,
       164,
       165
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 62,
@@ -106,7 +110,8 @@
       133,
       134,
       154
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 68,
@@ -117,7 +122,8 @@
     "student_ids": [
       168,
       169
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 51,
@@ -128,7 +134,8 @@
     "student_ids": [
       94,
       95
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 32,
@@ -139,7 +146,8 @@
     "student_ids": [
       19,
       20
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 56,
@@ -150,7 +158,8 @@
     "student_ids": [
       62,
       103
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 63,
@@ -161,7 +170,8 @@
     "student_ids": [
       94,
       95
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 48,
@@ -172,7 +182,8 @@
     "student_ids": [
       19,
       20
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 54,
@@ -183,7 +194,8 @@
     "student_ids": [
       62,
       103
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 44,
@@ -210,7 +222,8 @@
       153,
       161,
       166
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 58,
@@ -221,7 +234,8 @@
     "student_ids": [
       62,
       103
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 70,
@@ -229,7 +243,8 @@
     "time_slot": "08:00 - 10:00",
     "educational_level": "مجموعة إنجليزية",
     "class_type": "english",
-    "student_ids": []
+    "student_ids": [],
+    "is_makeup": false
   },
   {
     "id": 34,
@@ -260,7 +275,8 @@
       157,
       158,
       167
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 37,
@@ -289,7 +305,8 @@
       160,
       163,
       170
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 38,
@@ -306,6 +323,7 @@
       38,
       39,
       40,
+      50,
       54,
       72,
       73,
@@ -324,7 +342,8 @@
       162,
       164,
       165
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 64,
@@ -338,7 +357,8 @@
       133,
       134,
       154
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 69,
@@ -349,7 +369,8 @@
     "student_ids": [
       168,
       169
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 71,
@@ -357,7 +378,8 @@
     "time_slot": "15:00 - 17:00",
     "educational_level": "مجموعة إنجليزية",
     "class_type": "english",
-    "student_ids": []
+    "student_ids": [],
+    "is_makeup": false
   },
   {
     "id": 52,
@@ -384,7 +406,8 @@
       153,
       161,
       166
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 61,
@@ -395,7 +418,8 @@
     "student_ids": [
       62,
       103
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 35,
@@ -426,7 +450,8 @@
       157,
       158,
       167
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 42,
@@ -455,7 +480,8 @@
       160,
       163,
       170
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 39,
@@ -472,6 +498,7 @@
       38,
       39,
       40,
+      50,
       54,
       72,
       73,
@@ -490,7 +517,8 @@
       162,
       164,
       165
-    ]
+    ],
+    "is_makeup": false
   },
   {
     "id": 66,
@@ -517,6 +545,7 @@
       153,
       161,
       166
-    ]
+    ],
+    "is_makeup": false
   }
 ]

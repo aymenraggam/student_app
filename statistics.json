@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 4610.0,
+    "total_overdue_unpaid_amount": 4570.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -577,15 +577,9 @@
         "student_name": "أمان جلالي",
         "period": "22/08/2025 إلى 21/09/2025",
         "amount": 100.0
-      },
-      {
-        "student_id": 31,
-        "student_name": "سيف زريبي",
-        "period": "30/08/2025 إلى 29/09/2025",
-        "amount": 40.0
       }
     ],
-    "total_active_students": 149,
+    "total_active_students": 150,
     "students_per_level": {
       "2 ث علوم": 5,
       "9 أساسي": 20,
@@ -595,7 +589,7 @@
       "4 ابتدائي": 9,
       "1 ثانوي": 18,
       "2 ث اقتصاد": 2,
-      "8 أساسي": 26,
+      "8 أساسي": 27,
       "6 ابتدائي": 11,
       "7 أساسي": 22,
       "1 ابتدائي": 7
