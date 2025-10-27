@@ -797,12 +797,12 @@
     "phone_number": "94110939",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "26/10/2025 إلى 25/11/2025",
-        "amount": 100.0
+        "amount": 150.0
       }
     ],
     "notes": ""
@@ -2178,16 +2178,12 @@
     "phone_number": "97053933",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 100.0,
+    "unpaid_total": 30.0,
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "24/09/2025 إلى 23/10/2025",
-        "amount": 50.0
-      },
-      {
         "period": "24/10/2025 إلى 23/11/2025",
-        "amount": 50.0
+        "amount": 30.0
       }
     ],
     "notes": ""
@@ -2203,19 +2199,15 @@
     "phone_number": "97053933",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 100.0,
+    "unpaid_total": 30.0,
     "absence_count": [
       "2025-10-17",
       "2025-10-24"
     ],
     "unpaid_periods": [
       {
-        "period": "26/09/2025 إلى 25/10/2025",
-        "amount": 50.0
-      },
-      {
         "period": "26/10/2025 إلى 25/11/2025",
-        "amount": 50.0
+        "amount": 30.0
       }
     ],
     "notes": ""
