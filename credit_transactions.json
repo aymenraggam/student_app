@@ -115,5 +115,23 @@
     "amount": -100.0,
     "notes": "خلاص دفعة (عادية) للتلميذ: أمان الله جلالي",
     "payment_id": 552
+  },
+  {
+    "guardian_name": "بسمة",
+    "guardian_surname": "عبيدي",
+    "phone_number": "99722377",
+    "transaction_date": "2025-10-29 00:15:51",
+    "amount": 50.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "بسمة",
+    "guardian_surname": "عبيدي",
+    "phone_number": "99722377",
+    "transaction_date": "2025-10-29 00:15:52",
+    "amount": -40.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: مريم صدقي",
+    "payment_id": 322
   }
 ]
