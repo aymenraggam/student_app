@@ -1,24 +1,12 @@
 [
   {
-    "total_overdue_unpaid_amount": 4670.0,
+    "total_overdue_unpaid_amount": 4360.0,
     "overdue_details": [
       {
         "student_id": 4,
         "student_name": "آدم جلالي",
         "period": "03/07/2025 إلى 02/08/2025",
         "amount": 30.0
-      },
-      {
-        "student_id": 5,
-        "student_name": "آدم صالحي",
-        "period": "01/07/2025 إلى 31/07/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 5,
-        "student_name": "آدم صالحي",
-        "period": "01/08/2025 إلى 31/08/2025",
-        "amount": 50.0
       },
       {
         "student_id": 10,
@@ -96,18 +84,6 @@
         "student_id": 57,
         "student_name": "إياد قادري",
         "period": "09/08/2025 إلى 08/09/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 78,
-        "student_name": "احمد زارعي",
-        "period": "13/08/2025 إلى 12/09/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 82,
-        "student_name": "يحي جلالي",
-        "period": "17/08/2025 إلى 16/09/2025",
         "amount": 50.0
       },
       {
@@ -288,13 +264,13 @@
         "student_id": 104,
         "student_name": "سليمان جلالي",
         "period": "23/09/2025 إلى 22/10/2025",
-        "amount": 30.0
+        "amount": 0.0
       },
       {
         "student_id": 105,
         "student_name": "يونس جلالي",
         "period": "23/09/2025 إلى 22/10/2025",
-        "amount": 30.0
+        "amount": 0.0
       },
       {
         "student_id": 10,
@@ -331,12 +307,6 @@
         "student_name": "براءة صالحي",
         "period": "23/09/2025 إلى 22/10/2025",
         "amount": 40.0
-      },
-      {
-        "student_id": 51,
-        "student_name": "ميسم علوي",
-        "period": "23/09/2025 إلى 22/10/2025",
-        "amount": 50.0
       },
       {
         "student_id": 18,
@@ -603,20 +573,20 @@
         "amount": 50.0
       }
     ],
-    "total_active_students": 150,
+    "total_active_students": 154,
     "students_per_level": {
       "2 ث علوم": 5,
       "9 أساسي": 20,
-      "5 ابتدائي": 11,
+      "5 ابتدائي": 12,
+      "2 ابتدائي": 9,
       "3 ابتدائي": 10,
-      "2 ابتدائي": 8,
       "4 ابتدائي": 9,
       "1 ثانوي": 18,
       "2 ث اقتصاد": 2,
       "8 أساسي": 27,
-      "6 ابتدائي": 11,
+      "6 ابتدائي": 12,
       "7 أساسي": 22,
-      "1 ابتدائي": 7
+      "1 ابتدائي": 8
     }
   }
 ]
