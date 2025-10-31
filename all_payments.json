@@ -3320,5 +3320,31 @@
         "notes": ""
       }
     ]
+  },
+  {
+    "student_id": 181,
+    "payments": [
+      {
+        "period_formatted": "20/08/2025 إلى 19/09/2025",
+        "status": "خالص",
+        "amount": 0.0,
+        "received_date": "2025-10-31",
+        "notes": "خلاص عبر رصيد التسبقة"
+      },
+      {
+        "period_formatted": "20/09/2025 إلى 19/10/2025",
+        "status": "خالص",
+        "amount": 0.0,
+        "received_date": "2025-10-31",
+        "notes": "خلاص عبر رصيد التسبقة"
+      },
+      {
+        "period_formatted": "20/10/2025 إلى 19/11/2025",
+        "status": "خالص",
+        "amount": 0.0,
+        "received_date": "2025-10-31",
+        "notes": "خلاص عبر رصيد التسبقة"
+      }
+    ]
   }
 ]

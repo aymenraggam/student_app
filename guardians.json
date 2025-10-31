@@ -671,6 +671,16 @@
     "credit_balance": 0.0
   },
   {
+    "guardian_full_name": "عمار جلالي",
+    "phone_number": "98283943",
+    "student_ids": [
+      80
+    ],
+    "unpaid_total": 0.0,
+    "password": "489592",
+    "credit_balance": 0.0
+  },
+  {
     "guardian_full_name": "عواطف اللاحق",
     "phone_number": "96285990",
     "student_ids": [
@@ -1054,6 +1064,16 @@
     "credit_balance": 0.0
   },
   {
+    "guardian_full_name": "نهال قادري",
+    "phone_number": "20109555",
+    "student_ids": [
+      67
+    ],
+    "unpaid_total": 50.0,
+    "password": "545750",
+    "credit_balance": 0.0
+  },
+  {
     "guardian_full_name": "نوال مسعودي",
     "phone_number": "42218267",
     "student_ids": [
@@ -1145,5 +1165,15 @@
     "unpaid_total": 50.0,
     "password": "492953",
     "credit_balance": 0.0
+  },
+  {
+    "guardian_full_name": "محمد العكرمي صالحي",
+    "phone_number": "28889953",
+    "student_ids": [
+      181
+    ],
+    "unpaid_total": 0.0,
+    "password": "977705",
+    "credit_balance": 1.0
   }
 ]

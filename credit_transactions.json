@@ -133,5 +133,41 @@
     "amount": -40.0,
     "notes": "خلاص دفعة (عادية) للتلميذ: مريم صدقي",
     "payment_id": 322
+  },
+  {
+    "guardian_name": "محمد العكرمي",
+    "guardian_surname": "صالحي",
+    "phone_number": "28889953",
+    "transaction_date": "2025-10-31 20:03:50",
+    "amount": 1.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "محمد العكرمي",
+    "guardian_surname": "صالحي",
+    "phone_number": "28889953",
+    "transaction_date": "2025-10-31 20:03:52",
+    "amount": 0.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: محمد أمين صالحي",
+    "payment_id": 604
+  },
+  {
+    "guardian_name": "محمد العكرمي",
+    "guardian_surname": "صالحي",
+    "phone_number": "28889953",
+    "transaction_date": "2025-10-31 20:03:52",
+    "amount": 0.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: محمد أمين صالحي",
+    "payment_id": 605
+  },
+  {
+    "guardian_name": "محمد العكرمي",
+    "guardian_surname": "صالحي",
+    "phone_number": "28889953",
+    "transaction_date": "2025-10-31 20:03:52",
+    "amount": 0.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: محمد أمين صالحي",
+    "payment_id": 606
   }
 ]
