@@ -650,17 +650,6 @@
     "credit_balance": 0.0
   },
   {
-    "guardian_full_name": "عماد عيوني",
-    "phone_number": "97689005",
-    "student_ids": [
-      166,
-      179
-    ],
-    "unpaid_total": 80.0,
-    "password": "031268",
-    "credit_balance": 0.0
-  },
-  {
     "guardian_full_name": "عماد كدوسي",
     "phone_number": "40836664",
     "student_ids": [
