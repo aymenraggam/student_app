@@ -111,11 +111,8 @@
     "educational_level": "2 ث علوم",
     "class_type": "general",
     "student_ids": [
-      132,
-      133,
-      134,
-      154,
-      171
+      171,
+      181
     ],
     "is_makeup": false
   },
@@ -376,11 +373,8 @@
     "educational_level": "2 ث علوم",
     "class_type": "general",
     "student_ids": [
-      132,
-      133,
-      134,
-      154,
-      171
+      171,
+      181
     ],
     "is_makeup": false
   },
