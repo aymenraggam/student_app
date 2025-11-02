@@ -7,7 +7,8 @@
     ],
     "unpaid_total": 200.0,
     "password": "261332",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "أحلام كدوسي",
@@ -19,7 +20,8 @@
     ],
     "unpaid_total": 200.0,
     "password": "846309",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "أحمد خليفي",
@@ -30,7 +32,8 @@
     ],
     "unpaid_total": 150.0,
     "password": "355130",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "أم أنس ضيفي",
@@ -40,7 +43,8 @@
     ],
     "unpaid_total": 0.0,
     "password": "945351",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "أماني قدودة",
@@ -51,7 +55,8 @@
     ],
     "unpaid_total": 170.0,
     "password": "701179",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "أميرة عامري",
@@ -61,7 +66,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "421711",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "إيناس قادري",
@@ -71,7 +77,8 @@
     ],
     "unpaid_total": 150.0,
     "password": "818074",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "ابتسام جلالي",
@@ -81,17 +88,19 @@
     ],
     "unpaid_total": 100.0,
     "password": "970258",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "احمد أم هاني",
-    "phone_number": "98303404",
+    "phone_number": "98303404_blocked",
     "student_ids": [
       154
     ],
     "unpaid_total": 50.0,
     "password": "480317",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": false
   },
   {
     "guardian_full_name": "الضاوي كدوسي",
@@ -101,7 +110,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "389906",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "الناصر صالحي",
@@ -112,7 +122,8 @@
     ],
     "unpaid_total": 160.0,
     "password": "825523",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "النوّي كدوسي",
@@ -122,7 +133,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "492156",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "بدر الدين قادري",
@@ -132,7 +144,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "366830",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "بسمة أم هاني",
@@ -142,7 +155,8 @@
     ],
     "unpaid_total": 0.0,
     "password": "006126",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "بسمة عامري",
@@ -153,7 +167,8 @@
     ],
     "unpaid_total": 150.0,
     "password": "581091",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "بسمة عبيدي",
@@ -165,7 +180,8 @@
     ],
     "unpaid_total": 180.0,
     "password": "241509",
-    "credit_balance": 10.0
+    "credit_balance": 10.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "بسمة قادري",
@@ -175,7 +191,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "173674",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "تفاحة زريبي",
@@ -186,7 +203,8 @@
     ],
     "unpaid_total": 0.0,
     "password": "444625",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "توفيق صالحي",
@@ -197,7 +215,8 @@
     ],
     "unpaid_total": 300.0,
     "password": "210766",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "جميلة كدوسي",
@@ -210,7 +229,8 @@
     ],
     "unpaid_total": 210.0,
     "password": "693492",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "حافظ قادري",
@@ -220,7 +240,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "874837",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "حسن أم هاني",
@@ -230,7 +251,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "363217",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "حسين عكروتي",
@@ -238,9 +260,10 @@
     "student_ids": [
       140
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "238900",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "حنان كدوسي",
@@ -251,7 +274,8 @@
     ],
     "unpaid_total": 60.0,
     "password": "565940",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "حورية كدوسي",
@@ -261,7 +285,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "076287",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "حياة جلالي",
@@ -271,7 +296,8 @@
     ],
     "unpaid_total": 0.0,
     "password": "358737",
-    "credit_balance": 110.0
+    "credit_balance": 110.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "خالد زارعي",
@@ -282,7 +308,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "010859",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "خليفة قادري",
@@ -292,7 +319,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "806931",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "خير الدين قادري",
@@ -303,7 +331,8 @@
     ],
     "unpaid_total": 200.0,
     "password": "285800",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "دعد جلالي",
@@ -314,7 +343,8 @@
     ],
     "unpaid_total": 0.0,
     "password": "642081",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "ذهبية عايدي",
@@ -324,7 +354,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "972606",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "رفيقة قادري",
@@ -335,7 +366,8 @@
     ],
     "unpaid_total": 250.0,
     "password": "370742",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "رياض زريبي",
@@ -345,7 +377,8 @@
     ],
     "unpaid_total": 0.0,
     "password": "517898",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "زهرة زريبي",
@@ -355,7 +388,8 @@
     ],
     "unpaid_total": 0.0,
     "password": "607965",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "ساسية جلالي",
@@ -364,9 +398,10 @@
       142,
       146
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "987471",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "سالمة قادري",
@@ -376,7 +411,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "102499",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "سعاد كحلي",
@@ -386,7 +422,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "335273",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "سعد بوكدوس",
@@ -394,9 +431,10 @@
     "student_ids": [
       153
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "448887",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "سفيان جابلي",
@@ -406,7 +444,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "492680",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "سليم عيوني",
@@ -416,7 +455,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "079093",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "سناء كداشي",
@@ -426,7 +466,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "125816",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "سنية بوكدوس",
@@ -437,17 +478,19 @@
     ],
     "unpaid_total": 200.0,
     "password": "571815",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "شدلية أم هاني",
-    "phone_number": "98815898",
+    "phone_number": "98815898_blocked",
     "student_ids": [
       132
     ],
     "unpaid_total": 100.0,
     "password": "055115",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": false
   },
   {
     "guardian_full_name": "شكري زريبي",
@@ -457,7 +500,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "024181",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "صافيا صالحي",
@@ -468,7 +512,8 @@
     ],
     "unpaid_total": 120.0,
     "password": "607327",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "صافيا مسعودي",
@@ -478,7 +523,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "214944",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "صباح عبيدي",
@@ -488,7 +534,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "157514",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "طارق زارعي",
@@ -498,7 +545,8 @@
     ],
     "unpaid_total": 80.0,
     "password": "795344",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "طارق مسعودي",
@@ -508,7 +556,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "452585",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "عائشة أم هاني",
@@ -519,7 +568,8 @@
     ],
     "unpaid_total": 80.0,
     "password": "752567",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "عبد الحفيظ ضيفي",
@@ -529,7 +579,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "826175",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "عبد السلام جلالي",
@@ -543,7 +594,8 @@
     ],
     "unpaid_total": 600.0,
     "password": "983341",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "عبد العزيز طقوقي",
@@ -555,7 +607,8 @@
     ],
     "unpaid_total": 240.0,
     "password": "753677",
-    "credit_balance": 30.0
+    "credit_balance": 30.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "عبد القادر فالحي",
@@ -565,7 +618,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "502534",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "عبد الكريم قادري",
@@ -575,7 +629,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "920529",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "عز الدين عماري",
@@ -585,7 +640,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "539859",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "عفاف كحلي",
@@ -595,7 +651,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "604665",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "عقبة عيادي",
@@ -605,7 +662,8 @@
     ],
     "unpaid_total": 200.0,
     "password": "290553",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "علي بوعلافي",
@@ -615,7 +673,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "430128",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "علي طقوقي",
@@ -625,7 +684,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "820120",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "علي عامري",
@@ -636,7 +696,8 @@
     ],
     "unpaid_total": 150.0,
     "password": "077927",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "علي عمري",
@@ -647,7 +708,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "826896",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "عماد عيوني",
@@ -658,7 +720,8 @@
     ],
     "unpaid_total": 80.0,
     "password": "031268",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "عماد كدوسي",
@@ -668,17 +731,19 @@
     ],
     "unpaid_total": 50.0,
     "password": "750066",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "عمار جلالي",
-    "phone_number": "98283943",
+    "phone_number": "98283943_blocked",
     "student_ids": [
       80
     ],
     "unpaid_total": 0.0,
     "password": "489592",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": false
   },
   {
     "guardian_full_name": "عواطف اللاحق",
@@ -688,7 +753,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "438725",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "فاطمة بوعلافي",
@@ -698,7 +764,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "649573",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "فتحي بوكدوس",
@@ -708,7 +775,8 @@
     ],
     "unpaid_total": 30.0,
     "password": "313262",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "فتحي صالحي",
@@ -718,7 +786,8 @@
     ],
     "unpaid_total": 80.0,
     "password": "229883",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "فتحية عيوني",
@@ -728,7 +797,8 @@
     ],
     "unpaid_total": 150.0,
     "password": "696688",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "فوزي قادري",
@@ -738,7 +808,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "608423",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "قيس قادري",
@@ -748,7 +819,8 @@
     ],
     "unpaid_total": 30.0,
     "password": "063658",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "قيس مسعودي",
@@ -758,7 +830,8 @@
     ],
     "unpaid_total": 80.0,
     "password": "177977",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "كريمة عامري",
@@ -768,7 +841,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "145053",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "كوثر عباسي",
@@ -778,7 +852,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "495765",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "لطيفة سليمي",
@@ -788,7 +863,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "365426",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "لطيّف كرمودي",
@@ -798,7 +874,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "560709",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "لمين شرف الدين",
@@ -808,7 +885,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "642190",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "مبروكة صالحي",
@@ -819,7 +897,8 @@
     ],
     "unpaid_total": 200.0,
     "password": "774087",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "مبروكة قادري",
@@ -831,7 +910,8 @@
     ],
     "unpaid_total": 210.0,
     "password": "336041",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "محرز بلقاسم",
@@ -844,7 +924,8 @@
     ],
     "unpaid_total": 190.0,
     "password": "135852",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "محرزية كيّال",
@@ -854,7 +935,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "844854",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "محسن صالحي",
@@ -864,7 +946,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "865422",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "محسن قادري",
@@ -874,7 +957,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "943673",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "محمد ضيفي",
@@ -884,7 +968,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "013240",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "محمد الخياري عكرمي",
@@ -894,7 +979,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "311538",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "محمد الصغير زريبي",
@@ -904,7 +990,8 @@
     ],
     "unpaid_total": 0.0,
     "password": "748320",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "محمد علي صمودي",
@@ -914,7 +1001,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "320451",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "مروى ذيابي",
@@ -926,7 +1014,8 @@
     ],
     "unpaid_total": 140.0,
     "password": "042414",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "مريم سليمي",
@@ -936,7 +1025,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "439616",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "مليكة جلالي",
@@ -946,7 +1036,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "196374",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "منجي صالحي",
@@ -956,7 +1047,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "178778",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "منوّر مسعودي",
@@ -966,17 +1058,19 @@
     ],
     "unpaid_total": 250.0,
     "password": "308475",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "منى بوزيدي",
-    "phone_number": "40014999",
+    "phone_number": "40014999_blocked",
     "student_ids": [
       133
     ],
     "unpaid_total": 100.0,
     "password": "499089",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": false
   },
   {
     "guardian_full_name": "منى زريبي",
@@ -985,9 +1079,10 @@
       42,
       51
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "601245",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "منى صالحي",
@@ -997,7 +1092,8 @@
     ],
     "unpaid_total": 40.0,
     "password": "303336",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "مهدي مسعودي",
@@ -1007,7 +1103,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "481960",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "نبيهة عيوني",
@@ -1017,7 +1114,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "327840",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "نجاة قادري",
@@ -1028,7 +1126,8 @@
     ],
     "unpaid_total": 180.0,
     "password": "632059",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "نجاح صالحي",
@@ -1038,7 +1137,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "561914",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "نجيبة زارعي",
@@ -1050,7 +1150,8 @@
     ],
     "unpaid_total": 160.0,
     "password": "892485",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "نزيهة عبدلي",
@@ -1061,17 +1162,19 @@
     ],
     "unpaid_total": 70.0,
     "password": "436468",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "نهال قادري",
-    "phone_number": "20109555",
+    "phone_number": "20109555_blocked",
     "student_ids": [
       67
     ],
     "unpaid_total": 50.0,
     "password": "545750",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": false
   },
   {
     "guardian_full_name": "نوال مسعودي",
@@ -1082,7 +1185,8 @@
     ],
     "unpaid_total": 300.0,
     "password": "414757",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "نور الدين جلالي",
@@ -1092,7 +1196,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "879779",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "نورة عبد اللاوي",
@@ -1102,7 +1207,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "437488",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "هاجر بوعلافي",
@@ -1112,7 +1218,8 @@
     ],
     "unpaid_total": 150.0,
     "password": "989675",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "وحيدة كدوسي",
@@ -1123,7 +1230,8 @@
     ],
     "unpaid_total": 60.0,
     "password": "737243",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "وليد عبيدي",
@@ -1133,7 +1241,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "334907",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "ونيسة عايدي",
@@ -1144,7 +1253,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "577964",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "يامن صالحي",
@@ -1154,7 +1264,8 @@
     ],
     "unpaid_total": 50.0,
     "password": "026467",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "أحمد كحولي",
@@ -1164,7 +1275,8 @@
     ],
     "unpaid_total": 100.0,
     "password": "492953",
-    "credit_balance": 0.0
+    "credit_balance": 0.0,
+    "is_active": true
   },
   {
     "guardian_full_name": "محمد العكرمي صالحي",
@@ -1174,6 +1286,7 @@
     ],
     "unpaid_total": 0.0,
     "password": "21210003",
-    "credit_balance": 1.0
+    "credit_balance": 1.0,
+    "is_active": true
   }
 ]
