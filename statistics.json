@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 4035.0,
+    "total_overdue_unpaid_amount": 3550.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -171,18 +171,6 @@
         "amount": 30.0
       },
       {
-        "student_id": 97,
-        "student_name": "عمر كداشي",
-        "period": "16/09/2025 إلى 15/10/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 98,
-        "student_name": "أيهم عيادي",
-        "period": "19/09/2025 إلى 18/10/2025",
-        "amount": 100.0
-      },
-      {
         "student_id": 84,
         "student_name": "أمل طقوقي",
         "period": "19/09/2025 إلى 18/10/2025",
@@ -255,12 +243,6 @@
         "amount": 40.0
       },
       {
-        "student_id": 52,
-        "student_name": "براءة صالحي",
-        "period": "23/09/2025 إلى 22/10/2025",
-        "amount": 40.0
-      },
-      {
         "student_id": 18,
         "student_name": "شفاء نصيري",
         "period": "23/09/2025 إلى 22/10/2025",
@@ -277,12 +259,6 @@
         "student_name": "جود بوعلاقي",
         "period": "23/09/2025 إلى 22/10/2025",
         "amount": 50.0
-      },
-      {
-        "student_id": 6,
-        "student_name": "أيوب صالحي",
-        "period": "23/09/2025 إلى 22/10/2025",
-        "amount": 40.0
       },
       {
         "student_id": 43,
@@ -447,24 +423,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 140,
-        "student_name": "لسعد عكروتي",
-        "period": "02/10/2025 إلى 01/11/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 45,
-        "student_name": "أميمة كداشي",
-        "period": "01/10/2025 إلى 31/10/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 46,
-        "student_name": "اسراء كداشي",
-        "period": "01/10/2025 إلى 31/10/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 42,
         "student_name": "ميسان علوي",
         "period": "02/10/2025 إلى 01/11/2025",
@@ -477,28 +435,10 @@
         "amount": 50.0
       },
       {
-        "student_id": 143,
-        "student_name": "أرين صالحي",
-        "period": "30/09/2025 إلى 29/10/2025",
-        "amount": 35.0
-      },
-      {
-        "student_id": 144,
-        "student_name": "ألين صالحي",
-        "period": "30/09/2025 إلى 29/10/2025",
-        "amount": 35.0
-      },
-      {
         "student_id": 90,
         "student_name": "لينا عبيدي",
         "period": "22/09/2025 إلى 21/10/2025",
         "amount": 50.0
-      },
-      {
-        "student_id": 145,
-        "student_name": "احسان صالحي",
-        "period": "30/09/2025 إلى 29/10/2025",
-        "amount": 35.0
       },
       {
         "student_id": 153,
