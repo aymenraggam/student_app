@@ -160,26 +160,6 @@
     "notes": ""
   },
   {
-    "student_id": 179,
-    "date": "2025-11-01",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 33,
-    "date": "2025-11-01",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 35,
     "date": "2025-11-01",
     "subject": "حصة السبت",
@@ -230,16 +210,6 @@
     "notes": ""
   },
   {
-    "student_id": 50,
-    "date": "2025-11-01",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 72,
     "date": "2025-11-01",
     "subject": "حصة السبت",
@@ -247,16 +217,6 @@
     "participation_score": 3,
     "behavior_score": 3,
     "total_score": 6,
-    "notes": ""
-  },
-  {
-    "student_id": 74,
-    "date": "2025-11-01",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -410,16 +370,6 @@
     "notes": ""
   },
   {
-    "student_id": 103,
-    "date": "2025-11-01",
-    "subject": "حصة الأحد",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 114,
     "date": "2025-11-01",
     "subject": "حصة الأحد",
@@ -457,16 +407,6 @@
     "participation_score": 1,
     "behavior_score": 3,
     "total_score": 4,
-    "notes": ""
-  },
-  {
-    "student_id": 166,
-    "date": "2025-11-01",
-    "subject": "حصة الأحد",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -780,26 +720,6 @@
     "notes": ""
   },
   {
-    "student_id": 179,
-    "date": "2025-11-01",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 33,
-    "date": "2025-11-01",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 35,
     "date": "2025-11-01",
     "subject": "حصة الأربعاء",
@@ -850,16 +770,6 @@
     "notes": ""
   },
   {
-    "student_id": 50,
-    "date": "2025-11-01",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 72,
     "date": "2025-11-01",
     "subject": "حصة الأربعاء",
@@ -867,16 +777,6 @@
     "participation_score": 3,
     "behavior_score": 3,
     "total_score": 6,
-    "notes": ""
-  },
-  {
-    "student_id": 74,
-    "date": "2025-11-01",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -1030,16 +930,6 @@
     "notes": ""
   },
   {
-    "student_id": 103,
-    "date": "2025-11-01",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 114,
     "date": "2025-11-01",
     "subject": "حصة الأربعاء",
@@ -1080,16 +970,6 @@
     "notes": ""
   },
   {
-    "student_id": 166,
-    "date": "2025-11-01",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 178,
     "date": "2025-11-01",
     "subject": "حصة الأربعاء",
@@ -1097,16 +977,6 @@
     "participation_score": 0,
     "behavior_score": 3,
     "total_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 62,
-    "date": "2025-10-31",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -1147,16 +1017,6 @@
     "participation_score": 2,
     "behavior_score": 3,
     "total_score": 5,
-    "notes": ""
-  },
-  {
-    "student_id": 103,
-    "date": "2025-10-31",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -1260,16 +1120,6 @@
     "notes": ""
   },
   {
-    "student_id": 21,
-    "date": "2025-10-25",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 23,
     "date": "2025-10-25",
     "subject": "حصة السبت",
@@ -1297,16 +1147,6 @@
     "participation_score": 3,
     "behavior_score": 3,
     "total_score": 7,
-    "notes": ""
-  },
-  {
-    "student_id": 26,
-    "date": "2025-10-25",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -1357,16 +1197,6 @@
     "participation_score": 3,
     "behavior_score": 3,
     "total_score": 7,
-    "notes": ""
-  },
-  {
-    "student_id": 76,
-    "date": "2025-10-25",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -1447,16 +1277,6 @@
     "participation_score": 3,
     "behavior_score": 3,
     "total_score": 7,
-    "notes": ""
-  },
-  {
-    "student_id": 59,
-    "date": "2025-10-25",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -1640,16 +1460,6 @@
     "notes": ""
   },
   {
-    "student_id": 50,
-    "date": "2025-10-25",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 54,
     "date": "2025-10-25",
     "subject": "حصة السبت",
@@ -1677,16 +1487,6 @@
     "participation_score": 3,
     "behavior_score": 3,
     "total_score": 7,
-    "notes": ""
-  },
-  {
-    "student_id": 91,
-    "date": "2025-10-25",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -1790,16 +1590,6 @@
     "notes": ""
   },
   {
-    "student_id": 63,
-    "date": "2025-10-25",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 64,
     "date": "2025-10-25",
     "subject": "حصة السبت",
@@ -1817,16 +1607,6 @@
     "participation_score": 3,
     "behavior_score": 3,
     "total_score": 6,
-    "notes": ""
-  },
-  {
-    "student_id": 79,
-    "date": "2025-10-25",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -1930,16 +1710,6 @@
     "notes": ""
   },
   {
-    "student_id": 21,
-    "date": "2025-10-25",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 23,
     "date": "2025-10-25",
     "subject": "حصة الأربعاء",
@@ -1967,16 +1737,6 @@
     "participation_score": 3,
     "behavior_score": 3,
     "total_score": 7,
-    "notes": ""
-  },
-  {
-    "student_id": 26,
-    "date": "2025-10-25",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -2027,16 +1787,6 @@
     "participation_score": 3,
     "behavior_score": 3,
     "total_score": 7,
-    "notes": ""
-  },
-  {
-    "student_id": 76,
-    "date": "2025-10-25",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -2160,16 +1910,6 @@
     "notes": ""
   },
   {
-    "student_id": 50,
-    "date": "2025-10-25",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 54,
     "date": "2025-10-25",
     "subject": "حصة الأربعاء",
@@ -2197,16 +1937,6 @@
     "participation_score": 3,
     "behavior_score": 3,
     "total_score": 7,
-    "notes": ""
-  },
-  {
-    "student_id": 91,
-    "date": "2025-10-25",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -2310,16 +2040,6 @@
     "notes": ""
   },
   {
-    "student_id": 63,
-    "date": "2025-10-25",
-    "subject": "حصة الإثنين",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 64,
     "date": "2025-10-25",
     "subject": "حصة الإثنين",
@@ -2337,16 +2057,6 @@
     "participation_score": 3,
     "behavior_score": 3,
     "total_score": 6,
-    "notes": ""
-  },
-  {
-    "student_id": 79,
-    "date": "2025-10-25",
-    "subject": "حصة الإثنين",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -2440,16 +2150,6 @@
     "notes": ""
   },
   {
-    "student_id": 21,
-    "date": "2025-10-24",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 22,
     "date": "2025-10-24",
     "subject": "حصة الجمعة",
@@ -2487,16 +2187,6 @@
     "participation_score": 3,
     "behavior_score": 3,
     "total_score": 5,
-    "notes": ""
-  },
-  {
-    "student_id": 26,
-    "date": "2025-10-24",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -2547,16 +2237,6 @@
     "participation_score": 3,
     "behavior_score": 3,
     "total_score": 7,
-    "notes": ""
-  },
-  {
-    "student_id": 76,
-    "date": "2025-10-24",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -2617,16 +2297,6 @@
     "participation_score": 1,
     "behavior_score": 3,
     "total_score": 4,
-    "notes": ""
-  },
-  {
-    "student_id": 59,
-    "date": "2025-10-24",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -2840,16 +2510,6 @@
     "notes": ""
   },
   {
-    "student_id": 50,
-    "date": "2025-10-24",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 54,
     "date": "2025-10-24",
     "subject": "حصة الجمعة",
@@ -2897,16 +2557,6 @@
     "participation_score": 3,
     "behavior_score": 3,
     "total_score": 6,
-    "notes": ""
-  },
-  {
-    "student_id": 91,
-    "date": "2025-10-24",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -3050,16 +2700,6 @@
     "notes": ""
   },
   {
-    "student_id": 21,
-    "date": "2025-10-24",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 22,
     "date": "2025-10-24",
     "subject": "حصة الثلاثاء",
@@ -3097,16 +2737,6 @@
     "participation_score": 3,
     "behavior_score": 3,
     "total_score": 5,
-    "notes": ""
-  },
-  {
-    "student_id": 26,
-    "date": "2025-10-24",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -3157,16 +2787,6 @@
     "participation_score": 3,
     "behavior_score": 3,
     "total_score": 7,
-    "notes": ""
-  },
-  {
-    "student_id": 76,
-    "date": "2025-10-24",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -3227,16 +2847,6 @@
     "participation_score": 1,
     "behavior_score": 3,
     "total_score": 4,
-    "notes": ""
-  },
-  {
-    "student_id": 59,
-    "date": "2025-10-24",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -3450,16 +3060,6 @@
     "notes": ""
   },
   {
-    "student_id": 50,
-    "date": "2025-10-24",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 54,
     "date": "2025-10-24",
     "subject": "حصة الثلاثاء",
@@ -3507,16 +3107,6 @@
     "participation_score": 3,
     "behavior_score": 3,
     "total_score": 6,
-    "notes": ""
-  },
-  {
-    "student_id": 91,
-    "date": "2025-10-24",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -3660,16 +3250,6 @@
     "notes": ""
   },
   {
-    "student_id": 63,
-    "date": "2025-10-23",
-    "subject": "حصة الخميس",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 64,
     "date": "2025-10-23",
     "subject": "حصة الخميس",
@@ -3717,16 +3297,6 @@
     "participation_score": 0,
     "behavior_score": 0,
     "total_score": -1,
-    "notes": ""
-  },
-  {
-    "student_id": 79,
-    "date": "2025-10-23",
-    "subject": "حصة الخميس",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -3860,16 +3430,6 @@
     "notes": ""
   },
   {
-    "student_id": 63,
-    "date": "2025-10-23",
-    "subject": "حصة الخميس",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 64,
     "date": "2025-10-23",
     "subject": "حصة الخميس",
@@ -3917,16 +3477,6 @@
     "participation_score": 0,
     "behavior_score": 0,
     "total_score": -1,
-    "notes": ""
-  },
-  {
-    "student_id": 79,
-    "date": "2025-10-23",
-    "subject": "حصة الخميس",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -4100,16 +3650,6 @@
     "notes": ""
   },
   {
-    "student_id": 63,
-    "date": "2025-10-21",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 64,
     "date": "2025-10-21",
     "subject": "حصة الثلاثاء",
@@ -4157,36 +3697,6 @@
     "participation_score": 2,
     "behavior_score": 2,
     "total_score": 4,
-    "notes": ""
-  },
-  {
-    "student_id": 79,
-    "date": "2025-10-21",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 80,
-    "date": "2025-10-21",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 81,
-    "date": "2025-10-21",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -4310,16 +3820,6 @@
     "notes": ""
   },
   {
-    "student_id": 21,
-    "date": "2025-10-19",
-    "subject": "حصة الأحد",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 22,
     "date": "2025-10-19",
     "subject": "حصة الأحد",
@@ -4360,16 +3860,6 @@
     "notes": ""
   },
   {
-    "student_id": 26,
-    "date": "2025-10-19",
-    "subject": "حصة الأحد",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 27,
     "date": "2025-10-19",
     "subject": "حصة الأحد",
@@ -4390,16 +3880,6 @@
     "notes": ""
   },
   {
-    "student_id": 29,
-    "date": "2025-10-19",
-    "subject": "حصة الأحد",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 30,
     "date": "2025-10-19",
     "subject": "حصة الأحد",
@@ -4407,16 +3887,6 @@
     "participation_score": 2,
     "behavior_score": 1,
     "total_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 31,
-    "date": "2025-10-19",
-    "subject": "حصة الأحد",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -4450,16 +3920,6 @@
     "notes": ""
   },
   {
-    "student_id": 76,
-    "date": "2025-10-19",
-    "subject": "حصة الأحد",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 92,
     "date": "2025-10-19",
     "subject": "حصة الأحد",
@@ -4477,16 +3937,6 @@
     "participation_score": 1,
     "behavior_score": 2,
     "total_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 116,
-    "date": "2025-10-19",
-    "subject": "حصة الأحد",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -4620,16 +4070,6 @@
     "notes": ""
   },
   {
-    "student_id": 50,
-    "date": "2025-10-19",
-    "subject": "حصة الأحد",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 54,
     "date": "2025-10-19",
     "subject": "حصة الأحد",
@@ -4677,16 +4117,6 @@
     "participation_score": 2,
     "behavior_score": 2,
     "total_score": 4,
-    "notes": ""
-  },
-  {
-    "student_id": 91,
-    "date": "2025-10-19",
-    "subject": "حصة الأحد",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -4770,16 +4200,6 @@
     "notes": ""
   },
   {
-    "student_id": 150,
-    "date": "2025-10-19",
-    "subject": "حصة الأحد",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 151,
     "date": "2025-10-19",
     "subject": "حصة الأحد",
@@ -4820,16 +4240,6 @@
     "notes": ""
   },
   {
-    "student_id": 41,
-    "date": "2025-10-19",
-    "subject": "حصة الأحد",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 57,
     "date": "2025-10-19",
     "subject": "حصة الأحد",
@@ -4847,16 +4257,6 @@
     "participation_score": 2,
     "behavior_score": 3,
     "total_score": 5,
-    "notes": ""
-  },
-  {
-    "student_id": 59,
-    "date": "2025-10-19",
-    "subject": "حصة الأحد",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -4907,16 +4307,6 @@
     "participation_score": 1,
     "behavior_score": 0,
     "total_score": 1,
-    "notes": ""
-  },
-  {
-    "student_id": 119,
-    "date": "2025-10-19",
-    "subject": "حصة الأحد",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -5030,16 +4420,6 @@
     "notes": ""
   },
   {
-    "student_id": 63,
-    "date": "2025-10-19",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 64,
     "date": "2025-10-19",
     "subject": "حصة الثلاثاء",
@@ -5090,16 +4470,6 @@
     "notes": ""
   },
   {
-    "student_id": 79,
-    "date": "2025-10-19",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 80,
     "date": "2025-10-19",
     "subject": "حصة الثلاثاء",
@@ -5140,16 +4510,6 @@
     "notes": ""
   },
   {
-    "student_id": 113,
-    "date": "2025-10-19",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 114,
     "date": "2025-10-19",
     "subject": "حصة الثلاثاء",
@@ -5160,16 +4520,6 @@
     "notes": ""
   },
   {
-    "student_id": 138,
-    "date": "2025-10-19",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 139,
     "date": "2025-10-19",
     "subject": "حصة الثلاثاء",
@@ -5177,26 +4527,6 @@
     "participation_score": 3,
     "behavior_score": 2,
     "total_score": 5,
-    "notes": ""
-  },
-  {
-    "student_id": 142,
-    "date": "2025-10-19",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 153,
-    "date": "2025-10-19",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -5227,16 +4557,6 @@
     "participation_score": 2,
     "behavior_score": 2,
     "total_score": 4,
-    "notes": ""
-  },
-  {
-    "student_id": 21,
-    "date": "2025-10-19",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -5280,16 +4600,6 @@
     "notes": ""
   },
   {
-    "student_id": 26,
-    "date": "2025-10-19",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 27,
     "date": "2025-10-19",
     "subject": "حصة الأربعاء",
@@ -5310,16 +4620,6 @@
     "notes": ""
   },
   {
-    "student_id": 29,
-    "date": "2025-10-19",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 30,
     "date": "2025-10-19",
     "subject": "حصة الأربعاء",
@@ -5327,16 +4627,6 @@
     "participation_score": 2,
     "behavior_score": 1,
     "total_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 31,
-    "date": "2025-10-19",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -5370,16 +4660,6 @@
     "notes": ""
   },
   {
-    "student_id": 76,
-    "date": "2025-10-19",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 92,
     "date": "2025-10-19",
     "subject": "حصة الأربعاء",
@@ -5397,16 +4677,6 @@
     "participation_score": 1,
     "behavior_score": 2,
     "total_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 116,
-    "date": "2025-10-19",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -5540,16 +4810,6 @@
     "notes": ""
   },
   {
-    "student_id": 50,
-    "date": "2025-10-19",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 54,
     "date": "2025-10-19",
     "subject": "حصة الثلاثاء",
@@ -5597,16 +4857,6 @@
     "participation_score": 2,
     "behavior_score": 2,
     "total_score": 4,
-    "notes": ""
-  },
-  {
-    "student_id": 91,
-    "date": "2025-10-19",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -5690,16 +4940,6 @@
     "notes": ""
   },
   {
-    "student_id": 150,
-    "date": "2025-10-19",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 151,
     "date": "2025-10-19",
     "subject": "حصة الثلاثاء",
@@ -5740,16 +4980,6 @@
     "notes": ""
   },
   {
-    "student_id": 41,
-    "date": "2025-10-19",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 57,
     "date": "2025-10-19",
     "subject": "حصة الأربعاء",
@@ -5767,16 +4997,6 @@
     "participation_score": 2,
     "behavior_score": 3,
     "total_score": 5,
-    "notes": ""
-  },
-  {
-    "student_id": 59,
-    "date": "2025-10-19",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -5827,16 +5047,6 @@
     "participation_score": 1,
     "behavior_score": 0,
     "total_score": 1,
-    "notes": ""
-  },
-  {
-    "student_id": 119,
-    "date": "2025-10-19",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -5960,16 +5170,6 @@
     "notes": ""
   },
   {
-    "student_id": 21,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 22,
     "date": "2025-10-18",
     "subject": "حصة السبت",
@@ -6000,36 +5200,6 @@
     "notes": ""
   },
   {
-    "student_id": 25,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 26,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 27,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 28,
     "date": "2025-10-18",
     "subject": "حصة السبت",
@@ -6037,16 +5207,6 @@
     "participation_score": 1,
     "behavior_score": 2,
     "total_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 29,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -6080,36 +5240,6 @@
     "notes": ""
   },
   {
-    "student_id": 71,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 75,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 76,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 92,
     "date": "2025-10-18",
     "subject": "حصة السبت",
@@ -6127,16 +5257,6 @@
     "participation_score": 1,
     "behavior_score": 1,
     "total_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 116,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -6170,16 +5290,6 @@
     "notes": ""
   },
   {
-    "student_id": 158,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 33,
     "date": "2025-10-18",
     "subject": "حصة السبت",
@@ -6197,16 +5307,6 @@
     "participation_score": 3,
     "behavior_score": 1,
     "total_score": 5,
-    "notes": ""
-  },
-  {
-    "student_id": 35,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -6230,16 +5330,6 @@
     "notes": ""
   },
   {
-    "student_id": 38,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 39,
     "date": "2025-10-18",
     "subject": "حصة السبت",
@@ -6258,16 +5348,6 @@
     "behavior_score": 0,
     "total_score": 1,
     "notes": "مطرود من الحصة"
-  },
-  {
-    "student_id": 50,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
   },
   {
     "student_id": 54,
@@ -6307,26 +5387,6 @@
     "participation_score": 1,
     "behavior_score": 2,
     "total_score": 4,
-    "notes": ""
-  },
-  {
-    "student_id": 89,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 91,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -6377,16 +5437,6 @@
     "participation_score": 2,
     "behavior_score": 3,
     "total_score": 6,
-    "notes": ""
-  },
-  {
-    "student_id": 124,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -6410,16 +5460,6 @@
     "notes": ""
   },
   {
-    "student_id": 150,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 151,
     "date": "2025-10-18",
     "subject": "حصة السبت",
@@ -6460,16 +5500,6 @@
     "notes": ""
   },
   {
-    "student_id": 41,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 57,
     "date": "2025-10-18",
     "subject": "حصة السبت",
@@ -6487,16 +5517,6 @@
     "participation_score": 3,
     "behavior_score": 3,
     "total_score": 6,
-    "notes": ""
-  },
-  {
-    "student_id": 59,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -6547,16 +5567,6 @@
     "participation_score": 1,
     "behavior_score": 2,
     "total_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 119,
-    "date": "2025-10-18",
-    "subject": "حصة السبت",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -6680,16 +5690,6 @@
     "notes": ""
   },
   {
-    "student_id": 21,
-    "date": "2025-10-18",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 22,
     "date": "2025-10-18",
     "subject": "حصة الأربعاء",
@@ -6720,36 +5720,6 @@
     "notes": ""
   },
   {
-    "student_id": 25,
-    "date": "2025-10-18",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 26,
-    "date": "2025-10-18",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 27,
-    "date": "2025-10-18",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 28,
     "date": "2025-10-18",
     "subject": "حصة الأربعاء",
@@ -6757,16 +5727,6 @@
     "participation_score": 1,
     "behavior_score": 2,
     "total_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 29,
-    "date": "2025-10-18",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -6800,36 +5760,6 @@
     "notes": ""
   },
   {
-    "student_id": 71,
-    "date": "2025-10-18",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 75,
-    "date": "2025-10-18",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 76,
-    "date": "2025-10-18",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 92,
     "date": "2025-10-18",
     "subject": "حصة الأربعاء",
@@ -6847,16 +5777,6 @@
     "participation_score": 1,
     "behavior_score": 1,
     "total_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 116,
-    "date": "2025-10-18",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -6890,16 +5810,6 @@
     "notes": ""
   },
   {
-    "student_id": 158,
-    "date": "2025-10-18",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 33,
     "date": "2025-10-18",
     "subject": "حصة الأربعاء",
@@ -6917,16 +5827,6 @@
     "participation_score": 3,
     "behavior_score": 1,
     "total_score": 5,
-    "notes": ""
-  },
-  {
-    "student_id": 35,
-    "date": "2025-10-18",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -6950,16 +5850,6 @@
     "notes": ""
   },
   {
-    "student_id": 38,
-    "date": "2025-10-18",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 39,
     "date": "2025-10-18",
     "subject": "حصة الأربعاء",
@@ -6978,16 +5868,6 @@
     "behavior_score": 0,
     "total_score": 1,
     "notes": "مطرود من الحصة"
-  },
-  {
-    "student_id": 50,
-    "date": "2025-10-18",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
   },
   {
     "student_id": 54,
@@ -7027,26 +5907,6 @@
     "participation_score": 1,
     "behavior_score": 2,
     "total_score": 4,
-    "notes": ""
-  },
-  {
-    "student_id": 89,
-    "date": "2025-10-18",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 91,
-    "date": "2025-10-18",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -7097,16 +5957,6 @@
     "participation_score": 2,
     "behavior_score": 3,
     "total_score": 6,
-    "notes": ""
-  },
-  {
-    "student_id": 124,
-    "date": "2025-10-18",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -7130,16 +5980,6 @@
     "notes": ""
   },
   {
-    "student_id": 150,
-    "date": "2025-10-18",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 151,
     "date": "2025-10-18",
     "subject": "حصة الأربعاء",
@@ -7200,16 +6040,6 @@
     "notes": ""
   },
   {
-    "student_id": 21,
-    "date": "2025-10-17",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 22,
     "date": "2025-10-17",
     "subject": "حصة الجمعة",
@@ -7247,26 +6077,6 @@
     "participation_score": 3,
     "behavior_score": 2,
     "total_score": 5,
-    "notes": ""
-  },
-  {
-    "student_id": 26,
-    "date": "2025-10-17",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 27,
-    "date": "2025-10-17",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -7330,36 +6140,6 @@
     "notes": ""
   },
   {
-    "student_id": 75,
-    "date": "2025-10-17",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 76,
-    "date": "2025-10-17",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 92,
-    "date": "2025-10-17",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 115,
     "date": "2025-10-17",
     "subject": "حصة الجمعة",
@@ -7387,16 +6167,6 @@
     "participation_score": 3,
     "behavior_score": 2,
     "total_score": 5,
-    "notes": ""
-  },
-  {
-    "student_id": 152,
-    "date": "2025-10-17",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -7500,16 +6270,6 @@
     "notes": ""
   },
   {
-    "student_id": 50,
-    "date": "2025-10-17",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 54,
     "date": "2025-10-17",
     "subject": "حصة الجمعة",
@@ -7547,26 +6307,6 @@
     "participation_score": 0,
     "behavior_score": 2,
     "total_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 89,
-    "date": "2025-10-17",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 91,
-    "date": "2025-10-17",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -7650,16 +6390,6 @@
     "notes": ""
   },
   {
-    "student_id": 150,
-    "date": "2025-10-17",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 151,
     "date": "2025-10-17",
     "subject": "حصة الجمعة",
@@ -7730,16 +6460,6 @@
     "notes": ""
   },
   {
-    "student_id": 59,
-    "date": "2025-10-17",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 60,
     "date": "2025-10-17",
     "subject": "حصة الجمعة",
@@ -7770,16 +6490,6 @@
     "notes": ""
   },
   {
-    "student_id": 117,
-    "date": "2025-10-17",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 118,
     "date": "2025-10-17",
     "subject": "حصة الجمعة",
@@ -7797,16 +6507,6 @@
     "participation_score": 0,
     "behavior_score": 2,
     "total_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 120,
-    "date": "2025-10-17",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -7840,16 +6540,6 @@
     "notes": ""
   },
   {
-    "student_id": 147,
-    "date": "2025-10-17",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 148,
     "date": "2025-10-17",
     "subject": "حصة الجمعة",
@@ -7857,16 +6547,6 @@
     "participation_score": 1,
     "behavior_score": 2,
     "total_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 149,
-    "date": "2025-10-17",
-    "subject": "حصة الجمعة",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -7920,16 +6600,6 @@
     "notes": ""
   },
   {
-    "student_id": 21,
-    "date": "2025-10-17",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 22,
     "date": "2025-10-17",
     "subject": "حصة الثلاثاء",
@@ -7967,26 +6637,6 @@
     "participation_score": 3,
     "behavior_score": 2,
     "total_score": 5,
-    "notes": ""
-  },
-  {
-    "student_id": 26,
-    "date": "2025-10-17",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 27,
-    "date": "2025-10-17",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -8050,36 +6700,6 @@
     "notes": ""
   },
   {
-    "student_id": 75,
-    "date": "2025-10-17",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 76,
-    "date": "2025-10-17",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 92,
-    "date": "2025-10-17",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 115,
     "date": "2025-10-17",
     "subject": "حصة الثلاثاء",
@@ -8107,16 +6727,6 @@
     "participation_score": 3,
     "behavior_score": 2,
     "total_score": 5,
-    "notes": ""
-  },
-  {
-    "student_id": 152,
-    "date": "2025-10-17",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -8220,16 +6830,6 @@
     "notes": ""
   },
   {
-    "student_id": 50,
-    "date": "2025-10-17",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 54,
     "date": "2025-10-17",
     "subject": "حصة الثلاثاء",
@@ -8267,26 +6867,6 @@
     "participation_score": 0,
     "behavior_score": 2,
     "total_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 89,
-    "date": "2025-10-17",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
-    "student_id": 91,
-    "date": "2025-10-17",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -8370,16 +6950,6 @@
     "notes": ""
   },
   {
-    "student_id": 150,
-    "date": "2025-10-17",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 151,
     "date": "2025-10-17",
     "subject": "حصة الثلاثاء",
@@ -8450,16 +7020,6 @@
     "notes": ""
   },
   {
-    "student_id": 59,
-    "date": "2025-10-17",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 60,
     "date": "2025-10-17",
     "subject": "حصة الأربعاء",
@@ -8490,16 +7050,6 @@
     "notes": ""
   },
   {
-    "student_id": 117,
-    "date": "2025-10-17",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 118,
     "date": "2025-10-17",
     "subject": "حصة الأربعاء",
@@ -8517,16 +7067,6 @@
     "participation_score": 0,
     "behavior_score": 2,
     "total_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 120,
-    "date": "2025-10-17",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -8560,16 +7100,6 @@
     "notes": ""
   },
   {
-    "student_id": 147,
-    "date": "2025-10-17",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 148,
     "date": "2025-10-17",
     "subject": "حصة الأربعاء",
@@ -8577,16 +7107,6 @@
     "participation_score": 1,
     "behavior_score": 2,
     "total_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 149,
-    "date": "2025-10-17",
-    "subject": "حصة الأربعاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -8630,16 +7150,6 @@
     "notes": ""
   },
   {
-    "student_id": 63,
-    "date": "2025-10-16",
-    "subject": "حصة الخميس",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 64,
     "date": "2025-10-16",
     "subject": "حصة الخميس",
@@ -8810,16 +7320,6 @@
     "notes": ""
   },
   {
-    "student_id": 63,
-    "date": "2025-10-16",
-    "subject": "حصة الخميس",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 64,
     "date": "2025-10-16",
     "subject": "حصة الخميس",
@@ -9040,16 +7540,6 @@
     "notes": ""
   },
   {
-    "student_id": 68,
-    "date": "2025-10-14",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 80,
     "date": "2025-10-14",
     "subject": "حصة الثلاثاء",
@@ -9090,16 +7580,6 @@
     "notes": ""
   },
   {
-    "student_id": 113,
-    "date": "2025-10-14",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 114,
     "date": "2025-10-14",
     "subject": "حصة الثلاثاء",
@@ -9107,16 +7587,6 @@
     "participation_score": 2,
     "behavior_score": 1,
     "total_score": 3,
-    "notes": ""
-  },
-  {
-    "student_id": 138,
-    "date": "2025-10-14",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   },
   {
@@ -9140,16 +7610,6 @@
     "notes": ""
   },
   {
-    "student_id": 153,
-    "date": "2025-10-14",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
-    "notes": ""
-  },
-  {
     "student_id": 161,
     "date": "2025-10-14",
     "subject": "حصة الثلاثاء",
@@ -9157,16 +7617,6 @@
     "participation_score": 0,
     "behavior_score": 2,
     "total_score": 2,
-    "notes": ""
-  },
-  {
-    "student_id": 166,
-    "date": "2025-10-14",
-    "subject": "حصة الثلاثاء",
-    "homework_status": "-- لا يوجد واجب",
-    "participation_score": 0,
-    "behavior_score": 0,
-    "total_score": 0,
     "notes": ""
   }
 ]
