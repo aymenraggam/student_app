@@ -11,19 +11,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "أحلام كدوسي",
-    "phone_number": "94102027",
-    "student_ids": [
-      103,
-      117,
-      118
-    ],
-    "unpaid_total": 200.0,
-    "password": "846309",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "أحمد خليفي",
     "phone_number": "29069649",
     "student_ids": [
@@ -90,17 +77,6 @@
     "password": "970258",
     "credit_balance": 0.0,
     "is_active": true
-  },
-  {
-    "guardian_full_name": "احمد أم هاني",
-    "phone_number": "98303404_blocked",
-    "student_ids": [
-      154
-    ],
-    "unpaid_total": 50.0,
-    "password": "480317",
-    "credit_balance": 0.0,
-    "is_active": false
   },
   {
     "guardian_full_name": "الضاوي كدوسي",
@@ -482,17 +458,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "شدلية أم هاني",
-    "phone_number": "98815898_blocked",
-    "student_ids": [
-      132
-    ],
-    "unpaid_total": 100.0,
-    "password": "055115",
-    "credit_balance": 0.0,
-    "is_active": false
-  },
-  {
     "guardian_full_name": "شكري زريبي",
     "phone_number": "48070803",
     "student_ids": [
@@ -691,10 +656,9 @@
     "guardian_full_name": "علي عامري",
     "phone_number": "40955600",
     "student_ids": [
-      134,
       163
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 50.0,
     "password": "077927",
     "credit_balance": 0.0,
     "is_active": true
@@ -712,18 +676,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "عماد عيوني",
-    "phone_number": "97689005",
-    "student_ids": [
-      166,
-      179
-    ],
-    "unpaid_total": 80.0,
-    "password": "031268",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "عماد كدوسي",
     "phone_number": "40836664",
     "student_ids": [
@@ -733,17 +685,6 @@
     "password": "750066",
     "credit_balance": 0.0,
     "is_active": true
-  },
-  {
-    "guardian_full_name": "عمار جلالي",
-    "phone_number": "98283943_blocked",
-    "student_ids": [
-      80
-    ],
-    "unpaid_total": 0.0,
-    "password": "489592",
-    "credit_balance": 0.0,
-    "is_active": false
   },
   {
     "guardian_full_name": "عواطف اللاحق",
@@ -1062,17 +1003,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "منى بوزيدي",
-    "phone_number": "40014999_blocked",
-    "student_ids": [
-      133
-    ],
-    "unpaid_total": 100.0,
-    "password": "499089",
-    "credit_balance": 0.0,
-    "is_active": false
-  },
-  {
     "guardian_full_name": "منى زريبي",
     "phone_number": "95222949",
     "student_ids": [
@@ -1164,17 +1094,6 @@
     "password": "436468",
     "credit_balance": 0.0,
     "is_active": true
-  },
-  {
-    "guardian_full_name": "نهال قادري",
-    "phone_number": "20109555_blocked",
-    "student_ids": [
-      67
-    ],
-    "unpaid_total": 50.0,
-    "password": "545750",
-    "credit_balance": 0.0,
-    "is_active": false
   },
   {
     "guardian_full_name": "نوال مسعودي",
