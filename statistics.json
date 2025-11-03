@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 4100.0,
+    "total_overdue_unpaid_amount": 3950.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -195,12 +195,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 34,
-        "student_name": "تقي مسعودي",
-        "period": "25/08/2025 إلى 24/09/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 104,
         "student_name": "سليمان جلالي",
         "period": "23/09/2025 إلى 22/10/2025",
@@ -313,12 +307,6 @@
         "student_name": "سيرين نصيري",
         "period": "25/09/2025 إلى 24/10/2025",
         "amount": 50.0
-      },
-      {
-        "student_id": 34,
-        "student_name": "تقي مسعودي",
-        "period": "25/09/2025 إلى 24/10/2025",
-        "amount": 100.0
       },
       {
         "student_id": 25,
