@@ -223,13 +223,9 @@
     "phone_number": "44368490",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "30/09/2025 إلى 29/10/2025",
-        "amount": 50.0
-      },
       {
         "period": "30/10/2025 إلى 29/11/2025",
         "amount": 50.0
@@ -466,15 +462,11 @@
     "phone_number": "22438703",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [
       "2025-10-19"
     ],
     "unpaid_periods": [
-      {
-        "period": "02/10/2025 إلى 01/11/2025",
-        "amount": 50.0
-      },
       {
         "period": "02/11/2025 إلى 01/12/2025",
         "amount": 50.0
@@ -670,15 +662,11 @@
     "phone_number": "22438703",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [
       "2025-11-01"
     ],
     "unpaid_periods": [
-      {
-        "period": "03/10/2025 إلى 02/11/2025",
-        "amount": 50.0
-      },
       {
         "period": "03/11/2025 إلى 02/12/2025",
         "amount": 50.0
@@ -1091,15 +1079,20 @@
     "guardian_full_name": "رياض زريبي",
     "phone_number": "50433140",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 0.0,
+    "payment_count": 3,
+    "unpaid_total": 50.0,
     "absence_count": [
       "2025-09-26",
       "2025-09-27",
       "2025-09-28",
       "2025-10-03"
     ],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "04/11/2025 إلى 03/12/2025",
+        "amount": 50.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -1786,7 +1779,8 @@
       "2025-10-14",
       "2025-10-23",
       "2025-10-25",
-      "2025-10-30"
+      "2025-10-30",
+      "2025-11-04"
     ],
     "unpaid_periods": [
       {
@@ -2359,12 +2353,16 @@
     "guardian_full_name": "لطيفة سليمي",
     "phone_number": "44171178",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "04/10/2025 إلى 03/11/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "04/11/2025 إلى 03/12/2025",
         "amount": 50.0
       }
     ],
@@ -3173,8 +3171,8 @@
     "guardian_full_name": "حورية كدوسي",
     "phone_number": "96820115",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-10-17",
       "2025-10-25",
@@ -3184,6 +3182,10 @@
     "unpaid_periods": [
       {
         "period": "04/10/2025 إلى 03/11/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "04/11/2025 إلى 03/12/2025",
         "amount": 50.0
       }
     ],
@@ -3613,10 +3615,15 @@
     "guardian_full_name": "تفاحة زريبي",
     "phone_number": "96445731",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 0.0,
+    "payment_count": 3,
+    "unpaid_total": 40.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "04/11/2025 إلى 03/12/2025",
+        "amount": 40.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -3629,10 +3636,15 @@
     "guardian_full_name": "تفاحة زريبي",
     "phone_number": "96445731",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 0.0,
+    "payment_count": 2,
+    "unpaid_total": 40.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "04/11/2025 إلى 03/12/2025",
+        "amount": 40.0
+      }
+    ],
     "notes": ""
   }
 ]
