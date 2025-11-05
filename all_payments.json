@@ -2008,6 +2008,13 @@
         "amount": 40.0,
         "received_date": null,
         "notes": "__RESUME_DAY:5__"
+      },
+      {
+        "period_formatted": "05/11/2025 إلى 04/12/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null,
+        "notes": "__RESUME_DAY:5__"
       }
     ]
   },
@@ -2885,9 +2892,9 @@
     "payments": [
       {
         "period_formatted": "03/10/2025 إلى 02/11/2025",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 50.0,
-        "received_date": null,
+        "received_date": "2025-11-05",
         "notes": ""
       },
       {
@@ -3345,6 +3352,18 @@
         "amount": 0.0,
         "received_date": "2025-10-31",
         "notes": "خلاص عبر رصيد التسبقة"
+      }
+    ]
+  },
+  {
+    "student_id": 182,
+    "payments": [
+      {
+        "period_formatted": "05/11/2025 إلى 04/12/2025",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null,
+        "notes": ""
       }
     ]
   }

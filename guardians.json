@@ -293,7 +293,7 @@
     "student_ids": [
       147
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "806931",
     "credit_balance": 0.0,
     "is_active": true
@@ -1020,7 +1020,7 @@
     "student_ids": [
       92
     ],
-    "unpaid_total": 40.0,
+    "unpaid_total": 80.0,
     "password": "303336",
     "credit_balance": 0.0,
     "is_active": true
@@ -1206,6 +1206,17 @@
     "unpaid_total": 0.0,
     "password": "21210003",
     "credit_balance": 1.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "فتحي حاجي",
+    "phone_number": "42222777",
+    "student_ids": [
+      182
+    ],
+    "unpaid_total": 30.0,
+    "password": "903975",
+    "credit_balance": 0.0,
     "is_active": true
   }
 ]
