@@ -18,6 +18,14 @@
     ],
     "sessions": [
       {
+        "id": 11,
+        "session_date": "2025-11-06",
+        "lesson_title": "lesson 1",
+        "lesson_category": "Reading",
+        "lesson_notes": "",
+        "files": []
+      },
+      {
         "id": 10,
         "session_date": "2025-10-24",
         "lesson_title": "reading",
@@ -215,6 +223,13 @@
       "10": [
         16,
         18
+      ],
+      "11": [
+        56,
+        77,
+        14,
+        87,
+        13
       ]
     },
     "payments": [
@@ -262,6 +277,14 @@
         "id": 6,
         "student_id": 16,
         "payment_date": "2025-10-24",
+        "amount": 15.0,
+        "status": "غير خالص",
+        "attendance_trigger_count": 4
+      },
+      {
+        "id": 7,
+        "student_id": 13,
+        "payment_date": "2025-11-06",
         "amount": 15.0,
         "status": "غير خالص",
         "attendance_trigger_count": 4
