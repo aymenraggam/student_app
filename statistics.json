@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 3970.0,
+    "total_overdue_unpaid_amount": 4260.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -109,12 +109,6 @@
         "student_name": "مريم قادري",
         "period": "09/09/2025 إلى 08/10/2025",
         "amount": 40.0
-      },
-      {
-        "student_id": 61,
-        "student_name": "آية أم هاني",
-        "period": "09/09/2025 إلى 08/10/2025",
-        "amount": 50.0
       },
       {
         "student_id": 72,
@@ -471,6 +465,30 @@
         "amount": 50.0
       },
       {
+        "student_id": 57,
+        "student_name": "إياد سلطاني",
+        "period": "09/10/2025 إلى 08/11/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 58,
+        "student_name": "مريم قادري",
+        "period": "09/10/2025 إلى 08/11/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 61,
+        "student_name": "آية أم هاني",
+        "period": "09/10/2025 إلى 08/11/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 66,
+        "student_name": "آدم فالحي",
+        "period": "09/10/2025 إلى 08/11/2025",
+        "amount": 50.0
+      },
+      {
         "student_id": 56,
         "student_name": "إلياس أم هاني",
         "period": "08/10/2025 إلى 07/11/2025",
@@ -487,6 +505,18 @@
         "student_name": "ميسم مسعودي",
         "period": "01/10/2025 إلى 31/10/2025",
         "amount": 40.0
+      },
+      {
+        "student_id": 62,
+        "student_name": "سامح جابلي",
+        "period": "09/10/2025 إلى 08/11/2025",
+        "amount": 100.0
+      },
+      {
+        "student_id": 1,
+        "student_name": "أمان الله صالحي",
+        "period": "09/10/2025 إلى 08/11/2025",
+        "amount": 50.0
       },
       {
         "student_id": 6,
@@ -555,19 +585,19 @@
         "amount": 30.0
       }
     ],
-    "total_active_students": 156,
+    "total_active_students": 153,
     "students_per_level": {
       "2 ث علوم": 6,
-      "9 أساسي": 19,
+      "9 أساسي": 18,
       "5 ابتدائي": 12,
       "2 ابتدائي": 9,
       "2 ث اقتصاد": 4,
       "3 ابتدائي": 10,
       "4 ابتدائي": 9,
       "1 ثانوي": 15,
-      "8 أساسي": 26,
+      "8 أساسي": 25,
       "6 ابتدائي": 12,
-      "7 أساسي": 26,
+      "7 أساسي": 25,
       "1 ابتدائي": 8
     }
   }

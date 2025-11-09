@@ -93,14 +93,14 @@
   },
   {
     "guardian_full_name": "النوّي كدوسي",
-    "phone_number": "97915970",
+    "phone_number": "97915970_blocked",
     "student_ids": [
       75
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "492156",
     "credit_balance": 0.0,
-    "is_active": true
+    "is_active": false
   },
   {
     "guardian_full_name": "بدر الدين قادري",
@@ -465,7 +465,7 @@
       65,
       96
     ],
-    "unpaid_total": 40.0,
+    "unpaid_total": 80.0,
     "password": "607327",
     "credit_balance": 0.0,
     "is_active": true
@@ -483,14 +483,14 @@
   },
   {
     "guardian_full_name": "صباح عبيدي",
-    "phone_number": "96958744",
+    "phone_number": "96958744_blocked",
     "student_ids": [
       119
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "password": "157514",
     "credit_balance": 0.0,
-    "is_active": true
+    "is_active": false
   },
   {
     "guardian_full_name": "طارق زارعي",
@@ -571,7 +571,7 @@
     "student_ids": [
       66
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "987654",
     "credit_balance": 0.0,
     "is_active": true
@@ -668,14 +668,14 @@
   },
   {
     "guardian_full_name": "عماد كدوسي",
-    "phone_number": "40836664",
+    "phone_number": "40836664_blocked",
     "student_ids": [
       150
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "750066",
     "credit_balance": 0.0,
-    "is_active": true
+    "is_active": false
   },
   {
     "guardian_full_name": "عواطف اللاحق",
@@ -829,7 +829,7 @@
       25,
       58
     ],
-    "unpaid_total": 210.0,
+    "unpaid_total": 250.0,
     "password": "336041",
     "credit_balance": 0.0,
     "is_active": true
@@ -1070,7 +1070,7 @@
       60,
       125
     ],
-    "unpaid_total": 70.0,
+    "unpaid_total": 35.0,
     "password": "436468",
     "credit_balance": 0.0,
     "is_active": true
@@ -1228,7 +1228,7 @@
     "student_ids": [
       57
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 200.0,
     "password": "712884",
     "credit_balance": 0.0,
     "is_active": true
