@@ -710,14 +710,14 @@
       {
         "period_formatted": "27/09/2025 إلى 26/10/2025",
         "status": "غير خالص",
-        "amount": 40.0,
+        "amount": 50.0,
         "received_date": null,
         "notes": "__RESUME_DAY:27__"
       },
       {
         "period_formatted": "27/10/2025 إلى 26/11/2025",
         "status": "غير خالص",
-        "amount": 40.0,
+        "amount": 50.0,
         "received_date": null,
         "notes": "__RESUME_DAY:27__"
       }
@@ -1062,6 +1062,13 @@
         "amount": 50.0,
         "received_date": null,
         "notes": "__RESUME_DAY:10__"
+      },
+      {
+        "period_formatted": "10/11/2025 إلى 09/12/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": "__RESUME_DAY:10__"
       }
     ]
   },
@@ -1156,14 +1163,14 @@
       {
         "period_formatted": "23/09/2025 إلى 22/10/2025",
         "status": "غير خالص",
-        "amount": 0.0,
+        "amount": 50.0,
         "received_date": null,
         "notes": "__RESUME_DAY:23__"
       },
       {
         "period_formatted": "01/10/2025 إلى 31/10/2025",
         "status": "غير خالص",
-        "amount": 0.0,
+        "amount": 50.0,
         "received_date": null,
         "notes": ""
       }
@@ -1175,14 +1182,14 @@
       {
         "period_formatted": "23/09/2025 إلى 22/10/2025",
         "status": "غير خالص",
-        "amount": 40.0,
+        "amount": 50.0,
         "received_date": null,
         "notes": "__RESUME_DAY:23__"
       },
       {
         "period_formatted": "01/10/2025 إلى 31/10/2025",
         "status": "غير خالص",
-        "amount": 40.0,
+        "amount": 50.0,
         "received_date": null,
         "notes": ""
       }
@@ -2650,14 +2657,14 @@
       {
         "period_formatted": "27/09/2025 إلى 26/10/2025",
         "status": "غير خالص",
-        "amount": 50.0,
+        "amount": 40.0,
         "received_date": null,
         "notes": ""
       },
       {
         "period_formatted": "27/10/2025 إلى 26/11/2025",
         "status": "غير خالص",
-        "amount": 50.0,
+        "amount": 40.0,
         "received_date": null,
         "notes": ""
       }
@@ -2767,6 +2774,13 @@
         "amount": 40.0,
         "received_date": "2025-11-08",
         "notes": ""
+      },
+      {
+        "period_formatted": "09/11/2025 إلى 08/12/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null,
+        "notes": "__RESUME_DAY:9__"
       }
     ]
   },
@@ -3171,6 +3185,13 @@
         "amount": 50.0,
         "received_date": null,
         "notes": ""
+      },
+      {
+        "period_formatted": "10/11/2025 إلى 09/12/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
       }
     ]
   },
@@ -3195,6 +3216,13 @@
         "amount": 50.0,
         "received_date": null,
         "notes": ""
+      },
+      {
+        "period_formatted": "10/11/2025 إلى 09/12/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
       }
     ]
   },
@@ -3203,6 +3231,13 @@
     "payments": [
       {
         "period_formatted": "10/10/2025 إلى 09/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
+      },
+      {
+        "period_formatted": "10/11/2025 إلى 09/12/2025",
         "status": "غير خالص",
         "amount": 50.0,
         "received_date": null,

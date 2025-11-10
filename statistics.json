@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 4260.0,
+    "total_overdue_unpaid_amount": 4580.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -210,7 +210,7 @@
         "student_id": 44,
         "student_name": "أمان زارعي",
         "period": "23/09/2025 إلى 22/10/2025",
-        "amount": 40.0
+        "amount": 50.0
       },
       {
         "student_id": 18,
@@ -234,7 +234,7 @@
         "student_id": 43,
         "student_name": "أحمد زارعي",
         "period": "23/09/2025 إلى 22/10/2025",
-        "amount": 0.0
+        "amount": 50.0
       },
       {
         "student_id": 12,
@@ -312,13 +312,13 @@
         "student_id": 128,
         "student_name": "آلاء قادري",
         "period": "27/09/2025 إلى 26/10/2025",
-        "amount": 50.0
+        "amount": 40.0
       },
       {
         "student_id": 27,
         "student_name": "ألاء زارعي",
         "period": "27/09/2025 إلى 26/10/2025",
-        "amount": 40.0
+        "amount": 50.0
       },
       {
         "student_id": 130,
@@ -489,6 +489,30 @@
         "amount": 50.0
       },
       {
+        "student_id": 157,
+        "student_name": "رسلان صالحي",
+        "period": "10/10/2025 إلى 09/11/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 159,
+        "student_name": "يسر قادري",
+        "period": "10/10/2025 إلى 09/11/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 160,
+        "student_name": "محمد أمين كدوسي",
+        "period": "10/10/2025 إلى 09/11/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 39,
+        "student_name": "نور عكروت",
+        "period": "10/10/2025 إلى 09/11/2025",
+        "amount": 50.0
+      },
+      {
         "student_id": 56,
         "student_name": "إلياس أم هاني",
         "period": "08/10/2025 إلى 07/11/2025",
@@ -552,13 +576,13 @@
         "student_id": 43,
         "student_name": "أحمد زارعي",
         "period": "01/10/2025 إلى 31/10/2025",
-        "amount": 0.0
+        "amount": 50.0
       },
       {
         "student_id": 44,
         "student_name": "أمان زارعي",
         "period": "01/10/2025 إلى 31/10/2025",
-        "amount": 40.0
+        "amount": 50.0
       },
       {
         "student_id": 51,
@@ -585,9 +609,9 @@
         "amount": 30.0
       }
     ],
-    "total_active_students": 153,
+    "total_active_students": 154,
     "students_per_level": {
-      "2 ث علوم": 6,
+      "2 ث علوم": 7,
       "9 أساسي": 18,
       "5 ابتدائي": 12,
       "2 ابتدائي": 9,
