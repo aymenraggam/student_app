@@ -1276,5 +1276,27 @@
     "password": "063318",
     "credit_balance": 0.0,
     "is_active": true
+  },
+  {
+    "guardian_full_name": "مبارك ميساوي",
+    "phone_number": "99744475",
+    "student_ids": [
+      186
+    ],
+    "unpaid_total": 50.0,
+    "password": "867676",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "وحيدة كدوسي",
+    "phone_number": "94273454",
+    "student_ids": [
+      185
+    ],
+    "unpaid_total": 50.0,
+    "password": "092083",
+    "credit_balance": 0.0,
+    "is_active": true
   }
 ]

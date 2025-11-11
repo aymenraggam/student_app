@@ -3560,5 +3560,29 @@
         "notes": ""
       }
     ]
+  },
+  {
+    "student_id": 185,
+    "payments": [
+      {
+        "period_formatted": "11/11/2025 إلى 10/12/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "student_id": 186,
+    "payments": [
+      {
+        "period_formatted": "16/10/2025 إلى 15/11/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
+      }
+    ]
   }
 ]
