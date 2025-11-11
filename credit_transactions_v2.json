@@ -1,0 +1,173 @@
+[
+  {
+    "guardian_name": "عبد العزيز",
+    "guardian_surname": "طقوقي",
+    "phone_number": "97371797",
+    "transaction_date": "2025-09-22 11:14:49",
+    "amount": 30.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "حياة",
+    "guardian_surname": "جلالي",
+    "phone_number": "99810230",
+    "transaction_date": "2025-10-14 01:59:53",
+    "amount": 180.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "حياة",
+    "guardian_surname": "جلالي",
+    "phone_number": "99810230",
+    "transaction_date": "2025-10-14 01:59:55",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: أمان الله جلالي",
+    "payment_id": 241
+  },
+  {
+    "guardian_name": "حياة",
+    "guardian_surname": "جلالي",
+    "phone_number": "99810230",
+    "transaction_date": "2025-10-14 01:59:55",
+    "amount": -100.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: أمان الله جلالي",
+    "payment_id": 380
+  },
+  {
+    "guardian_name": "ونيسة",
+    "guardian_surname": "عايدي",
+    "phone_number": "98103627",
+    "transaction_date": "2025-10-14 02:02:37",
+    "amount": 100.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "ونيسة",
+    "guardian_surname": "عايدي",
+    "phone_number": "98103627",
+    "transaction_date": "2025-10-14 02:02:39",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: يوسف سماري",
+    "payment_id": 214
+  },
+  {
+    "guardian_name": "ونيسة",
+    "guardian_surname": "عايدي",
+    "phone_number": "98103627",
+    "transaction_date": "2025-10-14 02:02:39",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: ياسين سماري",
+    "payment_id": 247
+  },
+  {
+    "guardian_name": "ونيسة",
+    "guardian_surname": "عايدي",
+    "phone_number": "98103627",
+    "transaction_date": "2025-10-14 02:02:44",
+    "amount": 200.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "ونيسة",
+    "guardian_surname": "عايدي",
+    "phone_number": "98103627",
+    "transaction_date": "2025-10-14 02:02:45",
+    "amount": -100.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: ياسين سماري",
+    "payment_id": 344
+  },
+  {
+    "guardian_name": "ونيسة",
+    "guardian_surname": "عايدي",
+    "phone_number": "98103627",
+    "transaction_date": "2025-10-14 02:02:45",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: يوسف سماري",
+    "payment_id": 450
+  },
+  {
+    "guardian_name": "ونيسة",
+    "guardian_surname": "عايدي",
+    "phone_number": "98103627",
+    "transaction_date": "2025-10-14 02:07:51",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: يوسف سماري",
+    "payment_id": 472
+  },
+  {
+    "guardian_name": "حياة",
+    "guardian_surname": "جلالي",
+    "phone_number": "99810230",
+    "transaction_date": "2025-10-24 19:06:46",
+    "amount": 180.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "حياة",
+    "guardian_surname": "جلالي",
+    "phone_number": "99810230",
+    "transaction_date": "2025-10-26 13:51:40",
+    "amount": -100.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: أمان الله جلالي",
+    "payment_id": 552
+  },
+  {
+    "guardian_name": "بسمة",
+    "guardian_surname": "عبيدي",
+    "phone_number": "99722377",
+    "transaction_date": "2025-10-29 00:15:51",
+    "amount": 50.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "بسمة",
+    "guardian_surname": "عبيدي",
+    "phone_number": "99722377",
+    "transaction_date": "2025-10-29 00:15:52",
+    "amount": -40.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: مريم صدقي",
+    "payment_id": 322
+  },
+  {
+    "guardian_name": "محمد العكرمي",
+    "guardian_surname": "صالحي",
+    "phone_number": "28889953",
+    "transaction_date": "2025-10-31 20:03:50",
+    "amount": 1.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "محمد العكرمي",
+    "guardian_surname": "صالحي",
+    "phone_number": "28889953",
+    "transaction_date": "2025-10-31 20:03:52",
+    "amount": 0.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: محمد أمين صالحي",
+    "payment_id": 604
+  },
+  {
+    "guardian_name": "محمد العكرمي",
+    "guardian_surname": "صالحي",
+    "phone_number": "28889953",
+    "transaction_date": "2025-10-31 20:03:52",
+    "amount": 0.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: محمد أمين صالحي",
+    "payment_id": 605
+  },
+  {
+    "guardian_name": "محمد العكرمي",
+    "guardian_surname": "صالحي",
+    "phone_number": "28889953",
+    "transaction_date": "2025-10-31 20:03:52",
+    "amount": 0.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: محمد أمين صالحي",
+    "payment_id": 606
+  }
+]

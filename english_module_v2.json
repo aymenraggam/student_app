@@ -1,0 +1,294 @@
+[
+  {
+    "student_ids": [
+      13,
+      14,
+      15,
+      16,
+      18,
+      56,
+      77,
+      85,
+      86,
+      87,
+      109,
+      140,
+      141,
+      156
+    ],
+    "sessions": [
+      {
+        "id": 11,
+        "session_date": "2025-11-06",
+        "lesson_title": "lesson 1",
+        "lesson_category": "Reading",
+        "lesson_notes": "",
+        "files": []
+      },
+      {
+        "id": 10,
+        "session_date": "2025-10-24",
+        "lesson_title": "reading",
+        "lesson_category": "Reading",
+        "lesson_notes": "",
+        "files": [
+          {
+            "name": "1728407851197.jpg",
+            "path": "english_session_resources\\1728407851197_20251024095008.jpg"
+          },
+          {
+            "name": "1728407853215.jpg",
+            "path": "english_session_resources\\1728407853215_20251024095012.jpg"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "session_date": "2025-10-23",
+        "lesson_title": "Introduce my self",
+        "lesson_category": "Writing",
+        "lesson_notes": "",
+        "files": []
+      },
+      {
+        "id": 8,
+        "session_date": "2025-10-16",
+        "lesson_title": "clothes + colors (2)",
+        "lesson_category": "Vocabulary",
+        "lesson_notes": "",
+        "files": []
+      },
+      {
+        "id": 6,
+        "session_date": "2025-10-14",
+        "lesson_title": "expressing likes",
+        "lesson_category": "Grammar",
+        "lesson_notes": "",
+        "files": []
+      },
+      {
+        "id": 7,
+        "session_date": "2025-10-09",
+        "lesson_title": "Family tree + nouns",
+        "lesson_category": "Vocabulary",
+        "lesson_notes": "",
+        "files": []
+      },
+      {
+        "id": 5,
+        "session_date": "2025-10-08",
+        "lesson_title": "colores + clothes (1)",
+        "lesson_category": "Vocabulary",
+        "lesson_notes": "",
+        "files": [
+          {
+            "name": "clothes.png",
+            "path": "english_session_resources\\clothes_20251008192044.png"
+          },
+          {
+            "name": "colors.jpg",
+            "path": "english_session_resources\\colors_20251008192047.jpg"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "session_date": "2025-10-02",
+        "lesson_title": "Let's have fun",
+        "lesson_category": "Vocabulary",
+        "lesson_notes": "",
+        "files": [
+          {
+            "name": "487507427_9403130296389072_8761900903152453272_n.jpg",
+            "path": "english_session_resources\\487507427_9403130296389072_8761900903152453272_n_20251002152403.jpg"
+          },
+          {
+            "name": "487813812_9403130166389085_1795263851659675748_n.jpg",
+            "path": "english_session_resources\\487813812_9403130166389085_1795263851659675748_n_20251002152428.jpg"
+          },
+          {
+            "name": "488601687_9403130543055714_1850553219459594129_n.jpg",
+            "path": "english_session_resources\\488601687_9403130543055714_1850553219459594129_n_20251002152413.jpg"
+          },
+          {
+            "name": "488615999_9403130353055733_3955571640970881839_n.jpg",
+            "path": "english_session_resources\\488615999_9403130353055733_3955571640970881839_n_20251002152420.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "session_date": "2025-10-01",
+        "lesson_title": "Introducing other",
+        "lesson_category": "Vocabulary",
+        "lesson_notes": "",
+        "files": []
+      },
+      {
+        "id": 2,
+        "session_date": "2025-09-01",
+        "lesson_title": "Aux + verbs + nouns",
+        "lesson_category": "Vocabulary",
+        "lesson_notes": "",
+        "files": [
+          {
+            "name": "maxresdefault.jpg",
+            "path": "english_session_resources\\maxresdefault_20250901165842.jpg"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "session_date": "2025-08-25",
+        "lesson_title": "Basic Review",
+        "lesson_category": "General Revision",
+        "lesson_notes": "1/- How to inroduce my self\n2/- English numbres\n3/- Personal Pronouns",
+        "files": [
+          {
+            "name": "How to intoduce my self.jpg",
+            "path": "english_session_resources\\How to intoduce my self_20250827224138.jpg"
+          },
+          {
+            "name": "numbers2.png",
+            "path": "english_session_resources\\numbers2_20250827223213.png"
+          },
+          {
+            "name": "pronouns-in-arabic.jpg",
+            "path": "english_session_resources\\pronouns-in-arabic_20250827223220.jpg"
+          }
+        ]
+      }
+    ],
+    "attendance": {
+      "1": [
+        56,
+        15,
+        77,
+        16,
+        14,
+        86,
+        85,
+        18,
+        87,
+        13
+      ],
+      "2": [
+        56,
+        15,
+        77,
+        16,
+        14,
+        87,
+        18
+      ],
+      "3": [
+        86,
+        85
+      ],
+      "4": [
+        140,
+        109,
+        18
+      ],
+      "5": [
+        86,
+        85
+      ],
+      "6": [
+        16,
+        18
+      ],
+      "8": [
+        56,
+        156,
+        77,
+        87,
+        13
+      ],
+      "7": [
+        56,
+        156,
+        77,
+        14,
+        87,
+        13
+      ],
+      "9": [
+        56,
+        156,
+        77,
+        14,
+        87
+      ],
+      "10": [
+        16,
+        18
+      ],
+      "11": [
+        56,
+        77,
+        14,
+        87,
+        13
+      ]
+    },
+    "payments": [
+      {
+        "id": 1,
+        "student_id": 18,
+        "payment_date": "2025-10-14",
+        "amount": 15.0,
+        "status": "غير خالص",
+        "attendance_trigger_count": 4
+      },
+      {
+        "id": 2,
+        "student_id": 56,
+        "payment_date": "2025-10-16",
+        "amount": 15.0,
+        "status": "غير خالص",
+        "attendance_trigger_count": 4
+      },
+      {
+        "id": 3,
+        "student_id": 77,
+        "payment_date": "2025-10-16",
+        "amount": 15.0,
+        "status": "غير خالص",
+        "attendance_trigger_count": 4
+      },
+      {
+        "id": 4,
+        "student_id": 87,
+        "payment_date": "2025-10-16",
+        "amount": 15.0,
+        "status": "خالص",
+        "attendance_trigger_count": 4
+      },
+      {
+        "id": 5,
+        "student_id": 14,
+        "payment_date": "2025-10-23",
+        "amount": 15.0,
+        "status": "غير خالص",
+        "attendance_trigger_count": 4
+      },
+      {
+        "id": 6,
+        "student_id": 16,
+        "payment_date": "2025-10-24",
+        "amount": 15.0,
+        "status": "غير خالص",
+        "attendance_trigger_count": 4
+      },
+      {
+        "id": 7,
+        "student_id": 13,
+        "payment_date": "2025-11-06",
+        "amount": 15.0,
+        "status": "غير خالص",
+        "attendance_trigger_count": 4
+      }
+    ]
+  }
+]
