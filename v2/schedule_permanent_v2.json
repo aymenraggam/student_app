@@ -38,6 +38,45 @@
     "id": 76,
     "day_of_week": "الأحد",
     "time_slot": "10:00 - 12:00",
+    "educational_level": "9 أساسي",
+    "class_type": "general",
+    "student_ids": [
+      41,
+      57,
+      58,
+      60,
+      61,
+      96,
+      120,
+      129,
+      130,
+      135,
+      147,
+      148,
+      149,
+      159,
+      160,
+      163,
+      170,
+      176
+    ],
+    "is_makeup": false
+  },
+  {
+    "id": 36,
+    "day_of_week": "الأحد",
+    "time_slot": "13:00 - 15:00",
+    "educational_level": "8 أساسي",
+    "class_type": "private",
+    "student_ids": [
+      50
+    ],
+    "is_makeup": false
+  },
+  {
+    "id": 77,
+    "day_of_week": "الأحد",
+    "time_slot": "15:00 - 17:00",
     "educational_level": "8 أساسي",
     "class_type": "general",
     "student_ids": [
@@ -70,37 +109,9 @@
     "is_makeup": false
   },
   {
-    "id": 36,
+    "id": 78,
     "day_of_week": "الأحد",
-    "time_slot": "13:00 - 15:00",
-    "educational_level": "9 أساسي",
-    "class_type": "general",
-    "student_ids": [
-      41,
-      57,
-      58,
-      60,
-      61,
-      96,
-      120,
-      129,
-      130,
-      135,
-      147,
-      148,
-      149,
-      159,
-      160,
-      163,
-      170,
-      176
-    ],
-    "is_makeup": false
-  },
-  {
-    "id": 62,
-    "day_of_week": "الأحد",
-    "time_slot": "19:00 - 21:00",
+    "time_slot": "17:00 - 19:00",
     "educational_level": "2 ث علوم",
     "class_type": "general",
     "student_ids": [
@@ -250,15 +261,6 @@
     "is_makeup": false
   },
   {
-    "id": 70,
-    "day_of_week": "الجمعة",
-    "time_slot": "08:00 - 10:00",
-    "educational_level": "مجموعة إنجليزية",
-    "class_type": "english",
-    "student_ids": [],
-    "is_makeup": false
-  },
-  {
     "id": 34,
     "day_of_week": "الجمعة",
     "time_slot": "13:00 - 15:00",
@@ -395,15 +397,6 @@
       168,
       169
     ],
-    "is_makeup": false
-  },
-  {
-    "id": 71,
-    "day_of_week": "الخميس",
-    "time_slot": "15:00 - 17:00",
-    "educational_level": "مجموعة إنجليزية",
-    "class_type": "english",
-    "student_ids": [],
     "is_makeup": false
   },
   {

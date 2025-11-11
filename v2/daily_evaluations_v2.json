@@ -120,6 +120,16 @@
     "notes": ""
   },
   {
+    "student_id": 50,
+    "date": "2025-11-11",
+    "subject": "حصة الثلاثاء",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
     "student_id": 19,
     "date": "2025-11-09",
     "subject": "حصة الأحد",

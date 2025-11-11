@@ -2912,7 +2912,7 @@
     "phone_number": "90730836",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 40.0,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-10-25",
       "2025-10-30"
@@ -2920,7 +2920,7 @@
     "unpaid_periods": [
       {
         "period": "26/10/2025 إلى 25/11/2025",
-        "amount": 40.0
+        "amount": 100.0
       }
     ],
     "notes": ""
