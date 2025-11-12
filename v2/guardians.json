@@ -6,7 +6,7 @@
       74,
       184
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 250.0,
     "password": "261332",
     "credit_balance": 0.0,
     "is_active": true
@@ -18,7 +18,7 @@
       72,
       167
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 200.0,
     "password": "355130",
     "credit_balance": 0.0,
     "is_active": true
@@ -108,7 +108,7 @@
     "student_ids": [
       71
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "366830",
     "credit_balance": 0.0,
     "is_active": true
@@ -155,7 +155,7 @@
     "student_ids": [
       95
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "password": "173674",
     "credit_balance": 0.0,
     "is_active": true
@@ -362,9 +362,10 @@
     "phone_number": "22438703",
     "student_ids": [
       142,
-      146
+      146,
+      188
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "987471",
     "credit_balance": 0.0,
     "is_active": true
@@ -681,9 +682,10 @@
     "guardian_full_name": "عواطف اللاحق",
     "phone_number": "96285990",
     "student_ids": [
-      174
+      174,
+      187
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "438725",
     "credit_balance": 0.0,
     "is_active": true
@@ -716,7 +718,7 @@
     "student_ids": [
       73
     ],
-    "unpaid_total": 80.0,
+    "unpaid_total": 120.0,
     "password": "229883",
     "credit_balance": 0.0,
     "is_active": true
@@ -1296,6 +1298,18 @@
     ],
     "unpaid_total": 50.0,
     "password": "092083",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "القادري جلالي",
+    "phone_number": "24333553",
+    "student_ids": [
+      189,
+      190
+    ],
+    "unpaid_total": 100.0,
+    "password": "821734",
     "credit_balance": 0.0,
     "is_active": true
   }
