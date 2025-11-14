@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 4570.0,
+    "total_overdue_unpaid_amount": 4440.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -103,12 +103,6 @@
         "student_name": "إياد سلطاني",
         "period": "09/09/2025 إلى 08/10/2025",
         "amount": 50.0
-      },
-      {
-        "student_id": 58,
-        "student_name": "مريم قادري",
-        "period": "09/09/2025 إلى 08/10/2025",
-        "amount": 40.0
       },
       {
         "student_id": 72,
@@ -279,12 +273,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 25,
-        "student_name": "رؤى قادري",
-        "period": "26/09/2025 إلى 25/10/2025",
-        "amount": 40.0
-      },
-      {
         "student_id": 120,
         "student_name": "سلمى عبد اللاوي",
         "period": "26/09/2025 إلى 25/10/2025",
@@ -327,12 +315,6 @@
         "amount": 30.0
       },
       {
-        "student_id": 138,
-        "student_name": "برهان عبيدي",
-        "period": "30/09/2025 إلى 29/10/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 40,
         "student_name": "جهاد كحولي",
         "period": "01/10/2025 إلى 31/10/2025",
@@ -361,12 +343,6 @@
         "student_name": "عائشة جلالي",
         "period": "03/10/2025 إلى 02/11/2025",
         "amount": 30.0
-      },
-      {
-        "student_id": 23,
-        "student_name": "تقوى شرف الدين",
-        "period": "03/10/2025 إلى 02/11/2025",
-        "amount": 50.0
       },
       {
         "student_id": 94,
@@ -504,6 +480,12 @@
         "student_id": 160,
         "student_name": "محمد أمين كدوسي",
         "period": "10/10/2025 إلى 09/11/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 161,
+        "student_name": "إسلام كحلي",
+        "period": "14/10/2025 إلى 13/11/2025",
         "amount": 50.0
       },
       {
