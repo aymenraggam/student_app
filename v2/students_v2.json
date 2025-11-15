@@ -40,7 +40,8 @@
       "2025-10-03",
       "2025-10-24",
       "2025-10-30",
-      "2025-11-14"
+      "2025-11-14",
+      "2025-11-15"
     ],
     "unpaid_periods": [
       {
@@ -1878,7 +1879,8 @@
       "2025-10-03",
       "2025-10-18",
       "2025-10-24",
-      "2025-10-30"
+      "2025-10-30",
+      "2025-11-15"
     ],
     "unpaid_periods": [
       {
@@ -2130,7 +2132,8 @@
       "2025-10-30",
       "2025-10-31",
       "2025-11-01",
-      "2025-11-14"
+      "2025-11-14",
+      "2025-11-15"
     ],
     "unpaid_periods": [
       {
@@ -2251,7 +2254,9 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-11-15"
+    ],
     "unpaid_periods": [
       {
         "period": "11/11/2025 إلى 10/12/2025",
@@ -2649,7 +2654,7 @@
     "phone_number": "97898866",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [
       "2025-10-25",
       "2025-10-30",
@@ -2659,10 +2664,6 @@
       "2025-11-14"
     ],
     "unpaid_periods": [
-      {
-        "period": "03/10/2025 إلى 02/11/2025",
-        "amount": 50.0
-      },
       {
         "period": "03/11/2025 إلى 02/12/2025",
         "amount": 50.0
@@ -2685,7 +2686,8 @@
     "absence_count": [
       "2025-10-30",
       "2025-11-11",
-      "2025-11-13"
+      "2025-11-13",
+      "2025-11-15"
     ],
     "unpaid_periods": [
       {
@@ -2813,7 +2815,8 @@
       "2025-09-28",
       "2025-10-02",
       "2025-10-25",
-      "2025-10-31"
+      "2025-10-31",
+      "2025-11-15"
     ],
     "unpaid_periods": [
       {
@@ -3172,7 +3175,7 @@
     "phone_number": "98680027",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [
       "2025-10-25",
       "2025-10-30",
@@ -3182,10 +3185,6 @@
       "2025-11-14"
     ],
     "unpaid_periods": [
-      {
-        "period": "03/10/2025 إلى 02/11/2025",
-        "amount": 50.0
-      },
       {
         "period": "03/11/2025 إلى 02/12/2025",
         "amount": 50.0
@@ -3236,7 +3235,8 @@
       "2025-10-31",
       "2025-11-01",
       "2025-11-09",
-      "2025-11-14"
+      "2025-11-14",
+      "2025-11-15"
     ],
     "unpaid_periods": [
       {
@@ -3440,13 +3440,9 @@
     "phone_number": "92451382",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 60.0,
+    "unpaid_total": 30.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "15/10/2025 إلى 14/11/2025",
-        "amount": 30.0
-      },
       {
         "period": "15/11/2025 إلى 14/12/2025",
         "amount": 30.0
@@ -3497,14 +3493,9 @@
     "phone_number": "92451382",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 30.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "25/10/2025 إلى 24/11/2025",
-        "amount": 30.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -3782,7 +3773,9 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-11-15"
+    ],
     "unpaid_periods": [
       {
         "period": "16/10/2025 إلى 15/11/2025",
