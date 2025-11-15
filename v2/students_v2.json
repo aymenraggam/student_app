@@ -963,7 +963,8 @@
     "unpaid_total": 50.0,
     "absence_count": [
       "2025-11-01",
-      "2025-11-09"
+      "2025-11-09",
+      "2025-11-15"
     ],
     "unpaid_periods": [
       {
@@ -2626,7 +2627,9 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 40.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-11-15"
+    ],
     "unpaid_periods": [
       {
         "period": "17/10/2025 إلى 16/11/2025",
@@ -2732,16 +2735,12 @@
     "phone_number": "99217475",
     "payment_generation_status": "active",
     "payment_count": 4,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [
       "2025-10-31",
       "2025-11-01"
     ],
     "unpaid_periods": [
-      {
-        "period": "08/10/2025 إلى 07/11/2025",
-        "amount": 50.0
-      },
       {
         "period": "08/11/2025 إلى 07/12/2025",
         "amount": 50.0
@@ -2764,7 +2763,8 @@
     "absence_count": [
       "2025-11-08",
       "2025-11-09",
-      "2025-11-14"
+      "2025-11-14",
+      "2025-11-15"
     ],
     "unpaid_periods": [
       {
@@ -2885,7 +2885,9 @@
     "payment_generation_status": "active",
     "payment_count": 3,
     "unpaid_total": 40.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-11-15"
+    ],
     "unpaid_periods": [
       {
         "period": "25/10/2025 إلى 24/11/2025",
@@ -2932,7 +2934,8 @@
     "absence_count": [
       "2025-11-01",
       "2025-11-07",
-      "2025-11-08"
+      "2025-11-08",
+      "2025-11-15"
     ],
     "unpaid_periods": [
       {
@@ -3436,12 +3439,16 @@
     "guardian_full_name": "حنان كدوسي",
     "phone_number": "92451382",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 30.0,
+    "payment_count": 3,
+    "unpaid_total": 60.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "15/10/2025 إلى 14/11/2025",
+        "amount": 30.0
+      },
+      {
+        "period": "15/11/2025 إلى 14/12/2025",
         "amount": 30.0
       }
     ],
@@ -3455,7 +3462,7 @@
     "institution": "المدرسة الاعدادية بالرقاب",
     "entry_date": "2025-10-04",
     "guardian_full_name": "حورية كدوسي",
-    "phone_number": "96820115",
+    "phone_number": "92820115",
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 100.0,
