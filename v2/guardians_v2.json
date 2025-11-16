@@ -3,10 +3,9 @@
     "guardian_full_name": "أحلام كحلي",
     "phone_number": "52446848",
     "student_ids": [
-      74,
-      184
+      74
     ],
-    "unpaid_total": 250.0,
+    "unpaid_total": 200.0,
     "password": "261332",
     "credit_balance": 0.0,
     "is_active": true
@@ -387,7 +386,7 @@
     "student_ids": [
       153
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "448887",
     "credit_balance": 0.0,
     "is_active": true
@@ -420,7 +419,7 @@
     "student_ids": [
       97
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "125816",
     "credit_balance": 0.0,
     "is_active": true
@@ -834,7 +833,7 @@
       137,
       180
     ],
-    "unpaid_total": 190.0,
+    "unpaid_total": 150.0,
     "password": "135852",
     "credit_balance": 0.0,
     "is_active": true
@@ -1274,7 +1273,7 @@
     "student_ids": [
       186
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "867676",
     "credit_balance": 0.0,
     "is_active": true

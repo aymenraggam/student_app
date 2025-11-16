@@ -41,7 +41,8 @@
       "2025-10-24",
       "2025-10-30",
       "2025-11-14",
-      "2025-11-15"
+      "2025-11-15",
+      "2025-11-16"
     ],
     "unpaid_periods": [
       {
@@ -196,13 +197,9 @@
     "phone_number": "98374485",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 80.0,
+    "unpaid_total": 40.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "27/09/2025 إلى 26/10/2025",
-        "amount": 40.0
-      },
       {
         "period": "27/10/2025 إلى 26/11/2025",
         "amount": 40.0
@@ -319,7 +316,7 @@
     "phone_number": "55230177",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [
       "2025-10-19",
       "2025-10-25",
@@ -329,10 +326,6 @@
       "2025-11-11"
     ],
     "unpaid_periods": [
-      {
-        "period": "02/10/2025 إلى 01/11/2025",
-        "amount": 50.0
-      },
       {
         "period": "02/11/2025 إلى 01/12/2025",
         "amount": 50.0
@@ -1756,7 +1749,8 @@
     "unpaid_total": 50.0,
     "absence_count": [
       "2025-11-01",
-      "2025-11-09"
+      "2025-11-09",
+      "2025-11-16"
     ],
     "unpaid_periods": [
       {
@@ -1880,7 +1874,8 @@
       "2025-10-18",
       "2025-10-24",
       "2025-10-30",
-      "2025-11-15"
+      "2025-11-15",
+      "2025-11-16"
     ],
     "unpaid_periods": [
       {
@@ -2133,7 +2128,8 @@
       "2025-10-31",
       "2025-11-01",
       "2025-11-14",
-      "2025-11-15"
+      "2025-11-15",
+      "2025-11-16"
     ],
     "unpaid_periods": [
       {
@@ -2333,7 +2329,8 @@
     "absence_count": [
       "2025-10-25",
       "2025-10-31",
-      "2025-11-07"
+      "2025-11-07",
+      "2025-11-16"
     ],
     "unpaid_periods": [
       {
@@ -2751,32 +2748,6 @@
     "notes": ""
   },
   {
-    "id": 184,
-    "name": "ميار",
-    "surname": "عيوني",
-    "educational_level": "7 أساسي",
-    "institution": "المدرسة الاعدادية بالرقاب",
-    "entry_date": "2025-11-07",
-    "guardian_full_name": "أحلام كحلي",
-    "phone_number": "52446848",
-    "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
-    "absence_count": [
-      "2025-11-08",
-      "2025-11-09",
-      "2025-11-14",
-      "2025-11-15"
-    ],
-    "unpaid_periods": [
-      {
-        "period": "07/11/2025 إلى 06/12/2025",
-        "amount": 50.0
-      }
-    ],
-    "notes": ""
-  },
-  {
     "id": 183,
     "name": "يوسف",
     "surname": "عيوني",
@@ -3099,7 +3070,8 @@
     "payment_count": 4,
     "unpaid_total": 80.0,
     "absence_count": [
-      "2025-10-24"
+      "2025-10-24",
+      "2025-11-16"
     ],
     "unpaid_periods": [
       {
@@ -3182,7 +3154,8 @@
       "2025-10-31",
       "2025-11-01",
       "2025-11-09",
-      "2025-11-14"
+      "2025-11-14",
+      "2025-11-16"
     ],
     "unpaid_periods": [
       {
@@ -3236,7 +3209,8 @@
       "2025-11-01",
       "2025-11-09",
       "2025-11-14",
-      "2025-11-15"
+      "2025-11-15",
+      "2025-11-16"
     ],
     "unpaid_periods": [
       {
@@ -3418,12 +3392,16 @@
     "guardian_full_name": "سناء كداشي",
     "phone_number": "25790709",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 50.0,
+    "payment_count": 3,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "16/10/2025 إلى 15/11/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "16/11/2025 إلى 15/12/2025",
         "amount": 50.0
       }
     ],
@@ -3534,7 +3512,8 @@
     "absence_count": [
       "2025-10-18",
       "2025-10-30",
-      "2025-11-09"
+      "2025-11-09",
+      "2025-11-16"
     ],
     "unpaid_periods": [
       {
@@ -3699,7 +3678,8 @@
     "unpaid_total": 100.0,
     "absence_count": [
       "2025-10-25",
-      "2025-10-31"
+      "2025-10-31",
+      "2025-11-16"
     ],
     "unpaid_periods": [
       {
@@ -3771,14 +3751,18 @@
     "guardian_full_name": "مبارك ميساوي",
     "phone_number": "99744475",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-11-15"
     ],
     "unpaid_periods": [
       {
         "period": "16/10/2025 إلى 15/11/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "16/11/2025 إلى 15/12/2025",
         "amount": 50.0
       }
     ],
