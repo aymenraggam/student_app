@@ -2265,6 +2265,27 @@
     "notes": "مشارك في القسم، جدي في العمل، عمله منظم ومتقن"
   },
   {
+    "id": 191,
+    "name": "محمد أمين",
+    "surname": "عبدلي",
+    "educational_level": "2 ث اقتصاد",
+    "institution": "المعهد الثانوي بالرقاب",
+    "entry_date": "2025-11-19",
+    "guardian_full_name": "حمادي عبدلي",
+    "phone_number": "97915241",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 30.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "19/11/2025 إلى 18/12/2025",
+        "amount": 30.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 185,
     "name": "هديل",
     "surname": "عبدلي",

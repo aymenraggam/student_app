@@ -1277,5 +1277,16 @@
     "password": "809316",
     "credit_balance": 0.0,
     "is_active": true
+  },
+  {
+    "guardian_full_name": "حمادي عبدلي",
+    "phone_number": "97915241",
+    "student_ids": [
+      191
+    ],
+    "unpaid_total": 30.0,
+    "password": "113998",
+    "credit_balance": 0.0,
+    "is_active": true
   }
 ]
