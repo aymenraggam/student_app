@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 4300.0,
+    "total_overdue_unpaid_amount": 4790.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -477,6 +477,60 @@
         "amount": 50.0
       },
       {
+        "student_id": 81,
+        "student_name": "مرام قادري",
+        "period": "17/10/2025 إلى 16/11/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 165,
+        "student_name": "مهيب قادري",
+        "period": "17/10/2025 إلى 16/11/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 101,
+        "student_name": "مريم صدقي",
+        "period": "18/10/2025 إلى 17/11/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 84,
+        "student_name": "أمل طقوقي",
+        "period": "19/10/2025 إلى 18/11/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 85,
+        "student_name": "أيوب طقوقي",
+        "period": "19/10/2025 إلى 18/11/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 86,
+        "student_name": "آدم طقوقي",
+        "period": "19/10/2025 إلى 18/11/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 98,
+        "student_name": "أيهم عيادي",
+        "period": "19/10/2025 إلى 18/11/2025",
+        "amount": 100.0
+      },
+      {
+        "student_id": 166,
+        "student_name": "علي عيوني",
+        "period": "19/10/2025 إلى 18/11/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 167,
+        "student_name": "أيهم خليفي",
+        "period": "19/10/2025 إلى 18/11/2025",
+        "amount": 50.0
+      },
+      {
         "student_id": 3,
         "student_name": "أميرة مسعودي",
         "period": "01/10/2025 إلى 31/10/2025",
@@ -565,6 +619,12 @@
         "student_name": "أحمد صدقي",
         "period": "01/10/2025 إلى 31/10/2025",
         "amount": 30.0
+      },
+      {
+        "student_id": 179,
+        "student_name": "أريج عيوني",
+        "period": "17/10/2025 إلى 16/11/2025",
+        "amount": 40.0
       },
       {
         "student_id": 186,

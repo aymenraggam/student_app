@@ -211,6 +211,18 @@
     "is_makeup": false
   },
   {
+    "id": 80,
+    "day_of_week": "الإثنين",
+    "time_slot": "21:00 - 23:00",
+    "educational_level": "2 ث اقتصاد",
+    "class_type": "private",
+    "student_ids": [
+      180,
+      182
+    ],
+    "is_makeup": false
+  },
+  {
     "id": 73,
     "day_of_week": "الثلاثاء",
     "time_slot": "17:00 - 19:00",
@@ -373,18 +385,6 @@
       154,
       171,
       181
-    ],
-    "is_makeup": false
-  },
-  {
-    "id": 74,
-    "day_of_week": "الجمعة",
-    "time_slot": "21:00 - 23:00",
-    "educational_level": "2 ث اقتصاد",
-    "class_type": "private",
-    "student_ids": [
-      180,
-      182
     ],
     "is_makeup": false
   },
