@@ -17,7 +17,7 @@
       72,
       167
     ],
-    "unpaid_total": 250.0,
+    "unpaid_total": 150.0,
     "password": "355130",
     "credit_balance": 0.0,
     "is_active": true
@@ -828,17 +828,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "محسن قادري",
-    "phone_number": "9733904",
-    "student_ids": [
-      165
-    ],
-    "unpaid_total": 100.0,
-    "password": "943673",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "محمد ضيفي",
     "phone_number": "21505445",
     "student_ids": [
@@ -1309,6 +1298,17 @@
     ],
     "unpaid_total": 30.0,
     "password": "505041",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "محسن قادري",
+    "phone_number": "97339704",
+    "student_ids": [
+      165
+    ],
+    "unpaid_total": 100.0,
+    "password": "178658",
     "credit_balance": 0.0,
     "is_active": true
   }

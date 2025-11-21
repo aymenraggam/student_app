@@ -1724,16 +1724,16 @@
       },
       {
         "period_formatted": "13/09/2025 إلى 12/10/2025",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 50.0,
-        "received_date": null,
+        "received_date": "2025-11-21",
         "notes": ""
       },
       {
         "period_formatted": "13/10/2025 إلى 12/11/2025",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 50.0,
-        "received_date": null,
+        "received_date": "2025-11-21",
         "notes": ""
       },
       {

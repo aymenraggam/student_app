@@ -1006,17 +1006,9 @@
     "phone_number": "29069649",
     "payment_generation_status": "active",
     "payment_count": 4,
-    "unpaid_total": 150.0,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "13/09/2025 إلى 12/10/2025",
-        "amount": 50.0
-      },
-      {
-        "period": "13/10/2025 إلى 12/11/2025",
-        "amount": 50.0
-      },
       {
         "period": "13/11/2025 إلى 12/12/2025",
         "amount": 50.0
@@ -3206,7 +3198,7 @@
     "institution": "المدرسة الاعدادية بالرقاب",
     "entry_date": "2025-10-17",
     "guardian_full_name": "محسن قادري",
-    "phone_number": "9733904",
+    "phone_number": "97339704",
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 100.0,
