@@ -169,5 +169,14 @@
     "amount": 0.0,
     "notes": "خلاص دفعة (عادية) للتلميذ: محمد أمين صالحي",
     "payment_id": 606
+  },
+  {
+    "guardian_name": "محمد العكرمي",
+    "guardian_surname": "صالحي",
+    "phone_number": "28889953",
+    "transaction_date": "2025-11-20 10:32:15",
+    "amount": 0.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: محمد أمين صالحي",
+    "payment_id": 687
   }
 ]

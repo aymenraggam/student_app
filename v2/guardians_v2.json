@@ -191,7 +191,7 @@
     "student_ids": [
       159
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "874837",
     "credit_balance": 0.0,
     "is_active": true
@@ -487,7 +487,7 @@
       16,
       35
     ],
-    "unpaid_total": 80.0,
+    "unpaid_total": 0.0,
     "password": "752567",
     "credit_balance": 0.0,
     "is_active": true
@@ -725,9 +725,10 @@
     "guardian_full_name": "كوثر عباسي",
     "phone_number": "96520851",
     "student_ids": [
-      110
+      110,
+      194
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "495765",
     "credit_balance": 0.0,
     "is_active": true
@@ -843,7 +844,7 @@
     "student_ids": [
       100
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "013240",
     "credit_balance": 0.0,
     "is_active": true
@@ -1038,7 +1039,7 @@
       3,
       19
     ],
-    "unpaid_total": 300.0,
+    "unpaid_total": 100.0,
     "password": "414757",
     "credit_balance": 0.0,
     "is_active": true
@@ -1286,6 +1287,28 @@
     ],
     "unpaid_total": 30.0,
     "password": "113998",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "راضية جلالي",
+    "phone_number": "00000000",
+    "student_ids": [
+      193
+    ],
+    "unpaid_total": 50.0,
+    "password": "433858",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "محمد الصغير منور",
+    "phone_number": "96187349",
+    "student_ids": [
+      192
+    ],
+    "unpaid_total": 30.0,
+    "password": "505041",
     "credit_balance": 0.0,
     "is_active": true
   }
