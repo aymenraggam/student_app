@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 4590.0,
+    "total_overdue_unpaid_amount": 4820.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -429,12 +429,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 160,
-        "student_name": "محمد أمين كدوسي",
-        "period": "10/10/2025 إلى 09/11/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 161,
         "student_name": "إسلام كحلي",
         "period": "14/10/2025 إلى 13/11/2025",
@@ -461,12 +455,6 @@
       {
         "student_id": 81,
         "student_name": "مرام قادري",
-        "period": "17/10/2025 إلى 16/11/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 165,
-        "student_name": "مهيب قادري",
         "period": "17/10/2025 إلى 16/11/2025",
         "amount": 50.0
       },
@@ -529,6 +517,30 @@
         "student_name": "سامح جابلي",
         "period": "09/10/2025 إلى 08/11/2025",
         "amount": 100.0
+      },
+      {
+        "student_id": 90,
+        "student_name": "لينا عبيدي",
+        "period": "22/10/2025 إلى 21/11/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 102,
+        "student_name": "إلينا مسعودي",
+        "period": "22/10/2025 إلى 21/11/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 168,
+        "student_name": "احلام قادري",
+        "period": "22/10/2025 إلى 21/11/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 169,
+        "student_name": "شروق بوكدوس",
+        "period": "22/10/2025 إلى 21/11/2025",
+        "amount": 30.0
       },
       {
         "student_id": 1,
@@ -601,6 +613,18 @@
         "student_name": "أحمد صدقي",
         "period": "01/10/2025 إلى 31/10/2025",
         "amount": 30.0
+      },
+      {
+        "student_id": 8,
+        "student_name": "أمان جلالي",
+        "period": "22/10/2025 إلى 21/11/2025",
+        "amount": 100.0
+      },
+      {
+        "student_id": 2,
+        "student_name": "مسرّة جلالي",
+        "period": "22/10/2025 إلى 21/11/2025",
+        "amount": 70.0
       },
       {
         "student_id": 179,
