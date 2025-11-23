@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 5090.0,
+    "total_overdue_unpaid_amount": 4990.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -499,12 +499,6 @@
         "student_name": "ميسم مسعودي",
         "period": "01/10/2025 إلى 31/10/2025",
         "amount": 40.0
-      },
-      {
-        "student_id": 62,
-        "student_name": "سامح جابلي",
-        "period": "09/10/2025 إلى 08/11/2025",
-        "amount": 100.0
       },
       {
         "student_id": 90,

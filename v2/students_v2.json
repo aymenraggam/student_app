@@ -359,13 +359,9 @@
     "phone_number": "97483694",
     "payment_generation_status": "active",
     "payment_count": 4,
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "09/10/2025 إلى 08/11/2025",
-        "amount": 100.0
-      },
       {
         "period": "22/11/2025 إلى 21/12/2025",
         "amount": 100.0
