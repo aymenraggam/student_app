@@ -178,5 +178,50 @@
     "amount": 0.0,
     "notes": "خلاص دفعة (عادية) للتلميذ: محمد أمين صالحي",
     "payment_id": 687
+  },
+  {
+    "guardian_name": "حياة",
+    "guardian_surname": "جلالي",
+    "phone_number": "99810230",
+    "transaction_date": "2025-11-24 16:20:13",
+    "amount": 180.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "هاجر",
+    "guardian_surname": "بوعلافي",
+    "phone_number": "94939646",
+    "transaction_date": "2025-11-25 14:18:29",
+    "amount": 40.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "هاجر",
+    "guardian_surname": "بوعلافي",
+    "phone_number": "94939646",
+    "transaction_date": "2025-11-25 14:18:38",
+    "amount": 90.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "هاجر",
+    "guardian_surname": "بوعلافي",
+    "phone_number": "94939646",
+    "transaction_date": "2025-11-25 14:18:40",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: أسامة بوعلاقي",
+    "payment_id": 13
+  },
+  {
+    "guardian_name": "هاجر",
+    "guardian_surname": "بوعلافي",
+    "phone_number": "94939646",
+    "transaction_date": "2025-11-25 14:18:40",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: أسامة بوعلاقي",
+    "payment_id": 14
   }
 ]
