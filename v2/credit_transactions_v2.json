@@ -223,5 +223,14 @@
     "amount": -50.0,
     "notes": "خلاص دفعة (عادية) للتلميذ: أسامة بوعلاقي",
     "payment_id": 14
+  },
+  {
+    "guardian_name": "حياة",
+    "guardian_surname": "جلالي",
+    "phone_number": "99810230",
+    "transaction_date": "2025-11-26 11:03:01",
+    "amount": -100.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: أمان الله جلالي",
+    "payment_id": 748
   }
 ]
