@@ -17,7 +17,7 @@
       72,
       167
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 100.0,
     "password": "355130",
     "credit_balance": 0.0,
     "is_active": true
@@ -129,9 +129,10 @@
     "phone_number": "99722377",
     "student_ids": [
       41,
-      101
+      101,
+      124
     ],
-    "unpaid_total": 170.0,
+    "unpaid_total": 250.0,
     "password": "241509",
     "credit_balance": 10.0,
     "is_active": true
@@ -903,7 +904,7 @@
     "student_ids": [
       39
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "196374",
     "credit_balance": 0.0,
     "is_active": true

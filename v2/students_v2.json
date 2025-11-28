@@ -153,7 +153,9 @@
     "payment_generation_status": "active",
     "payment_count": 3,
     "unpaid_total": 80.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-11-28"
+    ],
     "unpaid_periods": [
       {
         "period": "27/10/2025 إلى 26/11/2025",
@@ -929,7 +931,8 @@
     "absence_count": [
       "2025-10-04",
       "2025-11-21",
-      "2025-11-23"
+      "2025-11-23",
+      "2025-11-28"
     ],
     "unpaid_periods": [
       {
@@ -1101,14 +1104,9 @@
     "phone_number": "29069649",
     "payment_generation_status": "active",
     "payment_count": 4,
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "13/11/2025 إلى 12/12/2025",
-        "amount": 50.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -1479,7 +1477,8 @@
     "unpaid_total": 200.0,
     "absence_count": [
       "2025-10-30",
-      "2025-11-23"
+      "2025-11-23",
+      "2025-11-28"
     ],
     "unpaid_periods": [
       {
@@ -1729,7 +1728,9 @@
     "payment_generation_status": "active",
     "payment_count": 2,
     "unpaid_total": 0.0,
-    "absence_count": [],
+    "absence_count": [
+      "2025-11-28"
+    ],
     "unpaid_periods": [],
     "notes": ""
   },
@@ -2102,6 +2103,36 @@
     "notes": ""
   },
   {
+    "id": 124,
+    "name": "فاطمة",
+    "surname": "صدقي",
+    "educational_level": "8 أساسي",
+    "institution": "المدرسة الاعدادية ابن سينا",
+    "entry_date": "2025-09-26",
+    "guardian_full_name": "بسمة عبيدي",
+    "phone_number": "99722377",
+    "payment_generation_status": "active",
+    "payment_count": 2,
+    "unpaid_total": 80.0,
+    "absence_count": [
+      "2025-10-18",
+      "2025-10-25",
+      "2025-10-31",
+      "2025-11-07"
+    ],
+    "unpaid_periods": [
+      {
+        "period": "26/09/2025 إلى 25/10/2025",
+        "amount": 40.0
+      },
+      {
+        "period": "16/11/2025 إلى 15/12/2025",
+        "amount": 40.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 101,
     "name": "مريم",
     "surname": "صدقي",
@@ -2139,7 +2170,8 @@
     "payment_count": 2,
     "unpaid_total": 50.0,
     "absence_count": [
-      "2025-11-23"
+      "2025-11-23",
+      "2025-11-28"
     ],
     "unpaid_periods": [
       {
@@ -2385,7 +2417,8 @@
       "2025-11-16",
       "2025-11-21",
       "2025-11-22",
-      "2025-11-23"
+      "2025-11-23",
+      "2025-11-28"
     ],
     "unpaid_periods": [
       {
@@ -2437,7 +2470,8 @@
     "payment_count": 2,
     "unpaid_total": 40.0,
     "absence_count": [
-      "2025-11-21"
+      "2025-11-21",
+      "2025-11-28"
     ],
     "unpaid_periods": [
       {
@@ -2496,7 +2530,8 @@
       "2025-11-07",
       "2025-11-14",
       "2025-11-21",
-      "2025-11-22"
+      "2025-11-22",
+      "2025-11-28"
     ],
     "unpaid_periods": [
       {
@@ -2659,7 +2694,8 @@
       "2025-11-07",
       "2025-11-16",
       "2025-11-22",
-      "2025-11-23"
+      "2025-11-23",
+      "2025-11-28"
     ],
     "unpaid_periods": [
       {
@@ -2684,16 +2720,12 @@
     "phone_number": "29003581",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [
       "2025-10-31",
       "2025-11-01"
     ],
     "unpaid_periods": [
-      {
-        "period": "10/10/2025 إلى 09/11/2025",
-        "amount": 50.0
-      },
       {
         "period": "10/11/2025 إلى 09/12/2025",
         "amount": 50.0
@@ -3044,7 +3076,8 @@
       "2025-11-09",
       "2025-11-14",
       "2025-11-22",
-      "2025-11-23"
+      "2025-11-23",
+      "2025-11-28"
     ],
     "unpaid_periods": [
       {
@@ -3586,7 +3619,8 @@
       "2025-11-14",
       "2025-11-16",
       "2025-11-22",
-      "2025-11-23"
+      "2025-11-23",
+      "2025-11-28"
     ],
     "unpaid_periods": [
       {
@@ -3639,7 +3673,8 @@
       "2025-11-15",
       "2025-11-16",
       "2025-11-22",
-      "2025-11-23"
+      "2025-11-23",
+      "2025-11-28"
     ],
     "unpaid_periods": [
       {
@@ -4200,7 +4235,8 @@
       "2025-10-31",
       "2025-11-16",
       "2025-11-22",
-      "2025-11-23"
+      "2025-11-23",
+      "2025-11-28"
     ],
     "unpaid_periods": [
       {
