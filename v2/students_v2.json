@@ -2095,7 +2095,7 @@
         "amount": 30.0
       },
       {
-        "period": "01/10/2025 إلى 31/10/2025",
+        "period": "26/10/2025 إلى 25/11/2025",
         "amount": 30.0
       },
       {
@@ -2146,13 +2146,9 @@
     "phone_number": "99722377",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 80.0,
+    "unpaid_total": 40.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "18/10/2025 إلى 17/11/2025",
-        "amount": 40.0
-      },
       {
         "period": "18/11/2025 إلى 17/12/2025",
         "amount": 40.0
