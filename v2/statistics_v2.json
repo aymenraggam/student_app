@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 6360.0,
+    "total_overdue_unpaid_amount": 6260.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -255,12 +255,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 120,
-        "student_name": "سلمى عبد اللاوي",
-        "period": "26/09/2025 إلى 25/10/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 124,
         "student_name": "فاطمة صدقي",
         "period": "26/09/2025 إلى 25/10/2025",
@@ -465,12 +459,6 @@
         "amount": 100.0
       },
       {
-        "student_id": 167,
-        "student_name": "أيهم خليفي",
-        "period": "19/10/2025 إلى 18/11/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 100,
         "student_name": "جوري ضيفي",
         "period": "20/10/2025 إلى 19/11/2025",
@@ -511,6 +499,12 @@
         "student_name": "أيوب صالحي",
         "period": "01/10/2025 إلى 31/10/2025",
         "amount": 40.0
+      },
+      {
+        "student_id": 9,
+        "student_name": "أمل صالحي",
+        "period": "29/10/2025 إلى 28/11/2025",
+        "amount": 50.0
       },
       {
         "student_id": 10,
@@ -675,12 +669,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 24,
-        "student_name": "رنيم قادري",
-        "period": "25/10/2025 إلى 24/11/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 25,
         "student_name": "رؤى قادري",
         "period": "25/10/2025 إلى 24/11/2025",
@@ -701,12 +689,6 @@
       {
         "student_id": 116,
         "student_name": "أحمد زريبي",
-        "period": "26/10/2025 إلى 25/11/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 120,
-        "student_name": "سلمى عبد اللاوي",
         "period": "26/10/2025 إلى 25/11/2025",
         "amount": 50.0
       },
@@ -813,6 +795,12 @@
         "amount": 70.0
       },
       {
+        "student_id": 30,
+        "student_name": "يحي مسعودي",
+        "period": "29/10/2025 إلى 28/11/2025",
+        "amount": 50.0
+      },
+      {
         "student_id": 172,
         "student_name": "فارس زارعي",
         "period": "24/10/2025 إلى 23/11/2025",
@@ -837,16 +825,16 @@
         "amount": 50.0
       }
     ],
-    "total_active_students": 171,
+    "total_active_students": 173,
     "students_per_level": {
       "2 ث علوم": 7,
-      "9 أساسي": 18,
+      "9 أساسي": 19,
       "5 ابتدائي": 12,
       "4 ابتدائي": 10,
       "2 ابتدائي": 9,
       "2 ث اقتصاد": 6,
       "3 ابتدائي": 10,
-      "1 ثانوي": 19,
+      "1 ثانوي": 20,
       "8 أساسي": 26,
       "7 أساسي": 31,
       "1 ابتدائي": 10,
