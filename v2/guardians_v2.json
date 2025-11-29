@@ -28,7 +28,7 @@
     "student_ids": [
       175
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "password": "945351",
     "credit_balance": 0.0,
     "is_active": true
@@ -354,7 +354,7 @@
     "student_ids": [
       56
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "102499",
     "credit_balance": 0.0,
     "is_active": true
@@ -498,9 +498,11 @@
     "guardian_full_name": "عبد الحفيظ ضيفي",
     "phone_number": "22195709",
     "student_ids": [
-      123
+      123,
+      204,
+      205
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 250.0,
     "password": "826175",
     "credit_balance": 0.0,
     "is_active": true
@@ -983,7 +985,7 @@
       36,
       128
     ],
-    "unpaid_total": 320.0,
+    "unpaid_total": 160.0,
     "password": "632059",
     "credit_balance": 0.0,
     "is_active": true

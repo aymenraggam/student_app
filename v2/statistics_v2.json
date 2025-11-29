@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 6220.0,
+    "total_overdue_unpaid_amount": 6140.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -231,12 +231,6 @@
         "amount": 30.0
       },
       {
-        "student_id": 36,
-        "student_name": "هيثم قادري",
-        "period": "25/09/2025 إلى 24/10/2025",
-        "amount": 40.0
-      },
-      {
         "student_id": 37,
         "student_name": "ريتاج جلالي",
         "period": "25/09/2025 إلى 24/10/2025",
@@ -258,12 +252,6 @@
         "student_id": 124,
         "student_name": "فاطمة صدقي",
         "period": "26/09/2025 إلى 25/10/2025",
-        "amount": 40.0
-      },
-      {
-        "student_id": 128,
-        "student_name": "آلاء قادري",
-        "period": "27/09/2025 إلى 26/10/2025",
         "amount": 40.0
       },
       {
@@ -402,12 +390,6 @@
         "student_id": 161,
         "student_name": "إسلام كحلي",
         "period": "14/10/2025 إلى 13/11/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 56,
-        "student_name": "إلياس أم هاني",
-        "period": "08/10/2025 إلى 07/11/2025",
         "amount": 50.0
       },
       {
@@ -817,14 +799,20 @@
         "student_name": "أحمد صدقي",
         "period": "26/10/2025 إلى 25/11/2025",
         "amount": 30.0
+      },
+      {
+        "student_id": 205,
+        "student_name": "ميسان ضيفي",
+        "period": "20/10/2025 إلى 19/11/2025",
+        "amount": 50.0
       }
     ],
-    "total_active_students": 173,
+    "total_active_students": 175,
     "students_per_level": {
       "2 ث علوم": 7,
       "9 أساسي": 19,
       "5 ابتدائي": 12,
-      "4 ابتدائي": 10,
+      "4 ابتدائي": 11,
       "2 ابتدائي": 9,
       "2 ث اقتصاد": 6,
       "3 ابتدائي": 10,
@@ -832,7 +820,7 @@
       "8 أساسي": 26,
       "7 أساسي": 31,
       "1 ابتدائي": 10,
-      "6 ابتدائي": 13
+      "6 ابتدائي": 14
     }
   }
 ]
