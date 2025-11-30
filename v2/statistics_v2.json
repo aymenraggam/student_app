@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 6140.0,
+    "total_overdue_unpaid_amount": 6410.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -441,6 +441,12 @@
         "amount": 50.0
       },
       {
+        "student_id": 14,
+        "student_name": "معتصم صالحي",
+        "period": "31/10/2025 إلى 29/11/2025",
+        "amount": 50.0
+      },
+      {
         "student_id": 90,
         "student_name": "لينا عبيدي",
         "period": "22/10/2025 إلى 21/11/2025",
@@ -577,12 +583,6 @@
         "student_name": "فرح كدوسي",
         "period": "23/10/2025 إلى 22/11/2025",
         "amount": 50.0
-      },
-      {
-        "student_id": 20,
-        "student_name": "أحمد عايدي",
-        "period": "24/10/2025 إلى 23/11/2025",
-        "amount": 100.0
       },
       {
         "student_id": 109,
@@ -783,10 +783,52 @@
         "amount": 50.0
       },
       {
+        "student_id": 88,
+        "student_name": "فاطمة جلالي",
+        "period": "30/10/2025 إلى 29/11/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 138,
+        "student_name": "برهان عبيدي",
+        "period": "30/10/2025 إلى 29/11/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 139,
+        "student_name": "سجدة بوعلاقي",
+        "period": "30/10/2025 إلى 29/11/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 176,
+        "student_name": "ريتاج صالحي",
+        "period": "30/10/2025 إلى 29/11/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 177,
+        "student_name": "محمد الهادي عمري",
+        "period": "30/10/2025 إلى 29/11/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 178,
+        "student_name": "عمر عمري",
+        "period": "30/10/2025 إلى 29/11/2025",
+        "amount": 50.0
+      },
+      {
         "student_id": 179,
         "student_name": "أريج عيوني",
         "period": "17/10/2025 إلى 16/11/2025",
         "amount": 40.0
+      },
+      {
+        "student_id": 180,
+        "student_name": "لؤي بلقاسم",
+        "period": "31/10/2025 إلى 29/11/2025",
+        "amount": 30.0
       },
       {
         "student_id": 186,
