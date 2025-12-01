@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 6480.0,
+    "total_overdue_unpaid_amount": 6440.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -795,12 +795,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 179,
-        "student_name": "أريج عيوني",
-        "period": "17/10/2025 إلى 16/11/2025",
-        "amount": 40.0
-      },
-      {
         "student_id": 180,
         "student_name": "لؤي بلقاسم",
         "period": "31/10/2025 إلى 29/11/2025",
@@ -855,7 +849,7 @@
         "amount": 50.0
       }
     ],
-    "total_active_students": 176,
+    "total_active_students": 177,
     "students_per_level": {
       "2 ث علوم": 7,
       "9 أساسي": 19,
@@ -868,7 +862,7 @@
       "8 أساسي": 26,
       "7 أساسي": 31,
       "1 ابتدائي": 10,
-      "6 ابتدائي": 14
+      "6 ابتدائي": 15
     }
   }
 ]
