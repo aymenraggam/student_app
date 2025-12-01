@@ -161,7 +161,7 @@
     "id": 81,
     "day_of_week": "الأربعاء",
     "time_slot": "17:00 - 19:00",
-    "educational_level": "6 ابتدائي",
+    "educational_level": "6 أساسي",
     "class_type": "private",
     "student_ids": [
       208
@@ -199,7 +199,7 @@
     "id": 63,
     "day_of_week": "الإثنين",
     "time_slot": "17:00 - 19:00",
-    "educational_level": "6 ابتدائي",
+    "educational_level": "6 أساسي",
     "class_type": "private",
     "student_ids": [
       208
