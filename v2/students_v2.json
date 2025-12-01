@@ -153,13 +153,9 @@
     "phone_number": "98374485",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 80.0,
+    "unpaid_total": 40.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "27/10/2025 إلى 26/11/2025",
-        "amount": 40.0
-      },
       {
         "period": "27/11/2025 إلى 26/12/2025",
         "amount": 40.0
@@ -178,13 +174,9 @@
     "phone_number": "98374485",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 80.0,
+    "unpaid_total": 40.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "27/10/2025 إلى 26/11/2025",
-        "amount": 40.0
-      },
       {
         "period": "27/11/2025 إلى 26/12/2025",
         "amount": 40.0
@@ -203,13 +195,9 @@
     "phone_number": "98374485",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 80.0,
+    "unpaid_total": 40.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "27/10/2025 إلى 26/11/2025",
-        "amount": 40.0
-      },
       {
         "period": "27/11/2025 إلى 26/12/2025",
         "amount": 40.0
@@ -3290,6 +3278,27 @@
     "notes": ""
   },
   {
+    "id": 207,
+    "name": "لجين",
+    "surname": "فالحي",
+    "educational_level": "5 ابتدائي",
+    "institution": "مدرسة ابن منظور",
+    "entry_date": "2025-10-02",
+    "guardian_full_name": "كمال فالحي",
+    "phone_number": "54139800",
+    "payment_generation_status": "active",
+    "payment_count": 2,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "02/11/2025 إلى 01/12/2025",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 128,
     "name": "آلاء",
     "surname": "قادري",
@@ -3883,8 +3892,8 @@
     "guardian_full_name": "أحمد كحولي",
     "phone_number": "96084360",
     "payment_generation_status": "active",
-    "payment_count": 4,
-    "unpaid_total": 100.0,
+    "payment_count": 5,
+    "unpaid_total": 150.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -3893,6 +3902,10 @@
       },
       {
         "period": "01/11/2025 إلى 30/11/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "01/12/2025 إلى 31/12/2025",
         "amount": 50.0
       }
     ],
@@ -3908,12 +3921,16 @@
     "guardian_full_name": "مبروكة صالحي",
     "phone_number": "97454029",
     "payment_generation_status": "active",
-    "payment_count": 3,
-    "unpaid_total": 50.0,
+    "payment_count": 4,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "01/11/2025 إلى 30/11/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "01/12/2025 إلى 31/12/2025",
         "amount": 50.0
       }
     ],
@@ -3929,12 +3946,16 @@
     "guardian_full_name": "مبروكة صالحي",
     "phone_number": "97454029",
     "payment_generation_status": "active",
-    "payment_count": 3,
-    "unpaid_total": 50.0,
+    "payment_count": 4,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "01/11/2025 إلى 30/11/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "01/12/2025 إلى 31/12/2025",
         "amount": 50.0
       }
     ],
@@ -4243,12 +4264,16 @@
     "guardian_full_name": "نوال مسعودي",
     "phone_number": "42218267",
     "payment_generation_status": "active",
-    "payment_count": 5,
-    "unpaid_total": 100.0,
+    "payment_count": 6,
+    "unpaid_total": 200.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "01/11/2025 إلى 30/11/2025",
+        "amount": 100.0
+      },
+      {
+        "period": "01/12/2025 إلى 31/12/2025",
         "amount": 100.0
       }
     ],
@@ -4315,16 +4340,12 @@
     "phone_number": "97846999",
     "payment_generation_status": "active",
     "payment_count": 5,
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-10-04",
       "2025-11-01"
     ],
     "unpaid_periods": [
-      {
-        "period": "25/10/2025 إلى 24/11/2025",
-        "amount": 100.0
-      },
       {
         "period": "25/11/2025 إلى 24/12/2025",
         "amount": 100.0
@@ -4377,12 +4398,16 @@
     "guardian_full_name": "قيس مسعودي",
     "phone_number": "90723023",
     "payment_generation_status": "active",
-    "payment_count": 5,
-    "unpaid_total": 40.0,
+    "payment_count": 6,
+    "unpaid_total": 80.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "01/11/2025 إلى 30/11/2025",
+        "amount": 40.0
+      },
+      {
+        "period": "01/12/2025 إلى 31/12/2025",
         "amount": 40.0
       }
     ],

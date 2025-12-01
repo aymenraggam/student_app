@@ -720,7 +720,7 @@
     "student_ids": [
       13
     ],
-    "unpaid_total": 40.0,
+    "unpaid_total": 80.0,
     "password": "177977",
     "credit_balance": 0.0,
     "is_active": true
@@ -778,7 +778,7 @@
       45,
       46
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 200.0,
     "password": "774087",
     "credit_balance": 0.0,
     "is_active": true
@@ -805,7 +805,7 @@
       137,
       180
     ],
-    "unpaid_total": 300.0,
+    "unpaid_total": 180.0,
     "password": "135852",
     "credit_balance": 0.0,
     "is_active": true
@@ -928,7 +928,7 @@
     "student_ids": [
       34
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "password": "308475",
     "credit_balance": 0.0,
     "is_active": true
@@ -1033,7 +1033,7 @@
       3,
       19
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 300.0,
     "password": "414757",
     "credit_balance": 0.0,
     "is_active": true
@@ -1123,7 +1123,7 @@
     "student_ids": [
       40
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "492953",
     "credit_balance": 0.0,
     "is_active": true
@@ -1371,6 +1371,17 @@
     ],
     "unpaid_total": 100.0,
     "password": "592331",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "كمال فالحي",
+    "phone_number": "54139800",
+    "student_ids": [
+      207
+    ],
+    "unpaid_total": 50.0,
+    "password": "459328",
     "credit_balance": 0.0,
     "is_active": true
   }
