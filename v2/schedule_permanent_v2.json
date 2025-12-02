@@ -158,6 +158,17 @@
     "is_makeup": false
   },
   {
+    "id": 84,
+    "day_of_week": "الأربعاء",
+    "time_slot": "15:00 - 17:00",
+    "educational_level": "6 أساسي",
+    "class_type": "private",
+    "student_ids": [
+      17
+    ],
+    "is_makeup": false
+  },
+  {
     "id": 81,
     "day_of_week": "الأربعاء",
     "time_slot": "17:00 - 19:00",
@@ -231,6 +242,17 @@
       180,
       182,
       191
+    ],
+    "is_makeup": false
+  },
+  {
+    "id": 83,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "15:00 - 17:00",
+    "educational_level": "6 أساسي",
+    "class_type": "private",
+    "student_ids": [
+      17
     ],
     "is_makeup": false
   },
