@@ -43,12 +43,11 @@
   {
     "id": 76,
     "day_of_week": "الأحد",
-    "time_slot": "10:00 - 12:00",
+    "time_slot": "13:00 - 15:00",
     "educational_level": "9 أساسي",
     "class_type": "general",
     "student_ids": [
       41,
-      57,
       58,
       60,
       61,
@@ -67,7 +66,8 @@
       176,
       202
     ],
-    "is_makeup": false
+    "is_makeup": true,
+    "temp_id": 39
   },
   {
     "id": 36,
@@ -136,13 +136,33 @@
   {
     "id": 79,
     "day_of_week": "الأحد",
-    "time_slot": "19:00 - 21:00",
+    "time_slot": "21:00 - 23:00",
     "educational_level": "1 ثانوي",
-    "class_type": "private",
+    "class_type": "general",
     "student_ids": [
-      62
+      62,
+      64,
+      65,
+      66,
+      81,
+      88,
+      113,
+      114,
+      138,
+      139,
+      142,
+      153,
+      161,
+      178,
+      185,
+      186,
+      196,
+      197,
+      198,
+      203
     ],
-    "is_makeup": false
+    "is_makeup": true,
+    "temp_id": 40
   },
   {
     "id": 68,
@@ -358,7 +378,6 @@
     "class_type": "general",
     "student_ids": [
       41,
-      57,
       58,
       60,
       61,
@@ -547,7 +566,6 @@
     "class_type": "general",
     "student_ids": [
       41,
-      57,
       58,
       60,
       61,
