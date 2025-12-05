@@ -651,5 +651,49 @@
       203
     ],
     "is_makeup": false
+  },
+  {
+    "id": 38,
+    "class_date": "2025-12-07",
+    "time_slot": "10:00 - 12:00",
+    "educational_level": "2 ث اقتصاد",
+    "class_type": "general",
+    "student_ids": [
+      168,
+      169,
+      180,
+      182,
+      191,
+      192
+    ],
+    "day_of_week": "الأحد",
+    "is_makeup": false,
+    "is_additional": true,
+    "temp_id": 38,
+    "permanent_id": null
+  },
+  {
+    "id": 41,
+    "class_date": "2025-12-07",
+    "time_slot": "19:00 - 21:00",
+    "educational_level": "8 أساسي",
+    "class_type": "private",
+    "student_ids": [
+      19,
+      20,
+      34,
+      38,
+      54,
+      74,
+      89,
+      94,
+      95,
+      122
+    ],
+    "day_of_week": "الأحد",
+    "is_makeup": false,
+    "is_additional": true,
+    "temp_id": 41,
+    "permanent_id": null
   }
 ]
