@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 7180.0,
+    "total_overdue_unpaid_amount": 6920.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -357,12 +357,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 71,
-        "student_name": "سلمى قادري",
-        "period": "12/10/2025 إلى 11/11/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 73,
         "student_name": "روان صالحي",
         "period": "13/10/2025 إلى 12/11/2025",
@@ -657,12 +651,6 @@
         "amount": 100.0
       },
       {
-        "student_id": 123,
-        "student_name": "مرام ضيفي",
-        "period": "26/10/2025 إلى 25/11/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 27,
         "student_name": "ألاء زارعي",
         "period": "27/10/2025 إلى 26/11/2025",
@@ -747,18 +735,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 177,
-        "student_name": "محمد الهادي عمري",
-        "period": "30/10/2025 إلى 29/11/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 178,
-        "student_name": "عمر عمري",
-        "period": "30/10/2025 إلى 29/11/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 180,
         "student_name": "لؤي بلقاسم",
         "period": "31/10/2025 إلى 29/11/2025",
@@ -801,12 +777,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 153,
-        "student_name": "محمد ياسين بوكدوس",
-        "period": "02/11/2025 إلى 01/12/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 4,
         "student_name": "آدم جلالي",
         "period": "03/11/2025 إلى 02/12/2025",
@@ -823,12 +793,6 @@
         "student_name": "عائشة جلالي",
         "period": "03/11/2025 إلى 02/12/2025",
         "amount": 30.0
-      },
-      {
-        "student_id": 22,
-        "student_name": "فرح قادري",
-        "period": "03/11/2025 إلى 02/12/2025",
-        "amount": 50.0
       },
       {
         "student_id": 23,
@@ -903,6 +867,12 @@
         "amount": 30.0
       },
       {
+        "student_id": 96,
+        "student_name": "حسّان كداشي",
+        "period": "06/11/2025 إلى 05/12/2025",
+        "amount": 40.0
+      },
+      {
         "student_id": 154,
         "student_name": "آدم أم هاني",
         "period": "04/11/2025 إلى 03/12/2025",
@@ -933,7 +903,7 @@
         "amount": 50.0
       }
     ],
-    "total_active_students": 176,
+    "total_active_students": 175,
     "students_per_level": {
       "2 ث علوم": 7,
       "9 أساسي": 18,
@@ -942,7 +912,7 @@
       "2 ابتدائي": 9,
       "2 ث اقتصاد": 6,
       "3 ابتدائي": 10,
-      "1 ثانوي": 20,
+      "1 ثانوي": 19,
       "8 أساسي": 26,
       "7 أساسي": 31,
       "1 ابتدائي": 10,
