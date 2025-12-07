@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 7010.0,
+    "total_overdue_unpaid_amount": 6840.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -673,18 +673,6 @@
         "student_name": "ملاك مسعودي",
         "period": "28/10/2025 إلى 27/11/2025",
         "amount": 50.0
-      },
-      {
-        "student_id": 8,
-        "student_name": "أمان جلالي",
-        "period": "22/10/2025 إلى 21/11/2025",
-        "amount": 100.0
-      },
-      {
-        "student_id": 2,
-        "student_name": "مسرّة جلالي",
-        "period": "22/10/2025 إلى 21/11/2025",
-        "amount": 70.0
       },
       {
         "student_id": 30,
