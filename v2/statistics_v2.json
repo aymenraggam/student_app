@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 6920.0,
+    "total_overdue_unpaid_amount": 7010.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -339,12 +339,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 58,
-        "student_name": "مريم قادري",
-        "period": "09/10/2025 إلى 08/11/2025",
-        "amount": 40.0
-      },
-      {
         "student_id": 61,
         "student_name": "آية أم هاني",
         "period": "09/10/2025 إلى 08/11/2025",
@@ -445,12 +439,6 @@
         "student_name": "إلينا مسعودي",
         "period": "22/10/2025 إلى 21/11/2025",
         "amount": 50.0
-      },
-      {
-        "student_id": 169,
-        "student_name": "شروق بوكدوس",
-        "period": "22/10/2025 إلى 21/11/2025",
-        "amount": 30.0
       },
       {
         "student_id": 1,
@@ -619,12 +607,6 @@
         "student_name": "سيرين نصيري",
         "period": "25/10/2025 إلى 24/11/2025",
         "amount": 50.0
-      },
-      {
-        "student_id": 25,
-        "student_name": "رؤى قادري",
-        "period": "25/10/2025 إلى 24/11/2025",
-        "amount": 40.0
       },
       {
         "student_id": 115,
@@ -873,15 +855,39 @@
         "amount": 40.0
       },
       {
+        "student_id": 156,
+        "student_name": "قصي جلالي",
+        "period": "07/11/2025 إلى 06/12/2025",
+        "amount": 50.0
+      },
+      {
         "student_id": 154,
         "student_name": "آدم أم هاني",
         "period": "04/11/2025 إلى 03/12/2025",
         "amount": 50.0
       },
       {
+        "student_id": 82,
+        "student_name": "يحي جلالي",
+        "period": "07/11/2025 إلى 06/12/2025",
+        "amount": 50.0
+      },
+      {
         "student_id": 186,
         "student_name": "سمر ميساوي",
         "period": "16/10/2025 إلى 15/11/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 188,
+        "student_name": "أحمد درعي",
+        "period": "07/11/2025 إلى 06/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 193,
+        "student_name": "حمزة جلالي",
+        "period": "07/11/2025 إلى 06/12/2025",
         "amount": 50.0
       },
       {
