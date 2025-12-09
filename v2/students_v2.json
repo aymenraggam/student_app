@@ -2685,7 +2685,7 @@
     "phone_number": "96500661",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 80.0,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-10-19",
       "2025-10-25",
@@ -2696,12 +2696,8 @@
     ],
     "unpaid_periods": [
       {
-        "period": "30/10/2025 إلى 29/11/2025",
-        "amount": 40.0
-      },
-      {
         "period": "30/11/2025 إلى 29/12/2025",
-        "amount": 40.0
+        "amount": 100.0
       }
     ],
     "notes": ""
@@ -3543,16 +3539,12 @@
     "phone_number": "90730836",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-10-25",
       "2025-10-30"
     ],
     "unpaid_periods": [
-      {
-        "period": "26/10/2025 إلى 25/11/2025",
-        "amount": 100.0
-      },
       {
         "period": "26/11/2025 إلى 25/12/2025",
         "amount": 100.0
