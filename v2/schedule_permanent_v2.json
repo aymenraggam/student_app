@@ -36,14 +36,15 @@
       195,
       199,
       200,
-      201
+      201,
+      209
     ],
     "is_makeup": false
   },
   {
     "id": 76,
     "day_of_week": "الأحد",
-    "time_slot": "17:00 - 19:00",
+    "time_slot": "10:00 - 12:00",
     "educational_level": "9 أساسي",
     "class_type": "general",
     "student_ids": [
@@ -66,8 +67,7 @@
       176,
       202
     ],
-    "is_makeup": true,
-    "temp_id": 39
+    "is_makeup": false
   },
   {
     "id": 36,
@@ -136,32 +136,13 @@
   {
     "id": 79,
     "day_of_week": "الأحد",
-    "time_slot": "13:00 - 15:00",
+    "time_slot": "19:00 - 21:00",
     "educational_level": "1 ثانوي",
-    "class_type": "general",
+    "class_type": "private",
     "student_ids": [
-      62,
-      64,
-      65,
-      66,
-      81,
-      88,
-      113,
-      114,
-      138,
-      139,
-      142,
-      161,
-      178,
-      185,
-      186,
-      196,
-      197,
-      198,
-      203
+      62
     ],
-    "is_makeup": true,
-    "temp_id": 40
+    "is_makeup": false
   },
   {
     "id": 85,
@@ -381,7 +362,8 @@
       195,
       199,
       200,
-      201
+      201,
+      209
     ],
     "is_makeup": false
   },
@@ -568,7 +550,8 @@
       195,
       199,
       200,
-      201
+      201,
+      209
     ],
     "is_makeup": false
   },
@@ -664,49 +647,5 @@
       203
     ],
     "is_makeup": false
-  },
-  {
-    "id": 38,
-    "class_date": "2025-12-07",
-    "time_slot": "10:00 - 12:00",
-    "educational_level": "2 ث اقتصاد",
-    "class_type": "private",
-    "student_ids": [
-      168,
-      169,
-      180,
-      182,
-      191,
-      192
-    ],
-    "day_of_week": "الأحد",
-    "is_makeup": false,
-    "is_additional": true,
-    "temp_id": 38,
-    "permanent_id": null
-  },
-  {
-    "id": 41,
-    "class_date": "2025-12-07",
-    "time_slot": "19:00 - 21:00",
-    "educational_level": "8 أساسي",
-    "class_type": "private",
-    "student_ids": [
-      19,
-      20,
-      34,
-      38,
-      54,
-      74,
-      89,
-      94,
-      95,
-      122
-    ],
-    "day_of_week": "الأحد",
-    "is_makeup": false,
-    "is_additional": true,
-    "temp_id": 41,
-    "permanent_id": null
   }
 ]

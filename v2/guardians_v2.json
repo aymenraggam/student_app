@@ -273,7 +273,7 @@
       113,
       131
     ],
-    "unpaid_total": 160.0,
+    "unpaid_total": 80.0,
     "password": "285800",
     "credit_balance": 0.0,
     "is_active": true
@@ -354,7 +354,7 @@
     "student_ids": [
       56
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "102499",
     "credit_balance": 0.0,
     "is_active": true
@@ -530,7 +530,7 @@
     "student_ids": [
       66
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "987654",
     "credit_balance": 0.0,
     "is_active": true
@@ -563,7 +563,7 @@
     "student_ids": [
       161
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "604665",
     "credit_balance": 0.0,
     "is_active": true
@@ -608,7 +608,7 @@
       134,
       163
     ],
-    "unpaid_total": 140.0,
+    "unpaid_total": 180.0,
     "password": "077927",
     "credit_balance": 0.0,
     "is_active": true
@@ -733,7 +733,7 @@
       17,
       33
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 100.0,
     "password": "560709",
     "credit_balance": 0.0,
     "is_active": true
@@ -769,7 +769,7 @@
       25,
       58
     ],
-    "unpaid_total": 130.0,
+    "unpaid_total": 170.0,
     "password": "336041",
     "credit_balance": 0.0,
     "is_active": true
@@ -873,7 +873,7 @@
     "student_ids": [
       54
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 200.0,
     "password": "439616",
     "credit_balance": 0.0,
     "is_active": true
@@ -999,7 +999,7 @@
       60,
       125
     ],
-    "unpaid_total": 70.0,
+    "unpaid_total": 105.0,
     "password": "22102009",
     "credit_balance": 0.0,
     "is_active": true
@@ -1157,7 +1157,7 @@
     "student_ids": [
       154
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "128882",
     "credit_balance": 0.0,
     "is_active": true
@@ -1371,6 +1371,17 @@
     ],
     "unpaid_total": 0.0,
     "password": "771439",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "محمد بوكدوس",
+    "phone_number": "95361368",
+    "student_ids": [
+      209
+    ],
+    "unpaid_total": 50.0,
+    "password": "814043",
     "credit_balance": 0.0,
     "is_active": true
   }

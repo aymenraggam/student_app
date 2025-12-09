@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 6840.0,
+    "total_overdue_unpaid_amount": 6925.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -339,12 +339,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 61,
-        "student_name": "آية أم هاني",
-        "period": "09/10/2025 إلى 08/11/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 66,
         "student_name": "آدم فالحي",
         "period": "09/10/2025 إلى 08/11/2025",
@@ -366,12 +360,6 @@
         "student_id": 157,
         "student_name": "رسلان صالحي",
         "period": "10/10/2025 إلى 09/11/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 161,
-        "student_name": "إسلام كحلي",
-        "period": "14/10/2025 إلى 13/11/2025",
         "amount": 50.0
       },
       {
@@ -573,12 +561,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 33,
-        "student_name": "محمد كرمودي",
-        "period": "25/10/2025 إلى 24/11/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 36,
         "student_name": "هيثم قادري",
         "period": "25/10/2025 إلى 24/11/2025",
@@ -595,12 +577,6 @@
         "student_name": "إسراء عيادي",
         "period": "25/10/2025 إلى 24/11/2025",
         "amount": 50.0
-      },
-      {
-        "student_id": 113,
-        "student_name": "ريان قادري",
-        "period": "25/10/2025 إلى 24/11/2025",
-        "amount": 40.0
       },
       {
         "student_id": 114,
@@ -649,12 +625,6 @@
         "student_name": "ملاك عكرمي",
         "period": "27/10/2025 إلى 26/11/2025",
         "amount": 50.0
-      },
-      {
-        "student_id": 131,
-        "student_name": "رؤى قادري",
-        "period": "27/10/2025 إلى 26/11/2025",
-        "amount": 40.0
       },
       {
         "student_id": 132,
@@ -837,21 +807,9 @@
         "amount": 30.0
       },
       {
-        "student_id": 96,
-        "student_name": "حسّان كداشي",
-        "period": "06/11/2025 إلى 05/12/2025",
-        "amount": 40.0
-      },
-      {
         "student_id": 156,
         "student_name": "قصي جلالي",
         "period": "07/11/2025 إلى 06/12/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 154,
-        "student_name": "آدم أم هاني",
-        "period": "04/11/2025 إلى 03/12/2025",
         "amount": 50.0
       },
       {
@@ -859,6 +817,54 @@
         "student_name": "يحي جلالي",
         "period": "07/11/2025 إلى 06/12/2025",
         "amount": 50.0
+      },
+      {
+        "student_id": 54,
+        "student_name": "ملاك عيوني",
+        "period": "08/11/2025 إلى 07/12/2025",
+        "amount": 100.0
+      },
+      {
+        "student_id": 56,
+        "student_name": "إلياس أم هاني",
+        "period": "08/11/2025 إلى 07/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 58,
+        "student_name": "مريم قادري",
+        "period": "09/11/2025 إلى 08/12/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 60,
+        "student_name": "جابر جلالي",
+        "period": "09/11/2025 إلى 08/12/2025",
+        "amount": 35.0
+      },
+      {
+        "student_id": 61,
+        "student_name": "آية أم هاني",
+        "period": "09/11/2025 إلى 08/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 65,
+        "student_name": "حمدي كداشي",
+        "period": "09/11/2025 إلى 08/12/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 66,
+        "student_name": "آدم فالحي",
+        "period": "09/11/2025 إلى 08/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 134,
+        "student_name": "محمد عزيز عامري",
+        "period": "09/11/2025 إلى 08/12/2025",
+        "amount": 40.0
       },
       {
         "student_id": 186,
@@ -897,7 +903,7 @@
         "amount": 50.0
       }
     ],
-    "total_active_students": 175,
+    "total_active_students": 176,
     "students_per_level": {
       "2 ث علوم": 7,
       "9 أساسي": 18,
@@ -908,7 +914,7 @@
       "3 ابتدائي": 10,
       "1 ثانوي": 19,
       "8 أساسي": 26,
-      "7 أساسي": 31,
+      "7 أساسي": 32,
       "1 ابتدائي": 10,
       "6 ابتدائي": 13,
       "6 أساسي": 2
