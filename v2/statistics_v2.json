@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 6810.0,
+    "total_overdue_unpaid_amount": 6990.0,
     "overdue_details": [
       {
         "student_id": 4,
@@ -859,6 +859,30 @@
         "student_name": "مالك عيوني",
         "period": "13/11/2025 إلى 12/12/2025",
         "amount": 100.0
+      },
+      {
+        "student_id": 77,
+        "student_name": "يوسف سماري",
+        "period": "14/11/2025 إلى 13/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 158,
+        "student_name": "احــمــد زريبي",
+        "period": "14/11/2025 إلى 13/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 161,
+        "student_name": "إسلام كحلي",
+        "period": "14/11/2025 إلى 13/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 162,
+        "student_name": "تقى كدوسي",
+        "period": "15/11/2025 إلى 14/12/2025",
+        "amount": 30.0
       },
       {
         "student_id": 193,
