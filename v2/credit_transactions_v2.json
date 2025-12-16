@@ -241,5 +241,68 @@
     "amount": 10.0,
     "notes": "إيداع تسبقة",
     "payment_id": null
+  },
+  {
+    "guardian_name": "عبد السلام",
+    "guardian_surname": "جلالي",
+    "phone_number": "97867896",
+    "transaction_date": "2025-12-16 09:07:09",
+    "amount": 200.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "عبد السلام",
+    "guardian_surname": "جلالي",
+    "phone_number": "97867896",
+    "transaction_date": "2025-12-16 09:07:11",
+    "amount": -30.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: آدم جلالي",
+    "payment_id": 5
+  },
+  {
+    "guardian_name": "عبد السلام",
+    "guardian_surname": "جلالي",
+    "phone_number": "97867896",
+    "transaction_date": "2025-12-16 09:07:11",
+    "amount": -30.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: فاطمة جلالي",
+    "payment_id": 15
+  },
+  {
+    "guardian_name": "عبد السلام",
+    "guardian_surname": "جلالي",
+    "phone_number": "97867896",
+    "transaction_date": "2025-12-16 09:07:11",
+    "amount": -30.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: عائشة جلالي",
+    "payment_id": 20
+  },
+  {
+    "guardian_name": "عبد السلام",
+    "guardian_surname": "جلالي",
+    "phone_number": "97867896",
+    "transaction_date": "2025-12-16 09:07:11",
+    "amount": -30.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: مريم جلالي",
+    "payment_id": 33
+  },
+  {
+    "guardian_name": "عبد السلام",
+    "guardian_surname": "جلالي",
+    "phone_number": "97867896",
+    "transaction_date": "2025-12-16 09:07:11",
+    "amount": -30.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: ريتاج جلالي",
+    "payment_id": 42
+  },
+  {
+    "guardian_name": "عبد السلام",
+    "guardian_surname": "جلالي",
+    "phone_number": "97867896",
+    "transaction_date": "2025-12-16 09:07:11",
+    "amount": -30.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: آدم جلالي",
+    "payment_id": 59
   }
 ]

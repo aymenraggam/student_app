@@ -335,17 +335,9 @@
     "phone_number": "97867896",
     "payment_generation_status": "active",
     "payment_count": 6,
-    "unpaid_total": 180.0,
+    "unpaid_total": 120.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "03/07/2025 إلى 02/08/2025",
-        "amount": 30.0
-      },
-      {
-        "period": "03/08/2025 إلى 02/09/2025",
-        "amount": 30.0
-      },
       {
         "period": "03/09/2025 إلى 02/10/2025",
         "amount": 30.0
@@ -561,16 +553,12 @@
     "phone_number": "97867896",
     "payment_generation_status": "active",
     "payment_count": 5,
-    "unpaid_total": 150.0,
+    "unpaid_total": 120.0,
     "absence_count": [
       "2025-10-25",
       "2025-10-30"
     ],
     "unpaid_periods": [
-      {
-        "period": "25/07/2025 إلى 24/08/2025",
-        "amount": 30.0
-      },
       {
         "period": "25/08/2025 إلى 24/09/2025",
         "amount": 30.0
@@ -630,13 +618,9 @@
     "phone_number": "97867896",
     "payment_generation_status": "active",
     "payment_count": 6,
-    "unpaid_total": 180.0,
+    "unpaid_total": 150.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "03/07/2025 إلى 02/08/2025",
-        "amount": 30.0
-      },
       {
         "period": "03/08/2025 إلى 02/09/2025",
         "amount": 30.0
@@ -671,13 +655,9 @@
     "phone_number": "97867896",
     "payment_generation_status": "active",
     "payment_count": 6,
-    "unpaid_total": 180.0,
+    "unpaid_total": 150.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "03/07/2025 إلى 02/08/2025",
-        "amount": 30.0
-      },
       {
         "period": "03/08/2025 إلى 02/09/2025",
         "amount": 30.0
@@ -817,7 +797,7 @@
     "phone_number": "97867896",
     "payment_generation_status": "active",
     "payment_count": 5,
-    "unpaid_total": 150.0,
+    "unpaid_total": 120.0,
     "absence_count": [
       "2025-09-28",
       "2025-10-24",
@@ -826,10 +806,6 @@
       "2025-11-23"
     ],
     "unpaid_periods": [
-      {
-        "period": "25/07/2025 إلى 24/08/2025",
-        "amount": 30.0
-      },
       {
         "period": "25/08/2025 إلى 24/09/2025",
         "amount": 30.0
@@ -2056,8 +2032,8 @@
     "guardian_full_name": "بسمة عبيدي",
     "phone_number": "99722377",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 80.0,
+    "payment_count": 3,
+    "unpaid_total": 120.0,
     "absence_count": [
       "2025-10-18",
       "2025-10-25",
@@ -2071,6 +2047,10 @@
       },
       {
         "period": "16/11/2025 إلى 15/12/2025",
+        "amount": 40.0
+      },
+      {
+        "period": "16/12/2025 إلى 15/01/2026",
         "amount": 40.0
       }
     ],
@@ -2982,8 +2962,8 @@
     "guardian_full_name": "كوثر عباسي",
     "phone_number": "96520851",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-11-22",
       "2025-11-23",
@@ -2996,6 +2976,10 @@
     "unpaid_periods": [
       {
         "period": "16/11/2025 إلى 15/12/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "16/12/2025 إلى 15/01/2026",
         "amount": 50.0
       }
     ],
@@ -3811,8 +3795,8 @@
     "guardian_full_name": "سناء كداشي",
     "phone_number": "25790709",
     "payment_generation_status": "active",
-    "payment_count": 3,
-    "unpaid_total": 100.0,
+    "payment_count": 4,
+    "unpaid_total": 150.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -3821,6 +3805,10 @@
       },
       {
         "period": "16/11/2025 إلى 15/12/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "16/12/2025 إلى 15/01/2026",
         "amount": 50.0
       }
     ],
@@ -4307,8 +4295,8 @@
     "guardian_full_name": "مبارك ميساوي",
     "phone_number": "99744475",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 100.0,
+    "payment_count": 3,
+    "unpaid_total": 150.0,
     "absence_count": [
       "2025-11-15",
       "2025-11-22",
@@ -4322,6 +4310,10 @@
       },
       {
         "period": "16/11/2025 إلى 15/12/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "16/12/2025 إلى 15/01/2026",
         "amount": 50.0
       }
     ],

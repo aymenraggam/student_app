@@ -124,17 +124,17 @@
     "payments": [
       {
         "period_formatted": "03/07/2025 إلى 02/08/2025",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 30.0,
-        "received_date": null,
-        "notes": ""
+        "received_date": "2025-12-16",
+        "notes": "خلاص عبر رصيد التسبقة"
       },
       {
         "period_formatted": "03/08/2025 إلى 02/09/2025",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 30.0,
-        "received_date": null,
-        "notes": ""
+        "received_date": "2025-12-16",
+        "notes": "خلاص عبر رصيد التسبقة"
       },
       {
         "period_formatted": "03/09/2025 إلى 02/10/2025",
@@ -357,10 +357,10 @@
     "payments": [
       {
         "period_formatted": "03/07/2025 إلى 02/08/2025",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 30.0,
-        "received_date": null,
-        "notes": ""
+        "received_date": "2025-12-16",
+        "notes": "خلاص عبر رصيد التسبقة"
       },
       {
         "period_formatted": "03/08/2025 إلى 02/09/2025",
@@ -517,10 +517,10 @@
     "payments": [
       {
         "period_formatted": "03/07/2025 إلى 02/08/2025",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 30.0,
-        "received_date": null,
-        "notes": ""
+        "received_date": "2025-12-16",
+        "notes": "خلاص عبر رصيد التسبقة"
       },
       {
         "period_formatted": "03/08/2025 إلى 02/09/2025",
@@ -915,10 +915,10 @@
     "payments": [
       {
         "period_formatted": "25/07/2025 إلى 24/08/2025",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 30.0,
-        "received_date": null,
-        "notes": ""
+        "received_date": "2025-12-16",
+        "notes": "خلاص عبر رصيد التسبقة"
       },
       {
         "period_formatted": "25/08/2025 إلى 24/09/2025",
@@ -1228,10 +1228,10 @@
     "payments": [
       {
         "period_formatted": "25/07/2025 إلى 24/08/2025",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 30.0,
-        "received_date": null,
-        "notes": ""
+        "received_date": "2025-12-16",
+        "notes": "خلاص عبر رصيد التسبقة"
       },
       {
         "period_formatted": "25/08/2025 إلى 24/09/2025",
@@ -2707,6 +2707,13 @@
         "amount": 50.0,
         "received_date": null,
         "notes": ""
+      },
+      {
+        "period_formatted": "16/12/2025 إلى 15/01/2026",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
       }
     ]
   },
@@ -3268,6 +3275,13 @@
       },
       {
         "period_formatted": "16/11/2025 إلى 15/12/2025",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null,
+        "notes": "__RESUME_DAY:16__"
+      },
+      {
+        "period_formatted": "16/12/2025 إلى 15/01/2026",
         "status": "غير خالص",
         "amount": 40.0,
         "received_date": null,
@@ -4569,6 +4583,13 @@
         "amount": 50.0,
         "received_date": null,
         "notes": ""
+      },
+      {
+        "period_formatted": "16/12/2025 إلى 15/01/2026",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
       }
     ]
   },
@@ -4696,6 +4717,13 @@
     "payments": [
       {
         "period_formatted": "16/11/2025 إلى 15/12/2025",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
+      },
+      {
+        "period_formatted": "16/12/2025 إلى 15/01/2026",
         "status": "غير خالص",
         "amount": 50.0,
         "received_date": null,
