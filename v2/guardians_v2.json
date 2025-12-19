@@ -138,17 +138,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "بسمة قادري",
-    "phone_number": "99017932",
-    "student_ids": [
-      95
-    ],
-    "unpaid_total": 200.0,
-    "password": "173674",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "تفاحة زريبي",
     "phone_number": "96445731",
     "student_ids": [
