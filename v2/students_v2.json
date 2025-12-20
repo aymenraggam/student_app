@@ -1562,19 +1562,10 @@
     "guardian_full_name": "عائشة أم هاني",
     "phone_number": "99722424",
     "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 80.0,
+    "payment_count": 5,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "23/11/2025 إلى 22/12/2025",
-        "amount": 40.0
-      },
-      {
-        "period": "23/12/2025 إلى 22/01/2026",
-        "amount": 40.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -1588,16 +1579,11 @@
     "phone_number": "99722424",
     "payment_generation_status": "active",
     "payment_count": 5,
-    "unpaid_total": 40.0,
+    "unpaid_total": 0.0,
     "absence_count": [
       "2025-10-18"
     ],
-    "unpaid_periods": [
-      {
-        "period": "25/11/2025 إلى 24/12/2025",
-        "amount": 40.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
