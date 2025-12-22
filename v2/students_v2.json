@@ -3926,13 +3926,9 @@
     "phone_number": "92451382",
     "payment_generation_status": "active",
     "payment_count": 4,
-    "unpaid_total": 60.0,
+    "unpaid_total": 30.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "15/11/2025 إلى 14/12/2025",
-        "amount": 30.0
-      },
       {
         "period": "15/12/2025 إلى 14/01/2026",
         "amount": 30.0
@@ -3991,14 +3987,9 @@
     "phone_number": "92451382",
     "payment_generation_status": "active",
     "payment_count": 4,
-    "unpaid_total": 30.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "25/11/2025 إلى 24/12/2025",
-        "amount": 30.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
