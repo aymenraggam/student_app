@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 7780.0,
+    "total_overdue_unpaid_amount": 9620.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -579,12 +579,6 @@
         "amount": 30.0
       },
       {
-        "student_id": 3,
-        "student_name": "أميرة مسعودي",
-        "period": "01/11/2025 إلى 30/11/2025",
-        "amount": 100.0
-      },
-      {
         "student_id": 13,
         "student_name": "ميسم مسعودي",
         "period": "01/11/2025 إلى 30/11/2025",
@@ -961,6 +955,246 @@
         "student_name": "احلام قادري",
         "period": "22/11/2025 إلى 21/12/2025",
         "amount": 30.0
+      },
+      {
+        "student_id": 1,
+        "student_name": "أمان الله صالحي",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 6,
+        "student_name": "أيوب صالحي",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 7,
+        "student_name": "جود بوعلاقي",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 9,
+        "student_name": "أمل صالحي",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 10,
+        "student_name": "أسامة بوعلاقي",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 12,
+        "student_name": "راسيل جلالي",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 18,
+        "student_name": "شفاء نصيري",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 43,
+        "student_name": "أحمد زارعي",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 44,
+        "student_name": "أمان زارعي",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 51,
+        "student_name": "ميسم علوي",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 52,
+        "student_name": "براءة صالحي",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 53,
+        "student_name": "أمان الله زارعي",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 89,
+        "student_name": "ياسين سماري",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 100.0
+      },
+      {
+        "student_id": 99,
+        "student_name": "يوسف صالحي",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 104,
+        "student_name": "سليمان جلالي",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 0.0
+      },
+      {
+        "student_id": 105,
+        "student_name": "يونس جلالي",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 0.0
+      },
+      {
+        "student_id": 107,
+        "student_name": "بيرم صالحي",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 108,
+        "student_name": "براءة صالحي",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 111,
+        "student_name": "يوسف كدوسي",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 112,
+        "student_name": "فرح كدوسي",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 195,
+        "student_name": "أحمد رحماني",
+        "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 20,
+        "student_name": "أحمد عايدي",
+        "period": "24/11/2025 إلى 23/12/2025",
+        "amount": 100.0
+      },
+      {
+        "student_id": 109,
+        "student_name": "أحمد عمارة",
+        "period": "24/11/2025 إلى 23/12/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 170,
+        "student_name": "اروى عماري",
+        "period": "24/11/2025 إلى 23/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 171,
+        "student_name": "مهاب صمودي",
+        "period": "24/11/2025 إلى 23/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 172,
+        "student_name": "فارس زارعي",
+        "period": "24/11/2025 إلى 23/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 173,
+        "student_name": "ميراس زارعي",
+        "period": "24/11/2025 إلى 23/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 28,
+        "student_name": "مريم جلالي",
+        "period": "25/11/2025 إلى 24/12/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 29,
+        "student_name": "أميمة طقوقي",
+        "period": "25/11/2025 إلى 24/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 33,
+        "student_name": "محمد كرمودي",
+        "period": "25/11/2025 إلى 24/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 34,
+        "student_name": "تقي مسعودي",
+        "period": "25/11/2025 إلى 24/12/2025",
+        "amount": 100.0
+      },
+      {
+        "student_id": 36,
+        "student_name": "هيثم قادري",
+        "period": "25/11/2025 إلى 24/12/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 37,
+        "student_name": "ريتاج جلالي",
+        "period": "25/11/2025 إلى 24/12/2025",
+        "amount": 30.0
+      },
+      {
+        "student_id": 110,
+        "student_name": "إسراء عيادي",
+        "period": "25/11/2025 إلى 24/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 113,
+        "student_name": "ريان قادري",
+        "period": "25/11/2025 إلى 24/12/2025",
+        "amount": 40.0
+      },
+      {
+        "student_id": 114,
+        "student_name": "سيرين نصيري",
+        "period": "25/11/2025 إلى 24/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 17,
+        "student_name": "أحمد كرمودي",
+        "period": "25/11/2025 إلى 24/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 196,
+        "student_name": "أيوب قادري",
+        "period": "25/11/2025 إلى 24/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 197,
+        "student_name": "أماني جوادي",
+        "period": "25/11/2025 إلى 24/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 198,
+        "student_name": "شهد عبدلي",
+        "period": "25/11/2025 إلى 24/12/2025",
+        "amount": 50.0
       },
       {
         "student_id": 124,
