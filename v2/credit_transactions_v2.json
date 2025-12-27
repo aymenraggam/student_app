@@ -322,5 +322,41 @@
     "amount": -100.0,
     "notes": "خلاص دفعة (عادية) للتلميذ: أمان الله جلالي",
     "payment_id": 944
+  },
+  {
+    "guardian_name": "عبد العزيز",
+    "guardian_surname": "طقوقي",
+    "phone_number": "97371797",
+    "transaction_date": "2025-12-27 14:04:12",
+    "amount": 90.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "عبد العزيز",
+    "guardian_surname": "طقوقي",
+    "phone_number": "97371797",
+    "transaction_date": "2025-12-27 14:04:15",
+    "amount": -40.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: أمل طقوقي",
+    "payment_id": 324
+  },
+  {
+    "guardian_name": "عبد العزيز",
+    "guardian_surname": "طقوقي",
+    "phone_number": "97371797",
+    "transaction_date": "2025-12-27 14:04:15",
+    "amount": -40.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: أيوب طقوقي",
+    "payment_id": 329
+  },
+  {
+    "guardian_name": "عبد العزيز",
+    "guardian_surname": "طقوقي",
+    "phone_number": "97371797",
+    "transaction_date": "2025-12-27 14:04:15",
+    "amount": -40.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: آدم طقوقي",
+    "payment_id": 330
   }
 ]

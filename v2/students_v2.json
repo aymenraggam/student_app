@@ -2381,13 +2381,9 @@
     "phone_number": "97371797",
     "payment_generation_status": "active",
     "payment_count": 5,
-    "unpaid_total": 160.0,
+    "unpaid_total": 120.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "19/09/2025 إلى 18/10/2025",
-        "amount": 40.0
-      },
       {
         "period": "19/10/2025 إلى 18/11/2025",
         "amount": 40.0
@@ -2414,13 +2410,9 @@
     "phone_number": "97371797",
     "payment_generation_status": "active",
     "payment_count": 5,
-    "unpaid_total": 160.0,
+    "unpaid_total": 120.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "19/09/2025 إلى 18/10/2025",
-        "amount": 40.0
-      },
       {
         "period": "19/10/2025 إلى 18/11/2025",
         "amount": 40.0
@@ -2483,13 +2475,9 @@
     "phone_number": "97371797",
     "payment_generation_status": "active",
     "payment_count": 5,
-    "unpaid_total": 160.0,
+    "unpaid_total": 120.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "19/09/2025 إلى 18/10/2025",
-        "amount": 40.0
-      },
       {
         "period": "19/10/2025 إلى 18/11/2025",
         "amount": 40.0
@@ -2924,13 +2912,9 @@
     "phone_number": "97053933",
     "payment_generation_status": "active",
     "payment_count": 4,
-    "unpaid_total": 90.0,
+    "unpaid_total": 60.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "24/10/2025 إلى 23/11/2025",
-        "amount": 30.0
-      },
       {
         "period": "24/11/2025 إلى 23/12/2025",
         "amount": 30.0
@@ -2953,7 +2937,7 @@
     "phone_number": "97053933",
     "payment_generation_status": "active",
     "payment_count": 4,
-    "unpaid_total": 90.0,
+    "unpaid_total": 60.0,
     "absence_count": [
       "2025-10-17",
       "2025-10-24",
@@ -2963,10 +2947,6 @@
       "2025-12-07"
     ],
     "unpaid_periods": [
-      {
-        "period": "26/10/2025 إلى 25/11/2025",
-        "amount": 30.0
-      },
       {
         "period": "26/11/2025 إلى 25/12/2025",
         "amount": 30.0
@@ -3803,7 +3783,7 @@
     "phone_number": "55254806",
     "payment_generation_status": "active",
     "payment_count": 4,
-    "unpaid_total": 150.0,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-10-30",
       "2025-11-01",
@@ -3811,10 +3791,6 @@
       "2025-11-23"
     ],
     "unpaid_periods": [
-      {
-        "period": "26/10/2025 إلى 25/11/2025",
-        "amount": 50.0
-      },
       {
         "period": "26/11/2025 إلى 25/12/2025",
         "amount": 50.0
@@ -4134,13 +4110,9 @@
     "phone_number": "90730836",
     "payment_generation_status": "active",
     "payment_count": 4,
-    "unpaid_total": 150.0,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "23/10/2025 إلى 22/11/2025",
-        "amount": 50.0
-      },
       {
         "period": "23/11/2025 إلى 22/12/2025",
         "amount": 50.0
@@ -4218,13 +4190,9 @@
     "phone_number": "90730836",
     "payment_generation_status": "active",
     "payment_count": 4,
-    "unpaid_total": 150.0,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "23/10/2025 إلى 22/11/2025",
-        "amount": 50.0
-      },
       {
         "period": "23/11/2025 إلى 22/12/2025",
         "amount": 50.0

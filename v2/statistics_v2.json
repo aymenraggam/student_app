@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 10250.0,
+    "total_overdue_unpaid_amount": 9920.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -85,24 +85,6 @@
         "student_name": "عائشة جلالي",
         "period": "03/09/2025 إلى 02/10/2025",
         "amount": 30.0
-      },
-      {
-        "student_id": 84,
-        "student_name": "أمل طقوقي",
-        "period": "19/09/2025 إلى 18/10/2025",
-        "amount": 40.0
-      },
-      {
-        "student_id": 85,
-        "student_name": "أيوب طقوقي",
-        "period": "19/09/2025 إلى 18/10/2025",
-        "amount": 40.0
-      },
-      {
-        "student_id": 86,
-        "student_name": "آدم طقوقي",
-        "period": "19/09/2025 إلى 18/10/2025",
-        "amount": 40.0
       },
       {
         "student_id": 14,
@@ -459,24 +441,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 111,
-        "student_name": "يوسف كدوسي",
-        "period": "23/10/2025 إلى 22/11/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 112,
-        "student_name": "فرح كدوسي",
-        "period": "23/10/2025 إلى 22/11/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 109,
-        "student_name": "أحمد عمارة",
-        "period": "24/10/2025 إلى 23/11/2025",
-        "amount": 30.0
-      },
-      {
         "student_id": 28,
         "student_name": "مريم جلالي",
         "period": "25/10/2025 إلى 24/11/2025",
@@ -510,18 +474,6 @@
         "student_id": 114,
         "student_name": "سيرين نصيري",
         "period": "25/10/2025 إلى 24/11/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 115,
-        "student_name": "حلمي عمارة",
-        "period": "26/10/2025 إلى 25/11/2025",
-        "amount": 30.0
-      },
-      {
-        "student_id": 121,
-        "student_name": "أسامة كحلي",
-        "period": "26/10/2025 إلى 25/11/2025",
         "amount": 50.0
       },
       {
