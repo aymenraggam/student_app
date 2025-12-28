@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 9920.0,
+    "total_overdue_unpaid_amount": 10040.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -1095,12 +1095,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 113,
-        "student_name": "ريان قادري",
-        "period": "25/11/2025 إلى 24/12/2025",
-        "amount": 40.0
-      },
-      {
         "student_id": 114,
         "student_name": "سيرين نصيري",
         "period": "25/11/2025 إلى 24/12/2025",
@@ -1203,12 +1197,6 @@
         "amount": 40.0
       },
       {
-        "student_id": 131,
-        "student_name": "رؤى قادري",
-        "period": "27/11/2025 إلى 26/12/2025",
-        "amount": 40.0
-      },
-      {
         "student_id": 132,
         "student_name": "وجدان زارعي",
         "period": "27/11/2025 إلى 26/12/2025",
@@ -1231,6 +1219,30 @@
         "student_name": "ليث بلقاسم",
         "period": "27/11/2025 إلى 26/12/2025",
         "amount": 40.0
+      },
+      {
+        "student_id": 135,
+        "student_name": "ملاك مسعودي",
+        "period": "28/11/2025 إلى 27/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 199,
+        "student_name": "ياسمين كدوسي",
+        "period": "28/11/2025 إلى 27/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 200,
+        "student_name": "أميمة حافظ",
+        "period": "28/11/2025 إلى 27/12/2025",
+        "amount": 50.0
+      },
+      {
+        "student_id": 201,
+        "student_name": "ادم كحلي",
+        "period": "28/11/2025 إلى 27/12/2025",
+        "amount": 50.0
       },
       {
         "student_id": 124,
