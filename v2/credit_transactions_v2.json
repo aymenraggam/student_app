@@ -358,5 +358,14 @@
     "amount": -40.0,
     "notes": "خلاص دفعة (عادية) للتلميذ: آدم طقوقي",
     "payment_id": 330
+  },
+  {
+    "guardian_name": "حياة",
+    "guardian_surname": "جلالي",
+    "phone_number": "99810230",
+    "transaction_date": "2025-12-30 15:36:06",
+    "amount": 180.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
   }
 ]
