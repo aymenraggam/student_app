@@ -1,5 +1,21 @@
 [
   {
+    "id": 91,
+    "day_of_week": "الأحد",
+    "time_slot": "08:00 - 10:00",
+    "educational_level": "2 ث اقتصاد",
+    "class_type": "general",
+    "student_ids": [
+      168,
+      169,
+      180,
+      182,
+      191,
+      192
+    ],
+    "is_makeup": false
+  },
+  {
     "id": 76,
     "day_of_week": "الأحد",
     "time_slot": "10:00 - 12:00",
@@ -542,7 +558,7 @@
   {
     "id": 88,
     "day_of_week": "السبت",
-    "time_slot": "10:00 - 12:00",
+    "time_slot": "19:00 - 21:00",
     "educational_level": "1 ثانوي",
     "class_type": "general",
     "student_ids": [

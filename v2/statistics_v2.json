@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 10555.0,
+    "total_overdue_unpaid_amount": 10455.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -229,12 +229,6 @@
         "student_name": "عائشة جلالي",
         "period": "03/10/2025 إلى 02/11/2025",
         "amount": 30.0
-      },
-      {
-        "student_id": 94,
-        "student_name": "نغم جلالي",
-        "period": "03/10/2025 إلى 02/11/2025",
-        "amount": 100.0
       },
       {
         "student_id": 90,

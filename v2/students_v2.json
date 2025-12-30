@@ -913,15 +913,11 @@
     "phone_number": "97053929",
     "payment_generation_status": "active",
     "payment_count": 4,
-    "unpaid_total": 300.0,
+    "unpaid_total": 200.0,
     "absence_count": [
       "2025-11-01"
     ],
     "unpaid_periods": [
-      {
-        "period": "03/10/2025 إلى 02/11/2025",
-        "amount": 100.0
-      },
       {
         "period": "03/11/2025 إلى 02/12/2025",
         "amount": 100.0
@@ -3726,7 +3722,7 @@
     "phone_number": "97339704",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-10-25",
       "2025-10-30",
@@ -3736,7 +3732,7 @@
     "unpaid_periods": [
       {
         "period": "17/12/2025 إلى 16/01/2026",
-        "amount": 50.0
+        "amount": 100.0
       }
     ],
     "notes": ""
