@@ -139,10 +139,15 @@
     "guardian_full_name": "محرز بلقاسم",
     "phone_number": "98374485",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 0.0,
+    "payment_count": 3,
+    "unpaid_total": 30.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "31/12/2025 إلى 30/01/2026",
+        "amount": 30.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -289,16 +294,12 @@
     "phone_number": "44368490",
     "payment_generation_status": "active",
     "payment_count": 4,
-    "unpaid_total": 150.0,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-11-08",
       "2025-11-29"
     ],
     "unpaid_periods": [
-      {
-        "period": "30/10/2025 إلى 29/11/2025",
-        "amount": 50.0
-      },
       {
         "period": "30/11/2025 إلى 29/12/2025",
         "amount": 50.0
@@ -2572,16 +2573,12 @@
     "phone_number": "96200112",
     "payment_generation_status": "active",
     "payment_count": 6,
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-10-24",
       "2025-11-14"
     ],
     "unpaid_periods": [
-      {
-        "period": "24/11/2025 إلى 23/12/2025",
-        "amount": 100.0
-      },
       {
         "period": "24/12/2025 إلى 23/01/2026",
         "amount": 100.0
@@ -3914,8 +3911,8 @@
     "guardian_full_name": "أحمد كحولي",
     "phone_number": "96084360",
     "payment_generation_status": "active",
-    "payment_count": 5,
-    "unpaid_total": 100.0,
+    "payment_count": 6,
+    "unpaid_total": 150.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -3924,6 +3921,10 @@
       },
       {
         "period": "01/12/2025 إلى 31/12/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "01/01/2026 إلى 31/01/2026",
         "amount": 50.0
       }
     ],
@@ -3939,12 +3940,16 @@
     "guardian_full_name": "مبروكة صالحي",
     "phone_number": "97454029",
     "payment_generation_status": "active",
-    "payment_count": 4,
-    "unpaid_total": 50.0,
+    "payment_count": 5,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "01/12/2025 إلى 31/12/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "01/01/2026 إلى 31/01/2026",
         "amount": 50.0
       }
     ],
@@ -3960,12 +3965,16 @@
     "guardian_full_name": "مبروكة صالحي",
     "phone_number": "97454029",
     "payment_generation_status": "active",
-    "payment_count": 4,
-    "unpaid_total": 50.0,
+    "payment_count": 5,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "01/12/2025 إلى 31/12/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "01/01/2026 إلى 31/01/2026",
         "amount": 50.0
       }
     ],
@@ -4297,12 +4306,16 @@
     "guardian_full_name": "نوال مسعودي",
     "phone_number": "42218267",
     "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 100.0,
+    "payment_count": 7,
+    "unpaid_total": 200.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "01/12/2025 إلى 31/12/2025",
+        "amount": 100.0
+      },
+      {
+        "period": "01/01/2026 إلى 31/01/2026",
         "amount": 100.0
       }
     ],
@@ -4396,12 +4409,16 @@
     "guardian_full_name": "لطفي مسعودي",
     "phone_number": "99166056",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "01/12/2025 إلى 31/12/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "01/01/2026 إلى 31/01/2026",
         "amount": 50.0
       }
     ],
@@ -4458,8 +4475,8 @@
     "guardian_full_name": "قيس مسعودي",
     "phone_number": "90723023",
     "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 80.0,
+    "payment_count": 7,
+    "unpaid_total": 120.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -4468,6 +4485,10 @@
       },
       {
         "period": "01/12/2025 إلى 31/12/2025",
+        "amount": 40.0
+      },
+      {
+        "period": "01/01/2026 إلى 31/01/2026",
         "amount": 40.0
       }
     ],
@@ -4721,14 +4742,9 @@
     "phone_number": "96445731",
     "payment_generation_status": "active",
     "payment_count": 4,
-    "unpaid_total": 40.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "04/12/2025 إلى 03/01/2026",
-        "amount": 40.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -4742,14 +4758,9 @@
     "phone_number": "96445731",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 40.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "04/12/2025 إلى 03/01/2026",
-        "amount": 40.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   }
 ]
