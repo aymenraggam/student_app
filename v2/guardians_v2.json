@@ -17,7 +17,7 @@
       72,
       167
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "355130",
     "credit_balance": 0.0,
     "is_active": true
@@ -96,7 +96,7 @@
     "student_ids": [
       71
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "366830",
     "credit_balance": 0.0,
     "is_active": true
@@ -122,19 +122,6 @@
     "unpaid_total": 350.0,
     "password": "581091",
     "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
-    "guardian_full_name": "بسمة عبيدي",
-    "phone_number": "99722377",
-    "student_ids": [
-      41,
-      101,
-      124
-    ],
-    "unpaid_total": 320.0,
-    "password": "241509",
-    "credit_balance": 10.0,
     "is_active": true
   },
   {
@@ -204,7 +191,7 @@
     "student_ids": [
       140
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "238900",
     "credit_balance": 0.0,
     "is_active": true
@@ -297,7 +284,7 @@
     "student_ids": [
       70
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "password": "517898",
     "credit_balance": 0.0,
     "is_active": true
@@ -321,7 +308,7 @@
       146,
       188
     ],
-    "unpaid_total": 300.0,
+    "unpaid_total": 350.0,
     "password": "987471",
     "credit_balance": 0.0,
     "is_active": true
@@ -862,7 +849,7 @@
       42,
       51
     ],
-    "unpaid_total": 300.0,
+    "unpaid_total": 350.0,
     "password": "601245",
     "credit_balance": 0.0,
     "is_active": true
@@ -1078,7 +1065,7 @@
     "student_ids": [
       183
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "password": "402175",
     "credit_balance": 0.0,
     "is_active": true
