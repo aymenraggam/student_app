@@ -1,5 +1,335 @@
 [
   {
+    "student_id": 19,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 22,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 0,
+    "behavior_score": 2,
+    "total_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 24,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 25,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 29,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 1,
+    "behavior_score": 3,
+    "total_score": 4,
+    "notes": ""
+  },
+  {
+    "student_id": 30,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 70,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 71,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 116,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 146,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 167,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 179,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "total_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 183,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 209,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 60,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 96,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 129,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 159,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 170,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 33,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 34,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "total_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 35,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 36,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 38,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 40,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 72,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 94,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "total_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 121,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 1,
+    "behavior_score": 3,
+    "total_score": 4,
+    "notes": ""
+  },
+  {
+    "student_id": 123,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 131,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "total_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 151,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 162,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 165,
+    "date": "2026-01-02",
+    "subject": "حصة الجمعة",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "total_score": 4,
+    "notes": "تشويش و تهريج"
+  },
+  {
     "student_id": 17,
     "date": "2025-12-02",
     "subject": "حصة الثلاثاء",
