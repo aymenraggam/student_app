@@ -10,8 +10,7 @@
       169,
       180,
       182,
-      191,
-      192
+      191
     ],
     "is_makeup": false
   },
@@ -109,7 +108,6 @@
     "educational_level": "9 أساسي",
     "class_type": "general",
     "student_ids": [
-      58,
       60,
       61,
       96,
@@ -178,8 +176,7 @@
       169,
       180,
       182,
-      191,
-      192
+      191
     ],
     "is_makeup": true,
     "temp_id": 101
@@ -195,8 +192,7 @@
       169,
       180,
       182,
-      191,
-      192
+      191
     ],
     "is_makeup": false
   },
@@ -329,7 +325,6 @@
     "educational_level": "9 أساسي",
     "class_type": "general",
     "student_ids": [
-      58,
       60,
       61,
       96,
@@ -499,7 +494,6 @@
     "educational_level": "9 أساسي",
     "class_type": "general",
     "student_ids": [
-      58,
       60,
       61,
       96,

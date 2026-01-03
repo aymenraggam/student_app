@@ -107,7 +107,7 @@
     "student_ids": [
       22
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "006126",
     "credit_balance": 0.0,
     "is_active": true
@@ -157,7 +157,7 @@
       145,
       151
     ],
-    "unpaid_total": 105.0,
+    "unpaid_total": 155.0,
     "password": "012345",
     "credit_balance": 0.0,
     "is_active": true
@@ -308,7 +308,7 @@
       146,
       188
     ],
-    "unpaid_total": 350.0,
+    "unpaid_total": 400.0,
     "password": "987471",
     "credit_balance": 0.0,
     "is_active": true
@@ -460,7 +460,7 @@
       28,
       37
     ],
-    "unpaid_total": 720.0,
+    "unpaid_total": 810.0,
     "password": "983341",
     "credit_balance": 20.0,
     "is_active": true
@@ -686,7 +686,7 @@
     "student_ids": [
       23
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "642190",
     "credit_balance": 0.0,
     "is_active": true
@@ -708,10 +708,9 @@
     "phone_number": "93541955",
     "student_ids": [
       24,
-      25,
-      58
+      25
     ],
-    "unpaid_total": 260.0,
+    "unpaid_total": 130.0,
     "password": "336041",
     "credit_balance": 0.0,
     "is_active": true
@@ -780,7 +779,7 @@
     "student_ids": [
       31
     ],
-    "unpaid_total": 40.0,
+    "unpaid_total": 80.0,
     "password": "748320",
     "credit_balance": 0.0,
     "is_active": true
@@ -882,7 +881,7 @@
     "student_ids": [
       94
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 300.0,
     "password": "327840",
     "credit_balance": 0.0,
     "is_active": true
@@ -1184,17 +1183,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "محمد الصغير منور",
-    "phone_number": "96187349",
-    "student_ids": [
-      192
-    ],
-    "unpaid_total": 60.0,
-    "password": "505041",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "محسن قادري",
     "phone_number": "97339704",
     "student_ids": [
@@ -1278,7 +1266,7 @@
     "student_ids": [
       208
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "264940",
     "credit_balance": 0.0,
     "is_active": true

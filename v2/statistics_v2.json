@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 10450.0,
+    "total_overdue_unpaid_amount": 10700.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -789,12 +789,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 192,
-        "student_name": "نورس منور",
-        "period": "20/11/2025 إلى 19/12/2025",
-        "amount": 30.0
-      },
-      {
         "student_id": 193,
         "student_name": "حمزة جلالي",
         "period": "07/11/2025 إلى 06/12/2025",
@@ -1065,12 +1059,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 24,
-        "student_name": "رنيم قادري",
-        "period": "26/11/2025 إلى 25/12/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 25,
         "student_name": "رؤى قادري",
         "period": "26/11/2025 إلى 25/12/2025",
@@ -1311,12 +1299,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 208,
-        "student_name": "فرح مسعودي",
-        "period": "01/12/2025 إلى 31/12/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 42,
         "student_name": "ميسان علوي",
         "period": "02/12/2025 إلى 01/01/2026",
@@ -1333,16 +1315,64 @@
         "student_name": "رنيم جلالي",
         "period": "02/12/2025 إلى 01/01/2026",
         "amount": 50.0
+      },
+      {
+        "student_id": 4,
+        "student_name": "آدم جلالي",
+        "period": "03/12/2025 إلى 02/01/2026",
+        "amount": 30.0
+      },
+      {
+        "student_id": 11,
+        "student_name": "فاطمة جلالي",
+        "period": "03/12/2025 إلى 02/01/2026",
+        "amount": 30.0
+      },
+      {
+        "student_id": 15,
+        "student_name": "عائشة جلالي",
+        "period": "03/12/2025 إلى 02/01/2026",
+        "amount": 30.0
+      },
+      {
+        "student_id": 22,
+        "student_name": "فرح قادري",
+        "period": "03/12/2025 إلى 02/01/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 23,
+        "student_name": "تقوى شرف الدين",
+        "period": "03/12/2025 إلى 02/01/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 31,
+        "student_name": "سيف زريبي",
+        "period": "03/12/2025 إلى 02/01/2026",
+        "amount": 40.0
+      },
+      {
+        "student_id": 94,
+        "student_name": "نغم جلالي",
+        "period": "03/12/2025 إلى 02/01/2026",
+        "amount": 100.0
+      },
+      {
+        "student_id": 146,
+        "student_name": "مرام جلالي",
+        "period": "03/12/2025 إلى 02/01/2026",
+        "amount": 50.0
       }
     ],
-    "total_active_students": 166,
+    "total_active_students": 164,
     "students_per_level": {
       "2 ث علوم": 6,
-      "9 أساسي": 12,
+      "9 أساسي": 11,
       "5 ابتدائي": 12,
       "4 ابتدائي": 11,
       "2 ابتدائي": 9,
-      "2 ث اقتصاد": 6,
+      "2 ث اقتصاد": 5,
       "3 ابتدائي": 10,
       "1 ثانوي": 19,
       "8 أساسي": 24,
