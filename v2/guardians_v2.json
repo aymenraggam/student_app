@@ -1126,18 +1126,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "وحيدة كدوسي",
-    "phone_number": "94273454",
-    "student_ids": [
-      185,
-      198
-    ],
-    "unpaid_total": 200.0,
-    "password": "092083",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "القادري جلالي",
     "phone_number": "24333553",
     "student_ids": [
@@ -1201,17 +1189,6 @@
     ],
     "unpaid_total": 100.0,
     "password": "005114",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
-    "guardian_full_name": "بوزيان جوادي",
-    "phone_number": "95787014",
-    "student_ids": [
-      197
-    ],
-    "unpaid_total": 100.0,
-    "password": "615241",
     "credit_balance": 0.0,
     "is_active": true
   },

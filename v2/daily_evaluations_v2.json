@@ -140,6 +140,216 @@
     "notes": ""
   },
   {
+    "student_id": 33,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 7,
+    "notes": ""
+  },
+  {
+    "student_id": 34,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 7,
+    "notes": ""
+  },
+  {
+    "student_id": 35,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 7,
+    "notes": ""
+  },
+  {
+    "student_id": 38,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 7,
+    "notes": ""
+  },
+  {
+    "student_id": 40,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 0,
+    "total_score": 1,
+    "notes": ""
+  },
+  {
+    "student_id": 72,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 7,
+    "notes": ""
+  },
+  {
+    "student_id": 94,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "total_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 121,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 123,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 7,
+    "notes": ""
+  },
+  {
+    "student_id": 131,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 1,
+    "behavior_score": 2,
+    "total_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 151,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 7,
+    "notes": ""
+  },
+  {
+    "student_id": 162,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 164,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 165,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 0,
+    "total_score": 1,
+    "notes": ""
+  },
+  {
+    "student_id": 62,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 7,
+    "notes": ""
+  },
+  {
+    "student_id": 64,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 65,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 114,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 139,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 142,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 196,
+    "date": "2026-01-03",
+    "subject": "حصة السبت",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
     "student_id": 19,
     "date": "2026-01-02",
     "subject": "حصة الجمعة",
