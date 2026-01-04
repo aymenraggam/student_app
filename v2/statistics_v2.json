@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 10550.0,
+    "total_overdue_unpaid_amount": 10510.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -429,12 +429,6 @@
         "amount": 30.0
       },
       {
-        "student_id": 29,
-        "student_name": "أميمة طقوقي",
-        "period": "25/10/2025 إلى 24/11/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 36,
         "student_name": "هيثم قادري",
         "period": "25/10/2025 إلى 24/11/2025",
@@ -469,12 +463,6 @@
         "student_name": "آلاء قادري",
         "period": "27/10/2025 إلى 26/11/2025",
         "amount": 40.0
-      },
-      {
-        "student_id": 132,
-        "student_name": "وجدان زارعي",
-        "period": "27/10/2025 إلى 26/11/2025",
-        "amount": 50.0
       },
       {
         "student_id": 133,
@@ -655,12 +643,6 @@
         "student_name": "محمد أمين كدوسي",
         "period": "10/11/2025 إلى 09/12/2025",
         "amount": 50.0
-      },
-      {
-        "student_id": 134,
-        "student_name": "محمد عزيز عامري",
-        "period": "09/11/2025 إلى 08/12/2025",
-        "amount": 40.0
       },
       {
         "student_id": 186,
@@ -1113,18 +1095,6 @@
         "amount": 40.0
       },
       {
-        "student_id": 132,
-        "student_name": "وجدان زارعي",
-        "period": "27/11/2025 إلى 26/12/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 133,
-        "student_name": "ريان عامري",
-        "period": "27/11/2025 إلى 26/12/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 136,
         "student_name": "ليان بلقاسم",
         "period": "27/11/2025 إلى 26/12/2025",
@@ -1344,6 +1314,30 @@
         "student_id": 146,
         "student_name": "مرام جلالي",
         "period": "03/12/2025 إلى 02/01/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 152,
+        "student_name": "سيف كدوسي",
+        "period": "04/12/2025 إلى 03/01/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 155,
+        "student_name": "أريج عوادي",
+        "period": "04/12/2025 إلى 03/01/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 204,
+        "student_name": "مجد ضيفي",
+        "period": "04/12/2025 إلى 03/01/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 134,
+        "student_name": "محمد عزيز عامري",
+        "period": "24/11/2025 إلى 23/12/2025",
         "amount": 50.0
       }
     ],
