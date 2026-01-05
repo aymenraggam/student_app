@@ -2960,6 +2960,13 @@
         "amount": 40.0,
         "received_date": null,
         "notes": "__RESUME_DAY:5__"
+      },
+      {
+        "period_formatted": "05/01/2026 إلى 04/02/2026",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null,
+        "notes": "__RESUME_DAY:5__"
       }
     ]
   },
@@ -5266,6 +5273,13 @@
       },
       {
         "period_formatted": "05/12/2025 إلى 04/01/2026",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null,
+        "notes": ""
+      },
+      {
+        "period_formatted": "05/01/2026 إلى 04/02/2026",
         "status": "غير خالص",
         "amount": 30.0,
         "received_date": null,

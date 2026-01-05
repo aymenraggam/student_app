@@ -1038,8 +1038,8 @@
     "guardian_full_name": "فتحي حاجي",
     "phone_number": "42222777",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 60.0,
+    "payment_count": 3,
+    "unpaid_total": 90.0,
     "absence_count": [
       "2026-01-04"
     ],
@@ -1050,6 +1050,10 @@
       },
       {
         "period": "05/12/2025 إلى 04/01/2026",
+        "amount": 30.0
+      },
+      {
+        "period": "05/01/2026 إلى 04/02/2026",
         "amount": 30.0
       }
     ],
@@ -2088,8 +2092,8 @@
     "guardian_full_name": "منى صالحي",
     "phone_number": "55300723",
     "payment_generation_status": "active",
-    "payment_count": 3,
-    "unpaid_total": 120.0,
+    "payment_count": 4,
+    "unpaid_total": 160.0,
     "absence_count": [
       "2025-10-17",
       "2025-10-24",
@@ -2116,6 +2120,10 @@
       },
       {
         "period": "05/12/2025 إلى 04/01/2026",
+        "amount": 40.0
+      },
+      {
+        "period": "05/01/2026 إلى 04/02/2026",
         "amount": 40.0
       }
     ],
