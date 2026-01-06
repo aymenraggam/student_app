@@ -3222,7 +3222,7 @@
     "phone_number": "90485808",
     "payment_generation_status": "active",
     "payment_count": 5,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [
       "2025-09-28",
       "2025-10-02",
@@ -3233,11 +3233,7 @@
     ],
     "unpaid_periods": [
       {
-        "period": "09/11/2025 إلى 08/12/2025",
-        "amount": 50.0
-      },
-      {
-        "period": "09/12/2025 إلى 08/01/2026",
+        "period": "23/12/2025 إلى 22/01/2026",
         "amount": 50.0
       }
     ],
@@ -3873,14 +3869,18 @@
     "guardian_full_name": "صافيا صالحي",
     "phone_number": "92037064",
     "payment_generation_status": "active",
-    "payment_count": 4,
-    "unpaid_total": 40.0,
+    "payment_count": 5,
+    "unpaid_total": 80.0,
     "absence_count": [
       "2025-10-05"
     ],
     "unpaid_periods": [
       {
         "period": "06/12/2025 إلى 05/01/2026",
+        "amount": 40.0
+      },
+      {
+        "period": "06/01/2026 إلى 05/02/2026",
         "amount": 40.0
       }
     ],
