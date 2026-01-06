@@ -235,10 +235,9 @@
     "guardian_full_name": "خير الدين قادري",
     "phone_number": "98350492",
     "student_ids": [
-      113,
       131
     ],
-    "unpaid_total": 80.0,
+    "unpaid_total": 40.0,
     "password": "285800",
     "credit_balance": 0.0,
     "is_active": true
@@ -947,17 +946,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "نور الدين جلالي",
-    "phone_number": "21000887",
-    "student_ids": [
-      88
-    ],
-    "unpaid_total": 100.0,
-    "password": "879779",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "نورة عبد اللاوي",
     "phone_number": "29164626",
     "student_ids": [
@@ -1111,17 +1099,6 @@
     ],
     "unpaid_total": 100.0,
     "password": "641984",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
-    "guardian_full_name": "مبارك ميساوي",
-    "phone_number": "99744475",
-    "student_ids": [
-      186
-    ],
-    "unpaid_total": 150.0,
-    "password": "867676",
     "credit_balance": 0.0,
     "is_active": true
   },
