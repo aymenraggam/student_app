@@ -517,8 +517,8 @@
     "guardian_full_name": "راضية جلالي",
     "phone_number": "00000000",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 100.0,
+    "payment_count": 3,
+    "unpaid_total": 150.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -527,6 +527,10 @@
       },
       {
         "period": "07/12/2025 إلى 06/01/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "07/01/2026 إلى 06/02/2026",
         "amount": 50.0
       }
     ],
@@ -763,8 +767,8 @@
     "guardian_full_name": "محرزية كيّال",
     "phone_number": "41518984",
     "payment_generation_status": "active",
-    "payment_count": 3,
-    "unpaid_total": 150.0,
+    "payment_count": 4,
+    "unpaid_total": 200.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -777,6 +781,10 @@
       },
       {
         "period": "07/12/2025 إلى 06/01/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "07/01/2026 إلى 06/02/2026",
         "amount": 50.0
       }
     ],
@@ -1011,15 +1019,11 @@
     "phone_number": "42222777",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 90.0,
+    "unpaid_total": 60.0,
     "absence_count": [
       "2026-01-04"
     ],
     "unpaid_periods": [
-      {
-        "period": "05/11/2025 إلى 04/12/2025",
-        "amount": 30.0
-      },
       {
         "period": "05/12/2025 إلى 04/01/2026",
         "amount": 30.0
@@ -1114,8 +1118,8 @@
     "guardian_full_name": "ساسية جلالي",
     "phone_number": "22438703",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 100.0,
+    "payment_count": 3,
+    "unpaid_total": 150.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -1124,6 +1128,10 @@
       },
       {
         "period": "07/12/2025 إلى 06/01/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "07/01/2026 إلى 06/02/2026",
         "amount": 50.0
       }
     ],
@@ -3133,7 +3141,7 @@
         "amount": 100.0
       },
       {
-        "period": "13/12/2025 إلى 12/01/2026",
+        "period": "27/12/2025 إلى 26/01/2026",
         "amount": 100.0
       }
     ],
@@ -3175,13 +3183,18 @@
     "guardian_full_name": "حمادي عيوني",
     "phone_number": "97787765",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 0.0,
+    "payment_count": 3,
+    "unpaid_total": 50.0,
     "absence_count": [
       "2025-11-14",
       "2025-12-06"
     ],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "07/01/2026 إلى 06/02/2026",
+        "amount": 50.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -4490,12 +4503,16 @@
     "guardian_full_name": "محمد بوكدوس",
     "phone_number": "95361368",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "07/12/2025 إلى 06/01/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "07/01/2026 إلى 06/02/2026",
         "amount": 50.0
       }
     ],
