@@ -1,6 +1,116 @@
 [
   {
     "student_id": 62,
+    "date": "2026-01-08",
+    "subject": "حصة الخميس",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 64,
+    "date": "2026-01-08",
+    "subject": "حصة الخميس",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "total_score": 4,
+    "notes": ""
+  },
+  {
+    "student_id": 65,
+    "date": "2026-01-08",
+    "subject": "حصة الخميس",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 66,
+    "date": "2026-01-08",
+    "subject": "حصة الخميس",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "total_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 81,
+    "date": "2026-01-08",
+    "subject": "حصة الخميس",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 114,
+    "date": "2026-01-08",
+    "subject": "حصة الخميس",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "total_score": 4,
+    "notes": ""
+  },
+  {
+    "student_id": 139,
+    "date": "2026-01-08",
+    "subject": "حصة الخميس",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "total_score": 4,
+    "notes": ""
+  },
+  {
+    "student_id": 142,
+    "date": "2026-01-08",
+    "subject": "حصة الخميس",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "total_score": 4,
+    "notes": ""
+  },
+  {
+    "student_id": 161,
+    "date": "2026-01-08",
+    "subject": "حصة الخميس",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 4,
+    "notes": ""
+  },
+  {
+    "student_id": 178,
+    "date": "2026-01-08",
+    "subject": "حصة الخميس",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 4,
+    "notes": ""
+  },
+  {
+    "student_id": 196,
+    "date": "2026-01-08",
+    "subject": "حصة الخميس",
+    "homework_status": "✗ لم يتم إنجازه",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 4,
+    "notes": ""
+  },
+  {
+    "student_id": 62,
     "date": "2026-01-06",
     "subject": "حصة الثلاثاء",
     "homework_status": "✓ تم إنجازه",
