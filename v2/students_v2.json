@@ -65,8 +65,8 @@
     "guardian_full_name": "سالمة قادري",
     "phone_number": "94164277",
     "payment_generation_status": "active",
-    "payment_count": 4,
-    "unpaid_total": 100.0,
+    "payment_count": 5,
+    "unpaid_total": 150.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -75,6 +75,10 @@
       },
       {
         "period": "08/12/2025 إلى 07/01/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "08/01/2026 إلى 07/02/2026",
         "amount": 50.0
       }
     ],
@@ -3157,8 +3161,8 @@
     "guardian_full_name": "مريم سليمي",
     "phone_number": "99217475",
     "payment_generation_status": "active",
-    "payment_count": 5,
-    "unpaid_total": 100.0,
+    "payment_count": 6,
+    "unpaid_total": 200.0,
     "absence_count": [
       "2025-10-31",
       "2025-11-01",
@@ -3168,6 +3172,10 @@
     "unpaid_periods": [
       {
         "period": "08/12/2025 إلى 07/01/2026",
+        "amount": 100.0
+      },
+      {
+        "period": "08/01/2026 إلى 07/02/2026",
         "amount": 100.0
       }
     ],
@@ -4045,8 +4053,8 @@
     "guardian_full_name": "عبد القادر كدوسي",
     "phone_number": "55644177",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 100.0,
+    "payment_count": 1,
+    "unpaid_total": 50.0,
     "absence_count": [
       "2025-11-29",
       "2025-12-06",
@@ -4057,10 +4065,6 @@
     "unpaid_periods": [
       {
         "period": "28/11/2025 إلى 27/12/2025",
-        "amount": 50.0
-      },
-      {
-        "period": "28/12/2025 إلى 27/01/2026",
         "amount": 50.0
       }
     ],

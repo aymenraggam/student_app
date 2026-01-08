@@ -430,5 +430,32 @@
     "amount": -40.0,
     "notes": "خلاص دفعة (عادية) للتلميذ: مريم صدقي",
     "payment_id": 677
+  },
+  {
+    "guardian_name": "بسمة",
+    "guardian_surname": "عبيدي",
+    "phone_number": "99722377",
+    "transaction_date": "2026-01-08 19:06:28",
+    "amount": 60.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "بسمة",
+    "guardian_surname": "عبيدي",
+    "phone_number": "99722377",
+    "transaction_date": "2026-01-08 19:06:31",
+    "amount": -40.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: فاطمة صدقي",
+    "payment_id": 777
+  },
+  {
+    "guardian_name": "بسمة",
+    "guardian_surname": "عبيدي",
+    "phone_number": "99722377",
+    "transaction_date": "2026-01-08 19:06:31",
+    "amount": -30.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: أحمد صدقي",
+    "payment_id": 782
   }
 ]

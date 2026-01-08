@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 10740.0,
+    "total_overdue_unpaid_amount": 10820.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -1119,12 +1119,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 124,
-        "student_name": "فاطمة صدقي",
-        "period": "16/11/2025 إلى 15/12/2025",
-        "amount": 40.0
-      },
-      {
         "student_id": 30,
         "student_name": "يحي مسعودي",
         "period": "29/11/2025 إلى 28/12/2025",
@@ -1141,12 +1135,6 @@
         "student_name": "علي عيوني",
         "period": "29/11/2025 إلى 28/12/2025",
         "amount": 40.0
-      },
-      {
-        "student_id": 41,
-        "student_name": "أحمد صدقي",
-        "period": "26/11/2025 إلى 25/12/2025",
-        "amount": 30.0
       },
       {
         "student_id": 128,
@@ -1359,10 +1347,22 @@
         "amount": 50.0
       },
       {
+        "student_id": 56,
+        "student_name": "إلياس أم هاني",
+        "period": "08/12/2025 إلى 07/01/2026",
+        "amount": 50.0
+      },
+      {
         "student_id": 209,
         "student_name": "رباب هاني",
         "period": "07/12/2025 إلى 06/01/2026",
         "amount": 50.0
+      },
+      {
+        "student_id": 54,
+        "student_name": "ملاك عيوني",
+        "period": "08/12/2025 إلى 07/01/2026",
+        "amount": 100.0
       },
       {
         "student_id": 134,
