@@ -37,11 +37,13 @@
       116,
       146,
       152,
+      157,
       158,
       167,
       177,
       179,
       183,
+      200,
       209
     ],
     "is_makeup": false
@@ -95,6 +97,7 @@
     "educational_level": "9 أساسي",
     "class_type": "general",
     "student_ids": [
+      58,
       60,
       61,
       96,
@@ -309,11 +312,13 @@
       116,
       146,
       152,
+      157,
       158,
       167,
       177,
       179,
       183,
+      200,
       209
     ],
     "is_makeup": false
@@ -325,6 +330,7 @@
     "educational_level": "9 أساسي",
     "class_type": "general",
     "student_ids": [
+      58,
       60,
       61,
       96,
@@ -479,11 +485,13 @@
       116,
       146,
       152,
+      157,
       158,
       167,
       177,
       179,
       183,
+      200,
       209
     ],
     "is_makeup": false
@@ -495,6 +503,7 @@
     "educational_level": "9 أساسي",
     "class_type": "general",
     "student_ids": [
+      58,
       60,
       61,
       96,
