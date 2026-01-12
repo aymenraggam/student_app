@@ -2596,20 +2596,11 @@
     "phone_number": "97915241",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 60.0,
+    "unpaid_total": 0.0,
     "absence_count": [
       "2026-01-04"
     ],
-    "unpaid_periods": [
-      {
-        "period": "19/11/2025 إلى 18/12/2025",
-        "amount": 30.0
-      },
-      {
-        "period": "19/12/2025 إلى 18/01/2026",
-        "amount": 30.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -4293,17 +4284,13 @@
     "entry_date": "2025-07-25",
     "guardian_full_name": "لطيّف كرمودي",
     "phone_number": "97636826",
-    "payment_generation_status": "active",
-    "payment_count": 3,
-    "unpaid_total": 100.0,
+    "payment_generation_status": "suspended",
+    "payment_count": 2,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "25/11/2025 إلى 24/12/2025",
-        "amount": 50.0
-      },
-      {
-        "period": "25/12/2025 إلى 24/01/2026",
         "amount": 50.0
       }
     ],
