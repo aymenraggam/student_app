@@ -559,7 +559,8 @@
     "unpaid_total": 150.0,
     "absence_count": [
       "2025-10-19",
-      "2026-01-10"
+      "2026-01-10",
+      "2026-01-13"
     ],
     "unpaid_periods": [
       {
@@ -1110,10 +1111,15 @@
     "guardian_full_name": "أحمد خليفي",
     "phone_number": "29069649",
     "payment_generation_status": "active",
-    "payment_count": 5,
-    "unpaid_total": 0.0,
+    "payment_count": 6,
+    "unpaid_total": 50.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "13/01/2026 إلى 12/02/2026",
+        "amount": 50.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -2614,7 +2620,7 @@
     "phone_number": "96500661",
     "payment_generation_status": "active",
     "payment_count": 4,
-    "unpaid_total": 200.0,
+    "unpaid_total": 50.0,
     "absence_count": [
       "2025-10-19",
       "2025-10-25",
@@ -2629,12 +2635,8 @@
     ],
     "unpaid_periods": [
       {
-        "period": "30/11/2025 إلى 29/12/2025",
-        "amount": 100.0
-      },
-      {
         "period": "30/12/2025 إلى 29/01/2026",
-        "amount": 100.0
+        "amount": 50.0
       }
     ],
     "notes": ""
@@ -3171,7 +3173,8 @@
     "absence_count": [
       "2026-01-03",
       "2026-01-08",
-      "2026-01-10"
+      "2026-01-10",
+      "2026-01-13"
     ],
     "unpaid_periods": [
       {
