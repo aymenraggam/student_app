@@ -1182,17 +1182,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "مبارك ميساوي",
-    "phone_number": "99744475",
-    "student_ids": [
-      186
-    ],
-    "unpaid_total": 100.0,
-    "password": "867676",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "حورية كدوسي",
     "phone_number": "92820115",
     "student_ids": [
@@ -1322,6 +1311,17 @@
     ],
     "unpaid_total": 50.0,
     "password": "814043",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "مبارك ميساوي",
+    "phone_number": "99754475",
+    "student_ids": [
+      186
+    ],
+    "unpaid_total": 100.0,
+    "password": "269486",
     "credit_balance": 0.0,
     "is_active": true
   }
