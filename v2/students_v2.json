@@ -176,7 +176,8 @@
     "unpaid_total": 40.0,
     "absence_count": [
       "2026-01-10",
-      "2026-01-11"
+      "2026-01-11",
+      "2026-01-16"
     ],
     "unpaid_periods": [
       {
@@ -811,7 +812,8 @@
       "2026-01-04",
       "2026-01-09",
       "2026-01-10",
-      "2026-01-11"
+      "2026-01-11",
+      "2026-01-16"
     ],
     "unpaid_periods": [
       {
@@ -1044,36 +1046,6 @@
     "notes": ""
   },
   {
-    "id": 200,
-    "name": "أميمة",
-    "surname": "حافظ",
-    "educational_level": "7 أساسي",
-    "institution": "المدرسة الاعدادية بالرقاب",
-    "entry_date": "2025-11-28",
-    "guardian_full_name": "صالح حافظ",
-    "phone_number": "97067743",
-    "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 100.0,
-    "absence_count": [
-      "2026-01-02",
-      "2026-01-03",
-      "2026-01-04",
-      "2026-01-11"
-    ],
-    "unpaid_periods": [
-      {
-        "period": "28/11/2025 إلى 27/12/2025",
-        "amount": 50.0
-      },
-      {
-        "period": "10/01/2026 إلى 09/02/2026",
-        "amount": 50.0
-      }
-    ],
-    "notes": ""
-  },
-  {
     "id": 167,
     "name": "أيهم",
     "surname": "خليفي",
@@ -1161,9 +1133,9 @@
     "entry_date": "2025-11-23",
     "guardian_full_name": "راقية زارعي",
     "phone_number": "55284433",
-    "payment_generation_status": "suspended",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_generation_status": "active",
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-11-28",
       "2025-11-30",
@@ -1175,6 +1147,10 @@
     "unpaid_periods": [
       {
         "period": "23/11/2025 إلى 22/12/2025",
+        "amount": 50.0
+      },
+      {
+        "period": "16/01/2026 إلى 15/02/2026",
         "amount": 50.0
       }
     ],
@@ -1462,7 +1438,8 @@
       "2026-01-02",
       "2026-01-04",
       "2026-01-10",
-      "2026-01-11"
+      "2026-01-11",
+      "2026-01-16"
     ],
     "unpaid_periods": [
       {
@@ -1612,7 +1589,8 @@
       "2025-11-09",
       "2025-11-21",
       "2025-11-30",
-      "2026-01-02"
+      "2026-01-02",
+      "2026-01-16"
     ],
     "unpaid_periods": [
       {
@@ -1972,7 +1950,8 @@
       "2026-01-02",
       "2026-01-03",
       "2026-01-04",
-      "2026-01-11"
+      "2026-01-11",
+      "2026-01-16"
     ],
     "unpaid_periods": [
       {
@@ -2325,7 +2304,9 @@
     "payment_generation_status": "active",
     "payment_count": 4,
     "unpaid_total": 100.0,
-    "absence_count": [],
+    "absence_count": [
+      "2026-01-16"
+    ],
     "unpaid_periods": [
       {
         "period": "26/11/2025 إلى 25/12/2025",
@@ -2725,7 +2706,8 @@
       "2025-10-31",
       "2025-11-01",
       "2026-01-02",
-      "2026-01-03"
+      "2026-01-03",
+      "2026-01-16"
     ],
     "unpaid_periods": [
       {
@@ -3111,7 +3093,8 @@
       "2026-01-04",
       "2026-01-09",
       "2026-01-10",
-      "2026-01-11"
+      "2026-01-11",
+      "2026-01-16"
     ],
     "unpaid_periods": [
       {
@@ -3201,7 +3184,7 @@
     "phone_number": "52446848",
     "payment_generation_status": "active",
     "payment_count": 5,
-    "unpaid_total": 300.0,
+    "unpaid_total": 200.0,
     "absence_count": [
       "2025-09-27",
       "2025-10-30",
@@ -3212,10 +3195,6 @@
       "2026-01-10"
     ],
     "unpaid_periods": [
-      {
-        "period": "13/10/2025 إلى 12/11/2025",
-        "amount": 100.0
-      },
       {
         "period": "13/11/2025 إلى 12/12/2025",
         "amount": 100.0
@@ -3303,6 +3282,48 @@
     "notes": ""
   },
   {
+    "id": 118,
+    "name": "آية",
+    "surname": "فالحي",
+    "educational_level": "9 أساسي",
+    "institution": "المدرسة الاعدادية بالرقاب",
+    "entry_date": "2025-09-26",
+    "guardian_full_name": "أحلام كدوسي",
+    "phone_number": "94102027",
+    "payment_generation_status": "active",
+    "payment_count": 2,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "16/01/2026 إلى 15/02/2026",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 117,
+    "name": "عزيز",
+    "surname": "فالحي",
+    "educational_level": "9 أساسي",
+    "institution": "المدرسة الاعدادية بالرقاب",
+    "entry_date": "2025-09-26",
+    "guardian_full_name": "أحلام كدوسي",
+    "phone_number": "94102027",
+    "payment_generation_status": "active",
+    "payment_count": 2,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "16/01/2026 إلى 15/02/2026",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 207,
     "name": "لجين",
     "surname": "فالحي",
@@ -3342,13 +3363,9 @@
     "phone_number": "99479759",
     "payment_generation_status": "active",
     "payment_count": 4,
-    "unpaid_total": 120.0,
+    "unpaid_total": 80.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "27/10/2025 إلى 26/11/2025",
-        "amount": 40.0
-      },
       {
         "period": "27/11/2025 إلى 26/12/2025",
         "amount": 40.0
@@ -3410,16 +3427,12 @@
     "phone_number": "93541955",
     "payment_generation_status": "active",
     "payment_count": 5,
-    "unpaid_total": 80.0,
+    "unpaid_total": 40.0,
     "absence_count": [
       "2025-11-15",
       "2026-01-11"
     ],
     "unpaid_periods": [
-      {
-        "period": "26/11/2025 إلى 25/12/2025",
-        "amount": 40.0
-      },
       {
         "period": "26/12/2025 إلى 25/01/2026",
         "amount": 40.0
@@ -3445,7 +3458,8 @@
       "2025-12-06",
       "2025-12-07",
       "2026-01-09",
-      "2026-01-11"
+      "2026-01-11",
+      "2026-01-16"
     ],
     "unpaid_periods": [
       {
@@ -3562,7 +3576,8 @@
       "2025-11-22",
       "2025-11-23",
       "2026-01-03",
-      "2026-01-04"
+      "2026-01-04",
+      "2026-01-16"
     ],
     "unpaid_periods": [
       {
@@ -3617,7 +3632,7 @@
     "phone_number": "93541955",
     "payment_generation_status": "active",
     "payment_count": 5,
-    "unpaid_total": 80.0,
+    "unpaid_total": 40.0,
     "absence_count": [
       "2025-10-24",
       "2025-11-16",
@@ -3627,10 +3642,6 @@
       "2026-01-11"
     ],
     "unpaid_periods": [
-      {
-        "period": "09/11/2025 إلى 08/12/2025",
-        "amount": 40.0
-      },
       {
         "period": "10/01/2026 إلى 09/02/2026",
         "amount": 40.0
@@ -3675,15 +3686,11 @@
     "phone_number": "99479759",
     "payment_generation_status": "active",
     "payment_count": 6,
-    "unpaid_total": 120.0,
+    "unpaid_total": 80.0,
     "absence_count": [
       "2026-01-03"
     ],
     "unpaid_periods": [
-      {
-        "period": "25/10/2025 إلى 24/11/2025",
-        "amount": 40.0
-      },
       {
         "period": "25/11/2025 إلى 24/12/2025",
         "amount": 40.0
@@ -3906,7 +3913,8 @@
       "2026-01-02",
       "2026-01-09",
       "2026-01-10",
-      "2026-01-11"
+      "2026-01-11",
+      "2026-01-16"
     ],
     "unpaid_periods": [
       {
@@ -3931,17 +3939,9 @@
     "phone_number": "96084360",
     "payment_generation_status": "active",
     "payment_count": 6,
-    "unpaid_total": 150.0,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "01/11/2025 إلى 30/11/2025",
-        "amount": 50.0
-      },
-      {
-        "period": "01/12/2025 إلى 31/12/2025",
-        "amount": 50.0
-      },
       {
         "period": "01/01/2026 إلى 31/01/2026",
         "amount": 50.0
@@ -4062,8 +4062,8 @@
     "guardian_full_name": "سناء كداشي",
     "phone_number": "25790709",
     "payment_generation_status": "active",
-    "payment_count": 4,
-    "unpaid_total": 150.0,
+    "payment_count": 5,
+    "unpaid_total": 200.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -4076,6 +4076,10 @@
       },
       {
         "period": "16/12/2025 إلى 15/01/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "16/01/2026 إلى 15/02/2026",
         "amount": 50.0
       }
     ],
@@ -4092,13 +4096,9 @@
     "phone_number": "92451382",
     "payment_generation_status": "active",
     "payment_count": 5,
-    "unpaid_total": 60.0,
+    "unpaid_total": 30.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "15/12/2025 إلى 14/01/2026",
-        "amount": 30.0
-      },
       {
         "period": "15/01/2026 إلى 14/02/2026",
         "amount": 30.0
@@ -4132,7 +4132,8 @@
       "2026-01-02",
       "2026-01-03",
       "2026-01-04",
-      "2026-01-10"
+      "2026-01-10",
+      "2026-01-16"
     ],
     "unpaid_periods": [
       {
@@ -4165,14 +4166,9 @@
     "phone_number": "92451382",
     "payment_generation_status": "active",
     "payment_count": 5,
-    "unpaid_total": 30.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "25/12/2025 إلى 24/01/2026",
-        "amount": 30.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -4220,7 +4216,8 @@
       "2025-11-30",
       "2026-01-02",
       "2026-01-09",
-      "2026-01-11"
+      "2026-01-11",
+      "2026-01-16"
     ],
     "unpaid_periods": [
       {
