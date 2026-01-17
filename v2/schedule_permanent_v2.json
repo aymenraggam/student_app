@@ -3,21 +3,6 @@
     "id": 91,
     "day_of_week": "الأحد",
     "time_slot": "08:00 - 10:00",
-    "educational_level": "2 ث اقتصاد",
-    "class_type": "general",
-    "student_ids": [
-      168,
-      169,
-      180,
-      182,
-      191
-    ],
-    "is_makeup": false
-  },
-  {
-    "id": 76,
-    "day_of_week": "الأحد",
-    "time_slot": "10:00 - 12:00",
     "educational_level": "7 أساسي",
     "class_type": "general",
     "student_ids": [
@@ -44,7 +29,23 @@
       179,
       183,
       195,
-      209
+      209,
+      210
+    ],
+    "is_makeup": false
+  },
+  {
+    "id": 76,
+    "day_of_week": "الأحد",
+    "time_slot": "10:00 - 12:00",
+    "educational_level": "2 ث اقتصاد",
+    "class_type": "general",
+    "student_ids": [
+      168,
+      169,
+      180,
+      182,
+      191
     ],
     "is_makeup": false
   },
@@ -317,7 +318,8 @@
       179,
       183,
       195,
-      209
+      209,
+      210
     ],
     "is_makeup": false
   },
@@ -488,7 +490,8 @@
       179,
       183,
       195,
-      209
+      209,
+      210
     ],
     "is_makeup": false
   },
