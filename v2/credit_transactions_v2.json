@@ -457,5 +457,32 @@
     "amount": -30.0,
     "notes": "خلاص دفعة (عادية) للتلميذ: أحمد صدقي",
     "payment_id": 782
+  },
+  {
+    "guardian_name": "صافيا",
+    "guardian_surname": "صالحي",
+    "phone_number": "92037064",
+    "transaction_date": "2026-01-18 19:12:47",
+    "amount": 100.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "صافيا",
+    "guardian_surname": "صالحي",
+    "phone_number": "92037064",
+    "transaction_date": "2026-01-18 19:12:49",
+    "amount": -40.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: حمدي كداشي",
+    "payment_id": 849
+  },
+  {
+    "guardian_name": "صافيا",
+    "guardian_surname": "صالحي",
+    "phone_number": "92037064",
+    "transaction_date": "2026-01-18 19:12:49",
+    "amount": -40.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: حسّان كداشي",
+    "payment_id": 837
   }
 ]

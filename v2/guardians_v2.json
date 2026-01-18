@@ -28,7 +28,7 @@
     "student_ids": [
       175
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "945351",
     "credit_balance": 0.0,
     "is_active": true
@@ -331,7 +331,7 @@
       146,
       188
     ],
-    "unpaid_total": 450.0,
+    "unpaid_total": 400.0,
     "password": "987471",
     "credit_balance": 0.0,
     "is_active": true
@@ -421,9 +421,9 @@
       65,
       96
     ],
-    "unpaid_total": 160.0,
+    "unpaid_total": 80.0,
     "password": "607327",
-    "credit_balance": 0.0,
+    "credit_balance": 20.0,
     "is_active": true
   },
   {
@@ -1121,7 +1121,7 @@
       179,
       203
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 160.0,
     "password": "260034",
     "credit_balance": 0.0,
     "is_active": true
@@ -1143,7 +1143,7 @@
     "student_ids": [
       154
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "128882",
     "credit_balance": 0.0,
     "is_active": true
@@ -1318,10 +1318,11 @@
     "guardian_full_name": "أحلام كدوسي",
     "phone_number": "94102027",
     "student_ids": [
+      103,
       117,
       118
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 200.0,
     "password": "102027",
     "credit_balance": 0.0,
     "is_active": true
