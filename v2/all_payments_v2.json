@@ -1036,31 +1036,38 @@
     "payments": [
       {
         "period_formatted": "27/09/2025 إلى 26/10/2025",
-        "status": "غير خالص",
-        "amount": 50.0,
-        "received_date": null,
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2026-01-19",
         "notes": "__RESUME_DAY:27__"
       },
       {
         "period_formatted": "27/10/2025 إلى 26/11/2025",
-        "status": "غير خالص",
-        "amount": 50.0,
-        "received_date": null,
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2026-01-19",
         "notes": "__RESUME_DAY:27__"
       },
       {
         "period_formatted": "27/11/2025 إلى 26/12/2025",
-        "status": "غير خالص",
-        "amount": 50.0,
-        "received_date": null,
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2026-01-19",
         "notes": "__RESUME_DAY:27__"
       },
       {
         "period_formatted": "27/11/2025 إلى 26/12/2025",
-        "status": "غير خالص",
-        "amount": 50.0,
-        "received_date": null,
+        "status": "خالص",
+        "amount": 40.0,
+        "received_date": "2026-01-19",
         "notes": "__RESUME_DAY:27__"
+      },
+      {
+        "period_formatted": "19/01/2026 إلى 18/02/2026",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null,
+        "notes": "__RESUME_DAY:19__"
       }
     ]
   },
@@ -2736,6 +2743,13 @@
         "amount": 40.0,
         "received_date": null,
         "notes": ""
+      },
+      {
+        "period_formatted": "19/01/2026 إلى 18/02/2026",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null,
+        "notes": ""
       }
     ]
   },
@@ -2776,6 +2790,13 @@
         "amount": 40.0,
         "received_date": null,
         "notes": ""
+      },
+      {
+        "period_formatted": "19/01/2026 إلى 18/02/2026",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null,
+        "notes": ""
       }
     ]
   },
@@ -2812,6 +2833,13 @@
       },
       {
         "period_formatted": "19/12/2025 إلى 18/01/2026",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null,
+        "notes": ""
+      },
+      {
+        "period_formatted": "19/01/2026 إلى 18/02/2026",
         "status": "غير خالص",
         "amount": 40.0,
         "received_date": null,
@@ -3097,6 +3125,13 @@
       },
       {
         "period_formatted": "19/12/2025 إلى 18/01/2026",
+        "status": "غير خالص",
+        "amount": 100.0,
+        "received_date": null,
+        "notes": ""
+      },
+      {
+        "period_formatted": "19/01/2026 إلى 18/02/2026",
         "status": "غير خالص",
         "amount": 100.0,
         "received_date": null,
@@ -4953,6 +4988,13 @@
         "amount": 50.0,
         "received_date": null,
         "notes": ""
+      },
+      {
+        "period_formatted": "19/01/2026 إلى 18/02/2026",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
       }
     ]
   },
@@ -5461,6 +5503,13 @@
         "amount": 30.0,
         "received_date": "2026-01-12",
         "notes": ""
+      },
+      {
+        "period_formatted": "19/01/2026 إلى 18/02/2026",
+        "status": "غير خالص",
+        "amount": 30.0,
+        "received_date": null,
+        "notes": ""
       }
     ]
   },
@@ -5732,6 +5781,18 @@
         "period_formatted": "17/01/2026 إلى 16/02/2026",
         "status": "غير خالص",
         "amount": 50.0,
+        "received_date": null,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "student_id": 211,
+    "payments": [
+      {
+        "period_formatted": "19/01/2026 إلى 18/02/2026",
+        "status": "غير خالص",
+        "amount": 100.0,
         "received_date": null,
         "notes": ""
       }

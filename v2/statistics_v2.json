@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 10035.0,
+    "total_overdue_unpaid_amount": 10105.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -180,12 +180,6 @@
         "student_id": 114,
         "student_name": "سيرين نصيري",
         "period": "25/09/2025 إلى 24/10/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 27,
-        "student_name": "ألاء زارعي",
-        "period": "27/09/2025 إلى 26/10/2025",
         "amount": 50.0
       },
       {
@@ -426,12 +420,6 @@
         "student_id": 114,
         "student_name": "سيرين نصيري",
         "period": "25/10/2025 إلى 24/11/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 27,
-        "student_name": "ألاء زارعي",
-        "period": "27/10/2025 إلى 26/11/2025",
         "amount": 50.0
       },
       {
@@ -933,18 +921,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 27,
-        "student_name": "ألاء زارعي",
-        "period": "27/11/2025 إلى 26/12/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 27,
-        "student_name": "ألاء زارعي",
-        "period": "27/11/2025 إلى 26/12/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 126,
         "student_name": "يسر نصر",
         "period": "27/11/2025 إلى 26/12/2025",
@@ -1257,6 +1233,36 @@
         "amount": 40.0
       },
       {
+        "student_id": 84,
+        "student_name": "أمل طقوقي",
+        "period": "19/12/2025 إلى 18/01/2026",
+        "amount": 40.0
+      },
+      {
+        "student_id": 85,
+        "student_name": "أيوب طقوقي",
+        "period": "19/12/2025 إلى 18/01/2026",
+        "amount": 40.0
+      },
+      {
+        "student_id": 86,
+        "student_name": "آدم طقوقي",
+        "period": "19/12/2025 إلى 18/01/2026",
+        "amount": 40.0
+      },
+      {
+        "student_id": 98,
+        "student_name": "أيهم عيادي",
+        "period": "19/12/2025 إلى 18/01/2026",
+        "amount": 100.0
+      },
+      {
+        "student_id": 167,
+        "student_name": "أيهم خليفي",
+        "period": "19/12/2025 إلى 18/01/2026",
+        "amount": 50.0
+      },
+      {
         "student_id": 132,
         "student_name": "وجدان زارعي",
         "period": "11/12/2025 إلى 10/01/2026",
@@ -1281,7 +1287,7 @@
         "amount": 50.0
       }
     ],
-    "total_active_students": 169,
+    "total_active_students": 170,
     "students_per_level": {
       "2 ث علوم": 7,
       "9 أساسي": 19,
@@ -1294,7 +1300,7 @@
       "8 أساسي": 24,
       "1 ابتدائي": 10,
       "6 ابتدائي": 13,
-      "7 أساسي": 30,
+      "7 أساسي": 31,
       "6 أساسي": 2
     }
   }

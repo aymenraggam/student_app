@@ -1005,6 +1005,27 @@
     "notes": ""
   },
   {
+    "id": 211,
+    "name": "أيهم",
+    "surname": "حاجي",
+    "educational_level": "7 أساسي",
+    "institution": "المدرسة الاعدادية ابن أبي الضياف",
+    "entry_date": "2026-01-19",
+    "guardian_full_name": "إشراف قادري",
+    "phone_number": "97510323",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 100.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "19/01/2026 إلى 18/02/2026",
+        "amount": 100.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 50,
     "name": "ريّان",
     "surname": "حاجي",
@@ -1062,8 +1083,8 @@
     "guardian_full_name": "أحمد خليفي",
     "phone_number": "29069649",
     "payment_generation_status": "active",
-    "payment_count": 3,
-    "unpaid_total": 50.0,
+    "payment_count": 4,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-11-01",
       "2025-11-09",
@@ -1076,6 +1097,10 @@
     "unpaid_periods": [
       {
         "period": "19/12/2025 إلى 18/01/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "19/01/2026 إلى 18/02/2026",
         "amount": 50.0
       }
     ],
@@ -1206,9 +1231,9 @@
     "entry_date": "2025-07-25",
     "guardian_full_name": "نجيبة زارعي",
     "phone_number": "96158860",
-    "payment_generation_status": "suspended",
-    "payment_count": 4,
-    "unpaid_total": 200.0,
+    "payment_generation_status": "active",
+    "payment_count": 5,
+    "unpaid_total": 40.0,
     "absence_count": [
       "2025-10-03",
       "2025-10-04",
@@ -1228,20 +1253,8 @@
     ],
     "unpaid_periods": [
       {
-        "period": "27/09/2025 إلى 26/10/2025",
-        "amount": 50.0
-      },
-      {
-        "period": "27/10/2025 إلى 26/11/2025",
-        "amount": 50.0
-      },
-      {
-        "period": "27/11/2025 إلى 26/12/2025",
-        "amount": 50.0
-      },
-      {
-        "period": "27/11/2025 إلى 26/12/2025",
-        "amount": 50.0
+        "period": "19/01/2026 إلى 18/02/2026",
+        "amount": 40.0
       }
     ],
     "notes": ""
@@ -2370,8 +2383,8 @@
     "guardian_full_name": "عبد العزيز طقوقي",
     "phone_number": "97371797",
     "payment_generation_status": "active",
-    "payment_count": 5,
-    "unpaid_total": 120.0,
+    "payment_count": 6,
+    "unpaid_total": 160.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -2384,6 +2397,10 @@
       },
       {
         "period": "19/12/2025 إلى 18/01/2026",
+        "amount": 40.0
+      },
+      {
+        "period": "19/01/2026 إلى 18/02/2026",
         "amount": 40.0
       }
     ],
@@ -2399,8 +2416,8 @@
     "guardian_full_name": "عبد العزيز طقوقي",
     "phone_number": "97371797",
     "payment_generation_status": "active",
-    "payment_count": 5,
-    "unpaid_total": 120.0,
+    "payment_count": 6,
+    "unpaid_total": 160.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -2413,6 +2430,10 @@
       },
       {
         "period": "19/12/2025 إلى 18/01/2026",
+        "amount": 40.0
+      },
+      {
+        "period": "19/01/2026 إلى 18/02/2026",
         "amount": 40.0
       }
     ],
@@ -2462,8 +2483,8 @@
     "guardian_full_name": "عبد العزيز طقوقي",
     "phone_number": "97371797",
     "payment_generation_status": "active",
-    "payment_count": 5,
-    "unpaid_total": 120.0,
+    "payment_count": 6,
+    "unpaid_total": 160.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -2476,6 +2497,10 @@
       },
       {
         "period": "19/12/2025 إلى 18/01/2026",
+        "amount": 40.0
+      },
+      {
+        "period": "19/01/2026 إلى 18/02/2026",
         "amount": 40.0
       }
     ],
@@ -2605,12 +2630,17 @@
     "guardian_full_name": "حمادي عبدلي",
     "phone_number": "97915241",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 0.0,
+    "payment_count": 3,
+    "unpaid_total": 30.0,
     "absence_count": [
       "2026-01-04"
     ],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "19/01/2026 إلى 18/02/2026",
+        "amount": 30.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -3004,8 +3034,8 @@
     "guardian_full_name": "عقبة عيادي",
     "phone_number": "20430902",
     "payment_generation_status": "active",
-    "payment_count": 4,
-    "unpaid_total": 300.0,
+    "payment_count": 5,
+    "unpaid_total": 400.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -3018,6 +3048,10 @@
       },
       {
         "period": "19/12/2025 إلى 18/01/2026",
+        "amount": 100.0
+      },
+      {
+        "period": "19/01/2026 إلى 18/02/2026",
         "amount": 100.0
       }
     ],

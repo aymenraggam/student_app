@@ -17,7 +17,7 @@
       72,
       167
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "355130",
     "credit_balance": 0.0,
     "is_active": true
@@ -507,7 +507,7 @@
       85,
       86
     ],
-    "unpaid_total": 360.0,
+    "unpaid_total": 480.0,
     "password": "753677",
     "credit_balance": 0.0,
     "is_active": true
@@ -562,7 +562,7 @@
     "student_ids": [
       98
     ],
-    "unpaid_total": 300.0,
+    "unpaid_total": 400.0,
     "password": "290553",
     "credit_balance": 0.0,
     "is_active": true
@@ -963,7 +963,7 @@
       43,
       44
     ],
-    "unpaid_total": 600.0,
+    "unpaid_total": 440.0,
     "password": "892485",
     "credit_balance": 0.0,
     "is_active": true
@@ -1198,7 +1198,7 @@
     "student_ids": [
       191
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 30.0,
     "password": "113998",
     "credit_balance": 0.0,
     "is_active": true
@@ -1335,6 +1335,17 @@
     ],
     "unpaid_total": 50.0,
     "password": "314309",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "إشراف قادري",
+    "phone_number": "97510323",
+    "student_ids": [
+      211
+    ],
+    "unpaid_total": 100.0,
+    "password": "430879",
     "credit_balance": 0.0,
     "is_active": true
   }
