@@ -1,5 +1,25 @@
 [
   {
+    "student_id": 62,
+    "date": "2026-01-19",
+    "subject": "حصة الإثنين",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 103,
+    "date": "2026-01-19",
+    "subject": "حصة الإثنين",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 2,
+    "total_score": 4,
+    "notes": ""
+  },
+  {
     "student_id": 19,
     "date": "2026-01-18",
     "subject": "حصة الأحد",
