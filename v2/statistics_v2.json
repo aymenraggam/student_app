@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 10305.0,
+    "total_overdue_unpaid_amount": 10105.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -999,12 +999,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 3,
-        "student_name": "أميرة مسعودي",
-        "period": "01/12/2025 إلى 31/12/2025",
-        "amount": 100.0
-      },
-      {
         "student_id": 13,
         "student_name": "ميسم مسعودي",
         "period": "01/12/2025 إلى 31/12/2025",
@@ -1213,12 +1207,6 @@
         "student_name": "مرام قادري",
         "period": "17/12/2025 إلى 16/01/2026",
         "amount": 50.0
-      },
-      {
-        "student_id": 165,
-        "student_name": "مهيب قادري",
-        "period": "17/12/2025 إلى 16/01/2026",
-        "amount": 100.0
       },
       {
         "student_id": 175,
