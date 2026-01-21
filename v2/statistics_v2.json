@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 10105.0,
+    "total_overdue_unpaid_amount": 10305.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -1260,6 +1260,30 @@
         "student_id": 167,
         "student_name": "أيهم خليفي",
         "period": "19/12/2025 إلى 18/01/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 100,
+        "student_name": "جوري ضيفي",
+        "period": "20/12/2025 إلى 19/01/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 174,
+        "student_name": "احمد اللاحق",
+        "period": "21/12/2025 إلى 20/01/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 187,
+        "student_name": "آمنة اللاحق",
+        "period": "20/12/2025 إلى 19/01/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 205,
+        "student_name": "ميسان ضيفي",
+        "period": "20/12/2025 إلى 19/01/2026",
         "amount": 50.0
       },
       {
