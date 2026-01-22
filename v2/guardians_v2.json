@@ -40,7 +40,7 @@
       2,
       8
     ],
-    "unpaid_total": 340.0,
+    "unpaid_total": 510.0,
     "password": "701179",
     "credit_balance": 0.0,
     "is_active": true
@@ -156,7 +156,7 @@
       9,
       14
     ],
-    "unpaid_total": 500.0,
+    "unpaid_total": 550.0,
     "password": "210766",
     "credit_balance": 0.0,
     "is_active": true
@@ -331,7 +331,7 @@
       146,
       188
     ],
-    "unpaid_total": 400.0,
+    "unpaid_total": 350.0,
     "password": "987471",
     "credit_balance": 0.0,
     "is_active": true
@@ -364,7 +364,7 @@
     "student_ids": [
       62
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 100.0,
     "password": "492680",
     "credit_balance": 0.0,
     "is_active": true
@@ -432,7 +432,7 @@
     "student_ids": [
       102
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 250.0,
     "password": "214944",
     "credit_balance": 0.0,
     "is_active": true
@@ -663,7 +663,7 @@
     "student_ids": [
       81
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 0.0,
     "password": "608423",
     "credit_balance": 0.0,
     "is_active": true
@@ -674,7 +674,7 @@
     "student_ids": [
       168
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 30.0,
     "password": "063658",
     "credit_balance": 0.0,
     "is_active": true
@@ -1043,7 +1043,7 @@
     "student_ids": [
       90
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 250.0,
     "password": "334907",
     "credit_balance": 0.0,
     "is_active": true
@@ -1287,7 +1287,7 @@
     "student_ids": [
       169
     ],
-    "unpaid_total": 30.0,
+    "unpaid_total": 60.0,
     "password": "771439",
     "credit_balance": 0.0,
     "is_active": true
@@ -1346,6 +1346,17 @@
     ],
     "unpaid_total": 100.0,
     "password": "430879",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "مهدي قادري",
+    "phone_number": "97184130",
+    "student_ids": [
+      212
+    ],
+    "unpaid_total": 100.0,
+    "password": "777719",
     "credit_balance": 0.0,
     "is_active": true
   }
