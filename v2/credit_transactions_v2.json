@@ -493,5 +493,23 @@
     "amount": 0.0,
     "notes": "خلاص دفعة (عادية) للتلميذ: محمد أمين صالحي",
     "payment_id": 1070
+  },
+  {
+    "guardian_name": "حياة",
+    "guardian_surname": "جلالي",
+    "phone_number": "99810230",
+    "transaction_date": "2026-01-24 15:23:36",
+    "amount": 70.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "حياة",
+    "guardian_surname": "جلالي",
+    "phone_number": "99810230",
+    "transaction_date": "2026-01-24 15:24:14",
+    "amount": 30.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
   }
 ]
