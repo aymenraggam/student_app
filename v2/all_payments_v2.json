@@ -5821,25 +5821,6 @@
     ]
   },
   {
-    "student_id": 203,
-    "payments": [
-      {
-        "period_formatted": "29/11/2025 إلى 28/12/2025",
-        "status": "غير خالص",
-        "amount": 40.0,
-        "received_date": null,
-        "notes": ""
-      },
-      {
-        "period_formatted": "29/12/2025 إلى 28/01/2026",
-        "status": "غير خالص",
-        "amount": 40.0,
-        "received_date": null,
-        "notes": ""
-      }
-    ]
-  },
-  {
     "student_id": 204,
     "payments": [
       {

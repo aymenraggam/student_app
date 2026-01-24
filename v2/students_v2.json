@@ -3304,39 +3304,6 @@
     "notes": ""
   },
   {
-    "id": 203,
-    "name": "علي",
-    "surname": "عيوني",
-    "educational_level": "1 ثانوي",
-    "institution": "المعهد الثانوي بالرقاب",
-    "entry_date": "2025-11-29",
-    "guardian_full_name": "عماد عيوني",
-    "phone_number": "97689005",
-    "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 80.0,
-    "absence_count": [
-      "2026-01-03",
-      "2026-01-08",
-      "2026-01-10",
-      "2026-01-13",
-      "2026-01-15",
-      "2026-01-17",
-      "2026-01-22"
-    ],
-    "unpaid_periods": [
-      {
-        "period": "29/11/2025 إلى 28/12/2025",
-        "amount": 40.0
-      },
-      {
-        "period": "29/12/2025 إلى 28/01/2026",
-        "amount": 40.0
-      }
-    ],
-    "notes": ""
-  },
-  {
     "id": 74,
     "name": "مالك",
     "surname": "عيوني",
@@ -3797,7 +3764,8 @@
       "2025-11-13",
       "2025-11-18",
       "2026-01-03",
-      "2026-01-06"
+      "2026-01-06",
+      "2026-01-24"
     ],
     "unpaid_periods": [],
     "notes": ""
@@ -4943,7 +4911,9 @@
     "payment_generation_status": "active",
     "payment_count": 5,
     "unpaid_total": 40.0,
-    "absence_count": [],
+    "absence_count": [
+      "2026-01-24"
+    ],
     "unpaid_periods": [
       {
         "period": "04/01/2026 إلى 03/02/2026",

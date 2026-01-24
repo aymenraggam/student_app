@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 11465.0,
+    "total_overdue_unpaid_amount": 11425.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -939,12 +939,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 203,
-        "student_name": "علي عيوني",
-        "period": "29/11/2025 إلى 28/12/2025",
-        "amount": 40.0
-      },
-      {
         "student_id": 128,
         "student_name": "آلاء قادري",
         "period": "27/11/2025 إلى 26/12/2025",
@@ -1467,7 +1461,7 @@
         "amount": 50.0
       }
     ],
-    "total_active_students": 170,
+    "total_active_students": 169,
     "students_per_level": {
       "2 ث علوم": 7,
       "9 أساسي": 18,
@@ -1477,7 +1471,7 @@
       "8 أساسي": 25,
       "2 ث اقتصاد": 5,
       "3 ابتدائي": 10,
-      "1 ثانوي": 16,
+      "1 ثانوي": 15,
       "1 ابتدائي": 10,
       "6 ابتدائي": 13,
       "7 أساسي": 31,
