@@ -37,13 +37,10 @@
     "day_of_week": "الأحد",
     "time_slot": "10:00 - 12:00",
     "educational_level": "2 ث اقتصاد",
-    "class_type": "general",
+    "class_type": "private",
     "student_ids": [
       168,
-      169,
-      180,
-      182,
-      191
+      169
     ],
     "is_makeup": false
   },

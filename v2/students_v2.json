@@ -371,7 +371,9 @@
     "payment_generation_status": "active",
     "payment_count": 4,
     "unpaid_total": 60.0,
-    "absence_count": [],
+    "absence_count": [
+      "2026-01-25"
+    ],
     "unpaid_periods": [
       {
         "period": "22/12/2025 إلى 21/01/2026",
@@ -3513,7 +3515,9 @@
     "payment_generation_status": "active",
     "payment_count": 4,
     "unpaid_total": 30.0,
-    "absence_count": [],
+    "absence_count": [
+      "2026-01-25"
+    ],
     "unpaid_periods": [
       {
         "period": "22/01/2026 إلى 21/02/2026",
