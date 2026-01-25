@@ -518,7 +518,7 @@
     "student_ids": [
       170
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 50.0,
     "password": "539859",
     "credit_balance": 0.0,
     "is_active": true
@@ -697,7 +697,7 @@
       17,
       33
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "password": "560709",
     "credit_balance": 0.0,
     "is_active": true
@@ -813,7 +813,7 @@
     "student_ids": [
       171
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 100.0,
     "password": "320451",
     "credit_balance": 0.0,
     "is_active": true
@@ -1085,7 +1085,7 @@
     "student_ids": [
       57
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 50.0,
     "password": "712884",
     "credit_balance": 0.0,
     "is_active": true
