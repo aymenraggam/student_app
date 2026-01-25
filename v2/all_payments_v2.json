@@ -5224,9 +5224,9 @@
       },
       {
         "period_formatted": "24/11/2025 إلى 23/12/2025",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 50.0,
-        "received_date": null,
+        "received_date": "2026-01-25",
         "notes": ""
       },
       {

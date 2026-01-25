@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 10855.0,
+    "total_overdue_unpaid_amount": 10805.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -775,12 +775,6 @@
         "student_name": "أحمد عمارة",
         "period": "24/11/2025 إلى 23/12/2025",
         "amount": 30.0
-      },
-      {
-        "student_id": 171,
-        "student_name": "مهاب صمودي",
-        "period": "24/11/2025 إلى 23/12/2025",
-        "amount": 50.0
       },
       {
         "student_id": 172,

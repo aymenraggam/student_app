@@ -2257,16 +2257,12 @@
     "phone_number": "53926331",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [
       "2025-11-23",
       "2025-11-28"
     ],
     "unpaid_periods": [
-      {
-        "period": "24/11/2025 إلى 23/12/2025",
-        "amount": 50.0
-      },
       {
         "period": "25/01/2026 إلى 24/02/2026",
         "amount": 50.0
