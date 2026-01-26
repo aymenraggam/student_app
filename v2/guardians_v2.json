@@ -218,7 +218,7 @@
     ],
     "unpaid_total": 0.0,
     "password": "04022012",
-    "credit_balance": 370.0,
+    "credit_balance": 70.0,
     "is_active": true
   },
   {
@@ -331,7 +331,7 @@
     "student_ids": [
       121
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "335273",
     "credit_balance": 0.0,
     "is_active": true
@@ -387,7 +387,7 @@
     "student_ids": [
       116
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 50.0,
     "password": "024181",
     "credit_balance": 0.0,
     "is_active": true
@@ -457,7 +457,7 @@
       204,
       205
     ],
-    "unpaid_total": 450.0,
+    "unpaid_total": 500.0,
     "password": "826175",
     "credit_balance": 0.0,
     "is_active": true
@@ -630,7 +630,7 @@
     "student_ids": [
       50
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 300.0,
     "password": "696688",
     "credit_balance": 0.0,
     "is_active": true
@@ -733,7 +733,7 @@
       25,
       58
     ],
-    "unpaid_total": 130.0,
+    "unpaid_total": 220.0,
     "password": "336041",
     "credit_balance": 0.0,
     "is_active": true
@@ -826,7 +826,7 @@
       112,
       122
     ],
-    "unpaid_total": 500.0,
+    "unpaid_total": 600.0,
     "password": "042414",
     "credit_balance": 0.0,
     "is_active": true
@@ -997,7 +997,7 @@
       109,
       115
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 180.0,
     "password": "737243",
     "credit_balance": 0.0,
     "is_active": true
@@ -1298,6 +1298,17 @@
     ],
     "unpaid_total": 50.0,
     "password": "191691",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "عبد الرزاق فالحي",
+    "phone_number": "98710220",
+    "student_ids": [
+      215
+    ],
+    "unpaid_total": 100.0,
+    "password": "771320",
     "credit_balance": 0.0,
     "is_active": true
   }

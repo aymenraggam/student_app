@@ -520,5 +520,23 @@
     "amount": -150.0,
     "notes": "إيداع تسبقة",
     "payment_id": null
+  },
+  {
+    "guardian_name": "حياة",
+    "guardian_surname": "جلالي",
+    "phone_number": "99810230",
+    "transaction_date": "2026-01-26 17:13:47",
+    "amount": -100.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: أمان الله جلالي",
+    "payment_id": 1129
+  },
+  {
+    "guardian_name": "حياة",
+    "guardian_surname": "جلالي",
+    "phone_number": "99810230",
+    "transaction_date": "2026-01-26 17:14:24",
+    "amount": -200.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
   }
 ]
