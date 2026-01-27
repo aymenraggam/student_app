@@ -5,7 +5,7 @@
     "student_ids": [
       74
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 300.0,
     "password": "261332",
     "credit_balance": 0.0,
     "is_active": true
@@ -133,7 +133,7 @@
       64,
       164
     ],
-    "unpaid_total": 80.0,
+    "unpaid_total": 0.0,
     "password": "444625",
     "credit_balance": 0.0,
     "is_active": true
@@ -376,7 +376,7 @@
       126,
       127
     ],
-    "unpaid_total": 160.0,
+    "unpaid_total": 240.0,
     "password": "571815",
     "credit_balance": 0.0,
     "is_active": true
@@ -385,9 +385,10 @@
     "guardian_full_name": "شكري زريبي",
     "phone_number": "48070803",
     "student_ids": [
-      116
+      116,
+      216
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "024181",
     "credit_balance": 0.0,
     "is_active": true
@@ -496,7 +497,7 @@
     "student_ids": [
       66
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "password": "987654",
     "credit_balance": 0.0,
     "is_active": true
@@ -630,7 +631,7 @@
     "student_ids": [
       50
     ],
-    "unpaid_total": 300.0,
+    "unpaid_total": 150.0,
     "password": "696688",
     "credit_balance": 0.0,
     "is_active": true
@@ -747,7 +748,7 @@
       137,
       180
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 230.0,
     "password": "135852",
     "credit_balance": 0.0,
     "is_active": true
@@ -859,7 +860,7 @@
     "student_ids": [
       34
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "password": "308475",
     "credit_balance": 0.0,
     "is_active": true
@@ -905,7 +906,7 @@
       36,
       128
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 240.0,
     "password": "632059",
     "credit_balance": 0.0,
     "is_active": true
@@ -1309,6 +1310,39 @@
     ],
     "unpaid_total": 100.0,
     "password": "771320",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "ازدهار خليفي",
+    "phone_number": "21015125",
+    "student_ids": [
+      218
+    ],
+    "unpaid_total": 50.0,
+    "password": "682553",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "فتحي زريبي",
+    "phone_number": "23666461",
+    "student_ids": [
+      217
+    ],
+    "unpaid_total": 50.0,
+    "password": "686701",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "كريمة عامري",
+    "phone_number": "55560997",
+    "student_ids": [
+      68
+    ],
+    "unpaid_total": 50.0,
+    "password": "116828",
     "credit_balance": 0.0,
     "is_active": true
   }
