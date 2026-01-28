@@ -1,6 +1,26 @@
 [
   {
     "student_id": 62,
+    "date": "2026-01-28",
+    "subject": "حصة الأربعاء",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 7,
+    "notes": ""
+  },
+  {
+    "student_id": 103,
+    "date": "2026-01-28",
+    "subject": "حصة الأربعاء",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 7,
+    "notes": ""
+  },
+  {
+    "student_id": 62,
     "date": "2026-01-27",
     "subject": "حصة الثلاثاء",
     "homework_status": "✗ لم يتم إنجازه",
