@@ -10,13 +10,9 @@
     "phone_number": "98303404",
     "payment_generation_status": "active",
     "payment_count": 4,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "18/12/2025 إلى 17/01/2026",
-        "amount": 50.0
-      },
       {
         "period": "18/01/2026 إلى 17/02/2026",
         "amount": 50.0
@@ -2219,17 +2215,17 @@
     "entry_date": "2025-09-23",
     "guardian_full_name": "يامن صالحي",
     "phone_number": "55238333",
-    "payment_generation_status": "suspended",
-    "payment_count": 3,
+    "payment_generation_status": "active",
+    "payment_count": 4,
     "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "23/10/2025 إلى 22/11/2025",
+        "period": "23/11/2025 إلى 22/12/2025",
         "amount": 50.0
       },
       {
-        "period": "23/11/2025 إلى 22/12/2025",
+        "period": "27/01/2026 إلى 26/02/2026",
         "amount": 50.0
       }
     ],

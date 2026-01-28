@@ -3356,10 +3356,10 @@
       },
       {
         "period_formatted": "23/10/2025 إلى 22/11/2025",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 50.0,
-        "received_date": null,
-        "notes": ""
+        "received_date": "2026-01-28",
+        "notes": "خلاص عبر رصيد التسبقة"
       },
       {
         "period_formatted": "23/11/2025 إلى 22/12/2025",
@@ -3367,6 +3367,13 @@
         "amount": 50.0,
         "received_date": null,
         "notes": ""
+      },
+      {
+        "period_formatted": "27/01/2026 إلى 26/02/2026",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": "__RESUME_DAY:27__"
       }
     ]
   },
@@ -4874,9 +4881,9 @@
       },
       {
         "period_formatted": "18/12/2025 إلى 17/01/2026",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 50.0,
-        "received_date": null,
+        "received_date": "2026-01-28",
         "notes": "__RESUME_DAY:18__"
       },
       {

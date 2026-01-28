@@ -538,5 +538,23 @@
     "amount": -200.0,
     "notes": "إيداع تسبقة",
     "payment_id": null
+  },
+  {
+    "guardian_name": "يامن",
+    "guardian_surname": "صالحي",
+    "phone_number": "55238333",
+    "transaction_date": "2026-01-28 21:58:08",
+    "amount": 80.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "يامن",
+    "guardian_surname": "صالحي",
+    "phone_number": "55238333",
+    "transaction_date": "2026-01-28 21:58:10",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: يوسف صالحي",
+    "payment_id": 522
   }
 ]
