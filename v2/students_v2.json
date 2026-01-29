@@ -399,14 +399,9 @@
     "phone_number": "97483694",
     "payment_generation_status": "active",
     "payment_count": 6,
-    "unpaid_total": 100.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "22/01/2026 إلى 21/02/2026",
-        "amount": 100.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -4382,14 +4377,9 @@
     "phone_number": "97636826",
     "payment_generation_status": "suspended",
     "payment_count": 2,
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "25/11/2025 إلى 24/12/2025",
-        "amount": 50.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -4612,8 +4602,8 @@
     "guardian_full_name": "مهدي مسعودي",
     "phone_number": "55071434",
     "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 150.0,
+    "payment_count": 7,
+    "unpaid_total": 200.0,
     "absence_count": [
       "2025-10-05",
       "2025-11-23",
@@ -4633,6 +4623,10 @@
       },
       {
         "period": "29/12/2025 إلى 28/01/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "29/01/2026 إلى 27/02/2026",
         "amount": 50.0
       }
     ],
