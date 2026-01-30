@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 11225.0,
+    "total_overdue_unpaid_amount": 11175.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -837,12 +837,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 122,
-        "student_name": "شهد قادري",
-        "period": "26/11/2025 إلى 25/12/2025",
-        "amount": 100.0
-      },
-      {
         "student_id": 123,
         "student_name": "مرام ضيفي",
         "period": "26/11/2025 إلى 25/12/2025",
@@ -1329,12 +1323,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 24,
-        "student_name": "رنيم قادري",
-        "period": "26/12/2025 إلى 25/01/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 25,
         "student_name": "رؤى قادري",
         "period": "26/12/2025 إلى 25/01/2026",
@@ -1351,12 +1339,6 @@
         "student_name": "أسامة كحلي",
         "period": "26/12/2025 إلى 25/01/2026",
         "amount": 50.0
-      },
-      {
-        "student_id": 122,
-        "student_name": "شهد قادري",
-        "period": "26/12/2025 إلى 25/01/2026",
-        "amount": 100.0
       },
       {
         "student_id": 123,
@@ -1401,6 +1383,18 @@
         "amount": 50.0
       },
       {
+        "student_id": 139,
+        "student_name": "سجدة بوعلاقي",
+        "period": "30/12/2025 إلى 29/01/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 177,
+        "student_name": "محمد الهادي عمري",
+        "period": "30/12/2025 إلى 29/01/2026",
+        "amount": 50.0
+      },
+      {
         "student_id": 132,
         "student_name": "وجدان زارعي",
         "period": "11/12/2025 إلى 10/01/2026",
@@ -1425,6 +1419,12 @@
         "amount": 50.0
       },
       {
+        "student_id": 178,
+        "student_name": "عمر عمري",
+        "period": "30/12/2025 إلى 29/01/2026",
+        "amount": 50.0
+      },
+      {
         "student_id": 74,
         "student_name": "مالك عيوني",
         "period": "27/12/2025 إلى 26/01/2026",
@@ -1435,13 +1435,19 @@
         "student_name": "نور عكروت",
         "period": "24/12/2025 إلى 23/01/2026",
         "amount": 50.0
+      },
+      {
+        "student_id": 138,
+        "student_name": "برهان عبيدي",
+        "period": "30/12/2025 إلى 29/01/2026",
+        "amount": 50.0
       }
     ],
-    "total_active_students": 167,
+    "total_active_students": 168,
     "students_per_level": {
       "2 ث علوم": 7,
       "9 أساسي": 18,
-      "5 ابتدائي": 16,
+      "5 ابتدائي": 17,
       "4 ابتدائي": 11,
       "2 ابتدائي": 9,
       "8 أساسي": 25,
