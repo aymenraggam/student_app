@@ -182,7 +182,7 @@
     "student_ids": [
       61
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 50.0,
     "password": "363217",
     "credit_balance": 0.0,
     "is_active": true
@@ -748,7 +748,7 @@
       137,
       180
     ],
-    "unpaid_total": 230.0,
+    "unpaid_total": 260.0,
     "password": "135852",
     "credit_balance": 0.0,
     "is_active": true
@@ -1354,6 +1354,28 @@
     ],
     "unpaid_total": 50.0,
     "password": "039434",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "بشير كداشي",
+    "phone_number": "55431642",
+    "student_ids": [
+      221
+    ],
+    "unpaid_total": 50.0,
+    "password": "436249",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "سندس سليماني",
+    "phone_number": "97432711",
+    "student_ids": [
+      222
+    ],
+    "unpaid_total": 50.0,
+    "password": "159322",
     "credit_balance": 0.0,
     "is_active": true
   }
