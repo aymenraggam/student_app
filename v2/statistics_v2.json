@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 11105.0,
+    "total_overdue_unpaid_amount": 11365.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -1353,18 +1353,6 @@
         "amount": 40.0
       },
       {
-        "student_id": 136,
-        "student_name": "ليان بلقاسم",
-        "period": "27/12/2025 إلى 26/01/2026",
-        "amount": 40.0
-      },
-      {
-        "student_id": 137,
-        "student_name": "ليث بلقاسم",
-        "period": "27/12/2025 إلى 26/01/2026",
-        "amount": 40.0
-      },
-      {
         "student_id": 30,
         "student_name": "يحي مسعودي",
         "period": "29/12/2025 إلى 28/01/2026",
@@ -1383,10 +1371,46 @@
         "amount": 50.0
       },
       {
+        "student_id": 3,
+        "student_name": "أميرة مسعودي",
+        "period": "01/01/2026 إلى 31/01/2026",
+        "amount": 100.0
+      },
+      {
+        "student_id": 13,
+        "student_name": "ميسم مسعودي",
+        "period": "01/01/2026 إلى 31/01/2026",
+        "amount": 40.0
+      },
+      {
+        "student_id": 40,
+        "student_name": "جهاد كحولي",
+        "period": "01/01/2026 إلى 31/01/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 45,
+        "student_name": "أميمة كداشي",
+        "period": "01/01/2026 إلى 31/01/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 46,
+        "student_name": "اسراء كداشي",
+        "period": "01/01/2026 إلى 31/01/2026",
+        "amount": 50.0
+      },
+      {
         "student_id": 180,
         "student_name": "لؤي بلقاسم",
         "period": "31/12/2025 إلى 30/01/2026",
         "amount": 30.0
+      },
+      {
+        "student_id": 208,
+        "student_name": "فرح مسعودي",
+        "period": "01/01/2026 إلى 31/01/2026",
+        "amount": 50.0
       },
       {
         "student_id": 132,

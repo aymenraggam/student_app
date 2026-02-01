@@ -664,7 +664,7 @@
     "student_ids": [
       13
     ],
-    "unpaid_total": 120.0,
+    "unpaid_total": 160.0,
     "password": "177977",
     "credit_balance": 0.0,
     "is_active": true
@@ -721,7 +721,7 @@
       45,
       46
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 300.0,
     "password": "774087",
     "credit_balance": 0.0,
     "is_active": true
@@ -748,7 +748,7 @@
       137,
       180
     ],
-    "unpaid_total": 260.0,
+    "unpaid_total": 180.0,
     "password": "135852",
     "credit_balance": 0.0,
     "is_active": true
@@ -952,7 +952,7 @@
       3,
       19
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 300.0,
     "password": "414757",
     "credit_balance": 0.0,
     "is_active": true
@@ -1041,7 +1041,7 @@
     "student_ids": [
       40
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "492953",
     "credit_balance": 0.0,
     "is_active": true
@@ -1195,7 +1195,7 @@
     "student_ids": [
       208
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "264940",
     "credit_balance": 0.0,
     "is_active": true
@@ -1347,17 +1347,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "سعيدة علوي",
-    "phone_number": "9999999",
-    "student_ids": [
-      219
-    ],
-    "unpaid_total": 50.0,
-    "password": "039434",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "بشير كداشي",
     "phone_number": "55431642",
     "student_ids": [
@@ -1376,6 +1365,17 @@
     ],
     "unpaid_total": 50.0,
     "password": "159322",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "سعيدة علوي",
+    "phone_number": "55839957",
+    "student_ids": [
+      219
+    ],
+    "unpaid_total": 50.0,
+    "password": "332664",
     "credit_balance": 0.0,
     "is_active": true
   }
