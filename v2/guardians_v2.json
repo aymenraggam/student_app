@@ -282,11 +282,10 @@
     "guardian_full_name": "ساسية جلالي",
     "phone_number": "22438703",
     "student_ids": [
-      142,
       146,
       188
     ],
-    "unpaid_total": 350.0,
+    "unpaid_total": 250.0,
     "password": "987471",
     "credit_balance": 0.0,
     "is_active": true
@@ -366,7 +365,7 @@
       65,
       96
     ],
-    "unpaid_total": 80.0,
+    "unpaid_total": 120.0,
     "password": "607327",
     "credit_balance": 20.0,
     "is_active": true
@@ -530,7 +529,7 @@
       177,
       178
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "password": "253788",
     "credit_balance": 0.0,
     "is_active": true
@@ -891,17 +890,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "نور الدين جلالي",
-    "phone_number": "21000887",
-    "student_ids": [
-      88
-    ],
-    "unpaid_total": 50.0,
-    "password": "879779",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "هاجر بوعلافي",
     "phone_number": "94939646",
     "student_ids": [
@@ -1192,17 +1180,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "جيهان بحيري",
-    "phone_number": "96910743",
-    "student_ids": [
-      214
-    ],
-    "unpaid_total": 50.0,
-    "password": "960587",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "سندس كحلي",
     "phone_number": "24755223",
     "student_ids": [
@@ -1247,17 +1224,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "كريمة عامري",
-    "phone_number": "55560997",
-    "student_ids": [
-      68
-    ],
-    "unpaid_total": 50.0,
-    "password": "116828",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "بشير كداشي",
     "phone_number": "55431642",
     "student_ids": [
@@ -1287,6 +1253,17 @@
     ],
     "unpaid_total": 50.0,
     "password": "332664",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "جيهان بحيري",
+    "phone_number": "94250424",
+    "student_ids": [
+      214
+    ],
+    "unpaid_total": 50.0,
+    "password": "720289",
     "credit_balance": 0.0,
     "is_active": true
   }
