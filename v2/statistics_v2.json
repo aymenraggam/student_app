@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 11025.0,
+    "total_overdue_unpaid_amount": 11270.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -927,12 +927,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 60,
-        "student_name": "جابر جلالي",
-        "period": "09/12/2025 إلى 08/01/2026",
-        "amount": 35.0
-      },
-      {
         "student_id": 159,
         "student_name": "يسر قادري",
         "period": "10/12/2025 إلى 09/01/2026",
@@ -1305,12 +1299,6 @@
         "amount": 30.0
       },
       {
-        "student_id": 208,
-        "student_name": "فرح مسعودي",
-        "period": "01/01/2026 إلى 31/01/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 42,
         "student_name": "ميسان علوي",
         "period": "02/01/2026 إلى 01/02/2026",
@@ -1357,12 +1345,6 @@
         "student_name": "نغم جلالي",
         "period": "03/01/2026 إلى 02/02/2026",
         "amount": 100.0
-      },
-      {
-        "student_id": 70,
-        "student_name": "يوسف زريبي",
-        "period": "04/01/2026 إلى 03/02/2026",
-        "amount": 50.0
       },
       {
         "student_id": 155,
@@ -1413,10 +1395,58 @@
         "amount": 40.0
       },
       {
+        "student_id": 156,
+        "student_name": "قصي جلالي",
+        "period": "07/01/2026 إلى 06/02/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 188,
+        "student_name": "أحمد درعي",
+        "period": "07/01/2026 إلى 06/02/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 193,
+        "student_name": "حمزة جلالي",
+        "period": "07/01/2026 إلى 06/02/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 209,
+        "student_name": "رباب هاني",
+        "period": "07/01/2026 إلى 06/02/2026",
+        "amount": 50.0
+      },
+      {
         "student_id": 74,
         "student_name": "مالك عيوني",
         "period": "27/12/2025 إلى 26/01/2026",
         "amount": 100.0
+      },
+      {
+        "student_id": 56,
+        "student_name": "إلياس أم هاني",
+        "period": "08/01/2026 إلى 07/02/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 60,
+        "student_name": "جابر جلالي",
+        "period": "09/01/2026 إلى 08/02/2026",
+        "amount": 40.0
+      },
+      {
+        "student_id": 61,
+        "student_name": "آية أم هاني",
+        "period": "09/01/2026 إلى 08/02/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 65,
+        "student_name": "حمدي كداشي",
+        "period": "09/01/2026 إلى 08/02/2026",
+        "amount": 40.0
       },
       {
         "student_id": 39,
