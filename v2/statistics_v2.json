@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 11270.0,
+    "total_overdue_unpaid_amount": 11360.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -433,12 +433,6 @@
         "student_name": "نغم جلالي",
         "period": "03/11/2025 إلى 02/12/2025",
         "amount": 100.0
-      },
-      {
-        "student_id": 146,
-        "student_name": "مرام جلالي",
-        "period": "03/11/2025 إلى 02/12/2025",
-        "amount": 50.0
       },
       {
         "student_id": 155,
@@ -1453,6 +1447,24 @@
         "student_name": "نور عكروت",
         "period": "24/12/2025 إلى 23/01/2026",
         "amount": 50.0
+      },
+      {
+        "student_id": 159,
+        "student_name": "يسر قادري",
+        "period": "10/01/2026 إلى 09/02/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 207,
+        "student_name": "لجين فالحي",
+        "period": "10/01/2026 إلى 09/02/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 157,
+        "student_name": "رسلان صالحي",
+        "period": "10/01/2026 إلى 09/02/2026",
+        "amount": 40.0
       },
       {
         "student_id": 138,
