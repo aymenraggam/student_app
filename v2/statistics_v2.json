@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 11360.0,
+    "total_overdue_unpaid_amount": 11460.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -1467,6 +1467,18 @@
         "amount": 40.0
       },
       {
+        "student_id": 132,
+        "student_name": "وجدان زارعي",
+        "period": "11/01/2026 إلى 10/02/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 133,
+        "student_name": "ريان عامري",
+        "period": "11/01/2026 إلى 10/02/2026",
+        "amount": 50.0
+      },
+      {
         "student_id": 138,
         "student_name": "برهان عبيدي",
         "period": "30/12/2025 إلى 29/01/2026",
@@ -1477,8 +1489,8 @@
     "students_per_level": {
       "2 ث علوم": 7,
       "9 أساسي": 9,
-      "5 ابتدائي": 17,
-      "4 ابتدائي": 11,
+      "5 ابتدائي": 16,
+      "4 ابتدائي": 12,
       "2 ابتدائي": 9,
       "8 أساسي": 26,
       "2 ث اقتصاد": 5,

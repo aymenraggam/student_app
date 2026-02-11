@@ -1028,19 +1028,19 @@
     "id": 220,
     "name": "أوس",
     "surname": "حاجي",
-    "educational_level": "5 ابتدائي",
+    "educational_level": "4 ابتدائي",
     "institution": "مدرسة ابن رشد1",
     "entry_date": "2026-01-19",
     "guardian_full_name": "إشراف قادري",
     "phone_number": "97510323",
     "payment_generation_status": "active",
     "payment_count": 1,
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "19/01/2026 إلى 18/02/2026",
-        "amount": 50.0
+        "amount": 100.0
       }
     ],
     "notes": ""

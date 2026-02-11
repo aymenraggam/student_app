@@ -100,6 +100,16 @@
     "notes": ""
   },
   {
+    "student_id": 220,
+    "date": "2026-02-10",
+    "subject": "حصة الثلاثاء",
+    "homework_status": "✓ تم إنجازه",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 7,
+    "notes": ""
+  },
+  {
     "student_id": 19,
     "date": "2026-02-01",
     "subject": "حصة الأحد",
