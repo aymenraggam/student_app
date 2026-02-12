@@ -1461,16 +1461,12 @@
     "guardian_full_name": "شدلية أم هاني",
     "phone_number": "98815898",
     "payment_generation_status": "active",
-    "payment_count": 4,
-    "unpaid_total": 100.0,
+    "payment_count": 5,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "11/12/2025 إلى 10/01/2026",
-        "amount": 50.0
-      },
-      {
-        "period": "11/01/2026 إلى 10/02/2026",
+        "period": "11/02/2026 إلى 10/03/2026",
         "amount": 50.0
       }
     ],
@@ -2599,8 +2595,8 @@
     "guardian_full_name": "منى بوزيدي",
     "phone_number": "40014999",
     "payment_generation_status": "active",
-    "payment_count": 4,
-    "unpaid_total": 100.0,
+    "payment_count": 5,
+    "unpaid_total": 150.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -2609,6 +2605,10 @@
       },
       {
         "period": "11/01/2026 إلى 10/02/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "11/02/2026 إلى 10/03/2026",
         "amount": 50.0
       }
     ],
@@ -3617,8 +3617,8 @@
     "guardian_full_name": "بدر الدين قادري",
     "phone_number": "23509750",
     "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 100.0,
+    "payment_count": 7,
+    "unpaid_total": 150.0,
     "absence_count": [
       "2025-09-26",
       "2025-10-18",
@@ -3636,6 +3636,10 @@
       },
       {
         "period": "12/01/2026 إلى 11/02/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "12/02/2026 إلى 11/03/2026",
         "amount": 50.0
       }
     ],
