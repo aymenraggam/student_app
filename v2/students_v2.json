@@ -806,36 +806,6 @@
     "notes": ""
   },
   {
-    "id": 146,
-    "name": "مرام",
-    "surname": "جلالي",
-    "educational_level": "7 أساسي",
-    "institution": "المدرسة الاعدادية بالرقاب",
-    "entry_date": "2025-10-03",
-    "guardian_full_name": "ساسية جلالي",
-    "phone_number": "22438703",
-    "payment_generation_status": "suspended",
-    "payment_count": 3,
-    "unpaid_total": 50.0,
-    "absence_count": [
-      "2025-11-01",
-      "2025-11-30",
-      "2026-01-04",
-      "2026-01-09",
-      "2026-01-10",
-      "2026-01-11",
-      "2026-01-16",
-      "2026-01-17"
-    ],
-    "unpaid_periods": [
-      {
-        "period": "03/12/2025 إلى 02/01/2026",
-        "amount": 50.0
-      }
-    ],
-    "notes": ""
-  },
-  {
     "id": 28,
     "name": "مريم",
     "surname": "جلالي",
@@ -1160,10 +1130,15 @@
     "guardian_full_name": "أحمد خليفي",
     "phone_number": "29069649",
     "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 0.0,
+    "payment_count": 7,
+    "unpaid_total": 50.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "13/02/2026 إلى 12/03/2026",
+        "amount": 50.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -1309,7 +1284,8 @@
       "2026-01-31",
       "2026-02-01",
       "2026-02-03",
-      "2026-02-08"
+      "2026-02-08",
+      "2026-02-13"
     ],
     "unpaid_periods": [
       {
@@ -2096,7 +2072,8 @@
       "2026-01-30",
       "2026-01-31",
       "2026-02-01",
-      "2026-02-03"
+      "2026-02-03",
+      "2026-02-13"
     ],
     "unpaid_periods": [
       {
@@ -2396,16 +2373,12 @@
     "phone_number": "22195709",
     "payment_generation_status": "active",
     "payment_count": 5,
-    "unpaid_total": 150.0,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2026-01-16",
       "2026-01-24"
     ],
     "unpaid_periods": [
-      {
-        "period": "26/11/2025 إلى 25/12/2025",
-        "amount": 50.0
-      },
       {
         "period": "26/12/2025 إلى 25/01/2026",
         "amount": 50.0
@@ -2515,42 +2488,6 @@
       }
     ],
     "notes": ""
-  },
-  {
-    "id": 29,
-    "name": "أميمة",
-    "surname": "طقوقي",
-    "educational_level": "7 أساسي",
-    "institution": "المدرسة الاعدادية بالرقاب",
-    "entry_date": "2025-07-25",
-    "guardian_full_name": "علي طقوقي",
-    "phone_number": "96079809",
-    "payment_generation_status": "active",
-    "payment_count": 7,
-    "unpaid_total": 50.0,
-    "absence_count": [
-      "2025-10-04",
-      "2025-10-18",
-      "2025-11-08",
-      "2025-11-09",
-      "2025-11-21",
-      "2025-12-06",
-      "2026-01-11",
-      "2026-01-18",
-      "2026-01-25",
-      "2026-01-30",
-      "2026-01-31",
-      "2026-02-01",
-      "2026-02-03",
-      "2026-02-08"
-    ],
-    "unpaid_periods": [
-      {
-        "period": "25/01/2026 إلى 24/02/2026",
-        "amount": 50.0
-      }
-    ],
-    "notes": "لا يولي أهمية للدراسة، لا ينجز واجباته || لا ينجز واجباته"
   },
   {
     "id": 85,
@@ -2796,6 +2733,27 @@
     "notes": ""
   },
   {
+    "id": 223,
+    "name": "بيرم",
+    "surname": "عكروت",
+    "educational_level": "7 أساسي",
+    "institution": "المدرسة الاعدادية ابن سينا",
+    "entry_date": "2026-02-13",
+    "guardian_full_name": "عادل عكروت",
+    "phone_number": "97860715",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "13/02/2026 إلى 12/03/2026",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 39,
     "name": "نور",
     "surname": "عكروت",
@@ -2817,7 +2775,8 @@
       "2026-01-24",
       "2026-01-25",
       "2026-02-01",
-      "2026-02-08"
+      "2026-02-08",
+      "2026-02-13"
     ],
     "unpaid_periods": [
       {
@@ -2992,7 +2951,8 @@
       "2026-01-30",
       "2026-02-01",
       "2026-02-03",
-      "2026-02-08"
+      "2026-02-08",
+      "2026-02-13"
     ],
     "unpaid_periods": [
       {
@@ -3618,7 +3578,7 @@
     "phone_number": "23509750",
     "payment_generation_status": "active",
     "payment_count": 7,
-    "unpaid_total": 150.0,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-09-26",
       "2025-10-18",
@@ -3630,10 +3590,6 @@
       "2026-02-03"
     ],
     "unpaid_periods": [
-      {
-        "period": "12/12/2025 إلى 11/01/2026",
-        "amount": 50.0
-      },
       {
         "period": "12/01/2026 إلى 11/02/2026",
         "amount": 50.0
@@ -3828,7 +3784,7 @@
     "phone_number": "55254806",
     "payment_generation_status": "active",
     "payment_count": 5,
-    "unpaid_total": 150.0,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-10-30",
       "2025-11-01",
@@ -3840,10 +3796,6 @@
       "2026-02-01"
     ],
     "unpaid_periods": [
-      {
-        "period": "26/11/2025 إلى 25/12/2025",
-        "amount": 50.0
-      },
       {
         "period": "26/12/2025 إلى 25/01/2026",
         "amount": 50.0
@@ -3906,7 +3858,8 @@
     "unpaid_total": 100.0,
     "absence_count": [
       "2026-02-01",
-      "2026-02-08"
+      "2026-02-08",
+      "2026-02-13"
     ],
     "unpaid_periods": [
       {
@@ -4045,7 +3998,8 @@
     "unpaid_total": 50.0,
     "absence_count": [
       "2026-02-01",
-      "2026-02-08"
+      "2026-02-08",
+      "2026-02-13"
     ],
     "unpaid_periods": [
       {
@@ -4458,7 +4412,8 @@
       "2025-12-07",
       "2026-01-09",
       "2026-01-31",
-      "2026-02-01"
+      "2026-02-01",
+      "2026-02-13"
     ],
     "unpaid_periods": [
       {
@@ -4663,7 +4618,8 @@
     "absence_count": [
       "2026-01-10",
       "2026-01-17",
-      "2026-02-01"
+      "2026-02-01",
+      "2026-02-13"
     ],
     "unpaid_periods": [
       {
