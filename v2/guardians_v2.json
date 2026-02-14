@@ -273,7 +273,7 @@
     "student_ids": [
       158
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "607965",
     "credit_balance": 0.0,
     "is_active": true
@@ -472,7 +472,7 @@
     "student_ids": [
       161
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 200.0,
     "password": "604665",
     "credit_balance": 0.0,
     "is_active": true
@@ -917,7 +917,7 @@
     "student_ids": [
       77
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 200.0,
     "password": "577964",
     "credit_balance": 0.0,
     "is_active": true
@@ -1241,17 +1241,6 @@
     ],
     "unpaid_total": 50.0,
     "password": "332664",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
-    "guardian_full_name": "جيهان بحيري",
-    "phone_number": "94250424",
-    "student_ids": [
-      214
-    ],
-    "unpaid_total": 50.0,
-    "password": "720289",
     "credit_balance": 0.0,
     "is_active": true
   },
