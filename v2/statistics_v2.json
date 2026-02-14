@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 11360.0,
+    "total_overdue_unpaid_amount": 11310.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -1463,12 +1463,6 @@
       {
         "student_id": 158,
         "student_name": "احــمــد زريبي",
-        "period": "14/01/2026 إلى 13/02/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 161,
-        "student_name": "إسلام كحلي",
         "period": "14/01/2026 إلى 13/02/2026",
         "amount": 50.0
       }
