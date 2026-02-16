@@ -106,8 +106,7 @@
     "guardian_full_name": "بسمة عبيدي",
     "phone_number": "99722377",
     "student_ids": [
-      101,
-      124
+      101
     ],
     "unpaid_total": 0.0,
     "password": "241509",
@@ -193,7 +192,7 @@
       87,
       162
     ],
-    "unpaid_total": 60.0,
+    "unpaid_total": 90.0,
     "password": "565940",
     "credit_balance": 0.0,
     "is_active": true
@@ -328,7 +327,7 @@
     "student_ids": [
       97
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 250.0,
     "password": "125816",
     "credit_balance": 0.0,
     "is_active": true
@@ -546,17 +545,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "فتحي صالحي",
-    "phone_number": "94259396",
-    "student_ids": [
-      73
-    ],
-    "unpaid_total": 120.0,
-    "password": "229883",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "فتحية عيوني",
     "phone_number": "94110939",
     "student_ids": [
@@ -757,7 +745,7 @@
     "student_ids": [
       54
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "439616",
     "credit_balance": 0.0,
     "is_active": true
@@ -934,17 +922,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "أحمد كحولي",
-    "phone_number": "96084360",
-    "student_ids": [
-      40
-    ],
-    "unpaid_total": 100.0,
-    "password": "492953",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "محمد العكرمي صالحي",
     "phone_number": "28889953",
     "student_ids": [
@@ -1060,7 +1037,7 @@
     "student_ids": [
       195
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "005114",
     "credit_balance": 0.0,
     "is_active": true
@@ -1115,7 +1092,7 @@
     "student_ids": [
       186
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "269486",
     "credit_balance": 0.0,
     "is_active": true
@@ -1128,7 +1105,7 @@
       117,
       118
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 300.0,
     "password": "102027",
     "credit_balance": 0.0,
     "is_active": true

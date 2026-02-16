@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 11310.0,
+    "total_overdue_unpaid_amount": 11220.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -49,12 +49,6 @@
         "student_name": "ريتاج جلالي",
         "period": "25/08/2025 إلى 24/09/2025",
         "amount": 30.0
-      },
-      {
-        "student_id": 73,
-        "student_name": "روان صالحي",
-        "period": "13/09/2025 إلى 12/10/2025",
-        "amount": 40.0
       },
       {
         "student_id": 4,
@@ -211,12 +205,6 @@
         "student_name": "قصي جلالي",
         "period": "07/10/2025 إلى 06/11/2025",
         "amount": 50.0
-      },
-      {
-        "student_id": 73,
-        "student_name": "روان صالحي",
-        "period": "13/10/2025 إلى 12/11/2025",
-        "amount": 40.0
       },
       {
         "student_id": 97,
@@ -469,12 +457,6 @@
         "student_name": "أحمد درعي",
         "period": "07/11/2025 إلى 06/12/2025",
         "amount": 50.0
-      },
-      {
-        "student_id": 73,
-        "student_name": "روان صالحي",
-        "period": "13/11/2025 إلى 12/12/2025",
-        "amount": 40.0
       },
       {
         "student_id": 74,
@@ -1245,12 +1227,6 @@
         "amount": 40.0
       },
       {
-        "student_id": 40,
-        "student_name": "جهاد كحولي",
-        "period": "01/01/2026 إلى 31/01/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 45,
         "student_name": "أميمة كداشي",
         "period": "01/01/2026 إلى 31/01/2026",
@@ -1465,9 +1441,21 @@
         "student_name": "احــمــد زريبي",
         "period": "14/01/2026 إلى 13/02/2026",
         "amount": 50.0
+      },
+      {
+        "student_id": 162,
+        "student_name": "تقى كدوسي",
+        "period": "15/01/2026 إلى 14/02/2026",
+        "amount": 30.0
+      },
+      {
+        "student_id": 186,
+        "student_name": "سمر ميساوي",
+        "period": "15/01/2026 إلى 14/02/2026",
+        "amount": 50.0
       }
     ],
-    "total_active_students": 156,
+    "total_active_students": 153,
     "students_per_level": {
       "2 ث علوم": 7,
       "9 أساسي": 9,
@@ -1477,7 +1465,7 @@
       "2 ث اقتصاد": 5,
       "3 ابتدائي": 10,
       "1 ثانوي": 13,
-      "8 أساسي": 25,
+      "8 أساسي": 22,
       "1 ابتدائي": 10,
       "6 ابتدائي": 13,
       "7 أساسي": 25,
