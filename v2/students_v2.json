@@ -3262,13 +3262,9 @@
     "phone_number": "94102027",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "16/01/2026 إلى 15/02/2026",
-        "amount": 50.0
-      },
       {
         "period": "16/02/2026 إلى 15/03/2026",
         "amount": 50.0
@@ -3308,14 +3304,9 @@
     "phone_number": "94102027",
     "payment_generation_status": "active",
     "payment_count": 2,
-    "unpaid_total": 100.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "18/01/2026 إلى 17/02/2026",
-        "amount": 100.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -3329,13 +3320,9 @@
     "phone_number": "94102027",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "16/01/2026 إلى 15/02/2026",
-        "amount": 50.0
-      },
       {
         "period": "16/02/2026 إلى 15/03/2026",
         "amount": 50.0
@@ -3573,8 +3560,8 @@
     "guardian_full_name": "فوزي قادري",
     "phone_number": "97946651",
     "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 0.0,
+    "payment_count": 7,
+    "unpaid_total": 50.0,
     "absence_count": [
       "2025-10-21",
       "2025-10-30",
@@ -3584,7 +3571,12 @@
       "2025-11-18",
       "2026-01-03"
     ],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "17/02/2026 إلى 16/03/2026",
+        "amount": 50.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -3628,8 +3620,8 @@
     "guardian_full_name": "محسن قادري",
     "phone_number": "97339704",
     "payment_generation_status": "active",
-    "payment_count": 4,
-    "unpaid_total": 100.0,
+    "payment_count": 5,
+    "unpaid_total": 200.0,
     "absence_count": [
       "2025-10-25",
       "2025-10-30",
@@ -3641,6 +3633,10 @@
     "unpaid_periods": [
       {
         "period": "17/01/2026 إلى 16/02/2026",
+        "amount": 100.0
+      },
+      {
+        "period": "17/02/2026 إلى 16/03/2026",
         "amount": 100.0
       }
     ],
@@ -3985,14 +3981,18 @@
     "guardian_full_name": "لطفي كدوسي",
     "phone_number": "95404266",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2026-02-08"
     ],
     "unpaid_periods": [
       {
         "period": "17/01/2026 إلى 16/02/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "17/02/2026 إلى 16/03/2026",
         "amount": 50.0
       }
     ],
