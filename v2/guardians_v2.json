@@ -28,7 +28,7 @@
     "student_ids": [
       175
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "945351",
     "credit_balance": 0.0,
     "is_active": true
@@ -960,7 +960,7 @@
     "student_ids": [
       154
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "128882",
     "credit_balance": 0.0,
     "is_active": true
@@ -1105,7 +1105,7 @@
       117,
       118
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 200.0,
     "password": "102027",
     "credit_balance": 0.0,
     "is_active": true
@@ -1128,7 +1128,7 @@
       211,
       220
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "password": "430879",
     "credit_balance": 0.0,
     "is_active": true
@@ -1229,6 +1229,17 @@
     ],
     "unpaid_total": 50.0,
     "password": "949608",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "فتحي جلالي",
+    "phone_number": "58910488",
+    "student_ids": [
+      224
+    ],
+    "unpaid_total": 100.0,
+    "password": "218168",
     "credit_balance": 0.0,
     "is_active": true
   }

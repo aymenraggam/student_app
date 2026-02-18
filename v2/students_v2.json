@@ -9,12 +9,16 @@
     "guardian_full_name": "احمد أم هاني",
     "phone_number": "98303404",
     "payment_generation_status": "active",
-    "payment_count": 4,
-    "unpaid_total": 50.0,
+    "payment_count": 5,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "18/01/2026 إلى 17/02/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "18/02/2026 إلى 17/03/2026",
         "amount": 50.0
       }
     ],
@@ -571,6 +575,27 @@
     "notes": "لا ينجز واجباته"
   },
   {
+    "id": 224,
+    "name": "ريان",
+    "surname": "جلالي",
+    "educational_level": "7 أساسي",
+    "institution": "المدرسة الاعدادية ابن أبي الضياف",
+    "entry_date": "2026-02-16",
+    "guardian_full_name": "فتحي جلالي",
+    "phone_number": "58910488",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 100.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "16/02/2026 إلى 15/03/2026",
+        "amount": 100.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 37,
     "name": "ريتاج",
     "surname": "جلالي",
@@ -1005,14 +1030,9 @@
     "phone_number": "97510323",
     "payment_generation_status": "active",
     "payment_count": 1,
-    "unpaid_total": 100.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "19/01/2026 إلى 18/02/2026",
-        "amount": 100.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -2219,8 +2239,8 @@
     "guardian_full_name": "أم أنس ضيفي",
     "phone_number": "96200255",
     "payment_generation_status": "active",
-    "payment_count": 4,
-    "unpaid_total": 100.0,
+    "payment_count": 5,
+    "unpaid_total": 150.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -2229,6 +2249,10 @@
       },
       {
         "period": "18/01/2026 إلى 17/02/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "18/02/2026 إلى 17/03/2026",
         "amount": 50.0
       }
     ],
@@ -3304,10 +3328,15 @@
     "guardian_full_name": "أحلام كدوسي",
     "phone_number": "94102027",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 0.0,
+    "payment_count": 3,
+    "unpaid_total": 100.0,
     "absence_count": [],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "18/02/2026 إلى 17/03/2026",
+        "amount": 100.0
+      }
+    ],
     "notes": ""
   },
   {

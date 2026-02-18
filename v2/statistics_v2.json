@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 11520.0,
+    "total_overdue_unpaid_amount": 11620.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -1479,13 +1479,25 @@
         "amount": 50.0
       },
       {
+        "student_id": 154,
+        "student_name": "آدم أم هاني",
+        "period": "18/01/2026 إلى 17/02/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 175,
+        "student_name": "أنس ضيفي",
+        "period": "18/01/2026 إلى 17/02/2026",
+        "amount": 50.0
+      },
+      {
         "student_id": 54,
         "student_name": "ملاك عيوني",
         "period": "16/01/2026 إلى 15/02/2026",
         "amount": 50.0
       }
     ],
-    "total_active_students": 153,
+    "total_active_students": 154,
     "students_per_level": {
       "2 ث علوم": 7,
       "9 أساسي": 9,
@@ -1497,8 +1509,8 @@
       "1 ثانوي": 13,
       "8 أساسي": 22,
       "1 ابتدائي": 10,
+      "7 أساسي": 26,
       "6 ابتدائي": 13,
-      "7 أساسي": 25,
       "6 أساسي": 2
     }
   }
