@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 11620.0,
+    "total_overdue_unpaid_amount": 11950.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -855,12 +855,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 182,
-        "student_name": "مؤيد حاجي",
-        "period": "05/12/2025 إلى 04/01/2026",
-        "amount": 30.0
-      },
-      {
         "student_id": 156,
         "student_name": "قصي جلالي",
         "period": "07/12/2025 إلى 06/01/2026",
@@ -1290,7 +1284,7 @@
         "student_id": 94,
         "student_name": "نغم جلالي",
         "period": "03/01/2026 إلى 02/02/2026",
-        "amount": 100.0
+        "amount": 50.0
       },
       {
         "student_id": 155,
@@ -1321,12 +1315,6 @@
         "student_name": "محمد عزيز عامري",
         "period": "24/12/2025 إلى 23/01/2026",
         "amount": 50.0
-      },
-      {
-        "student_id": 182,
-        "student_name": "مؤيد حاجي",
-        "period": "05/01/2026 إلى 04/02/2026",
-        "amount": 30.0
       },
       {
         "student_id": 96,
@@ -1491,10 +1479,58 @@
         "amount": 50.0
       },
       {
+        "student_id": 84,
+        "student_name": "أمل طقوقي",
+        "period": "19/01/2026 إلى 18/02/2026",
+        "amount": 40.0
+      },
+      {
+        "student_id": 85,
+        "student_name": "أيوب طقوقي",
+        "period": "19/01/2026 إلى 18/02/2026",
+        "amount": 40.0
+      },
+      {
+        "student_id": 86,
+        "student_name": "آدم طقوقي",
+        "period": "19/01/2026 إلى 18/02/2026",
+        "amount": 40.0
+      },
+      {
+        "student_id": 98,
+        "student_name": "أيهم عيادي",
+        "period": "19/01/2026 إلى 18/02/2026",
+        "amount": 100.0
+      },
+      {
+        "student_id": 167,
+        "student_name": "أيهم خليفي",
+        "period": "19/01/2026 إلى 18/02/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 191,
+        "student_name": "محمد أمين عبدلي",
+        "period": "19/01/2026 إلى 18/02/2026",
+        "amount": 30.0
+      },
+      {
+        "student_id": 27,
+        "student_name": "ألاء زارعي",
+        "period": "19/01/2026 إلى 18/02/2026",
+        "amount": 40.0
+      },
+      {
         "student_id": 54,
         "student_name": "ملاك عيوني",
         "period": "16/01/2026 إلى 15/02/2026",
         "amount": 50.0
+      },
+      {
+        "student_id": 220,
+        "student_name": "أوس حاجي",
+        "period": "19/01/2026 إلى 18/02/2026",
+        "amount": 100.0
       }
     ],
     "total_active_students": 154,

@@ -142,9 +142,12 @@
     "educational_level": "6 أساسي",
     "class_type": "private",
     "student_ids": [
+      19,
+      20,
       208,
       211,
-      215
+      215,
+      224
     ],
     "is_makeup": false
   },
@@ -155,12 +158,9 @@
     "educational_level": "8 أساسي",
     "class_type": "private",
     "student_ids": [
-      19,
-      20,
       34,
       38,
       74,
-      94,
       165,
       212
     ],
@@ -185,7 +185,12 @@
     "educational_level": "6 أساسي",
     "class_type": "private",
     "student_ids": [
-      208
+      19,
+      20,
+      208,
+      211,
+      215,
+      224
     ],
     "is_makeup": false
   },
@@ -196,16 +201,11 @@
     "educational_level": "8 أساسي",
     "class_type": "private",
     "student_ids": [
-      19,
-      20,
       34,
       38,
       74,
-      94,
       165,
-      211,
-      212,
-      215
+      212
     ],
     "is_makeup": false
   },
