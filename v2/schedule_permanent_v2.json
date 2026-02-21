@@ -233,9 +233,22 @@
     "is_makeup": false
   },
   {
-    "id": 44,
+    "id": 112,
     "day_of_week": "الثلاثاء",
     "time_slot": "19:00 - 21:00",
+    "educational_level": "1 ثانوي",
+    "class_type": "private",
+    "student_ids": [
+      34,
+      38,
+      212
+    ],
+    "is_makeup": false
+  },
+  {
+    "id": 111,
+    "day_of_week": "الثلاثاء",
+    "time_slot": "21:00 - 23:00",
     "educational_level": "1 ثانوي",
     "class_type": "general",
     "student_ids": [
@@ -251,21 +264,6 @@
       178,
       186,
       196
-    ],
-    "is_makeup": false
-  },
-  {
-    "id": 105,
-    "day_of_week": "الثلاثاء",
-    "time_slot": "21:00 - 23:00",
-    "educational_level": "1 ثانوي",
-    "class_type": "private",
-    "student_ids": [
-      34,
-      38,
-      62,
-      103,
-      212
     ],
     "is_makeup": false
   },
@@ -409,9 +407,22 @@
     "is_makeup": false
   },
   {
-    "id": 52,
+    "id": 115,
     "day_of_week": "الخميس",
     "time_slot": "19:00 - 21:00",
+    "educational_level": "2 ث اقتصاد",
+    "class_type": "private",
+    "student_ids": [
+      180,
+      182,
+      191
+    ],
+    "is_makeup": false
+  },
+  {
+    "id": 114,
+    "day_of_week": "الخميس",
+    "time_slot": "21:00 - 23:00",
     "educational_level": "1 ثانوي",
     "class_type": "general",
     "student_ids": [
@@ -427,19 +438,6 @@
       178,
       186,
       196
-    ],
-    "is_makeup": false
-  },
-  {
-    "id": 103,
-    "day_of_week": "الخميس",
-    "time_slot": "21:00 - 23:00",
-    "educational_level": "2 ث اقتصاد",
-    "class_type": "private",
-    "student_ids": [
-      180,
-      182,
-      191
     ],
     "is_makeup": false
   },
@@ -531,9 +529,9 @@
     "is_makeup": false
   },
   {
-    "id": 88,
+    "id": 108,
     "day_of_week": "السبت",
-    "time_slot": "19:00 - 21:00",
+    "time_slot": "21:00 - 23:00",
     "educational_level": "1 ثانوي",
     "class_type": "general",
     "student_ids": [
@@ -549,18 +547,6 @@
       178,
       186,
       196
-    ],
-    "is_makeup": false
-  },
-  {
-    "id": 108,
-    "day_of_week": "السبت",
-    "time_slot": "21:00 - 23:00",
-    "educational_level": "1 ثانوي",
-    "class_type": "private",
-    "student_ids": [
-      62,
-      103
     ],
     "is_makeup": false
   }

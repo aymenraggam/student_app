@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 12020.0,
+    "total_overdue_unpaid_amount": 12250.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -669,18 +669,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 111,
-        "student_name": "يوسف كدوسي",
-        "period": "23/11/2025 إلى 22/12/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 112,
-        "student_name": "فرح كدوسي",
-        "period": "23/11/2025 إلى 22/12/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 195,
         "student_name": "أحمد رحماني",
         "period": "23/11/2025 إلى 22/12/2025",
@@ -1077,18 +1065,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 111,
-        "student_name": "يوسف كدوسي",
-        "period": "23/12/2025 إلى 22/01/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 112,
-        "student_name": "فرح كدوسي",
-        "period": "23/12/2025 إلى 22/01/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 169,
         "student_name": "شروق بوكدوس",
         "period": "22/12/2025 إلى 21/01/2026",
@@ -1200,12 +1176,6 @@
         "student_id": 30,
         "student_name": "يحي مسعودي",
         "period": "29/12/2025 إلى 28/01/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 139,
-        "student_name": "سجدة بوعلاقي",
-        "period": "30/12/2025 إلى 29/01/2026",
         "amount": 50.0
       },
       {
@@ -1533,6 +1503,54 @@
         "amount": 50.0
       },
       {
+        "student_id": 2,
+        "student_name": "مسرّة جلالي",
+        "period": "22/01/2026 إلى 21/02/2026",
+        "amount": 70.0
+      },
+      {
+        "student_id": 8,
+        "student_name": "أمان جلالي",
+        "period": "22/01/2026 إلى 21/02/2026",
+        "amount": 100.0
+      },
+      {
+        "student_id": 14,
+        "student_name": "معتصم صالحي",
+        "period": "22/01/2026 إلى 21/02/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 90,
+        "student_name": "لينا عبيدي",
+        "period": "22/01/2026 إلى 21/02/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 102,
+        "student_name": "إلينا مسعودي",
+        "period": "22/01/2026 إلى 21/02/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 168,
+        "student_name": "احلام قادري",
+        "period": "22/01/2026 إلى 21/02/2026",
+        "amount": 30.0
+      },
+      {
+        "student_id": 169,
+        "student_name": "شروق بوكدوس",
+        "period": "22/01/2026 إلى 21/02/2026",
+        "amount": 30.0
+      },
+      {
+        "student_id": 212,
+        "student_name": "ألاء قادري",
+        "period": "22/01/2026 إلى 21/02/2026",
+        "amount": 100.0
+      },
+      {
         "student_id": 54,
         "student_name": "ملاك عيوني",
         "period": "16/01/2026 إلى 15/02/2026",
@@ -1545,12 +1563,12 @@
         "amount": 100.0
       }
     ],
-    "total_active_students": 154,
+    "total_active_students": 152,
     "students_per_level": {
       "2 ث علوم": 7,
       "9 أساسي": 9,
       "5 ابتدائي": 16,
-      "4 ابتدائي": 12,
+      "4 ابتدائي": 10,
       "2 ابتدائي": 9,
       "2 ث اقتصاد": 5,
       "3 ابتدائي": 10,
