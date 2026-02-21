@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 11950.0,
+    "total_overdue_unpaid_amount": 12020.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -1209,12 +1209,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 3,
-        "student_name": "أميرة مسعودي",
-        "period": "01/01/2026 إلى 31/01/2026",
-        "amount": 100.0
-      },
-      {
         "student_id": 13,
         "student_name": "ميسم مسعودي",
         "period": "01/01/2026 إلى 31/01/2026",
@@ -1431,12 +1425,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 162,
-        "student_name": "تقى كدوسي",
-        "period": "15/01/2026 إلى 14/02/2026",
-        "amount": 30.0
-      },
-      {
         "student_id": 186,
         "student_name": "سمر ميساوي",
         "period": "15/01/2026 إلى 14/02/2026",
@@ -1519,6 +1507,30 @@
         "student_name": "ألاء زارعي",
         "period": "19/01/2026 إلى 18/02/2026",
         "amount": 40.0
+      },
+      {
+        "student_id": 100,
+        "student_name": "جوري ضيفي",
+        "period": "20/01/2026 إلى 19/02/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 174,
+        "student_name": "احمد اللاحق",
+        "period": "21/01/2026 إلى 20/02/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 187,
+        "student_name": "آمنة اللاحق",
+        "period": "20/01/2026 إلى 19/02/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 205,
+        "student_name": "ميسان ضيفي",
+        "period": "20/01/2026 إلى 19/02/2026",
+        "amount": 50.0
       },
       {
         "student_id": 54,

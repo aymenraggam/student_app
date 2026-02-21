@@ -105,8 +105,8 @@
     "guardian_full_name": "عواطف كحلي",
     "phone_number": "96285990",
     "payment_generation_status": "active",
-    "payment_count": 4,
-    "unpaid_total": 150.0,
+    "payment_count": 5,
+    "unpaid_total": 200.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -119,6 +119,10 @@
       },
       {
         "period": "20/01/2026 إلى 19/02/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "20/02/2026 إلى 19/03/2026",
         "amount": 50.0
       }
     ],
@@ -134,8 +138,8 @@
     "guardian_full_name": "عواطف كحلي",
     "phone_number": "96285990",
     "payment_generation_status": "active",
-    "payment_count": 4,
-    "unpaid_total": 150.0,
+    "payment_count": 5,
+    "unpaid_total": 200.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -148,6 +152,10 @@
       },
       {
         "period": "21/01/2026 إلى 20/02/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "21/02/2026 إلى 20/03/2026",
         "amount": 50.0
       }
     ],
@@ -1729,14 +1737,9 @@
     "phone_number": "99722424",
     "payment_generation_status": "active",
     "payment_count": 7,
-    "unpaid_total": 40.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "23/01/2026 إلى 22/02/2026",
-        "amount": 40.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -1750,19 +1753,14 @@
     "phone_number": "99722424",
     "payment_generation_status": "active",
     "payment_count": 7,
-    "unpaid_total": 40.0,
+    "unpaid_total": 0.0,
     "absence_count": [
       "2025-10-18",
       "2026-01-11",
       "2026-01-25",
       "2026-02-01"
     ],
-    "unpaid_periods": [
-      {
-        "period": "25/01/2026 إلى 24/02/2026",
-        "amount": 40.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -2124,7 +2122,7 @@
     "guardian_full_name": "محمد العكرمي صالحي",
     "phone_number": "28889953",
     "payment_generation_status": "active",
-    "payment_count": 6,
+    "payment_count": 7,
     "unpaid_total": 0.0,
     "absence_count": [
       "2025-11-23"
@@ -2277,8 +2275,8 @@
     "guardian_full_name": "محمد ضيفي",
     "phone_number": "21505445",
     "payment_generation_status": "active",
-    "payment_count": 5,
-    "unpaid_total": 200.0,
+    "payment_count": 6,
+    "unpaid_total": 250.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -2295,6 +2293,10 @@
       },
       {
         "period": "20/01/2026 إلى 19/02/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "20/02/2026 إلى 19/03/2026",
         "amount": 50.0
       }
     ],
@@ -2371,8 +2373,8 @@
     "guardian_full_name": "عبد الحفيظ ضيفي",
     "phone_number": "22195709",
     "payment_generation_status": "active",
-    "payment_count": 4,
-    "unpaid_total": 200.0,
+    "payment_count": 5,
+    "unpaid_total": 250.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -2389,6 +2391,10 @@
       },
       {
         "period": "20/01/2026 إلى 19/02/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "20/02/2026 إلى 19/03/2026",
         "amount": 50.0
       }
     ],
@@ -4069,13 +4075,9 @@
     "phone_number": "92451382",
     "payment_generation_status": "active",
     "payment_count": 6,
-    "unpaid_total": 60.0,
+    "unpaid_total": 30.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "15/01/2026 إلى 14/02/2026",
-        "amount": 30.0
-      },
       {
         "period": "15/02/2026 إلى 14/03/2026",
         "amount": 30.0
@@ -4094,14 +4096,9 @@
     "phone_number": "92451382",
     "payment_generation_status": "active",
     "payment_count": 6,
-    "unpaid_total": 30.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "25/01/2026 إلى 24/02/2026",
-        "amount": 30.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -4239,13 +4236,9 @@
     "phone_number": "42218267",
     "payment_generation_status": "active",
     "payment_count": 8,
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "01/01/2026 إلى 31/01/2026",
-        "amount": 100.0
-      },
       {
         "period": "01/02/2026 إلى 28/02/2026",
         "amount": 100.0
@@ -4264,14 +4257,9 @@
     "phone_number": "42218267",
     "payment_generation_status": "active",
     "payment_count": 7,
-    "unpaid_total": 100.0,
+    "unpaid_total": 0.0,
     "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "23/01/2026 إلى 22/02/2026",
-        "amount": 100.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
