@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 12250.0,
+    "total_overdue_unpaid_amount": 12200.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -1231,12 +1231,6 @@
         "student_name": "عائشة جلالي",
         "period": "03/01/2026 إلى 02/02/2026",
         "amount": 30.0
-      },
-      {
-        "student_id": 23,
-        "student_name": "تقوى شرف الدين",
-        "period": "03/01/2026 إلى 02/02/2026",
-        "amount": 50.0
       },
       {
         "student_id": 31,
