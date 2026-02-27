@@ -93,7 +93,7 @@
   {
     "id": 86,
     "day_of_week": "الأحد",
-    "time_slot": "17:00 - 19:00",
+    "time_slot": "13:00 - 15:00",
     "educational_level": "9 أساسي",
     "class_type": "general",
     "student_ids": [
@@ -107,7 +107,8 @@
       159,
       170
     ],
-    "is_makeup": false
+    "is_makeup": true,
+    "temp_id": 112
   },
   {
     "id": 109,
