@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 15035.0,
+    "total_overdue_unpaid_amount": 14985.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -1411,12 +1411,6 @@
         "student_name": "أيهم عيادي",
         "period": "19/01/2026 إلى 18/02/2026",
         "amount": 100.0
-      },
-      {
-        "student_id": 167,
-        "student_name": "أيهم خليفي",
-        "period": "19/01/2026 إلى 18/02/2026",
-        "amount": 50.0
       },
       {
         "student_id": 191,
