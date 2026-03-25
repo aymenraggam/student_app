@@ -1599,16 +1599,16 @@
       },
       {
         "period_formatted": "03/01/2026 إلى 02/02/2026",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 40.0,
-        "received_date": null,
+        "received_date": "2026-02-25",
         "notes": "__RESUME_DAY:3__"
       },
       {
         "period_formatted": "03/02/2026 إلى 02/03/2026",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 40.0,
-        "received_date": null,
+        "received_date": "2026-03-23",
         "notes": "__RESUME_DAY:3__"
       },
       {
@@ -6863,9 +6863,9 @@
     "payments": [
       {
         "period_formatted": "07/11/2025 إلى 06/12/2025",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 50.0,
-        "received_date": null,
+        "received_date": "2026-03-25",
         "notes": ""
       },
       {

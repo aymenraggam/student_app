@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 19050.0,
+    "total_overdue_unpaid_amount": 18920.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -510,12 +510,6 @@
         "student_id": 187,
         "student_name": "آمنة اللاحق",
         "period": "20/11/2025 إلى 19/12/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 193,
-        "student_name": "حمزة جلالي",
-        "period": "07/11/2025 إلى 06/12/2025",
         "amount": 50.0
       },
       {
@@ -1203,12 +1197,6 @@
         "amount": 30.0
       },
       {
-        "student_id": 31,
-        "student_name": "سيف زريبي",
-        "period": "03/01/2026 إلى 02/02/2026",
-        "amount": 40.0
-      },
-      {
         "student_id": 94,
         "student_name": "نغم جلالي",
         "period": "03/01/2026 إلى 02/02/2026",
@@ -1849,12 +1837,6 @@
         "student_name": "تقوى شرف الدين",
         "period": "03/02/2026 إلى 02/03/2026",
         "amount": 50.0
-      },
-      {
-        "student_id": 31,
-        "student_name": "سيف زريبي",
-        "period": "03/02/2026 إلى 02/03/2026",
-        "amount": 40.0
       },
       {
         "student_id": 42,
