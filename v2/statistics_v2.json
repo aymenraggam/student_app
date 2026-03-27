@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 14470.0,
+    "total_overdue_unpaid_amount": 14120.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -327,18 +327,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 161,
-        "student_name": "إسلام كحلي",
-        "period": "14/11/2025 إلى 13/12/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 186,
-        "student_name": "سمر ميساوي",
-        "period": "16/11/2025 إلى 15/12/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 98,
         "student_name": "أيهم عيادي",
         "period": "19/11/2025 إلى 18/12/2025",
@@ -533,12 +521,6 @@
       {
         "student_id": 158,
         "student_name": "احــمــد زريبي",
-        "period": "14/12/2025 إلى 13/01/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 161,
-        "student_name": "إسلام كحلي",
         "period": "14/12/2025 إلى 13/01/2026",
         "amount": 50.0
       },
@@ -819,12 +801,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 138,
-        "student_name": "برهان عبيدي",
-        "period": "30/12/2025 إلى 29/01/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 77,
         "student_name": "يوسف سماري",
         "period": "14/01/2026 إلى 13/02/2026",
@@ -834,12 +810,6 @@
         "student_id": 158,
         "student_name": "احــمــد زريبي",
         "period": "14/01/2026 إلى 13/02/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 186,
-        "student_name": "سمر ميساوي",
-        "period": "15/01/2026 إلى 14/02/2026",
         "amount": 50.0
       },
       {
@@ -1125,12 +1095,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 138,
-        "student_name": "برهان عبيدي",
-        "period": "30/01/2026 إلى 27/02/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 139,
         "student_name": "سجدة بوعلاقي",
         "period": "30/01/2026 إلى 27/02/2026",
@@ -1357,12 +1321,6 @@
         "student_name": "تقى كدوسي",
         "period": "15/02/2026 إلى 14/03/2026",
         "amount": 30.0
-      },
-      {
-        "student_id": 186,
-        "student_name": "سمر ميساوي",
-        "period": "15/02/2026 إلى 14/03/2026",
-        "amount": 50.0
       },
       {
         "student_id": 54,
@@ -1827,7 +1785,7 @@
         "amount": 50.0
       }
     ],
-    "total_active_students": 153,
+    "total_active_students": 151,
     "students_per_level": {
       "2 ث علوم": 7,
       "9 أساسي": 9,
@@ -1836,7 +1794,7 @@
       "3 ابتدائي": 10,
       "2 ابتدائي": 8,
       "4 ابتدائي": 8,
-      "1 ثانوي": 14,
+      "1 ثانوي": 12,
       "8 أساسي": 23,
       "7 أساسي": 28,
       "1 ابتدائي": 10,
