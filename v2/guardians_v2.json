@@ -5,7 +5,7 @@
     "student_ids": [
       74
     ],
-    "unpaid_total": 400.0,
+    "unpaid_total": 500.0,
     "password": "261332",
     "credit_balance": 0.0,
     "is_active": true
@@ -106,7 +106,8 @@
     "guardian_full_name": "بسمة عبيدي",
     "phone_number": "99722377",
     "student_ids": [
-      101
+      101,
+      124
     ],
     "unpaid_total": 0.0,
     "password": "241509",
@@ -339,7 +340,7 @@
       126,
       127
     ],
-    "unpaid_total": 120.0,
+    "unpaid_total": 200.0,
     "password": "571815",
     "credit_balance": 0.0,
     "is_active": true
@@ -522,18 +523,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "عواطف اللاحق",
-    "phone_number": "96285990",
-    "student_ids": [
-      174,
-      187
-    ],
-    "unpaid_total": 500.0,
-    "password": "438725",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "فاطمة بوعلافي",
     "phone_number": "53780865",
     "student_ids": [
@@ -600,17 +589,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "لطيفة سليمي",
-    "phone_number": "44171178",
-    "student_ids": [
-      155
-    ],
-    "unpaid_total": 300.0,
-    "password": "365426",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "لطيّف كرمودي",
     "phone_number": "97636826",
     "student_ids": [
@@ -667,7 +645,7 @@
       137,
       180
     ],
-    "unpaid_total": 330.0,
+    "unpaid_total": 450.0,
     "password": "135852",
     "credit_balance": 0.0,
     "is_active": true
@@ -801,7 +779,7 @@
       36,
       128
     ],
-    "unpaid_total": 360.0,
+    "unpaid_total": 400.0,
     "password": "632059",
     "credit_balance": 0.0,
     "is_active": true
@@ -904,7 +882,7 @@
     "student_ids": [
       99
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "026467",
     "credit_balance": 30.0,
     "is_active": true
@@ -1250,6 +1228,17 @@
     ],
     "unpaid_total": 50.0,
     "password": "097601",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "محسن عبيدي",
+    "phone_number": "41562323",
+    "student_ids": [
+      227
+    ],
+    "unpaid_total": 50.0,
+    "password": "974681",
     "credit_balance": 0.0,
     "is_active": true
   }

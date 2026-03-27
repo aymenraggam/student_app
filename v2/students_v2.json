@@ -53,7 +53,8 @@
       "2026-01-11",
       "2026-01-18",
       "2026-02-08",
-      "2026-02-27"
+      "2026-02-27",
+      "2026-03-27"
     ],
     "unpaid_periods": [
       {
@@ -91,80 +92,6 @@
       },
       {
         "period": "08/03/2026 إلى 07/04/2026",
-        "amount": 50.0
-      }
-    ],
-    "notes": ""
-  },
-  {
-    "id": 187,
-    "name": "آمنة",
-    "surname": "اللاحق",
-    "educational_level": "4 ابتدائي",
-    "institution": "مدرسة ابن رشد1",
-    "entry_date": "2025-10-20",
-    "guardian_full_name": "عواطف كحلي",
-    "phone_number": "96285990",
-    "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 250.0,
-    "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "20/11/2025 إلى 19/12/2025",
-        "amount": 50.0
-      },
-      {
-        "period": "20/12/2025 إلى 19/01/2026",
-        "amount": 50.0
-      },
-      {
-        "period": "20/01/2026 إلى 19/02/2026",
-        "amount": 50.0
-      },
-      {
-        "period": "20/02/2026 إلى 19/03/2026",
-        "amount": 50.0
-      },
-      {
-        "period": "20/03/2026 إلى 19/04/2026",
-        "amount": 50.0
-      }
-    ],
-    "notes": ""
-  },
-  {
-    "id": 174,
-    "name": "احمد",
-    "surname": "اللاحق",
-    "educational_level": "2 ابتدائي",
-    "institution": "مدرسة ابن رشد1",
-    "entry_date": "2025-10-21",
-    "guardian_full_name": "عواطف كحلي",
-    "phone_number": "96285990",
-    "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 250.0,
-    "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "21/11/2025 إلى 20/12/2025",
-        "amount": 50.0
-      },
-      {
-        "period": "21/12/2025 إلى 20/01/2026",
-        "amount": 50.0
-      },
-      {
-        "period": "21/01/2026 إلى 20/02/2026",
-        "amount": 50.0
-      },
-      {
-        "period": "21/02/2026 إلى 20/03/2026",
-        "amount": 50.0
-      },
-      {
-        "period": "21/03/2026 إلى 20/04/2026",
         "amount": 50.0
       }
     ],
@@ -211,14 +138,15 @@
     "guardian_full_name": "محرز بلقاسم",
     "phone_number": "98374485",
     "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 80.0,
+    "payment_count": 7,
+    "unpaid_total": 120.0,
     "absence_count": [
       "2026-01-10",
       "2026-01-11",
       "2026-01-16",
       "2026-01-17",
-      "2026-01-18"
+      "2026-01-18",
+      "2026-03-27"
     ],
     "unpaid_periods": [
       {
@@ -227,6 +155,10 @@
       },
       {
         "period": "27/02/2026 إلى 26/03/2026",
+        "amount": 40.0
+      },
+      {
+        "period": "27/03/2026 إلى 26/04/2026",
         "amount": 40.0
       }
     ],
@@ -242,8 +174,8 @@
     "guardian_full_name": "محرز بلقاسم",
     "phone_number": "98374485",
     "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 80.0,
+    "payment_count": 7,
+    "unpaid_total": 120.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -252,6 +184,10 @@
       },
       {
         "period": "27/02/2026 إلى 26/03/2026",
+        "amount": 40.0
+      },
+      {
+        "period": "27/03/2026 إلى 26/04/2026",
         "amount": 40.0
       }
     ],
@@ -267,8 +203,8 @@
     "guardian_full_name": "محرز بلقاسم",
     "phone_number": "98374485",
     "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 80.0,
+    "payment_count": 7,
+    "unpaid_total": 120.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -277,6 +213,10 @@
       },
       {
         "period": "27/02/2026 إلى 26/03/2026",
+        "amount": 40.0
+      },
+      {
+        "period": "27/03/2026 إلى 26/04/2026",
         "amount": 40.0
       }
     ],
@@ -551,7 +491,9 @@
     "payment_generation_status": "active",
     "payment_count": 1,
     "unpaid_total": 50.0,
-    "absence_count": [],
+    "absence_count": [
+      "2026-03-27"
+    ],
     "unpaid_periods": [
       {
         "period": "05/03/2026 إلى 04/04/2026",
@@ -1234,7 +1176,8 @@
       "2026-02-03",
       "2026-02-08",
       "2026-02-15",
-      "2026-02-22"
+      "2026-02-22",
+      "2026-03-27"
     ],
     "unpaid_periods": [
       {
@@ -1260,7 +1203,9 @@
     "payment_generation_status": "active",
     "payment_count": 8,
     "unpaid_total": 50.0,
-    "absence_count": [],
+    "absence_count": [
+      "2026-03-27"
+    ],
     "unpaid_periods": [
       {
         "period": "13/03/2026 إلى 12/04/2026",
@@ -1320,7 +1265,8 @@
       "2026-02-03",
       "2026-02-08",
       "2026-02-15",
-      "2026-02-22"
+      "2026-02-22",
+      "2026-03-27"
     ],
     "unpaid_periods": [
       {
@@ -1649,7 +1595,8 @@
       "2026-01-25",
       "2026-02-08",
       "2026-02-15",
-      "2026-02-22"
+      "2026-02-22",
+      "2026-03-27"
     ],
     "unpaid_periods": [
       {
@@ -1727,7 +1674,8 @@
       "2026-01-31",
       "2026-02-01",
       "2026-02-03",
-      "2026-02-14"
+      "2026-02-14",
+      "2026-03-27"
     ],
     "unpaid_periods": [
       {
@@ -1891,7 +1839,8 @@
       "2026-01-31",
       "2026-02-01",
       "2026-02-03",
-      "2026-02-15"
+      "2026-02-15",
+      "2026-03-27"
     ],
     "unpaid_periods": [
       {
@@ -2260,7 +2209,8 @@
       "2026-02-03",
       "2026-02-13",
       "2026-02-15",
-      "2026-02-27"
+      "2026-02-27",
+      "2026-03-27"
     ],
     "unpaid_periods": [
       {
@@ -2355,15 +2305,40 @@
     "guardian_full_name": "يامن صالحي",
     "phone_number": "55238333",
     "payment_generation_status": "active",
-    "payment_count": 5,
-    "unpaid_total": 50.0,
+    "payment_count": 6,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "27/02/2026 إلى 26/03/2026",
         "amount": 50.0
+      },
+      {
+        "period": "27/03/2026 إلى 26/04/2026",
+        "amount": 50.0
       }
     ],
+    "notes": ""
+  },
+  {
+    "id": 124,
+    "name": "فاطمة",
+    "surname": "صدقي",
+    "educational_level": "8 أساسي",
+    "institution": "المدرسة الاعدادية ابن سينا",
+    "entry_date": "2025-09-26",
+    "guardian_full_name": "بسمة عبيدي",
+    "phone_number": "99722377",
+    "payment_generation_status": "active",
+    "payment_count": 2,
+    "unpaid_total": 0.0,
+    "absence_count": [
+      "2025-10-18",
+      "2025-10-25",
+      "2025-10-31",
+      "2025-11-07"
+    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -2804,7 +2779,8 @@
     "payment_count": 2,
     "unpaid_total": 100.0,
     "absence_count": [
-      "2026-02-08"
+      "2026-02-08",
+      "2026-03-27"
     ],
     "unpaid_periods": [
       {
@@ -2861,6 +2837,27 @@
     "notes": ""
   },
   {
+    "id": 227,
+    "name": "حلاء",
+    "surname": "عبيدي",
+    "educational_level": "1 ثانوي",
+    "institution": "المعهد الثانوي بالرقاب",
+    "entry_date": "2026-03-27",
+    "guardian_full_name": "محسن عبيدي",
+    "phone_number": "41562323",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "27/03/2026 إلى 26/04/2026",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 90,
     "name": "لينا",
     "surname": "عبيدي",
@@ -2898,7 +2895,8 @@
     "payment_count": 2,
     "unpaid_total": 100.0,
     "absence_count": [
-      "2026-02-27"
+      "2026-02-27",
+      "2026-03-27"
     ],
     "unpaid_periods": [
       {
@@ -2938,7 +2936,8 @@
       "2026-02-13",
       "2026-02-15",
       "2026-02-22",
-      "2026-02-27"
+      "2026-02-27",
+      "2026-03-27"
     ],
     "unpaid_periods": [
       {
@@ -2991,7 +2990,7 @@
     "surname": "عكروتي",
     "educational_level": "7 أساسي",
     "institution": "المدرسة الاعدادية ابن أبي الضياف",
-    "entry_date": "2026-03-05",
+    "entry_date": "2026-03-27",
     "guardian_full_name": "وفاء ميساوي",
     "phone_number": "21588654",
     "payment_generation_status": "active",
@@ -3000,7 +2999,7 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "05/03/2026 إلى 04/04/2026",
+        "period": "27/03/2026 إلى 26/04/2026",
         "amount": 50.0
       }
     ],
@@ -3158,7 +3157,9 @@
     "payment_generation_status": "active",
     "payment_count": 6,
     "unpaid_total": 100.0,
-    "absence_count": [],
+    "absence_count": [
+      "2026-03-27"
+    ],
     "unpaid_periods": [
       {
         "period": "24/02/2026 إلى 23/03/2026",
@@ -3186,7 +3187,8 @@
     "absence_count": [
       "2026-02-08",
       "2026-02-15",
-      "2026-02-22"
+      "2026-02-22",
+      "2026-03-27"
     ],
     "unpaid_periods": [
       {
@@ -3251,7 +3253,8 @@
       "2026-02-01",
       "2026-02-03",
       "2026-02-08",
-      "2026-02-15"
+      "2026-02-15",
+      "2026-03-27"
     ],
     "unpaid_periods": [
       {
@@ -3264,47 +3267,6 @@
       }
     ],
     "notes": ""
-  },
-  {
-    "id": 155,
-    "name": "أريج",
-    "surname": "عوادي",
-    "educational_level": "4 ابتدائي",
-    "institution": "مدرسة ابن رشد1",
-    "entry_date": "2025-10-04",
-    "guardian_full_name": "لطيفة سليمي",
-    "phone_number": "44171178",
-    "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 300.0,
-    "absence_count": [],
-    "unpaid_periods": [
-      {
-        "period": "04/10/2025 إلى 03/11/2025",
-        "amount": 50.0
-      },
-      {
-        "period": "04/11/2025 إلى 03/12/2025",
-        "amount": 50.0
-      },
-      {
-        "period": "04/12/2025 إلى 03/01/2026",
-        "amount": 50.0
-      },
-      {
-        "period": "04/01/2026 إلى 03/02/2026",
-        "amount": 50.0
-      },
-      {
-        "period": "04/02/2026 إلى 03/03/2026",
-        "amount": 50.0
-      },
-      {
-        "period": "04/03/2026 إلى 03/04/2026",
-        "amount": 50.0
-      }
-    ],
-    "notes": "عقوبة 5 مرّات"
   },
   {
     "id": 98,
@@ -3382,8 +3344,8 @@
     "guardian_full_name": "أحلام كحلي",
     "phone_number": "52446848",
     "payment_generation_status": "active",
-    "payment_count": 7,
-    "unpaid_total": 400.0,
+    "payment_count": 8,
+    "unpaid_total": 500.0,
     "absence_count": [
       "2025-09-27",
       "2025-10-30",
@@ -3400,7 +3362,8 @@
       "2026-02-08",
       "2026-02-15",
       "2026-02-22",
-      "2026-02-27"
+      "2026-02-27",
+      "2026-03-27"
     ],
     "unpaid_periods": [
       {
@@ -3417,6 +3380,10 @@
       },
       {
         "period": "27/02/2026 إلى 26/03/2026",
+        "amount": 100.0
+      },
+      {
+        "period": "27/03/2026 إلى 26/04/2026",
         "amount": 100.0
       }
     ],
@@ -3646,8 +3613,8 @@
     "guardian_full_name": "نجاة قادري",
     "phone_number": "99479759",
     "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 160.0,
+    "payment_count": 7,
+    "unpaid_total": 200.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -3664,6 +3631,10 @@
       },
       {
         "period": "27/02/2026 إلى 26/03/2026",
+        "amount": 40.0
+      },
+      {
+        "period": "27/03/2026 إلى 26/04/2026",
         "amount": 40.0
       }
     ],
@@ -3975,7 +3946,8 @@
     "payment_count": 9,
     "unpaid_total": 200.0,
     "absence_count": [
-      "2026-01-03"
+      "2026-01-03",
+      "2026-03-27"
     ],
     "unpaid_periods": [
       {
@@ -4051,7 +4023,8 @@
     "payment_count": 3,
     "unpaid_total": 150.0,
     "absence_count": [
-      "2026-02-08"
+      "2026-02-08",
+      "2026-03-27"
     ],
     "unpaid_periods": [
       {
@@ -4090,7 +4063,8 @@
       "2026-01-17",
       "2026-01-24",
       "2026-02-01",
-      "2026-02-15"
+      "2026-02-15",
+      "2026-03-27"
     ],
     "unpaid_periods": [
       {
@@ -4710,12 +4684,16 @@
     "guardian_full_name": "سنية بوكدوس",
     "phone_number": "99160809",
     "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 40.0,
+    "payment_count": 7,
+    "unpaid_total": 80.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "27/02/2026 إلى 26/03/2026",
+        "amount": 40.0
+      },
+      {
+        "period": "27/03/2026 إلى 26/04/2026",
         "amount": 40.0
       }
     ],
@@ -4731,8 +4709,8 @@
     "guardian_full_name": "سنية بوكدوس",
     "phone_number": "99160809",
     "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 80.0,
+    "payment_count": 7,
+    "unpaid_total": 120.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -4741,6 +4719,10 @@
       },
       {
         "period": "27/02/2026 إلى 26/03/2026",
+        "amount": 40.0
+      },
+      {
+        "period": "27/03/2026 إلى 26/04/2026",
         "amount": 40.0
       }
     ],
@@ -4857,7 +4839,8 @@
       "2026-01-17",
       "2026-02-01",
       "2026-02-13",
-      "2026-02-15"
+      "2026-02-15",
+      "2026-03-27"
     ],
     "unpaid_periods": [
       {
@@ -4918,7 +4901,8 @@
       "2026-01-30",
       "2026-02-08",
       "2026-02-15",
-      "2026-02-27"
+      "2026-02-27",
+      "2026-03-27"
     ],
     "unpaid_periods": [
       {
