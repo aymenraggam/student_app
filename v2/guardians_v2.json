@@ -106,10 +106,9 @@
     "guardian_full_name": "بسمة عبيدي",
     "phone_number": "99722377",
     "student_ids": [
-      101,
       124
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 160.0,
     "password": "241509",
     "credit_balance": 0.0,
     "is_active": true
@@ -210,22 +209,9 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "خالد زارعي",
-    "phone_number": "98612859",
-    "student_ids": [
-      172,
-      173
-    ],
-    "unpaid_total": 500.0,
-    "password": "010859",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "دعد جلالي",
     "phone_number": "24398288",
     "student_ids": [
-      104,
       105
     ],
     "unpaid_total": 0.0,
@@ -377,17 +363,6 @@
     ],
     "unpaid_total": 50.0,
     "password": "214944",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
-    "guardian_full_name": "طارق زارعي",
-    "phone_number": "55495115",
-    "student_ids": [
-      53
-    ],
-    "unpaid_total": 280.0,
-    "password": "795344",
     "credit_balance": 0.0,
     "is_active": true
   },
@@ -556,17 +531,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "قيس مسعودي",
-    "phone_number": "90723023",
-    "student_ids": [
-      13
-    ],
-    "unpaid_total": 200.0,
-    "password": "177977",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "كوثر عباسي",
     "phone_number": "96520851",
     "student_ids": [
@@ -620,7 +584,7 @@
       25,
       58
     ],
-    "unpaid_total": 300.0,
+    "unpaid_total": 250.0,
     "password": "336041",
     "credit_balance": 0.0,
     "is_active": true
@@ -658,17 +622,6 @@
     ],
     "unpaid_total": 120.0,
     "password": "865422",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
-    "guardian_full_name": "محمد ضيفي",
-    "phone_number": "21505445",
-    "student_ids": [
-      100
-    ],
-    "unpaid_total": 300.0,
-    "password": "013240",
     "credit_balance": 0.0,
     "is_active": true
   },
@@ -731,10 +684,9 @@
     "guardian_full_name": "منى زريبي",
     "phone_number": "95222949",
     "student_ids": [
-      42,
       51
     ],
-    "unpaid_total": 350.0,
+    "unpaid_total": 50.0,
     "password": "601245",
     "credit_balance": 0.0,
     "is_active": true
@@ -778,10 +730,9 @@
     "phone_number": "96158860",
     "student_ids": [
       27,
-      43,
       44
     ],
-    "unpaid_total": 820.0,
+    "unpaid_total": 470.0,
     "password": "892485",
     "credit_balance": 0.0,
     "is_active": true
