@@ -205,7 +205,7 @@
     ],
     "unpaid_total": 0.0,
     "password": "04022012",
-    "credit_balance": 50.0,
+    "credit_balance": 230.0,
     "is_active": true
   },
   {
@@ -225,7 +225,7 @@
     "student_ids": [
       20
     ],
-    "unpaid_total": 300.0,
+    "unpaid_total": 200.0,
     "password": "972606",
     "credit_balance": 0.0,
     "is_active": true
@@ -259,7 +259,7 @@
     "student_ids": [
       158
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "password": "607965",
     "credit_balance": 0.0,
     "is_active": true
@@ -697,7 +697,7 @@
     "student_ids": [
       30
     ],
-    "unpaid_total": 250.0,
+    "unpaid_total": 300.0,
     "password": "481960",
     "credit_balance": 0.0,
     "is_active": true
@@ -1168,6 +1168,17 @@
     ],
     "unpaid_total": 0.0,
     "password": "277480",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "نورة عبد اللاوي",
+    "phone_number": "29164626",
+    "student_ids": [
+      120
+    ],
+    "unpaid_total": 50.0,
+    "password": "696734",
     "credit_balance": 0.0,
     "is_active": true
   }
