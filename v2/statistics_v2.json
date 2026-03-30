@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 12480.0,
+    "total_overdue_unpaid_amount": 12280.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -1305,22 +1305,10 @@
         "amount": 50.0
       },
       {
-        "student_id": 20,
-        "student_name": "أحمد عايدي",
-        "period": "24/02/2026 إلى 23/03/2026",
-        "amount": 100.0
-      },
-      {
         "student_id": 28,
         "student_name": "مريم جلالي",
         "period": "25/02/2026 إلى 24/03/2026",
         "amount": 30.0
-      },
-      {
-        "student_id": 34,
-        "student_name": "تقي مسعودي",
-        "period": "25/02/2026 إلى 24/03/2026",
-        "amount": 100.0
       },
       {
         "student_id": 36,

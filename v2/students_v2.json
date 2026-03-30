@@ -491,12 +491,12 @@
     "surname": "جلالي",
     "educational_level": "7 أساسي",
     "institution": "المدرسة الاعدادية ابن أبي الضياف",
-    "entry_date": "2026-03-05",
+    "entry_date": "2026-03-30",
     "guardian_full_name": "راوية جلالي",
     "phone_number": "20183143",
     "payment_generation_status": "active",
     "payment_count": 1,
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2026-03-27",
       "2026-03-28",
@@ -504,8 +504,8 @@
     ],
     "unpaid_periods": [
       {
-        "period": "05/03/2026 إلى 04/04/2026",
-        "amount": 50.0
+        "period": "30/03/2026 إلى 29/04/2026",
+        "amount": 100.0
       }
     ],
     "notes": ""
@@ -2501,7 +2501,7 @@
     "phone_number": "96200112",
     "payment_generation_status": "active",
     "payment_count": 9,
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-10-24",
       "2025-11-14",
@@ -2515,10 +2515,6 @@
       "2026-03-28"
     ],
     "unpaid_periods": [
-      {
-        "period": "24/02/2026 إلى 23/03/2026",
-        "amount": 100.0
-      },
       {
         "period": "24/03/2026 إلى 23/04/2026",
         "amount": 100.0
@@ -4225,17 +4221,13 @@
     "phone_number": "97846999",
     "payment_generation_status": "active",
     "payment_count": 9,
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-10-04",
       "2025-11-01",
       "2026-02-01"
     ],
     "unpaid_periods": [
-      {
-        "period": "25/02/2026 إلى 24/03/2026",
-        "amount": 100.0
-      },
       {
         "period": "25/03/2026 إلى 24/04/2026",
         "amount": 100.0
