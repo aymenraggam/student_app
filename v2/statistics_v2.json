@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 12260.0,
+    "total_overdue_unpaid_amount": 12480.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -927,12 +927,6 @@
         "amount": 100.0
       },
       {
-        "student_id": 208,
-        "student_name": "فرح مسعودي",
-        "period": "01/02/2026 إلى 28/02/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 129,
         "student_name": "لجين بلقاسم",
         "period": "27/01/2026 إلى 26/02/2026",
@@ -1500,6 +1494,42 @@
         "student_id": 30,
         "student_name": "يحي مسعودي",
         "period": "28/02/2026 إلى 28/03/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 139,
+        "student_name": "سجدة بوعلاقي",
+        "period": "28/02/2026 إلى 29/03/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 144,
+        "student_name": "ألين صالحي",
+        "period": "28/02/2026 إلى 29/03/2026",
+        "amount": 35.0
+      },
+      {
+        "student_id": 145,
+        "student_name": "احسان صالحي",
+        "period": "28/02/2026 إلى 29/03/2026",
+        "amount": 35.0
+      },
+      {
+        "student_id": 177,
+        "student_name": "محمد الهادي عمري",
+        "period": "28/02/2026 إلى 29/03/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 178,
+        "student_name": "عمر عمري",
+        "period": "28/02/2026 إلى 29/03/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 219,
+        "student_name": "دينا عمراوي",
+        "period": "28/02/2026 إلى 29/03/2026",
         "amount": 50.0
       },
       {
