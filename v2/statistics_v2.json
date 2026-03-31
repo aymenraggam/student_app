@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 11790.0,
+    "total_overdue_unpaid_amount": 11640.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -615,12 +615,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 207,
-        "student_name": "لجين فالحي",
-        "period": "10/01/2026 إلى 09/02/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 157,
         "student_name": "رسلان صالحي",
         "period": "10/01/2026 إلى 09/02/2026",
@@ -1005,12 +999,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 207,
-        "student_name": "لجين فالحي",
-        "period": "10/02/2026 إلى 09/03/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 71,
         "student_name": "سلمى قادري",
         "period": "12/02/2026 إلى 11/03/2026",
@@ -1211,12 +1199,6 @@
       {
         "student_id": 10,
         "student_name": "أسامة بوعلاقي",
-        "period": "23/02/2026 إلى 22/03/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 12,
-        "student_name": "راسيل جلالي",
         "period": "23/02/2026 إلى 22/03/2026",
         "amount": 50.0
       },

@@ -562,16 +562,12 @@
     "phone_number": "97787207",
     "payment_generation_status": "active",
     "payment_count": 8,
-    "unpaid_total": 100.0,
+    "unpaid_total": 40.0,
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "23/02/2026 إلى 22/03/2026",
-        "amount": 50.0
-      },
-      {
         "period": "23/03/2026 إلى 22/04/2026",
-        "amount": 50.0
+        "amount": 40.0
       }
     ],
     "notes": "لا ينجز واجباته"
@@ -3287,17 +3283,9 @@
     "phone_number": "54139800",
     "payment_generation_status": "active",
     "payment_count": 6,
-    "unpaid_total": 150.0,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "10/01/2026 إلى 09/02/2026",
-        "amount": 50.0
-      },
-      {
-        "period": "10/02/2026 إلى 09/03/2026",
-        "amount": 50.0
-      },
       {
         "period": "10/03/2026 إلى 09/04/2026",
         "amount": 50.0
@@ -3788,13 +3776,9 @@
     "phone_number": "97454029",
     "payment_generation_status": "active",
     "payment_count": 8,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "01/03/2026 إلى 31/03/2026",
-        "amount": 50.0
-      },
       {
         "period": "01/04/2026 إلى 30/04/2026",
         "amount": 50.0
