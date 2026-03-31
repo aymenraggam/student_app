@@ -335,10 +335,9 @@
     "guardian_full_name": "شكري زريبي",
     "phone_number": "48070803",
     "student_ids": [
-      116,
-      216
+      116
     ],
-    "unpaid_total": 250.0,
+    "unpaid_total": 150.0,
     "password": "024181",
     "credit_balance": 0.0,
     "is_active": true
@@ -503,7 +502,7 @@
     "student_ids": [
       50
     ],
-    "unpaid_total": 300.0,
+    "unpaid_total": 150.0,
     "password": "696688",
     "credit_balance": 0.0,
     "is_active": true
@@ -571,7 +570,7 @@
       45,
       46
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 150.0,
     "password": "774087",
     "credit_balance": 0.0,
     "is_active": true
@@ -598,7 +597,7 @@
       137,
       180
     ],
-    "unpaid_total": 450.0,
+    "unpaid_total": 360.0,
     "password": "135852",
     "credit_balance": 0.0,
     "is_active": true
@@ -755,7 +754,7 @@
       3,
       19
     ],
-    "unpaid_total": 400.0,
+    "unpaid_total": 300.0,
     "password": "414757",
     "credit_balance": 0.0,
     "is_active": true
@@ -910,7 +909,7 @@
     "student_ids": [
       193
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 40.0,
     "password": "433858",
     "credit_balance": 0.0,
     "is_active": true
@@ -954,7 +953,7 @@
     "student_ids": [
       208
     ],
-    "unpaid_total": 0.0,
+    "unpaid_total": 50.0,
     "password": "264940",
     "credit_balance": 0.0,
     "is_active": true
@@ -1062,23 +1061,12 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "فتحي زريبي",
-    "phone_number": "23666461",
-    "student_ids": [
-      217
-    ],
-    "unpaid_total": 150.0,
-    "password": "686701",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "بشير كداشي",
     "phone_number": "55431642",
     "student_ids": [
       221
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "436249",
     "credit_balance": 0.0,
     "is_active": true
@@ -1089,7 +1077,7 @@
     "student_ids": [
       222
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "159322",
     "credit_balance": 0.0,
     "is_active": true

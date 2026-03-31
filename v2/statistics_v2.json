@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 12280.0,
+    "total_overdue_unpaid_amount": 11790.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -855,24 +855,6 @@
         "amount": 40.0
       },
       {
-        "student_id": 136,
-        "student_name": "ليان بلقاسم",
-        "period": "27/01/2026 إلى 26/02/2026",
-        "amount": 40.0
-      },
-      {
-        "student_id": 137,
-        "student_name": "ليث بلقاسم",
-        "period": "27/01/2026 إلى 26/02/2026",
-        "amount": 40.0
-      },
-      {
-        "student_id": 217,
-        "student_name": "محمد أمين زريبي",
-        "period": "26/01/2026 إلى 25/02/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 30,
         "student_name": "يحي مسعودي",
         "period": "29/01/2026 إلى 27/02/2026",
@@ -919,18 +901,6 @@
         "student_name": "المعتصم بالله عبيدي",
         "period": "31/01/2026 إلى 27/02/2026",
         "amount": 50.0
-      },
-      {
-        "student_id": 3,
-        "student_name": "أميرة مسعودي",
-        "period": "01/02/2026 إلى 28/02/2026",
-        "amount": 100.0
-      },
-      {
-        "student_id": 129,
-        "student_name": "لجين بلقاسم",
-        "period": "27/01/2026 إلى 26/02/2026",
-        "amount": 40.0
       },
       {
         "student_id": 4,
@@ -1257,12 +1227,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 19,
-        "student_name": "أمين مسعودي",
-        "period": "23/02/2026 إلى 22/03/2026",
-        "amount": 100.0
-      },
-      {
         "student_id": 44,
         "student_name": "أمان زارعي",
         "period": "23/02/2026 إلى 22/03/2026",
@@ -1383,12 +1347,6 @@
         "amount": 40.0
       },
       {
-        "student_id": 50,
-        "student_name": "ريّان حاجي",
-        "period": "26/02/2026 إلى 25/03/2026",
-        "amount": 150.0
-      },
-      {
         "student_id": 74,
         "student_name": "مالك عيوني",
         "period": "27/02/2026 إلى 26/03/2026",
@@ -1467,18 +1425,6 @@
         "amount": 100.0
       },
       {
-        "student_id": 216,
-        "student_name": "أمان الله زريبي",
-        "period": "26/02/2026 إلى 25/03/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 217,
-        "student_name": "محمد أمين زريبي",
-        "period": "26/02/2026 إلى 25/03/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 30,
         "student_name": "يحي مسعودي",
         "period": "28/02/2026 إلى 28/03/2026",
@@ -1515,9 +1461,27 @@
         "amount": 50.0
       },
       {
+        "student_id": 180,
+        "student_name": "لؤي بلقاسم",
+        "period": "28/02/2026 إلى 30/03/2026",
+        "amount": 30.0
+      },
+      {
         "student_id": 219,
         "student_name": "دينا عمراوي",
         "period": "28/02/2026 إلى 29/03/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 221,
+        "student_name": "عمار كداشي",
+        "period": "28/02/2026 إلى 30/03/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 222,
+        "student_name": "المعتصم بالله عبيدي",
+        "period": "28/02/2026 إلى 30/03/2026",
         "amount": 50.0
       },
       {
@@ -1539,11 +1503,11 @@
         "amount": 40.0
       }
     ],
-    "total_active_students": 143,
+    "total_active_students": 141,
     "students_per_level": {
       "2 ث علوم": 7,
       "9 أساسي": 10,
-      "5 ابتدائي": 12,
+      "5 ابتدائي": 10,
       "2 ث اقتصاد": 5,
       "3 ابتدائي": 8,
       "2 ابتدائي": 8,
