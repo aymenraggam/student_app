@@ -80,6 +80,16 @@
     "notes": ""
   },
   {
+    "student_id": 50,
+    "date": "2026-03-31",
+    "subject": "حصة الثلاثاء",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "total_score": 5,
+    "notes": "حاول التركيز أكثر في الدرس"
+  },
+  {
     "student_id": 19,
     "date": "2026-03-29",
     "subject": "حصة الأحد",

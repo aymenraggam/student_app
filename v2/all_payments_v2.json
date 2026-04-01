@@ -3171,38 +3171,38 @@
       },
       {
         "period_formatted": "14/11/2025 إلى 13/12/2025",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 50.0,
-        "received_date": null,
-        "notes": "خلاص عبر رصيد التسبقة"
+        "received_date": "2026-04-01",
+        "notes": ""
       },
       {
         "period_formatted": "14/12/2025 إلى 13/01/2026",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 50.0,
-        "received_date": null,
-        "notes": "خلاص عبر رصيد التسبقة"
+        "received_date": "2026-04-01",
+        "notes": ""
       },
       {
         "period_formatted": "14/01/2026 إلى 13/02/2026",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 50.0,
-        "received_date": null,
-        "notes": "خلاص عبر رصيد التسبقة"
+        "received_date": "2026-04-01",
+        "notes": ""
       },
       {
         "period_formatted": "14/02/2026 إلى 13/03/2026",
-        "status": "غير خالص",
+        "status": "خالص",
         "amount": 50.0,
-        "received_date": null,
-        "notes": "خلاص عبر رصيد التسبقة"
+        "received_date": "2026-04-01",
+        "notes": ""
       },
       {
         "period_formatted": "14/03/2026 إلى 13/04/2026",
         "status": "غير خالص",
         "amount": 50.0,
         "received_date": null,
-        "notes": "خلاص عبر رصيد التسبقة"
+        "notes": ""
       }
     ]
   },

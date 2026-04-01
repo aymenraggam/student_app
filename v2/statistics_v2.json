@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 11640.0,
+    "total_overdue_unpaid_amount": 11540.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -261,12 +261,6 @@
         "amount": 100.0
       },
       {
-        "student_id": 77,
-        "student_name": "يوسف سماري",
-        "period": "14/11/2025 إلى 13/12/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 98,
         "student_name": "أيهم عيادي",
         "period": "19/11/2025 إلى 18/12/2025",
@@ -402,12 +396,6 @@
         "student_id": 159,
         "student_name": "يسر قادري",
         "period": "10/12/2025 إلى 09/01/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 77,
-        "student_name": "يوسف سماري",
-        "period": "14/12/2025 إلى 13/01/2026",
         "amount": 50.0
       },
       {
@@ -624,12 +612,6 @@
         "student_id": 133,
         "student_name": "ريان عامري",
         "period": "11/01/2026 إلى 10/02/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 77,
-        "student_name": "يوسف سماري",
-        "period": "14/01/2026 إلى 13/02/2026",
         "amount": 50.0
       },
       {
@@ -1017,12 +999,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 77,
-        "student_name": "يوسف سماري",
-        "period": "14/02/2026 إلى 13/03/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 162,
         "student_name": "تقى كدوسي",
         "period": "15/02/2026 إلى 14/03/2026",
@@ -1404,6 +1380,12 @@
         "student_id": 215,
         "student_name": "أدم فالحي",
         "period": "26/02/2026 إلى 25/03/2026",
+        "amount": 100.0
+      },
+      {
+        "student_id": 3,
+        "student_name": "أميرة مسعودي",
+        "period": "01/03/2026 إلى 31/03/2026",
         "amount": 100.0
       },
       {
