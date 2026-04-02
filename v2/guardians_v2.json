@@ -5,7 +5,7 @@
     "student_ids": [
       74
     ],
-    "unpaid_total": 500.0,
+    "unpaid_total": 400.0,
     "password": "261332",
     "credit_balance": 0.0,
     "is_active": true
@@ -155,10 +155,9 @@
     "guardian_full_name": "حافظ قادري",
     "phone_number": "97265753",
     "student_ids": [
-      159,
-      196
+      159
     ],
-    "unpaid_total": 400.0,
+    "unpaid_total": 250.0,
     "password": "874837",
     "credit_balance": 0.0,
     "is_active": true
@@ -180,7 +179,7 @@
     "student_ids": [
       140
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 200.0,
     "password": "238900",
     "credit_balance": 0.0,
     "is_active": true
@@ -248,7 +247,7 @@
     "student_ids": [
       70
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "password": "517898",
     "credit_balance": 0.0,
     "is_active": true
@@ -424,7 +423,7 @@
     "student_ids": [
       66
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 0.0,
     "password": "987654",
     "credit_balance": 0.0,
     "is_active": true
@@ -480,7 +479,7 @@
       177,
       178
     ],
-    "unpaid_total": 300.0,
+    "unpaid_total": 250.0,
     "password": "253788",
     "credit_balance": 0.0,
     "is_active": true
@@ -984,11 +983,10 @@
     "guardian_full_name": "أحلام كدوسي",
     "phone_number": "94102027",
     "student_ids": [
-      103,
       117,
       118
     ],
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "password": "102027",
     "credit_balance": 0.0,
     "is_active": true
@@ -1138,17 +1136,6 @@
     "is_active": true
   },
   {
-    "guardian_full_name": "محسن عبيدي",
-    "phone_number": "41562323",
-    "student_ids": [
-      227
-    ],
-    "unpaid_total": 50.0,
-    "password": "974681",
-    "credit_balance": 0.0,
-    "is_active": true
-  },
-  {
     "guardian_full_name": "منجي سليمي",
     "phone_number": "98459827",
     "student_ids": [
@@ -1167,6 +1154,17 @@
     ],
     "unpaid_total": 50.0,
     "password": "696734",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "عمار جلالي",
+    "phone_number": "98283943",
+    "student_ids": [
+      80
+    ],
+    "unpaid_total": 50.0,
+    "password": "307133",
     "credit_balance": 0.0,
     "is_active": true
   }
