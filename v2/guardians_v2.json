@@ -1178,5 +1178,16 @@
     "password": "022713",
     "credit_balance": 0.0,
     "is_active": true
+  },
+  {
+    "guardian_full_name": "طارق ساسي",
+    "phone_number": "25541925",
+    "student_ids": [
+      231
+    ],
+    "unpaid_total": 50.0,
+    "password": "226712",
+    "credit_balance": 0.0,
+    "is_active": true
   }
 ]
