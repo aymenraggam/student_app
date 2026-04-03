@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 11590.0,
+    "total_overdue_unpaid_amount": 11510.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -975,12 +975,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 133,
-        "student_name": "ريان عامري",
-        "period": "11/02/2026 إلى 10/03/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 162,
         "student_name": "تقى كدوسي",
         "period": "15/02/2026 إلى 14/03/2026",
@@ -1299,12 +1293,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 123,
-        "student_name": "مرام ضيفي",
-        "period": "26/02/2026 إلى 25/03/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 126,
         "student_name": "يسر نصر",
         "period": "27/02/2026 إلى 26/03/2026",
@@ -1389,12 +1377,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 180,
-        "student_name": "لؤي بلقاسم",
-        "period": "28/02/2026 إلى 30/03/2026",
-        "amount": 30.0
-      },
-      {
         "student_id": 219,
         "student_name": "دينا عمراوي",
         "period": "28/02/2026 إلى 29/03/2026",
@@ -1477,9 +1459,15 @@
         "student_name": "فاطمة صدقي",
         "period": "16/02/2026 إلى 15/03/2026",
         "amount": 40.0
+      },
+      {
+        "student_id": 133,
+        "student_name": "ريان عامري",
+        "period": "11/02/2026 إلى 10/03/2026",
+        "amount": 50.0
       }
     ],
-    "total_active_students": 141,
+    "total_active_students": 142,
     "students_per_level": {
       "2 ث علوم": 7,
       "9 أساسي": 10,
@@ -1489,7 +1477,7 @@
       "2 ابتدائي": 8,
       "4 ابتدائي": 6,
       "1 ثانوي": 10,
-      "8 أساسي": 24,
+      "8 أساسي": 25,
       "7 أساسي": 29,
       "1 ابتدائي": 10,
       "6 ابتدائي": 12,

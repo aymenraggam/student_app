@@ -384,7 +384,7 @@
       204,
       205
     ],
-    "unpaid_total": 400.0,
+    "unpaid_total": 350.0,
     "password": "826175",
     "credit_balance": 0.0,
     "is_active": true
@@ -596,7 +596,7 @@
       137,
       180
     ],
-    "unpaid_total": 360.0,
+    "unpaid_total": 330.0,
     "password": "135852",
     "credit_balance": 0.0,
     "is_active": true
@@ -1187,6 +1187,17 @@
     ],
     "unpaid_total": 50.0,
     "password": "226712",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "خير الدين قادري",
+    "phone_number": "98350492",
+    "student_ids": [
+      131
+    ],
+    "unpaid_total": 40.0,
+    "password": "808230",
     "credit_balance": 0.0,
     "is_active": true
   }
