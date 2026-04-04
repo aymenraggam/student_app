@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 11510.0,
+    "total_overdue_unpaid_amount": 11440.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -735,12 +735,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 213,
-        "student_name": "أحمد كحلي",
-        "period": "24/01/2026 إلى 23/02/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 28,
         "student_name": "مريم جلالي",
         "period": "25/01/2026 إلى 24/02/2026",
@@ -1251,12 +1245,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 213,
-        "student_name": "أحمد كحلي",
-        "period": "24/02/2026 إلى 23/03/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 25,
         "student_name": "رؤى قادري",
         "period": "26/02/2026 إلى 25/03/2026",
@@ -1283,12 +1271,6 @@
       {
         "student_id": 116,
         "student_name": "أحمد زريبي",
-        "period": "26/02/2026 إلى 25/03/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 121,
-        "student_name": "أسامة كحلي",
         "period": "26/02/2026 إلى 25/03/2026",
         "amount": 50.0
       },
@@ -1441,6 +1423,18 @@
         "student_name": "أيهم صالحي",
         "period": "03/03/2026 إلى 02/04/2026",
         "amount": 50.0
+      },
+      {
+        "student_id": 64,
+        "student_name": "أيوب يوسفي",
+        "period": "04/03/2026 إلى 03/04/2026",
+        "amount": 40.0
+      },
+      {
+        "student_id": 164,
+        "student_name": "حنين يوسفي",
+        "period": "04/03/2026 إلى 03/04/2026",
+        "amount": 40.0
       },
       {
         "student_id": 124,

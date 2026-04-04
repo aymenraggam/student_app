@@ -610,5 +610,41 @@
     "amount": 180.0,
     "notes": "إيداع تسبقة",
     "payment_id": null
+  },
+  {
+    "guardian_name": "سندس",
+    "guardian_surname": "كحلي",
+    "phone_number": "24755223",
+    "transaction_date": "2026-04-04 18:56:02",
+    "amount": 1.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "سندس",
+    "guardian_surname": "كحلي",
+    "phone_number": "24755223",
+    "transaction_date": "2026-04-04 18:56:05",
+    "amount": 0.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: أحمد كحلي",
+    "payment_id": 1111
+  },
+  {
+    "guardian_name": "سندس",
+    "guardian_surname": "كحلي",
+    "phone_number": "24755223",
+    "transaction_date": "2026-04-04 18:56:05",
+    "amount": 0.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: أحمد كحلي",
+    "payment_id": 1284
+  },
+  {
+    "guardian_name": "سندس",
+    "guardian_surname": "كحلي",
+    "phone_number": "24755223",
+    "transaction_date": "2026-04-04 18:56:05",
+    "amount": 0.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: أحمد كحلي",
+    "payment_id": 1433
   }
 ]

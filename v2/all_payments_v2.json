@@ -2825,6 +2825,13 @@
         "amount": 40.0,
         "received_date": null,
         "notes": "__RESUME_DAY:4__"
+      },
+      {
+        "period_formatted": "04/04/2026 إلى 03/05/2026",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null,
+        "notes": "__RESUME_DAY:4__"
       }
     ]
   },
@@ -2993,6 +3000,13 @@
         "status": "خالص",
         "amount": 50.0,
         "received_date": "2026-04-02",
+        "notes": "__RESUME_DAY:4__"
+      },
+      {
+        "period_formatted": "04/04/2026 إلى 03/05/2026",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
         "notes": "__RESUME_DAY:4__"
       }
     ]
@@ -4532,13 +4546,6 @@
         "notes": ""
       },
       {
-        "period_formatted": "26/02/2026 إلى 25/03/2026",
-        "status": "غير خالص",
-        "amount": 50.0,
-        "received_date": null,
-        "notes": ""
-      },
-      {
         "period_formatted": "26/03/2026 إلى 25/04/2026",
         "status": "غير خالص",
         "amount": 50.0,
@@ -5782,6 +5789,13 @@
         "amount": 40.0,
         "received_date": null,
         "notes": ""
+      },
+      {
+        "period_formatted": "04/04/2026 إلى 03/05/2026",
+        "status": "غير خالص",
+        "amount": 40.0,
+        "received_date": null,
+        "notes": ""
       }
     ]
   },
@@ -6558,6 +6572,13 @@
         "amount": 50.0,
         "received_date": "2026-03-26",
         "notes": ""
+      },
+      {
+        "period_formatted": "04/04/2026 إلى 03/05/2026",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
       }
     ]
   },
@@ -6811,24 +6832,24 @@
     "payments": [
       {
         "period_formatted": "24/01/2026 إلى 23/02/2026",
-        "status": "غير خالص",
-        "amount": 50.0,
-        "received_date": null,
-        "notes": ""
+        "status": "خالص",
+        "amount": 0.0,
+        "received_date": "2026-04-04",
+        "notes": "خلاص عبر رصيد التسبقة"
       },
       {
         "period_formatted": "24/02/2026 إلى 23/03/2026",
-        "status": "غير خالص",
-        "amount": 50.0,
-        "received_date": null,
-        "notes": ""
+        "status": "خالص",
+        "amount": 0.0,
+        "received_date": "2026-04-04",
+        "notes": "خلاص عبر رصيد التسبقة"
       },
       {
         "period_formatted": "24/03/2026 إلى 23/04/2026",
-        "status": "غير خالص",
-        "amount": 50.0,
-        "received_date": null,
-        "notes": ""
+        "status": "خالص",
+        "amount": 0.0,
+        "received_date": "2026-04-04",
+        "notes": "خلاص عبر رصيد التسبقة"
       }
     ]
   },
