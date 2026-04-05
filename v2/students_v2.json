@@ -337,20 +337,12 @@
     "guardian_full_name": "فتحي بوكدوس",
     "phone_number": "97319241",
     "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 120.0,
+    "payment_count": 5,
+    "unpaid_total": 60.0,
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "22/12/2025 إلى 21/01/2026",
-        "amount": 30.0
-      },
-      {
         "period": "22/01/2026 إلى 21/02/2026",
-        "amount": 30.0
-      },
-      {
-        "period": "22/02/2026 إلى 21/03/2026",
         "amount": 30.0
       },
       {
@@ -1052,13 +1044,9 @@
     "phone_number": "97510323",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "19/02/2026 إلى 18/03/2026",
-        "amount": 100.0
-      },
       {
         "period": "19/03/2026 إلى 18/04/2026",
         "amount": 100.0
@@ -1077,13 +1065,9 @@
     "phone_number": "97510323",
     "payment_generation_status": "active",
     "payment_count": 3,
-    "unpaid_total": 200.0,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "19/02/2026 إلى 18/03/2026",
-        "amount": 100.0
-      },
       {
         "period": "19/03/2026 إلى 18/04/2026",
         "amount": 100.0
@@ -1122,8 +1106,8 @@
     "guardian_full_name": "فتحي حاجي",
     "phone_number": "42222777",
     "payment_generation_status": "active",
-    "payment_count": 5,
-    "unpaid_total": 60.0,
+    "payment_count": 6,
+    "unpaid_total": 90.0,
     "absence_count": [
       "2026-01-04"
     ],
@@ -1134,6 +1118,10 @@
       },
       {
         "period": "05/03/2026 إلى 04/04/2026",
+        "amount": 30.0
+      },
+      {
+        "period": "05/04/2026 إلى 04/05/2026",
         "amount": 30.0
       }
     ],
@@ -3355,14 +3343,10 @@
     "guardian_full_name": "قيس قادري",
     "phone_number": "99540573",
     "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 60.0,
+    "payment_count": 5,
+    "unpaid_total": 30.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "22/02/2026 إلى 21/03/2026",
-        "amount": 30.0
-      },
       {
         "period": "22/03/2026 إلى 21/04/2026",
         "amount": 30.0
