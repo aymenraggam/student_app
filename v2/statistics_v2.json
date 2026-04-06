@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 11220.0,
+    "total_overdue_unpaid_amount": 10860.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -309,12 +309,6 @@
         "amount": 30.0
       },
       {
-        "student_id": 36,
-        "student_name": "هيثم قادري",
-        "period": "25/11/2025 إلى 24/12/2025",
-        "amount": 40.0
-      },
-      {
         "student_id": 37,
         "student_name": "ريتاج جلالي",
         "period": "25/11/2025 إلى 24/12/2025",
@@ -451,12 +445,6 @@
         "student_name": "مريم جلالي",
         "period": "25/12/2025 إلى 24/01/2026",
         "amount": 30.0
-      },
-      {
-        "student_id": 36,
-        "student_name": "هيثم قادري",
-        "period": "25/12/2025 إلى 24/01/2026",
-        "amount": 40.0
       },
       {
         "student_id": 37,
@@ -717,12 +705,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 39,
-        "student_name": "نور عكروت",
-        "period": "24/01/2026 إلى 23/02/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 134,
         "student_name": "محمد عزيز عامري",
         "period": "24/01/2026 إلى 23/02/2026",
@@ -733,12 +715,6 @@
         "student_name": "مريم جلالي",
         "period": "25/01/2026 إلى 24/02/2026",
         "amount": 30.0
-      },
-      {
-        "student_id": 36,
-        "student_name": "هيثم قادري",
-        "period": "25/01/2026 إلى 24/02/2026",
-        "amount": 40.0
       },
       {
         "student_id": 37,
@@ -981,12 +957,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 165,
-        "student_name": "مهيب قادري",
-        "period": "17/02/2026 إلى 16/03/2026",
-        "amount": 100.0
-      },
-      {
         "student_id": 210,
         "student_name": "أنس كدوسي",
         "period": "17/02/2026 إلى 16/03/2026",
@@ -1161,22 +1131,10 @@
         "amount": 30.0
       },
       {
-        "student_id": 36,
-        "student_name": "هيثم قادري",
-        "period": "25/02/2026 إلى 24/03/2026",
-        "amount": 40.0
-      },
-      {
         "student_id": 37,
         "student_name": "ريتاج جلالي",
         "period": "25/02/2026 إلى 24/03/2026",
         "amount": 30.0
-      },
-      {
-        "student_id": 39,
-        "student_name": "نور عكروت",
-        "period": "24/02/2026 إلى 23/03/2026",
-        "amount": 50.0
       },
       {
         "student_id": 87,
@@ -1443,7 +1401,7 @@
         "amount": 50.0
       }
     ],
-    "total_active_students": 142,
+    "total_active_students": 139,
     "students_per_level": {
       "2 ث علوم": 7,
       "9 أساسي": 10,
@@ -1453,7 +1411,7 @@
       "2 ابتدائي": 8,
       "4 ابتدائي": 6,
       "1 ثانوي": 10,
-      "8 أساسي": 25,
+      "8 أساسي": 22,
       "7 أساسي": 29,
       "1 ابتدائي": 10,
       "6 ابتدائي": 12,
