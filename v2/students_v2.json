@@ -3784,8 +3784,8 @@
     "guardian_full_name": "صافيا صالحي",
     "phone_number": "92037064",
     "payment_generation_status": "active",
-    "payment_count": 7,
-    "unpaid_total": 120.0,
+    "payment_count": 8,
+    "unpaid_total": 160.0,
     "absence_count": [
       "2025-10-05",
       "2026-01-11"
@@ -3801,6 +3801,10 @@
       },
       {
         "period": "06/03/2026 إلى 05/04/2026",
+        "amount": 40.0
+      },
+      {
+        "period": "06/04/2026 إلى 05/05/2026",
         "amount": 40.0
       }
     ],

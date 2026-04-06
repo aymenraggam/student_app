@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 11180.0,
+    "total_overdue_unpaid_amount": 11220.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -1411,6 +1411,12 @@
         "student_name": "مؤيد حاجي",
         "period": "05/03/2026 إلى 04/04/2026",
         "amount": 30.0
+      },
+      {
+        "student_id": 96,
+        "student_name": "حسّان كداشي",
+        "period": "06/03/2026 إلى 05/04/2026",
+        "amount": 40.0
       },
       {
         "student_id": 124,
