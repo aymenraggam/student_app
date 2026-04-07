@@ -1188,5 +1188,16 @@
     "password": "509096",
     "credit_balance": 0.0,
     "is_active": true
+  },
+  {
+    "guardian_full_name": "حياة فالحي",
+    "phone_number": "99182108",
+    "student_ids": [
+      232
+    ],
+    "unpaid_total": 50.0,
+    "password": "637327",
+    "credit_balance": 0.0,
+    "is_active": true
   }
 ]

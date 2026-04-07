@@ -6956,5 +6956,17 @@
         "notes": ""
       }
     ]
+  },
+  {
+    "student_id": 232,
+    "payments": [
+      {
+        "period_formatted": "07/04/2026 إلى 06/05/2026",
+        "status": "غير خالص",
+        "amount": 50.0,
+        "received_date": null,
+        "notes": ""
+      }
+    ]
   }
 ]
