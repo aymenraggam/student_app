@@ -557,12 +557,16 @@
     "guardian_full_name": "راضية جلالي",
     "phone_number": "00000000",
     "payment_generation_status": "active",
-    "payment_count": 5,
-    "unpaid_total": 40.0,
+    "payment_count": 6,
+    "unpaid_total": 80.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "07/03/2026 إلى 06/04/2026",
+        "amount": 40.0
+      },
+      {
+        "period": "07/04/2026 إلى 06/05/2026",
         "amount": 40.0
       }
     ],
@@ -786,8 +790,8 @@
     "guardian_full_name": "محرزية كيّال",
     "phone_number": "41518984",
     "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 300.0,
+    "payment_count": 7,
+    "unpaid_total": 350.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -812,6 +816,10 @@
       },
       {
         "period": "07/03/2026 إلى 06/04/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "07/04/2026 إلى 06/05/2026",
         "amount": 50.0
       }
     ],
@@ -1199,8 +1207,8 @@
     "guardian_full_name": "ساسية جلالي",
     "phone_number": "22438703",
     "payment_generation_status": "active",
-    "payment_count": 5,
-    "unpaid_total": 100.0,
+    "payment_count": 6,
+    "unpaid_total": 150.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -1209,6 +1217,10 @@
       },
       {
         "period": "07/03/2026 إلى 06/04/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "07/04/2026 إلى 06/05/2026",
         "amount": 50.0
       }
     ],
@@ -1394,9 +1406,9 @@
     "entry_date": "2025-09-26",
     "guardian_full_name": "شكري زريبي",
     "phone_number": "48070803",
-    "payment_generation_status": "suspended",
-    "payment_count": 7,
-    "unpaid_total": 150.0,
+    "payment_generation_status": "active",
+    "payment_count": 6,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-11-09",
       "2025-11-21",
@@ -1417,10 +1429,6 @@
     "unpaid_periods": [
       {
         "period": "26/01/2026 إلى 25/02/2026",
-        "amount": 50.0
-      },
-      {
-        "period": "26/02/2026 إلى 25/03/2026",
         "amount": 50.0
       },
       {
@@ -1980,9 +1988,9 @@
     "entry_date": "2025-10-10",
     "guardian_full_name": "محسن صالحي",
     "phone_number": "92294219",
-    "payment_generation_status": "suspended",
-    "payment_count": 5,
-    "unpaid_total": 120.0,
+    "payment_generation_status": "active",
+    "payment_count": 4,
+    "unpaid_total": 80.0,
     "absence_count": [
       "2025-10-24",
       "2025-10-25",
@@ -2020,11 +2028,7 @@
         "amount": 40.0
       },
       {
-        "period": "10/02/2026 إلى 09/03/2026",
-        "amount": 40.0
-      },
-      {
-        "period": "10/03/2026 إلى 09/04/2026",
+        "period": "03/04/2026 إلى 02/05/2026",
         "amount": 40.0
       }
     ],
@@ -2587,6 +2591,27 @@
     "notes": ""
   },
   {
+    "id": 227,
+    "name": "حلاء",
+    "surname": "عبيدي",
+    "educational_level": "1 ثانوي",
+    "institution": "المعهد الثانوي بالرقاب",
+    "entry_date": "2026-03-27",
+    "guardian_full_name": "محسن عبيدي",
+    "phone_number": "41562323",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "27/03/2026 إلى 26/04/2026",
+        "amount": 50.0
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": 90,
     "name": "لينا",
     "surname": "عبيدي",
@@ -3087,15 +3112,20 @@
     "guardian_full_name": "حمادي عيوني",
     "phone_number": "97787765",
     "payment_generation_status": "active",
-    "payment_count": 5,
-    "unpaid_total": 0.0,
+    "payment_count": 6,
+    "unpaid_total": 50.0,
     "absence_count": [
       "2025-11-14",
       "2025-12-06",
       "2026-01-11",
       "2026-02-14"
     ],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "07/04/2026 إلى 06/05/2026",
+        "amount": 50.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -3890,16 +3920,12 @@
     "guardian_full_name": "لطيّف كرمودي",
     "phone_number": "97636826",
     "payment_generation_status": "active",
-    "payment_count": 5,
-    "unpaid_total": 200.0,
+    "payment_count": 4,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "03/03/2026 إلى 02/04/2026",
-        "amount": 100.0
-      },
-      {
-        "period": "03/04/2026 إلى 02/05/2026",
+        "period": "18/03/2026 إلى 17/04/2026",
         "amount": 100.0
       }
     ],
