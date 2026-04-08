@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 10960.0,
+    "total_overdue_unpaid_amount": 10760.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -555,12 +555,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 74,
-        "student_name": "مالك عيوني",
-        "period": "27/12/2025 إلى 26/01/2026",
-        "amount": 100.0
-      },
-      {
         "student_id": 61,
         "student_name": "آية أم هاني",
         "period": "09/01/2026 إلى 08/02/2026",
@@ -762,12 +756,6 @@
         "student_id": 215,
         "student_name": "أدم فالحي",
         "period": "26/01/2026 إلى 25/02/2026",
-        "amount": 100.0
-      },
-      {
-        "student_id": 74,
-        "student_name": "مالك عيوني",
-        "period": "27/01/2026 إلى 26/02/2026",
         "amount": 100.0
       },
       {
