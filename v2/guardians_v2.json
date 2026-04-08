@@ -155,9 +155,10 @@
     "guardian_full_name": "حافظ قادري",
     "phone_number": "97265753",
     "student_ids": [
-      159
+      159,
+      196
     ],
-    "unpaid_total": 250.0,
+    "unpaid_total": 350.0,
     "password": "874837",
     "credit_balance": 0.0,
     "is_active": true
@@ -280,7 +281,7 @@
     "student_ids": [
       56
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "102499",
     "credit_balance": 0.0,
     "is_active": true
