@@ -1,5 +1,125 @@
 [
   {
+    "student_id": 232,
+    "date": "2026-04-09",
+    "subject": "حصة الخميس",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 62,
+    "date": "2026-04-09",
+    "subject": "حصة الخميس",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 228,
+    "date": "2026-04-09",
+    "subject": "حصة الخميس",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 1,
+    "total_score": 4,
+    "notes": ""
+  },
+  {
+    "student_id": 64,
+    "date": "2026-04-09",
+    "subject": "حصة الخميس",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 1,
+    "total_score": 3,
+    "notes": ""
+  },
+  {
+    "student_id": 227,
+    "date": "2026-04-09",
+    "subject": "حصة الخميس",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 66,
+    "date": "2026-04-09",
+    "subject": "حصة الخميس",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 0,
+    "total_score": 2,
+    "notes": ""
+  },
+  {
+    "student_id": 80,
+    "date": "2026-04-09",
+    "subject": "حصة الخميس",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 65,
+    "date": "2026-04-09",
+    "subject": "حصة الخميس",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 114,
+    "date": "2026-04-09",
+    "subject": "حصة الخميس",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 2,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 139,
+    "date": "2026-04-09",
+    "subject": "حصة الخميس",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
+    "student_id": 81,
+    "date": "2026-04-09",
+    "subject": "حصة الخميس",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 3,
+    "behavior_score": 3,
+    "total_score": 6,
+    "notes": ""
+  },
+  {
+    "student_id": 196,
+    "date": "2026-04-09",
+    "subject": "حصة الخميس",
+    "homework_status": "-- لا يوجد واجب",
+    "participation_score": 2,
+    "behavior_score": 3,
+    "total_score": 5,
+    "notes": ""
+  },
+  {
     "student_id": 64,
     "date": "2026-04-07",
     "subject": "حصة الثلاثاء",

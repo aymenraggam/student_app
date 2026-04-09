@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 10760.0,
+    "total_overdue_unpaid_amount": 10890.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -1381,6 +1381,24 @@
         "student_name": "رباب هاني",
         "period": "07/03/2026 إلى 06/04/2026",
         "amount": 50.0
+      },
+      {
+        "student_id": 60,
+        "student_name": "جابر جلالي",
+        "period": "09/03/2026 إلى 08/04/2026",
+        "amount": 40.0
+      },
+      {
+        "student_id": 61,
+        "student_name": "آية أم هاني",
+        "period": "09/03/2026 إلى 08/04/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 65,
+        "student_name": "حمدي كداشي",
+        "period": "09/03/2026 إلى 08/04/2026",
+        "amount": 40.0
       },
       {
         "student_id": 124,
