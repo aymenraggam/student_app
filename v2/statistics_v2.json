@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 10890.0,
+    "total_overdue_unpaid_amount": 10980.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -1389,16 +1389,28 @@
         "amount": 40.0
       },
       {
-        "student_id": 61,
-        "student_name": "آية أم هاني",
-        "period": "09/03/2026 إلى 08/04/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 65,
         "student_name": "حمدي كداشي",
         "period": "09/03/2026 إلى 08/04/2026",
         "amount": 40.0
+      },
+      {
+        "student_id": 58,
+        "student_name": "مريم قادري",
+        "period": "10/03/2026 إلى 09/04/2026",
+        "amount": 40.0
+      },
+      {
+        "student_id": 159,
+        "student_name": "يسر قادري",
+        "period": "10/03/2026 إلى 09/04/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 207,
+        "student_name": "لجين فالحي",
+        "period": "10/03/2026 إلى 09/04/2026",
+        "amount": 50.0
       },
       {
         "student_id": 124,
@@ -1425,17 +1437,17 @@
         "amount": 50.0
       }
     ],
-    "total_active_students": 142,
+    "total_active_students": 143,
     "students_per_level": {
       "2 ث علوم": 7,
       "9 أساسي": 10,
       "5 ابتدائي": 10,
+      "8 أساسي": 23,
       "2 ث اقتصاد": 5,
       "3 ابتدائي": 8,
       "2 ابتدائي": 8,
       "4 ابتدائي": 6,
       "1 ثانوي": 13,
-      "8 أساسي": 22,
       "7 أساسي": 29,
       "1 ابتدائي": 10,
       "6 ابتدائي": 12,
