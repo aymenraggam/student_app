@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 10980.0,
+    "total_overdue_unpaid_amount": 11030.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -696,6 +696,12 @@
         "student_id": 108,
         "student_name": "براءة صالحي",
         "period": "23/01/2026 إلى 22/02/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 39,
+        "student_name": "نور عكروت",
+        "period": "24/01/2026 إلى 23/02/2026",
         "amount": 50.0
       },
       {
@@ -1437,12 +1443,12 @@
         "amount": 50.0
       }
     ],
-    "total_active_students": 143,
+    "total_active_students": 144,
     "students_per_level": {
       "2 ث علوم": 7,
       "9 أساسي": 10,
       "5 ابتدائي": 10,
-      "8 أساسي": 23,
+      "8 أساسي": 24,
       "2 ث اقتصاد": 5,
       "3 ابتدائي": 8,
       "2 ابتدائي": 8,
