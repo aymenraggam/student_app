@@ -56,7 +56,8 @@
       "2026-02-27",
       "2026-03-27",
       "2026-03-28",
-      "2026-03-29"
+      "2026-03-29",
+      "2026-04-12"
     ],
     "unpaid_periods": [
       {
@@ -553,16 +554,12 @@
     "phone_number": "96285780",
     "payment_generation_status": "active",
     "payment_count": 9,
-    "unpaid_total": 120.0,
+    "unpaid_total": 80.0,
     "absence_count": [
       "2026-01-17",
       "2026-03-29"
     ],
     "unpaid_periods": [
-      {
-        "period": "09/02/2026 إلى 08/03/2026",
-        "amount": 40.0
-      },
       {
         "period": "09/03/2026 إلى 08/04/2026",
         "amount": 40.0
@@ -806,6 +803,27 @@
       }
     ],
     "notes": "لا ينجز واجباته"
+  },
+  {
+    "id": 233,
+    "name": "فاطمة",
+    "surname": "جلالي",
+    "educational_level": "2 ث اقتصاد",
+    "institution": "المعهد الثانوي بالرقاب",
+    "entry_date": "2026-04-12",
+    "guardian_full_name": "محمد جلالي",
+    "phone_number": "55678449",
+    "payment_generation_status": "active",
+    "payment_count": 1,
+    "unpaid_total": 30.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "12/04/2026 إلى 11/05/2026",
+        "amount": 30.0
+      }
+    ],
+    "notes": ""
   },
   {
     "id": 156,
@@ -1211,14 +1229,18 @@
     "guardian_full_name": "أحمد خليفي",
     "phone_number": "29069649",
     "payment_generation_status": "active",
-    "payment_count": 8,
-    "unpaid_total": 50.0,
+    "payment_count": 9,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2026-03-27"
     ],
     "unpaid_periods": [
       {
         "period": "13/03/2026 إلى 12/04/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "13/04/2026 إلى 12/05/2026",
         "amount": 50.0
       }
     ],
@@ -1475,8 +1497,8 @@
     "guardian_full_name": "زهرة زريبي",
     "phone_number": "52244781",
     "payment_generation_status": "active",
-    "payment_count": 5,
-    "unpaid_total": 50.0,
+    "payment_count": 6,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-10-18",
       "2025-10-25",
@@ -1507,6 +1529,10 @@
     "unpaid_periods": [
       {
         "period": "14/03/2026 إلى 13/04/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "14/04/2026 إلى 13/05/2026",
         "amount": 50.0
       }
     ],
@@ -1616,12 +1642,16 @@
     "guardian_full_name": "ونيسة عايدي",
     "phone_number": "98103627",
     "payment_generation_status": "active",
-    "payment_count": 8,
-    "unpaid_total": 50.0,
+    "payment_count": 9,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "14/03/2026 إلى 13/04/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "14/04/2026 إلى 13/05/2026",
         "amount": 50.0
       }
     ],
@@ -1638,7 +1668,7 @@
     "phone_number": "97917380",
     "payment_generation_status": "active",
     "payment_count": 9,
-    "unpaid_total": 150.0,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2025-11-09",
       "2025-11-21",
@@ -1656,10 +1686,6 @@
       "2026-03-29"
     ],
     "unpaid_periods": [
-      {
-        "period": "03/02/2026 إلى 02/03/2026",
-        "amount": 50.0
-      },
       {
         "period": "03/03/2026 إلى 02/04/2026",
         "amount": 50.0
@@ -2673,8 +2699,8 @@
     "guardian_full_name": "عادل عكروت",
     "phone_number": "97860715",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 50.0,
+    "payment_count": 3,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2026-02-27",
       "2026-03-27",
@@ -2683,6 +2709,10 @@
     "unpaid_periods": [
       {
         "period": "13/03/2026 إلى 12/04/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "13/04/2026 إلى 12/05/2026",
         "amount": 50.0
       }
     ],
@@ -2961,15 +2991,11 @@
     "phone_number": "52253788",
     "payment_generation_status": "active",
     "payment_count": 6,
-    "unpaid_total": 150.0,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2026-01-03"
     ],
     "unpaid_periods": [
-      {
-        "period": "30/01/2026 إلى 27/02/2026",
-        "amount": 50.0
-      },
       {
         "period": "28/02/2026 إلى 29/03/2026",
         "amount": 50.0
@@ -2992,7 +3018,7 @@
     "phone_number": "52253788",
     "payment_generation_status": "active",
     "payment_count": 5,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [
       "2025-11-14",
       "2025-12-07",
@@ -3011,10 +3037,6 @@
       "2026-03-29"
     ],
     "unpaid_periods": [
-      {
-        "period": "30/01/2026 إلى 27/02/2026",
-        "amount": 50.0
-      },
       {
         "period": "30/03/2026 إلى 29/04/2026",
         "amount": 50.0
@@ -3267,6 +3289,27 @@
       {
         "period": "26/03/2026 إلى 25/04/2026",
         "amount": 100.0
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": 103,
+    "name": "تقوى",
+    "surname": "فالحي",
+    "educational_level": "1 ثانوي",
+    "institution": "المعهد الثانوي بالرقاب",
+    "entry_date": "2025-09-22",
+    "guardian_full_name": "أحلام كدوسي",
+    "phone_number": "94102027",
+    "payment_generation_status": "active",
+    "payment_count": 4,
+    "unpaid_total": 50.0,
+    "absence_count": [],
+    "unpaid_periods": [
+      {
+        "period": "18/03/2026 إلى 17/04/2026",
+        "amount": 50.0
       }
     ],
     "notes": ""
@@ -3538,8 +3581,8 @@
     "guardian_full_name": "بدر الدين قادري",
     "phone_number": "23509750",
     "payment_generation_status": "active",
-    "payment_count": 8,
-    "unpaid_total": 100.0,
+    "payment_count": 9,
+    "unpaid_total": 150.0,
     "absence_count": [
       "2025-09-26",
       "2025-10-18",
@@ -3558,6 +3601,10 @@
       },
       {
         "period": "12/03/2026 إلى 11/04/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "12/04/2026 إلى 11/05/2026",
         "amount": 50.0
       }
     ],

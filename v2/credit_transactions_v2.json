@@ -655,5 +655,32 @@
     "amount": -300.0,
     "notes": "إيداع تسبقة",
     "payment_id": null
+  },
+  {
+    "guardian_name": "علي",
+    "guardian_surname": "عمري",
+    "phone_number": "52253788",
+    "transaction_date": "2026-04-12 08:45:20",
+    "amount": 100.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "علي",
+    "guardian_surname": "عمري",
+    "phone_number": "52253788",
+    "transaction_date": "2026-04-12 08:45:22",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: محمد الهادي عمري",
+    "payment_id": 1156
+  },
+  {
+    "guardian_name": "علي",
+    "guardian_surname": "عمري",
+    "phone_number": "52253788",
+    "transaction_date": "2026-04-12 08:45:22",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: عمر عمري",
+    "payment_id": 1157
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 11030.0,
+    "total_overdue_unpaid_amount": 11090.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -789,18 +789,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 177,
-        "student_name": "محمد الهادي عمري",
-        "period": "30/01/2026 إلى 27/02/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 178,
-        "student_name": "عمر عمري",
-        "period": "30/01/2026 إلى 27/02/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 219,
         "student_name": "دينا عمراوي",
         "period": "30/01/2026 إلى 27/02/2026",
@@ -841,12 +829,6 @@
         "student_name": "عائشة جلالي",
         "period": "03/02/2026 إلى 02/03/2026",
         "amount": 30.0
-      },
-      {
-        "student_id": 23,
-        "student_name": "تقوى شرف الدين",
-        "period": "03/02/2026 إلى 02/03/2026",
-        "amount": 50.0
       },
       {
         "student_id": 94,
@@ -895,12 +877,6 @@
         "student_name": "رباب هاني",
         "period": "07/02/2026 إلى 06/03/2026",
         "amount": 50.0
-      },
-      {
-        "student_id": 60,
-        "student_name": "جابر جلالي",
-        "period": "09/02/2026 إلى 08/03/2026",
-        "amount": 40.0
       },
       {
         "student_id": 61,
@@ -1419,6 +1395,36 @@
         "amount": 50.0
       },
       {
+        "student_id": 71,
+        "student_name": "سلمى قادري",
+        "period": "12/03/2026 إلى 11/04/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 72,
+        "student_name": "مرام خليفي",
+        "period": "13/03/2026 إلى 12/04/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 77,
+        "student_name": "يوسف سماري",
+        "period": "14/03/2026 إلى 13/04/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 158,
+        "student_name": "احــمــد زريبي",
+        "period": "14/03/2026 إلى 13/04/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 223,
+        "student_name": "بيرم عكروت",
+        "period": "13/03/2026 إلى 12/04/2026",
+        "amount": 50.0
+      },
+      {
         "student_id": 124,
         "student_name": "فاطمة صدقي",
         "period": "16/12/2025 إلى 15/01/2026",
@@ -1443,17 +1449,17 @@
         "amount": 50.0
       }
     ],
-    "total_active_students": 144,
+    "total_active_students": 146,
     "students_per_level": {
       "2 ث علوم": 7,
       "9 أساسي": 10,
       "5 ابتدائي": 10,
       "8 أساسي": 24,
-      "2 ث اقتصاد": 5,
+      "2 ث اقتصاد": 6,
       "3 ابتدائي": 8,
       "2 ابتدائي": 8,
       "4 ابتدائي": 6,
-      "1 ثانوي": 13,
+      "1 ثانوي": 14,
       "7 أساسي": 29,
       "1 ابتدائي": 10,
       "6 ابتدائي": 12,

@@ -17,7 +17,7 @@
       72,
       167
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 200.0,
     "password": "355130",
     "credit_balance": 0.0,
     "is_active": true
@@ -85,7 +85,7 @@
     "student_ids": [
       71
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "366830",
     "credit_balance": 0.0,
     "is_active": true
@@ -259,7 +259,7 @@
     "student_ids": [
       158
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "607965",
     "credit_balance": 0.0,
     "is_active": true
@@ -480,7 +480,7 @@
       177,
       178
     ],
-    "unpaid_total": 250.0,
+    "unpaid_total": 150.0,
     "password": "253788",
     "credit_balance": 0.0,
     "is_active": true
@@ -558,7 +558,7 @@
     "student_ids": [
       23
     ],
-    "unpaid_total": 150.0,
+    "unpaid_total": 100.0,
     "password": "642190",
     "credit_balance": 0.0,
     "is_active": true
@@ -730,7 +730,7 @@
     "student_ids": [
       60
     ],
-    "unpaid_total": 120.0,
+    "unpaid_total": 80.0,
     "password": "22102009",
     "credit_balance": 0.0,
     "is_active": true
@@ -787,7 +787,7 @@
     "student_ids": [
       77
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "577964",
     "credit_balance": 0.0,
     "is_active": true
@@ -961,10 +961,11 @@
     "guardian_full_name": "أحلام كدوسي",
     "phone_number": "94102027",
     "student_ids": [
+      103,
       117,
       118
     ],
-    "unpaid_total": 100.0,
+    "unpaid_total": 150.0,
     "password": "102027",
     "credit_balance": 0.0,
     "is_active": true
@@ -1075,7 +1076,7 @@
     "student_ids": [
       223
     ],
-    "unpaid_total": 50.0,
+    "unpaid_total": 100.0,
     "password": "949608",
     "credit_balance": 0.0,
     "is_active": true
@@ -1220,6 +1221,17 @@
     ],
     "unpaid_total": 100.0,
     "password": "261189",
+    "credit_balance": 0.0,
+    "is_active": true
+  },
+  {
+    "guardian_full_name": "محمد جلالي",
+    "phone_number": "55678449",
+    "student_ids": [
+      233
+    ],
+    "unpaid_total": 30.0,
+    "password": "783831",
     "credit_balance": 0.0,
     "is_active": true
   }
