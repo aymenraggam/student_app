@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 11090.0,
+    "total_overdue_unpaid_amount": 11510.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -1419,10 +1419,52 @@
         "amount": 50.0
       },
       {
+        "student_id": 162,
+        "student_name": "تقى كدوسي",
+        "period": "15/03/2026 إلى 14/04/2026",
+        "amount": 30.0
+      },
+      {
         "student_id": 223,
         "student_name": "بيرم عكروت",
         "period": "13/03/2026 إلى 12/04/2026",
         "amount": 50.0
+      },
+      {
+        "student_id": 54,
+        "student_name": "ملاك عيوني",
+        "period": "16/03/2026 إلى 15/04/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 97,
+        "student_name": "عمر كداشي",
+        "period": "16/03/2026 إلى 15/04/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 117,
+        "student_name": "عزيز فالحي",
+        "period": "16/03/2026 إلى 15/04/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 118,
+        "student_name": "آية فالحي",
+        "period": "16/03/2026 إلى 15/04/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 195,
+        "student_name": "أحمد رحماني",
+        "period": "16/03/2026 إلى 15/04/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 224,
+        "student_name": "ريان جلالي",
+        "period": "16/03/2026 إلى 15/04/2026",
+        "amount": 100.0
       },
       {
         "student_id": 124,
@@ -1440,6 +1482,12 @@
         "student_id": 124,
         "student_name": "فاطمة صدقي",
         "period": "16/02/2026 إلى 15/03/2026",
+        "amount": 40.0
+      },
+      {
+        "student_id": 124,
+        "student_name": "فاطمة صدقي",
+        "period": "16/03/2026 إلى 15/04/2026",
         "amount": 40.0
       },
       {

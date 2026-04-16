@@ -627,8 +627,8 @@
     "guardian_full_name": "فتحي جلالي",
     "phone_number": "58910488",
     "payment_generation_status": "active",
-    "payment_count": 2,
-    "unpaid_total": 200.0,
+    "payment_count": 3,
+    "unpaid_total": 300.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -637,6 +637,10 @@
       },
       {
         "period": "16/03/2026 إلى 15/04/2026",
+        "amount": 100.0
+      },
+      {
+        "period": "16/04/2026 إلى 15/05/2026",
         "amount": 100.0
       }
     ],
@@ -1285,8 +1289,8 @@
     "guardian_full_name": "راقية زارعي",
     "phone_number": "55284433",
     "payment_generation_status": "active",
-    "payment_count": 4,
-    "unpaid_total": 100.0,
+    "payment_count": 5,
+    "unpaid_total": 150.0,
     "absence_count": [
       "2025-11-28",
       "2025-11-30",
@@ -1313,6 +1317,10 @@
       },
       {
         "period": "16/03/2026 إلى 15/04/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "16/04/2026 إلى 15/05/2026",
         "amount": 50.0
       }
     ],
@@ -2189,8 +2197,8 @@
     "guardian_full_name": "بسمة عبيدي",
     "phone_number": "99722377",
     "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 160.0,
+    "payment_count": 7,
+    "unpaid_total": 200.0,
     "absence_count": [
       "2025-10-18",
       "2025-10-25",
@@ -2212,6 +2220,10 @@
       },
       {
         "period": "16/03/2026 إلى 15/04/2026",
+        "amount": 40.0
+      },
+      {
+        "period": "16/04/2026 إلى 15/05/2026",
         "amount": 40.0
       }
     ],
@@ -3165,8 +3177,8 @@
     "guardian_full_name": "مريم سليمي",
     "phone_number": "99217475",
     "payment_generation_status": "active",
-    "payment_count": 7,
-    "unpaid_total": 100.0,
+    "payment_count": 8,
+    "unpaid_total": 150.0,
     "absence_count": [
       "2025-10-31",
       "2025-11-01",
@@ -3181,6 +3193,10 @@
       },
       {
         "period": "16/03/2026 إلى 15/04/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "16/04/2026 إلى 15/05/2026",
         "amount": 50.0
       }
     ],
@@ -3249,12 +3265,16 @@
     "guardian_full_name": "أحلام كدوسي",
     "phone_number": "94102027",
     "payment_generation_status": "active",
-    "payment_count": 4,
-    "unpaid_total": 50.0,
+    "payment_count": 5,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "16/03/2026 إلى 15/04/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "16/04/2026 إلى 15/05/2026",
         "amount": 50.0
       }
     ],
@@ -3324,12 +3344,16 @@
     "guardian_full_name": "أحلام كدوسي",
     "phone_number": "94102027",
     "payment_generation_status": "active",
-    "payment_count": 4,
-    "unpaid_total": 50.0,
+    "payment_count": 5,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "16/03/2026 إلى 15/04/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "16/04/2026 إلى 15/05/2026",
         "amount": 50.0
       }
     ],
@@ -3953,12 +3977,16 @@
     "guardian_full_name": "سناء كداشي",
     "phone_number": "25790709",
     "payment_generation_status": "active",
-    "payment_count": 7,
-    "unpaid_total": 50.0,
+    "payment_count": 8,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "16/03/2026 إلى 15/04/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "16/04/2026 إلى 15/05/2026",
         "amount": 50.0
       }
     ],
@@ -4005,8 +4033,8 @@
     "guardian_full_name": "حنان كدوسي",
     "phone_number": "92451382",
     "payment_generation_status": "active",
-    "payment_count": 7,
-    "unpaid_total": 60.0,
+    "payment_count": 8,
+    "unpaid_total": 90.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -4015,6 +4043,10 @@
       },
       {
         "period": "15/03/2026 إلى 14/04/2026",
+        "amount": 30.0
+      },
+      {
+        "period": "15/04/2026 إلى 14/05/2026",
         "amount": 30.0
       }
     ],
