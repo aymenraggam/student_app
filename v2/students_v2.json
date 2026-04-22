@@ -115,8 +115,8 @@
     "guardian_full_name": "جيهان بحيري",
     "phone_number": "94250424",
     "payment_generation_status": "active",
-    "payment_count": 1,
-    "unpaid_total": 50.0,
+    "payment_count": 2,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2026-01-30",
       "2026-02-08"
@@ -124,6 +124,10 @@
     "unpaid_periods": [
       {
         "period": "20/03/2026 إلى 19/04/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "20/04/2026 إلى 19/05/2026",
         "amount": 50.0
       }
     ],
@@ -359,8 +363,8 @@
     "guardian_full_name": "فتحي بوكدوس",
     "phone_number": "97319241",
     "payment_generation_status": "active",
-    "payment_count": 5,
-    "unpaid_total": 60.0,
+    "payment_count": 6,
+    "unpaid_total": 90.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -369,6 +373,10 @@
       },
       {
         "period": "22/03/2026 إلى 21/04/2026",
+        "amount": 30.0
+      },
+      {
+        "period": "22/04/2026 إلى 21/05/2026",
         "amount": 30.0
       }
     ],
@@ -384,12 +392,17 @@
     "guardian_full_name": "سفيان جابلي",
     "phone_number": "97483694",
     "payment_generation_status": "active",
-    "payment_count": 8,
-    "unpaid_total": 0.0,
+    "payment_count": 9,
+    "unpaid_total": 100.0,
     "absence_count": [
       "2026-02-10"
     ],
-    "unpaid_periods": [],
+    "unpaid_periods": [
+      {
+        "period": "22/04/2026 إلى 21/05/2026",
+        "amount": 100.0
+      }
+    ],
     "notes": ""
   },
   {
@@ -451,8 +464,8 @@
     "guardian_full_name": "أماني قدودة",
     "phone_number": "22959665",
     "payment_generation_status": "active",
-    "payment_count": 8,
-    "unpaid_total": 200.0,
+    "payment_count": 9,
+    "unpaid_total": 300.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -461,6 +474,10 @@
       },
       {
         "period": "22/03/2026 إلى 21/04/2026",
+        "amount": 100.0
+      },
+      {
+        "period": "22/04/2026 إلى 21/05/2026",
         "amount": 100.0
       }
     ],
@@ -517,18 +534,13 @@
     "phone_number": "20183143",
     "payment_generation_status": "active",
     "payment_count": 1,
-    "unpaid_total": 50.0,
+    "unpaid_total": 0.0,
     "absence_count": [
       "2026-03-27",
       "2026-03-28",
       "2026-03-29"
     ],
-    "unpaid_periods": [
-      {
-        "period": "30/03/2026 إلى 29/04/2026",
-        "amount": 50.0
-      }
-    ],
+    "unpaid_periods": [],
     "notes": ""
   },
   {
@@ -944,8 +956,8 @@
     "guardian_full_name": "أماني قدودة",
     "phone_number": "22959665",
     "payment_generation_status": "active",
-    "payment_count": 8,
-    "unpaid_total": 140.0,
+    "payment_count": 9,
+    "unpaid_total": 210.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -954,6 +966,10 @@
       },
       {
         "period": "22/03/2026 إلى 21/04/2026",
+        "amount": 70.0
+      },
+      {
+        "period": "22/04/2026 إلى 21/05/2026",
         "amount": 70.0
       }
     ],
@@ -2100,7 +2116,7 @@
     "guardian_full_name": "محمد العكرمي صالحي",
     "phone_number": "28889953",
     "payment_generation_status": "active",
-    "payment_count": 8,
+    "payment_count": 9,
     "unpaid_total": 0.0,
     "absence_count": [
       "2025-11-23"
@@ -2118,8 +2134,8 @@
     "guardian_full_name": "توفيق صالحي",
     "phone_number": "96627623",
     "payment_generation_status": "active",
-    "payment_count": 8,
-    "unpaid_total": 400.0,
+    "payment_count": 9,
+    "unpaid_total": 450.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -2152,6 +2168,10 @@
       },
       {
         "period": "22/03/2026 إلى 21/04/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "22/04/2026 إلى 21/05/2026",
         "amount": 50.0
       }
     ],
@@ -2340,8 +2360,8 @@
     "guardian_full_name": "عبد الحفيظ ضيفي",
     "phone_number": "22195709",
     "payment_generation_status": "active",
-    "payment_count": 6,
-    "unpaid_total": 300.0,
+    "payment_count": 7,
+    "unpaid_total": 350.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -2366,6 +2386,10 @@
       },
       {
         "period": "20/03/2026 إلى 19/04/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "20/04/2026 إلى 19/05/2026",
         "amount": 50.0
       }
     ],
@@ -2697,8 +2721,8 @@
     "guardian_full_name": "وليد عبيدي",
     "phone_number": "24183163",
     "payment_generation_status": "active",
-    "payment_count": 7,
-    "unpaid_total": 100.0,
+    "payment_count": 8,
+    "unpaid_total": 150.0,
     "absence_count": [],
     "unpaid_periods": [
       {
@@ -2707,6 +2731,10 @@
       },
       {
         "period": "22/03/2026 إلى 21/04/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "22/04/2026 إلى 21/05/2026",
         "amount": 50.0
       }
     ],
@@ -3278,13 +3306,9 @@
     "phone_number": "94102027",
     "payment_generation_status": "active",
     "payment_count": 5,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "16/03/2026 إلى 15/04/2026",
-        "amount": 50.0
-      },
       {
         "period": "16/04/2026 إلى 15/05/2026",
         "amount": 50.0
@@ -3341,12 +3365,8 @@
     "absence_count": [],
     "unpaid_periods": [
       {
-        "period": "18/03/2026 إلى 17/04/2026",
-        "amount": 50.0
-      },
-      {
         "period": "18/04/2026 إلى 17/05/2026",
-        "amount": 50.0
+        "amount": 100.0
       }
     ],
     "notes": ""
@@ -3362,13 +3382,9 @@
     "phone_number": "94102027",
     "payment_generation_status": "active",
     "payment_count": 5,
-    "unpaid_total": 100.0,
+    "unpaid_total": 50.0,
     "absence_count": [],
     "unpaid_periods": [
-      {
-        "period": "16/03/2026 إلى 15/04/2026",
-        "amount": 50.0
-      },
       {
         "period": "16/04/2026 إلى 15/05/2026",
         "amount": 50.0
@@ -3448,8 +3464,8 @@
     "guardian_full_name": "مهدي قادري",
     "phone_number": "97184130",
     "payment_generation_status": "active",
-    "payment_count": 3,
-    "unpaid_total": 200.0,
+    "payment_count": 4,
+    "unpaid_total": 300.0,
     "absence_count": [
       "2026-02-15",
       "2026-03-28"
@@ -3461,6 +3477,10 @@
       },
       {
         "period": "22/03/2026 إلى 21/04/2026",
+        "amount": 100.0
+      },
+      {
+        "period": "22/04/2026 إلى 21/05/2026",
         "amount": 100.0
       }
     ],
@@ -3511,12 +3531,16 @@
     "guardian_full_name": "قيس قادري",
     "phone_number": "99540573",
     "payment_generation_status": "active",
-    "payment_count": 5,
-    "unpaid_total": 30.0,
+    "payment_count": 6,
+    "unpaid_total": 60.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "22/03/2026 إلى 21/04/2026",
+        "amount": 30.0
+      },
+      {
+        "period": "22/04/2026 إلى 21/05/2026",
         "amount": 30.0
       }
     ],
@@ -4255,12 +4279,16 @@
     "guardian_full_name": "صافيا مسعودي",
     "phone_number": "97219574",
     "payment_generation_status": "active",
-    "payment_count": 7,
-    "unpaid_total": 50.0,
+    "payment_count": 8,
+    "unpaid_total": 100.0,
     "absence_count": [],
     "unpaid_periods": [
       {
         "period": "22/03/2026 إلى 21/04/2026",
+        "amount": 50.0
+      },
+      {
+        "period": "22/04/2026 إلى 21/05/2026",
         "amount": 50.0
       }
     ],
