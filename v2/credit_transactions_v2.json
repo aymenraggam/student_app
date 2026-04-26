@@ -691,5 +691,14 @@
     "amount": 0.0,
     "notes": "خلاص دفعة (عادية) للتلميذ: محمد أمين صالحي",
     "payment_id": 1554
+  },
+  {
+    "guardian_name": "سندس",
+    "guardian_surname": "كحلي",
+    "phone_number": "24755223",
+    "transaction_date": "2026-04-24 18:41:26",
+    "amount": 0.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: أحمد كحلي",
+    "payment_id": 1588
   }
 ]
