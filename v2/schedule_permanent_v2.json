@@ -129,19 +129,6 @@
     "is_makeup": false
   },
   {
-    "id": 85,
-    "day_of_week": "الأحد",
-    "time_slot": "21:00 - 23:00",
-    "educational_level": "2 ث علوم",
-    "class_type": "private",
-    "student_ids": [
-      132,
-      154,
-      171
-    ],
-    "is_makeup": false
-  },
-  {
     "id": 94,
     "day_of_week": "الأربعاء",
     "time_slot": "17:00 - 19:00",

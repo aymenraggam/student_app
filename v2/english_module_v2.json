@@ -238,7 +238,7 @@
         "student_id": 18,
         "payment_date": "2025-10-14",
         "amount": 15.0,
-        "status": "غير خالص",
+        "status": "خالص",
         "attendance_trigger_count": 4
       },
       {

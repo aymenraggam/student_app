@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 14355.0,
+    "total_overdue_unpaid_amount": 13625.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -9,21 +9,9 @@
         "amount": 50.0
       },
       {
-        "student_id": 18,
-        "student_name": "شفاء نصيري",
-        "period": "01/08/2025 إلى 31/08/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 9,
         "student_name": "أمل صالحي",
         "period": "29/07/2025 إلى 28/08/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 82,
-        "student_name": "يحي جلالي",
-        "period": "17/08/2025 إلى 16/09/2025",
         "amount": 50.0
       },
       {
@@ -45,21 +33,9 @@
         "amount": 50.0
       },
       {
-        "student_id": 18,
-        "student_name": "شفاء نصيري",
-        "period": "23/09/2025 إلى 22/10/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 9,
         "student_name": "أمل صالحي",
         "period": "23/09/2025 إلى 22/10/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 114,
-        "student_name": "سيرين نصيري",
-        "period": "25/09/2025 إلى 24/10/2025",
         "amount": 50.0
       },
       {
@@ -93,22 +69,10 @@
         "amount": 50.0
       },
       {
-        "student_id": 18,
-        "student_name": "شفاء نصيري",
-        "period": "01/10/2025 إلى 31/10/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 105,
         "student_name": "يونس جلالي",
         "period": "23/10/2025 إلى 22/11/2025",
         "amount": 0.0
-      },
-      {
-        "student_id": 114,
-        "student_name": "سيرين نصيري",
-        "period": "25/10/2025 إلى 24/11/2025",
-        "amount": 50.0
       },
       {
         "student_id": 30,
@@ -125,12 +89,6 @@
       {
         "student_id": 156,
         "student_name": "قصي جلالي",
-        "period": "07/11/2025 إلى 06/12/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 82,
-        "student_name": "يحي جلالي",
         "period": "07/11/2025 إلى 06/12/2025",
         "amount": 50.0
       },
@@ -171,12 +129,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 18,
-        "student_name": "شفاء نصيري",
-        "period": "23/11/2025 إلى 22/12/2025",
-        "amount": 50.0
-      },
-      {
         "student_id": 44,
         "student_name": "أمان زارعي",
         "period": "23/11/2025 إلى 22/12/2025",
@@ -199,12 +151,6 @@
         "student_name": "ريتاج جلالي",
         "period": "25/11/2025 إلى 24/12/2025",
         "amount": 30.0
-      },
-      {
-        "student_id": 114,
-        "student_name": "سيرين نصيري",
-        "period": "25/11/2025 إلى 24/12/2025",
-        "amount": 50.0
       },
       {
         "student_id": 115,
@@ -303,12 +249,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 18,
-        "student_name": "شفاء نصيري",
-        "period": "23/12/2025 إلى 22/01/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 44,
         "student_name": "أمان زارعي",
         "period": "23/12/2025 إلى 22/01/2026",
@@ -337,12 +277,6 @@
         "student_name": "ريتاج جلالي",
         "period": "25/12/2025 إلى 24/01/2026",
         "amount": 30.0
-      },
-      {
-        "student_id": 114,
-        "student_name": "سيرين نصيري",
-        "period": "25/12/2025 إلى 24/01/2026",
-        "amount": 50.0
       },
       {
         "student_id": 115,
@@ -405,24 +339,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 133,
-        "student_name": "ريان عامري",
-        "period": "11/12/2025 إلى 10/01/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 134,
-        "student_name": "محمد عزيز عامري",
-        "period": "24/11/2025 إلى 23/12/2025",
-        "amount": 50.0
-      },
-      {
-        "student_id": 134,
-        "student_name": "محمد عزيز عامري",
-        "period": "24/12/2025 إلى 23/01/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 96,
         "student_name": "حسّان كداشي",
         "period": "06/01/2026 إلى 05/02/2026",
@@ -463,18 +379,6 @@
         "student_name": "رسلان صالحي",
         "period": "10/01/2026 إلى 09/02/2026",
         "amount": 40.0
-      },
-      {
-        "student_id": 133,
-        "student_name": "ريان عامري",
-        "period": "11/01/2026 إلى 10/02/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 154,
-        "student_name": "آدم أم هاني",
-        "period": "18/01/2026 إلى 17/02/2026",
-        "amount": 50.0
       },
       {
         "student_id": 98,
@@ -537,12 +441,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 18,
-        "student_name": "شفاء نصيري",
-        "period": "23/01/2026 إلى 22/02/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 44,
         "student_name": "أمان زارعي",
         "period": "23/01/2026 إلى 22/02/2026",
@@ -573,12 +471,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 134,
-        "student_name": "محمد عزيز عامري",
-        "period": "24/01/2026 إلى 23/02/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 28,
         "student_name": "مريم جلالي",
         "period": "25/01/2026 إلى 24/02/2026",
@@ -589,18 +481,6 @@
         "student_name": "ريتاج جلالي",
         "period": "25/01/2026 إلى 24/02/2026",
         "amount": 30.0
-      },
-      {
-        "student_id": 114,
-        "student_name": "سيرين نصيري",
-        "period": "25/01/2026 إلى 24/02/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 171,
-        "student_name": "مهاب صمودي",
-        "period": "25/01/2026 إلى 24/02/2026",
-        "amount": 50.0
       },
       {
         "student_id": 115,
@@ -867,12 +747,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 18,
-        "student_name": "شفاء نصيري",
-        "period": "23/02/2026 إلى 22/03/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 44,
         "student_name": "أمان زارعي",
         "period": "23/02/2026 إلى 22/03/2026",
@@ -913,24 +787,6 @@
         "student_name": "ريتاج جلالي",
         "period": "25/02/2026 إلى 24/03/2026",
         "amount": 30.0
-      },
-      {
-        "student_id": 114,
-        "student_name": "سيرين نصيري",
-        "period": "25/02/2026 إلى 24/03/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 134,
-        "student_name": "محمد عزيز عامري",
-        "period": "24/02/2026 إلى 23/03/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 171,
-        "student_name": "مهاب صمودي",
-        "period": "25/02/2026 إلى 24/03/2026",
-        "amount": 50.0
       },
       {
         "student_id": 74,
@@ -1063,12 +919,6 @@
         "student_name": "تقوى شرف الدين",
         "period": "03/03/2026 إلى 02/04/2026",
         "amount": 50.0
-      },
-      {
-        "student_id": 31,
-        "student_name": "سيف زريبي",
-        "period": "03/03/2026 إلى 02/04/2026",
-        "amount": 40.0
       },
       {
         "student_id": 94,
@@ -1257,12 +1107,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 18,
-        "student_name": "شفاء نصيري",
-        "period": "23/03/2026 إلى 22/04/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 27,
         "student_name": "ألاء زارعي",
         "period": "19/03/2026 إلى 18/04/2026",
@@ -1365,18 +1209,6 @@
         "amount": 30.0
       },
       {
-        "student_id": 114,
-        "student_name": "سيرين نصيري",
-        "period": "25/03/2026 إلى 24/04/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 134,
-        "student_name": "محمد عزيز عامري",
-        "period": "24/03/2026 إلى 23/04/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 167,
         "student_name": "أيهم خليفي",
         "period": "19/03/2026 إلى 18/04/2026",
@@ -1398,12 +1230,6 @@
         "student_id": 170,
         "student_name": "اروى عماري",
         "period": "24/03/2026 إلى 23/04/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 171,
-        "student_name": "مهاب صمودي",
-        "period": "25/03/2026 إلى 24/04/2026",
         "amount": 50.0
       },
       {
@@ -1541,24 +1367,6 @@
       {
         "student_id": 124,
         "student_name": "فاطمة صدقي",
-        "period": "16/12/2025 إلى 15/01/2026",
-        "amount": 40.0
-      },
-      {
-        "student_id": 124,
-        "student_name": "فاطمة صدقي",
-        "period": "16/01/2026 إلى 15/02/2026",
-        "amount": 40.0
-      },
-      {
-        "student_id": 124,
-        "student_name": "فاطمة صدقي",
-        "period": "16/02/2026 إلى 15/03/2026",
-        "amount": 40.0
-      },
-      {
-        "student_id": 124,
-        "student_name": "فاطمة صدقي",
         "period": "16/03/2026 إلى 15/04/2026",
         "amount": 40.0
       },
@@ -1683,12 +1491,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 31,
-        "student_name": "سيف زريبي",
-        "period": "03/04/2026 إلى 02/05/2026",
-        "amount": 40.0
-      },
-      {
         "student_id": 94,
         "student_name": "نغم جلالي",
         "period": "03/04/2026 إلى 02/05/2026",
@@ -1721,18 +1523,6 @@
       {
         "student_id": 154,
         "student_name": "آدم أم هاني",
-        "period": "03/04/2026 إلى 02/05/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 133,
-        "student_name": "ريان عامري",
-        "period": "11/02/2026 إلى 10/03/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 133,
-        "student_name": "ريان عامري",
         "period": "03/04/2026 إلى 02/05/2026",
         "amount": 50.0
       },
@@ -1791,15 +1581,45 @@
         "amount": 100.0
       },
       {
-        "student_id": 232,
-        "student_name": "وليف كدوسي",
-        "period": "07/04/2026 إلى 06/05/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 56,
         "student_name": "إلياس أم هاني",
         "period": "08/04/2026 إلى 07/05/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 60,
+        "student_name": "جابر جلالي",
+        "period": "09/04/2026 إلى 08/05/2026",
+        "amount": 40.0
+      },
+      {
+        "student_id": 61,
+        "student_name": "آية أم هاني",
+        "period": "09/04/2026 إلى 08/05/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 65,
+        "student_name": "حمدي كداشي",
+        "period": "09/04/2026 إلى 08/05/2026",
+        "amount": 40.0
+      },
+      {
+        "student_id": 58,
+        "student_name": "مريم قادري",
+        "period": "10/04/2026 إلى 09/05/2026",
+        "amount": 40.0
+      },
+      {
+        "student_id": 159,
+        "student_name": "يسر قادري",
+        "period": "10/04/2026 إلى 09/05/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 207,
+        "student_name": "لجين فالحي",
+        "period": "10/04/2026 إلى 09/05/2026",
         "amount": 50.0
       },
       {
@@ -1809,15 +1629,105 @@
         "amount": 50.0
       },
       {
+        "student_id": 71,
+        "student_name": "سلمى قادري",
+        "period": "12/04/2026 إلى 11/05/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 233,
+        "student_name": "فاطمة جلالي",
+        "period": "12/04/2026 إلى 11/05/2026",
+        "amount": 30.0
+      },
+      {
+        "student_id": 72,
+        "student_name": "مرام خليفي",
+        "period": "13/04/2026 إلى 12/05/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 77,
+        "student_name": "يوسف سماري",
+        "period": "14/04/2026 إلى 13/05/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 158,
+        "student_name": "احــمــد زريبي",
+        "period": "14/04/2026 إلى 13/05/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 223,
+        "student_name": "بيرم عكروت",
+        "period": "13/04/2026 إلى 12/05/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 54,
+        "student_name": "ملاك عيوني",
+        "period": "16/04/2026 إلى 15/05/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 97,
+        "student_name": "عمر كداشي",
+        "period": "16/04/2026 إلى 15/05/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 117,
+        "student_name": "عزيز فالحي",
+        "period": "16/04/2026 إلى 15/05/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 118,
+        "student_name": "آية فالحي",
+        "period": "16/04/2026 إلى 15/05/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 124,
+        "student_name": "فاطمة صدقي",
+        "period": "16/04/2026 إلى 15/05/2026",
+        "amount": 40.0
+      },
+      {
+        "student_id": 162,
+        "student_name": "تقى كدوسي",
+        "period": "15/04/2026 إلى 14/05/2026",
+        "amount": 30.0
+      },
+      {
+        "student_id": 195,
+        "student_name": "أحمد رحماني",
+        "period": "16/04/2026 إلى 15/05/2026",
+        "amount": 50.0
+      },
+      {
+        "student_id": 224,
+        "student_name": "ريان جلالي",
+        "period": "16/04/2026 إلى 15/05/2026",
+        "amount": 100.0
+      },
+      {
+        "student_id": 39,
+        "student_name": "نور عكروت",
+        "period": "10/04/2026 إلى 09/05/2026",
+        "amount": 50.0
+      },
+      {
         "student_id": 209,
         "student_name": "رباب هاني",
         "period": "07/04/2026 إلى 06/05/2026",
         "amount": 50.0
       }
     ],
-    "total_active_students": 145,
+    "total_active_students": 140,
     "students_per_level": {
-      "2 ث علوم": 7,
+      "2 ث علوم": 2,
       "9 أساسي": 10,
       "5 ابتدائي": 10,
       "8 أساسي": 24,

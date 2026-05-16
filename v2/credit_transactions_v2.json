@@ -880,5 +880,194 @@
     "amount": -30.0,
     "notes": "خلاص دفعة (عادية) للتلميذ: عائشة جلالي",
     "payment_id": 618
+  },
+  {
+    "guardian_name": "حياة",
+    "guardian_surname": "جلالي",
+    "phone_number": "99810230",
+    "transaction_date": "2026-05-16 18:53:46",
+    "amount": 180.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "حياة",
+    "guardian_surname": "جلالي",
+    "phone_number": "99810230",
+    "transaction_date": "2026-05-16 18:53:48",
+    "amount": -100.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: أمان الله جلالي",
+    "payment_id": 1596
+  },
+  {
+    "guardian_name": "حياة",
+    "guardian_surname": "جلالي",
+    "phone_number": "99810230",
+    "transaction_date": "2026-05-16 18:54:03",
+    "amount": 45.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "رفيقة",
+    "guardian_surname": "قادري",
+    "phone_number": "46282024",
+    "transaction_date": "2026-05-16 19:40:29",
+    "amount": 850.0,
+    "notes": "إيداع تسبقة",
+    "payment_id": null
+  },
+  {
+    "guardian_name": "رفيقة",
+    "guardian_surname": "قادري",
+    "phone_number": "46282024",
+    "transaction_date": "2026-05-16 19:40:31",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: شفاء نصيري",
+    "payment_id": 23
+  },
+  {
+    "guardian_name": "رفيقة",
+    "guardian_surname": "قادري",
+    "phone_number": "46282024",
+    "transaction_date": "2026-05-16 19:40:31",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: شفاء نصيري",
+    "payment_id": 357
+  },
+  {
+    "guardian_name": "رفيقة",
+    "guardian_surname": "قادري",
+    "phone_number": "46282024",
+    "transaction_date": "2026-05-16 19:40:31",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: سيرين نصيري",
+    "payment_id": 378
+  },
+  {
+    "guardian_name": "رفيقة",
+    "guardian_surname": "قادري",
+    "phone_number": "46282024",
+    "transaction_date": "2026-05-16 19:40:31",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: شفاء نصيري",
+    "payment_id": 514
+  },
+  {
+    "guardian_name": "رفيقة",
+    "guardian_surname": "قادري",
+    "phone_number": "46282024",
+    "transaction_date": "2026-05-16 19:40:31",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: سيرين نصيري",
+    "payment_id": 542
+  },
+  {
+    "guardian_name": "رفيقة",
+    "guardian_surname": "قادري",
+    "phone_number": "46282024",
+    "transaction_date": "2026-05-16 19:40:31",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: شفاء نصيري",
+    "payment_id": 708
+  },
+  {
+    "guardian_name": "رفيقة",
+    "guardian_surname": "قادري",
+    "phone_number": "46282024",
+    "transaction_date": "2026-05-16 19:40:31",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: سيرين نصيري",
+    "payment_id": 741
+  },
+  {
+    "guardian_name": "رفيقة",
+    "guardian_surname": "قادري",
+    "phone_number": "46282024",
+    "transaction_date": "2026-05-16 19:40:31",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: شفاء نصيري",
+    "payment_id": 893
+  },
+  {
+    "guardian_name": "رفيقة",
+    "guardian_surname": "قادري",
+    "phone_number": "46282024",
+    "transaction_date": "2026-05-16 19:40:31",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: سيرين نصيري",
+    "payment_id": 934
+  },
+  {
+    "guardian_name": "رفيقة",
+    "guardian_surname": "قادري",
+    "phone_number": "46282024",
+    "transaction_date": "2026-05-16 19:40:31",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: شفاء نصيري",
+    "payment_id": 1089
+  },
+  {
+    "guardian_name": "رفيقة",
+    "guardian_surname": "قادري",
+    "phone_number": "46282024",
+    "transaction_date": "2026-05-16 19:40:31",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: سيرين نصيري",
+    "payment_id": 1123
+  },
+  {
+    "guardian_name": "رفيقة",
+    "guardian_surname": "قادري",
+    "phone_number": "46282024",
+    "transaction_date": "2026-05-16 19:40:31",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: شفاء نصيري",
+    "payment_id": 1253
+  },
+  {
+    "guardian_name": "رفيقة",
+    "guardian_surname": "قادري",
+    "phone_number": "46282024",
+    "transaction_date": "2026-05-16 19:40:31",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: سيرين نصيري",
+    "payment_id": 1277
+  },
+  {
+    "guardian_name": "رفيقة",
+    "guardian_surname": "قادري",
+    "phone_number": "46282024",
+    "transaction_date": "2026-05-16 19:40:31",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: شفاء نصيري",
+    "payment_id": 1381
+  },
+  {
+    "guardian_name": "رفيقة",
+    "guardian_surname": "قادري",
+    "phone_number": "46282024",
+    "transaction_date": "2026-05-16 19:40:31",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: سيرين نصيري",
+    "payment_id": 1414
+  },
+  {
+    "guardian_name": "رفيقة",
+    "guardian_surname": "قادري",
+    "phone_number": "46282024",
+    "transaction_date": "2026-05-16 19:40:31",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: شفاء نصيري",
+    "payment_id": 1573
+  },
+  {
+    "guardian_name": "رفيقة",
+    "guardian_surname": "قادري",
+    "phone_number": "46282024",
+    "transaction_date": "2026-05-16 19:41:21",
+    "amount": -50.0,
+    "notes": "خلاص دفعة (عادية) للتلميذ: سيرين نصيري",
+    "payment_id": 1599
   }
 ]
