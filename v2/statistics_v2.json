@@ -1,6 +1,6 @@
 [
   {
-    "total_overdue_unpaid_amount": 13625.0,
+    "total_overdue_unpaid_amount": 13225.0,
     "overdue_details": [
       {
         "student_id": 14,
@@ -387,12 +387,6 @@
         "amount": 100.0
       },
       {
-        "student_id": 191,
-        "student_name": "محمد أمين عبدلي",
-        "period": "19/01/2026 إلى 18/02/2026",
-        "amount": 30.0
-      },
-      {
         "student_id": 27,
         "student_name": "ألاء زارعي",
         "period": "19/01/2026 إلى 18/02/2026",
@@ -409,12 +403,6 @@
         "student_name": "معتصم صالحي",
         "period": "22/01/2026 إلى 21/02/2026",
         "amount": 50.0
-      },
-      {
-        "student_id": 169,
-        "student_name": "شروق بوكدوس",
-        "period": "22/01/2026 إلى 21/02/2026",
-        "amount": 30.0
       },
       {
         "student_id": 6,
@@ -653,12 +641,6 @@
       {
         "student_id": 154,
         "student_name": "آدم أم هاني",
-        "period": "18/02/2026 إلى 17/03/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 175,
-        "student_name": "أنس ضيفي",
         "period": "18/02/2026 إلى 17/03/2026",
         "amount": 50.0
       },
@@ -1047,12 +1029,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 210,
-        "student_name": "أنس كدوسي",
-        "period": "17/03/2026 إلى 16/04/2026",
-        "amount": 50.0
-      },
-      {
         "student_id": 224,
         "student_name": "ريان جلالي",
         "period": "16/03/2026 إلى 15/04/2026",
@@ -1221,28 +1197,10 @@
         "amount": 30.0
       },
       {
-        "student_id": 169,
-        "student_name": "شروق بوكدوس",
-        "period": "22/03/2026 إلى 21/04/2026",
-        "amount": 30.0
-      },
-      {
         "student_id": 170,
         "student_name": "اروى عماري",
         "period": "24/03/2026 إلى 23/04/2026",
         "amount": 50.0
-      },
-      {
-        "student_id": 175,
-        "student_name": "أنس ضيفي",
-        "period": "18/03/2026 إلى 17/04/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 191,
-        "student_name": "محمد أمين عبدلي",
-        "period": "19/03/2026 إلى 18/04/2026",
-        "amount": 30.0
       },
       {
         "student_id": 196,
@@ -1362,12 +1320,6 @@
         "student_id": 137,
         "student_name": "ليث بلقاسم",
         "period": "27/03/2026 إلى 26/04/2026",
-        "amount": 40.0
-      },
-      {
-        "student_id": 124,
-        "student_name": "فاطمة صدقي",
-        "period": "16/03/2026 إلى 15/04/2026",
         "amount": 40.0
       },
       {
@@ -1677,24 +1629,6 @@
         "amount": 50.0
       },
       {
-        "student_id": 117,
-        "student_name": "عزيز فالحي",
-        "period": "16/04/2026 إلى 15/05/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 118,
-        "student_name": "آية فالحي",
-        "period": "16/04/2026 إلى 15/05/2026",
-        "amount": 50.0
-      },
-      {
-        "student_id": 124,
-        "student_name": "فاطمة صدقي",
-        "period": "16/04/2026 إلى 15/05/2026",
-        "amount": 40.0
-      },
-      {
         "student_id": 162,
         "student_name": "تقى كدوسي",
         "period": "15/04/2026 إلى 14/05/2026",
@@ -1711,6 +1645,12 @@
         "student_name": "ريان جلالي",
         "period": "16/04/2026 إلى 15/05/2026",
         "amount": 100.0
+      },
+      {
+        "student_id": 81,
+        "student_name": "مرام قادري",
+        "period": "17/04/2026 إلى 16/05/2026",
+        "amount": 50.0
       },
       {
         "student_id": 39,
